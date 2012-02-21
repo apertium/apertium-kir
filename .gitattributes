@@ -1,3 +1,8 @@
 * text=auto !eol
+/AUTHORS -text
+/COPYING -text
+/ChangeLog -text
+/NEWS -text
+/README -text
 /apertium-kir.lexc -text
 /apertium-kir.twol -text

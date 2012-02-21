@@ -1,0 +1,45 @@
+==Installation==
+
+You will first need to install:
+
+* lttoolbox
+* Apertium
+* HFST
+* VISLCG3
+
+Then just run:
+
+$ ./autogen.sh 
+
+or 
+
+$ ./autogen.sh --prefix=/path/to/your/prefix
+
+and 
+
+$ make
+
+You should be able to test the translator with:
+
+$ echo "Ahmet okula gitti." | apertium -d . tr-ky
+Ахмет мектепке кетти.
+
+==Development==
+
+You will need:
+
+ http://wiki.apertium.org/wiki/Trmorph
+
+If you make updates to the bilingual dictionary, you will need to run
+the update script "update-trmorph.py" and recompile the local copy of
+TRmorph in the directory: morph-tr.
+
+The Constraint Grammar of Turkish, file apertium-tr-ky.tr-ky.rlx
+should be kept up to date with the version in the apertium-tr-az 
+language pair. That means that if you make any changes here, you should
+also make them there. And if there are any change made there, they
+should also be made here.
+
+==Further reading==
+
+* http://wiki.apertium.org/wiki/Turkish_and_Kyrgyz
