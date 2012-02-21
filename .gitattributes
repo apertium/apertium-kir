@@ -1,1 +1,3 @@
 * text=auto !eol
+/apertium-tr-ky.ky.lexc -text
+/apertium-tr-ky.ky.twol -text
