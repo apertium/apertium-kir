@@ -4,15 +4,12 @@
 
 VERSION=0.2.0
 LANG=kir
-#PREFIX1=$(LANG1)-$(LANG2)
-#PREFIX2=$(LANG2)-$(LANG1)
 
 BASENAME=apertium-$(LANG)
 
-#SUBDIRS = morph-tr .
 SUBDIRS = .
 
-TARGETS_COMMON = $(LANG).autogen.hfst
+TARGETS_COMMON = $(LANG).autogen.hfst $(LANG).automorf.hfst
 
 ###############################################################################
 ## Kyrgyz transducer
@@ -71,5 +68,11 @@ $(LANG).automorf.hfst: .deps/$(LANG).automorf.hfst
 
 .deps/$(LANG).autogen.hfst-debug: .deps/kir.lexc.gen.hfst-debug .deps/kir.twol.hfst
 	hfst-compose-intersect -1 .deps/kir.lexc.gen.hfst-debug -2 .deps/kir.twol.hfst -o $@
+
+EXTRA_DIST=$(BASENAME).lexc $(BASENAME).twol
+
+apertium_kir_DATA=$(LANG).automorf.hfst $(LANG).autogen.hfst
+apertium_kirdir=$(prefix)/share/apertium/$(BASENAME)/
+
 
 CLEANFILES = -r $(TARGETS_COMMON) .deps/
