@@ -1,78 +1,76 @@
 ###############################################################################
-## Makefile for Kyrgyz
+## Makefile for apertium-kir
 ###############################################################################
 
-VERSION=0.2.0
-LANG=kir
+RELEASE=1.0
+VERSION=1.0.0
+LANG1=kir
+BASENAME=apertium-$(LANG1)
 
-BASENAME=apertium-$(LANG)
-
-SUBDIRS = .
-
-TARGETS_COMMON = $(LANG).autogen.hfst $(LANG).automorf.hfst
+TARGETS_COMMON = $(LANG1).automorf.hfst $(LANG1).autogen.hfst \
+        $(LANG1).rlx.bin
 
 ###############################################################################
 ## Kyrgyz transducer
 ###############################################################################
 
-.deps/kir.lexc.morf.hfst-debug: apertium-$(LANG).lexc
+.deps/$(LANG1).twol.hfst: $(BASENAME).$(LANG1).twol
 	if [ ! -d .deps ]; then mkdir .deps; fi
-	cat $< | grep -v -e 'Dir/RL' -e 'Use/Circ' > $@tmp
-	hfst-lexc -f foma $@tmp -o $@.foma
-	hfst-fst2fst -i $@.foma -f openfst-tropical -o $@
-#	rm $@tmp $@.foma
-
-.deps/kir.lexc.gen.hfst-debug: apertium-$(LANG).lexc
+	hfst-twolc $< -o $@
+ 
+.deps/$(LANG1).RL.lexc: $(BASENAME).$(LANG1).lexc
 	if [ ! -d .deps ]; then mkdir .deps; fi
-	cat $< | grep -v -e 'Dir/LR' -e 'Use/Circ' > $@tmp
-	hfst-lexc -f foma $@tmp -o $@.foma
-	hfst-fst2fst -i $@.foma -f openfst-tropical -o $@
-#	rm $@tmp $@.foma
-
-.deps/kir.lexc.morf.hfst: $(BASENAME).lexc
+	cat $< | grep -v 'Dir/LR' > $@
+ 
+.deps/$(LANG1).LR.lexc: $(BASENAME).$(LANG1).lexc
 	if [ ! -d .deps ]; then mkdir .deps; fi
-	cat $< | grep -v 'Dir/RL' > $@tmp
-	hfst-lexc -f foma $@tmp -o $@.foma
-	hfst-fst2fst -i $@.foma -f openfst-tropical -o $@
-#	rm $@tmp $@.foma
+	cat $< | grep -v 'Dir/RL' > $@
 
-.deps/kir.lexc.gen.hfst: $(BASENAME).lexc
-	if [ ! -d .deps ]; then mkdir .deps; fi
-	cat $< | grep -v 'Dir/LR' > $@tmp
-	hfst-lexc -f foma $@tmp -o $@.foma
-	hfst-fst2fst -i $@.foma -f openfst-tropical -o $@
-#	rm $@tmp $@.foma
+.deps/$(LANG1).RL.lexc.hfst: .deps/$(LANG1).RL.lexc
+	hfst-lexc --format foma $< -o $@
 
-.deps/kir.twol.hfst: $(BASENAME).twol
-	hfst-twolc -R -i $(BASENAME).twol -o $@
+.deps/$(LANG1).LR.lexc.hfst: .deps/$(LANG1).LR.lexc
+	hfst-lexc --format foma $< -o $@
 
-# kir generator:
-.deps/$(LANG).autogen.hfst: .deps/kir.lexc.gen.hfst .deps/kir.twol.hfst
-	hfst-compose-intersect -1 .deps/kir.lexc.gen.hfst -2 .deps/kir.twol.hfst -o $@
+.deps/$(LANG1).RL.hfst: .deps/$(LANG1).RL.lexc.hfst .deps/$(LANG1).twol.hfst
+	hfst-compose-intersect -1 .deps/$(LANG1).RL.lexc.hfst -2 .deps/$(LANG1).twol.hfst -o $@
 
-$(LANG).autogen.hfst: .deps/$(LANG).autogen.hfst
-	hfst-fst2fst -w -i $< -o $@
+.deps/$(LANG1).LR.hfst: .deps/$(LANG1).LR.lexc.hfst .deps/$(LANG1).twol.hfst
+	hfst-compose-intersect -1 .deps/$(LANG1).LR.lexc.hfst -2 .deps/$(LANG1).twol.hfst -o $@
 
-# kir analyser:
-.deps/$(LANG).automorf.hfst: .deps/kir.lexc.morf.hfst .deps/kir.twol.hfst
-	hfst-compose-intersect -1 .deps/kir.lexc.morf.hfst -2 .deps/kir.twol.hfst -o $@tmp
-	hfst-invert -i $@tmp -o $@
-	rm $@tmp
+$(LANG1).autogen.hfst: .deps/$(LANG1).RL.hfst
+	hfst-fst2fst -O $< -o $@
 
-$(LANG).automorf.hfst: .deps/$(LANG).automorf.hfst
-	hfst-fst2fst -w -i $< -o $@
+$(LANG1).automorf.hfst: .deps/$(LANG1).LR.hfst
+	hfst-invert $< | hfst-fst2fst -O -o $@
 
-# debug stuff:
-.deps/$(LANG).automorf.hfst-debug: .deps/kir.lexc.morf.hfst-debug .deps/kir.twol.hfst
-	hfst-compose-intersect -1 .deps/kir.lexc.morf.hfst-debug -2 .deps/kir.twol.hfst | hfst-invert -o $@
+###############################################################################
+## Disambiguation rules 
+###############################################################################
 
-.deps/$(LANG).autogen.hfst-debug: .deps/kir.lexc.gen.hfst-debug .deps/kir.twol.hfst
-	hfst-compose-intersect -1 .deps/kir.lexc.gen.hfst-debug -2 .deps/kir.twol.hfst -o $@
+$(LANG1).rlx.bin: $(BASENAME).$(LANG1).rlx
+	cg-comp $< $@
 
-EXTRA_DIST=$(BASENAME).lexc $(BASENAME).twol
+###############################################################################
+## Installation stuff
+###############################################################################
+#
+#   apertium_kir_libdir: This is where the compiled binaries go
+#   apertium_kir_srcdir: This is where the source files go
 
-apertium_kir_DATA=$(LANG).automorf.hfst $(LANG).autogen.hfst
-apertium_kirdir=$(prefix)/share/apertium/$(BASENAME)/
+apertium_kirdir=$(prefix)/lib/apertium/$(BASENAME)/
+apertium_kir_srcdir=$(prefix)/share/apertium/$(BASENAME)/
 
+apertium_kir_DATA=$(LANG1).automorf.hfst $(LANG1).autogen.hfst \
+		    $(LANG1).rlx.bin
+
+pkgconfigdir = $(libdir)/pkgconfig
+pkgconfig_DATA = $(BASENAME)-$(RELEASE).pc
+
+install-data-local:
+	if [ ! -d $(DESTDIR)$(apertium_kir_srcdir) ]; then mkdir -p $(DESTDIR)$(apertium_kir_srcdir); fi
+	$(INSTALL_DATA) $(BASENAME).$(LANG1).lexc $(DESTDIR)$(apertium_kir_srcdir)
+	$(INSTALL_DATA) $(BASENAME).$(LANG1).twol $(DESTDIR)$(apertium_kir_srcdir)
+	$(INSTALL_DATA) $(BASENAME).$(LANG1).rlx $(DESTDIR)$(apertium_kir_srcdir)
 
 CLEANFILES = -r $(TARGETS_COMMON) .deps/

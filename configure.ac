@@ -1,7 +1,7 @@
 AC_PREREQ(2.52)
 
-AC_INIT([apertium-tr-az], [0.1.0], [mipasov@gmail.com])
-AM_INIT_AUTOMAKE([apertium-tr-az], [0.1.0], no-define)
+AC_INIT([apertium-kir], [1.0.0], [francis.tyers@gmail.com])
+AM_INIT_AUTOMAKE([apertium-kir], [1.0.0], no-define)
 AC_PROG_LN_S
 AC_PROG_AWK
 
@@ -51,14 +51,24 @@ PKG_CHECK_APERTIUM
 #                          
 #PKG_CHECK_HFST
 
-AC_PATH_PROG(HFSTCALC, hfst-lexc, no)
-if test x$ac_cv_path_HFSTCALC = x
+AC_PATH_PROG(HFSTLEXC, hfst-lexc, no)
+if test x$ac_cv_path_HFSTLEXC = x
 then
-  AC_MSG_ERROR([You don't have hfst-calculate installed.])
+  AC_MSG_ERROR([You don't have hfst-lexc installed.])
 fi
-if test x$ac_cv_path_HFSTCALC = xno
+if test x$ac_cv_path_HFSTLEXC = xno
 then
-  AC_MSG_ERROR([You don't have hfst-calculate installed.])
+  AC_MSG_ERROR([You don't have hfst-lexc installed.])
+fi
+
+AC_PATH_PROG(HFSTTWOL, hfst-twolc, no)
+if test x$ac_cv_path_HFSTTWOL = x
+then
+  AC_MSG_ERROR([You don't have hfst-twolc installed.])
+fi
+if test x$ac_cv_path_HFSTTWOL = xno
+then
+  AC_MSG_ERROR([You don't have hfst-twolc installed.])
 fi
 
 AC_PATH_PROG(CGCOMP, cg-comp, no)
@@ -71,15 +81,15 @@ then
   AC_MSG_ERROR([You don't have cg-comp installed.])
 fi
 
-AC_PATH_PROG(CGPROC, cg-proc, no)
-if test x$ac_cv_path_CGPROC = x
+AC_PATH_PROG(PKG_CONFIG, pkg-config, no)
+if test x$ac_cv_path_PKG_CONFIG = x
 then
-  AC_MSG_ERROR([You don't have cg-proc installed.])
+  AC_MSG_ERROR([You don't have pkg-config installed.])
 fi
-if test x$ac_cv_path_CGPROC = xno
+if test x$ac_cv_path_PKG_CONFIG = xno
 then
-  AC_MSG_ERROR([You don't have cg-proc installed.])
+  AC_MSG_ERROR([You don't have pkg-config installed.])
 fi
 
-#AC_OUTPUT([Makefile morph-tr/Makefile])
-AC_OUTPUT([Makefile])
+
+AC_OUTPUT([Makefile apertium-kir-1.0.pc])

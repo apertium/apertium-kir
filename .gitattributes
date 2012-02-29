@@ -5,6 +5,9 @@
 /Makefile.am -text
 /NEWS -text
 /README -text
-/apertium-kir.lexc -text
-/apertium-kir.twol -text
+/apertium-kir-1.0.pc.in -text
+/apertium-kir.kir.lexc -text
+/apertium-kir.kir.rlx -text
+/apertium-kir.kir.twol -text
+/autogen.sh -text
 /configure.ac -text
