@@ -376,7 +376,8 @@ LEXICON ADJ-LEVELS
 LEXICON ADJ-COMMON
 
 %<adj%>%<pst%>: # ;
-%<n%>: POSSESSION ;  ! all adjectives can be used as nouns
+! %<n%>: POSSESSION ;  ! all adjectives can be used as nouns
+%<adj%>%<subst%>: SUBST-COMMON ;
 ! %<n%>: N-INFL ;  ! all adjectives can be used as nouns
 
 LEXICON DAGI
