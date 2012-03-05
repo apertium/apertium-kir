@@ -45,6 +45,18 @@ $(LANG1).automorf.hfst: .deps/$(LANG1).LR.hfst
 	hfst-invert $< | hfst-fst2fst -O -o $@
 
 ###############################################################################
+## Debugging transducers (for testvoc)
+###############################################################################
+
+debug: .deps/$(LANG1).LR-debug.hfst
+
+.deps/$(LANG1).LR-debug.hfst: $(BASENAME).$(LANG1).lexc
+	if [ ! -d .deps ]; then mkdir .deps; fi
+	cat $< | grep -v 'Dir/RL' | grep -v 'Use/Circ' > .deps/$(LANG1).LR-debug.lexc
+	hfst-lexc --format foma .deps/$(LANG1).LR-debug.lexc -o .deps/$(LANG1).LR-debug.lexc.hfst
+	hfst-compose-intersect -1 .deps/$(LANG1).LR-debug.lexc.hfst -2 .deps/$(LANG1).twol.hfst -o $@
+
+###############################################################################
 ## Disambiguation rules 
 ###############################################################################
 
