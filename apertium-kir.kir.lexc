@@ -33,7 +33,10 @@ Multichar_Symbols
 %<loc%>     ! Locative
 %<abl%>     ! Ablative
 
-%<locattr%>    ! Relativised locative -DAGI
+!%<locattr%>    ! Relativised locative -DAGI
+%<subst%>   ! substantive use of non-nouns
+%<attr%>    ! attributive use of non-adjectives
+%<advl%>    ! adverbial use of non adverbs
 
 %<m%>       ! Masculine
 %<f%>       ! Feminine
@@ -86,7 +89,7 @@ Multichar_Symbols
 %<comp%>    ! Comparative level of comparison 
 %<sup%>	    ! Superlative level of comparison 
 %<ord%>     ! Ordinal
-%<apprx%>   ! Approximal
+%<sim%>     ! Similative
 %<attr%>    ! -KI suffix, adjectivaliser
 
 %<pass%>    ! Passive
@@ -213,7 +216,7 @@ LEXICON CASES-DEFAULT
 %<dat%>:%>%{G%}%{A%} # ;       ! -га, -ка, -ге, -ке, -го, -ко, -гө, -кө
 %<acc%>:%>%{N%}%{I%} # ;       ! -ны, -ни, -ды, -ди, -ты, -ти, -ну, -нү, -ду, -дү, -ту, -тү
 %<loc%>:%>%{D%}%{A%} PRED ;  ! -да, -де, -та, -те, -до, -дө, -то, -тө
-%<apprx%>:%>%{D%}%{A%}й PRED ;  ! -дай, -дей, -дөй, -дой, -тай, -тей, -төй, той
+%<sim%>:%>%{D%}%{A%}й PRED ;  ! -дай, -дей, -дөй, -дой, -тай, -тей, -төй, той
 
 LEXICON CASES
 CASES-DEFAULT ;
@@ -246,14 +249,15 @@ CASES-DEFAULT ;
 LEXICON GEN-POS
 CASES ;
 %<px%>:%>%{N%}%{I%}к%{I%}%{n%} CASES ; !CASES-SHORT-ACC ; 
-%<locattr%>:%>%{D%}%{A%}г%{I%} ADJ-DAGI ;
+!%<locattr%>:%>%{D%}%{A%}г%{I%} ADJ-DAGI ;
+%<loc%>:%>%{D%}%{A%}г%{I%} DAGI ;
 !%<locattr%>:%>%{D%}%{A%}г%{I%} CASES ;
 !%<locattr%>:%>%{D%}%{A%}г%{I%} V-ADJ ; ! FIXME: when we go recursive, use this
 
 LEXICON GEN-POS-PX12SG
 CASES-PX12SG ;
 %<px%>:%>%{N%}%{I%}к%{I%}%{n%} CASES ; !CASES-SHORT-ACC ; 
-%<locattr%>:%>%{D%}%{A%}г%{I%} ADJ-DAGI ;
+%<loc%>:%>%{D%}%{A%}г%{I%} DAGI ;
 ! %<locattr%>:%>%{D%}%{A%}г%{I%} CASES ;
 !%<locattr%>:%>%{D%}%{A%}г%{I%} V-ADJ ; ! FIXME: when we go recursive, use this
 
@@ -285,19 +289,24 @@ LEXICON VOL-ENDINGS
 %<p2%>%<pl%>%<frm%>:%{I%}ң%{I%}зд%{A%}р # ;
 %<p3%>%<pl%>:%>%{S%}%{I%}%{n%} # ;
 
+LEXICON SUBST-COMMON
+
+%<pl%>:%>%{L%}%{A%}р POSSESSION ;
+POSSESSION ;
+
 LEXICON N-INFL-COMMON
 
-%<n%>: POSSESSION ;
 %<n%>:%>%{L%}%{U%}%{U%} ADJ ;  ! Any noun can be made into an adjective like this, though it's basically derivation
 
-LEXICON N-INFL-SG
+LEXICON N-INFL-SG  ! nouns with no/irregular plural
 
 N-INFL-COMMON ;
+%<n%>: POSSESSION ;
 
 LEXICON N-INFL
 
 N-INFL-COMMON ;
-%<n%>%<pl%>:%>%{L%}%{A%}р POSSESSION ;
+%<n%>: SUBST-COMMON ;
 
 LEXICON N-INFL-3PX-COMPOUND
 
@@ -370,14 +379,18 @@ LEXICON ADJ-COMMON
 %<n%>: POSSESSION ;  ! all adjectives can be used as nouns
 ! %<n%>: N-INFL ;  ! all adjectives can be used as nouns
 
-LEXICON ADJ-DAGI
+LEXICON DAGI
 
-!! ADJ-COMMON ;  !!!! ! FIXME: when we go recursive, use this instead of CASES
-%<n%>: CASES ;
-! ADJ-COMMON ;  !!!! ! FIXME: when we go recursive, use this instead of N-INFL
-!%<n%>: N-INFL ;
-%<adj%>%<pst%>: # ;
-# ;
+!!! ADJ-COMMON ;  !!!! ! FIXME: when we go recursive, use this instead of CASES
+!%<n%>: CASES ;
+!! ADJ-COMMON ;  !!!! ! FIXME: when we go recursive, use this instead of N-INFL
+!!%<n%>: N-INFL ;
+!%<adj%>%<pst%>: # ;
+!# ;
+
+%<attr%>: # ;
+! %<subst%>: SUBST-COMMON ;  !! FIXME: when we go recursie, uncomment
+
 
 LEXICON V-ADJ
 
@@ -532,7 +545,7 @@ LEXICON NUM
 
 %<num%>: POSSESSION ;
 %<num%>%<ord%>:%>%{I%}нч%{I%} POSSESSION ;
-%<num%>%<apprx%>:%>%{D%}%{A%}й POSSESSION ;
+%<num%>%<sim%>:%>%{D%}%{A%}й POSSESSION ;
 
 LEXICON NUM-ONE
 
@@ -543,7 +556,7 @@ LEXICON NUM-ONE
 
 %<num%>: POSSESSION ;
 %<num%>%<ord%>:%>%{I%}нч%{I%} POSSESSION ;
-%<num%>%<apprx%>:%>%{D%}%{A%}й POSSESSION ;
+%<num%>%<sim%>:%>%{D%}%{A%}й POSSESSION ;
 
 
 
@@ -556,9 +569,9 @@ LEXICON PRON-DEM-BUL
 %<prn%>%<dem%>%<dat%>:буга # ;
 %<prn%>%<dem%>%<loc%>:мында PRED ;
 %<prn%>%<dem%>%<abl%>:мындан PRED ;
-%<prn%>%<dem%>%<apprx%>:мындай PRED ;  
+%<prn%>%<dem%>%<sim%>:мындай PRED ;  
 
-%<prn%>%<dem%>%<locattr%>:мындагы ADJ-DAGI ;
+%<prn%>%<dem%>%<loc%>:мындагы DAGI ;
 
 %<prn%>%<dem%>:муну POSSESSION-ENDINGS ;
 
@@ -573,9 +586,9 @@ LEXICON PRON-DEM-OSOL
 %<prn%>%<dem%>%<dat%>:го # ;
 %<prn%>%<dem%>%<loc%>:ндо PRED ;
 %<prn%>%<dem%>%<abl%>:ндон PRED ;
-%<prn%>%<dem%>%<apprx%>:ндой PRED ;
+%<prn%>%<dem%>%<sim%>:ндой PRED ;
 
-%<prn%>%<dem%>%<locattr%>:ндогу ADJ-DAGI ;
+%<prn%>%<dem%>%<loc%>:ндогу DAGI ;
 %<prn%>%<dem%>%<reason%>%<abl%>:ндуктан PRED ;  ! FIXME: need better name
 
 %<prn%>%<dem%>:ну POSSESSION-ENDINGS ;
@@ -591,9 +604,9 @@ LEXICON PRON-DEM-USUL
 %<prn%>%<dem%>%<dat%>:га # ;
 %<prn%>%<dem%>%<loc%>:нда PRED ;
 %<prn%>%<dem%>%<abl%>:ндан PRED ;
-%<prn%>%<dem%>%<apprx%>:ндай PRED ;
+%<prn%>%<dem%>%<sim%>:ндай PRED ;
 
-%<prn%>%<dem%>%<locattr%>:ндагы ADJ-DAGI ;
+%<prn%>%<dem%>%<loc%>:ндагы DAGI ;
 %<prn%>%<dem%>%<reason%>%<abl%>:ндуктан PRED ;  ! FIXME: need better name
 
 %<prn%>%<dem%>:ну POSSESSION-ENDINGS ;
@@ -609,9 +622,9 @@ LEXICON PRON-DEM-AL
 %<prn%>%<dem%>%<dat%>:га # ;
 %<prn%>%<dem%>%<loc%>:нда PRED ;
 %<prn%>%<dem%>%<abl%>:ндан PRED ;
-%<prn%>%<dem%>%<apprx%>:ндай PRED ;
+%<prn%>%<dem%>%<sim%>:ндай PRED ;
 
-%<prn%>%<dem%>%<locattr%>:ндагы ADJ-DAGI ;
+%<prn%>%<dem%>%<loc%>:ндагы DAGI ;
 %<prn%>%<dem%>%<reason%>%<abl%>:ндыктан PRED ;  ! FIXME: need better name
 
 %<prn%>%<dem%>:ны POSSESSION-ENDINGS ;
@@ -627,9 +640,9 @@ LEXICON PRON-DEM-TIGIL
 %<prn%>%<dem%>%<dat%>:ге # ;
 %<prn%>%<dem%>%<loc%>:нде PRED ;
 %<prn%>%<dem%>%<abl%>:нден PRED ;
-%<prn%>%<dem%>%<apprx%>:нндей PRED ;
+%<prn%>%<dem%>%<sim%>:нндей PRED ;
 
-%<prn%>%<dem%>%<locattr%>:ндеги ADJ-DAGI ;
+%<prn%>%<dem%>%<loc%>:ндеги DAGI ;
 
 %<prn%>%<dem%>:ни POSSESSION-ENDINGS ;
 
@@ -645,8 +658,8 @@ LEXICON PRON-PERS-EN
 %<dat%>:аа # ;    ! Dir/LR
 %<loc%>:енде PRED ;
 %<abl%>:енден PRED ;
-%<apprx%>:ендей PRED ;
-%<locattr%>:ендеги ADJ-DAGI ;
+%<sim%>:ендей PRED ;
+%<loc%>:ендеги DAGI ;
 
 LEXICON PRON-PERS-IZ
 
@@ -656,8 +669,8 @@ LEXICON PRON-PERS-IZ
 %<dat%>:ге # ;
 %<loc%>:де PRED ;
 %<abl%>:ден PRED ;
-%<apprx%>:дей PRED ;
-%<locattr%>:деги ADJ-DAGI ;
+%<sim%>:дей PRED ;
+%<loc%>:деги DAGI ;
 
 LEXICON PRON-PERS-AL
 
@@ -667,8 +680,8 @@ LEXICON PRON-PERS-AL
 %<dat%>:га # ;
 %<loc%>:нда PRED ;
 %<abl%>:ндан PRED ;
-%<apprx%>:ндай PRED ;
-%<locattr%>:ндагы ADJ-DAGI ;
+%<sim%>:ндай PRED ;
+%<loc%>:ндагы DAGI ;
 
 LEXICON PRON-PERS-PLURALS
 
@@ -678,8 +691,8 @@ LEXICON PRON-PERS-PLURALS
 %<dat%>:%>г%{A%} # ;
 %<loc%>:%>д%{A%} PRED ;
 %<abl%>:%>д%{A%}н PRED ;
-%<apprx%>:%>д%{A%}й PRED ;
-%<locattr%>:%>д%{A%}г%{I%} ADJ-DAGI ;
+%<sim%>:%>д%{A%}й PRED ;
+%<loc%>:%>д%{A%}г%{I%} DAGI ;
 
 LEXICON PRON-ITG
 
@@ -733,7 +746,7 @@ V-CLIT ;  ! TODO: I guess these aren't technically necessary?
 LEXICON V-CLIT-BI
 
 !! Modal/discourse particles
-%+бы%<mod_qst%>:%>%{B%}%{I%} V-PERS-COP ; ! CHECK
+!!!!! %+бы%<mod_qst%>:%>%{B%}%{I%} V-PERS-COP ; ! CHECK  !! CAUSING LOOPS!
 %+бы%<mod_qst%>:%>%{B%}%{I%} # ;
 
 LEXICON V-CLIT-OTHER
@@ -954,7 +967,7 @@ LEXICON V-INFL-ASIF
 
 %<prt_perf%>:%>%{I%}п # ;
 %<ifi%>:%>%{D%}%{I%} V-PERS-PAST ;
-%<ger_past%>%<apprx%>:%>%{G%}%{A%}н%>%{D%}%{A%}й PRED ; 
+%<ger_past%>%<sim%>:%>%{G%}%{A%}н%>%{D%}%{A%}й PRED ; 
 %<aor%>:%>%{E%} V-PERS-PRES ;
 
 LEXICON V-INFL-TV-SHORT
