@@ -390,7 +390,7 @@ LEXICON DAGI
 !# ;
 
 %<attr%>: # ;
-! %<subst%>: SUBST-COMMON ;  !! FIXME: when we go recursie, uncomment
+! %<subst%>: SUBST-COMMON ;  ! Use/Circ  !! FIXME: when we go recursie, uncomment
 
 
 LEXICON V-ADJ
@@ -5621,7 +5621,7 @@ LEXICON NounStems
 соң N-INFL ;
 санак N-INFL ;
 кечил N-INFL ;
-kanal N-INFL ;
+%kanal N-INFL ;  ! FIXME wtf wtf
 аброй N-INFL ;
 консерватор N-INFL ;
 билет N-INFL ;
