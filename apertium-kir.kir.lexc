@@ -5621,7 +5621,7 @@ LEXICON NounStems
 соң N-INFL ;
 санак N-INFL ;
 кечил N-INFL ;
-%kanal N-INFL ;  ! FIXME wtf wtf
+!kanal N-INFL ;  ! FIXME wtf wtf
 аброй N-INFL ;
 консерватор N-INFL ;
 билет N-INFL ;
