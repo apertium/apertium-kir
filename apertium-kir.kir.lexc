@@ -296,16 +296,17 @@ POSSESSION ;
 
 LEXICON N-INFL-COMMON
 
-%<n%>:%>%{L%}%{U%}%{U%} ADJ ;  ! Any noun can be made into an adjective like this, though it's basically derivation
+!%<n%>:%>%{L%}%{U%}%{U%} ADJ ;  ! Any noun can be made into an adjective like this, though it's basically derivation
+%<attr%>:%>%{L%}%{U%}%{U%} ATTR ;
 
 LEXICON N-INFL-SG  ! nouns with no/irregular plural
 
-N-INFL-COMMON ;
+%<n%>: N-INFL-COMMON ;
 %<n%>: POSSESSION ;
 
 LEXICON N-INFL
 
-N-INFL-COMMON ;
+%<n%>: N-INFL-COMMON ;
 %<n%>: SUBST-COMMON ;
 
 LEXICON N-INFL-3PX-COMPOUND
@@ -390,6 +391,7 @@ LEXICON DAGI
 !# ;
 
 %<attr%>: # ;
+%<attr%>%<pl%>:%{L%}%{A%}р ;  ! This is instead of the line below
 ! %<subst%>: SUBST-COMMON ;  ! Use/Circ  !! FIXME: when we go recursie, uncomment
 
 
@@ -399,10 +401,17 @@ ADJ-COMMON ;
 %<pst%>:  # ; 
 # ; 
 
+LEXICON ATTR
+
+# ;
+!ADJ-LEVELS ; ! In theory, there can be <pst> and <comp> readings, but depends what for
+
 LEXICON ADJ
 
 ADJ-COMMON ; 
 %<adj%>: ADJ-LEVELS ; 
+%<adj%>%<advl%>: # ;
+%<adj%>: V-PERS-COP ;
 
 LEXICON ADJ-ORD
 
@@ -779,10 +788,21 @@ LEXICON V-PERS-POSS ! P_2
 
 LEXICON V-PERS-COP ! P_3
 
-%+э%<cop%>: V-PERS-COP-SUF ; 
+%+э%<cop%>: V-PERS-COP-SUF-NOSG3 ; 
 !%+э%<cop%>%<neg%>:% эмес V-PERS-COP-SUF ; 
 !%+э%<cop%>%<evid%>:% экен V-PERS-COP-SUF ; 
 !%+э%<cop%>%<neg%>%<evid%>:% эмес% экен V-PERS-COP-SUF ; 
+
+LEXICON V-PERS-COP-SUF-NOSG3
+
+%<p1%>%<sg%>:%>м%{I%}н V-CLIT ; 
+%<p2%>%<sg%>:%>с%{I%}ң V-CLIT ; 
+%<p2%>%<frm%>%<sg%>:%>с%{I%}з V-CLIT ; 
+!%<p3%>%<sg%>: V-CLIT ;    ! P3 forms are null and look stupid
+%<p1%>%<pl%>:%>%{B%}%{I%}з V-CLIT ; 
+%<p2%>%<pl%>:%>с%{I%}ң%{A%}р V-CLIT ;  
+%<p2%>%<frm%>%<pl%>:%>с%{I%}зд%{A%}р V-CLIT ;  
+!%<p3%>%<pl%>: V-CLIT ; 
 
 LEXICON V-PERS-COP-SUF 
 
@@ -8332,7 +8352,7 @@ LEXICON AdvStems
 эч ADV ; ! FIXME
 такыр ADV ; 
 жылдардан% бери ADV ; 
-тез ADV ; 
+!тез ADV ; 
 чынында ADV ; ! FIXME: not a lemma: "in truth"
 жай ADV ; 
 жартылай ADV ; 
