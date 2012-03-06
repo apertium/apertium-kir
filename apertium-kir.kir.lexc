@@ -391,8 +391,9 @@ LEXICON DAGI
 !# ;
 
 %<attr%>: # ;
-%<attr%>%<pl%>:%{L%}%{A%}р ;  ! This is instead of the line below
-! %<subst%>: SUBST-COMMON ;  ! Use/Circ  !! FIXME: when we go recursie, uncomment
+!%<subst%>: POSSESSION ;
+!%<subst%>%<pl%>:%{L%}%{A%}р POSSESSION ;  ! This is instead of the line below
+%<subst%>: SUBST-COMMON ;  ! Use/Circ  !! FIXME: when we go recursie, uncomment
 
 
 LEXICON V-ADJ
