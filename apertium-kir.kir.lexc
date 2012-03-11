@@ -303,17 +303,30 @@ POSSESSION ;
 LEXICON N-INFL-COMMON
 
 !%<n%>:%>%{L%}%{U%}%{U%} ADJ ;  ! Any noun can be made into an adjective like this, though it's basically derivation
-%<attr%>:%>%{L%}%{U%}%{U%} ATTR ;
+! %<attr%>:%>%{L%}%{U%}%{U%} ATTR ;
 
 LEXICON N-INFL-SG  ! nouns with no/irregular plural
 
 %<n%>: N-INFL-COMMON ;
 %<n%>: POSSESSION ;
 
-LEXICON N-INFL
+LEXICON N-INFL      ! Nouns that have a LUU attributive form
 
-%<n%>: N-INFL-COMMON ;
+%<n%>%<attr%>:%>%{L%}%{U%}%{U%} ATTR ;
 %<n%>: SUBST-COMMON ;
+
+LEXICON N-INFL-KI   ! Nouns that have a KI attributive form
+
+%<n%> KI ;
+%<n%>: SUBST-COMMON ;
+
+LEXICON N-INFL-NO-ATTR  ! Used for nouns that have irregular <attr> forms
+
+%<n%>: SUBST-COMMON ;
+
+LEXICON N-INFL-JUST-KI  ! Used for nouns that have irregular KI forms
+
+%<n%> KI ;
 
 LEXICON N-INFL-3PX-COMPOUND
 
@@ -433,10 +446,6 @@ ADJ-COMMON ;
 LEXICON KI
 
 %<attr%>:%>%{K%}%{I%} ATTR ;
-
-LEXICON N-KI
-
-%<n%>: KI ;
 
 LEXICON ADV-KI
 
@@ -1776,13 +1785,13 @@ LEXICON NounStems
 дене N-INFL ; 
 дүйнө N-INFL ;  ! "world" (?)
 дүнүйө N-INFL ; ! "world" (?) FIXME
-жаз N-INFL ; ! "spring"
-жай N-INFL ; ! "summer"
+! жаз N-INFL ; ! "spring"
+! жай N-INFL ; ! "summer"
 жан N-INFL ; ! "jan"
 желек N-INFL ; 
 жол N-INFL ; ! "way"
 жыгач N-INFL ; 
-жыл N-INFL ; ! "year"
+! жыл N-INFL ; ! "year"
 жылдыз N-INFL ; ! "star"
 !жүз N-INFL ;  Not a noun, -- Numeral
 зайып N-INFL ; 
@@ -2367,7 +2376,7 @@ LEXICON NounStems
 күндөлүк N-INFL ; 
 көнүмүш N-INFL ; 
 күндүз N-INFL ; 
-күз N-INFL ; 
+! күз N-INFL ; 
 кубат N-INFL ; 
 ал N-INFL ; 
 кытык N-INFL ; 
@@ -2688,7 +2697,7 @@ LEXICON NounStems
 кыямат N-INFL ; 
 кыюу N-INFL ; 
 кызамык N-INFL ; 
-кыш N-INFL ; 
+! кыш N-INFL ; 
 кыштоо N-INFL ; 
 кыштак N-INFL ; 
 лабиринт N-INFL ; 
@@ -3250,7 +3259,7 @@ LEXICON NounStems
 солист N-INFL ; 
 соло N-INFL ; 
 сөөлжан N-INFL ; 
-соң N-INFL ; 
+! соң N-INFL ; 
 сопрано N-INFL ; 
 суроо N-INFL ; 
 сосиска N-INFL ; 
@@ -3924,7 +3933,7 @@ LEXICON NounStems
 котормо N-INFL ; 
 элик N-INFL ; 
 чейрек N-INFL ; 
-жаза N-INFL ; 
+! жаза N-INFL ; 
 сыздоок N-INFL ; 
 гүл N-INFL ; 
 токтоо N-INFL ; 
@@ -4463,7 +4472,7 @@ LEXICON NounStems
 фумигация N-INFL ;
 репрессия N-INFL ;
 кез N-INFL ;
-кыштак N-INFL ;
+! кыштак N-INFL ;
 котормочу N-INFL ;
 журналистика N-INFL ;
 маек N-INFL ;
@@ -4853,7 +4862,7 @@ LEXICON NounStems
 салым N-INFL ;
 кошумча N-INFL ;
 күндөм N-INFL ;
-күн N-INFL ; ! "sun, day"
+күн N-INFL ; ! "sun" (see күн N-INFL-KI for "day")
 күн% тартиби N-INFL ;
 макулдашма N-INFL ;
 келишме N-INFL ;
@@ -4863,7 +4872,7 @@ LEXICON NounStems
 жооп N-INFL ;
 эркиндик N-INFL ;
 азаттык N-INFL ;
-төмөн N-INFL ;
+! төмөн N-INFL ;
 кылмыш N-INFL ;
 кагылыш N-INFL ;
 согуш N-INFL ;
@@ -5122,7 +5131,7 @@ LEXICON NounStems
 майрам N-INFL ;
 үстөмдүк N-INFL ;
 база N-INFL ;
-күз N-INFL ;
+! күз N-INFL ;
 башкаруучу N-INFL ;
 сыпат N-INFL ;
 жоктук N-INFL ;
@@ -5163,7 +5172,7 @@ LEXICON NounStems
 үрүн N-INFL ;
 чыгаруу N-INFL ;
 спортсмен N-INFL ;
-ич N-INFL ;
+! ич N-INFL ;
 чөнтөк N-INFL ;
 өкүл N-INFL ;
 бан N-INFL ;
@@ -5506,7 +5515,7 @@ LEXICON NounStems
 ак% пеилдүүлүк N-INFL ;
 төрт N-INFL ;
 көрсөтмө N-INFL ;
-жылдыз N-INFL ;
+! жылдыз N-INFL ;
 генерал N-INFL ;
 тиеше N-INFL ;
 куттуктоо N-INFL ;
@@ -5543,7 +5552,7 @@ LEXICON NounStems
 тамаки N-INFL ;
 негиз N-INFL ;
 сюрприз N-INFL ;
-жыл N-INFL ;
+! жыл N-INFL ;
 рак N-INFL ;
 импорт N-INFL ;
 баардык% нерсе N-INFL ;
@@ -5670,7 +5679,7 @@ LEXICON NounStems
 туура N-INFL ;
 жэр N-INFL ;
 иш% оорду N-INFL ;
-соң N-INFL ;
+! соң N-INFL ;
 санак N-INFL ;
 кечил N-INFL ;
 !kanal N-INFL ;  ! FIXME wtf wtf
@@ -6451,6 +6460,33 @@ LEXICON NounStems
 калп N-INFL ; ! "falsehood/lie"
 жамгыр N-INFL ; ! "rain"
 кудук N-INFL ; ! "well"
+
+
+!! these are nouns that take -KI for their <attr> form
+! баш N-KI ; ! "principle"
+башкы ADJ ; ! "principle"  ! we're going to just let this be a fixed form, since баштуу is the ATTR form of баш
+күз N-INFL-KI ; ! "fall"/"fall-time"
+кыш N-INFL-KI ; ! "winter"/"wintery"
+жаз N-INFL-KI ; ! "spring"/"spring-time"
+жай N-INFL-KI ; ! "summer"/"summery"
+соң N-INFL-KI ; ! "end"/"final"
+тыш N-INFL-KI ; ! "outside"/"outer"
+ич N-INFL-KI ; ! "inside"/"inner"
+төмөн N-INFL-KI ; ! "bottom"/"following/below"
+жыл N-INFL-KI ; ! "year"
+күн N-INFL-KI ; ! "day"
+! ай KI ; ! "month"  ! DOESN'T HAVE -KI FORM (takes LUU)
+кеч N-INFL-KI ; ! "evening"
+
+аст:астын N-INFL-JUST-KI ; ! "lower"
+алд:алдын N-INFL-JUST-KI ; ! "forward"
+үст:үстүн N-INFL-JUST-KI ; ! "upper"
+аст N-INFL-NO-ATTR ; ! "bottom"
+алд N-INFL-NO-ATTR ; ! "front/forward"
+үст N-INFL-NO-ATTR ; ! "top"
+
+
+
 
 LEXICON PropernounStems
 Нью-Дели:Нью% Дели NP-TOP ; ! Dir/LR
@@ -7941,7 +7977,7 @@ LEXICON AdjecStems
 түбөлүк ADJ ;
 сынчы ADJ ;
 келишкен ADJ ;
-тышкы ADJ ;
+! тышкы ADJ ;
 булганган ADJ ;
 сырткы ADJ ;
 бирдиктүү ADJ ;
@@ -8284,24 +8320,6 @@ LEXICON AdjecStems
 ! кечөө N-INFL ; ! "yesterday"  ! NOT NOUNS!
 ! кечээ N-INFL ; ! "yesterday"  ! NOT NOUNS!
 
-!! FIXME: these are -KI forms of nouns
-баш N-KI ; ! "principle"
-күз N-KI ; ! "fall-time"
-кыш N-KI ; ! "wintery"
-жаз N-KI ; ! "spring-time"
-жай N-KI ; ! "summery"
-соң N-KI ; ! "final"
-тыш N-KI ; ! "outer"
-ич N-KI ; ! "inner"
-төмөн N-KI ; ! "following"
-аст:астын N-KI ; ! "lower"
-алд:алдын N-KI ; ! "forward"
-үст:үстүн N-KI ; ! "upper"
-жыл N-KI ; ! "year"            ! ""
-күн N-KI ; ! "day"
-! ай KI ; ! "month"  ! DOESN'T HAVE -KI FORM
-кеч N-KI ; ! "evening"
-
 ! кийин ADV-WITH-KI ; ! "later"
 ! мурда ADV-WITH-KI ; ! "long ago"
 ! азыр ADV-WITH-KI ; 
@@ -8446,7 +8464,7 @@ LEXICON AdvStems
 анда-санда ADV ; ! "occasionally"
 !мына ADV ; 
 күндөрдөн% бери ADV ;  ! FIXME: compositional
-кышында ADV ;  ! FIXME: compositional
+! кышында ADV ;  ! FIXME: compositional (DIX)
 орой ADV ; 
 көрсө ADV ; 
 дээри ADV ; 
@@ -8480,12 +8498,12 @@ LEXICON AdvStems
 ! жаман ADV ;
 ачык% эле ADV ;
 кайрылуу% менен ADV ;
-жылкы ADV ; ! eh?
+! жылкы ADV ; ! eh?
 карай ADV ;
 почти ADV ;
 дээрлик ADV ;
 жай ADV ;
-күнкү ADV ; ! eh?
+! күнкү ADV ; ! eh?
 жалгыз% гана ADV ;
 пайдасыз ADV ;
 араң-араң ADV ;
@@ -8530,7 +8548,7 @@ LEXICON AdvStems
 жалгыз ADV ;
 артынан ADV ;
 чанда ADV ;
-жылкы ADV ;
+! жылкы ADV ;
 ! эртең% мененкисин ADV ;
 эртең% менен ADV ;
 ачык% эле ADV ;
@@ -10026,7 +10044,7 @@ LEXICON TO-REMOVE
 чейин N-INFL ; ! Dir/RL
 тышкары N-INFL ; ! Dir/RL
 түз N-INFL ; ! Dir/RL
-соңку N-INFL ; ! Dir/RL
+! соңку N-INFL ; ! Dir/RL  ! FIXME: compositional
 ! сөзү N-INFL ; ! Dir/RL  ! FIXME: compositional
 ! оор N-INFL ; ! Dir/RL   ! FIXME: ADJ
 ! негизги N-INFL ; ! Dir/RL  ! FIXME: ADJ
