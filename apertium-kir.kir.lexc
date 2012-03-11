@@ -405,27 +405,36 @@ ADJ-COMMON ;
 LEXICON ATTR
 
 # ;
+V-CLIT ;
 !ADJ-LEVELS ; ! In theory, there can be <pst> and <comp> readings, but depends what for
 
 LEXICON ADJ
 
 ADJ-COMMON ; 
 %<adj%>: ADJ-LEVELS ; 
-%<adj%>%<advl%>: # ;
+%<adj%>%<advl%>: ADVL ;
 %<adj%>: V-PERS-COP ;
 
-LEXICON ADJ-ORD
+! LEXICON ADJ-ORD
+! 
+! %<adj%>%<ord%>: # ;
+! %<adj%>%<ord%>%<subst%>: POSSESSION ;
+! 
+! LEXICON ADJ-KI
+!
+! %<attr%>:%>%{K%}%{I%} ADJ-COMMON ;
 
-%<adj%>%<ord%>: # ;
-%<adj%>%<ord%>%<n%>: POSSESSION ;
+LEXICON KI
 
-LEXICON ADJ-KI
+%<attr%>:%>%{K%}%{I%} ATTR ;
 
-%<attr%>:%>%{K%}%{I%} ADJ-COMMON ;
+LEXICON N-KI
 
-LEXICON ADV-ITG
+%<n%>: KI ;
 
-%<adv%>%<itg%>: # ;
+LEXICON ADV-KI
+
+%<adv%>: KI ;
 
 LEXICON ADV-WITH-KI-ABL
 
@@ -448,10 +457,6 @@ LEXICON ADV-WITH-ABL-REG
 ADV ;
 ADV-ABL-REG ;
 
-LEXICON ADV-KI
-
-%<adv%>: ADJ-KI ;
-
 LEXICON ADV-ABL
 
 %<adv%>%<abl%>:%>т%{A%}н PRED ;
@@ -460,10 +465,18 @@ LEXICON ADV-ABL-REG
 
 %<adv%>%<abl%>:%>д%{A%}н PRED ;
 
+LEXICON ADVL
+
+# ;
+V-CLIT ;
+
 LEXICON ADV
 
-%<adv%>: # ;
-%<adv%>: V-CLIT ;
+%<adv%>: ADVL ;
+
+LEXICON ADV-ITG
+
+%<adv%>%<itg%>: # ;
 
 LEXICON POST
 
@@ -552,11 +565,11 @@ LEXICON NUM-ROMAN
 
 %<num%>: CASES ;
 
+
 LEXICON NUM
 
-%<num%>: POSSESSION ;
-%<num%>%<ord%>:%>%{I%}нч%{I%} POSSESSION ;
-%<num%>%<sim%>:%>%{D%}%{A%}й POSSESSION ;
+NUM-COMMON ;
+
 
 LEXICON NUM-ONE
 
@@ -565,10 +578,16 @@ LEXICON NUM-ONE
 % миллион NUM ; ! "one million"
 % миллиард NUM ; ! "one billion"
 
-%<num%>: POSSESSION ;
-%<num%>%<ord%>:%>%{I%}нч%{I%} POSSESSION ;
-%<num%>%<sim%>:%>%{D%}%{A%}й POSSESSION ;
+NUM-COMMON ;
 
+
+LEXICON NUM-COMMON
+
+%<num%>: POSSESSION ;
+! %<num%>%<sim%>:%>%{D%}%{A%}й POSSESSION ;  ! WTF is this?
+%<num%>%<ord%>:%>%{I%}нч%{I%} # ;
+%<num%>%<ord%>%<advl%>:%>%{I%}нч%{I%} ADVL ;
+%<num%>%<ord%>%<subst%>:%>%{I%}нч%{I%} SUBST-COMMON ;  ! yes, they can be plural
 
 
 LEXICON PRON-DEM-BUL
@@ -1407,8 +1426,8 @@ LEXICON NounStems
 автожол N-INFL ; 
 автомат N-INFL ; 
 автомобиль N-INFL ; 
-автоном N-INFL ; 
-автономия N-INFL ; 
+! автоном N-INFL ;  ! repeated
+! автономия N-INFL ;  ! repeated
 автопарк N-INFL ; 
 авторитет N-INFL ; 
 ага N-INFL ; 
@@ -1898,7 +1917,7 @@ LEXICON NounStems
 бакыт N-INFL ; ! "happiness"
 тагдыр N-INFL ; ! "fate"
 балтыркан N-INFL ; 
-балдыз N-INFL ; 
+! балдыз N-INFL ; 
 балта N-INFL ; ! "axe"
 балчык N-INFL ; 
 ылай N-INFL ; ! "mud"
@@ -2955,7 +2974,7 @@ LEXICON NounStems
 автомобиль N-INFL ; 
 автоном N-INFL ; 
 !автономиялуу N-INFL ;  ! regular?
-автономия N-INFL ; 
+! автономия N-INFL ;  ! repeated
 автопарк N-INFL ; 
 авторитет N-INFL ; 
 автожол N-INFL ; 
@@ -4633,7 +4652,7 @@ LEXICON NounStems
 окуя N-INFL ;
 орток% ишкана N-INFL ;
 шериктик N-INFL ;
-бир N-INFL ;
+! бир N-INFL ;
 деңгээл N-INFL ;
 даража N-INFL ;
 уюм N-INFL ;
@@ -4706,7 +4725,7 @@ LEXICON NounStems
 сүрөт N-INFL ;
 камтуу N-INFL ;
 даяр N-INFL ;
-курал N-INFL ;
+! курал N-INFL ;
 жаш N-INFL ;
 иш N-INFL ;
 түшүнбөстүк N-INFL ;
@@ -5284,7 +5303,7 @@ LEXICON NounStems
 семинар N-INFL ;
 конуш N-INFL ;
 сапат N-INFL ;
-алдында N-INFL ;
+! алдында N-INFL ;
 таш N-INFL ;
 деталь N-INFL ;
 мыкты N-INFL ;
@@ -5396,7 +5415,7 @@ LEXICON NounStems
 семинар N-INFL ;
 конуш N-INFL ;
 сапат N-INFL ;
-алдында N-INFL ;
+! алдында N-INFL ;
 таш N-INFL ;
 деталь N-INFL ;
 мыкты N-INFL ;
@@ -5531,7 +5550,7 @@ LEXICON NounStems
 генерал N-INFL ;
 эларалык N-INFL ;
 бригада N-INFL ;
-куралдар N-INFL ;
+! куралдар N-INFL ;
 сан N-INFL ;
 маяна N-INFL ;
 түгөлдөмө N-INFL ;
@@ -5545,7 +5564,7 @@ LEXICON NounStems
 тумоо N-INFL ;
 которуу N-INFL ;
 бар N-INFL ;
-алды N-INFL ;
+! алды N-INFL ;
 арыз N-INFL ;
 чогуу N-INFL ;
 аны N-INFL ;
@@ -5736,7 +5755,7 @@ LEXICON NounStems
 сумма N-INFL ;
 жарым% арал N-INFL ;
 ката N-INFL ;
-автономдуу N-INFL ;
+! автономдуу N-INFL ; ! FIXME: regular ADJ form
 чечкен% орган N-INFL ;
 ишкер N-INFL ;
 тилим N-INFL ;
@@ -7239,9 +7258,9 @@ Tеңир NP-TOP ; ! ""
 
 LEXICON AdjecStems
 кош ADJ ;
-алдыңкы ADJ ;
-алгачкы ADJ-ORD ; ! "first"
-экинчи ADJ-ORD ; ! "second"
+! алдыңкы ADJ ;
+! алгачкы ADJ-ORD ; ! "first"
+! экинчи ADJ-ORD ; ! "second"
 эркин ADJ ;
 эски ADJ ;
 бекем ADJ ;
@@ -7475,7 +7494,7 @@ LEXICON AdjecStems
 кошумча ADJ ; 
 катуу ADJ ; 
 жакын ADJ ; 
-оор ADJ ; 
+! оор ADJ ;  FIXME: duplicate
 даяр ADJ ; 
 жергиликтүү ADJ ; 
 конститутсиялык ADJ ; 
@@ -7537,7 +7556,7 @@ LEXICON AdjecStems
 мажбур ADJ ;
 нормалдуу ADJ ;
 бай ADJ ;
-биринчи ADJ-ORD ;
+! биринчи ADJ-ORD ;
 ысык ADJ ;
 терең ADJ ;
 ! өз ADJ ;   ! FIXME: might be in e.g., өз жакта
@@ -7551,7 +7570,7 @@ LEXICON AdjecStems
 макроэкономикалык ADJ ;
 нымдуу ADJ ;
 жарым ADJ ;
-бир ADJ ;
+! бир ADJ ;
 тунук ADJ ;
 кедей ADJ ;
 улуу ADJ ;
@@ -7644,8 +7663,8 @@ LEXICON AdjecStems
 жогору ADJ ;
 кыймылдуу ADJ ;
 күлкүнүчтүү ADJ ;
-абдан% чоң ADJ ;
-абдан% жаман ADJ ;
+! абдан% чоң ADJ ;
+! абдан% жаман ADJ ;
 жетилген ADJ ;
 бышкан ADJ ;
 атактуу ADJ ;
@@ -8160,7 +8179,7 @@ LEXICON AdjecStems
 айылдык ADJ ;
 акырын ADJ ;
 аралашкан ADJ ;
-биринчи ADJ ;
+! биринчи ADJ ; ! FIXME in DIX
 еврей ADJ ;
 жарылган ADJ ;
 заманбап ADJ ;
@@ -8254,22 +8273,22 @@ LEXICON AdjecStems
 ! кечээ N-INFL ; ! "yesterday"  ! NOT NOUNS!
 
 !! FIXME: these are -KI forms of nouns
-башкы ADJ-COMMON ; ! "principle"
-күзгү ADJ-COMMON ; ! "fall-time"
-кышкы ADJ-COMMON ; ! "wintery"
-жазгы ADJ-COMMON ; ! "spring-time"
-жайкы ADJ-COMMON ; ! "summery"
-соңку ADJ-COMMON ; ! "final"
-тышкы ADJ-COMMON ; ! "outer"
-ички ADJ-COMMON ; ! "inner"
-төмөнкү ADJ-COMMON ; ! "following"
-аст:астын ADJ-KI ; ! "lower"
-алд:алдын ADJ-KI ; ! "forward"
-үст:үстүн ADJ-KI ; ! "upper"
-жыл ADJ-KI ; ! "year"            ! ""
-күн ADJ-KI ; ! "day"
+баш N-KI ; ! "principle"
+күз N-KI ; ! "fall-time"
+кыш N-KI ; ! "wintery"
+жаз N-KI ; ! "spring-time"
+жай N-KI ; ! "summery"
+соң N-KI ; ! "final"
+тыш N-KI ; ! "outer"
+ич N-KI ; ! "inner"
+төмөн N-KI ; ! "following"
+аст:астын N-KI ; ! "lower"
+алд:алдын N-KI ; ! "forward"
+үст:үстүн N-KI ; ! "upper"
+жыл N-KI ; ! "year"            ! ""
+күн N-KI ; ! "day"
 ! ай KI ; ! "month"  ! DOESN'T HAVE -KI FORM
-кечки ADJ-COMMON ; ! "evening"
+кеч N-KI ; ! "evening"
 
 ! кийин ADV-WITH-KI ; ! "later"
 ! мурда ADV-WITH-KI ; ! "long ago"
@@ -8321,7 +8340,7 @@ LEXICON AdvStems
 кыскача ADV ; ! "in short"
 бирдикте ADV ; 
 каршы ADV ; 
-биринчи ADV ; 
+! биринчи ADV ; 
 сырткары ADV ; 
 жаңыдан ADV ; 
 артка ADV ; 
@@ -8446,7 +8465,7 @@ LEXICON AdvStems
 жаман ADV ;
 ачык ADV ;
 уруксаатсыз ADV ;
-жаман ADV ;
+! жаман ADV ;
 ачык% эле ADV ;
 кайрылуу% менен ADV ;
 жылкы ADV ; ! eh?
@@ -8517,7 +8536,7 @@ LEXICON AdvStems
 дароо ADV ;
 үстүртөн ADV ;
 оюнда ADV ;
-жалпылап ADV ;
+! жалпылап ADV ; ! FIXME: compositional (DIX)
 кокус ADV ;
 атайлап ADV ;
 шар-шар ADV ;
@@ -8899,7 +8918,7 @@ LEXICON VerbStems
 эсте V-INFL-TV ; 
 эш V-INFL-TV ; 
 ээрчи V-INFL-TV ; 
-алдан V-INFL-TV ;
+! алдан V-INFL-TV ;  ! FIXME: VI, right?
 үйлө V-INFL-TV ; 
 үр V-INFL-IV ; 
 үрк V-INFL-IV ; 
@@ -9441,7 +9460,7 @@ LEXICON VerbStems
 току V-INFL-TV ;
 тий V-INFL-IV ;
 капта V-INFL-IV ;
-алда V-INFL-IV ;
+алда V-INFL-TV ;
 жолдо V-INFL-IV ;
 арзанда V-INFL-TV ;
 жулмала V-INFL-TV ;
@@ -9996,22 +10015,22 @@ LEXICON TO-REMOVE
 тышкары N-INFL ; ! Dir/RL
 түз N-INFL ; ! Dir/RL
 соңку N-INFL ; ! Dir/RL
-сөзү N-INFL ; ! Dir/RL
-оор N-INFL ; ! Dir/RL
-негизги N-INFL ; ! Dir/RL
+! сөзү N-INFL ; ! Dir/RL  ! FIXME: compositional
+! оор N-INFL ; ! Dir/RL   ! FIXME: ADJ
+! негизги N-INFL ; ! Dir/RL  ! FIXME: ADJ
 мурун N-INFL ; ! Dir/RL
 мом N-INFL ; ! Dir/RL
-кыска N-INFL ; ! Dir/RL
-күчү N-INFL ; ! Dir/RL
+! кыска N-INFL ; ! Dir/RL  ! FIXME: ADJ
+! күчү N-INFL ; ! Dir/RL   ! FIXME: compositional
 котор N-INFL ; ! Dir/RL
 коңгуроо N-INFL ; ! Dir/RL
 көзөмөл% тобу N-INFL ; ! Dir/RL
 керектүү N-INFL ; ! Dir/RL
-иши N-INFL ; ! Dir/RL
+! иши N-INFL ; ! Dir/RL    ! FIXME: compositional
 жол% багыты N-INFL ; ! Dir/RL
 жан% сакчы N-INFL ; ! Dir/RL
-жаман N-INFL ; ! Dir/RL
-жалпы N-INFL ; ! Dir/RL
+! жаман N-INFL ; ! Dir/RL  ! FIXME: ADJ
+! жалпы N-INFL ; ! Dir/RL  ! FIXME: ADJ
 документалдуу% тасма N-INFL ; ! Dir/RL
 гелин N-INFL ; ! Dir/RL
 ! бүтүн N-INFL ; ! Dir/RL
@@ -10020,10 +10039,10 @@ LEXICON TO-REMOVE
 башкы% эпископ N-INFL ; ! Dir/RL ! FIXME: compositional
 байланыштуу N-INFL ; ! Dir/RL
 байкалган N-INFL ; ! Dir/RL
-айуу N-INFL ; ! Dir/RL
+! айуу N-INFL ; ! Dir/RL  ! FIXME: spelled аюу
 аз N-INFL ; ! Dir/RL
-адабий N-INFL ; ! Dir/RL
-автономиялуу N-INFL ; ! Dir/RL
+! адабий N-INFL ; ! Dir/RL  ! FIXME: ADJ
+! автономиялуу N-INFL ; ! Dir/RL  ! FIXME: regular adjectival form
 
 
 бы%<mod_qst%>:бы V-PERS-COP ; ! Dir/RL ! CHECK

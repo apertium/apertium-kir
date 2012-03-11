@@ -11,3 +11,4 @@
 /apertium-kir.kir.twol -text
 /autogen.sh -text
 /configure.ac -text
+dev/countstems.sh -text
