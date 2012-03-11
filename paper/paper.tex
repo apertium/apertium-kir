@@ -1,0 +1,460 @@
+\documentclass[10pt,a4paper,twocolumn]{article}
+
+%old lrec stuff doesn't work well =(
+%\usepackage{lrec2006}
+
+\usepackage{polyglossia}
+\setdefaultlanguage[variant=australian]{english}
+
+\usepackage{fontspec}
+\defaultfontfeatures{PunctuationSpace=3,Scale=MatchLowercase,Mapping=tex-text}
+\newfontfeature{IPA}{+mgrk}
+\setromanfont[IPA]{FreeSerif}
+
+\usepackage[novoc,fdf2alif]{arabxetex}
+\newfontfamily\uighurfont[Script=Arabic,Scale=1.5]{Lateef}
+\newfontfamily\arabicfont[Script=Arabic,Scale=1.5]{Lateef}
+
+\usepackage{natbib}
+
+\usepackage[in]{fullpage}
+\usepackage[colorlinks=true,citecolor=black,linkcolor=black,urlcolor=blue]{hyperref}
+
+\usepackage{subfigure}
+\usepackage{booktabs}
+
+%\bibpunct{(}{)}{;}{A}{,}{,}
+\bibdata{paper}
+
+\newcommand{\citemultileft}[1]{(\citeauthor{#1}, \citeyear{#1}}
+\newcommand{\citemultimid}[1]{\citeauthor{#1}, \citeyear{#1}}
+\newcommand{\citemultiright}[1]{\citeauthor{#1}, \citeyear{#1})}
+\newcommand{\citetwoyears}[2]{\citeauthor{#1} (\citeyear{#1} and \citeyear{#2})}
+
+% for glosses
+\newcommand{\eng}[1]{`{\em #1}'}
+%dammit, sc doesn't seem to be working
+\newcommand{\gmk}[1]{\textsc{#1}}
+
+
+\title{A finite-state morphological transducer for Kyrgyz}
+%\author{Jonathan North Washington, Mirlan Ipasov, and Francis Tyers\\\href{mailto:jonwashi@indiana.edu}{jonwashi@indiana.edu}, \href{mailto:mipasov@gmail.com}{mipasov@gmail.com}, \href{mailto:ftyers@prompsit.com}{ftyers@prompsit.com}}
+
+\author {Jonathan North Washington\\
+Departments of Linguistics and Central Eurasian Studies\\
+Indiana University\\
+Bloomington, IN 47405-7000 (USA)\\
+\texttt{jonwashi@indiana.edu} \and
+Mirlan Ipasov\\
+Computer Engineering and Mathematics Department\\
+International Ataturk Alatoo University\\
+Bishkek (Kyrgyzstan)\\
+\texttt{mipasov@gmail.com} \and
+Francis M. Tyers\\
+Dept.\ Lleng.\ i Sist.\ Informàtics \\  
+Universitat d'Alacant\\
+E-03071 Alacant (Spain)\\
+\texttt{ftyers@dlsi.ua.es} 
+ }
+
+
+\date{}
+
+\begin{document}
+\maketitle{}
+\thispagestyle{empty}
+
+\section{Introduction}
+This paper describes the development of a morphological transducer oriented for the task of machine translation for the Kyrgyz language using the free/open-source platform HFST. The transducer was developed under the auspices of the Apertium \cite{forcada2011} project for use in a machine translation system from Turkish to Kyrgyz.
+
+The paper is split into five main parts. First a background section gives some details about Kyrgyz and the toolkit used. Subsequent sections describe the tagset and individual issues encountered with the morphotactics and the morphophonology. Finally, some evaluation results are given and future work outlined.
+
+\section{Background}
+\subsection{The Kyrgyz language}
+Kyrgyz (written ‹кыргыз тили› or ‹\textuighur{قىرعىز تىلى}›, pronounced [qɯɾʁɯz tili]) alternatively written ``Kirghiz'' or ``Kirgiz'') is a Turkic language spoken in Kyrgyzstan, China, Tajikistan, and Uzbekistan.  Its classification within Turkic remains problematic—it appears to alternatively belong to the Kypchak (Northwestern) branch and to the South Siberian (Northeastern) branch.  The Turkic varieties phonetically and phonologically most similar to Kyrgyz are the southern dialects of Altay, though Kyrgyz shows strong parallels to Kazakh that these varieties lack, especially in its Talas dialects.  In southern varieties of Kyrgyz there are also many similarities to Uzbek that other dialects lack.
+
+Kyrgyz is spoken mostly in Kyrgyzstan where it has official status as the national language.  Many Kyrgyz speakers in Kyrgyzstan are bilingual in Russian and/or Uzbek, and make up a majority of the population of the country.  There are other sizable Kyrgyz-speaking communities outside of Kyrgyzstan, most notably in China (where the Kyrgyz are an officially recognised minority), Tajikistan, and Uzbekistan.  Current estimates of the number of speakers range from 3 million to 4 million.\footnote{Based on figures from \cite{lewis2009} and \cite{factbook2009}}  Not all ethnic Kyrgyz speak the language, and not all competent speakers are ethnic Kyrgyz, but there is a very strong correspondence between ethnic identity and knowledge of the language.\footnote{This interpretation of the situation is supported by the experiences of the authors with the language, and is common knowledge in Kyrgyzstan.}
+
+%FIXED: Should we say something about how I sometimes consulted Tolgonay, or about where my knowledge of Kyrgyz comes from in the first place?
+%FIXME: Tolgonay's name to acknowledgements (where?) for helping with Kyrgyz
+The understanding of Kyrgyz grammar employed to construct the transducer for this project was gained from the Kyrgyz knowledge of two of our authors.  Mirlan Ipasov is a native speaker of Kyrgyz, and Jonathan Washington is a theoretical and descriptive linguist fluent in Kyrgyz and knowledgeable about Turkic languages.  Some grammar sources were consulted, such as \cite{hebertpoppe1963}, \cite{usonalievomuraliev2003}, \cite{qudaybergenov1980}, \cite{somfaikara2003}, and \cite{imart1981}, but they were largely not relied on due to their approaches to Kyrgyz grammar.  Some dictionaries were also consulted, including \cite{jumakunova2005} and \citetwoyears{yudakhin1957}{yudakhin1965}.
+
+\subsection{Morphological transducers}
+%FIXME: this seems to be wrapping badly, at least here
+The objective of a morphological transducer is twofold. Firstly to take surface forms (e.g., алдым) and generate all possible lexical forms, and secondly to take lexical forms (e.g.,  ал<v><tv><ifi><p1><sg>, алд<n><px1sg><nom>, etc.) and generate one or more surface forms. 
+
+%FIXME: broken citation: "altinasi"? maybe altintas?
+The project is designed based on the Helsinki Finite State Toolkit \citep{linden2011} which is a free/open-source reimplementation of the Xerox finite-state toolchain, popular in the field of morphological analysis. It implements both the \textbf{lexc} formalism for defining lexicons, and the \textbf{twol} and \textbf{xfst} formalisms for modeling morphophonological rules. It also supports other finite state transducer formalisms such as \textbf{sfst}. This toolkit has been chosen as it -- or the equivalent XFST -- has been widely used for other Turkic languages \citemultileft{coltekin2010}, \citemultimid{altinasi2001}, \citemultiright{tantug2006}, and is available under a free/open-source licence.
+
+\section{Description}
+%FIXME: \ldots{} section
+The tagset consists of 119 separate tags, 17 covering the main parts of speech (noun, verb, adjective, adverb, postposition, \ldots{}) and 102 covering morphological subcategorisation for e.g. case, number, person, possession, transitivity, tense-aspect-mood, etc.
+
+The tags are represented as multicharacter symbols, between `<' and `>' punctuation.
+
+%FIXME: something about {} representation of archiphonemes and what they mean?
+
+\section{Morphotactics}
+
+%TODO: for a future version
+%\subsection{Challenges:  Copula, how to represent different tenses, what is a “word”?}
+
+\subsection{Morphological and orthographic words}
+
+\subsection{Irregular negatives of finite verb forms}
+
+One of the morphotactic challenges met in defining a finite-state transducer for Kyrgyz is that many finite verb forms have ``irregular'' negative forms.  While the paradigms are completely regular, the negative morphotactics are not regularly derived from the affirmative forms.  There are also several different ``regular'' patterns of alternation.  Listed in table~\ref{irregnegs} are a couple examples of a few finite verb paradigms with their negative forms.
+
+\begin{table*}[htbp]
+	\caption{examples of different affirmative / negative alternations in finite verb forms}\label{irregnegs}
+	\centering
+	\begin{tabular}{lll}
+		\toprule
+		tense/aspect & ending $+$ person series & ending $+$ person series \\
+		\midrule
+		recent eyewitness past & -/DI/ $+$ P4\footnotemark{} & -/GAн жок/ $+$ P3\\
+		non-recent past & -/GAн/ $+$ P3 & -/GAн эмес/ $+$ P3\\
+		non-recent evidential past & -/GAн экен/ $+$ P3 & -/GAн эмес экен/ $+$ P3\\
+		past habitual & -/чU/ $+$ P3 & -/чU эмес/ $+$ P3\\
+		recent evidential past & -/(I)птIр/ $+$ P3 & -/BAптIр/ $+$ P3\\
+		habitual/future & -/E/ $+$ P6 & -/BAй/ $+$ P6\\
+		%FIXME: /й/ here is technically /E/, but it's always realised as [й] after a vowel so will always be [й] here; how should we talk about it here?  Is this actually treated as regular in kymorph?
+		\bottomrule
+	\end{tabular}
+\end{table*}
+
+\footnotetext{P1--P6 refer to different sets of personal suffixes; the terminology and specific numbers are based off of \cite{hebertpoppe1963}[29].}
+
+%FIXME: is "point to" the right terminology?
+Since the general verbal negation morpheme in Kyrgyz tends to be /BA/ (as it is in all non-finite verb forms), we treated forms with /BA/ (the last two in the list above, for example) as regular (assuming other aspects of their morphology didn’t change).  We then created two different sets of continuation lexica for finite verb forms—one for regular finite verb forms, and one for irregular finite verb forms.  The continuation lexicon for regular finite verbal forms points to two continuation lexica: one of the regular verb suffixes (such as -/(I)птIр/ and -/E/, which in turn point to the appropriate continuation lexica for their person endings), and one of the negative -/BA/, which in turn points to the regular verb suffix continuation lexicon.  The continuation lexicon for irregular finite verb forms directly contains affirmative and negative morphology which each point to the appropriate personal suffix continuation lexica.
+
+\subsection{Irregular [noun + possessive + case] forms}
+
+There are a number of other morphotactic issues involving ``irregular'' forms that have been dealt with in a similar way to the negative finite verb forms.  One such issue involves nominal possessive morphology when followed by case suffixes.
+
+Nouns may be followed by possessive morphology before any case morphology.  This relates the noun to a preceding noun or pronoun in the genitive case.  However, when both possessive morphology and case morphology occur after a noun, there is some irregularity in the system.  Table \ref{irregposcase} summarises some of the forms.  Forms that do not result from simple concatenation of the possession and case endings are highlighted in bold as being irregular.
+
+\begin{table*}[htbp]
+	\caption{combinations of possessive suffixes with case suffixes}\label{irregposcase}
+	\centering
+	\begin{tabular}{llllll}
+		\toprule
+		case & morphology & 1st person singular & 2nd person sing. & 3rd person & 1st person plural \\
+		\midrule
+		nom & — & -(I)м & -(I)ң & -(S)I & -(I)бIз \\
+		acc & -NI & -(I)мдI & -(I)ңдI & -\textbf{(S)Iн} & -(I)бIздI \\
+		gen & -NIн & -(I)мдIн & -(I)ңдIн & -(S)IнIн & -(I)бIздIн \\
+		loc & -DA & -(I)мдA & -(I)ңдA & -\textbf{(S)IндA} & -(I)бIздA \\
+		abl & -DAн & -(I)мдAн, -\textbf{(I)мAн} & -(I)ндAн, -\textbf{(I)ңAн} & -\textbf{(S)IнAн} & -(I)бIздAн \\
+		dat & -GA & -\textbf{(I)мA} & -\textbf{(I)ңA} & -\textbf{(S)IнA} & -(I)бIзгA \\
+		\bottomrule
+	\end{tabular}
+\end{table*}
+
+%FIXME: maybe a footnote at least about what "optional loss of /D/" means?
+%TODO: some explanation of how optional rules were dealt with
+There are two rules that can immediately deal with some of these forms: optional loss of /D/ in the ablative suffix after 1st person singular, 2nd person singular, and 3rd person possession suffixes, and mandatory loss of /G/ in the dative suffix in the same situations.  Since these are rules specific to these morphological forms and don’t apply generally in Kyrgyz at a phonological level, they were implemented directly in the interaction of the continuation lexica for these possessive suffixes and ablative and dative case suffixes.
+%FIXME: should we be more specific as to how we did this, or is something very vague and general like this good?
+
+However, instead of doing complicated splitting of the case continuation lexica following the third person possessive suffix to sometimes insert /н/, we decided to proceed under the premise that /н/ was instead underlying in this suffix (and a couple others!) and got deleted in the nominative, accusative, and genitive.  To accomplish this, a \{n\} archiphoneme was added to the 3rd person possessive suffix, creating an underlying form of \{S\}\{I\}\{n\}.  Phonological rules were implemented in twolc which deleted \{n\} when followed by nothing (for nominative), another set of rules that deleted the accusative \{N\}\{I\} after \{n\} and a morpheme boundary, and a rule that deleted \{n\} when followed by a morpheme boundary and the genitive \{N\}\{I\}н.\footnote{Because a general possessive suffix that can follow personal possessive suffixes can also behave like the genitive in this respect, the rule is actually more general.}
+
+While the phonological rules are not necessarily as closely tied to an accurate morphological analysis of what is going on as they could be, these few rules allowed fewer irregular continuation lexica to be created---most immediately by allowing the ablative and dative continuation lexica for 3rd person to behave similarly to that of 1st and 2nd person singular, and avoiding separate irregular continuation lexica for the other cases.  The direct result of this approach was a much smaller and simpler transducer.
+
+\section{Morphophonology}
+
+\subsection{Vowel harmony}
+
+In Kyrgyz, there are two basic archiphonemes: a low vowel, \{A\}, and a high vowel, \{I\}.  The high vowel takes the backness and rounding of the preceding vowel, resulting in the values shown in table~\ref{vowelharmonyI}.
+
+\begin{table}[htbp]
+	\centering
+	\caption{vowel harmony for archiphoneme \{I\}}\label{vowelharmonyI}
+	\subtable{
+		\begin{tabular}{cc}
+			\toprule
+			after & result \\
+			\midrule
+			и & и \\
+			ү & ү \\
+			е & и \\
+			ө & ү \\
+			\bottomrule
+		\end{tabular}
+	}
+	\hspace{2em}
+	\subtable{
+		\begin{tabular}{cc}
+			\toprule
+			after & result \\
+			\midrule
+			ы & ы \\
+			у & у \\
+			а & ы \\
+			о & у \\
+			\bottomrule
+		\end{tabular}
+	}
+\end{table}
+
+The back vowel \{A\} also takes the backness and rounding of the preceding vowel, with the exception of when it occurs after /у/---n this case, it has an unrounded variant, as depicted in table~\ref{vowelharmonyA}.
+
+\begin{table}[htbp]
+	\centering
+	\caption{vowel harmony for archiphoneme \{A\}}\label{vowelharmonyA}
+	\subtable{
+		\begin{tabular}{ll}
+			\toprule
+			after & result \\
+			\midrule
+			и & е \\
+			ү & ө \\
+			е & е \\
+			ө & ө \\
+			\bottomrule
+		\end{tabular}
+	}
+	%\qquad
+	\hspace{2em}
+	\subtable{
+		\begin{tabular}{ll}
+			\toprule
+			after & result \\
+			\midrule
+			ы & а \\
+			у & а \\
+			а & а \\
+			о & о \\
+			\bottomrule
+		\end{tabular}
+	}
+\end{table}
+
+There were other vowel archiphonemes that had to be implemented in this project.  For example, \{U\} occurs in the past habitual suffix -/чU/ and the general gerund/infinitive -/Uː/, but nowhere else in the language.  Also, \{E\} was created for use in the habitual/future suffix; it has surface forms identical to those of \{A\}, except after vowels where it surfaces as [й].  Despite the fact that \{E\} is very similar to \{A\}, a separate but very similar twolc rule had to be created.  Repeated content could have been reduced by using cascading rules instead of two-level rules, but this would have caused other complications, such as finding the correct rule ordering.  An alternative possibility would’ve been to have a single intermediate level so that a rule like ``\{E\}→\{A\} after vowels'' with a default surface form of [й] could've been implemented.
+
+
+\subsection{Voicing assimilation}\label{devoicing}
+In Kyrgyz, there are two basic processes affecting the realisation of consonants when they are adjacent to other consonants: voicing assimilation and desonorisation.
+
+Voicing assimilation in Kyrgyz involves the agreement of voicing of two consonants across a syllable boundary.  An example involves the locative and dative suffixes, as shown in table~\ref{exvoicing}.
+
+\begin{table}[htbp]
+	\caption{examples comparing voicing and devoicing in Kyrgyz}\label{exvoicing}
+	\subtable{
+		\begin{tabular}{lll}
+			\toprule
+			underlying & surface & gloss \\
+			\midrule
+			/алма-DA/ & [алмада] & \eng{apple--\gmk{LOC}} \\
+			/каз-DA/ & [казда] & \eng{goose--\gmk{LOC}} \\
+			/баш-DA/ & [башта] & \eng{head--\gmk{LOC}} \\
+			\bottomrule
+		\end{tabular}
+	}
+	\hspace{2em}
+	\subtable{
+		\begin{tabular}{lll}
+			\toprule
+			underlying & surface & gloss \\
+			\midrule
+			/алма-GA/ & [алмага] & \eng{apple--\gmk{DAT}} \\
+			/каз-GA/ & [казга] & \eng{goose--\gmk{DAT}} \\
+			/баш-GA/ & [башка] & \eng{head--\gmk{DAT}} \\
+			\bottomrule
+		\end{tabular}
+	}
+\end{table}
+
+Here, the underlying /D/ is always realised as [д] when after a voiced segment (including a vowel), but is realised as [т] after an unvoiced consonant, while underlying /G/ is always realised as [г]\footnote{‹г› is pronounced [ɣ] in the context of front vowels and [ʁ] in the context of back vowels; it also has realisations of [ɡ] and [ɢ] after nasals.} after a voiced segment, but is realised as [к]\footnote{‹к› is realised as [q] in the context of back vowels and [k] in the presence of front vowels.} after voiceless consonants.
+
+Voicing assimilation was dealt with simply by creating a single twol rule that transformed any relevant archiphoneme (\{B\}, \{G\}, \{D\}, \{L\}, and \{N\}) to a voiceless stop (either [п], [к], or [т]) after a voiceless consonant.  The set of voiceless consonants was also defined in twolc so that rules sensitive to this set would be easier to write.
+%FIXME: and more efficient?  Or not?
+
+\subsection{Desonorisation}
+Desonorisation happens to /N/ when it follows any consonant, and to /L/ when it follows a consonant of equal or lower sonority (i.e., /л/, nasals (/м/, /н/, /ң/), and obstruents, but not /й/, /р/, or vowels).  The resulting surface consonant is [д] for both /N/ and /L/, unless it follows a voiceless consonant, in which case it surfaces as [т].  An example includes the accusative and plural suffixes:
+
+\begin{table}[htbp]
+	\caption{examples comparing desonorisation of \{N\} and \{L\}}\label{exdesonorisation}
+	\subtable{
+		\begin{tabular}{lll}
+			\toprule
+			underlying & surface & gloss \\
+			\midrule
+			/алма-NI/ & [алманы] & \eng{apple--\gmk{ACC}} \\
+			/сыр-NI/ & [сырды] & \eng{secret--\gmk{ACC}} \\
+			/каз-NI/ & [казды] & \eng{goose--\gmk{ACC}} \\
+			/баш-NI/ & [башты] & \eng{head--\gmk{ACC}} \\
+			\bottomrule
+		\end{tabular}
+	}
+	\hspace{2em}
+	\subtable{
+		\begin{tabular}{lll}
+			\toprule
+			underlying & surface & gloss \\
+			\midrule
+			/алма-LAр/ & [алмалар] & \eng{apple--\gmk{PL}} \\
+			/сыр-LAр/ & [сырлар] & \eng{secret--\gmk{PL}} \\
+			/каз-LAр/ & [каздар] & \eng{goose--\gmk{PL}} \\
+			/баш-LAр/ & [баштар] & \eng{head--\gmk{PL}} \\
+			\bottomrule
+		\end{tabular}
+	}
+\end{table}
+
+%FIXME: explain better
+The orthography makes this straightforward, since e.g., words borrowed from Russian which end in ‹в› are treated in spoken Kyrgyz as unvoiced (and indeed have unvoiced surface forms syllable-finally), but are treated as voiced in the orthography.
+
+Desonorisation was dealt with by a rule that changes \{L\} to [д] following a series of ``low-sonority'' consonants appropriately defined earlier in the twol file and a syllable boundary.  The \{N\} desonorisation rule changes \{N\} to [д] following a series containing all voiced consonants, followed by a syllable boundary.  Both sets were defined to exclude voiceless consonants that would instead trigger devoicing (§\ref{devoicing}).
+
+
+\subsection{Lenition}
+In Kyrgyz, stem-final [voiceless] labial and dorsal consonants voice when a suffix beginning with a vowel follows them.  The implementation of this in twol is very straightforward.
+%FIXME: what else needs to be said here?
+
+
+\subsection{Nouns ending in /рн/, etc.}
+
+Kyrgyz has a number of nouns that underlyingly end with a consonant cluster consisting of two liquids, but which are split by an epenthetic vowel syllable-finally.
+\begin{table}[htbp]
+	\caption{examples of /рн/-final nouns surfacing with epenthetic vowel}\label{exrnvowel}
+	\centering
+	\subtable{
+		\begin{tabular}{lll}
+			\toprule
+			underlying & surface & gloss \\
+			\midrule
+			/мурн/ & [мурун] & \eng{nose} \\
+			/мурн-LAр/ & [мурундар] & \eng{nose--\gmk{PL}} \\
+			\bottomrule
+		\end{tabular}
+	}
+	\hspace{2em}
+	\subtable{
+		\begin{tabular}{lll}
+			\toprule
+			underlying & surface & gloss \\
+			\midrule
+			/орн/ & [орун] & \eng{place} \\
+			/орн-LAр/ & [орундар] & \eng{places--\gmk{PL}} \\
+			\bottomrule
+		\end{tabular}
+	}
+\end{table}
+However, when a vowel-initial suffix follows the noun, the epenthetic vowel is absent, and all rules of consonant unfaithfulness involving consonant clusters are enforced[?].
+%FIXME: "[?]"
+%FIXME: make better references to the tables
+\begin{table}[htbp]
+	\caption{examples of /рн/-final nouns surfacing with no epenthetic vowel}\label{exrnnovowel}
+	%\centering
+	\subtable{
+		\begin{tabular}{lll}
+			\toprule
+			underlying & surface & gloss \\
+			\midrule
+			%FIXME: should the glosses here and below be morpheme-by-morpheme for consistency, or is a more colloquial gloss okay?
+			/мурн-(S)I/ & [мурду] & \eng{his/her/its nose} \\
+			/мурн-Iм-DAн/ & [мурдуман] & \eng{from my nose} \\
+			\bottomrule
+		\end{tabular}
+	}
+	\hspace{0.5em}
+	\subtable{
+		\begin{tabular}{lll}
+			\toprule
+			underlying & surface & gloss \\
+			\midrule
+			/орн-(S)I/ & [орду] & \eng{his/her/its place} \\
+			/орн-Iм-DAн/ & [ордуман] & \eng{from my place} \\
+			\bottomrule
+		\end{tabular}
+	}
+\end{table}
+
+This was dealt with in a somewhat non-linguistic way: a default epenthetic vowel {y} was defined and inserted into the words by default:
+
+%FIXME: do something with these: make them prettier, remove them, explain them better, ....?
+\noindent орун:ор\%\{y\%\}н N-INFL ;\\
+\noindent мунун:мур\%\{y\%\}н N-INFL ;
+
+The vowel was then removed by a twol rule when a vowel followed.  To realise the epenthetic vowel, a rule resembling the \{I\} vowel harmony rule was created---the primary difference between these rules is that the \{y\} harmony rule only acts when something other than a vowel (i.e., a consonant or a word boundary) follows the following consonant.  While \{y\} will always behave like \{I\}, there is unfortunately no way to make this happen without replicating the context of the \{I\} rule.  This is due to restrictions in two-level morphology.
+%FIXME: last sentence needs some rewriting
+
+\subsection{й+vowel letters}
+
+In Kyrgyz, there are a series of letters which represent /й/ plus a vowel: /я, е, ё, ю/ represent /йа, йэ, йо, йу/ respectively.  However, /э/ is also represented as /е/ when short and after a consonant (i.e., it’s only represented as /э/ when long—/ээ/—or when word-initially).  These ``yoticised'' vowels proved difficult to work.  For example, /бой+(S)I/ \eng{length}, given normal vowel harmony rules, would surface as [бойу].  However, the correct form is [бою].  Distinct and separate vowel harmony rules had to be created for all vowel archiphonemes in post-vocalic contexts, e.g. here to turn \{I\} into [ю] after /й/.  An additional rule had to delete the underlying /й/ before yoticised vowel letters (so that e.g. [бойю] was not output).  Because there are too levels to the phonology in twolc and it’s otherwise not linear, attention had to be paid to the fact that e.g., the distinct vowel harmony rules for post-/й/ contexts recognised that the /й/ would not appear on the second [surface] level.
+
+\section{Statistics}
+
+%FIXME: numbers!!
+number of stems, number of continuation lexica, coverage, mean ambiguity (in corpus)
+
+\subsection{Number of stems}
+
+Table~\ref{table:stems} gives the approximate number of stems in each main word class. The numbers
+are approximate as some words may have two entries for one stem (for example if a set of forms
+is irregular).
+
+\begin{table*}
+	\centering
+	\begin{tabular}{lr}
+		\toprule
+		Part of speech & Number of stems\\
+		\midrule
+		Noun & 4,731\\
+		Adjective & 924\\
+		Verb & 896 \\
+		Proper noun & 745\\
+		Adverb & 213\\
+		Numeral & 50\\
+		Postposition & 42\\
+		Conjunction & 36\\
+		Pronoun & 29\\
+		Determiner & 27\\
+		\midrule
+		Total:     & 7,333\\
+		\bottomrule
+	\end{tabular}
+	\caption{FIXME}\label{table:stems}
+	%FIXME: are we putting captions above or below tables?  I like them better below, but I got the impression that there's some standard to have them above.  Maybe it was just UW being table Nazis for my MA thesis.
+\end{table*}
+
+
+\subsection{Coverage}
+
+%FIXME: is this about right?  and I mean all aspects of the paragraph
+%FIXME: ZZ needs to be replaced with .. ?
+To calculate the naïve coverage\footnote{FIXME} of the analyser, two corpora were used, the first was a database dump of the Kyrgyz Wikipedia, dated 2011-09-23,\footnote{The exact name of the dump was \texttt{kywiki-20110923-pages-articles.xml}.} which was processed with the programs \texttt{aq-wikicrp} and ZZ to extract sentences. The second was a corpus generated from the archives of Radio Free Europe / Radio Liberty's Kyrgyz service, \href{http://www.azattyk.org}{azattyk.org}.  The RFERL corpus was built using a script that scraped the archives for all articles from 2010, which include articles on a wide variety of topics, from sports to politics and from culture to current events.
+
+Both corpora were split into 10 equal parts, and coverage was calculated over each part separately in order to calculate the standard deviation of the mean. As can be seen from table~\ref{table:cov}, running the analyser on the RFERL gives a higher coverage, because the text is more homogenous, and there is less non-Kyrgyz (e.g., Russian) text.
+
+\begin{table*}[htbp]
+	\centering
+	\begin{tabular}{lrrrr}
+		\toprule
+		Corpus           & Tokens    & Known     & Naïve coverage    & Mean ambiguity\\
+		\midrule
+		Kyrgyz Wikipedia & 329,524   & 269,573   & 81.84 $\pm$ 3.23  & 4.54\\
+		RFERL Kyrgyzstan & 4,107,555 & 3,586,000 & 87.37 $\pm$ 1.23  & 4.46\\
+		\bottomrule
+	\end{tabular}
+	\caption{FIXME}
+	\label{table:cov}
+\end{table*}
+
+The column `mean ambiguity' gives the average number of analyses for each surface form given when analysing this corpus.
+
+\section{Future work}
+
+The major work to be done is increasing the size of the lexicon. While a good level of coverage has been achieved with only 7,333 stems, real-word, or production morphological analysers have tens of thousands of stems, even for morphologically-rich languages like Kyrgyz.
+
+Once good coverage has been achieved with a morphological analyser, the next logical step is to start work on morphological and syntactic disambiguation. As can be seen from the figures for mean ambiguity, there is a lot of work that can be done on disambiguation.
+
+%FIXME: * Some remaining transducer issues
+Also, despite the good coverage, there are still a number of grammatical forms that have not been implemented into the transducer.  One of these is the irregular combination of 3rd person non-past finite verb plus the yes/no question particle.  For example, the third person non-past of /бар/ \eng{go} is [барат], but when the question particle -/BI/ is added, the resulting form is [барабы] instead of *[баратпы] (the transducer's current output).  There are also currently some problems handling the progressive aspect auxiliary /жат/ when it grammaticalises as a suffix with a couple verbs (/бар/ and /кел/) which often use a different participial form with this auxiliary than most verbs do.
+
+\bibliographystyle{styler}
+\bibliography{paper}
+
+%FIXME: "Kazan Tatar ..."
+
+\end{document}

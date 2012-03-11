@@ -12,3 +12,9 @@
 /autogen.sh -text
 /configure.ac -text
 dev/countstems.sh -text
+paper/Makefile -text
+paper/abstract.tex -text
+paper/lrec2006.bst -text
+paper/lrec2006.sty -text
+paper/paper.bib -text
+paper/paper.tex -text

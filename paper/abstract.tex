@@ -1,0 +1,164 @@
+\documentclass[11pt,a4paper,onecolumn]{article}
+
+%old lrec stuff doesn't work well =(
+%\usepackage{lrec2006}
+
+\usepackage{polyglossia}
+\setdefaultlanguage[variant=australian]{english}
+
+\usepackage{fontspec}
+\defaultfontfeatures{PunctuationSpace=3,Scale=MatchLowercase,Mapping=tex-text}
+\newfontfeature{IPA}{+mgrk}
+\setromanfont[IPA]{FreeSerif}
+
+\usepackage[novoc,fdf2alif]{arabxetex}
+\newfontfamily\uighurfont[Script=Arabic,Scale=1.5]{Lateef}
+\newfontfamily\arabicfont[Script=Arabic,Scale=1.5]{Lateef}
+
+\usepackage{natbib}
+
+\usepackage[in]{fullpage}
+\usepackage[colorlinks=true,citecolor=black,linkcolor=black,urlcolor=blue]{hyperref}
+
+\usepackage{subfigure}
+\usepackage{booktabs}
+
+%\bibpunct{(}{)}{;}{A}{,}{,}
+\bibdata{paper}
+
+\newcommand{\citemultileft}[1]{(\citeauthor{#1}, \citeyear{#1}}
+\newcommand{\citemultimid}[1]{\citeauthor{#1}, \citeyear{#1}}
+\newcommand{\citemultiright}[1]{\citeauthor{#1}, \citeyear{#1})}
+\newcommand{\citetwoyears}[2]{\citeauthor{#1} (\citeyear{#1} and \citeyear{#2})}
+
+% for glosses
+\newcommand{\eng}[1]{`{\em #1}'}
+%dammit, sc doesn't seem to be working
+\newcommand{\gmk}[1]{\textsc{#1}}
+
+
+\title{A finite-state morphological transducer for Kyrgyz}
+%\author{Jonathan North Washington, Mirlan Ipasov, and Francis Tyers\\\href{mailto:jonwashi@indiana.edu}{jonwashi@indiana.edu}, \href{mailto:mipasov@gmail.com}{mipasov@gmail.com}, \href{mailto:ftyers@prompsit.com}{ftyers@prompsit.com}}
+
+\author {Jonathan North Washington\\
+Departments of Linguistics and Central Eurasian Studies\\
+Indiana University\\
+Bloomington, IN 47405-7000 (USA)\\
+\texttt{jonwashi@indiana.edu} \and 
+Mirlan Ipasov\\
+Computer Engineering and Mathematics Department\\
+International Ataturk Alatoo University\\
+Bishkek (Kyrgyzstan)\\
+\texttt{mipasov@gmail.com} \and
+Francis M. Tyers\\
+Dept.\ Lleng.\ i Sist.\ Informàtics \\  
+Universitat d'Alacant\\
+E-03071 Alacant (Spain)\\
+\texttt{ftyers@dlsi.ua.es} 
+ }
+
+
+\date{}
+
+\begin{document}
+\maketitle{}
+\thispagestyle{empty}
+
+%\section{Introduction}
+This paper describes the development of a morphological transducer oriented for the task of machine translation for the Kyrgyz language using the free/open-source platform HFST. The transducer was developed under the auspices of the Apertium \cite{forcada2011} project for use in a machine translation system from Turkish to Kyrgyz.
+
+%The paper is split into five main parts. First a background section gives some details about Kyrgyz and the toolkit used. Subsequent sections describe the tagset and individual issues encountered with the morphotactics and the morphophonology. Finally, some evaluation results are given and future work outlined.
+
+%\section{Background}
+%\subsection{The Kyrgyz language}
+Kyrgyz (written ‹кыргыз тили› or ‹\textuighur{قىرعىز تىلى}›, pronounced [qɯɾʁɯz tili]) alternatively written ``Kirghiz'' or ``Kirgiz'') is a Turkic language spoken in Kyrgyzstan, China, Tajikistan, and Uzbekistan.  Its classification within Turkic remains problematic—it appears to alternatively belong to the Kypchak (Northwestern) branch and to the South Siberian (Northeastern) branch.  The Turkic varieties phonetically and phonologically most similar to Kyrgyz are the southern dialects of Altay, though Kyrgyz shows strong parallels to Kazakh that these varieties lack, especially in its Talas dialects.  In southern varieties of Kyrgyz there are also many similarities to Uzbek that other dialects lack.
+
+Kyrgyz is spoken mostly in Kyrgyzstan where it has official status as the national language.  Many Kyrgyz speakers in Kyrgyzstan are bilingual in Russian and/or Uzbek, and make up a majority of the population of the country.  There are other sizable Kyrgyz-speaking communities outside of Kyrgyzstan, most notably in China (where the Kyrgyz are an officially recognised minority), Tajikistan, and Uzbekistan.  Current estimates of the number of speakers range from 3 million to 4 million.\footnote{Based on figures from \cite{lewis2009} and \cite{factbook2009}}  Not all ethnic Kyrgyz speak the language, and not all competent speakers are ethnic Kyrgyz, but there is a very strong correspondence between ethnic identity and knowledge of the language.\footnote{This interpretation of the situation is supported by the experiences of the authors with the language, and is common knowledge in Kyrgyzstan.}
+
+%FIXED: Should we say something about how I sometimes consulted Tolgonay, or about where my knowledge of Kyrgyz comes from in the first place?
+%FIXED: (not for abstract) Tolgonay's name to acknowledgements (where?) for helping with Kyrgyz
+%The understanding of Kyrgyz grammar employed to construct the transducer for this project was gained from the Kyrgyz knowledge of two of our authors.  Mirlan Ipasov is a native speaker of Kyrgyz, and Jonathan Washington is a theoretical and descriptive linguist fluent in Kyrgyz and knowledgeable about Turkic languages.  Some grammar sources were consulted, such as \cite{hebertpoppe1963}, \cite{usonalievomuraliev2003}, \cite{qudaybergenov1980}, \cite{somfaikara2003}, and \cite{imart1981}, but they were largely not relied on due to their approaches to Kyrgyz grammar.  Some dictionaries were also consulted, including \cite{jumakunova2005} and \citetwoyears{yudakhin1957}{yudakhin1965}.
+
+%\subsection{Morphological transducers}
+%FIXME: this seems to be wrapping badly, at least here
+The objective of a morphological transducer is twofold. Firstly to take surface forms (e.g., алдым) and generate all possible lexical forms, and secondly to take lexical forms (e.g.,  ал+{\texttt Verb}+{\texttt Transitive}+{\texttt EyePast}+\texttt{1Sg}, алд+{\texttt Noun}+{\texttt Px1Sg}\footnote{{\texttt Px} = possessive}+{\texttt Nom}, etc.) and generate one or more surface forms. 
+
+The project is designed based on the Helsinki Finite State Toolkit \citep{linden2011} which is a free/open-source reimplementation of the Xerox finite-state toolchain, popular in the field of morphological analysis. It implements both the \textbf{lexc} formalism for defining lexicons, and the \textbf{twol} and \textbf{xfst} formalisms for modeling morphophonological rules. It also supports other finite state transducer formalisms such as \textbf{sfst}. This toolkit has been chosen as it -- or the equivalent XFST -- has been widely used for other Turkic languages \citemultileft{coltekin2010}, \citemultimid{altintas2001}, \citemultiright{tantug2006}, and is available under a free/open-source licence.
+
+%\section{Description}
+%FIXME: \ldots{} section
+The tagset consists of 119 separate tags, 17 covering the main parts of speech (noun, verb, adjective, adverb, postposition, \ldots{}) and 102 covering morphological subcategorisation for e.g. case, number, person, possession, transitivity, tense-aspect-mood, etc.
+
+The tags are represented as multicharacter symbols, between `<' and `>' punctuation.
+
+%FIXME: something about {} representation of archiphonemes and what they mean?
+
+%\section{Morphotactics}
+
+%TODO: for a future version
+%\subsection{Challenges:  Copula, how to represent different tenses, what is a “word”?}
+
+%\subsection{Irregular negatives of finite verb forms}
+
+Some of the morphotactic challenges met in defining a finite-state transducer for Kyrgyz were irregular negatives of finite verb forms, irregular case + possessive morphology on nouns, and optional forms of certain morphemes.
+
+While the paradigms of finite verbs in Kyrgyz are completely regular, the negative morphotactics are not regularly derived from the affirmative forms.  There are also several different ``regular'' patterns of alternation.
+
+%\subsection{Irregular [noun + possessive + case] forms}
+
+Nouns may be followed by possessive morphology before any case morphology.  This relates the noun to a preceding noun or pronoun in the genitive case.  However, when both possessive morphology and case morphology occur after a noun, there is some irregularity in the system.
+
+%\section{Morphophonology}
+
+%\subsection{Vowel harmony}
+
+In Kyrgyz, there are generally two basic archiphonemes: a low vowel, \{A\}, and a high vowel, \{I\}.  The high vowel takes the backness and rounding of the preceding vowel, resulting in one of four surface vowels.  The back vowel \{A\} also takes the backness and rounding of the preceding vowel, with the exception of when it occurs after /у/---in this case, it has an unrounded variant, as depicted in table.
+
+%\subsection{Voicing assimilation}\label{devoicing}
+In Kyrgyz, there are two basic processes affecting the realisation of consonants when they are adjacent to other consonants: voicing assimilation and desonorisation.  Voicing assimilation in Kyrgyz involves the agreement of voicing of two consonants across a syllable boundary.
+
+%\subsection{Desonorisation}
+Desonorisation involves the loss of sonority of sonorants in certain phonological environments (e.g., /n/ becomes [d]).
+
+%\subsection{Lenition}
+In Kyrgyz, stem-final [voiceless] labial and dorsal consonants voice when a suffix beginning with a vowel follows them.
+
+%\subsection{й+vowel letters}
+In Kyrgyz, there are a series of letters which represent /й/ plus a vowel: /я, е, ё, ю/ represent /йа, йэ, йо, йу/ respectively.  However, /э/ is also represented as /е/ when short and after a consonant (i.e., it’s only represented as /э/ when long—/ээ/—or when word-initially).  These ``yoticised'' vowels proved difficult to work with.  For example, /бой+(S)I/ \eng{length}, given normal vowel harmony rules, would surface as [бойу].  However, the correct form is [бою].
+%\section{Statistics}
+
+The analyser contains a total of 7,333 stems.  To calculate the coverage of the analyser, two corpora were used, the first was a database dump of the Kyrgyz Wikipedia, dated 2011-09-23. The second was a corpus generated from the archives of Radio Free Europe / Radio Liberty's Kyrgyz service, \href{http://www.azattyk.org}{azattyk.org}.  The RFERL corpus was built using a script that scraped the archives for all articles from 2010, which include articles on a wide variety of topics, from sports to politics and from culture to current events.
+
+Both corpora were split into 10 equal parts, and coverage was calculated over each part separately in order to calculate the standard deviation of the mean. As can be seen from table~\ref{table:cov}, running the analyser on the RFERL gives a higher coverage, because the text is more homogenous, and there is less non-Kyrgyz (e.g., Russian) text.
+
+\begin{table*}[htbp]
+	\centering
+	\begin{tabular}{lrrrr}
+		\toprule
+		Corpus           & Tokens    & Known     & Naïve coverage    & Mean ambiguity\\
+		\midrule
+		Kyrgyz Wikipedia & 329,524   & 269,573   & 81.84 $\pm$ 3.23  & 4.54\\
+		RFERL Kyrgyzstan & 4,107,555 & 3,586,000 & 87.37 $\pm$ 1.23  & 4.46\\
+		\bottomrule
+	\end{tabular}
+	\caption{Coverage and ambiguity of the analyser over the two corpora}
+	\label{table:cov}
+\end{table*}
+
+The column `mean ambiguity' gives the average number of analyses for each surface form given when analysing this corpus.
+
+%\section{Future work}
+
+The major work to be done is increasing the size of the lexicon. While a good level of coverage has been achieved with only 7,333 stems, real-word, or production morphological analysers have tens of thousands of stems, even for morphologically-rich languages like Kyrgyz.
+
+Once good coverage has been achieved with a morphological analyser, the next logical step is to start work on morphological and syntactic disambiguation. As can be seen from the figures for mean ambiguity, there is a lot of work that can be done on disambiguation.
+
+%FIXME: * Some remaining transducer issues
+Also, despite the good coverage, there are still a number of grammatical forms that have not been implemented into the transducer.  One of these is the irregular combination of 3rd person non-past finite verb plus the yes/no question particle.  For example, the third person non-past of /бар/ \eng{go} is [барат], but when the question particle -/BI/ is added, the resulting form is [барабы] instead of *[баратпы] (the transducer's current output).  There are also currently some problems handling the progressive aspect auxiliary /жат/ when it grammaticalises as a suffix with a couple verbs (/бар/ and /кел/) which often use a different participial form with this auxiliary than most verbs do.
+
+\bibliographystyle{styler}
+\bibliography{paper}
+
+%FIXME: "Kazan Tatar ..."
+
+\end{document}
