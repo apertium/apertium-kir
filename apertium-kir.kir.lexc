@@ -7651,7 +7651,7 @@ LEXICON AdjecStems
 сары ADJ ;
 ахлактык ADJ ;
 ашык ADJ ;
-көп ADJ ;
+! көп ADJ ;
 коюу ADJ ;
 пираттык ADJ ;
 курч ADJ ;
@@ -8477,7 +8477,7 @@ LEXICON AdvStems
 түндөсү ADV ; 
 болоорунча ADV ; 
 өзүндөй ADV ; 
-көбүрөөк ADV ; ! FIXME: compositional
+! көбүрөөк ADV ; ! FIXME: compositional
 апачык ADV ; 
 ошондой ADV ; ! FIXME: compositional
 эсе ADV ; ! "_ times _-er" maybe N?  but fine for now
