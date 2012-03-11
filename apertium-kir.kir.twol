@@ -183,18 +183,21 @@ Cx:Cy <=>  [ :UnvoicedNonSonCns ]/[ [ :0 - %{n%}:0 ] | %>: ] _ ;
                                                      _ ( %>: ) %{U%}: ;
                           :LastVowel й:/[ :0 | %>: ] _ ;
                             [ %{e%}: :Cns* ]/[ %>: ] _ ;    ! Avoid conflict with irregular vowel harmony
-                                                     _ %{A%}: ; ! so that AA = ээ, not ее
-                                              %{A%}: _ ; ! so that AA = ээ, not ее
-        where LastVowel in (  и  ү  е  э  ө  я  а  ё  о  ы  ю  у  )
-                     Vy in (  е  ө  е  е  ө  а  а  о  о  а  а  а  )
+!                                                     _ %{A%}: ; ! so that AA = ээ, not ее
+!                                              %{A%}: _ ; ! so that AA = ээ, not ее
+!        where LastVowel in (  и  ү  е  э  ө  я  а  ё  о  ы  ю  у  )
+ !                    Vy in (  е  ө  е  е  ө  а  а  о  о  а  а  а  )
+        where LastVowel in (  ү  ө  я  а  ё  о  ы  ю  у  )
+                     Vy in (  ө  ө  а  а  о  о  а  а  а  )
+
                      matched ;
 
-"Vowel harmony for {A} so that AA becomes ээ"
+"Vowel harmony for {A} so that AA becomes ээ"  ! and not ее
 %{A%}:э <=> [ :LastVowel :Cns* :Cns ]/[ :0 | %>: ] _ %{A%}: ;
                  except
-                                                     _ ( %>: ) %{U%}: ;
+!                                                     _ ( %>: ) %{U%}: ;
                           :LastVowel й:/[ :0 | %>: ] _ ;
-                            [ %{e%}: :Cns* ]/[ %>: ] _ ;    ! Avoid conflict with irregular vowel harmony
+!                            [ %{e%}: :Cns* ]/[ %>: ] _ ;    ! Avoid conflict with irregular vowel harmony
         where LastVowel in (  и  е  э  ) ;
 ! тез>{I}р{A}{A}к:тезирээк
 
@@ -225,6 +228,8 @@ Cx:Cy <=>  [ :UnvoicedNonSonCns ]/[ [ :0 - %{n%}:0 ] | %>: ] _ ;
 "Irregular vowel harmony for archiphoneme {A}"
 %{A%}:Vy <=> [ :LastVowel :Cns* %{e%}: :Cns :Cns* ]/[ %>: ] _ ;
              [ :LastVowel :Cns* :Cns %{e%}: :Cns* ]/[ %>: ] _ ; 
+             except
+                                                            _ %{A%}: ;
   where  Vy  in  (  е  ө  е  е  ө  е  е  ө  ө  е  ө  ө )
   LastVowel  in  (  и  ү  е  э  ө  я  а  ё  о  ы  ю  у )
            matched ;
