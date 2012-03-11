@@ -105,13 +105,19 @@ Multichar_Symbols
 
 %<asif%>          ! a verbal affix adding "as if ..." to the meaning
 
-%<prt_plan%>
-%<prt_cond%>
-%<prt_perf%>
-%<prt_impf%>
-%<prt_vol%>   ! volitional
-%<prt_irre%>  ! irrealis
-%<prt_ala%>   ! "as long as" participle
+%<prc_plan%>
+%<prc_cond%>
+%<prc_perf%>
+%<prc_impf%>
+%<prc_vol%>   ! volitional
+%<prc_irre%>  ! irrealis
+%<prc_prp%>   ! purposive
+%<prc_real%>  ! realis
+
+%<gna_perf%>
+%<gna_prp%>
+%<gna_cnd%>
+%<gna_ala%>   ! "as long as"
 
 %<ger_fut%>
 %<ger_past%>
@@ -898,12 +904,15 @@ V-INFL-NON-FINITE-REG ;
 
 LEXICON V-INFL-NON-FINITE-IRREG
 
-! Adverbial Participles
-%<prt_perf%>:%>%{I%}п # ;
-%<neg%>%<prt_perf%>:%>%{B%}%{A%}%>%{E%} # ;
-%<prt_vol%>:%>%{G%}%{I%} VOL-ENDINGS ;     ! no negative form
-%<prt_ala%>:%>м%{A%}й%{I%}нч%{A%} #;       ! no negative form  ! rare IS
+! Participles
+%<prc_vol%>:%>%{G%}%{I%} VOL-ENDINGS ;     ! no negative form
+%<prc_real%>:%>%{I%}п # ;
+%<neg%>%<prc_real%>:%>%{B%}%{A%}%>%{E%} # ;
 
+! Verbal adverbs
+%<gna_ala%>:%>м%{A%}й%{I%}нч%{A%} #;       ! no negative form  ! rare IS
+%<gna_perf%>:%>%{I%}п # ;
+%<neg%>%<gna_perf%>:%>%{B%}%{A%}%>%{E%} # ;
 
 ! Gerunds
 %<ger_fut%>:%>%{A%}р GER-INFL ;     ! <coop> IS only ?
@@ -916,22 +925,25 @@ LEXICON V-INFL-NON-FINITE-IRREG
 
 
 ! Verbal Adjectives
-%<vadj_fut%>:%>%{A%}р V-ADJ ;
-%<vadj_fut%>:%>%{A%}%{A%}р V-ADJ ;                            ! Dir/LR
-%<neg%>%<vadj_fut%>:%>%{B%}%{A%}%>%с V-ADJ ;                  !
-%<neg%>%<vadj_fut%>:%>%{B%}%{A%}%>%{A%}с V-ADJ ;              ! Dir/LR
-%<neg%>%<vadj_pot2%>:%>%{G%}%{I%}с V-ADJ ;
+%<glp_fut%>:%>%{A%}р V-ADJ ;
+%<glp_fut%>:%>%{A%}%{A%}р V-ADJ ;                            ! Dir/LR
+%<neg%>%<glp_fut%>:%>%{B%}%{A%}%>%с V-ADJ ;                  !
+%<neg%>%<glp_fut%>:%>%{B%}%{A%}%>%{A%}с V-ADJ ;              ! Dir/LR
+%<neg%>%<glp_pot2%>:%>%{G%}%{I%}с V-ADJ ;
 
 
 LEXICON V-INFL-NON-FINITE-REG
 
 %<plist%>:%>м%{A%}й # ;                                       ! huh? "-mAj is used mainly for listing"
 
-! Adverbial participles
-%<prt_plan%>:%>%{G%}%{A%}н%{I%} # ;  ! rare IS
-%<prt_cond%>:%>с%{A%} V-PERS-COND ;
-%<prt_impf%>:%>%{E%} # ;   ! rare IS
-%<prt_irre%>:%>%{E%}т # ;
+! Participles
+%<prc_prp%>:%>%{G%}%{A%}н%{I%} # ;  ! rare IS
+%<prc_impf%>:%>%{E%} # ;   ! rare IS
+%<prc_irre%>:%>%{E%}т # ;
+
+! Verbal adverbs
+%<gna_prp%>:%>%{G%}%{A%}н%{I%} # ;  ! rare IS
+%<gna_cnd%>:%>с%{A%} V-PERS-COND ;
 
 ! Gerunds
 %<ger_past%>:%>%{G%}%{A%}н GER-INFL ; ! <coop> IS only ?
@@ -942,12 +954,12 @@ LEXICON V-INFL-NON-FINITE-REG
 %<ger_notyet%>:%>{E%}% элек GER-INFL ;
 
 ! Verbal adjectives 
-%<vadj_past%>:%>%{G%}%{A%}н V-ADJ ;  ! <pl> IS okay
-%<vadj%>:%>%{G%}%{A%}н V-ADJ ;  ! <pl> IS okay  ! both past (or perf?) and general
-%<vadj_hab%>:%>ч%{U%} V-ADJ ;  ! <pl> IS okay
+%<glp_past%>:%>%{G%}%{A%}н V-ADJ ;  ! <pl> IS okay
+%<glp%>:%>%{G%}%{A%}н V-ADJ ;  ! <pl> IS okay  ! both past (or perf?) and general
+%<glp_hab%>:%>ч%{U%} V-ADJ ;  ! <pl> IS okay
 !%<vadj_impf%>:%>%{E%}% турган V-ADJ ;       ! Done already by <prt_impf> тур<vaux><vadj_past>
-%<vadj_pot%>:%>%{U%}%{U%}%>ч%{U%} V-ADJ ;
-%<vadj_notyet%>:%>{E%}% элек V-ADJ ;
+%<glp_pot%>:%>%{U%}%{U%}%>ч%{U%} V-ADJ ;
+%<glp_notyet%>:%>{E%}% элек V-ADJ ;
 
 !  Imperatives
 
