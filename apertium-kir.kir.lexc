@@ -129,15 +129,15 @@ Multichar_Symbols
 %<ger_notyet%>    ! Not-yet gerund, -E элек
 %<ger_ppot%>      ! Perfective(?) potential gerund
 
-%<vadj_fut%>
-%<vadj_pot2%>
-%<vadj_perf%>
-%<vadj_past%>
-%<vadj%>
-%<vadj_pot%>
-%<vadj_impf%>
-%<vadj_hab%>
-%<vadj_notyet%>  ! Not-yet verbal adjective, -E элек
+%<glp_fut%>
+%<glp_pot2%>
+%<glp_perf%>
+%<glp_past%>
+%<glp%>
+%<glp_pot%>
+%<glp_impf%>
+%<glp_hab%>
+%<glp_notyet%>  ! Not-yet verbal adjective, -E элек
 
 %<imp%>     ! imperative
 
