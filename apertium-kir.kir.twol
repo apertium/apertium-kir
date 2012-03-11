@@ -185,10 +185,12 @@ Cx:Cy <=>  [ :UnvoicedNonSonCns ]/[ [ :0 - %{n%}:0 ] | %>: ] _ ;
                             [ %{e%}: :Cns* ]/[ %>: ] _ ;    ! Avoid conflict with irregular vowel harmony
 !                                                     _ %{A%}: ; ! so that AA = ээ, not ее
 !                                              %{A%}: _ ; ! so that AA = ээ, not ее
-!        where LastVowel in (  и  ү  е  э  ө  я  а  ё  о  ы  ю  у  )
- !                    Vy in (  е  ө  е  е  ө  а  а  о  о  а  а  а  )
-        where LastVowel in (  ү  ө  я  а  ё  о  ы  ю  у  )
-                     Vy in (  ө  ө  а  а  о  о  а  а  а  )
+        [ [ :и | :е | :э ] :Cns* :Cns ]/[ :0 | %>: ] _ %{A%}: ;
+                                             %{A%}:э _ ; 
+        where LastVowel in (  и  ү  е  э  ө  я  а  ё  о  ы  ю  у  )
+                     Vy in (  е  ө  е  е  ө  а  а  о  о  а  а  а  )
+!        where LastVowel in (  ү  ө  я  а  ё  о  ы  ю  у  )
+!                     Vy in (  ө  ө  а  а  о  о  а  а  а  )
 
                      matched ;
 
