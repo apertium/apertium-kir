@@ -1430,10 +1430,10 @@ XIX NUM-ROMAN ; ! ""
 
 
 LEXICON NounStems
-сырт N-INFL ;
+! сырт N-INFL ;
 факт N-INFL ;
 кубанычтуу N-INFL ;
-билимдүү N-INFL ;
+! билимдүү N-INFL ;
 абаачылык N-INFL ; 
 аалым N-INFL ; 
 поэзия N-INFL ; 
@@ -1766,7 +1766,7 @@ LEXICON NounStems
 билдирүү N-INFL ; 
 билек N-INFL ; 
 билерик N-INFL ; 
-билим N-INFL ; 
+! билим N-INFL ; 
 бирдик N-INFL ; 
 ! бирөө N-INFL ;   ! BAD: Pronoun
 ! бирөөсү N-INFL ; ! BAD: Pronoun
@@ -5492,7 +5492,7 @@ LEXICON NounStems
 кыймылсыз% мүлк N-INFL ;
 ыр N-INFL ;
 өмүр N-INFL ;
-билим% берүү N-INFL ;
+! билим% берүү N-INFL ;
 байкоо N-INFL ;
 мекен N-INFL ;
 медицина N-INFL ;
@@ -6382,13 +6382,13 @@ LEXICON NounStems
 глобалдуу N-INFL ;
 хиррургиялык N-INFL ;
 дүң N-INFL ;
-бөлмө N-INFL ;
+! бөлмө N-INFL ;
 боксер N-INFL ;
 баглама N-INFL ;
 жөндөм N-INFL ;
 ыкма N-INFL ;
 тиран N-INFL ;
-билим N-INFL ;
+! билим N-INFL ;
 супермаркет N-INFL ;
 соода N-INFL ;
 рот N-INFL ;
@@ -6462,6 +6462,7 @@ LEXICON NounStems
 калп N-INFL ; ! "falsehood/lie"
 жамгыр N-INFL ; ! "rain"
 кудук N-INFL ; ! "well"
+көпөлөк N-INFL ; ! "butterfly"
 
 
 !! these are nouns that take -KI for their <attr> form
@@ -6473,6 +6474,7 @@ LEXICON NounStems
 жай N-INFL-KI ; ! "summer"/"summery"
 соң N-INFL-KI ; ! "end"/"final"
 тыш N-INFL-KI ; ! "outside"/"outer"
+сырт N-INFL-KI ; ! "outside"/"outer"
 ич N-INFL-KI ; ! "inside"/"inner"
 төмөн N-INFL-KI ; ! "bottom"/"following/below"
 жыл N-INFL-KI ; ! "year"
@@ -7981,7 +7983,7 @@ LEXICON AdjecStems
 келишкен ADJ ;
 ! тышкы ADJ ;
 булганган ADJ ;
-сырткы ADJ ;
+! сырткы ADJ ;
 бирдиктүү ADJ ;
 саясый ADJ ;
 рухий ADJ ;
@@ -8194,7 +8196,7 @@ LEXICON AdjecStems
 кылдырак ADJ ;
 чатак ADJ ;
 ашкере% чектен% чыккан ADJ ;
-билимдүү ADJ ;
+! билимдүү ADJ ;
 еклектик ADJ ;
 шаңдуу ADJ ;
 ийилген ADJ ;
