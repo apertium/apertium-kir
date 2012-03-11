@@ -129,7 +129,7 @@ Multichar_Symbols
 %<ger_notyet%>    ! Not-yet gerund, -E элек
 %<ger_ppot%>      ! Perfective(?) potential gerund
 
-%<glp_fut%>
+%<glp_fut%>       ! verbal adjectives = глагольное прилагательное
 %<glp_pot2%>
 %<glp_perf%>
 %<glp_past%>
@@ -317,7 +317,7 @@ LEXICON N-INFL      ! Nouns that have a LUU attributive form
 
 LEXICON N-INFL-KI   ! Nouns that have a KI attributive form
 
-%<n%> KI ;
+%<n%>: KI ;
 %<n%>: SUBST-COMMON ;
 
 LEXICON N-INFL-NO-ATTR  ! Used for nouns that have irregular <attr> forms
@@ -417,9 +417,11 @@ LEXICON DAGI
 
 LEXICON V-ADJ
 
-ADJ-COMMON ; 
-%<pst%>:  # ; 
-# ; 
+! ADJ-COMMON ; 
+! %<pst%>:  # ; 
+! # ;
+ATTR ; 
+%<subst%>: SUBST-COMMON ;
 
 LEXICON ATTR
 
