@@ -5,6 +5,7 @@
 /Makefile.am -text
 /NEWS -text
 /README -text
+/TODO -text
 /apertium-kir-1.0.pc.in -text
 /apertium-kir.kir.lexc -text
 /apertium-kir.kir.rlx -text

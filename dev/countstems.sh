@@ -1,6 +1,10 @@
 #!/bin/bash
+LNG=kir
+LIBPATH=/usr/local
+DIX=${LIBPATH}/share/apertium/apertium-${LNG}/apertium-${LNG}.${LNG}.lexc
+BIN=${LIBPATH}/lib/apertium/apertium-${LNG}/${LNG}.automorf.hfst
 
-LEXC='../apertium-kir.kir.lexc'
+LEXC=$DIX
 
 allcounts=`hfst-lexc --format foma $LEXC -o /dev/null | grep Root | sed 's/,/\n/g'`
 
