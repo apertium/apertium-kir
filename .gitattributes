@@ -5,7 +5,6 @@
 /Makefile.am -text
 /NEWS -text
 /README -text
-/TODO -text
 /apertium-kir-1.0.pc.in -text
 /apertium-kir.kir.lexc -text
 /apertium-kir.kir.rlx -text
@@ -14,6 +13,7 @@
 /configure.ac -text
 dev/countstems.sh -text
 paper/Makefile -text
+paper/TODO -text
 paper/abstract.tex -text
 paper/lrec2006.bst -text
 paper/lrec2006.sty -text
