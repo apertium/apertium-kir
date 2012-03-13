@@ -301,9 +301,9 @@
 % 1.1. Subsection
 % 1.1.1. Subsection
 
-\renewcommand{\thesection}{\arabic{section}.}
-\renewcommand{\thesubsection}{\thesection\arabic{subsection}.}
-\renewcommand{\thesubsubsection}{\thesubsection\arabic{subsubsection}.}
+\renewcommand{\thesection}{\the\value{section}.}
+\renewcommand{\thesubsection}{\thesection\the\value{subsection}.}
+\renewcommand{\thesubsubsection}{\thesubsection\the\value{subsubsection}.}
 
 \def\Keywords{
 {\bf{Keywords}:\,\relax%

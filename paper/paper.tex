@@ -15,9 +15,14 @@
 \newfontfamily\uighurfont[Script=Arabic,Scale=1.5]{Lateef}
 \newfontfamily\arabicfont[Script=Arabic,Scale=1.5]{Lateef}
 
+% This is needed here because of how arabxetex interacts with LREC style :(
+\renewcommand{\thesection}{\the\value{section}.}
+\renewcommand{\thesubsection}{\thesection\the\value{subsection}.}
+\renewcommand{\thesubsubsection}{\thesubsection\the\value{subsubsection}.}
+
 \usepackage{natbib}
 
-\usepackage[in]{fullpage}
+%\usepackage[in]{fullpage}
 \usepackage[colorlinks=true,citecolor=black,linkcolor=black,urlcolor=blue]{hyperref}
 
 \usepackage{subfigure}
@@ -470,7 +475,7 @@ Both corpora were split into 10 equal parts, and coverage was calculated over ea
 		Corpus           & Tokens    & Known     & Naïve coverage    & Mean ambiguity\\
 		\midrule
 		Kyrgyz Wikipedia & 329,524   & 270,668   & 82.11 $\pm$ 3.23  & 2.35\\
-		RFERL Kyrgyzstan & 4,107,555 & 3,586,000 & 87.37 $\pm$ 1.23  & 4.46\\
+		RFERL Kyrgyzstan & 4,112,558 & 3614193   & 87.93 $\pm$ 1.25  & \\
 		\bottomrule
 	\end{tabular}
 	\caption{FIXME}
