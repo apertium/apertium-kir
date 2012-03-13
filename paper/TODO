@@ -5,10 +5,7 @@
 * What do you mean by "possessive morphology" and "case morphology"? Does that mean "possessive or case markers/affixes/suffixes"? Because you say "after a noun", does that mean that these are some lexical items?
 
 == Fran ==
-* update numbers
-** statistics section
 * more about tagset
-* the evaluation/statistics section needs adding to.. eg. we need to describe the evaluation
 
 == Fran & Jonathan ==
 * Write conclusion
@@ -20,6 +17,7 @@
 * Check stuff
 ** Check \subsection{Morphological and orthographic words}
 ** check acknowledgements section
+** check evaluation section
 
 == Mirlan ==
 
@@ -36,4 +34,7 @@
 ** coverage
 ** stems
 ** tagset
-
+** eg. we need to describe the evaluation
+* update numbers
+** statistics section
+* the evaluation/statistics section needs adding to.. 

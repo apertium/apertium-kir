@@ -442,12 +442,8 @@ In Kyrgyz, there are a series of letters which represent /й/ plus a vowel: /я,
 
 \section{Statistics}
 
-%FIXME: numbers!!
-number of stems, number of continuation lexica, coverage, mean ambiguity (in corpus)
-
-\subsection{Number of stems}
-
-Table~\ref{table:stems} gives the approximate number of stems in each main word class. The numbers
+The morphotactic lexicon contains a total of 135 continuation lexica, modelling the 
+morphotactics. The phonological rules file contains 47 rules.  Table~\ref{table:stems} gives the approximate number of stems in each main word class. The numbers
 are approximate as some words may have two entries for one stem (for example if a set of forms
 is irregular).
 
@@ -506,7 +502,15 @@ The column `mean ambiguity' gives the average number of analyses for each surfac
 
 \subsection{Precision and recall}
 
-To calculate precision and recall, it was necessary to create a hand-verified list of surface forms and their analyses. 
+To calculate precision and recall, it was necessary to create a hand-verified list of surface forms and their analyses. We extracted 1,000 unique surface forms at random from the RFERL corpus, and checked that they were valid words in Kyrgyz and correctly spelt. Where a word was incorrectly spelt, it was discarded and a new random word selected.
+
+This list of surface forms was then analysed with the current version of the analyser, and each analysis was checked. Where an analysis was erroneous, it was removed, where an analysis was missing, it was added. This process gave us a `gold standard' morphologically analysed word list of 1,000 surface forms with their analyses. The list is publically available.\footnote{\url{https://apertium.svn.sourceforge.net/svnroot/apertium/branches/apertium-kir/dev/rferl.random.1000.txt}}
+
+We then took the same list of surface forms and ran them through the morphological analyser once more. Precision was calculated as the number of analyses which were found in both the output from the morphological analyser and the gold standard, divided by the total number of analyses output by the morphological analyser.
+
+Recall was calculated as the total number of analyses found in both the output from the morphological analyser and the gold standard, divided by the number of analyses found in the morphological analyser plus the number of analyses found in the gold standard but not in the morphological analyser.
+
+The results for precision and recall are presented in Table~\ref{table:precrecall}.
 
 \section{Future work}
 
