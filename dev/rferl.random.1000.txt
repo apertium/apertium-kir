@@ -285,7 +285,7 @@
 ^138/138<num><nom>$
 ^Жыргалбек/*Жыргалбек$
 ^жөнөтүшүбүз/жөнө<v><iv><caus><ger_pres><px1pl><nom>$
-^Сергей/*Сергей$
+^Сергей/Сергей<np><ant><m><nom>$
 ^ролу/роль<n><px3pl><nom>/роль<n><px3sg><nom>$
 ^ойноо/ойно<v><iv><ger><nom>/ойно<v><tv><ger><nom>$
 ^өткөрүшү/өт<v><iv><caus><ger_pres><px3pl><nom>/өт<v><iv><caus><ger_pres><px3sg><nom>$
@@ -790,7 +790,7 @@
 ^алгандан/ал<v><iv><ger_past><abl>/ал<v><iv><glp><subst><abl>/ал<v><iv><glp_past><subst><abl>/ал<v><tv><ger_past><abl>/ал<v><tv><glp><subst><abl>/ал<v><tv><glp_past><subst><abl>/ал<vaux><ger_past><abl>/ал<vaux><glp><subst><abl>/ал<vaux><glp_past><subst><abl>$
 ^баардыгы/*баардыгы$
 ^аскер/аскер<n><nom>$
-^Дмитрий/*Дмитрий$
+^Дмитрий/Дмитрий<np><ant><m><nom>$
 ^учурунда/учур<n><px3pl><loc>/учур<n><px3sg><loc>$
 ^көмүскөгө/*көмүскөгө$
 ^бейтарап/*бейтарап$
