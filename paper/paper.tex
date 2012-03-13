@@ -14,6 +14,7 @@
 %\renewcommand{\sfdefault}{phv}
 %\renewcommand{\rmdefault}{ptm}
 %\renewcommand{\ttdefault}{pcr}
+\usepackage[small,bf]{caption}
 
 \usepackage[novoc,fdf2alif]{arabxetex}
 \newfontfamily\uighurfont[Script=Arabic,Scale=1.5]{Lateef}
@@ -146,7 +147,7 @@ One result of making transducer targetted at machine translation is that we want
 One of the morphotactic challenges met in defining a finite-state transducer for Kyrgyz is that many finite verb forms have ``irregular'' negative forms.  While the paradigms are completely regular, the negative morphotactics are not regularly derived from the affirmative forms.  There are also several different ``regular'' patterns of alternation.  Listed in table~\ref{irregnegs} are a couple examples of a few finite verb paradigms with their negative forms.
 
 \begin{table*}[htbp]
-	\caption{examples of different affirmative / negative alternations in finite verb forms}\label{irregnegs}
+	\caption{Examples of different affirmative / negative alternations in finite verb forms}\label{irregnegs}
 	\centering
 	\begin{tabular}{lll}
 		\toprule
@@ -175,7 +176,7 @@ There are a number of other morphotactic issues involving ``irregular'' forms th
 Nouns may be followed by possessive morphology before any case morphology.  This relates the noun to a preceding noun or pronoun in the genitive case.  However, when both possessive morphology and case morphology occur after a noun, there is some irregularity in the system.  Table \ref{irregposcase} summarises some of the forms.  Forms that do not result from simple concatenation of the possession and case endings are highlighted in bold as being irregular.
 
 \begin{table*}[htbp]
-	\caption{combinations of possessive suffixes with case suffixes}\label{irregposcase}
+	\caption{Combinations of possessive suffixes with case suffixes}\label{irregposcase}
 	\centering
 	\begin{tabular}{llllll}
 		\toprule
@@ -213,7 +214,7 @@ In Kyrgyz, there are two basic archiphonemes: a low vowel, \{A\}, and a high vow
 
 \begin{table}[htbp]
 	\centering
-	\caption{vowel harmony for archiphoneme \{I\}}\label{vowelharmonyI}
+	\caption{Vowel harmony for archiphoneme \{I\}}\label{vowelharmonyI}
 	\subtable{
 		\begin{tabular}{cc}
 			\toprule
@@ -245,7 +246,7 @@ The low vowel \{A\} also takes the backness and rounding of the preceding vowel,
 
 \begin{table}[htbp]
 	\centering
-	\caption{vowel harmony for archiphoneme \{A\}}\label{vowelharmonyA}
+	\caption{Vowel harmony for archiphoneme \{A\}}\label{vowelharmonyA}
 	\subtable{
 		\begin{tabular}{ll}
 			\toprule
@@ -283,7 +284,8 @@ In Kyrgyz, there are two basic processes affecting the realisation of consonants
 Voicing assimilation in Kyrgyz involves the agreement of voicing of two consonants across a syllable boundary.  An example involves the locative and dative suffixes, as shown in table~\ref{exvoicing}.
 
 \begin{table}[htbp]
-	\caption{examples comparing voicing and devoicing in Kyrgyz}\label{exvoicing}
+	\caption{Examples comparing voicing and devoicing in Kyrgyz}\label{exvoicing}
+\begin{center}
 	\subtable{
 		\begin{tabular}{lll}
 			\toprule
@@ -307,6 +309,7 @@ Voicing assimilation in Kyrgyz involves the agreement of voicing of two consonan
 			\bottomrule
 		\end{tabular}
 	}
+\end{center}
 \end{table}
 
 Here, the underlying /D/ is always realised as [д] when after a voiced segment (including a vowel), but is realised as [т] after an unvoiced consonant, while underlying /G/ is always realised as [г]\footnote{‹г› is pronounced [ɣ] in the context of front vowels and [ʁ] in the context of back vowels; it also has realisations of [ɡ] and [ɢ] after nasals.} after a voiced segment, but is realised as [к]\footnote{‹к› is realised as [q] in the context of back vowels and [k] in the presence of front vowels.} after voiceless consonants.
@@ -318,7 +321,7 @@ Voicing assimilation was dealt with simply by creating a single twol rule that t
 Desonorisation \citep{washington10} happens to /N/ when it follows any consonant, and to /L/ when it follows a consonant of equal or lower sonority (i.e., /л/, nasals (/м/, /н/, /ң/), and obstruents, but not /й/, /р/, or vowels).  The resulting surface consonant is [д] for both /N/ and /L/, unless it follows a voiceless consonant, in which case it surfaces as [т].  An example includes the accusative and plural suffixes:
 
 \begin{table}[htbp]
-	\caption{examples comparing desonorisation of \{N\} and \{L\}}\label{exdesonorisation}
+	\caption{Examples comparing desonorisation of \{N\} and \{L\}}\label{exdesonorisation}
 	\subtable{
 		\begin{tabular}{lll}
 			\toprule
@@ -361,7 +364,7 @@ In Kyrgyz, stem-final [voiceless] labial and dorsal consonants voice when a suff
 
 Kyrgyz has a number of nouns that underlyingly end with a consonant cluster consisting of two liquids, but which are split by an epenthetic vowel syllable-finally.
 \begin{table}[htbp]
-	\caption{examples of /рн/-final nouns surfacing with epenthetic vowel}\label{exrnvowel}
+	\caption{Examples of /рн/-final nouns surfacing with epenthetic vowel}\label{exrnvowel}
 	\centering
 	\subtable{
 		\begin{tabular}{lll}
@@ -389,7 +392,7 @@ However, when a vowel-initial suffix follows the noun, the epenthetic vowel is a
 %FIXME: "[?]"
 %FIXME: make better references to the tables
 \begin{table}[htbp]
-	\caption{examples of /рн/-final nouns surfacing with no epenthetic vowel}\label{exrnnovowel}
+	\caption{Examples of /рн/-final nouns surfacing with no epenthetic vowel}\label{exrnnovowel}
 	%\centering
 	\subtable{
 		\begin{tabular}{lll}
