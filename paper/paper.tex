@@ -480,9 +480,9 @@ on two large freely available corpora of Kyrgyz. The second is by performing an 
 
 %FIXME: is this about right?  and I mean all aspects of the paragraph
 %FIXME: ZZ needs to be replaced with .. ?
-To calculate the naïve coverage\footnote{Naïve coverage refers to the percentage of surface forms in a given corpora that receive at least one analysis.  Forms counted by this measure may have other analyses which are not delivered by the transducer.} of the analyser, two corpora were used, the first was a database dump of the Kyrgyz Wikipedia, dated 2011-09-23,\footnote{The exact name of the dump was \texttt{kywiki-20110923-pages-articles.xml}.} which was processed with the programs \texttt{aq-wikicrp} and ZZ to extract sentences. The second was a corpus generated from the archives of Radio Free Europe / Radio Liberty's Kyrgyz service, \href{http://www.azattyk.org}{azattyk.org}.  The RFERL corpus was built using a script that scraped the archives for all articles from 2010, which include articles on a wide variety of topics, from sports to politics and from culture to current events.
+To calculate the naïve coverage\footnote{Naïve coverage refers to the percentage of surface forms in a given corpora that receive at least one analysis.  Forms counted by this measure may have other analyses which are not delivered by the transducer.} of the analyser, two corpora were used.  The first corpus was a database dump of the Kyrgyz Wikipedia, dated 2011-09-23,\footnote{The exact name of the dump was \texttt{kywiki-20110923-pages-articles.xml}.} which was processed with the programs \texttt{aq-wikicrp} and ZZ to extract sentences. The second was a corpus generated from the archives of Radio Free Europe / Radio Liberty's Kyrgyz service, \href{http://www.azattyk.org}{azattyk.org}.  The RFERL corpus was built using a script that scraped the archives for all articles from 2010, which include articles on a wide variety of topics, from sports to politics and from culture to current events.
 
-Both corpora were split into 10 equal parts, and coverage was calculated over each part separately in order to calculate the standard deviation of the mean. As can be seen from table~\ref{table:cov}, running the analyser on the RFERL gives a higher coverage, because the text is more homogenous, and there is less non-Kyrgyz (e.g., Russian) text.
+Both corpora were split into 10 equal parts, and coverage was calculated over each part separately in order to calculate the standard deviation of the mean. As can be seen from table~\ref{table:cov}, running the analyser on the RFERL corpus gives a higher coverage.  This is most likely because the text is more homogenous, and there is less non-Kyrgyz (e.g., Russian) text.
 
 \begin{table*}[htbp]
 	\centering
@@ -498,7 +498,7 @@ Both corpora were split into 10 equal parts, and coverage was calculated over ea
 	\label{table:cov}
 \end{table*}
 
-The column `mean ambiguity' gives the average number of analyses for each surface form given when analysing this corpus. 
+The column `mean ambiguity' gives the average number of analyses for each surface form encountered when analysing this corpus. 
 
 \subsection{Precision and recall}
 
