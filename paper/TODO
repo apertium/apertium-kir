@@ -4,13 +4,15 @@
 * finish styling
 ** figure out two dots
 * What do you mean by "possessive morphology" and "case morphology"? Does that mean "possessive or case markers/affixes/suffixes"? Because you say "after a noun", does that mean that these are some lexical items?
-* add citation to thesis ;)
 
 == Fran ==
 * update numbers
+** tagset
+** stems
+** coverage
+** statistics section
 * more about tagset
 * the evaluation/statistics section needs adding to.. eg. we need to describe the evaluation
-* why we chose to work with the real orthography
 * Check JNW's rewording of "The direct result of this approach was a much smaller and simpler transducer." -> "... a more concise description"
 
 == Fran & Jonathan ==
@@ -18,17 +20,10 @@
 * Write conclusion
 ** The conclusion is a little bit too allusive about the missing forms to be handled by the analyzer. Could a better evaluation of what remains to described be given? For instance, in terms of percentage of 'static' forms for each POS?
 ** The paper is organized well however I can no see a nice conclusion section at the end of the paper. The conclusion is more like a future work section.
-* write abstract
+* fix abstract
+* "has been widely used for other Turkic languages". Could you name the languages in the text (Turkish, Crimean Tatar and Turkmen)?
+* "as depicted in table". There is no such table in the paper.
+* The transducers showed good coverage between 81 - 87 % depending on the corpora. However the authors still need to address precision to get full formal evaluation of the morphological analyzer they are working on.
 
 == Mirlan ==
-
-
-
-== From reviews ==
-
-* "has been widely used for other Turkic languages". Could you name the languages in the text (Turkish, Crimean Tatar and Turkmen)?
-
-* "as depicted in table". There is no such table in the paper.
-
-* The transducers showed good coverage between 81 - 87 % depending on the corpora. However the authors still need to address precision to get full formal evaluation of the morphological analyzer they are working on.
 

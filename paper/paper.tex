@@ -305,7 +305,7 @@ Voicing assimilation was dealt with simply by creating a single twol rule that t
 %FIXME: and more efficient?  Or not?
 
 \subsection{Desonorisation}
-Desonorisation happens to /N/ when it follows any consonant, and to /L/ when it follows a consonant of equal or lower sonority (i.e., /л/, nasals (/м/, /н/, /ң/), and obstruents, but not /й/, /р/, or vowels).  The resulting surface consonant is [д] for both /N/ and /L/, unless it follows a voiceless consonant, in which case it surfaces as [т].  An example includes the accusative and plural suffixes:
+Desonorisation \citep{washington10} happens to /N/ when it follows any consonant, and to /L/ when it follows a consonant of equal or lower sonority (i.e., /л/, nasals (/м/, /н/, /ң/), and obstruents, but not /й/, /р/, or vowels).  The resulting surface consonant is [д] for both /N/ and /L/, unless it follows a voiceless consonant, in which case it surfaces as [т].  An example includes the accusative and plural suffixes:
 
 \begin{table}[htbp]
 	\caption{examples comparing desonorisation of \{N\} and \{L\}}\label{exdesonorisation}
@@ -485,7 +485,11 @@ The major work to be done is increasing the size of the lexicon. While a good le
 Once good coverage has been achieved with a morphological analyser, the next logical step is to start work on morphological and syntactic disambiguation. As can be seen from the figures for mean ambiguity, there is a lot of work that can be done on disambiguation.
 
 %FIXME: * Some remaining transducer issues
-Also, despite the good coverage, there are still a number of grammatical forms that have not been implemented into the transducer.  One of these is the irregular combination of 3rd person non-past finite verb plus the yes/no question particle.  For example, the third person non-past of /бар/ \eng{go} is [барат], but when the question particle -/BI/ is added, the resulting form is [барабы] instead of *[баратпы] (the transducer's current output).  There are also currently some problems handling the progressive aspect auxiliary /жат/ when it grammaticalises as a suffix with a couple verbs (/бар/ and /кел/) which often use a different participial form with this auxiliary than most verbs do.
+Also, despite the good coverage, there are still a number of grammatical forms that have not been implemented into the transducer.  %FIXME: e.g.?
+%these issues is fixed!
+%Also, despite the good coverage, there are still a number of grammatical forms that have not been implemented into the transducer.  One of these is the irregular combination of 3rd person non-past finite verb plus the yes/no question particle.  For example, the third person non-past of /бар/ \eng{go} is [барат], but when the question particle -/BI/ is added, the resulting form is [барабы] instead of *[баратпы] (the transducer's current output).  There are also currently some problems handling the progressive aspect auxiliary /жат/ when it grammaticalises as a suffix with a couple verbs (/бар/ and /кел/) which often use a different participial form with this auxiliary than most verbs do.
+
+It is the hope of the authors that the work on this transducer will lead the way for work on transducers for other Turkic languages.  Indeed, transducers for Kazakh, Tatar, Bashqort, and even Chuvash have benefited from work done on this transducer: many aspects have been based on the same general approach, and a number of rules from the Kyrgyz transducer have served as the basis of rules in the transducers of these other languages.
 
 \bibliographystyle{lrec2012}
 \bibliography{paper}
