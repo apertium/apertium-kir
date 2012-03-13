@@ -1,7 +1,7 @@
 \documentclass[10pt,a4paper,twocolumn]{article}
 
 %old lrec stuff doesn't work well =(
-%\usepackage{lrec2006}
+\usepackage{lrec2006}
 
 \usepackage{polyglossia}
 \setdefaultlanguage[variant=australian]{english}
@@ -451,7 +451,7 @@ Once good coverage has been achieved with a morphological analyser, the next log
 %FIXME: * Some remaining transducer issues
 Also, despite the good coverage, there are still a number of grammatical forms that have not been implemented into the transducer.  One of these is the irregular combination of 3rd person non-past finite verb plus the yes/no question particle.  For example, the third person non-past of /бар/ \eng{go} is [барат], but when the question particle -/BI/ is added, the resulting form is [барабы] instead of *[баратпы] (the transducer's current output).  There are also currently some problems handling the progressive aspect auxiliary /жат/ when it grammaticalises as a suffix with a couple verbs (/бар/ and /кел/) which often use a different participial form with this auxiliary than most verbs do.
 
-\bibliographystyle{lrec2006}
+\bibliographystyle{lrec2012}
 \bibliography{paper}
 
 %FIXME: "Kazan Tatar ..."
