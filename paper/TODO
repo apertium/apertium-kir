@@ -1,16 +1,14 @@
 == Jonathan ==
-* take care of LREC style stuff
-* fix reference/bib problems
-* update numbers
-* "The direct result of this approach was a much smaller and simpler transducer." -> "... a more concise description"
-* rewrite \subsection{Morphological and orthographic words}
 * mention further turkic transducers in future work
+* get rid of now untrue facts in future-work
 
 == Fran ==
+* update numbers
 * more about tagset
 * the evaluation/statistics section needs adding to.. eg. we need to describe the evaluation
 * why we chose to work with the real orthography
-
+* Check JNW's rewording of "The direct result of this approach was a much smaller and simpler transducer." -> "... a more concise description"
+* write \subsection{Morphological and orthographic words}
 
 == Mirlan ==
 
