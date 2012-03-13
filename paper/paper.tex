@@ -139,7 +139,7 @@ The first exception does not apply to Kyrgyz, as unlike other Turkic languages (
 
 Regarding the second exception, some clitics in Kyrgyz can be considered separate words, but are written together with the previous word. For example, the question word `бы'; the focus clitic `чы'; copula suffixes `мин', etc.; and the progressive auxiliary `жат' with certain verbs.
 
-The analyser is designed to be used with the longest-match left-to-right (LRLM) tokenisation strategy, as described in \cite{garrido-alenda02}. Thus when more than one `word' needs to be output, they are joined with the \texttt{+} symbol, which is reserved for joining two `words' in one analysis, e.g. `өнүктүрөбүзбү' {\em TRANSLATION} is analysed as 
+The analyser is designed to be used with the longest-match left-to-right (LRLM) tokenisation strategy, as described in \cite{garrido-alenda02}. Thus when more than one `word' needs to be output, they are joined with the \texttt{+} symbol, which is reserved for joining two `words' in one analysis, e.g. `өнүктүрөбүзбү ?' {\em TRANSLATION ?} is analysed as 
 өнүк{\tt {\small <v><tv><caus><aor><p1><pl>+}}бы{\tt {\small <qst>}} two words: `өнүк' (verb, transitive, causative, aorist, first person, plural) and `бы' (question clitic).
 
 % garrido-alenda02
@@ -213,7 +213,7 @@ While the phonological rules are not necessarily as closely tied to an accurate 
 %FIXME: X and Y
 Current morphological analysers of European languages are based on the orthography of the words, even in cases such as X and Y where this may make it more difficult to write morphophonological rules.  This has the advantage that in order to use the morphological analyser to analyse text (as opposed to using it as a tool to study phonology), no up/down conversion between the orthography and the transcription used in the analyser is necessary, avoiding possibilities of misconversion.
 
-In the case of Kyrgyz, dealing with the orthographical forms directly further simplifies some aspects of the morphophonology, since Kyrgyz orthography reflects a somewhat simplified version of the phonology: it ignores processes that the orthographies of many other Turkic do not, such as the phonemic distinction between velar and uvular consonants as well as sandhi voicing effects.
+In the case of Kyrgyz, dealing with the orthographical forms directly further simplifies some aspects of the morphophonology, since Kyrgyz orthography reflects a somewhat simplified version of the phonology: it ignores processes that the orthographies of many other Turkic do not, such as the phonemic distinction between velar and uvular consonants as well as sandhi voicing effects. However, other aspects are made more complicated, such as й+vowel combinations (see §\ref{sec:yot}).
 
 \subsection{Vowel harmony}
 
@@ -439,7 +439,7 @@ The vowel was then removed by a twol rule when a vowel followed.  To realise the
 %FIXME: last sentence needs some rewriting
 
 \subsection{й+vowel letters}
-
+\label{sec:yot}
 In Kyrgyz, there are a series of letters which represent /й/ plus a vowel: /я, е, ё, ю/ represent /йа, йэ, йо, йу/ respectively.  However, /э/ is also represented as /е/ when short and after a consonant (i.e., it’s only represented as /э/ when long—/ээ/—or when word-initially).  These ``yoticised'' vowels proved difficult to work.  For example, /бой+(S)I/ \eng{length}, given normal vowel harmony rules, would surface as [бойу].  However, the correct form is [бою].  Distinct and separate vowel harmony rules had to be created for all vowel archiphonemes in post-vocalic contexts, e.g. here to turn \{I\} into [ю] after /й/.  An additional rule had to delete the underlying /й/ before yoticised vowel letters (so that e.g. [бойю] was not output).  Because there are too levels to the phonology in twolc and it’s otherwise not linear, attention had to be paid to the fact that e.g., the distinct vowel harmony rules for post-/й/ contexts recognised that the /й/ would not appear on the second [surface] level.
 
 \section{Statistics}
@@ -453,7 +453,7 @@ Table~\ref{table:stems} gives the approximate number of stems in each main word 
 are approximate as some words may have two entries for one stem (for example if a set of forms
 is irregular).
 
-\begin{table*}
+\begin{table}
 	\centering
 	\begin{tabular}{lr}
 		\toprule
@@ -473,9 +473,9 @@ is irregular).
 		Total: 8,466 & \\
 		\bottomrule
 	\end{tabular}
-	\caption{Breakdown of number of stems in the lexicon by major part of speech. Minor categories, such as partice, modal and copula are left out.}\label{table:stems}
+	\caption{Breakdown of number of stems in the lexicon by major part of speech. Minor categories, such as particle, modal and copula are left out.}\label{table:stems}
 	%FIXME: are we putting captions above or below tables?  I like them better below, but I got the impression that there's some standard to have them above.  Maybe it was just UW being table Nazis for my MA thesis.
-\end{table*}
+\end{table}
 
 
 \subsection{Coverage}
@@ -490,13 +490,13 @@ Both corpora were split into 10 equal parts, and coverage was calculated over ea
 	\centering
 	\begin{tabular}{lrrrr}
 		\toprule
-		Corpus           & Tokens    & Known     & Naïve coverage    & Mean ambiguity\\
-		\midrule
-		Kyrgyz Wikipedia & 329,524   & 270,668   & 82.11 $\pm$ 3.23  & 2.35\\
-		RFERL Kyrgyzstan & 4,112,558 & 3614193   & 87.93 $\pm$ 1.25  & \\
+		Corpus           & Tokens    & Known       & Naïve coverage (\%) & Mean ambiguity\\
+		\midrule 
+		Kyrgyz Wikipedia & 329,524   & 270,668     & 82.1 $\pm$ 3.2      & 2.35\\
+		RFERL Kyrgyzstan & 4,112,558 & 3,614,193   & 87.9 $\pm$ 1.2      & \\
 		\bottomrule
 	\end{tabular}
-	\caption{FIXME}
+	\caption{Naïve coverage and mean ambiguity of the analyser over two test corpora.}
 	\label{table:cov}
 \end{table*}
 
@@ -504,7 +504,7 @@ The column `mean ambiguity' gives the average number of analyses for each surfac
 
 \section{Future work}
 
-The major work to be done is increasing the size of the lexicon. While a good level of coverage has been achieved with only 7,333 stems, real-word, or production morphological analysers have tens of thousands of stems, even for morphologically-rich languages like Kyrgyz.
+The major work to be done is increasing the size of the lexicon. While a good level of coverage has been achieved with only 8,466 stems, real-word, or production morphological analysers have tens of thousands of stems, even for morphologically-rich languages like Kyrgyz.
 
 Once good coverage has been achieved with a morphological analyser, the next logical step is to start work on morphological and syntactic disambiguation. As can be seen from the figures for mean ambiguity, there is a lot of work that can be done on disambiguation.
 
@@ -513,7 +513,12 @@ Also, despite the good coverage, there are still a number of grammatical forms t
 %these issues is fixed!
 %Also, despite the good coverage, there are still a number of grammatical forms that have not been implemented into the transducer.  One of these is the irregular combination of 3rd person non-past finite verb plus the yes/no question particle.  For example, the third person non-past of /бар/ \eng{go} is [барат], but when the question particle -/BI/ is added, the resulting form is [барабы] instead of *[баратпы] (the transducer's current output).  There are also currently some problems handling the progressive aspect auxiliary /жат/ when it grammaticalises as a suffix with a couple verbs (/бар/ and /кел/) which often use a different participial form with this auxiliary than most verbs do.
 
-It is the hope of the authors that the work on this transducer will lead the way for work on transducers for other Turkic languages.  Indeed, transducers for Kazakh, Tatar, Bashqort, and Chuvash which are currently under development have benefited from work done on this transducer: many aspects have been based on the same general approach, and a number of phonological rules from the Kyrgyz transducer have served as the basis of rules in the transducers of these other languages.
+It is the hope of the authors that the work on this transducer will lead the way for work on free/open-source tagset-compatible transducers for other Turkic languages.  Indeed, transducers for Kazakh, Tatar, Bashqort, and Chuvash which are currently under development have benefited from work done on this transducer: many aspects have been based on the same general approach, and a number of phonological rules from the Kyrgyz transducer have served as the basis of rules in the transducers of these other languages.
+
+\section*{Acknowledgements}
+
+We would like to thank: the Google Summer of Code 2011, which supported the development of the Turkish$\rightarrow$Kyrgyz MT system this transducer was designed for; Tolgonay Washington for native speaker intuitions of Kyrgyz and the anonymous reviewers for comments on how to improve the manuscript. This work has been partially funded by Spanish Ministerio de Ciencia e Innovación through project TIN2009-14009-C02-01.
+
 
 \bibliographystyle{lrec2012}
 \bibliography{paper}
