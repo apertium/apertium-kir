@@ -249,7 +249,7 @@
 ^командасы/команда<n><px3pl><nom>/команда<n><px3sg><nom>$
 ^башташты/башта<v><tv><coop><ifi><p3><pl>/башта<v><tv><coop><ifi><p3><sg>/башта<v><tv><ger_pres><acc>/башта<v><tv><ifi><p3><pl>/башта<vaux><coop><ifi><p3><pl>/башта<vaux><coop><ifi><p3><sg>/башта<vaux><ger_pres><acc>/башта<vaux><ifi><p3><pl>$
 ^адамдын/адам<n><gen>$
-^Карзай/*Карзай$
+^Карзай/Карзай<np><cog><mf><nom>$
 ^бан/бан<n><nom>$
 ^кайрылып/кайры<v><tv><pass><gna_perf>/кайры<v><tv><pass><prc_real>$
 ^Биз го/биз<prn><pers><p1><pl><nom>+го<mod_ass>$
@@ -752,7 +752,7 @@
 ^чыгып/чык<v><iv><gna_perf>/чык<v><iv><prc_real>/чык<vaux><gna_perf>/чык<vaux><prc_real>$
 ^кылмыштарды/кылмыш<n><pl><acc>$
 ^Тоо/тоо<n><nom>$
-^гроссмейстерлер/*гроссмейстерлер$
+^гроссмейстерлер/гроссмейстер<n><pl><nom>$
 ^жардамынын/жардам<n><px3pl><gen>/жардам<n><px3sg><gen>$
 ^1932/1932<num><nom>$
 ^издөөгө/изде<v><tv><ger><dat>$
