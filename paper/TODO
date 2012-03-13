@@ -1,7 +1,6 @@
 == Jonathan ==
 * "there are still a number of grammatical forms that have not been implemented", like ...?
 * finish styling
-** figure out two dots
 * What do you mean by "possessive morphology" and "case morphology"? Does that mean "possessive or case markers/affixes/suffixes"? Because you say "after a noun", does that mean that these are some lexical items?
 
 == Fran ==
@@ -16,6 +15,7 @@
 ** Check JNW's rewording of "The direct result of this approach was a much smaller and simpler transducer." -> "... a more concise description"
 ** Check JNW's mention of further turkic transducers in future work section
 ** Check \subsection{Morphological and orthographic words}
+** Check keywords
 
 == Fran & Jonathan ==
 * Write conclusion
