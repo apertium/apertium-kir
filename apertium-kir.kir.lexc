@@ -300,14 +300,15 @@ LEXICON SUBST-COMMON
 %<pl%>:%>%{L%}%{A%}р POSSESSION ;
 POSSESSION ;
 
-LEXICON N-INFL-COMMON
-
-!%<n%>:%>%{L%}%{U%}%{U%} ADJ ;  ! Any noun can be made into an adjective like this, though it's basically derivation
-! %<attr%>:%>%{L%}%{U%}%{U%} ATTR ;
+!LEXICON N-INFL-COMMON
+!
+!!%<n%>:%>%{L%}%{U%}%{U%} ADJ ;  ! Any noun can be made into an adjective like this, though it's basically derivation
+!! %<attr%>:%>%{L%}%{U%}%{U%} ATTR ;
 
 LEXICON N-INFL-SG  ! nouns with no/irregular plural
 
-%<n%>: N-INFL-COMMON ;
+!%<n%>: N-INFL-COMMON ;
+%<n%>%<attr%>:%>%{L%}%{U%}%{U%} ATTR ;
 %<n%>: POSSESSION ;
 
 LEXICON N-INFL      ! Nouns that have a LUU attributive form
@@ -320,13 +321,19 @@ LEXICON N-INFL-KI   ! Nouns that have a KI attributive form
 %<n%>: KI ;
 %<n%>: SUBST-COMMON ;
 
-LEXICON N-INFL-NO-ATTR  ! Used for nouns that have irregular <attr> forms
+! LEXICON N-INFL-NO-ATTR  ! Used for nouns that have irregular <attr> forms
+! 
+! %<n%>: SUBST-COMMON ;
+! 
+! LEXICON N-INFL-JUST-KI  ! Used for nouns that have irregular KI forms
+! 
+! %<n%>: KI ;
 
+LEXICON N-INFL-NKI
+
+%<n%>:%{I%}н KI ; ! Dir/LR
+%<n%>:%{I%}ң KI ; 
 %<n%>: SUBST-COMMON ;
-
-LEXICON N-INFL-JUST-KI  ! Used for nouns that have irregular KI forms
-
-%<n%>: KI ;
 
 LEXICON N-INFL-3PX-COMPOUND
 
@@ -1514,7 +1521,7 @@ LEXICON NounStems
 ала N-INFL ; 
 алака N-INFL ; 
 алгоритм N-INFL ; 
-алд N-INFL ; 
+! алд N-INFL ; 
 алкоголь N-INFL ; ! "alcohol"
 алкыш N-INFL ; 
 аллегория N-INFL ; ! "allegory"
@@ -1561,7 +1568,7 @@ LEXICON NounStems
 арматура N-INFL ; 
 арпа N-INFL ; 
 арстан N-INFL ; 
-арт N-INFL ; 
+! арт N-INFL ; 
 артист N-INFL ; 
 археолог N-INFL ; 
 архив N-INFL ; 
@@ -3590,7 +3597,7 @@ LEXICON NounStems
 өлчөм N-INFL ; 
 өлчөө N-INFL ; 
 асты N-INFL ;  ! FIXME: probably not
-аст N-INFL ;  ! "bottom" (used as postposition "underneath, below")
+! аст N-INFL ;  ! "bottom" (used as postposition "underneath, below")
 өрдөк N-INFL ; 
 үрп% адат N-INFL ; 
 өрнөк N-INFL ; 
@@ -3613,7 +3620,7 @@ LEXICON NounStems
 үркүү N-INFL ; 
 уролог N-INFL ; 
 урология N-INFL ; 
-үст N-INFL ; ! "upper part, top", used as postposition
+! үст N-INFL ; ! "upper part, top", used as postposition
 уста N-INFL ; 
 устат N-INFL ; 
 утопия N-INFL ; 
@@ -4719,7 +4726,7 @@ LEXICON NounStems
 ден N-INFL ;
 тергөө N-INFL ;
 сурамжылоо N-INFL ;
-арт N-INFL ;   ! postposition "back, behind, etc."
+! арт N-INFL ;   ! postposition "back, behind, etc."
 акчалуу N-INFL ;
 каражатту N-INFL ;
 акча N-INFL ;
@@ -6482,16 +6489,20 @@ LEXICON NounStems
 ! ай KI ; ! "month"  ! DOESN'T HAVE -KI FORM (takes LUU)
 кеч N-INFL-KI ; ! "evening"
 
-аст:астын N-INFL-JUST-KI ; ! "lower"
-алд:алдын N-INFL-JUST-KI ; ! "forward"
-үст:үстүн N-INFL-JUST-KI ; ! "upper"
-орто:ортоң N-INFL-JUST-KI ; ! "central"
-аст N-INFL-NO-ATTR ; ! "bottom"
-алд N-INFL-NO-ATTR ; ! "front/forward"
-үст N-INFL-NO-ATTR ; ! "top"
-орто N-INFL-NO-ATTR ; ! "middle/center"
+!аст:астын N-INFL-JUST-KI ; ! "lower"
+!алд:алдын N-INFL-JUST-KI ; ! "forward"
+!үст:үстүн N-INFL-JUST-KI ; ! "upper"
+!орто:ортоң N-INFL-JUST-KI ; ! "central"
+!аст N-INFL-NO-ATTR ; ! "bottom"
+!алд N-INFL-NO-ATTR ; ! "front/forward"
+!үст N-INFL-NO-ATTR ; ! "top"
+!орто N-INFL-NO-ATTR ; ! "middle/center"
 
-
+аст N-INFL-NKI ; ! "bottom", "lower"
+алд N-INFL-NKI ; ! "front/forward", "forward"
+үст N-INFL-NKI ; ! "top", "upper"
+орто N-INFL-NKI ; ! "middle/center", "central"
+арт N-INFL-NKI ; ! "back", "rear"
 
 
 LEXICON PropernounStems
