@@ -7,7 +7,6 @@
 == Fran ==
 * update numbers
 ** tagset
-** stems
 ** statistics section
 * more about tagset
 * the evaluation/statistics section needs adding to.. eg. we need to describe the evaluation
@@ -35,4 +34,5 @@
 * write evaluation script
 * update numbers
 ** coverage
+** stems
 
