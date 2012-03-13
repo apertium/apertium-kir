@@ -16,81 +16,16 @@
 
 
 
-== Reviews ==
-============================================================================
-                           REVIEWER #1
-============================================================================
+== From reviews ==
 
+* "has been widely used for other Turkic languages". Could you name the languages in the text (Turkish, Crimean Tatar and Turkmen)?
 
----------------------------------------------------------------------------
-Comments
----------------------------------------------------------------------------
+* What do you mean by "possessive morphology" and "case morphology"? Does that mean "possessive or case markers/affixes/suffixes"? Because you say "after a noun", does that mean that these are some lexical items?
 
-This paper presents a morphological transducer of the Kyrgyz language oriented
-for the task of machine translation, which utilizes an available platform HFST.
-The transducer firstly takes surface forms and generates all possible lexical
-forms, and secondly takes lexical forms and generates one or more surface
-forms.
-The advantage of the transducer is generating an increased lexicon with a good
-coverage. However, the morphological and syntactic disambiguation becomes more
-urgent. It is suggested that more detailed analysis about the ambiguity problem
-and the grammatical problem is necessary.
+* "as depicted in table". There is no such table in the paper.
 
-============================================================================
-                           REVIEWER #2
-============================================================================
+* The conclusion is a little bit too allusive about the missing forms to be handled by the analyzer. Could a better evaluation of what remains to described be given? For instance, in terms of percentage of 'static' forms for each POS?
 
+* The transducers showed good coverage between 81 - 87 % depending on the corpora. However the authors still need to address precision to get full formal evaluation of the morphological analyzer they are working on.
 
----------------------------------------------------------------------------
-Comments
----------------------------------------------------------------------------
-
-This paper describes work on the morphology of Kyrghyz. Some socio-political
-information about the language is given.
-
-"has been widely used for other Turkic languages". Could you name the languages
-in the text (Turkish, Crimean Tatar and Turkmen)?
-
-What do you mean by "possessive morphology" and "case morphology"? Does that
-mean "possessive or case markers/affixes/suffixes"? Because you say "after a
-noun", does that mean that these are some lexical items?
-
-"as depicted in table". There is no such table in the paper.
-
-The paper provides an evaluation of the coverage of the morphological analyzer
-by use of two corpora. This yields a coverage of more than 4 words out of 5 (>
-80%) for more than 7,000 stems.
-
-The conclusion is a little bit too allusive about the missing forms to be
-handled by the analyzer. Could a better evaluation of what remains to described
-be given? For instance, in terms of percentage of 'static' forms for each POS?
-
-Minor remark:
-
-use { and } around {Central Intelligence Agency} in the LaTeX bibliography, so
-that 'Central Intelligence' do not appear as first names.
-
-============================================================================
-                           REVIEWER #3
-============================================================================
-
-
----------------------------------------------------------------------------
-Comments
----------------------------------------------------------------------------
-
-The  paper describes the development of a morphological transducer targeting
-for the task of machine translation of the  Kyrgyz language using the
-free/open-source platform HFST. The transducer is mainly focused on the
-auspices of the Apertium Forcada et al. (2011) project for use in a machine
-translation system from Turkish to Kyrgyz.
-The paper technically accurate and provides a lot of insight on the
-difficulties of the Kirgyz language as well as the coverage of the language and
-the usage of the output of the system - a morphological analyzer. The analyzer
-is working both ways, i.e., from a surface form to all possible lexical forms
-and from a lexical form to possible surface forms.
-The transducers showed good coverage between 81 - 87 % depending on the
-corpora. However the authors still need to address precision to get full formal
-evaluation of the morphological analyzer they are working on.
-The paper is organized well however I can no see a nice conclusion section at
-the end of the paper. The conclusion is more like a future work section.
+* The paper is organized well however I can no see a nice conclusion section at the end of the paper. The conclusion is more like a future work section.
