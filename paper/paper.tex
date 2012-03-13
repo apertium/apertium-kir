@@ -77,14 +77,15 @@ E-03071 Alacant (Spain)\\
 \date{}
 
 %FIXME: this should be closer to the 200 word limit, and less like the intro pargraph
-\abstract{This paper describes the development of a morphological transducer oriented for the task of machine translation for the Kyrgyz language using the free/open-source platform HFST. The transducer was developed under the auspices of the Apertium \citep{forcada2011} project for use in a machine translation system from Turkish to Kyrgyz.}
+\abstract{This paper describes the development of a morphological transducer oriented for the task of machine translation for the Kyrgyz language using the free/open-source platform HFST. The transducer was developed under the auspices of the Apertium \citep{forcada2011} project for use in a machine translation system from Turkish to Kyrgyz.\\
+\Keywords{kyrgyz, morphology, open-source}}
 
 %FIXME:
 %\thanks{GSoC, Tolgonay, ..?}
 
 \begin{document}
 \maketitleabstract{}
-\thispagestyle{empty}
+\pagestyle{empty}
 
 
 \section{Introduction}
@@ -468,7 +469,7 @@ Both corpora were split into 10 equal parts, and coverage was calculated over ea
 		\toprule
 		Corpus           & Tokens    & Known     & Naïve coverage    & Mean ambiguity\\
 		\midrule
-		Kyrgyz Wikipedia & 329,524   & 269,573   & 81.84 $\pm$ 3.23  & 4.54\\
+		Kyrgyz Wikipedia & 329,524   & 270,668   & 82.11 $\pm$ 3.23  & 2.35\\
 		RFERL Kyrgyzstan & 4,107,555 & 3,586,000 & 87.37 $\pm$ 1.23  & 4.46\\
 		\bottomrule
 	\end{tabular}
