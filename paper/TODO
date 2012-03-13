@@ -10,8 +10,6 @@
 ** statistics section
 * more about tagset
 * the evaluation/statistics section needs adding to.. eg. we need to describe the evaluation
-* Check stuff
-** Check \subsection{Morphological and orthographic words}
 
 == Fran & Jonathan ==
 * Write conclusion
@@ -20,6 +18,8 @@
 * fix abstract
 * "as depicted in table". There is no such table in the paper.
 * The transducers showed good coverage between 81 - 87 % depending on the corpora. However the authors still need to address precision to get full formal evaluation of the morphological analyzer they are working on.
+* Check stuff
+** Check \subsection{Morphological and orthographic words}
 
 == Mirlan ==
 
