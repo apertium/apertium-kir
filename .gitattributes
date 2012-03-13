@@ -12,6 +12,7 @@
 /autogen.sh -text
 /configure.ac -text
 dev/countstems.sh -text
+dev/evaluate-morph.py -text
 dev/rferl.random.1000.txt -text
 paper/Makefile -text
 paper/TODO -text
