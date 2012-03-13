@@ -326,7 +326,7 @@ LEXICON N-INFL-NO-ATTR  ! Used for nouns that have irregular <attr> forms
 
 LEXICON N-INFL-JUST-KI  ! Used for nouns that have irregular KI forms
 
-%<n%> KI ;
+%<n%>: KI ;
 
 LEXICON N-INFL-3PX-COMPOUND
 
@@ -4438,7 +4438,7 @@ LEXICON NounStems
 кыл N-INFL ;
 дан N-INFL ;
 калып N-INFL ;
-орто N-INFL ;
+! орто N-INFL ;
 салым N-INFL;
 орден N-INFL ;
 өзбек N-INFL ;
@@ -4664,7 +4664,7 @@ LEXICON NounStems
 башмыйзам N-INFL ;
 булак N-INFL ;
 башат N-INFL ;
-орто N-INFL ;
+!орто N-INFL ;
 сентябрь N-INFL ;
 булчуң N-INFL ;
 максат N-INFL ;
@@ -5786,7 +5786,7 @@ LEXICON NounStems
 колдонмо N-INFL ;
 өзгөрүш N-INFL ;
 санарип N-INFL ;
-орто N-INFL ;
+!орто N-INFL ;
 президент N-INFL ;
 сегиз N-INFL ;
 ыйык N-INFL ;
@@ -5902,7 +5902,7 @@ LEXICON NounStems
 ак-куу N-INFL ;
 башталыш N-INFL ;
 камсыз% кылуу N-INFL ;
-орто N-INFL ;
+!орто N-INFL ;
 карольдук N-INFL ;
 пикирдеш N-INFL ;
 сыноо N-INFL ;
@@ -6485,9 +6485,11 @@ LEXICON NounStems
 аст:астын N-INFL-JUST-KI ; ! "lower"
 алд:алдын N-INFL-JUST-KI ; ! "forward"
 үст:үстүн N-INFL-JUST-KI ; ! "upper"
+орто:ортоң N-INFL-JUST-KI ; ! "central"
 аст N-INFL-NO-ATTR ; ! "bottom"
 алд N-INFL-NO-ATTR ; ! "front/forward"
 үст N-INFL-NO-ATTR ; ! "top"
+орто N-INFL-NO-ATTR ; ! "middle/center"
 
 
 
@@ -8106,7 +8108,7 @@ LEXICON AdjecStems
 жалаң ADJ ;
 жамгырдуу ADJ ;
 !жат ADJ ;
-орто ADJ ;
+!орто ADJ ;
 барболгон ADJ ;
 маданий ADJ ;
 кымындай ADJ ;
