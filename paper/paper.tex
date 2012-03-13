@@ -121,9 +121,7 @@ The project is designed based on the Helsinki Finite State Toolkit \citep{linden
 
 \section{Description}
 %FIXME: \ldots{} section
-The tagset consists of 119 separate tags, 17 covering the main parts of speech (noun, verb, adjective, adverb, postposition, \ldots{}) and 102 covering morphological subcategorisation for e.g. case, number, person, possession, transitivity, tense-aspect-mood, etc.
-
-The tags are represented as multicharacter symbols, between `<' and `>' punctuation.
+The tagset consists of 127 separate tags, 19 covering the main parts of speech (noun, verb, adjective, adverb, postposition, etc.) and 108 covering morphological subcategorisation for e.g. case, number, person, possession, transitivity, tense-aspect-mood, etc. The tags are represented as multicharacter symbols, between less than `<' and greater than `>' symbols. The tagset is quite extensive and still not entirely stabilised, as such a full listing is not included here. However, the tags are listed in the source code of the transducer, along with comments describing their usage.
 
 %FIXME: something about {} representation of archiphonemes and what they mean?
 
@@ -477,12 +475,16 @@ is irregular).
 	%FIXME: are we putting captions above or below tables?  I like them better below, but I got the impression that there's some standard to have them above.  Maybe it was just UW being table Nazis for my MA thesis.
 \end{table}
 
+\section{Evaluation}
 
-\subsection{Coverage}
+We have evaluated the analyser in two ways. The first is by calculating the naïve coverage and mean ambiguity 
+on two large freely available corpora of Kyrgyz. The second is by performing an evaluation of precision and recall on a smaller, hand-validated test set.
+
+\subsection{Coverage and mean ambiguity}
 
 %FIXME: is this about right?  and I mean all aspects of the paragraph
 %FIXME: ZZ needs to be replaced with .. ?
-To calculate the naïve coverage\footnote{FIXME} of the analyser, two corpora were used, the first was a database dump of the Kyrgyz Wikipedia, dated 2011-09-23,\footnote{The exact name of the dump was \texttt{kywiki-20110923-pages-articles.xml}.} which was processed with the programs \texttt{aq-wikicrp} and ZZ to extract sentences. The second was a corpus generated from the archives of Radio Free Europe / Radio Liberty's Kyrgyz service, \href{http://www.azattyk.org}{azattyk.org}.  The RFERL corpus was built using a script that scraped the archives for all articles from 2010, which include articles on a wide variety of topics, from sports to politics and from culture to current events.
+To calculate the naïve coverage\footnote{The naïve coverage is the percentage of surface forms that receive at least one analysis. This may not be complete.} of the analyser, two corpora were used, the first was a database dump of the Kyrgyz Wikipedia, dated 2011-09-23,\footnote{The exact name of the dump was \texttt{kywiki-20110923-pages-articles.xml}.} which was processed with the programs \texttt{aq-wikicrp} and ZZ to extract sentences. The second was a corpus generated from the archives of Radio Free Europe / Radio Liberty's Kyrgyz service, \href{http://www.azattyk.org}{azattyk.org}.  The RFERL corpus was built using a script that scraped the archives for all articles from 2010, which include articles on a wide variety of topics, from sports to politics and from culture to current events.
 
 Both corpora were split into 10 equal parts, and coverage was calculated over each part separately in order to calculate the standard deviation of the mean. As can be seen from table~\ref{table:cov}, running the analyser on the RFERL gives a higher coverage, because the text is more homogenous, and there is less non-Kyrgyz (e.g., Russian) text.
 
@@ -500,7 +502,11 @@ Both corpora were split into 10 equal parts, and coverage was calculated over ea
 	\label{table:cov}
 \end{table*}
 
-The column `mean ambiguity' gives the average number of analyses for each surface form given when analysing this corpus.
+The column `mean ambiguity' gives the average number of analyses for each surface form given when analysing this corpus. 
+
+\subsection{Precision and recall}
+
+To calculate precision and recall, it was necessary to create a hand-verified list of surface forms and their analyses. 
 
 \section{Future work}
 
