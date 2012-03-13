@@ -22,6 +22,7 @@ Multichar_Symbols
 %<cnjadv%>  ! Adverbial conjunction
 %<cnjsub%>  ! Subordinating conjunction
 %<cop%>     ! Copula
+%<pred%>    ! Predicative
 
 %<iv%>      ! Intransitive 
 %<tv%>      ! Transitive
@@ -80,7 +81,7 @@ Multichar_Symbols
 %<neg%>     ! Negative
 %<exi%>     ! Existential
 
-%<mod_qst%> ! Question modal particle
+%<qst%> ! Question modal particle
 %<mod_foc%> ! "what about ..." question particle
 %<mod_ass%> ! assumption-that-interlocutor-knows-something modal particle
 %<mod_tru%> ! assumption-that-statement-is-true modal particle
@@ -805,13 +806,13 @@ V-CLIT ;  ! TODO: I guess these aren't technically necessary?
 LEXICON V-CLIT-BI
 
 !! Modal/discourse particles
-!!!!! %+бы%<mod_qst%>:%>%{B%}%{I%} V-PERS-COP ; ! CHECK  !! CAUSING LOOPS!
-%+бы%<mod_qst%>:%>%{B%}%{I%} # ;
+!!!!! %+бы%<qst%>:%>%{B%}%{I%} V-PERS-COP ; ! CHECK  !! CAUSING LOOPS!
+%+бы%<qst%>:%>%{B%}%{I%} # ;
 
 LEXICON V-CLIT-OTHER
 
-%+беле%<mod_qst%>:% беле # ;
-%+бекен%<mod_qst%>:% бекен # ;
+%+беле%<qst%>:% беле # ;
+%+бекен%<qst%>:% бекен # ;
 %+чы%<mod_foc%>:%>ч%{I%} # ;
 %+го%<mod_ass%>:% го # ;
 %+да%<mod_tru%>:% да # ;
@@ -1100,6 +1101,10 @@ LEXICON VAUX-ELE
 
 %<vaux%>: V-PERS-COND ;
 
+LEXICON PRED
+
+%<pred%>%<subst%>: SUBST-COMMON ;
+%<pred%>: ATTR ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!                  L E X I C O N    E N T R I E S                         !!!
@@ -8660,7 +8665,7 @@ LEXICON VerbStems
 кел VAUX-INFL ; !
 
 эле VAUX-ELE ; !  
-эле%<mod_qst%>:беле VAUX-ELE ; ! CHECK: is this the right way to do this?
+эле%<qst%>:беле VAUX-ELE ; ! CHECK: is this the right way to do this?
 
 өс V-INFL-IV ;
 танда V-INFL-TV ;
@@ -10099,6 +10104,6 @@ LEXICON TO-REMOVE
 ! автономиялуу N-INFL ; ! Dir/RL  ! FIXME: regular adjectival form
 
 
-бы%<mod_qst%>:бы V-PERS-COP ; ! Dir/RL ! CHECK
-бы%<mod_qst%>:бы # ; ! Dir/RL ! CHECK
+бы%<qst%>:бы V-PERS-COP ; ! Dir/RL ! CHECK
+бы%<qst%>:бы # ; ! Dir/RL ! CHECK
 
