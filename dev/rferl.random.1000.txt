@@ -35,7 +35,6 @@
 ^чоң/чоң<adj><advl>/чоң<adj><pst>/чоң<adj><subst><nom>$
 ^кызылдай/кызыл<adj><subst><sim>$
 ^тилекке/тилек<n><dat>$
-^ВКП/*ВКП$
 ^жаңы/жаңы<adj><advl>/жаңы<adj><pst>/жаңы<adj><subst><nom>$
 ^00.30/00.30<num><nom>$
 ^жылдын/жыл<n><gen>$
@@ -63,7 +62,6 @@
 ^каралууда/кара<v><tv><pass><ger><loc>$
 ^балам/бала<adj><subst><px1sg><nom>/бала<n><px1sg><nom>$
 ^кайрадан/кайрадан<adv>$
-^Би/*Би$
 ^сүйлөшөлү/сүйлө<v><iv><coop><opt><p1><pl>/сүйлө<v><tv><coop><opt><p1><pl>$
 ^Минтпесе/мин<v><tv><caus><neg><gna_cnd><p3><pl>/мин<v><tv><caus><neg><gna_cnd><p3><sg>$
 ^ичимдиктеринен/ичимдик<n><pl><px3pl><abl>/ичимдик<n><pl><px3sg><abl>$
@@ -84,14 +82,12 @@
 ^Чоң/чоң<adj><advl>/чоң<adj><pst>/чоң<adj><subst><nom>$
 ^кыйкыргандар да/кыйкыр<v><iv><ger_past><pl><nom>+да<mod_tru>/кыйкыр<v><iv><glp><subst><pl><nom>+да<mod_tru>/кыйкыр<v><iv><glp_past><subst><pl><nom>+да<mod_tru>$
 ^тилек/тилек<n><nom>$
-^Гази/*Гази$
 ^Жаңы/жаңы<adj><advl>/жаңы<adj><pst>/жаңы<adj><subst><nom>$
 ^100/100<num><nom>$
 ^жыл/жыл<n><nom>$
 ^жолугушууга/жолук<v><tv><coop><ger><dat>$
 ^сезимдер/сезим<n><pl><nom>$
 ^реформалоодо/*реформалоодо$
-^ӨИК/*ӨИК$
 ^өткөрүлөт/өт<v><iv><caus><pass><aor><p3><pl>/өт<v><iv><caus><pass><aor><p3><sg>/өт<v><iv><caus><pass><prc_irre>$
 ^киргизген/кир<v><iv><caus><ger_past><nom>/кир<v><iv><caus><glp>/кир<v><iv><caus><glp><subst><nom>/кир<v><iv><caus><glp_past>/кир<v><iv><caus><glp_past><subst><nom>/кир<v><iv><caus><past><p3><pl>/кир<v><iv><caus><past><p3><sg>$
 ^келишет/кел<v><iv><aor><p3><pl>/кел<v><iv><coop><aor><p3><pl>/кел<v><iv><coop><aor><p3><sg>/кел<v><iv><coop><prc_irre>/кел<vaux><aor><p3><pl>/кел<vaux><coop><aor><p3><pl>/кел<vaux><coop><aor><p3><sg>/кел<vaux><coop><prc_irre>/келиш<v><iv><aor><p3><pl>/келиш<v><iv><aor><p3><sg>/келиш<v><iv><prc_irre>$
@@ -169,8 +165,6 @@
 ^тапта/тап<n><loc>/тапта<v><tv><imp><p2><sg>$
 ^жаштар/жаш<adj><subst><pl><nom>/жаш<n><pl><nom>$
 ^күзөттө/*күзөттө$
-^500дөй/*500дөй$
-^Электр/*Электр$
 ^Петровка/Петровка<np><cog><f><nom>$
 ^Фрунзе/Фрунзе<np><cog><mf><nom>/Фрунзе<np><top><nom>$
 ^коркутканына/*коркутканына$
@@ -218,7 +212,6 @@
 ^тапшырбагандар/тапшыр<v><tv><neg><ger_past><pl><nom>/тапшыр<v><tv><neg><glp><subst><pl><nom>/тапшыр<v><tv><neg><glp_past><subst><pl><nom>$
 ^жашында/жаш<adj><subst><px3pl><loc>/жаш<adj><subst><px3sg><loc>/жаш<n><px3pl><loc>/жаш<n><px3sg><loc>$
 ^күйүп/күй<v><iv><gna_perf>/күй<v><iv><prc_real>$
-^500дөн/*500дөн$
 ^элемин/*элемин$
 ^пикирге/пикир<n><dat>$
 ^футбол/футбол<n><nom>$
@@ -270,7 +263,6 @@
 ^546/546<num><nom>$
 ^эле/эле<postadv>/эле<v><tv><imp><p2><sg>/эле<vaux><p3><pl>/эле<vaux><p3><sg>$
 ^пикирдемин/пикир<n><loc>+э<cop><p1><sg>$
-^Хизб/*Хизб$
 ^Көрнөк/*Көрнөк$
 ^анда/ал<prn><dem><loc>/ал<prn><pers><p3><sg><loc>/анда<adv>/анда<cnjadv>/анда<ij>$
 ^Назарбек/*Назарбек$
@@ -291,7 +283,6 @@
 ^өткөрүшү/өт<v><iv><caus><ger_pres><px3pl><nom>/өт<v><iv><caus><ger_pres><px3sg><nom>$
 ^кирип/кир<v><iv><gna_perf>/кир<v><iv><prc_real>/кир<v><tv><gna_perf>/кир<v><tv><prc_real>$
 ^келтирди/кел<v><iv><caus><ifi><p3><pl>/кел<v><iv><caus><ifi><p3><sg>$
-^Мансы/*Мансы$
 ^айткан жокмун/айт<v><iv><neg><ifi><p1><sg>/айт<v><tv><neg><ifi><p1><sg>$
 ^Ооганстанда/*Ооганстанда$
 ^узак/узак<adj><advl>/узак<adj><pst>/узак<adj><subst><nom>$
@@ -359,7 +350,6 @@
 ^кайталанып/кайтала<v><tv><pass><gna_perf>/кайтала<v><tv><pass><prc_real>$
 ^биздин/биз<prn><pers><p1><pl><acc>$
 ^суранды/суран<v><iv><ifi><p3><pl>/суран<v><iv><ifi><p3><sg>$
-^млрд/*млрд$
 ^ишембиге/ишемби<n><dat>$
 ^боз/боз<adj><advl>/боз<adj><pst>/боз<adj><subst><nom>/боз<n><nom>$
 ^тараптан/тарап<n><abl>$
@@ -408,7 +398,6 @@
 ^кайталашты/кайтала<v><tv><coop><ifi><p3><pl>/кайтала<v><tv><coop><ifi><p3><sg>/кайтала<v><tv><ger_pres><acc>/кайтала<v><tv><ifi><p3><pl>$
 ^бизнес/*бизнес$
 ^сүрөттөп/сүрөттө<v><tv><gna_perf>/сүрөттө<v><tv><prc_real>$
-^М/*М$
 ^ишенбегенине/ишен<v><tv><neg><ger_past><px3pl><dat>/ишен<v><tv><neg><ger_past><px3sg><dat>/ишен<v><tv><neg><glp><subst><px3pl><dat>/ишен<v><tv><neg><glp><subst><px3sg><dat>/ишен<v><tv><neg><glp_past><subst><px3pl><dat>/ишен<v><tv><neg><glp_past><subst><px3sg><dat>$
 ^Боз/боз<adj><advl>/боз<adj><pst>/боз<adj><subst><nom>/боз<n><nom>$
 ^тараптуу/тарап<n><attr>$
@@ -440,7 +429,6 @@
 ^кемсинткен/*кемсинткен$
 ^маселеде/маселе<n><loc>$
 ^айтпадыбы/*айтпадыбы$
-^оорОшол/*оорОшол$
 ^Үйгө/үй<n><dat>$
 ^Бүгүн/бүгүн<adv>/бүгүн<n><nom>$
 ^Литвалыктар/Литва<np><top><adj><subst><pl><nom>$
@@ -541,7 +529,6 @@
 ^ооруканада/оорукана<n><loc>$
 ^Үйдө/үй<n><loc>$
 ^бузгандарды/буз<v><tv><ger_past><pl><acc>/буз<v><tv><glp><subst><pl><acc>/буз<v><tv><glp_past><subst><pl><acc>$
-^л/*л$
 ^Алардын/ал<prn><dem><pl><gen>/ал<v><iv><ger_fut><gen>/ал<v><iv><glp_fut><subst><gen>/ал<v><tv><ger_fut><gen>/ал<v><tv><glp_fut><subst><gen>/ал<vaux><ger_fut><gen>/ал<vaux><glp_fut><subst><gen>/алар<prn><pers><p3><pl><acc>$
 ^аялым/аял<adj><subst><px1sg><nom>/аял<n><px1sg><nom>$
 ^ары/ар<n><px3pl><nom>/ар<n><px3sg><nom>/ары<adv>$
@@ -577,7 +564,6 @@
 ^глобалдык/глобалдык<n><nom>$
 ^жараны/жара<n><acc>/жаран<n><px3pl><nom>/жаран<n><px3sg><nom>$
 ^1815/1815<num><nom>$
-^з/*з$
 ^жоопкерчилик/жоопкерчилик<n><nom>$
 ^силер/си<n><pl><nom>/силер<prn><pers><p2><pl><nom>$
 ^саат/саат<n><nom>$
@@ -646,7 +632,6 @@
 ^динаятчы/*динаятчы$
 ^учурда/учур<n><loc>$
 ^компания/компания<n><nom>$
-^б/*б$
 ^Азаттык/азаттык<n><nom>$
 ^каршы/каршы<adj><advl>/каршы<adj><pst>/каршы<adj><subst><nom>/каршы<adv>/каршы<n><nom>/каршы<post>$
 ^барбы/бар<n><nom>+бы<mod_qst>$
@@ -730,7 +715,6 @@
 ^Сагынбек/*Сагынбек$
 ^өксүктөр/*өксүктөр$
 ^отурду/отур<v><iv><ifi><p3><pl>/отур<v><iv><ifi><p3><sg>/отур<vaux><ifi><p3><pl>/отур<vaux><ifi><p3><sg>$
-^К/*К$
 ^Кенжебаевдин/*Кенжебаевдин$
 ^маселесин/маселе<n><px3pl><acc>/маселе<n><px3sg><acc>$
 ^айтышууда/айт<v><iv><coop><ger><loc>/айт<v><tv><coop><ger><loc>$
@@ -757,7 +741,6 @@
 ^тартууну/тарт<v><tv><ger><acc>/тартуу<n><acc>$
 ^жергесинин/*жергесинин$
 ^курдай/*курдай$
-^9у/*9у$
 ^Эми/эм<n><px3pl><nom>/эм<n><px3sg><nom>/эми<adv>$
 ^поляк/*поляк$
 ^чакырып/чакыр<v><tv><gna_perf>/чакыр<v><tv><prc_real>$
@@ -857,7 +840,6 @@
 ^курулай/*курулай$
 ^-/-<guio>$
 ^эмне/эмне<adv>/эмне<cnjcoo>/эмне<prn><itg><nom>$
-^п/*п$
 ^чаңызгытып/*чаңызгытып$
 ^көрүнүш/көрүн<v><iv><coop><imp><p2><sg>/көрүн<v><iv><ger_pres><nom>/көрүн<v><tv><coop><imp><p2><sg>/көрүн<v><tv><ger_pres><nom>/көрүнүш<n><nom>$
 ^Анын/ал<prn><dem><gen>/ал<prn><pers><p3><sg><acc>$
@@ -868,7 +850,6 @@
 ^чыгышкан/чык<v><iv><coop><ger_past><nom>/чык<v><iv><coop><glp>/чык<v><iv><coop><glp><subst><nom>/чык<v><iv><coop><glp_past>/чык<v><iv><coop><glp_past><subst><nom>/чык<v><iv><coop><past><p3><pl>/чык<v><iv><coop><past><p3><sg>/чык<v><iv><past><p3><pl>/чык<v><iv><past><p3><sg>/чык<vaux><coop><ger_past><nom>/чык<vaux><coop><glp>/чык<vaux><coop><glp><subst><nom>/чык<vaux><coop><glp_past>/чык<vaux><coop><glp_past><subst><nom>/чык<vaux><coop><past><p3><pl>/чык<vaux><coop><past><p3><sg>/чык<vaux><past><p3><pl>/чык<vaux><past><p3><sg>$
 ^кылууга/кыл<v><tv><ger><dat>$
 ^топтомдоруна/*топтомдоруна$
-^ГЭС/*ГЭС$
 ^жардырууларды/*жардырууларды$
 ^1939/1939<num><nom>$
 ^изине/из<n><px3pl><dat>/из<n><px3sg><dat>$
@@ -920,7 +901,6 @@
 ^дагы/дагы<adv>/дагы<n><nom>/дагы<post>/дагы<postadv>$
 ^жарлыгы/*жарлыгы$
 ^1957/1957<num><nom>$
-^ИИМдин/*ИИМдин$
 ^жумуштарын/жум<v><tv><ger_pres><pl><px3pl><acc>/жум<v><tv><ger_pres><pl><px3sg><acc>/жумуш<n><pl><px3pl><acc>/жумуш<n><pl><px3sg><acc>$
 ^Сөзсүз/сөз<n><nom>+э<cop><p2><frm><sg>/сөзсүз<adv>$
 ^сактап/сакта<v><tv><gna_perf>/сакта<v><tv><prc_real>$
@@ -998,12 +978,10 @@
 ^таанышкан/тааны<v><tv><coop><ger_past><nom>/тааны<v><tv><coop><glp>/тааны<v><tv><coop><glp><subst><nom>/тааны<v><tv><coop><glp_past>/тааны<v><tv><coop><glp_past><subst><nom>/тааны<v><tv><coop><past><p3><pl>/тааны<v><tv><coop><past><p3><sg>/тааны<v><tv><past><p3><pl>/тааны<v><tv><past><p3><sg>/тааныш<v><iv><ger_past><nom>/тааныш<v><iv><glp>/тааныш<v><iv><glp><subst><nom>/тааныш<v><iv><glp_past>/тааныш<v><iv><glp_past><subst><nom>/тааныш<v><iv><past><p3><pl>/тааныш<v><iv><past><p3><sg>$
 ^мүмкүн/мүмкүн<adj><advl>/мүмкүн<adj><pst>/мүмкүн<adj><subst><nom>/мүмкүн<n><nom>$
 ^иштеп/иште<v><iv><gna_perf>/иште<v><iv><prc_real>/иште<v><tv><gna_perf>/иште<v><tv><prc_real>$
-================================================================================================================
 ^болду/бол<v><iv><ifi><p3><pl>/бол<v><iv><ifi><p3><sg>/бол<vaux><ifi><p3><pl>/бол<vaux><ifi><p3><sg>$
 ^Татьяна/*Татьяна$
 ^жеринде/же<v><tv><ger_fut><px3pl><loc>/же<v><tv><ger_fut><px3sg><loc>/же<v><tv><glp_fut><subst><px3pl><loc>/же<v><tv><glp_fut><subst><px3sg><loc>/жер<n><px3pl><loc>/жер<n><px3sg><loc>$
 ^куруп/кур<v><tv><gna_perf>/кур<v><tv><prc_real>$
-^«/«<lquot>$
 ^эңсөөсүн/эңсе<v><iv><ger><px3pl><acc>/эңсе<v><iv><ger><px3sg><acc>$
 ^президенти/президент<n><px3pl><nom>/президент<n><px3sg><nom>$
 ^чара/чара<n><nom>$
@@ -1020,6 +998,7 @@
 ^жарыгын/жарык<adj><subst><px3pl><acc>/жарык<adj><subst><px3sg><acc>/жарык<n><px3pl><acc>/жарык<n><px3sg><acc>$
 ^1964/1964<num><nom>$
 ^илеби/илеп<n><px3pl><nom>/илеп<n><px3sg><nom>$
+================================================================================================================
 ^жүргөн/жүр<v><tv><ger_past><nom>/жүр<v><tv><glp>/жүр<v><tv><glp><subst><nom>/жүр<v><tv><glp_past>/жүр<v><tv><glp_past><subst><nom>/жүр<v><tv><past><p3><pl>/жүр<v><tv><past><p3><sg>/жүр<vaux><ger_past><nom>/жүр<vaux><glp>/жүр<vaux><glp><subst><nom>/жүр<vaux><glp_past>/жүр<vaux><glp_past><subst><nom>/жүр<vaux><past><p3><pl>/жүр<vaux><past><p3><sg>$
 ^сөзүндө/сөз<n><px3pl><loc>/сөз<n><px3sg><loc>$
 ^сакчы/сак<adj><advl>+чы<mod_foc>/сак<adj><subst><nom>+чы<mod_foc>/сак<n><nom>+чы<mod_foc>/сакчы<n><nom>$
