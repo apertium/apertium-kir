@@ -375,7 +375,6 @@
 ^жөө/же<v><tv><ger><nom>/жөө<adj><advl>/жөө<adj><pst>/жөө<adj><subst><nom>/жөө<adv>/жөө<n><nom>$
 ^Серик/*Серик$
 ^Россияга/Орусия<np><top><dat>$
-^ойобуз/*ойобуз$
 ^өтөт/өт<v><iv><aor><p3><pl>/өт<v><iv><aor><p3><sg>/өт<v><iv><prc_irre>/өт<v><tv><aor><p3><pl>/өт<v><tv><aor><p3><sg>/өт<v><tv><prc_irre>$
 ^кирчүдөй/кир<v><iv><glp_hab><subst><sim>/кир<v><iv><pot><p3><pl>/кир<v><iv><pot><p3><sg>/кир<v><tv><glp_hab><subst><sim>/кир<v><tv><pot><p3><pl>/кир<v><tv><pot><p3><sg>$
 ^келтирүү/кел<v><iv><caus><ger><nom>$
@@ -998,8 +997,8 @@
 ^жарыгын/жарык<adj><subst><px3pl><acc>/жарык<adj><subst><px3sg><acc>/жарык<n><px3pl><acc>/жарык<n><px3sg><acc>$
 ^1964/1964<num><nom>$
 ^илеби/илеп<n><px3pl><nom>/илеп<n><px3sg><nom>$
-================================================================================================================
 ^жүргөн/жүр<v><tv><ger_past><nom>/жүр<v><tv><glp>/жүр<v><tv><glp><subst><nom>/жүр<v><tv><glp_past>/жүр<v><tv><glp_past><subst><nom>/жүр<v><tv><past><p3><pl>/жүр<v><tv><past><p3><sg>/жүр<vaux><ger_past><nom>/жүр<vaux><glp>/жүр<vaux><glp><subst><nom>/жүр<vaux><glp_past>/жүр<vaux><glp_past><subst><nom>/жүр<vaux><past><p3><pl>/жүр<vaux><past><p3><sg>$
+================================================================================================================
 ^сөзүндө/сөз<n><px3pl><loc>/сөз<n><px3sg><loc>$
 ^сакчы/сак<adj><advl>+чы<mod_foc>/сак<adj><subst><nom>+чы<mod_foc>/сак<n><nom>+чы<mod_foc>/сакчы<n><nom>$
 ^окурмандарга/*окурмандарга$
