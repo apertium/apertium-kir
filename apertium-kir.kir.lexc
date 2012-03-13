@@ -295,6 +295,11 @@ LEXICON VOL-ENDINGS
 %<p2%>%<pl%>%<frm%>:%{I%}ң%{I%}зд%{A%}р # ;
 %<p3%>%<pl%>:%>%{S%}%{I%}%{n%} # ;
 
+LEXICON EXI
+
+%<adj%>: ATTR ;
+%<adj%>%<subst%>: POSSESSION ;
+
 LEXICON SUBST-COMMON
 
 %<pl%>:%>%{L%}%{A%}р POSSESSION ;
@@ -1174,7 +1179,7 @@ LEXICON Conjunctions
 башкача% айтканда CA ;
 тактап% айтканда CA ;
 тескерисинче CA ;
-жок CA ;
+! жок CA ;
 кокус CS ;
 болуптур CA ;
 ал% түгүл CA ;
@@ -5357,7 +5362,7 @@ LEXICON NounStems
 аскер N-INFL ;
 туруктуу N-INFL ;
 гарантия N-INFL ;
-жок N-INFL ;
+! жок N-INFL ;
 чет% өлкөлүк N-INFL ;
 арноо N-INFL ;
 пайда N-INFL ;
@@ -5469,7 +5474,7 @@ LEXICON NounStems
 аскер N-INFL ;
 туруктуу N-INFL ;
 гарантия N-INFL ;
-жок N-INFL ;
+! жок N-INFL ;
 чет% өлкөлүк N-INFL ;
 арноо N-INFL ;
 пайда N-INFL ;
@@ -8378,7 +8383,7 @@ LEXICON AdvStems
 эртеси ADV ; 
 өзүнчө ADV ;  ! "by oneself"
 көп ADV ; 
-жок ADV ; ! FIXME: adv?
+! жок ADV ; ! FIXME: adv?
 ар% дайым ADV ; 
 ! төмөнкү ADV ;
 негизи ADV ; 
@@ -8427,7 +8432,7 @@ LEXICON AdvStems
 көбүнчө ADV ; 
 кайакта ADV ; ! FIXME: INTERROGATIVE
 кокустан ADV ; ! "suddenly"
-жок ADV ; 
+! жок ADV ; 
 ушундайча ADV ; 
 аз% да% болсо ADV ; ! FIXME: compositional
 ыктымал ADV ; 
@@ -8623,9 +8628,11 @@ LEXICON AdvStems
 
 LEXICON VerbStems
 
-бар%<v%>%<exi%>:бар # ;
-жок%<v%>%<neg%>%<exi%>:жок # ;
-жок%<v%>%<neg%>%<exi%>:жок V-PERS-COP-SUF ;
+! бар%<v%>%<exi%>:бар # ;
+! жок%<v%>%<neg%>%<exi%>:жок # ;
+! жок%<v%>%<neg%>%<exi%>:жок V-PERS-COP-SUF ;
+бар EXI ;
+жок EXI ;
 
 э%<cop%>%<neg%>:эмес V-PERS-COP-SUF ; 
 э%<cop%>%<evid%>:экен V-PERS-COP-SUF ; 
