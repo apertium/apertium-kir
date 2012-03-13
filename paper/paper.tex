@@ -87,7 +87,7 @@ E-03071 Alacant (Spain)\\
 
 %FIXME: this should be closer to the 200 word limit, and less like the intro pargraph
 \abstract{This paper describes the development of a morphological transducer oriented for the task of machine translation for the Kyrgyz language using the free/open-source platform HFST. The transducer was developed under the auspices of the Apertium \citep{forcada2011} project for use in a machine translation system from Turkish to Kyrgyz.\\
-\Keywords{kyrgyz, morphology, open-source}}
+\Keywords{kyrgyz, morphology, transducer}}
 
 %FIXME:
 %\thanks{GSoC, Tolgonay, ..?}
@@ -116,7 +116,7 @@ The understanding of Kyrgyz grammar employed to construct the transducer for thi
 %FIXME: this seems to be wrapping badly, at least here
 The objective of a morphological transducer is twofold. Firstly to take surface forms (e.g., алдым) and generate all possible lexical forms, and secondly to take lexical forms (e.g.,  ал<v><tv><ifi><p1><sg>, алд<n><px1sg><nom>, etc.) and generate one or more surface forms. 
 
-The project is designed based on the Helsinki Finite State Toolkit \citep{linden2011} which is a free/open-source reimplementation of the Xerox finite-state toolchain, popular in the field of morphological analysis. It implements both the \textbf{lexc} formalism for defining lexicons, and the \textbf{twol} and \textbf{xfst} formalisms for modeling morphophonological rules. It also supports other finite state transducer formalisms such as \textbf{sfst}. This toolkit has been chosen as it -- or the equivalent XFST -- has been widely used for other Turkic languages \citemultileft{coltekin2010}, \citemultimid{altintas2001}, \citemultiright{tantug2006}, and is available under a free/open-source licence.
+The project is designed based on the Helsinki Finite State Toolkit \citep{linden2011} which is a free/open-source reimplementation of the Xerox finite-state toolchain, popular in the field of morphological analysis. It implements both the \textbf{lexc} formalism for defining lexicons, and the \textbf{twol} and \textbf{xfst} formalisms for modeling morphophonological rules. It also supports other finite state transducer formalisms such as \textbf{sfst}. This toolkit has been chosen as it -- or the equivalent XFST -- has been widely used for other Turkic languages, such as Turkish \citep{coltekin2010}, Crimean~Tatar~\citep{altintas2001}, and Turkmen~\citep{tantug2006}, and is available under a free/open-source licence.
 
 \section{Description}
 %FIXME: \ldots{} section
@@ -499,7 +499,7 @@ Also, despite the good coverage, there are still a number of grammatical forms t
 %these issues is fixed!
 %Also, despite the good coverage, there are still a number of grammatical forms that have not been implemented into the transducer.  One of these is the irregular combination of 3rd person non-past finite verb plus the yes/no question particle.  For example, the third person non-past of /бар/ \eng{go} is [барат], but when the question particle -/BI/ is added, the resulting form is [барабы] instead of *[баратпы] (the transducer's current output).  There are also currently some problems handling the progressive aspect auxiliary /жат/ when it grammaticalises as a suffix with a couple verbs (/бар/ and /кел/) which often use a different participial form with this auxiliary than most verbs do.
 
-It is the hope of the authors that the work on this transducer will lead the way for work on transducers for other Turkic languages.  Indeed, transducers for Kazakh, Tatar, Bashqort, and even Chuvash have benefited from work done on this transducer: many aspects have been based on the same general approach, and a number of rules from the Kyrgyz transducer have served as the basis of rules in the transducers of these other languages.
+It is the hope of the authors that the work on this transducer will lead the way for work on transducers for other Turkic languages.  Indeed, transducers for Kazakh, Tatar, Bashqort, and Chuvash which are currently under development have benefited from work done on this transducer: many aspects have been based on the same general approach, and a number of phonological rules from the Kyrgyz transducer have served as the basis of rules in the transducers of these other languages.
 
 \bibliographystyle{lrec2012}
 \bibliography{paper}
