@@ -40,7 +40,7 @@
 \title{A finite-state morphological transducer for Kyrgyz}
 %\author{Jonathan North Washington, Mirlan Ipasov, and Francis Tyers\\\href{mailto:jonwashi@indiana.edu}{jonwashi@indiana.edu}, \href{mailto:mipasov@gmail.com}{mipasov@gmail.com}, \href{mailto:ftyers@prompsit.com}{ftyers@prompsit.com}}
 
-\author {Jonathan North Washington\\
+\author{Jonathan North Washington\\
 Departments of Linguistics and Central Eurasian Studies\\
 Indiana University\\
 Bloomington, IN 47405 (USA)\\
@@ -57,26 +57,44 @@ E-03071 Alacant (Spain)\\
 \texttt{ftyers@dlsi.ua.es} 
  }
 
+\name{Jonathan North Washington, Mirlan Ipasov, Francis M.\ Tyers}
+
+\address{Departments of Linguistics and Central Eurasian Studies\\
+Indiana University\\
+Bloomington, IN 47405 (USA)\\
+\texttt{jonwashi@indiana.edu} \and
+Computer Engineering and Mathematics Department\\
+International Ataturk Alatoo University\\
+Bishkek (Kyrgyzstan)\\
+\texttt{mipasov@gmail.com} \and
+Dept.\ Lleng.\ i Sist.\ Informàtics \\  
+Universitat d'Alacant\\
+E-03071 Alacant (Spain)\\
+\texttt{ftyers@dlsi.ua.es}
+}
+
 
 \date{}
 
+%FIXME: this should be closer to the 200 word limit, and less like the intro pargraph
+\abstract{This paper describes the development of a morphological transducer oriented for the task of machine translation for the Kyrgyz language using the free/open-source platform HFST. The transducer was developed under the auspices of the Apertium \citep{forcada2011} project for use in a machine translation system from Turkish to Kyrgyz.}
+
+%FIXME:
+%\thanks{GSoC, Tolgonay, ..?}
+
 \begin{document}
-\maketitle{}
+\maketitleabstract{}
 \thispagestyle{empty}
 
-\begin{abstract}
-Less than 200 words
-
-\end{abstract}
 
 \section{Introduction}
-This paper describes the development of a morphological transducer oriented for the task of machine translation for the Kyrgyz language using the free/open-source platform HFST. The transducer was developed under the auspices of the Apertium \cite{forcada2011} project for use in a machine translation system from Turkish to Kyrgyz.
+This paper describes the development of a morphological transducer oriented for the task of machine translation for the Kyrgyz language using the free/open-source platform HFST. The transducer was developed under the auspices of the Apertium \citep{forcada2011} project for use in a machine translation system from Turkish to Kyrgyz.
 
 The paper is split into five main parts. First a background section gives some details about Kyrgyz and the toolkit used. Subsequent sections describe the tagset and individual issues encountered with the morphotactics and the morphophonology. Finally, some evaluation results are given and future work outlined.
 
 \section{Background}
 \subsection{The Kyrgyz language}
-Kyrgyz (written ‹кыргыз тили› or ‹\textuighur{قىرعىز تىلى}›, pronounced [qɯɾʁɯz tili]) alternatively written ``Kirghiz'' or ``Kirgiz'') is a Turkic language spoken in Kyrgyzstan, China, Tajikistan, and Uzbekistan.  Its classification within Turkic remains problematic—it appears to alternatively belong to the Kypchak (Northwestern) branch and to the South Siberian (Northeastern) branch.  The Turkic varieties phonetically and phonologically most similar to Kyrgyz are the southern dialects of Altay, though Kyrgyz shows strong parallels to Kazakh that these varieties lack, especially in its Talas dialects.  In southern varieties of Kyrgyz there are also many similarities to Uzbek that other dialects lack.
+Kyrgyz (written ‹кыргыз тили› or ‹\textuighur{قىرعىز تىلى}›, pronounced [qɯɾʁɯz tilí]) alternatively written ``Kirghiz'' or ``Kirgiz'') is a Turkic language spoken in Kyrgyzstan, China, Tajikistan, and Uzbekistan.  Its classification within Turkic remains problematic—it appears to alternatively belong to the Kypchak (Northwestern) branch and to the South Siberian (Northeastern) branch.  The Turkic varieties phonetically and phonologically most similar to Kyrgyz are the southern dialects of Altay, though Kyrgyz shows strong parallels to Kazakh that these varieties lack, especially in its Talas dialects.  In southern varieties of Kyrgyz there are also many similarities to Uzbek that other dialects lack.
 
 Kyrgyz is spoken mostly in Kyrgyzstan where it has official status as the national language.  Many Kyrgyz speakers in Kyrgyzstan are bilingual in Russian and/or Uzbek, and make up a majority of the population of the country.  There are other sizable Kyrgyz-speaking communities outside of Kyrgyzstan, most notably in China (where the Kyrgyz are an officially recognised minority), Tajikistan, and Uzbekistan.  Current estimates of the number of speakers range from 3 million to 4 million.\footnote{Based on figures from \cite{lewis2009} and \cite{factbook2009}}  Not all ethnic Kyrgyz speak the language, and not all competent speakers are ethnic Kyrgyz, but there is a very strong correspondence between ethnic identity and knowledge of the language.\footnote{This interpretation of the situation is supported by the experiences of the authors with the language, and is common knowledge in Kyrgyzstan.}
 
@@ -173,6 +191,11 @@ However, instead of doing complicated splitting of the case continuation lexica 
 While the phonological rules are not necessarily as closely tied to an accurate morphological analysis of what is going on as they could be, these few rules allowed fewer irregular continuation lexica to be created---most immediately by allowing the ablative and dative continuation lexica for 3rd person to behave similarly to that of 1st and 2nd person singular, and avoiding separate irregular continuation lexica for the other cases.  The direct result of this approach was a much more concise description of the morphology in the lexicon file.
 
 \section{Morphophonology}
+
+%FIXME: X and Y
+Current morphological analysers of European languages are based on the orthography of the words, even in cases such as X and Y where this may make it more difficult to write morphophonological rules.  This has the advantage that in order to use the morphological analyser to analyse text (as opposed to using it as a tool to study phonology), no up/down conversion between the orthography and the transcription used in the analyser is necessary, avoiding possibilities of misconversion.
+
+In the case of Kyrgyz, dealing with the orthographical forms directly further simplifies some aspects of the morphophonology, since Kyrgyz orthography reflects a somewhat simplified version of the phonology: it ignores processes that the orthographies of many other Turkic do not, such as the phonemic distinction between velar and uvular consonants as well as sandhi voicing effects.
 
 \subsection{Vowel harmony}
 
