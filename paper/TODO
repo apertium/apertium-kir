@@ -16,7 +16,6 @@
 * The transducers showed good coverage between 81 - 87 % depending on the corpora. However the authors still need to address precision to get full formal evaluation of the morphological analyzer they are working on.
 * Check stuff
 ** Check \subsection{Morphological and orthographic words}
-** check acknowledgements section
 ** check evaluation section
 
 == Mirlan ==
@@ -27,6 +26,7 @@
 * "has been widely used for other Turkic languages". Could you name the languages in the text (Turkish, Crimean Tatar and Turkmen)?
 * Check stuff
 ** Check keywords
+** check acknowledgements section
 ** Check JNW's rewording of "The direct result of this approach was a much smaller and simpler transducer." -> "... a more concise description"
 ** Check JNW's mention of further turkic transducers in future work section
 * write evaluation script
