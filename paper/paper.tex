@@ -43,7 +43,7 @@
 \author {Jonathan North Washington\\
 Departments of Linguistics and Central Eurasian Studies\\
 Indiana University\\
-Bloomington, IN 47405-7000 (USA)\\
+Bloomington, IN 47405 (USA)\\
 \texttt{jonwashi@indiana.edu} \and
 Mirlan Ipasov\\
 Computer Engineering and Mathematics Department\\
@@ -63,6 +63,11 @@ E-03071 Alacant (Spain)\\
 \begin{document}
 \maketitle{}
 \thispagestyle{empty}
+
+\begin{abstract}
+Less than 200 words
+
+\end{abstract}
 
 \section{Introduction}
 This paper describes the development of a morphological transducer oriented for the task of machine translation for the Kyrgyz language using the free/open-source platform HFST. The transducer was developed under the auspices of the Apertium \cite{forcada2011} project for use in a machine translation system from Turkish to Kyrgyz.
@@ -99,7 +104,14 @@ The tags are represented as multicharacter symbols, between `<' and `>' punctuat
 %\subsection{Challenges:  Copula, how to represent different tenses, what is a “word”?}
 
 \subsection{Morphological and orthographic words}
-Normal tokenisation often takes white space to be the delimiter between ``words''.  For analysis and generation, however, there are some morphophonological processes that work across the ``whitespace'' boundary.
+Normal tokenisation often takes white space to be the delimiter between ``words''.  For analysis and generation, however, there are two exceptions to this.  Some morphophonological processes work across the ``whitespace'' boundary, and some clitics which are written next to the previous word without a whitespace can be considered syntactically separate units (words) and follow standard morphophonologial processes.
+
+Kyrgyz, like other turkic languages (Tatar, Chuvash, Kazakh), has morphophonological processes that work across the ``whitespace'' boundary, but unlike many other Turkic languages, they are not represented in the orthography.
+
+Some clitics in Kyrgyz which can be considered separate words but are written together with the previous word include the question word `бы'; the focus particle `чы'; copula suffixes `мин', etc.; and the progressive auxiliary `жат' with certain verbs.
+%FIXME: why copular suffixes?
+
+One result of making transducer targetted at machine translation is that we want to be able to both analyse, and generate the same forms. .... %FIXME
 
 \subsection{Irregular negatives of finite verb forms}
 
