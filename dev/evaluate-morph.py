@@ -24,8 +24,8 @@ import sys;
 # recall = number of correct analyses / (number of correct analyses + number of missing analyses)
 # F-score = (precision * recall) / (precision + recall)
 
-tst = file(sys.argv[1]);
-ref = file(sys.argv[2]);
+tst = open(sys.argv[1]);
+ref = open(sys.argv[2]);
 reading = True;
 
 def parse_line(s): #{
