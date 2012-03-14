@@ -90,7 +90,7 @@ E-03071 Alacant (Spain)\\
 
 \date{}
 
-%FIXME: this should be closer to the 200 word limit, and less like the intro pargraph
+%FIXED: this should be closer to the 200 word limit, and less like the intro pargraph
 
 \abstract{This paper describes the development of a free/open-source finite-state morphological transducer for Kyrgyz. The transducer 
 has been developed for morphological generation for use within a prototype Turkish$\rightarrow$Kyrgyz machine translation system, but has also been extensively tested for analysis. The finite-state toolkit used for the work was the Helsinki Finite-State 
@@ -314,7 +314,8 @@ Here, the underlying /D/ is always realised as [д] when after a voiced segment 
 Voicing assimilation was dealt with simply by creating a single twol rule that transformed any relevant archiphoneme (\{B\}, \{G\}, \{D\}, \{L\}, and \{N\}) to a voiceless stop (either [п], [к], or [т]) after a voiceless consonant.  The set of voiceless consonants was also defined in twolc so that rules sensitive to this set would be easier to write.
 
 \subsection{Desonorisation}
-Desonorisation \citep{washington10} happens to /N/ when it follows any consonant, and to /L/ when it follows a consonant of equal or lower sonority (i.e., /л/, nasals (/м/, /н/, /ң/), and obstruents, but not /й/, /р/, or vowels).  The resulting surface consonant is [д] for both /N/ and /L/, unless it follows a voiceless consonant, in which case it surfaces as [т].  An example includes the accusative and plural suffixes: % FIXME: This should point to the table ?
+Desonorisation \citep{washington10} happens to /N/ when it follows any consonant, and to /L/ when it follows a consonant of equal or lower sonority (i.e., /л/, nasals (/м/, /н/, /ң/), and obstruents, but not /й/, /р/, or vowels).  The resulting surface consonant is [д] for both /N/ and /L/, unless it follows a voiceless consonant, in which case it surfaces as [т].  An example includes the accusative and plural suffixes, as in table~\ref{exdesonorisation}.
+% FIXED: This should point to the table ?
 
 \begin{table}[htbp]
 	\caption{Examples comparing desonorisation of \{N\} and \{L\}}\label{exdesonorisation}
@@ -419,13 +420,13 @@ However, when a vowel-initial suffix follows the noun, as in table~\ref{exrnnovo
 
 This was dealt with in a somewhat non-linguistic way: a default epenthetic vowel \{y\} was defined and inserted into the words by default (see Fig.~\ref{fig:lexc1}.
 
-%FIXME: do something with these: make them prettier, remove them, explain them better, ....?
+%FIXED: do something with these: make them prettier, remove them, explain them better, ....?
 \begin{figure}
 \caption{Example of use of epenthetic vowel \{y\}.}
 ~\\
 
- орун:ор{\tt {\small \%\{y\%\}}}н~~ N-INFL~~ ;~~ ! ``place"\\
-~~ мунун:мур{\tt {\small \%\{y\%\}}}н~~ N-INFL~~ ;~~ ! ``FIXME:"
+ орун:ор{\tt {\small \%\{y\%\}}}н~~ N-INFL~~ ;~~ ! ``place''\\
+~~ мурун:мур{\tt {\small \%\{y\%\}}}н~~ N-INFL~~ ;~~ ! ``nose''
 
 \label{fig:lexc1}
 \end{figure}
