@@ -14,6 +14,7 @@
 dev/countstems.sh -text
 dev/evaluate-morph.py -text
 dev/rferl.random.1000.txt -text
+dev/rferl.random.someforms_corrected.txt -text
 paper/Makefile -text
 paper/TODO -text
 paper/abstract.tex -text
