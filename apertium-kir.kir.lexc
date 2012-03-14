@@ -81,7 +81,7 @@ Multichar_Symbols
 %<neg%>     ! Negative
 %<exi%>     ! Existential
 
-%<qst%> ! Question modal particle
+%<qst%>     ! Question modal particle
 %<mod_foc%> ! "what about ..." question particle
 %<mod_ass%> ! assumption-that-interlocutor-knows-something modal particle
 %<mod_tru%> ! assumption-that-statement-is-true modal particle
@@ -1101,10 +1101,10 @@ LEXICON VAUX-ELE
 
 %<vaux%>: V-PERS-COND ;
 
-LEXICON PRED
-
-%<pred%>%<subst%>: SUBST-COMMON ;
-%<pred%>: ATTR ;
+!LEXICON PRED
+!
+!%<pred%>%<subst%>: SUBST-COMMON ;
+!%<pred%>: ATTR ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!                  L E X I C O N    E N T R I E S                         !!!

@@ -41,6 +41,7 @@ def parse_line(s): #{
 missing_analyses = 0.0;
 incorr_analyses = 0.0;
 corr_analyses = 0.0;
+unknown_words = 0.0;
 
 missing = {};
 incorrect = {};
@@ -61,6 +62,8 @@ while reading: #{
 		# If an entry is in the test, _and_ in the reference, it is correct
 		if a in ref_entry[1]: #{
 			corr_analyses += 1.0;
+		elif a[0] == '*': #{
+			unknown_words += 1.0;		
 		# If an entry is in the test, but not in the reference, it is incorrect
 		else: #{
 			incorr_analyses += 1.0;

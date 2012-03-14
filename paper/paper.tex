@@ -65,7 +65,7 @@ International Ataturk Alatoo University\\
 Bishkek (Kyrgyzstan)\\
 \texttt{mipasov@gmail.com} \and
 Francis M. Tyers\\
-Dept.\ Lleng.\ i Sist.\ Informàtics \\  
+Departament de Llenguatges i Sistemes Informàtics \\  
 Universitat d'Alacant\\
 E-03071 Alacant (Spain)\\
 \texttt{ftyers@dlsi.ua.es} 
@@ -81,7 +81,7 @@ Computer Engineering and Mathematics Department\\
 International Ataturk Alatoo University\\
 Bishkek (Kyrgyzstan)\\
 \texttt{mipasov@gmail.com} \and
-Dept.\ Lleng.\ i Sist.\ Informàtics \\  
+Departament de Llenguatges i Sistemes Informàtics \\  
 Universitat d'Alacant\\
 E-03071 Alacant (Spain)\\
 \texttt{ftyers@dlsi.ua.es}
@@ -91,7 +91,11 @@ E-03071 Alacant (Spain)\\
 \date{}
 
 %FIXME: this should be closer to the 200 word limit, and less like the intro pargraph
-\abstract{This paper describes the development of a morphological transducer oriented for the task of machine translation for the Kyrgyz language using the free/open-source platform HFST. The transducer was developed under the auspices of the Apertium \citep{forcada2011} project for use in a machine translation system from Turkish to Kyrgyz.\\
+
+\abstract{This paper describes the development of a free/open-source finite-state morphological transducer for Kyrgyz. The transducer 
+has been developed for morphological generation for use within a prototype Turkish$\rightarrow$Kyrgyz machine translation system, but has also be extensively tested for analysis. The finite-state toolkit used for the work was the Helsinki Finite-State 
+Toolkit (HFST). The paper describes some issues in Kyrgyz morphology, the development of the tool, some linguistic issues encountered and how they were dealt with, and 
+which issues are left to resolve. An evaluation is presented which shows that the transducer has medium-level coverage, between 82\% and 87\% on two freely available corpora of Kyrgyz, and high precision and recall over a manually verified test set. \\
 \Keywords{kyrgyz, morphology, transducer}}
 
 \begin{document}
@@ -118,10 +122,10 @@ The objective of a morphological transducer is twofold. Firstly to take surface 
 The project is designed based on the Helsinki Finite State Toolkit \citep{linden2011} which is a free/open-source reimplementation of the Xerox finite-state toolchain, popular in the field of morphological analysis. It implements both the \textbf{lexc} formalism for defining lexicons, and the \textbf{twol} and \textbf{xfst} formalisms for modeling morphophonological rules. It also supports other finite state transducer formalisms such as \textbf{sfst}. This toolkit has been chosen as it -- or the equivalent XFST -- has been widely used for other Turkic languages, such as Turkish \citep{coltekin2010}, Crimean~Tatar~\citep{altintas2001}, and Turkmen~\citep{tantug2006}, and is available under a free/open-source licence.
 
 \section{Description}
-The tagset consists of 127 separate tags, 19 covering the main parts of speech (noun, verb, adjective, adverb, postposition, etc.) and 108 covering morphological subcategorisation for e.g. case, number, person, possession, transitivity, tense-aspect-mood, etc. The tags are represented as multicharacter symbols, between less than `<' and greater than `>' symbols. The tagset is quite extensive and still not entirely stabilised, as such a full listing is not included here. However, the tags are listed in the source code of the transducer, along with comments describing their usage.
-%FIXME: URL for source code?
+The tagset consists of 127 separate tags, 19 covering the main parts of speech (noun, verb, adjective, adverb, postposition, etc.) and 108 covering morphological subcategorisation for e.g. case, number, person, possession, transitivity, tense-aspect-mood, etc. The tags are represented as multicharacter symbols, between less than `<' and greater than `>' symbols. The tagset is quite extensive and still not entirely stabilised, as such a full listing is not included here. However, the tags are listed in the source code of the transducer,\footnote{\url{https://apertium.svn.sourceforge.net/svnroot/apertium/branches/apertium-kir/}} along with comments describing their usage.
 
 %FIXME: something about {} representation of archiphonemes and what they mean?
+%% Not necess.
 
 \section{Morphotactics}
 
@@ -138,13 +142,8 @@ Regarding the second exception, some clitics in Kyrgyz can be considered separat
 The analyser is designed to be used with the longest-match left-to-right (LRLM) tokenisation strategy, as described in \cite{garrido-alenda02}. Thus when more than one `word' needs to be output, they are joined with the \texttt{+} symbol, which is reserved for joining two `words' in one analysis.  For example, [өнүктүрөбүзбү ?] \eng{will we develop it?} is analysed as 
 өнүк{\tt {\small <v><tv><caus><aor><p1><pl>+}}бы{\tt {\small <qst>}}, which is two words: [өнүк] (verb, transitive, causative, aorist, first person, plural) and [бы] (question clitic).  Likewise, [келатсаң] \eng{if you come} кел{\tt {\small <v><iv><prt\_impf>}}+жат\texttt{{\small <vaux><gna\_cnd><p2><sg>}} is analysed as two words: [кел] (verb, intransitive, imperfect participle), and [жат] (auxiliary, conditional verbal adverb, second person, singular).
 
-% garrido-alenda02
-
 %Future TODO (was a FIXME): why copular suffixes?
-
 %One result of making transducer targetted at machine translation is that we want to be able to both analyse, and generate the same forms. 
-%.... %FIXME
-
 \subsection{Irregular negatives of finite verb forms}
 
 One of the morphotactic challenges met in defining a finite-state transducer for Kyrgyz is that many finite verb forms have ``irregular'' negative forms.  While the paradigms are completely regular, the negative morphotactics are not regularly derived from the affirmative forms.  There are also several different ``regular'' patterns of alternation.  Listed in table~\ref{irregnegs} are a couple examples of a few finite verb paradigms with their negative forms.
@@ -167,9 +166,8 @@ One of the morphotactic challenges met in defining a finite-state transducer for
 	\end{tabular}
 \end{table*}
 
-\footnotetext{P1--P6 refer to different sets of personal suffixes; the terminology and specific numbers are based off of \citet[29]{hebertpoppe1963}.}
+\footnotetext{P1--P6 refer to different sets of personal suffixes; the terminology and specific numbers are based on \citet[29]{hebertpoppe1963}.}
 
-%FIXME: is "point to" the right terminology?
 Since the general verbal negation morpheme in Kyrgyz tends to be /BA/ (as it is in all non-finite verb forms), we treated forms with /BA/ (the last two in the list above, for example) as regular (assuming other aspects of their morphology did not change).  We then created two different sets of continuation lexica for finite verb forms—one for regular finite verb forms, and one for irregular finite verb forms.  The continuation lexicon for regular finite verbal forms points to two continuation lexica: one of the regular verb suffixes (such as -/(I)птIр/ and -/E/, which in turn point to the appropriate continuation lexica for their person endings), and one of the negative -/BA/, which in turn points to the regular verb suffix continuation lexicon.  The continuation lexicon for irregular finite verb forms directly contains affirmative and negative morphology which each point to the appropriate personal suffix continuation lexica.
 
 \subsection{Irregular [noun + possessive + case] forms}
@@ -198,7 +196,6 @@ Nouns may be followed by possessive suffixes before any case suffixes.  This rel
 %FIXME: maybe a footnote at least about what "optional loss of /D/" means?
 %TODO: some explanation of how optional rules were dealt with
 There are two rules that can immediately deal with some of these forms: optional loss of /D/ in the ablative suffix after 1st person singular, 2nd person singular, and 3rd person possession suffixes, and mandatory loss of /G/ in the dative suffix in the same situations.  Since these are rules specific to these morphological forms and do not apply generally in Kyrgyz at a phonological level, they were implemented directly in the interaction of the continuation lexica for these possessive suffixes and ablative and dative case suffixes.
-%FIXME: should we be more specific as to how we did this, or is something very vague and general like this good?
 
 However, instead of doing complicated splitting of the case continuation lexica following the third person possessive suffix to sometimes insert /н/, we decided to proceed under the premise that /н/ was instead underlying in this suffix (and a couple others!) and got deleted in the nominative, accusative, and genitive.  To accomplish this, a \{n\} archiphoneme was added to the 3rd person possessive suffix, creating an underlying form of \{S\}\{I\}\{n\}.  Phonological rules were implemented in twolc which deleted \{n\} when followed by nothing (for nominative), another set of rules that deleted the accusative \{N\}\{I\} after \{n\} and a morpheme boundary, and a rule that deleted \{n\} when followed by a morpheme boundary and the genitive \{N\}\{I\}н.\footnote{Because a general possessive suffix that can follow personal possessive suffixes can also behave like the genitive in this respect, the rule is actually more general.}
 
@@ -206,8 +203,7 @@ While the phonological rules are not necessarily as closely tied to an accurate 
 
 \section{Morphophonology}
 
-%FIXME: X and Y
-Current morphological analysers of European languages are based on the orthography of the words, even in cases such as X and Y where this may make it more difficult to write morphophonological rules.  This has the advantage that in order to use the morphological analyser to analyse text (as opposed to using it as a tool to study phonology), no up/down conversion between the orthography and the transcription used in the analyser is necessary, avoiding possibilities of misconversion.
+Current morphological analysers of European languages are based on the orthography of the words, even where this may make it more difficult to write morphophonological rules.  This has the advantage that in order to use the morphological analyser to analyse text (as opposed to using it as a tool to study phonology), no up/down conversion between the orthography and the transcription used in the analyser is necessary, avoiding possibilities of misconversion.
 
 In the case of Kyrgyz, dealing with the orthographical forms directly further simplifies some aspects of the morphophonology, since Kyrgyz orthography reflects a somewhat simplified version of the phonology: it ignores processes that the orthographies of many other Turkic do not, such as the phonemic distinction between velar and uvular consonants as well as sandhi voicing effects. However, other aspects are made more complicated, such as й+vowel combinations (see §\ref{sec:yot}).
 
@@ -318,7 +314,6 @@ Voicing assimilation in Kyrgyz involves the agreement of voicing of two consonan
 Here, the underlying /D/ is always realised as [д] when after a voiced segment (including a vowel), but is realised as [т] after an unvoiced consonant, while underlying /G/ is always realised as [г]\footnote{‹г› is pronounced [{\qipa ɣ}] in the context of front vowels and [{\qipa ʁ}] in the context of back vowels; it also has realisations of [{\qipa ɡ}] and [{\qipa ɢ}] after nasals.} after a voiced segment, but is realised as [к]\footnote{‹к› is realised as [{\qipa q}] in the context of back vowels and [{\qipa k}] in the presence of front vowels.} after voiceless consonants.
 
 Voicing assimilation was dealt with simply by creating a single twol rule that transformed any relevant archiphoneme (\{B\}, \{G\}, \{D\}, \{L\}, and \{N\}) to a voiceless stop (either [п], [к], or [т]) after a voiceless consonant.  The set of voiceless consonants was also defined in twolc so that rules sensitive to this set would be easier to write.
-%FIXME: and more efficient?  Or not?
 
 \subsection{Desonorisation}
 Desonorisation \citep{washington10} happens to /N/ when it follows any consonant, and to /L/ when it follows a consonant of equal or lower sonority (i.e., /л/, nasals (/м/, /н/, /ң/), and obstruents, but not /й/, /р/, or vowels).  The resulting surface consonant is [д] for both /N/ and /L/, unless it follows a voiceless consonant, in which case it surfaces as [т].  An example includes the accusative and plural suffixes:
@@ -424,11 +419,18 @@ However, when a vowel-initial suffix follows the noun, as in table~\ref{exrnnovo
 \end{center}
 \end{table}
 
-This was dealt with in a somewhat non-linguistic way: a default epenthetic vowel {y} was defined and inserted into the words by default:
+This was dealt with in a somewhat non-linguistic way: a default epenthetic vowel \{y\} was defined and inserted into the words by default (see Fig.~\ref{fig:lexc1}.
 
 %FIXME: do something with these: make them prettier, remove them, explain them better, ....?
-\noindent орун:ор\%\{y\%\}н N-INFL ;\\
-\noindent мунун:мур\%\{y\%\}н N-INFL ;
+\begin{figure}
+\caption{Example of use of epenthetic vowel \{y\}.}
+~\\
+
+ орун:ор{\tt {\small \%\{y\%\}}}н~~ N-INFL~~ ;~~ ! ``place"\\
+~~ мунун:мур{\tt {\small \%\{y\%\}}}н~~ N-INFL~~ ;~~ ! ``FIXME:"
+
+\label{fig:lexc1}
+\end{figure}
 
 The vowel was then removed by a twol rule when a vowel followed.  To realise the epenthetic vowel, a rule resembling the \{I\} vowel harmony rule was created---the primary difference between these rules is that the \{y\} harmony rule only acts when something other than a vowel (i.e., a consonant or a word boundary) follows the following consonant.  While \{y\} will always behave like \{I\}, there is unfortunately no way to make this happen without replicating the context of the \{I\} rule.  This is due to restrictions in two-level morphology.
 %FIXME: last sentence needs some rewriting
@@ -446,6 +448,7 @@ is irregular).
 
 \begin{table}
 	\caption{Breakdown of number of stems in the lexicon by major part of speech. Minor categories, such as particle, modal and copula are left out.}\label{table:stems}
+~\\
 	\centering
 	\begin{tabular}{lr}
 		\toprule
@@ -474,9 +477,9 @@ on two large freely available corpora of Kyrgyz. The second is by performing an 
 
 \subsection{Coverage and mean ambiguity}
 
-To calculate the naïve coverage\footnote{Naïve coverage refers to the percentage of surface forms in a given corpora that receive at least one analysis.  Forms counted by this measure may have other analyses which are not delivered by the transducer.} of the analyser, two corpora were used.  The first corpus was a database dump of the Kyrgyz Wikipedia, dated 2011-09-23,\footnote{The exact name of the dump was \texttt{kywiki-20110923-pages-articles.xml}.} which was processed with the programs \texttt{aq-wikicrp} to extract sentences. The second was a corpus generated from the archives of Radio Free Europe / Radio Liberty's Kyrgyz service, \href{http://www.azattyk.org}{azattyk.org}.  The RFERL corpus was built using a script that scraped the archives for all articles from 2010, which include articles on a wide variety of topics, from sports to politics and from culture to current events.
+To calculate the naïve coverage\footnote{Naïve coverage refers to the percentage of surface forms in a given corpora that receive at least one analysis.  Forms counted by this measure may have other analyses which are not delivered by the transducer.} of the analyser, two corpora were used.  The first corpus was a database dump of the Kyrgyz Wikipedia, dated 2011-09-23,\footnote{The exact name of the dump was \texttt{kywiki-20110923-pages-articles.xml}.} which was processed with the programs \texttt{aq-wikicrp} to extract sentences. The second was a corpus generated from the archives of Radio Free Europe / Radio Liberty (RFE/RL)'s Kyrgyz service, \href{http://www.azattyk.org}{azattyk.org}.  The RFE/RL corpus was built using a script that scraped the archives for all articles from 2010, which include articles on a wide variety of topics, from sports to politics and from culture to current events.
 
-Both corpora were split into 10 equal parts, and coverage was calculated over each part separately in order to calculate the standard deviation of the mean. As can be seen from table~\ref{table:cov}, running the analyser on the RFERL corpus gives a higher coverage.  This is most likely because the text is more homogenous, and there is less non-Kyrgyz (e.g., Russian) text.
+Both corpora were split into 10 equal parts, and coverage was calculated over each part separately in order to calculate the standard deviation of the mean. As can be seen from table~\ref{table:cov}, running the analyser on the RFE/RL corpus gives a higher coverage.  This is most likely because the text is more homogenous, and there is less non-Kyrgyz (e.g., Russian) text.
 
 \begin{table*}[htbp]
 	\centering
@@ -486,7 +489,7 @@ Both corpora were split into 10 equal parts, and coverage was calculated over ea
 		Corpus           & Tokens    & Known       & Naïve coverage (\%) & Mean ambiguity\\
 		\midrule 
 		Kyrgyz Wikipedia & 329,524   & 270,668     & 82.1 $\pm$ 3.2      & 2.35\\
-		RFERL Kyrgyzstan & 4,112,558 & 3,614,193   & 87.9 $\pm$ 1.2      & 2.43\\
+		RFE/RL Kyrgyzstan & 4,112,558 & 3,614,193   & 87.9 $\pm$ 1.2      & 2.43\\
 		\bottomrule
 	\end{tabular}
 	\label{table:cov}
@@ -498,15 +501,30 @@ The column `mean ambiguity' gives the average number of analyses for each surfac
 
 Precision and recall are measures of the average accuracy of analyses provided by a morphological transducer.  Precision represents the number of the analyses given for a form that are correct.  Recall is the percentage of analyses that are deemed correct for a form (by comparing against a gold standard) that are provided by the transducer.
 
-To calculate precision and recall, it was necessary to create a hand-verified list of surface forms and their analyses. We extracted 1,000 unique surface forms at random from the RFERL corpus, and checked that they were valid words in Kyrgyz and correctly spelt.  Where a word was incorrectly spelt or deemed not to be a form used in Kyrgyz, it was discarded and a new random word selected.
+To calculate precision and recall, it was necessary to create a hand-verified list of surface forms and their analyses. We extracted 1,000 unique surface forms at random from the RFE/RL corpus, and checked that they were valid words in Kyrgyz and correctly spelt.  Where a word was incorrectly spelt or deemed not to be a form used in Kyrgyz, it was discarded and a new random word selected.
 
-This list of surface forms was then analysed with the current version of the analyser, and each analysis was checked. Where an analysis was erroneous, it was removed, where an analysis was missing, it was added. This process gave us a `gold standard' morphologically analysed word list of 1,000 surface forms with their analyses. The list is publically available.\footnote{\url{https://apertium.svn.sourceforge.net/svnroot/apertium/branches/apertium-kir/dev/rferl.random.1000.txt}}
+This list of surface forms was then analysed with the current version of the analyser, and each analysis was checked. Where an analysis was erroneous, it was removed, where an analysis was missing, it was added. This process gave us a `gold standard' morphologically analysed word list of 1,000 surface forms with their analyses. The list is publically available.\footnote{\url{https://apertium.svn.sourceforge.net/svnroot/apertium/branches/apertium-kir/eval/ref.1000.txt}}
 
 We then took the same list of surface forms and ran them through the morphological analyser once more. Precision was calculated as the number of analyses which were found in both the output from the morphological analyser and the gold standard, divided by the total number of analyses output by the morphological analyser.
 
 Recall was calculated as the total number of analyses found in both the output from the morphological analyser and the gold standard, divided by the number of analyses found in the morphological analyser plus the number of analyses found in the gold standard but not in the morphological analyser.
 
-The results for precision and recall are presented in Table~\ref{table:precrecall}.
+The results for precision and recall are presented in Table~\ref{table:precrecall}. That the precision is so high is not surprising, the transducer is rule-based and the test set is the corrected output of the analyser. In order to get a more accurate figure for precision, it would be necessary to have several linguists review the set. Low recall is due to forms which do not receive any analyses, in all cases this was due to missing stems in the lexicon. Out of the 1,000 words, 91 did not receive any analyses. Of these, 52 forms were proper names 28 were nouns, 6 were adjectives and the remaining 5 verbs. 
+This would suggest that in terms of adding new stems, it would be a good idea to look at increasing both the number of proper names, and nouns.
+
+\begin{table}[htbp]
+	\centering
+	\caption{Precision and recall of the analyser over the 1,000 word test set.}
+	\begin{tabular}{rr}
+		\toprule
+		Precision & Recall \\
+		\midrule 
+		100 & 95.92  \\
+		\bottomrule
+	\end{tabular}
+	\label{table:precrecall}
+\end{table}
+
 
 \section{Future work}
 
@@ -514,7 +532,11 @@ The major work to be done is increasing the size of the lexicon. While a good le
 
 Once good coverage has been achieved with a morphological analyser, the next logical step is to start work on morphological and syntactic disambiguation. As can be seen from the figures for mean ambiguity, there is a lot of work that can be done on disambiguation.
 
-Also, despite the good coverage, there are still a number of grammatical forms that have not been implemented into the transducer.  For example, one such form is historically the negative of the eyewitness past tense, but is now used (mostly with a question clitic) in a certain type of modal expression;\footnote{A surprised contradictory expression, like [Идиштерди жуубадымбы ?] \eng{Did I not just wash the dishes ??}} this cannot be tagged as the negative of the eyewitness past tense, since a suppletive form is tagged that way.  Other shortcomings of the transducer are that it is not set up to deal with affixes on abbreviations or numerals/digits (e.g., [АКШнын] \eng{The USA's}, [100гө] \eng{to 100}) or capitalisation changes on lemmas that occur in different word classes (e.g., [Финландия] \eng{Finland}, but [финландиялык] \eng{Finnish}).
+Also, despite the good coverage, there are still a number of grammatical forms that have not been implemented into the transducer.  For example, one such form is historically the negative of the eyewitness past tense, but is now used (mostly with a question clitic) in a certain type of modal expression;\footnote{A surprised contradictory expression, like [Идиштерди жуубадымбы ?] \eng{Did I not just wash the dishes ??}} this cannot be tagged as the negative of the eyewitness past tense, since a suppletive form is tagged that way.  Other shortcomings of the transducer are that it is not set up to deal with affixes on acronyms/abbreviations or numerals/digits (e.g., [АКШнын] \eng{The USA's}, [100гө] \eng{up to 100}) or capitalisation changes on lemmas that occur in different word classes (e.g., [Финландия] \eng{Finland}, but [финландиялык] \eng{Finnish}).
+
+\section{Conclusion}
+
+We have presented a morphological analyser and generator for Kyrgyz based on finite-state transducer technology. The transducer has medium-level coverage, of between 82-87\%, and high precision and recall. 
 
 It is the hope of the authors that the work on this transducer will lead the way for work on free/open-source tagset-compatible transducers for other Turkic languages.  Indeed, transducers for Kazakh, Tatar, Bashqort, and Chuvash which are currently under development have benefited from work done on this transducer: many aspects have been based on the same general approach, and a number of phonological rules from the Kyrgyz transducer have served as the basis of rules in the transducers of these other languages.
 
@@ -525,7 +547,5 @@ We would like to thank: the Google Summer of Code 2011, which supported the deve
 
 \bibliographystyle{lrec2012}
 \bibliography{paper}
-
-%FIXME: "Kazan Tatar ..."
 
 \end{document}
