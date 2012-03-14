@@ -142,7 +142,7 @@ Regarding the second exception, some clitics in Kyrgyz can be considered separat
 The analyser is designed to be used with the longest-match left-to-right (LRLM) tokenisation strategy, as described in \cite{garrido-alenda02}. Thus when more than one `word' needs to be output, they are joined with the \texttt{+} symbol, which is reserved for joining two `words' in one analysis.  For example, [өнүктүрөбүзбү ?] \eng{will we develop it?} is analysed as 
 өнүк{\tt {\small <v><tv><caus><aor><p1><pl>+}}бы{\tt {\small <qst>}}, which is two words: [өнүк] (verb, transitive, causative, aorist, first person, plural) and [бы] (question clitic).  Likewise, [келатсаң] \eng{if you come} кел{\tt {\small <v><iv><prt\_impf>}}+жат\texttt{{\small <vaux><gna\_cnd><p2><sg>}} is analysed as two words: [кел] (verb, intransitive, imperfect participle), and [жат] (auxiliary, conditional verbal adverb, second person, singular).
 
-%Future TODO (was a FIXME): why copular suffixes?
+%NONEEDFIX: why copular suffixes?
 %One result of making transducer targetted at machine translation is that we want to be able to both analyse, and generate the same forms. 
 \subsection{Irregular negatives of finite verb forms}
 
@@ -168,7 +168,7 @@ One of the morphotactic challenges met in defining a finite-state transducer for
 
 \footnotetext{P1--P6 refer to different sets of personal suffixes; the terminology and specific numbers are based on \citet[29]{hebertpoppe1963}.}
 
-Since the general verbal negation morpheme in Kyrgyz tends to be /BA/ (as it is in all non-finite verb forms), we treated forms with /BA/ (the last two in the list above, for example) as regular (assuming other aspects of their morphology did not change).  We then created two different sets of continuation lexica for finite verb forms—one for regular finite verb forms, and one for irregular finite verb forms.  The continuation lexicon for regular finite verbal forms points to two continuation lexica: one of the regular verb suffixes (such as -/(I)птIр/ and -/E/, which in turn point to the appropriate continuation lexica for their person endings), and one of the negative -/BA/, which in turn points to the regular verb suffix continuation lexicon.  The continuation lexicon for irregular finite verb forms directly contains affirmative and negative morphology which each point to the appropriate personal suffix continuation lexica.
+Since the general verbal negation morpheme in Kyrgyz tends to be /BA/ (as it is in all non-finite verb forms), we treated forms with /BA/ (the last two in the table, for example) as regular (assuming other aspects of their morphology did not change).  We then created two different sets of continuation lexica for finite verb forms—one for regular finite verb forms, and one for irregular finite verb forms.  The continuation lexicon for regular finite verbal forms points to two continuation lexica: one of the regular verb suffixes (such as -/(I)птIр/ and -/E/, which in turn point to the appropriate continuation lexica for their person endings), and one of the negative -/BA/, which in turn points to the regular verb suffix continuation lexicon.  The continuation lexicon for irregular finite verb forms directly contains affirmative and negative morphology which each point to the appropriate personal suffix continuation lexica.
 
 \subsection{Irregular [noun + possessive + case] forms}
 
@@ -193,9 +193,7 @@ Nouns may be followed by possessive suffixes before any case suffixes.  This rel
 	\end{tabular}
 \end{table*}
 
-%FIXME: maybe a footnote at least about what "optional loss of /D/" means?
-%TODO: some explanation of how optional rules were dealt with
-There are two rules that can immediately deal with some of these forms: optional loss of /D/ in the ablative suffix after 1st person singular, 2nd person singular, and 3rd person possession suffixes, and mandatory loss of /G/ in the dative suffix in the same situations.  Since these are rules specific to these morphological forms and do not apply generally in Kyrgyz at a phonological level, they were implemented directly in the interaction of the continuation lexica for these possessive suffixes and ablative and dative case suffixes.
+There are two rules that can immediately deal with some of these forms: optional\footnote{Optional rules are dealt with by making a non-symmetrical transducer by way of marking lines in the lexc to be included in only one direction of the transducer; in this case, since the optional loss of /D/ is the default form, we do not generate forms where the /D/ remains, but do analyse them.} loss of /D/ in the ablative suffix after 1st person singular, 2nd person singular, and 3rd person possession suffixes, and mandatory loss of /G/ in the dative suffix in the same situations.  Since these are rules specific to these morphological forms and do not apply generally in Kyrgyz at a phonological level, they were implemented directly in the interaction of the continuation lexica for these possessive suffixes and ablative and dative case suffixes.
 
 However, instead of doing complicated splitting of the case continuation lexica following the third person possessive suffix to sometimes insert /н/, we decided to proceed under the premise that /н/ was instead underlying in this suffix (and a couple of others!) and got deleted in the nominative, accusative, and genitive.  To accomplish this, a \{n\} archiphoneme was added to the 3rd person possessive suffix, creating an underlying form of \{S\}\{I\}\{n\}.  Phonological rules were implemented in twolc which deleted \{n\} when followed by nothing (for nominative), another set of rules that deleted the accusative \{N\}\{I\} after \{n\} and a morpheme boundary, and a rule that deleted \{n\} when followed by a morpheme boundary and the genitive \{N\}\{I\}н.\footnote{Because a general possessive suffix that can follow personal possessive suffixes can also behave like the genitive in this respect, the rule is actually more general.}
 
@@ -274,7 +272,7 @@ The low vowel \{A\} also takes the backness and rounding of the preceding vowel,
 	}
 \end{table}
 
-There were other vowel archiphonemes that had to be implemented in this project.  For example, \{U\} occurs in the past habitual suffix -/чU/ and the general gerund/infinitive -/Uː/, but nowhere else in the language.  Also, \{E\} was created for use in the habitual/future suffix; it has surface forms identical to those of \{A\}, except after vowels where it surfaces as [й].  Despite the fact that \{E\} is very similar to \{A\}, a separate but very similar twolc rule had to be created.  Repeated content could have been reduced by using cascading rules instead of two-level rules, but this would have caused other complications, such as finding the correct rule ordering.  An alternative possibility would have been to have a single intermediate level so that a rule like ``\{E\}→\{A\} after vowels'' with a default surface form of [й] could've been implemented.
+There were other vowel archiphonemes that had to be implemented in this project.  For example, \{U\} occurs in the past habitual suffix -/чU/ and the general gerund/infinitive -/{\qipa Uː}/, but nowhere else in the language.  Also, \{E\} was created for use in the habitual/future suffix; it has surface forms identical to those of \{A\}, except after vowels where it surfaces as [й].  Despite the fact that \{E\} is very similar to \{A\}, a separate but very similar twolc rule had to be created.  Repeated content could have been reduced by using cascading rules instead of two-level rules, but this would have caused other complications, such as finding the correct rule ordering.  An alternative possibility would have been to have a single intermediate level so that a rule like ``\{E\}→\{A\} after vowels'' with a default surface form of [й] could've been implemented.
 
 
 \subsection{Voicing assimilation}\label{devoicing}
@@ -349,15 +347,15 @@ Desonorisation \citep{washington10} happens to /N/ when it follows any consonant
 \end{center}
 \end{table}
 
-%FIXME: explain better
-The orthography makes this straightforward, since e.g., words borrowed from Russian which end in ‹в› are treated in spoken Kyrgyz as unvoiced (and indeed have unvoiced surface forms syllable-finally), but are treated as voiced in the orthography.
+%NONEEDFIX: explain better
+The orthography makes idenifying voiced and voiceless pairs straightforward, since e.g., words borrowed from Russian which end in ‹в› are treated in spoken Kyrgyz as unvoiced (and indeed have unvoiced surface forms syllable-finally), but are treated as voiced in the orthography.
 
 Desonorisation was dealt with by a rule that changes \{L\} to [д] following a series of ``low-sonority'' consonants appropriately defined earlier in the twol file and a syllable boundary.  The \{N\} desonorisation rule changes \{N\} to [д] following a series containing all voiced consonants, followed by a syllable boundary.  Both sets were defined to exclude voiceless consonants that would instead trigger devoicing (§\ref{devoicing}).
 
 
 \subsection{Lenition}
-In Kyrgyz, stem-final [voiceless] labial and dorsal consonants voice when a suffix beginning with a vowel follows them.  The implementation of this in twol is very straightforward.
-%FIXME: what else needs to be said here?
+In Kyrgyz, stem-final [voiceless] labial and dorsal consonants voice when a suffix beginning with a vowel follows them.  The implementation of this in twol is very straightforward; our rules state that /п/ and /к/ become /б/ and /г/ preceding a morpheme boundary and when between two surface vowels with optional intervening non-surfacing phonemes.
+%FIXED: does this sound better?
 
 
 \subsection{Nouns ending in /рн/, etc.}
@@ -399,7 +397,7 @@ However, when a vowel-initial suffix follows the noun, as in table~\ref{exrnnovo
 			\toprule
 			underlying & surface & gloss \\
 			\midrule
-			%FIXME: should the glosses here and below be morpheme-by-morpheme for consistency, or is a more colloquial gloss okay?
+			%FIXED: should the glosses here and below be morpheme-by-morpheme for consistency, or is a more colloquial gloss okay?
 			/мурн-(S)I/ & [мурду] & \eng{his/her/its nose} \\
 			/мурн-Iм-DAн/ & [мурдуман] & \eng{from my nose} \\
 			\bottomrule
