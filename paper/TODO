@@ -1,4 +1,3 @@
-* finish eval stuff
 * Write conclusion
 ** The conclusion is a little bit too allusive about the missing forms to be handled by the analyzer. Could a better evaluation of what remains to described be given? For instance, in terms of percentage of 'static' forms for each POS?
 ** The paper is organized well however I can no see a nice conclusion section at the end of the paper. The conclusion is more like a future work section.
@@ -9,6 +8,7 @@
 
 ==Done==
 
+* finish eval stuff
 * "has been widely used for other Turkic languages". Could you name the languages in the text (Turkish, Crimean Tatar and Turkmen)?
 * Check stuff
 ** Check keywords
