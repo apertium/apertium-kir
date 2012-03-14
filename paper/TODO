@@ -1,4 +1,3 @@
-* more about tagset
 * finish eval stuff
 * Write conclusion
 ** The conclusion is a little bit too allusive about the missing forms to be handled by the analyzer. Could a better evaluation of what remains to described be given? For instance, in terms of percentage of 'static' forms for each POS?
@@ -38,3 +37,6 @@
 == Fran & Jonathan ==
 
 == Mirlan & Jonathan ==
+
+==NoDo==
+* more about tagset

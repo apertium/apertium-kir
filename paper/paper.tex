@@ -94,9 +94,6 @@ E-03071 Alacant (Spain)\\
 \abstract{This paper describes the development of a morphological transducer oriented for the task of machine translation for the Kyrgyz language using the free/open-source platform HFST. The transducer was developed under the auspices of the Apertium \citep{forcada2011} project for use in a machine translation system from Turkish to Kyrgyz.\\
 \Keywords{kyrgyz, morphology, transducer}}
 
-%FIXME:
-%\thanks{GSoC, Tolgonay, ..?}
-
 \begin{document}
 \maketitleabstract{}
 \pagestyle{empty}
@@ -113,31 +110,28 @@ Kyrgyz (written ‹кыргыз тили› or ‹\textuighur{قىرعىز تى�
 
 Kyrgyz is spoken mostly in Kyrgyzstan where it has official status as the national language.  Many Kyrgyz speakers in Kyrgyzstan are bilingual in Russian and/or Uzbek, and make up a majority of the population of the country.  There are other sizable Kyrgyz-speaking communities outside of Kyrgyzstan, most notably in China (where the Kyrgyz are an officially recognised minority), Tajikistan, and Uzbekistan.  Current estimates of the number of speakers range from 3 million to 4 million.\footnote{Based on figures from \cite{lewis2009} and \cite{factbook2009}}  Not all ethnic Kyrgyz speak the language, and not all competent speakers are ethnic Kyrgyz, but there is a very strong correspondence between ethnic identity and knowledge of the language.\footnote{This interpretation of the situation is supported by the experiences of the authors with the language, and is common knowledge in Kyrgyzstan.}
 
-%FIXED: Should we say something about how I sometimes consulted Tolgonay, or about where my knowledge of Kyrgyz comes from in the first place?
-%FIXME: Tolgonay's name to acknowledgements (where?) for helping with Kyrgyz
 The understanding of Kyrgyz grammar employed to construct the transducer for this project was gained from the Kyrgyz knowledge of two of our authors.  Mirlan Ipasov is a native speaker of Kyrgyz, and Jonathan Washington is a theoretical and descriptive linguist fluent in Kyrgyz and knowledgeable about Turkic languages.  Some grammar sources were consulted, such as \cite{hebertpoppe1963}, \cite{usonalievomuraliev2003}, \cite{qudaybergenov1980}, \cite{somfaikara2003}, and \cite{imart1981}, but they were largely not relied on due to their approaches to Kyrgyz grammar.  Some dictionaries were also consulted, including \cite{jumakunova2005} and \citetwoyears{yudakhin1957}{yudakhin1965}.
 
 \subsection{Morphological transducers}
-%FIXME: this seems to be wrapping badly, at least here
 The objective of a morphological transducer is twofold. Firstly to take surface forms (e.g., алдым) and generate all possible lexical forms, and secondly to take lexical forms (e.g.,  ал{\tt {\small <v><tv><ifi><p1><sg>}}, алд{\tt {\small <n><px1sg><nom>}}, etc.) and generate one or more surface forms. 
 
 The project is designed based on the Helsinki Finite State Toolkit \citep{linden2011} which is a free/open-source reimplementation of the Xerox finite-state toolchain, popular in the field of morphological analysis. It implements both the \textbf{lexc} formalism for defining lexicons, and the \textbf{twol} and \textbf{xfst} formalisms for modeling morphophonological rules. It also supports other finite state transducer formalisms such as \textbf{sfst}. This toolkit has been chosen as it -- or the equivalent XFST -- has been widely used for other Turkic languages, such as Turkish \citep{coltekin2010}, Crimean~Tatar~\citep{altintas2001}, and Turkmen~\citep{tantug2006}, and is available under a free/open-source licence.
 
 \section{Description}
-%FIXME: \ldots{} section
 The tagset consists of 127 separate tags, 19 covering the main parts of speech (noun, verb, adjective, adverb, postposition, etc.) and 108 covering morphological subcategorisation for e.g. case, number, person, possession, transitivity, tense-aspect-mood, etc. The tags are represented as multicharacter symbols, between less than `<' and greater than `>' symbols. The tagset is quite extensive and still not entirely stabilised, as such a full listing is not included here. However, the tags are listed in the source code of the transducer, along with comments describing their usage.
+%FIXME: URL for source code?
 
 %FIXME: something about {} representation of archiphonemes and what they mean?
 
 \section{Morphotactics}
 
 %TODO: for a future version
-%\subsection{Challenges:  Copula, how to represent different tenses, what is a “word”?}
+%\subsection{Challenges:  Copula, how to represent different tenses
 
 \subsection{Morphological and orthographic words}
 A typical tokenisation strategy is to take white space to be the delimiter between `words'.  For analysis and generation, however, there are exceptions to this.  Some morphophonological processes work across the `whitespace' boundary, and some clitics which are written next to the previous word without a whitespace can be considered syntactically separate units (words) and follow standard morphophonologial processes.
 
-The first exception does not apply to Kyrgyz, as unlike other Turkic languages (Tatar, Chuvash, Kazakh), although it has morphophonological processes that work across the `whitespace' boundary, these are not represented in the orthography.
+The first exception does not apply to Kyrgyz, as unlike other Turkic languages (including Tatar, Chuvash, and Kazakh), although it has morphophonological processes that work across the `whitespace' boundary, these are not represented in the orthography.
 
 Regarding the second exception, some clitics in Kyrgyz can be considered separate words, but are written together with the previous word. For example, the question word `бы'; the focus clitic `чы'; copula suffixes `мин', etc.; and the progressive auxiliary `жат' with certain verbs.
 
@@ -146,7 +140,7 @@ The analyser is designed to be used with the longest-match left-to-right (LRLM) 
 
 % garrido-alenda02
 
-%FIXME: why copular suffixes?
+%Future TODO (was a FIXME): why copular suffixes?
 
 %One result of making transducer targetted at machine translation is that we want to be able to both analyse, and generate the same forms. 
 %.... %FIXME
@@ -173,7 +167,7 @@ One of the morphotactic challenges met in defining a finite-state transducer for
 	\end{tabular}
 \end{table*}
 
-\footnotetext{P1--P6 refer to different sets of personal suffixes; the terminology and specific numbers are based off of \cite{hebertpoppe1963}[29].}
+\footnotetext{P1--P6 refer to different sets of personal suffixes; the terminology and specific numbers are based off of \citet[29]{hebertpoppe1963}.}
 
 %FIXME: is "point to" the right terminology?
 Since the general verbal negation morpheme in Kyrgyz tends to be /BA/ (as it is in all non-finite verb forms), we treated forms with /BA/ (the last two in the list above, for example) as regular (assuming other aspects of their morphology did not change).  We then created two different sets of continuation lexica for finite verb forms—one for regular finite verb forms, and one for irregular finite verb forms.  The continuation lexicon for regular finite verbal forms points to two continuation lexica: one of the regular verb suffixes (such as -/(I)птIр/ and -/E/, which in turn point to the appropriate continuation lexica for their person endings), and one of the negative -/BA/, which in turn points to the regular verb suffix continuation lexicon.  The continuation lexicon for irregular finite verb forms directly contains affirmative and negative morphology which each point to the appropriate personal suffix continuation lexica.
