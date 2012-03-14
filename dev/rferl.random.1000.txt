@@ -161,7 +161,7 @@
 ^сүйлөшүүгө/сүйлө<v><iv><coop><ger><dat>/сүйлө<v><tv><coop><ger><dat>$
 ^мисалга/мисал<n><dat>$
 ^ичинен/ич<adj><subst><px3pl><abl>/ич<adj><subst><px3sg><abl>/ич<n><px3pl><abl>/ич<n><px3sg><abl>$
- ^Бишкекте/Бишкек<np><top><loc>$
+^Бишкекте/Бишкек<np><top><loc>$
 ^тапта/тап<n><loc>/тапта<v><tv><imp><p2><sg>$
 ^жаштар/жаш<adj><subst><pl><nom>/жаш<n><pl><nom>$
 ^күзөттө/күзөт<n><loc>$
