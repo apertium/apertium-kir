@@ -17,10 +17,9 @@
 * The transducers showed good coverage between 81 - 87 % depending on the corpora. However the authors still need to address precision to get full formal evaluation of the morphological analyzer they are working on.
 * Check stuff
 ** Check \subsection{Morphological and orthographic words}
-** check evaluation section
 
-== Mirlan ==
-
+== Mirlan & Jonathan ==
+* finish eval stuff
 
 ==Done==
 
