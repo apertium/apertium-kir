@@ -204,7 +204,7 @@
 ******* ^
 ^террорчулукка/террорчулук<n><dat>$
 
-
+STOP HERE
 
 
 ^автоматташтырылган/автоматташтыр<v><tv><pass><ger_past><nom>/автоматташтыр<v><tv><pass><glp>/автоматташтыр<v><tv><pass><glp><subst><nom>/автоматташтыр<v><tv><pass><glp_past>/автоматташтыр<v><tv><pass><glp_past><subst><nom>/автоматташтыр<v><tv><pass><past><p3><pl>/автоматташтыр<v><tv><pass><past><p3><sg>$
