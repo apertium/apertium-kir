@@ -128,3 +128,4 @@ fscore = (precision * recall) / (precision + recall);
 print('Precision: ' + str(precision));
 print('Recall: ' + str(recall));
 print('F-score: ' + str(fscore));
+print(str(precision) + '\t' + str(recall) + '\t' + str(fscore), file=sys.stderr);

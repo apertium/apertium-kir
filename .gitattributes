@@ -12,7 +12,10 @@
 /autogen.sh -text
 /configure.ac -text
 dev/countstems.sh -text
+eval/Makefile -text
+eval/README -text
 eval/evaluate-morph.py -text
+eval/history.log -text
 eval/ref.1000.txt -text
 paper/Makefile -text
 paper/TODO -text

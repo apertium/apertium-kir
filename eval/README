@@ -1,0 +1,9 @@
+
+The history file is structured as follows:
+
+Timestamp [TAB] Precision [TAB] Recall [TAB] F-score
+
+e.g.
+
+dc mar 14 14:42:14 GMT 2012	100.0	95.92298980747452	48.959537572254334
+
