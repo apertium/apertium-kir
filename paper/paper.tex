@@ -141,8 +141,8 @@ The first exception does not apply to Kyrgyz, as unlike other Turkic languages (
 
 Regarding the second exception, some clitics in Kyrgyz can be considered separate words, but are written together with the previous word. For example, the question word `бы'; the focus clitic `чы'; copula suffixes `мин', etc.; and the progressive auxiliary `жат' with certain verbs.
 
-The analyser is designed to be used with the longest-match left-to-right (LRLM) tokenisation strategy, as described in \cite{garrido-alenda02}. Thus when more than one `word' needs to be output, they are joined with the \texttt{+} symbol, which is reserved for joining two `words' in one analysis.  For example, `өнүктүрөбүзбү ?' \eng{will we develop it?} is analysed as 
-өнүк{\tt {\small <v><tv><caus><aor><p1><pl>+}}бы{\tt {\small <qst>}}, which is two words: `өнүк' (verb, transitive, causative, aorist, first person, plural) and `бы' (question clitic).  Likewise, `келатсаң' \eng{if you come} кел{\tt {\small <v><iv><prt\_impf>}}+жат\texttt{{\small <vaux><gna\_cnd><p2><sg>}} is analysed as two words: `кел' (verb, intransitive, imperfect participle), and `жат' (auxiliary, conditional verbal adverb, second person, singular).
+The analyser is designed to be used with the longest-match left-to-right (LRLM) tokenisation strategy, as described in \cite{garrido-alenda02}. Thus when more than one `word' needs to be output, they are joined with the \texttt{+} symbol, which is reserved for joining two `words' in one analysis.  For example, [өнүктүрөбүзбү ?] \eng{will we develop it?} is analysed as 
+өнүк{\tt {\small <v><tv><caus><aor><p1><pl>+}}бы{\tt {\small <qst>}}, which is two words: [өнүк] (verb, transitive, causative, aorist, first person, plural) and [бы] (question clitic).  Likewise, [келатсаң] \eng{if you come} кел{\tt {\small <v><iv><prt\_impf>}}+жат\texttt{{\small <vaux><gna\_cnd><p2><sg>}} is analysed as two words: [кел] (verb, intransitive, imperfect participle), and [жат] (auxiliary, conditional verbal adverb, second person, singular).
 
 % garrido-alenda02
 
@@ -525,7 +525,7 @@ Once good coverage has been achieved with a morphological analyser, the next log
 
 %FIXME: * Some remaining transducer issues
 % maybe fixed now?
-Also, despite the good coverage, there are still a number of grammatical forms that have not been implemented into the transducer.  For example, one such form is historically the negative of the eyewitness past tense, but is now used (mostly with a question clitic) in a certain type of modal expression;\footnote{A surprised contradictory expression, like ``Did I not just clean the floor??''} this cannot be tagged as the negative of the eyewitness past tense, since a suppletive form is tagged that way.  Other shortcomings of the transducer are that it is not set up to deal with affixes on abbreviations or numerals/digits (e.g., АКШнын \eng{The USA's}, 100гө \eng{to 100}) or capitalisation changes on lemmas that occur in different word classes (e.g., Финландия \eng{Finland}, but финландиялык \eng{Finnish}).
+Also, despite the good coverage, there are still a number of grammatical forms that have not been implemented into the transducer.  For example, one such form is historically the negative of the eyewitness past tense, but is now used (mostly with a question clitic) in a certain type of modal expression;\footnote{A surprised contradictory expression, like [Идиштерди жуубадымбы ?] \eng{Did I not just wash the dishes ??}} this cannot be tagged as the negative of the eyewitness past tense, since a suppletive form is tagged that way.  Other shortcomings of the transducer are that it is not set up to deal with affixes on abbreviations or numerals/digits (e.g., [АКШнын] \eng{The USA's}, [100гө] \eng{to 100}) or capitalisation changes on lemmas that occur in different word classes (e.g., [Финландия] \eng{Finland}, but [финландиялык] \eng{Finnish}).
 
 %FIXME: e.g.?
 %these issues is fixed!
