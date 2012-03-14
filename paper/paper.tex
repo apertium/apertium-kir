@@ -502,7 +502,9 @@ The column `mean ambiguity' gives the average number of analyses for each surfac
 
 \subsection{Precision and recall}
 
-To calculate precision and recall, it was necessary to create a hand-verified list of surface forms and their analyses. We extracted 1,000 unique surface forms at random from the RFERL corpus, and checked that they were valid words in Kyrgyz and correctly spelt. Where a word was incorrectly spelt, it was discarded and a new random word selected.
+Precision and recall are measures of the average accuracy of analyses provided by a morphological transducer.  Precision represents the number of the analyses given for a form that are correct.  Recall is the percentage of analyses that are deemed correct for a form (by comparing against a gold standard) that are provided by the transducer.
+
+To calculate precision and recall, it was necessary to create a hand-verified list of surface forms and their analyses. We extracted 1,000 unique surface forms at random from the RFERL corpus, and checked that they were valid words in Kyrgyz and correctly spelt.  Where a word was incorrectly spelt or deemed not to be a form used in Kyrgyz, it was discarded and a new random word selected.
 
 This list of surface forms was then analysed with the current version of the analyser, and each analysis was checked. Where an analysis was erroneous, it was removed, where an analysis was missing, it was added. This process gave us a `gold standard' morphologically analysed word list of 1,000 surface forms with their analyses. The list is publically available.\footnote{\url{https://apertium.svn.sourceforge.net/svnroot/apertium/branches/apertium-kir/dev/rferl.random.1000.txt}}
 
