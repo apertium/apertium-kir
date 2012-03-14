@@ -1,23 +1,12 @@
-== Jonathan ==
-
-== Fran ==
 * more about tagset
-
-== Fran & Jonathan ==
+* finish eval stuff
 * Write conclusion
 ** The conclusion is a little bit too allusive about the missing forms to be handled by the analyzer. Could a better evaluation of what remains to described be given? For instance, in terms of percentage of 'static' forms for each POS?
 ** The paper is organized well however I can no see a nice conclusion section at the end of the paper. The conclusion is more like a future work section.
 * fix abstract
-* The transducers showed good coverage between 81 - 87 % depending on the corpora. However the authors still need to address precision to get full formal evaluation of the morphological analyzer they are working on.
 * Check stuff
 ** grep FIXME and fix :(
-** Check the examples after "there are still a number of grammatical forms that have not been implemented"
-** Check
-*** What do you mean by "possessive morphology" and "case morphology"? Does that mean "possessive or case markers/affixes/suffixes"? Because you say "after a noun", does that mean that these are some lexical items?
-*** I just changed the first occurrence of "possessive morphology" and "case morphology" to "p./c. affixes"; I think this is clear.  Maybe it was a problem with terminology?
 
-== Mirlan & Jonathan ==
-* finish eval stuff
 
 ==Done==
 
@@ -38,3 +27,14 @@
 * the evaluation/statistics section needs adding to.. 
 ** Check \subsection{Morphological and orthographic words}
 * "as depicted in table". There is no such table in the paper.
+** Check the examples after "there are still a number of grammatical forms that have not been implemented"
+** Check
+*** What do you mean by "possessive morphology" and "case morphology"? Does that mean "possessive or case markers/affixes/suffixes"? Because you say "after a noun", does that mean that these are some lexical items?
+*** I just changed the first occurrence of "possessive morphology" and "case morphology" to "p./c. affixes"; I think this is clear.  Maybe it was a problem with terminology?
+== Jonathan ==
+
+== Fran ==
+
+== Fran & Jonathan ==
+
+== Mirlan & Jonathan ==
