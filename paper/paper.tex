@@ -9,12 +9,16 @@
 \usepackage{fontspec}
 \defaultfontfeatures{PunctuationSpace=3,Scale=MatchLowercase,Mapping=tex-text}
 \newfontfeature{IPA}{+mgrk}
-\setromanfont[IPA]{FreeSerif}
+%\setromanfont[IPA]{FreeSerif}
 %\setromanfont[IPA]{Times New Roman}
+%\setromanfont[IPA]{NimbusRomNo9L-Regu}
+\setromanfont{Times New Roman}
 %\renewcommand{\sfdefault}{phv}
 %\renewcommand{\rmdefault}{ptm}
 %\renewcommand{\ttdefault}{pcr}
 \usepackage[small,bf]{caption}
+%\newfontfamily\qipa[IPA]{NimbusRomNo9L-Regu}
+\newfontfamily\qipa[IPA,Scale=MatchLowercase]{FreeSerif}
 
 \usepackage[novoc,fdf2alif]{arabxetex}
 \newfontfamily\uighurfont[Script=Arabic,Scale=1.5]{Lateef}
@@ -105,7 +109,7 @@ The paper is split into five main parts. First a background section gives some d
 
 \section{Background}
 \subsection{The Kyrgyz language}
-Kyrgyz (written ‹кыргыз тили› or ‹\textuighur{قىرعىز تىلى}›, pronounced [qɯɾʁɯz tilí]) alternatively written ``Kirghiz'' or ``Kirgiz'') is a Turkic language spoken in Kyrgyzstan, China, Tajikistan, and Uzbekistan.  Its classification within Turkic remains problematic—it appears to alternatively belong to the Kypchak (Northwestern) branch and to the South Siberian (Northeastern) branch.  The Turkic varieties phonetically and phonologically most similar to Kyrgyz are the southern dialects of Altay, though Kyrgyz shows strong parallels to Kazakh that these varieties lack, especially in its Talas dialects.  In southern varieties of Kyrgyz there are also many similarities to Uzbek that other dialects lack.
+Kyrgyz (written ‹кыргыз тили› or ‹\textuighur{قىرعىز تىلى}›, pronounced [{\qipa qɯɾʁɯz tilí}]) alternatively written ``Kirghiz'' or ``Kirgiz'') is a Turkic language spoken in Kyrgyzstan, China, Tajikistan, and Uzbekistan.  Its classification within Turkic remains problematic—it appears to alternatively belong to the Kypchak (Northwestern) branch and to the South Siberian (Northeastern) branch.  The Turkic varieties phonetically and phonologically most similar to Kyrgyz are the southern dialects of Altay, though Kyrgyz shows strong parallels to Kazakh that these varieties lack, especially in its Talas dialects.  In southern varieties of Kyrgyz there are also many similarities to Uzbek that other dialects lack.
 
 Kyrgyz is spoken mostly in Kyrgyzstan where it has official status as the national language.  Many Kyrgyz speakers in Kyrgyzstan are bilingual in Russian and/or Uzbek, and make up a majority of the population of the country.  There are other sizable Kyrgyz-speaking communities outside of Kyrgyzstan, most notably in China (where the Kyrgyz are an officially recognised minority), Tajikistan, and Uzbekistan.  Current estimates of the number of speakers range from 3 million to 4 million.\footnote{Based on figures from \cite{lewis2009} and \cite{factbook2009}}  Not all ethnic Kyrgyz speak the language, and not all competent speakers are ethnic Kyrgyz, but there is a very strong correspondence between ethnic identity and knowledge of the language.\footnote{This interpretation of the situation is supported by the experiences of the authors with the language, and is common knowledge in Kyrgyzstan.}
 
@@ -138,7 +142,7 @@ The first exception does not apply to Kyrgyz, as unlike other Turkic languages (
 Regarding the second exception, some clitics in Kyrgyz can be considered separate words, but are written together with the previous word. For example, the question word `бы'; the focus clitic `чы'; copula suffixes `мин', etc.; and the progressive auxiliary `жат' with certain verbs.
 
 The analyser is designed to be used with the longest-match left-to-right (LRLM) tokenisation strategy, as described in \cite{garrido-alenda02}. Thus when more than one `word' needs to be output, they are joined with the \texttt{+} symbol, which is reserved for joining two `words' in one analysis.  For example, `өнүктүрөбүзбү ?' \eng{will we develop it?} is analysed as 
-өнүк{\tt {\small <v><tv><caus><aor><p1><pl>+}}бы{\tt {\small <qst>}}, which is two words: `өнүк' (verb, transitive, causative, aorist, first person, plural) and `бы' (question clitic).  Likewise, `келатсаң' \eng{if you come} кел{\tt {\small <v><iv><prt\_impf>}}+жат\texttt{{\small <vaux><gna\_cnd><p2><sg>}} is analysed as two words: `кел' (verb, intransitive, imperfect participle), and жат (auxiliary, conditional verbal adverb, second person, singular).
+өнүк{\tt {\small <v><tv><caus><aor><p1><pl>+}}бы{\tt {\small <qst>}}, which is two words: `өнүк' (verb, transitive, causative, aorist, first person, plural) and `бы' (question clitic).  Likewise, `келатсаң' \eng{if you come} кел{\tt {\small <v><iv><prt\_impf>}}+жат\texttt{{\small <vaux><gna\_cnd><p2><sg>}} is analysed as two words: `кел' (verb, intransitive, imperfect participle), and `жат' (auxiliary, conditional verbal adverb, second person, singular).
 
 % garrido-alenda02
 
@@ -317,7 +321,7 @@ Voicing assimilation in Kyrgyz involves the agreement of voicing of two consonan
 \end{center}
 \end{table}
 
-Here, the underlying /D/ is always realised as [д] when after a voiced segment (including a vowel), but is realised as [т] after an unvoiced consonant, while underlying /G/ is always realised as [г]\footnote{‹г› is pronounced [ɣ] in the context of front vowels and [ʁ] in the context of back vowels; it also has realisations of [ɡ] and [ɢ] after nasals.} after a voiced segment, but is realised as [к]\footnote{‹к› is realised as [q] in the context of back vowels and [k] in the presence of front vowels.} after voiceless consonants.
+Here, the underlying /D/ is always realised as [д] when after a voiced segment (including a vowel), but is realised as [т] after an unvoiced consonant, while underlying /G/ is always realised as [г]\footnote{‹г› is pronounced [{\qipa ɣ}] in the context of front vowels and [{\qipa ʁ}] in the context of back vowels; it also has realisations of [{\qipa ɡ}] and [{\qipa ɢ}] after nasals.} after a voiced segment, but is realised as [к]\footnote{‹к› is realised as [{\qipa q}] in the context of back vowels and [{\qipa k}] in the presence of front vowels.} after voiceless consonants.
 
 Voicing assimilation was dealt with simply by creating a single twol rule that transformed any relevant archiphoneme (\{B\}, \{G\}, \{D\}, \{L\}, and \{N\}) to a voiceless stop (either [п], [к], or [т]) after a voiceless consonant.  The set of voiceless consonants was also defined in twolc so that rules sensitive to this set would be easier to write.
 %FIXME: and more efficient?  Or not?
@@ -438,7 +442,7 @@ The vowel was then removed by a twol rule when a vowel followed.  To realise the
 
 \subsection{й+vowel letters}
 \label{sec:yot}
-In Kyrgyz, there are a series of letters which represent /й/ plus a vowel: /я, е, ё, ю/ represent /йа, йэ, йо, йу/ respectively.  However, /э/ is also represented as /е/ when short and after a consonant (i.e., it is only represented as /э/ when long—/ээ/—or when word-initially).  These ``yoticised'' vowels proved difficult to work.  For example, /бой+(S)I/ \eng{length}, given normal vowel harmony rules, would surface as [бойу].  However, the correct form is [бою].  Distinct and separate vowel harmony rules had to be created for all vowel archiphonemes in post-vocalic contexts, e.g. here to turn \{I\} into [ю] after /й/.  An additional rule had to delete the underlying /й/ before yoticised vowel letters (so that e.g. [бойю] was not output).  Because there are too levels to the phonology in twolc and it is otherwise not linear, attention had to be paid to the fact that e.g., the distinct vowel harmony rules for post-/й/ contexts recognised that the /й/ would not appear on the second [surface] level.
+In Kyrgyz, there are a series of letters which represent /й/ plus a vowel: /я, е, ё, ю/ represent /йа, йэ, йо, йу/ respectively.  However, /э/ is also represented as /е/ when short and after a consonant (i.e., it is only represented as /э/ when long—/ээ/—or when word-initially).  These ``yoticised'' vowels proved difficult to work with.  For example, /бой+(S)I/ \eng{length}, given normal vowel harmony rules, would surface as [бойу].  However, the correct orthographic form is [бою].  Distinct and separate vowel harmony rules had to be created for all vowel archiphonemes in post-vocalic contexts, e.g.\ here to turn \{I\} into [ю] after /й/.  An additional rule had to delete the underlying /й/ before yoticised vowel letters (so that e.g.\ [бойю] was not output).  Because there are two levels to the phonology in twolc and it is otherwise not linear, attention had to be paid to the fact that e.g., the distinct vowel harmony rules for post-/й/ contexts were aware that the /й/ would not appear on the second [surface] level.
 
 \section{Statistics}
 
