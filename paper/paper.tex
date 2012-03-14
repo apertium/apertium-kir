@@ -451,6 +451,7 @@ are approximate as some words may have two entries for one stem (for example if 
 is irregular).
 
 \begin{table}
+	\caption{Breakdown of number of stems in the lexicon by major part of speech. Minor categories, such as particle, modal and copula are left out.}\label{table:stems}
 	\centering
 	\begin{tabular}{lr}
 		\toprule
@@ -470,8 +471,6 @@ is irregular).
 		Total: & 8,466 \\
 		\bottomrule
 	\end{tabular}
-	\caption{Breakdown of number of stems in the lexicon by major part of speech. Minor categories, such as particle, modal and copula are left out.}\label{table:stems}
-	%FIXME: are we putting captions above or below tables?  I like them better below, but I got the impression that there's some standard to have them above.  Maybe it was just UW being table Nazis for my MA thesis.
 \end{table}
 
 \section{Evaluation}
@@ -481,14 +480,13 @@ on two large freely available corpora of Kyrgyz. The second is by performing an 
 
 \subsection{Coverage and mean ambiguity}
 
-%FIXME: is this about right?  and I mean all aspects of the paragraph
-%FIXME: ZZ needs to be replaced with .. ?
 To calculate the naïve coverage\footnote{Naïve coverage refers to the percentage of surface forms in a given corpora that receive at least one analysis.  Forms counted by this measure may have other analyses which are not delivered by the transducer.} of the analyser, two corpora were used.  The first corpus was a database dump of the Kyrgyz Wikipedia, dated 2011-09-23,\footnote{The exact name of the dump was \texttt{kywiki-20110923-pages-articles.xml}.} which was processed with the programs \texttt{aq-wikicrp} to extract sentences. The second was a corpus generated from the archives of Radio Free Europe / Radio Liberty's Kyrgyz service, \href{http://www.azattyk.org}{azattyk.org}.  The RFERL corpus was built using a script that scraped the archives for all articles from 2010, which include articles on a wide variety of topics, from sports to politics and from culture to current events.
 
 Both corpora were split into 10 equal parts, and coverage was calculated over each part separately in order to calculate the standard deviation of the mean. As can be seen from table~\ref{table:cov}, running the analyser on the RFERL corpus gives a higher coverage.  This is most likely because the text is more homogenous, and there is less non-Kyrgyz (e.g., Russian) text.
 
 \begin{table*}[htbp]
 	\centering
+	\caption{Naïve coverage and mean ambiguity of the analyser over two test corpora.}
 	\begin{tabular}{lrrrr}
 		\toprule
 		Corpus           & Tokens    & Known       & Naïve coverage (\%) & Mean ambiguity\\
@@ -497,7 +495,6 @@ Both corpora were split into 10 equal parts, and coverage was calculated over ea
 		RFERL Kyrgyzstan & 4,112,558 & 3,614,193   & 87.9 $\pm$ 1.2      & 2.43\\
 		\bottomrule
 	\end{tabular}
-	\caption{Naïve coverage and mean ambiguity of the analyser over two test corpora.}
 	\label{table:cov}
 \end{table*}
 
@@ -523,13 +520,7 @@ The major work to be done is increasing the size of the lexicon. While a good le
 
 Once good coverage has been achieved with a morphological analyser, the next logical step is to start work on morphological and syntactic disambiguation. As can be seen from the figures for mean ambiguity, there is a lot of work that can be done on disambiguation.
 
-%FIXME: * Some remaining transducer issues
-% maybe fixed now?
 Also, despite the good coverage, there are still a number of grammatical forms that have not been implemented into the transducer.  For example, one such form is historically the negative of the eyewitness past tense, but is now used (mostly with a question clitic) in a certain type of modal expression;\footnote{A surprised contradictory expression, like [Идиштерди жуубадымбы ?] \eng{Did I not just wash the dishes ??}} this cannot be tagged as the negative of the eyewitness past tense, since a suppletive form is tagged that way.  Other shortcomings of the transducer are that it is not set up to deal with affixes on abbreviations or numerals/digits (e.g., [АКШнын] \eng{The USA's}, [100гө] \eng{to 100}) or capitalisation changes on lemmas that occur in different word classes (e.g., [Финландия] \eng{Finland}, but [финландиялык] \eng{Finnish}).
-
-%FIXME: e.g.?
-%these issues is fixed!
-%Also, despite the good coverage, there are still a number of grammatical forms that have not been implemented into the transducer.  One of these is the irregular combination of 3rd person non-past finite verb plus the yes/no question particle.  For example, the third person non-past of /бар/ \eng{go} is [барат], but when the question particle -/BI/ is added, the resulting form is [барабы] instead of *[баратпы] (the transducer's current output).  There are also currently some problems handling the progressive aspect auxiliary /жат/ when it grammaticalises as a suffix with a couple verbs (/бар/ and /кел/) which often use a different participial form with this auxiliary than most verbs do.
 
 It is the hope of the authors that the work on this transducer will lead the way for work on free/open-source tagset-compatible transducers for other Turkic languages.  Indeed, transducers for Kazakh, Tatar, Bashqort, and Chuvash which are currently under development have benefited from work done on this transducer: many aspects have been based on the same general approach, and a number of phonological rules from the Kyrgyz transducer have served as the basis of rules in the transducers of these other languages.
 
