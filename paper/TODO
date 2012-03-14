@@ -1,9 +1,4 @@
 == Jonathan ==
-* "there are still a number of grammatical forms that have not been implemented", like ...?
-* finish styling
-** Times font
-* What do you mean by "possessive morphology" and "case morphology"? Does that mean "possessive or case markers/affixes/suffixes"? Because you say "after a noun", does that mean that these are some lexical items?
-* fix ZZ
 
 == Fran ==
 * more about tagset
@@ -18,6 +13,10 @@
 * Check stuff
 ** Check \subsection{Morphological and orthographic words}
 ** grep FIXME and fix :(
+** Check the examples after "there are still a number of grammatical forms that have not been implemented"
+** Check
+*** What do you mean by "possessive morphology" and "case morphology"? Does that mean "possessive or case markers/affixes/suffixes"? Because you say "after a noun", does that mean that these are some lexical items?
+*** I just changed the first occurrence of "possessive morphology" and "case morphology" to "p./c. affixes"; I think this is clear.  Maybe it was a problem with terminology?
 
 == Mirlan & Jonathan ==
 * finish eval stuff

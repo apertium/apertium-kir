@@ -182,7 +182,7 @@ Since the general verbal negation morpheme in Kyrgyz tends to be /BA/ (as it is 
 
 There are a number of other morphotactic issues involving ``irregular'' forms that have been dealt with in a similar way to the negative finite verb forms.  One such issue involves nominal possessive morphology when followed by case suffixes.
 
-Nouns may be followed by possessive morphology before any case morphology.  This relates the noun to a preceding noun or pronoun in the genitive case.  However, when both possessive morphology and case morphology occur after a noun, there is some irregularity in the system.  Table \ref{irregposcase} summarises some of the forms.  Forms that do not result from simple concatenation of the possession and case endings are highlighted in bold as being irregular.
+Nouns may be followed by possessive suffixes before any case suffixes.  This relates the noun to a preceding noun or pronoun in the genitive case.  However, when both possessive morphology and case morphology occur after a noun, there is some irregularity in the system.  Table \ref{irregposcase} summarises some of the forms.  Forms that do not result from simple concatenation of the possession and case endings are highlighted in bold as being irregular.
 
 \begin{table*}[htbp]
 	\caption{Combinations of possessive suffixes with case suffixes}\label{irregposcase}
@@ -484,7 +484,7 @@ on two large freely available corpora of Kyrgyz. The second is by performing an 
 
 %FIXME: is this about right?  and I mean all aspects of the paragraph
 %FIXME: ZZ needs to be replaced with .. ?
-To calculate the naïve coverage\footnote{Naïve coverage refers to the percentage of surface forms in a given corpora that receive at least one analysis.  Forms counted by this measure may have other analyses which are not delivered by the transducer.} of the analyser, two corpora were used.  The first corpus was a database dump of the Kyrgyz Wikipedia, dated 2011-09-23,\footnote{The exact name of the dump was \texttt{kywiki-20110923-pages-articles.xml}.} which was processed with the programs \texttt{aq-wikicrp} and ZZ to extract sentences. The second was a corpus generated from the archives of Radio Free Europe / Radio Liberty's Kyrgyz service, \href{http://www.azattyk.org}{azattyk.org}.  The RFERL corpus was built using a script that scraped the archives for all articles from 2010, which include articles on a wide variety of topics, from sports to politics and from culture to current events.
+To calculate the naïve coverage\footnote{Naïve coverage refers to the percentage of surface forms in a given corpora that receive at least one analysis.  Forms counted by this measure may have other analyses which are not delivered by the transducer.} of the analyser, two corpora were used.  The first corpus was a database dump of the Kyrgyz Wikipedia, dated 2011-09-23,\footnote{The exact name of the dump was \texttt{kywiki-20110923-pages-articles.xml}.} which was processed with the programs \texttt{aq-wikicrp} to extract sentences. The second was a corpus generated from the archives of Radio Free Europe / Radio Liberty's Kyrgyz service, \href{http://www.azattyk.org}{azattyk.org}.  The RFERL corpus was built using a script that scraped the archives for all articles from 2010, which include articles on a wide variety of topics, from sports to politics and from culture to current events.
 
 Both corpora were split into 10 equal parts, and coverage was calculated over each part separately in order to calculate the standard deviation of the mean. As can be seen from table~\ref{table:cov}, running the analyser on the RFERL corpus gives a higher coverage.  This is most likely because the text is more homogenous, and there is less non-Kyrgyz (e.g., Russian) text.
 
@@ -525,7 +525,10 @@ The major work to be done is increasing the size of the lexicon. While a good le
 Once good coverage has been achieved with a morphological analyser, the next logical step is to start work on morphological and syntactic disambiguation. As can be seen from the figures for mean ambiguity, there is a lot of work that can be done on disambiguation.
 
 %FIXME: * Some remaining transducer issues
-Also, despite the good coverage, there are still a number of grammatical forms that have not been implemented into the transducer.  %FIXME: e.g.?
+% maybe fixed now?
+Also, despite the good coverage, there are still a number of grammatical forms that have not been implemented into the transducer.  For example, one such form is historically the negative of the eyewitness past tense, but is now used (mostly with a question clitic) in a certain type of modal expression;\footnote{A surprised contradictory expression, like ``Did I not just clean the floor??''} this cannot be tagged as the negative of the eyewitness past tense, since a suppletive form is tagged that way.  Other shortcomings of the transducer are that it is not set up to deal with affixes on abbreviations (e.g., АКШнын \eng{The USA's}) or capitalisation changes on lemmas that occur in different word classes (e.g., Финландия \eng{Finnland}, but финландиялык \eng{Finnish}).
+
+%FIXME: e.g.?
 %these issues is fixed!
 %Also, despite the good coverage, there are still a number of grammatical forms that have not been implemented into the transducer.  One of these is the irregular combination of 3rd person non-past finite verb plus the yes/no question particle.  For example, the third person non-past of /бар/ \eng{go} is [барат], but when the question particle -/BI/ is added, the resulting form is [барабы] instead of *[баратпы] (the transducer's current output).  There are also currently some problems handling the progressive aspect auxiliary /жат/ when it grammaticalises as a suffix with a couple verbs (/бар/ and /кел/) which often use a different participial form with this auxiliary than most verbs do.
 
