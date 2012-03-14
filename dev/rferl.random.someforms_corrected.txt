@@ -201,8 +201,22 @@
 ^айкын/айкын<adj><advl>/айкын<adj><pst>/айкын<adj><subst><nom>$
 ^Аргентина/Аргентина<np><top><nom>$
 ^жанагыдай/жана<adv><attr><subst><sim>$
-******* ^
+******* ^ can we have <attr><subst> ??
 ^террорчулукка/террорчулук<n><dat>$
+^финансылоо/финансыла<v><tv><ger><nom>$
+^Юрист/юрист<n><nom>$
+^жаткырылып/жат<v><iv><caus><pass><gna_perf>/жат<v><iv><caus><pass><prc_real>$
+^чаңга/чаң<n><dat>$
+^аздык/аздык<n><nom>$
+^Эмоцияга/эмоция<n><dat>$
+^Мегаком/Мегаком<np><org><nom>$
+^ынтымакты/ынтымак<n><acc>$
+^ынтымакка/ынтымак<n><dat>$
+^кыргызстандык/кыргызстан<np><top><attr>/кыргызстан<np><top><subst><nom>$
+^кыргызстандыктар/кыргызстан<np><top><subst><pl><nom>$
+^НАТОго/НАТО<np><org><dat>$
+^НАТОдогу/НАТО<np><org><loc><attr>/НАТО<np><org><loc><subst><nom>$
+^амалыбы/амал<n><px3sg><nom>+бы<qst>$
 
 STOP HERE
 
@@ -210,7 +224,6 @@ STOP HERE
 ^автоматташтырылган/автоматташтыр<v><tv><pass><ger_past><nom>/автоматташтыр<v><tv><pass><glp>/автоматташтыр<v><tv><pass><glp><subst><nom>/автоматташтыр<v><tv><pass><glp_past>/автоматташтыр<v><tv><pass><glp_past><subst><nom>/автоматташтыр<v><tv><pass><past><p3><pl>/автоматташтыр<v><tv><pass><past><p3><sg>$
 ^милитаристтик/милитаристтик<adj><advl>/милитаристтик<adj><pst>/милитаристтик<adj><subst><nom>$
 ^кызматташкан/кызматташ<v><iv><ger_past><nom>/кызматташ<v><iv><glp>/кызматташ<v><iv><glp><subst><nom>/кызматташ<v><iv><glp_past>/кызматташ<v><iv><glp_past><subst><nom>/кызматташ<v><iv><past><p3><pl>/кызматташ<v><iv><past><p3><sg>/кызматташ<v><tv><ger_past><nom>/кызматташ<v><tv><glp>/кызматташ<v><tv><glp><subst><nom>/кызматташ<v><tv><glp_past>/кызматташ<v><tv><glp_past><subst><nom>/кызматташ<v><tv><past><p3><pl>/кызматташ<v><tv><past><p3><sg>$
-^жаткырылып/жат<v><iv><caus><pass><gna_perf>/жат<v><iv><caus><pass><prc_real>$
 ^парламенттик/парламенттик<adj><advl>/парламенттик<adj><pst>/парламенттик<adj><subst><nom>$
 ^АКШнын/АКШ<np><org><gen>/АКШ<np><top><gen>$
 ^тырышса/тырыш<v><iv><gna_cnd><p3><pl>/тырыш<v><iv><gna_cnd><p3><sg>/тырыш<v><tv><gna_cnd><p3><pl>/тырыш<v><tv><gna_cnd><p3><sg>$
@@ -223,10 +236,8 @@ STOP HERE
 ^атуулдук/атуулдук<adj><advl>/атуулдук<adj><pst>/атуулдук<adj><subst><nom>$
 ^кызматташып/кызматташ<v><iv><gna_perf>/кызматташ<v><iv><prc_real>/кызматташ<v><tv><gna_perf>/кызматташ<v><tv><prc_real>$
 ^шайкеш/шайкеш<adj><advl>/шайкеш<adj><pst>/шайкеш<adj><subst><nom>/шайкеш<adv>/шайкеш<n><nom>$
-^финансылоо/финансыла<v><tv><ger><nom>$
 ^беттешүүдө/беттеш<v><iv><ger><loc>/беттеш<v><tv><ger><loc>$
 ^Талдоочу/талда<v><tv><ger><nom>+чы<mod_foc>/талда<v><tv><glp_pot>/талда<v><tv><glp_pot><subst><nom>/талдоочу<n><nom>$
-^Юрист/юрист<n><nom>$
 ^экспозициялык/экспозициялык<adj><advl>/экспозициялык<adj><pst>/экспозициялык<adj><subst><nom>$
 ^өнөктөштөрүбүз/өнөктөш<v><tv><ger_pres><pl><px1pl><nom>$
 ^ЕККУнун/ЕККУ<np><org><gen>/ЕККУ<np><top><gen>$
