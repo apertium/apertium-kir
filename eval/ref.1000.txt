@@ -501,7 +501,7 @@
 ^баяндады/баянда<v><tv><ifi><p3><pl>/баянда<v><tv><ifi><p3><sg>$
 ^аз/аз<adj><advl>/аз<adj><pst>/аз<adj><subst><nom>/аз<adv>$
 ^кароо/кара<v><iv><ger><nom>/кара<v><tv><ger><nom>$
-^бар/бар<n><nom>/бар<v><exi>/бар<v><iv><imp><p2><sg>$
+^бар/бар<n><nom>/бар<adj>/бар<adj><subst><nom>/бар<v><iv><imp><p2><sg>$
 ^калат/кал<v><iv><aor><p3><pl>/кал<v><iv><aor><p3><sg>/кал<v><iv><prc_irre>/кал<vaux><aor><p3><pl>/кал<vaux><aor><p3><sg>/кал<vaux><prc_irre>$
 ^Бийлик/бийлик<n><nom>$
 ^сыйлыкты/сыйлык<n><acc>$
@@ -589,7 +589,7 @@
 ^компания/компания<n><nom>$
 ^Азаттык/азаттык<n><nom>$
 ^каршы/каршы<adj><advl>/каршы<adj><pst>/каршы<adj><subst><nom>/каршы<adv>/каршы<n><nom>/каршы<post>$
-^барбы/бар<n><nom>+бы<qst>$
+^барбы/бар<n><nom>+бы<qst>/бар<adj>+бы<qst>/бар<adj><subst><nom>+бы<qst>$
 ^калган/кал<v><iv><ger_past><nom>/кал<v><iv><glp>/кал<v><iv><glp><subst><nom>/кал<v><iv><glp_past>/кал<v><iv><glp_past><subst><nom>/кал<v><iv><past><p3><pl>/кал<v><iv><past><p3><sg>/кал<vaux><ger_past><nom>/кал<vaux><glp>/кал<vaux><glp><subst><nom>/кал<vaux><glp_past>/кал<vaux><glp_past><subst><nom>/кал<vaux><past><p3><pl>/кал<vaux><past><p3><sg>/калган<n><nom>$
 ^бийликте/бийлик<n><loc>$
 ^ишеним/ишеним<n><nom>$
@@ -676,7 +676,7 @@
 ^көмүр/көмүр<n><nom>$
 ^Азаттыкта/азаттык<n><loc>$
 ^Касенов/Касенов<np><cog><m><nom>$
-^барды/бар<n><acc>/бар<v><iv><ifi><p3><pl>/бар<v><iv><ifi><p3><sg>$
+^барды/бар<n><acc>/бар<v><iv><ifi><p3><pl>/бар<v><iv><ifi><p3><sg>/бар<adj><subst><acc>$
 ^калганын/кал<v><iv><ger_past><px3pl><acc>/кал<v><iv><ger_past><px3sg><acc>/кал<v><iv><glp><subst><px3pl><acc>/кал<v><iv><glp><subst><px3sg><acc>/кал<v><iv><glp_past><subst><px3pl><acc>/кал<v><iv><glp_past><subst><px3sg><acc>/кал<vaux><ger_past><px3pl><acc>/кал<vaux><ger_past><px3sg><acc>/кал<vaux><glp><subst><px3pl><acc>/кал<vaux><glp><subst><px3sg><acc>/кал<vaux><glp_past><subst><px3pl><acc>/кал<vaux><glp_past><subst><px3sg><acc>/калган<n><px3pl><acc>/калган<n><px3sg><acc>$
 ^бийликтери/бийлик<n><pl><px3pl><nom>/бийлик<n><pl><px3sg><nom>$
 ^сырткары/сырткары<adv>$
