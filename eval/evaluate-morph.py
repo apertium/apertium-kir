@@ -123,7 +123,7 @@ print('\nRendiment:\n');
 
 precision = (corr_analyses / (corr_analyses + incorr_analyses)) * 100.0;
 recall = (corr_analyses / (corr_analyses + missing_analyses)) * 100.0;
-fscore = (precision * recall) / (precision + recall);
+fscore = 2 * ((precision * recall) / (precision + recall));
 
 print('Precision: ' + str(precision));
 print('Recall: ' + str(recall));
