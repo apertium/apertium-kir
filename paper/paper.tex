@@ -106,7 +106,7 @@ which issues are left to resolve. An evaluation is presented which shows that th
 \section{Introduction}
 This paper describes the development of a morphological transducer oriented for the task of machine translation for the Kyrgyz language using the free/open-source platform HFST. The transducer was developed under the auspices of the Apertium \citep{forcada2011} project for use in a machine translation system from Turkish to Kyrgyz.
 
-The paper is split into five main parts. First a background section gives some details about Kyrgyz and the toolkit used. Subsequent sections describe the tagset and individual issues encountered with the morphotactics and the morphophonology. Finally, some evaluation results are given and future work outlined.
+The paper is split into five main parts. First a background section gives some details about Kyrgyz and the toolkit used.  Subsequent sections describe individual issues encountered with the morphotactics and the morphophonology.  Finally, some evaluation results are given and future work outlined.
 
 \section{Background}
 \subsection{The Kyrgyz language}
@@ -524,14 +524,15 @@ The results for precision and recall are presented in Table~\ref{table:precrecal
 \end{table}
 
 %FIXME: new stuff
-That the precision is so high is not surprising: the transducer is rule-based and the test set is the corrected output of the analyser.  In order to get a more accurate figure for precision, it would be necessary to have several linguists review the set.
+That the precision is so high is not surprising: the transducer is rule-based and the test set is the corrected output of the analyser.  In order to get a more accurate figure for precision, it would be necessary to have several linguists review the gold standard.
+
 Our evaluation of the transducer brought to light some systematic ways that we could improve the transducer.
 
 Low recall is due to forms which do not receive any analyses; in all cases this was due to stems missing in the lexicon. Out of the 1,000 words, 91 did not receive any analyses. Of these, 52 forms were proper names, 28 were nouns, 6 were adjectives, and the remaining 5 verbs.  This would suggest that in terms of adding new stems, it would be a good idea to look at increasing both the number of proper names and nouns.
 
 Low precision was due largely to incorrect stem categorisation.  Proofing our stem categorisation would increase precision significantly.  Besides this, several issues with the transducer were brought to light.  One such issue is that mono-syllabic verbs ending in vowels
 (e.g., [же] \eng{eat}, [жуу] \eng{wash}, [оо] \eng{tilt})
-do not take a gerund/infinitive in -/Uː/, but are only used with the morphologically, semantically, and syntactically similar -/(I)ш/ suffix.  To prevent these forms from being output, a different version of the current verbal continuation lexica should be made to capture the morphological difference---i.e., forms of these verbs that are marked as \texttt{<ger>} should be output with the -/(I)ш/ suffix instead of the -/Uː/ suffix.
+do not take a gerund/infinitive in -/{\qipa Uː}/, but are only used with the morphologically, semantically, and syntactically similar -/(I)ш/ suffix.  To prevent these forms from being output, a different version of the current verbal continuation lexicon should be made to capture the morphological difference---i.e., forms of these verbs that are marked as \texttt{<ger>} should be output with the -/(I)ш/ suffix instead of the -/{\qipa Uː}/ suffix, and analysed likewise.
 
 A similar issue the gold standard developed for evaluation showed us was that not all adjectives can be used used as adverbs; the transducer currently assumes they can, and every item in the adjective lexicon currently also has an adverbial reading.  While usually only morphologically complex (i.e., derived) adjectives are restricted from being used as adverbs, our initial strategy for fixing this will involve making a separate ``no adverb reading'' lexicon for adjectives that cannot be used as adverbs.
 
