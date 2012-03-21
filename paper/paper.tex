@@ -527,7 +527,7 @@ The results for precision and recall are presented in Table~\ref{table:precrecal
 That the precision is so high is not surprising: the transducer is rule-based and the test set is the corrected output of the analyser.  In order to get a more accurate figure for precision, it would be necessary to have several linguists review the set.
 Our evaluation of the transducer brought to light some systematic ways that we could improve the transducer.
 
-Low recall is due to forms which do not receive any analyses, in all cases this was due to missing stems in the lexicon. Out of the 1,000 words, 91 did not receive any analyses. Of these, 52 forms were proper names 28 were nouns, 6 were adjectives and the remaining 5 verbs.  This would suggest that in terms of adding new stems, it would be a good idea to look at increasing both the number of proper names, and nouns.
+Low recall is due to forms which do not receive any analyses; in all cases this was due to stems missing in the lexicon. Out of the 1,000 words, 91 did not receive any analyses. Of these, 52 forms were proper names, 28 were nouns, 6 were adjectives, and the remaining 5 verbs.  This would suggest that in terms of adding new stems, it would be a good idea to look at increasing both the number of proper names and nouns.
 
 Low precision was due largely to incorrect stem categorisation.  Proofing our stem categorisation would increase precision significantly.  Besides this, several issues with the transducer were brought to light.  One such issue is that mono-syllabic verbs ending in vowels
 (e.g., [же] \eng{eat}, [жуу] \eng{wash}, [оо] \eng{tilt})
