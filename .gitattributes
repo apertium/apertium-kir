@@ -18,6 +18,7 @@ eval/evaluate-morph.py -text
 eval/history.log -text
 eval/ref.1000.txt -text
 eval/src.1000.txt -text svneol=unset#application/octet-stream
+/modes.xml -text
 paper/Makefile -text
 paper/TODO -text
 paper/abstract.tex -text
