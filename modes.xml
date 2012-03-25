@@ -1,11 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <modes>
 
+  <mode name="kir-twol">
+    <pipeline>
+      <program name="hfst-strings2fst -S"/>
+      <program name="hfst-compose-intersect">
+        <file name=".deps/kir.twol.hfst"/>
+      </program>
+      <program name="hfst-fst2strings"/>
+    </pipeline>
+  </mode>
 
   <mode name="kir-morph">
     <pipeline>
       <program name="hfst-proc -w">
         <file name="kir.automorf.hfst"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <mode name="kir-lexc">
+    <pipeline>
+      <program name="hfst-proc -g">
+        <file name=".deps/kir.lexc.hfst"/>
+      </program>
+    </pipeline>
+  </mode>
+
+
+  <mode name="kir-gener">
+    <pipeline>
+      <program name="hfst-proc -g">
+        <file name="kir.autogen.hfst"/>
       </program>
     </pipeline>
   </mode>
