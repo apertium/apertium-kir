@@ -8,7 +8,7 @@ LANG1=kir
 BASENAME=apertium-$(LANG1)
 
 TARGETS_COMMON = $(LANG1).automorf.hfst $(LANG1).autogen.hfst \
-        $(LANG1).rlx.bin
+        $(LANG1).rlx.bin modes
 
 ###############################################################################
 ## Kyrgyz transducer
@@ -70,11 +70,14 @@ $(LANG1).rlx.bin: $(BASENAME).$(LANG1).rlx
 #   apertium_kir_libdir: This is where the compiled binaries go
 #   apertium_kir_srcdir: This is where the source files go
 
+modes: modes.xml
+	apertium-gen-modes modes.xml
+
 apertium_kirdir=$(prefix)/lib/apertium/$(BASENAME)/
 apertium_kir_srcdir=$(prefix)/share/apertium/$(BASENAME)/
 
 apertium_kir_DATA=$(LANG1).automorf.hfst $(LANG1).autogen.hfst \
-		    $(LANG1).rlx.bin
+		    $(LANG1).rlx.bin modes
 
 pkgconfigdir = $(libdir)/pkgconfig
 pkgconfig_DATA = $(BASENAME)-$(RELEASE).pc

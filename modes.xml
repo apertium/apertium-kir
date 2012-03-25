@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modes>
+
+
+  <mode name="kir-morph">
+    <pipeline>
+      <program name="hfst-proc -w">
+        <file name="kir.automorf.hfst"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <mode name="kir-disam">
+    <pipeline>
+      <program name="hfst-proc -w">
+        <file name="kir.automorf.hfst"/>
+      </program>
+      <program name="cg-proc -w">
+        <file name="kir.rlx.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+</modes>
