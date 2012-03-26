@@ -1,11 +1,99 @@
-DELIMITERS = "<.>" "<!>" "<?>" "<...>" "<¶>" ;
+### Constraint Grammar for Kyrgyz ###
 
+DELIMITERS = "<.>" "<!>" "<?>" ;
 SOFT-DELIMITERS = "<,>" ;
 
-SETS
+LIST BOS = (>>>) ; # Beginning of sentence
+LIST EOS = (<<<) ; # End of sentence
 
-LIST N = n ;
+LIST Nom = nom ;
+LIST Acc = acc ;
+LIST Gen = gen ;
+
+LIST Adj = adj ;
+LIST Noun = n ;
+LIST Past = past ;
+LIST Vadj = vadj vadj_past ;
+LIST Vaux = vaux ;
+LIST Verb = v ;
+LIST Vb-or-Aux = v vaux ;
+LIST Part = prt_plan prt_cond prt_perf prt_impf prt_vol prt_irre prt_ala ;
+LIST PartIrre = prt_irre ;
+LIST Cop = cop ;
+LIST Sent = sent ;
+LIST Pl = pl ;
+LIST Tv = tv ;
+LIST Iv = iv ;
+LIST Aor = aor ;
+LIST Px3pl = px3pl ;
+LIST Px3sg = px3sg ;
+
+LIST Vb-Pl = (v pl) ;
+LIST Vb-Sg = (v sg) ;
+LIST Nom-Pl = (nom pl) ;
+SET  Nom-Sg = (nom) - (pl) ;
+LIST Nouns = n np pron ;
+
+SET  Sing = (*) - (pl) ;
+
+SET  Acc-Or-Nom = Acc | Nom ;
+
+SET  Not-Part = (*) - (Part) ;
+SET  Not-Sent = (*) - (Sent) ;
+SET  Tv-Or-Iv = Tv | Iv ;
+SET  PartIrre-Or-Aor = PartIrre | Aor ;
+SET  Vb-Sg-Or-Pl = Vb-Pl | Vb-Sg ;
+SET  Nom-Or-Gen = Nom OR Gen ;
+SET  Np-Nom-Or-Gen = Nouns + Nom-Or-Gen ;
+SET  Np-Nom-Or-Gen-Sg = Np-Nom-Or-Gen + Sing ;
+SET  Px3-Sg-Or-Pl = Px3sg | Px3pl ;
 
 SECTION
 
-SELECT N ;
+# No vaux if participle doesn't precede
+REMOVE Vaux IF
+	(0C Vb-or-Aux)                # the current word can be verb also
+	(-1C Not-Part);               # previous word is not a participle
+
+## V if participle doesn't precede
+#SELECT Verb IF
+#	(0C Vb-or-Aux)                 # the current word can be verb also
+#	(-1C Not-Part);                # previous word is not a participle
+
+# adj if next word is noun
+SELECT Adj IF
+	(1C Noun);
+
+# no past forms if next word is noun
+REMOVE Past IF
+	(0C Vb-or-Aux)
+	(1C Noun);
+
+# get rid of copula reading if not end of sentence
+REMOVE Cop IF
+	(1C Not-Sent);
+
+# select plural verb reading if subject is plural
+SELECT Pl IF
+	(0C Vb-Sg-Or-Pl)
+	(*-1C Nom-Pl BARRIER Sent);
+
+# get rid of plural verb reading if subject not plural
+REMOVE Pl IF
+	(0C Vb-Sg-Or-Pl)
+	(*-1C Nom-Sg BARRIER Sent);
+
+# select iv if acc precedes
+REMOVE Iv IF
+	(0C Tv-Or-Iv)
+	(-1C Acc);
+
+# get rid of prt_irre if also can be aor if following word sent
+REMOVE PartIrre IF
+	(0C PartIrre-Or-Aor)
+	(1C Sent);
+
+# get rid of plural possessive reading if antecedant is sg
+REMOVE Px3pl IF
+	(0C Px3-Sg-Or-Pl)
+	(*-1C Np-Nom-Or-Gen-Sg BARRIER Sent);
