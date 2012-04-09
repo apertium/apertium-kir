@@ -1,0 +1,25 @@
+== Background ==
+* Kyrgyz
+* Morphological transducers
+* Other Turkic morphological transducers
+* HFST/Apertium
+
+== The transducer ==
+
+=== Tagset ===
+* something witty
+
+=== Things we do well ===
+* Morphophonology
+** vowel harmony
+** voicing assimilation
+** desonorisation
+* N-N compounds (чакыруу кагазы) ?
+
+=== Things we don't do [well [yet]] ===
+* case changes for words with one root (Финландия / финландиялык)
+* abbreviations (АКШнын) and numbers (100дүн)
+* compound verbs
+
+== References ==
+* list of references
