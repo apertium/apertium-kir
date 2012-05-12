@@ -1,0 +1,105 @@
+\documentclass[a0paper,landscape]{baposter}
+
+%%% Color Definitions %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\definecolor{bordercol}{RGB}{40,40,40}
+\definecolor{headercol1}{RGB}{186,215,230}
+\definecolor{headercol2}{RGB}{80,80,80}
+\definecolor{headerfontcol}{RGB}{0,0,0}
+\definecolor{boxcolor}{RGB}{186,215,230}
+
+
+%%% Utility functions %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%% Save space in lists. Use this after the opening of the list %%%%%%%%%%%%%%%%
+\newcommand{\compresslist}{
+        \setlength{\itemsep}{1pt}
+        \setlength{\parskip}{0pt}
+        \setlength{\parsep}{0pt}
+}
+
+%%% Setting Background Image %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\background{
+	
+}
+
+\usepackage{polyglossia}
+\setdefaultlanguage[variant=australian]{english}
+
+\usepackage{fontspec}
+\defaultfontfeatures{PunctuationSpace=3,Scale=MatchLowercase,Mapping=tex-text}
+\newfontfeature{IPA}{+mgrk}
+\setromanfont[IPA]{FreeSerif}
+%\setromanfont[IPA]{Times New Roman}
+%\setromanfont[IPA]{NimbusRomNo9L-Regu}
+%\setromanfont{Times New Roman}
+%\renewcommand{\sfdefault}{phv}
+%\renewcommand{\rmdefault}{ptm}
+%\renewcommand{\ttdefault}{pcr}
+\usepackage[small,bf]{caption}
+%\newfontfamily\qipa[IPA]{NimbusRomNo9L-Regu}
+\newfontfamily\qipa[IPA,Scale=MatchLowercase]{FreeSerif}
+
+\usepackage[novoc,fdf2alif]{arabxetex}
+\newfontfamily\uighurfont[Script=Arabic,Scale=1.5]{Lateef}
+\newfontfamily\arabicfont[Script=Arabic,Scale=1.5]{Lateef}
+
+\usepackage{natbib}
+
+%\usepackage[in]{fullpage}
+\usepackage[colorlinks=true,citecolor=black,linkcolor=black,urlcolor=blue]{hyperref}
+
+\usepackage{subfigure}
+\usepackage{booktabs}
+
+%%\bibpunct{(}{)}{;}{A}{,}{,}
+%\bibdata{paper}
+
+\newcommand{\citemultileft}[1]{(\citeauthor{#1}, \citeyear{#1}}
+\newcommand{\citemultimid}[1]{\citeauthor{#1}, \citeyear{#1}}
+\newcommand{\citemultiright}[1]{\citeauthor{#1}, \citeyear{#1})}
+\newcommand{\citetwoyears}[2]{\citeauthor{#1} (\citeyear{#1} and \citeyear{#2})}
+
+% for glosses
+\newcommand{\eng}[1]{`{\em #1}'}
+%dammit, sc doesn't seem to be working
+\newcommand{\gmk}[1]{\textsc{#1}}
+
+\begin{document}
+	% To get it to be A0 consistently on all machines..
+	\special{papersize=841mm,1189mm}
+	\setlength{\pdfpageheight}{\paperheight}
+	\setlength{\pdfpagewidth}{\paperwidth}
+
+	\begin{poster}{
+			grid=false,
+			eyecatcher=true,
+			borderColor=bordercol,
+			headerColorOne=headercol1,
+			headerColorTwo=headercol2,
+			headerFontColor=headerfontcol,
+			% Only simple background color used, no shading, so boxColorTwo isn't necessary
+			boxColorOne=boxcolor,
+			headershape=roundedright,
+			headerfont=\Large\sf\bf,
+			textborder=rectangle,
+			background=user,
+			headerborder=open,
+			boxshade=plain
+		}{
+			Eye Catcher, empty if option eyecatcher=false - unused
+		}{
+			Apertium Turkic
+		}{
+			Jonathan Washington, Francis Tyers, Mirlan Ipasov\\
+			jonwashi@indiana.edu , etc.
+		}{
+			University Logo(s)
+		}
+
+		\headerbox{Background}{name=background,column=0,row=0}{
+			Kyrgyz is a Turkic language
+		}
+
+	\end{poster}
+\end{document}
