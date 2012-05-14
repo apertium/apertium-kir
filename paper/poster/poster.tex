@@ -1,4 +1,4 @@
-\documentclass[a0paper,landscape]{baposter}
+\documentclass[a0paper,landscape,fontscale=0.285]{baposter}
 
 %%% Color Definitions %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -19,9 +19,9 @@
 }
 
 %%% Setting Background Image %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\background{
-	
-}
+%\background{
+%	
+%}
 
 \usepackage{polyglossia}
 \setdefaultlanguage[variant=australian]{english}
@@ -40,9 +40,10 @@
 %\newfontfamily\qipa[IPA]{NimbusRomNo9L-Regu}
 \newfontfamily\qipa[IPA,Scale=MatchLowercase]{FreeSerif}
 
-\usepackage[novoc,fdf2alif]{arabxetex}
-\newfontfamily\uighurfont[Script=Arabic,Scale=1.5]{Lateef}
-\newfontfamily\arabicfont[Script=Arabic,Scale=1.5]{Lateef}
+% FIXME: Breaks baposter
+%\usepackage[novoc,fdf2alif]{arabxetex}
+%\newfontfamily\uighurfont[Script=Arabic,Scale=1.5]{Lateef}
+%\newfontfamily\arabicfont[Script=Arabic,Scale=1.5]{Lateef}
 
 \usepackage{natbib}
 
@@ -67,7 +68,7 @@
 
 \begin{document}
 	% To get it to be A0 consistently on all machines..
-	\special{papersize=841mm,1189mm}
+	\special{papersize=1189mm,841mm}
 	\setlength{\pdfpageheight}{\paperheight}
 	\setlength{\pdfpagewidth}{\paperwidth}
 
@@ -89,17 +90,48 @@
 		}{
 			Eye Catcher, empty if option eyecatcher=false - unused
 		}{
-			Apertium Turkic
+			A finite-state morphological transducer for Kyrgyz
 		}{
-			Jonathan Washington, Francis Tyers, Mirlan Ipasov\\
-			jonwashi@indiana.edu , etc.
+			Jonathan Washington, Mirlan Ipasov, Francis M.\ Tyers\\
+			Indiana University, Universitat d'Alacant, International Ataturk Alatoo University\\
+			\texttt{jonwashi@indiana.edu}, \texttt{mipasov@gmail.com}, \texttt{ftyers@dlsi.ua.es}
 		}{
 			University Logo(s)
 		}
 
 		\headerbox{Background}{name=background,column=0,row=0}{
-			Kyrgyz is a Turkic language
+* Kyrgyz\\
+* Morphological transducers\\
+* Other Turkic morphological transducers\\
+* HFST/Apertium
 		}
+
+		\headerbox{The Transducer}{name=transducer,column=0,below=background}{
+Tagset\\
+* something witty\\
+
+Things we do well\\
+* Morphophonology\\
+** vowel harmony\\
+** voicing assimilation\\
+** desonorisation\\
+* N-N compounds (чакыруу кагазы) ?
+		}
+
+		\headerbox{Недостатки}{name=nedostatki,column=1,row=0}{
+Things we don't do [well [yet]]\\
+* case changes for words with one root (Финландия / финландиялык)\\
+* abbreviations (АКШнын) and numbers (100дүн)\\
+* compound verbs\\
+* gerunds with mono-syllabic V-final verbs (*жөө / жеш < же-)
+		}
+
+%		\headerbox{References}{name=references,column=1,row=1}{
+%			\begin{thebibliography}{1}\itemsep=-0.01em
+%			\setlength{\baselineskip}{0.4em}
+%
+%		}
+
 
 	\end{poster}
 \end{document}
