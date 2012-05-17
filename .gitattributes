@@ -28,5 +28,9 @@ paper/lrec2012.bst -text
 paper/lrec2012.sty -text
 paper/paper.bib -text
 paper/paper.tex -text
+paper/poster/Makefile -text
 paper/poster/OUTLINE -text
+paper/poster/apertium.pdf -text svneol=unset#unset
+paper/poster/flagkg1.pdf -text
+paper/poster/flagkg2.pdf -text
 paper/poster/poster.tex -text
