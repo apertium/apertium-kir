@@ -1,4 +1,4 @@
-\documentclass[a0paper,landscape,fontscale=0.285]{baposter}
+\documentclass[a0paper,fontscale=0.3]{baposter}  % fontscale=0.285
 
 \usepackage{setspace}
 \usepackage{graphicx}
@@ -16,7 +16,10 @@
 \definecolor{headercol2}{RGB}{80,80,80}
 \definecolor{headerfontcol}{RGB}{0,0,0}
 \definecolor{boxcolor}{RGB}{186,215,230}
-
+%\newcommand{\hilitetwo}[1]{{\addfontfeature{Color=FF000099}#1}}
+\newcommand{\hilitetwo}[1]{{\addfontfeature{Color=99333399}#1}}
+\newcommand{\hiliteone}[1]{{\addfontfeature{Color=33993399}#1}}
+\newcommand{\hilitegrey}[1]{{\addfontfeature{Color=77777799}#1}}
 
 %%% Utility functions %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -30,6 +33,8 @@
 \usepackage{polyglossia}
 \setdefaultlanguage[variant=australian]{english}
 
+\usepackage{expex}
+
 \usepackage{fontspec}
 \defaultfontfeatures{PunctuationSpace=3,Scale=MatchLowercase,Mapping=tex-text}
 \newfontfeature{IPA}{+mgrk}
@@ -39,16 +44,27 @@
 %\setromanfont[IPA]{Times New Roman}
 %\setromanfont[IPA]{NimbusRomNo9L-Regu}
 %\setromanfont{Times New Roman}
-\setmonofont[IPA]{Liberation Mono}
+%\setmonofont[IPA]{Liberation Mono}
+\setmonofont[IPA]{DejaVu Sans Mono}
 %\renewcommand{\sfdefault}{phv}
 %\renewcommand{\rmdefault}{ptm}
 %\renewcommand{\ttdefault}{pcr}
 \usepackage[small,bf]{caption}
 %\newfontfamily\qipa[IPA]{NimbusRomNo9L-Regu}
 \newfontfamily\qipa[IPA,Scale=MatchLowercase]{FreeSerif}
+\newfontfamily\qgmk[IPA,Scale=0.8]{CMU Serif}
+
 %\newfontfamily\htwo[IPA,Scale=1.2]{FreeSans}
-\newfontfamily\htwo[IPA,Scale=1.2]{CMU Sans Serif}
-\newfontfamily\titlefont[IPA]{CMU Serif}
+%\newfontfamily\htwofont[IPA,Scale=1]{CMU Sans Serif}
+%\newfontfamily\htwofont[IPA,Scale=1,Color=333344FF]{CMU Sans Serif}
+\newfontfamily\htwofont[IPA,Scale=1,Color=111111FF]{CMU Sans Serif}
+%\newfontfamily\titlefont[IPA,Scale=0.52]{CMU Serif}
+\newfontfamily\titlefont[IPA,Scale=0.7]{CMU Serif}
+%\newfontfamily\titlefont[IPA,Scale=0.55]{DejaVu Serif}
+
+%\newcommand{\htwo}[1]{::: {\htwofont #1} :::}%\hrule} %\hline\\}
+%\newcommand{\htwo}[1]{{\htwofont \textbf{:::#1:::}}}%\hrule} %\hline\\}
+\newcommand{\htwo}[1]{{\htwofont \textbf{\dotfill{}#1\dotfill{}}}}
 
 % FIXME: Breaks baposter
 %\usepackage[novoc,fdf2alif]{arabxetex}
@@ -57,6 +73,29 @@
 
 \usepackage{natbib}
 
+%\makeatletter
+%\renewenvironment{thebibliography}[1][]{\htwo{\bibname}}
+%     {\section*{\bibname}% <-- this line was changed from \chapter* to \section*
+%	  \htwo{\bibname}
+%      \@mkboth{\MakeUppercase\bibname}{\MakeUppercase\bibname}%
+%      \list{\@biblabel{\@arabic\c@enumiv}}%
+%           {\settowidth\labelwidth{\@biblabel{#1}}%
+%            \leftmargin\labelwidth
+%            \advance\leftmargin\labelsep
+%            \@openbib@code
+%            \usecounter{enumiv}%
+%            \let\p@enumiv\@empty
+%            \renewcommand\theenumiv{\@arabic\c@enumiv}}%
+%      \sloppy
+%      \clubpenalty4000
+%      \@clubpenalty \clubpenalty
+%      \widowpenalty4000%
+%      \sfcode`\.\@m}
+%     {\def\@noitemerr
+%       {\@latex@warning{Empty `thebibliography' environment}}%
+%      \endlist}%}
+%}
+%\makeatother
 %\usepackage[in]{fullpage}
 \usepackage[colorlinks=true,citecolor=black,linkcolor=black,urlcolor=blue]{hyperref}
 
@@ -74,10 +113,13 @@
 % for glosses
 \newcommand{\eng}[1]{`{\em #1}'}
 %dammit, sc doesn't seem to be working
-\newcommand{\gmk}[1]{\textsc{#1}}
+\newcommand{\gmk}[1]{{\qgmk \textsc{#1}}}
 
+
+\usepackage{enumitem}
+\setlist{nolistsep,leftmargin=*}
 \newenvironment{itemise}[1]{
-        \begin{itemize}\setlength{\itemsep}{-0.2em}
+        \begin{itemize}\setlength{\leftmargin}{-4em}\setlength{\itemsep}{-0.2em}
         \vspace{-0.5em}
         #1
 }{
@@ -91,7 +133,8 @@
 
 \begin{document}
 	% To get it to be A0 consistently on all machines..
-	\special{papersize=1189mm,841mm}
+	%\special{papersize=1189mm,841mm}
+	\special{papersize=841mm,1189mm}
 	\setlength{\pdfpageheight}{\paperheight}
 	\setlength{\pdfpagewidth}{\paperwidth}
 
@@ -111,7 +154,7 @@
 
 	\begin{poster}{
 			grid=false,
-			eyecatcher=false,
+			%eyecatcher=false,
 			borderColor=bordercol,
 			headerColorOne=headercol1,
 			headerColorTwo=headercol2,
@@ -132,32 +175,35 @@
 			boxshade=plain,
 			textborder=roundedleft,
 		}{
-			Eye Catcher, empty if option eyecatcher=false - unused
+			\hspace{-2em}\includegraphics[height=6.5em]{apertium}
+			%Eye Catcher, empty if option eyecatcher=false - unused
 		}{
-			{\vspace{0.5ex}
+			{\vspace{0pt}\hspace{-2ex}
 			{\titlefont \textsc{A finite-state morphological transducer for Kyrgyz}}}
 		}{
 			%Jonathan North Washington {\small (Indiana University, \texttt{jonwashi@indiana.edu})}, Mirlan Ipasov {\small (International Ataturk Alatoo University, \texttt{mipasov@gmail.com})}, Francis M.\ Tyers {\small (Universitat d'Alacant, \texttt{ftyers@dlsi.ua.es})}
 
-			\vspace{-1.2em}
-			{\begin{minipage}[t]{13em}
+			\vspace{-0.5em}
+			\begin{center}
+			{\begin{minipage}[t]{11.75em}
 				\begin{spacing}{0.4}
-					Jonathan North Washington\\
-					{\small Indiana University, \texttt{jonwashi@indiana.edu}}
+					{Jonathan North Washington}\\
+					{\footnotesize Indiana University\\\texttt{jonwashi@indiana.edu}}
 				\end{spacing}
 			\end{minipage}
-			\begin{minipage}[t]{17em}
+			\begin{minipage}[t]{9.25em}
 				\begin{spacing}{0.4}
-					Mirlan Ipasov\\
-					{\small International Ataturk Alatoo University, \texttt{mipasov@gmail.com}}
+					{Mirlan Ipasov}\\
+					{\footnotesize International Atatürk Alatoo University\\\texttt{mipasov@gmail.com}}
 				\end{spacing}
 			\end{minipage}
-			\begin{minipage}[t]{13em}
+			\begin{minipage}[t]{8em}
 				\begin{spacing}{0.4}
-					Francis M.\ Tyers\\
-					{\small Universitat d'Alacant, \texttt{ftyers@dlsi.ua.es}}
+					{Francis M.\ Tyers}\\
+					{\footnotesize Universitat d'Alacant\\\texttt{ftyers@dlsi.ua.es}}
 				\end{spacing}
 			\end{minipage}}
+			\end{center}
 
 			%\begin{minipage}[c]{12em}
 			%	\centering
@@ -189,14 +235,14 @@
 			%\texttt{jonwashi@indiana.edu}, \texttt{mipasov@gmail.com}, \texttt{ftyers@dlsi.ua.es}
 		}{
 			%University Logo(s)
-			{\begin{minipage}{19em}
-				\hfill
-				\includegraphics[height=6.5em]{apertium}
+			%{\begin{minipage}{19em}
+				%\hfill
+				%\includegraphics[height=6.5em]{apertium}
 				\includegraphics[height=6.5em]{flagkg1}
-			\end{minipage}}
+			%\end{minipage}}
 		}
 
-		\headerbox{Overview}{name=overview,column=0,row=0}{
+		\headerbox{Overview}{name=overview,column=0,row=1}{
 			\begin{spacing}{0.8}
 This paper describes the development of a free/open-source finite-state morphological transducer for Kyrgyz. The transducer 
 has been developed for morphological generation for use within a prototype Turkish$\rightarrow$Kyrgyz machine translation system, but has also been extensively tested for analysis. The finite-state toolkit used for the work was the Helsinki Finite-State 
@@ -204,73 +250,207 @@ Toolkit (HFST). The paper describes some issues in Kyrgyz morphology, the develo
 which issues are left to resolve. An evaluation is presented which shows that the transducer has medium-level coverage, between 82\% and 87\% on two freely available corpora of Kyrgyz, and high precision and recall over a manually verified test set.
 			\end{spacing}\vspace{-0.25ex}
 		}
-		\headerbox{Kyrgyz}{name=kyrgyz,below=overview}{
-* Kyrgyz\\
+		\headerbox{Kyrgyz}{name=kyrgyz,column=0,row=0}{
+			\begin{itemize}
+				\item Turkic language
+				\begin{itemize}
+					\item Similar historically to Southern Altay
+					\item Similar by convergence to Kazakh, Uzbek
+				\end{itemize}
+				\item Spoken in
+				\begin{itemize}
+					\item Kyrgyzstan as official language\\
+					\textit{high levels of bilingualism with Russian}
+					\item China, Tajikistan, Uzbekistan
+				\end{itemize}
+				\item Over 3 million native speakers \citep{lewis2009}
+
+			\end{itemize}
 		}
 		\headerbox{Morphological Transducers}{name=morphtrans,below=kyrgyz}{
-* Morphological transducers\\
-		}
-		\headerbox{Available Turkic Transducers}{name=turkictrans,below=morphtrans}{
-* Other Turkic morphological transducers\\
-		}
-		\headerbox{Framework: HFST / Apertium}{name=framework,below=turkictrans}{
-* HFST/Apertium
+			\htwo{Morphological transducers}
+			\begin{itemize}
+				\item stuff
+			\end{itemize}
+
+			\htwo{Available Turkic Transducers}
+			\begin{itemize}
+				\item stuff
+			\end{itemize}
+
+			\htwo{Framework: HFST / Apertium}
+			\begin{itemize}
+				\item stuff
+			\end{itemize}
+
 		}
 
-		\headerbox{The Transducer}{name=transducer,column=1,span=2,row=0}{
-Tagset\\
-* something witty\\
+%		\headerbox{Available Turkic Transducers}{name=turkictrans,below=morphtrans}{
+%* Other Turkic morphological transducers\\
+%		}
+%		\headerbox{Framework: HFST / Apertium}{name=framework,below=turkictrans}{
+%* HFST/Apertium
+%		}
 
-Things we do well\\
-* Morphophonology\\
-** vowel harmony\\
-** voicing assimilation\\
-** desonorisation\\
-* N-N compounds (чакыруу кагазы) ?
+
+		\headerbox{Morphotactics}{name=lexc,below=morphtrans}{
+		%\headerbox{Morphophonology}{name=morphophon,below=morphtrans}{
+
+			\htwo{Morphological \& orthographical words}
+
+			\begin{itemize}
+				\item{} {\qipa өнүктүрөбүзбү ?} \eng{will we develop [it]?}\\
+				{\qipa өнүк{\tt {\small <v><tv><caus><aor><p1><pl>+}}бы{\tt {\small <qst>}}}
+				\item{} {\qipa келатсаң} \eng{if you come}\\
+				{\qipa кел{\tt {\small <v><iv><prt\_impf>}}+жат\texttt{{\small <vaux><gna\_cnd><p2><sg>}}}
+			\end{itemize}
+
+			\htwo{Irregular negatives of finite verb forms}
+
+			\htwo{Irregular [noun + possessive + case] forms}
+			
+			\htwo{N-N compounds}
+
+			чакыруу кагазы
 		}
 
-		\headerbox{Evaluation}{name=coverage,span=2,column=1,below=transducer}{
-			{\htwo Test corpora}
-			\begin{itemise}
-				\item \textbf{Kyrgyz Wikipedia} dump dated 2011-09-23 (\texttt{kywiki-20110923-pages-articles.xml})
+		\headerbox{Morphophonology}{name=twol,below=lexc}{
+			\htwo{Vowel harmony}
+			\begin{itemize}
+				\item two basic vowel archiphonemes:
+				\begin{itemize}
+					\item low vowel, \texttt{\{A\}} {\qipa (а, о, е, ө)}
+					\item high vowel, \texttt{\{I\}} {\qipa (ы, у, и, ү)}
+				\end{itemize}
+
+			\end{itemize}
+
+			\htwo{Desonorisation}
+
+			\htwo{Lenition}
+
+			\htwo{Nouns ending in /рн/}
+
+			\htwo{й+vowel letters}
+
+
+		}
+
+%		\headerbox{The Transducer}{name=transducer,column=0,span=2,row=1}{
+%Tagset\\
+%* something witty\\
+%
+%Things we do well\\
+%* Morphophonology\\
+%** vowel harmony\\
+%** voicing assimilation\\
+%** desonorisation\\
+%* N-N compounds (чакыруу кагазы) ?
+%
+%
+%		}
+
+		\headerbox{Example output}{name=exout,span=2,column=1,row=0}{
+
+		\htwo{Gloss}
+
+		\pex[aboveexskip=0pt,belowexskip=3pt]\label{ex:sent}
+			\begingl
+				\gla[everygla={\qipa }]  Үстөл жана отургучтардын астын карап жатат, бирок Азамат аякта эмес. //
+				\glb table and chairs' underside looking is, but Azamat there not. //
+				\glft \vspace{-0.5em}\eng{[She's] looking under the tables and chairs, but Azamat isn't there.} //
+			\endgl
+		\xe
+		
+		\htwo{Output}
+
+\noindent\texttt{\^{}\hilitetwo{Үстөл}/\hiliteone{Үстөл<n><nom>}\$\\
+\^{}\hilitetwo{жана}/\hilitegrey{жан<v><iv><prc\_impf>}/\hilitegrey{жана<adv>}/\hiliteone{жана<cnjcoo>}\$\\
+\^{}\hilitetwo{отургучтардын}/\hiliteone{отургуч<n><pl><gen>}\$\\
+\^{}\hilitetwo{астын}/\hiliteone{аст<n><px3pl><acc>}/\hilitegrey{аст<n><px3sg><acc>}\$\\
+\^{}\hilitetwo{карап}/\hilitegrey{кара<v><iv><gna\_perf>}/\hilitegrey{кара<v><iv><prc\_real>}/\hilitegrey{кара<v><tv><gna\_perf>}/\hiliteone{кара<v><tv><prc\_real>}\$\\ %¹\hfill {\textrm {\footnotesize (¹ transitive forms removed)}} \\%\footnote{tv readings removed}\\
+\^{}\hilitetwo{жатат}/\hilitegrey{жат<vaux><aor><p3><pl>}/\hiliteone{жат<vaux><aor><p3><sg>}/\hilitegrey{жат<vaux><prc\_irre>}\$\hfill{}\textrm{{\footnotesize (intransitive verb forms removed)}}\\%²\\%\footnote{iv readings removed}\\
+\^{}\hilitetwo{,}/\hilitegrey{,<cm>}\$\\ %\hfill {\textrm {\footnotesize (² intransitive verb forms removed)}}\\
+\^{}\hilitetwo{бирок}/бирок<adv>/бирок<cnjadv>\$\\
+\^{}\hilitetwo{Азамат}/\hiliteone{Азамат<np><ant><m><nom>}\$\\
+\^{}\hilitetwo{аякта}/\hiliteone{ал<det><dem>+жак<n><loc>}/\hilitegrey{аяк<n><loc>}/\hilitegrey{аякта<v><tv><imp><p2><sg>}\$\\
+\^{}\hilitetwo{эмес}/\hilitegrey{э<cop><neg><p3><pl>}/\hiliteone{э<cop><neg><p3><sg>}\$\\
+\^{}\hilitetwo{.}/\hilitegrey{.<sent>}\$}
+
+		}
+
+
+		\headerbox{Evaluation}{name=coverage,span=1,column=1,below=exout}{
+			\htwo{Test corpora}
+			\begin{itemize}
+				\item \textbf{Kyrgyz Wikipedia} dump dated 2011-09-23 
 				\item All 2010 articles from \textbf{Radio Free Europe / Radio Liberty} (RFE/RL)'s Kyrgyz service (\texttt{azattyk.org})
-				\item both split into 10 equal parts; coverage calculated over each separately; standard deviation of the mean was calculated
-			\end{itemise}
+				\item both split into 10 equal parts; coverage calculated over each separately; standard deviation of mean calculated
+			\end{itemize}
 			%both split into 10 equal parts; coverage calculated over each separately; standard deviation of the mean was calculated\\
-			{\htwo Two measures}
-			\begin{itemise}
-				\item \textbf{Naïve coverage} - the percentage of surface forms in a given corpus that receive at least one analysis\\(forms counted by this measure may have other analyses which are not delivered by the transducer)
-				\item \textbf{Mean ambiguity} - the average number of analyses for each surface form encountered when analysing this corpus
-			\end{itemise}
-			{\htwo Evaluation Results (as of revision \texttt{r36739})}\\
-\centering
-\vspace{1pt}\hspace{2em}
-			%\begin{centering}
-			{\large
+			\htwo{Coverage measures}
+			\begin{itemize}
+				\item \textbf{Naïve coverage} - percentage of surface forms in a given corpus receiving ≥ 1 analysis\\(surface forms may have missing analyses)
+				\item \textbf{Mean ambiguity} - average number of analyses for each surface form found in analyed corpus
+			\end{itemize}
+			\htwo{Coverage results (as of \texttt{r36739})}\\
+%\centering
+%\vspace{1pt}\hspace{2em}
+			%%\begin{centering}
+			%{\large
 				\begin{tabular}{lrrrr}
 					\toprule
-					Corpus           & Tokens    & Known       & Naïve coverage (\%) & Mean ambiguity\\
-					\midrule 
-					Kyrgyz Wikipedia & 329,524   & 270,668     & 82.1 $\pm$ 3.2      & 2.35\\
-					RFE/RL Kyrgyzstan & 4,112,558 & 3,614,193   & 87.9 $\pm$ 1.2      & 2.43\\
+					corpus           & tokens    & known       & cov. & amb.\\
+					\midrule  
+					Wikipedia & 329,524   & 270,668     & \hiliteone{\textbf{82.1\%}}       & \hiliteone{\textbf{2.35}}\\
+ 					RFE/RL & 4,112,558 & 3,614,193   & \hiliteone{\textbf{87.9\%}}      & \hiliteone{\textbf{2.43}}\\
 					\bottomrule
 				\end{tabular}
-			}
-			%\end{centering}
-		}
+			%}
+			%%\end{centering}
+%		}
 
-		\headerbox{Недостатки}{name=nedostatki,column=3,row=0}{
-Things we don't do [well [yet]]\\
-* case changes for words with one root (Финландия / финландиялык)\\
-* abbreviations (АКШнын) and numbers ({\qipa 100дүн})\\
-* compound verbs\\
-* gerunds with mono-syllabic V-final verbs (*жөө / жеш < же-)
-		}
+%		\headerbox{Precision \& recall}{name=precrecall,column=1,below=coverage}{
 
-		\headerbox{References}{name=references,column=3,below=nedostatki}{
-%			\begin{thebibliography}{1}\itemsep=-0.01em
-%			\setlength{\baselineskip}{0.4em}
+%			\htwo{Two measures}
+			\htwo{Precision \& recall}
+			\begin{itemize}
+				\item \textbf{Precision} (of a form's analyses \% correct): \hfill \hiliteone{\textbf{97.32\%}}
+				\item \textbf{Recall} (percentage of analyses provided by the transducer that are correct for a form, by comparing against a gold standard): \hfill \hiliteone{\textbf{94.56\%}}
+			\end{itemize}
+
+%			\htwo{Results}
 %
+%			\vspace{-0.5em}
+%			\begin{center}
+%				\begin{tabular}{ll}
+%					\toprule
+%					Precision & Recall \\
+%					\midrule 
+%					97.32\% & 94.56\%  \\
+%					\bottomrule
+%				\end{tabular}
+%			\end{center}
+		}
+
+
+		\headerbox{Future Work}{name=nedostatki,column=2,below=exout}{
+			\begin{itemize}
+				\item case changes for words with one root\\
+					Финландия \eng{Finland}, финландиялык \eng{Finnish}
+				\item vowel harmony with abbreviations\\
+					АКШ [акышы] \eng{USA}, АКШнын / *АКШтын
+				\item vowel harmony with numbers\\
+					{\qipa 100 [жүз], 100дүн}
+				\item compound verbs\\
+				\item gerunds with mono-syllabic V-final verbs\\
+					(*жөө / жеш < же-)
+			\end{itemize}
+		}
+
+		\headerbox{References}{name=references,column=2,below=nedostatki}{
+			%\begin{thebibliography}{1}\itemsep=-0.01em
+			\setlength{\baselineskip}{0.4em}
 		}
 
 
