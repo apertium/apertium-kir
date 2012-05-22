@@ -2,6 +2,7 @@
 
 \usepackage{setspace}
 \usepackage{graphicx}
+\usepackage{multicol}
 
 \usepackage{tikz}
 \usepackage{pgfbaselayers}
@@ -11,11 +12,16 @@
 
 %%% Color Definitions %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\definecolor{bordercol}{RGB}{40,40,40}
-\definecolor{headercol1}{RGB}{186,215,230}
-\definecolor{headercol2}{RGB}{80,80,80}
-\definecolor{headerfontcol}{RGB}{0,0,0}
+%\definecolor{bordercol}{RGB}{40,40,40}
+\definecolor{bordercol}{RGB}{100,0,0}
+%\definecolor{headercol1}{RGB}{186,215,230}
+%\definecolor{headercol2}{RGB}{80,80,80}
+\definecolor{headercol1}{RGB}{153,0,0}
+\definecolor{headercol2}{RGB}{153,0,0}
 \definecolor{boxcolor}{RGB}{186,215,230}
+\definecolor{headerfontcol}{RGB}{255,255,255}
+%\definecolor{boxcolor}{RGB}{186,215,230}
+\definecolor{boxcolor}{RGB}{226,200,200}
 %\newcommand{\hilitetwo}[1]{{\addfontfeature{Color=FF000099}#1}}
 \newcommand{\hilitetwo}[1]{{\addfontfeature{Color=99333399}#1}}
 \newcommand{\hiliteone}[1]{{\addfontfeature{Color=33993399}#1}}
@@ -243,14 +249,14 @@
 			%\end{minipage}}
 		}
 
-		\headerbox{Overview}{name=overview,column=0,row=1}{
-			\begin{spacing}{0.8}
-This paper describes the development of a free/open-source finite-state morphological transducer for Kyrgyz. The transducer 
-has been developed for morphological generation for use within a prototype Turkish$\rightarrow$Kyrgyz machine translation system, but has also been extensively tested for analysis. The finite-state toolkit used for the work was the Helsinki Finite-State 
-Toolkit (HFST). The paper describes some issues in Kyrgyz morphology, the development of the tool, some linguistic issues encountered and how they were dealt with, and 
-which issues are left to resolve. An evaluation is presented which shows that the transducer has medium-level coverage, between 82\% and 87\% on two freely available corpora of Kyrgyz, and high precision and recall over a manually verified test set.
-			\end{spacing}\vspace{-0.25ex}
-		}
+%		\headerbox{Overview}{name=overview,column=0,row=1}{
+%			\begin{spacing}{0.8}
+%This paper describes the development of a free/open-source finite-state morphological transducer for Kyrgyz. The transducer 
+%has been developed for morphological generation for use within a prototype Turkish$\rightarrow$Kyrgyz machine translation system, but has also been extensively tested for analysis. The finite-state toolkit used for the work was the Helsinki Finite-State 
+%Toolkit (HFST). The paper describes some issues in Kyrgyz morphology, the development of the tool, some linguistic issues encountered and how they were dealt with, and 
+%which issues are left to resolve. An evaluation is presented which shows that the transducer has medium-level coverage, between 82\% and 87\% on two freely available corpora of Kyrgyz, and high precision and recall over a manually verified test set.
+%			\end{spacing}\vspace{-0.25ex}
+%		}
 		\headerbox{Kyrgyz}{name=kyrgyz,column=0,row=0}{
 			\begin{itemize}
 				\item Turkic language
@@ -318,13 +324,54 @@ which issues are left to resolve. An evaluation is presented which shows that th
 				{\qipa кел{\tt {\small <v><iv><prt\_impf>}}+жат\texttt{{\small <vaux><gna\_cnd><p2><sg>}}}
 			\end{itemize}
 
-			\htwo{Irregular negatives of finite verb forms}
+			%\htwo{Irregular negatives of finite verb forms}
 
-			%\htwo{Irregular [noun + possessive + case] forms}
+			\htwo{Irregular [noun + possessive + case] forms}
+
+			\begin{itemize}
+				\item Some combinations of possessive and case morphemes are distinct
+				\item Trade-off:
+				\begin{itemize}
+					\item morphophon.\ complicateder, morphotactics simpler
+					\item underlying form used: \texttt{\{S\}\{I\}\{n\}}
+					\item phonological rules delete \texttt{\{n\}}, \texttt{\{S\}} by context
+				\end{itemize}
+			\end{itemize}
+			\begin{center}
+			\vspace{-0.5em}
+{\small
+{\qipa		
+	\begin{tabular}{llllll}
+		\toprule
+		case & form & 1SG & 2SG & 3SP  \\
+		\midrule
+		nom & — & -(I)м & -(I)ң & -(S)I  \\
+		acc & -NI & -(I)мдI & -(I)ңдI & -\textbf{(S)Iн}  \\
+		gen & -NIн & -(I)мдIн & -(I)ңдIн & -(S)IнIн  \\
+		loc & -DA & -(I)мдA & -(I)ңдA & -\textbf{(S)IндA}  \\
+		abl & -DAн & -(I)мдAн & -(I)ндAн & -\textbf{(S)IнAн}  \\
+		~   &     & -\textbf{(I)мAн} & -\textbf{(I)ңAн} \\
+		dat & -GA & -\textbf{(I)мA} & -\textbf{(I)ңA} & -\textbf{(S)IнA} \\
+		\bottomrule
+	\end{tabular}
+}}
+			\end{center}
+			\htwo{Noun-noun compounds}
+
+			\begin{itemize}
+				\item one type of N-N compunds: N2 has \texttt{<px3>} and related morphology
+			\end{itemize}
+
+			\hrule
+			\texttt{LEXICON N-INFL-3PX-COMPOUND\\
+			\%<n\%>:\%>\%\{S\%\}\%\{I\%\}\%\{n\%\} GEN-POS ;}
 			
-			\htwo{N-N compounds}
-
-			чакыруу кагазы
+			\texttt{LEXICON Nouns\\
+			аба\% ырайы:аба\% ырай N-INFL-3PX-COMPOUND ;}
+			чакыруу\% кагазы:чакыруу кагаз N-INFL-3PX-COMPOUND ;}
+			\hrule
+				
+			%чакыруу кагазы
 		}
 
 					\renewcommand{\arraystretch}{0.65}
@@ -369,10 +416,52 @@ which issues are left to resolve. An evaluation is presented which shows that th
 \^{}\hilitetwo{эмес}/\hilitegrey{э<cop><neg><p3><pl>}/\hiliteone{э<cop><neg><p3><sg>}\$\\
 \^{}\hilitetwo{.}/\hilitegrey{.<sent>}\$}
 
+		\htwo{Tagset}
+
+\vspace{-2em}
+\setlength{\columnsep}{1.75em}
+\begin{multicols}{3}
+\begin{tabbing}
+  \texttt{{\small <n>}}\hspace{3.0em} \=  Noun\\
+  \texttt{{\small <np>}} \> Proper noun\\
+  \texttt{{\small <v>}} \>  Verb\\
+  \texttt{{\small <det>}} \>  Determiner\\
+  \texttt{{\small <cnjcoo>}} \> Coord. conjunct.\\
+  \texttt{{\small <cnjadv>}} \> Adv. conjunct.\\
+  \texttt{{\small <adv>}} \> Adverb\\
+  \texttt{{\small <vaux>}} \> Auxiliary verb\\
+  \texttt{{\small <cop>}} \> Copula\\
+  \texttt{{\small <iv>}} \> Intransitive\\
+  \texttt{{\small <tv>}} \> Transitive\\
+  \texttt{{\small <p2>}} \> Second person\\
+  \texttt{{\small <p3>}} \> Third person\\
+  \texttt{{\small <ant>}} \> Anthroponym\\
+  \texttt{{\small <dem>}} \> Demonstrative\\
+  \texttt{{\small <m>}} \> Masculine\\
+  \texttt{{\small <sg>}} \> Singular\\
+  \texttt{{\small <pl>}} \> Plural\\
+  \texttt{{\small <nom>}} \> `Nominative'\\
+  \texttt{{\small <gen>}} \> Genitive\\
+  \texttt{{\small <acc>}} \> Accusative\\
+  \texttt{{\small <loc>}} \> Locative\\
+  \texttt{{\small <px3sg>}} \> 3rd person poss. (Singular)\\
+  \texttt{{\small <px3pl>}} \> 3rd person poss. (Plural)\\
+  \texttt{{\small <neg>}} \> Negative\\
+  \texttt{{\small <aor>}} \> Aorist\\
+  \texttt{{\small <imp>}} \> Imperative\\
+  \texttt{{\small <gna\_perf>}} \> Verbal adverb (Perfect)\\
+  \texttt{{\small <prc\_impf>}} \> Participle (Imperfect)\\
+  \texttt{{\small <prc\_irre>}} \> Participle (Irrealis)\\
+  \texttt{{\small <prc\_real>}} \> Participle (Realis)\\
+  \texttt{{\small <cm>}} \> Comma\\
+  
+\end{tabbing}
+\end{multicols}
+
 		}
 
 
-		\headerbox{Evaluation}{name=coverage,span=1,column=1,below=exout}{
+		\headerbox{Evaluation}{name=coverage,span=1,column=2,below=exout}{
 			\htwo{Test corpora}
 			\begin{itemize}
 				\item \textbf{Kyrgyz Wikipedia} dump dated 2011-09-23 
@@ -425,7 +514,7 @@ which issues are left to resolve. An evaluation is presented which shows that th
 %			\end{center}
 		}
 
-		\headerbox{Morphophonology}{name=twol,column=1,below=coverage}{
+		\headerbox{Morphophonology}{name=twol,column=1,below=exout}{
 %			\htwo{Vowel harmony}
 %			\begin{itemize}
 %				\item two basic vowel archiphonemes:
@@ -513,7 +602,7 @@ which issues are left to resolve. An evaluation is presented which shows that th
 
 
 
-		\headerbox{Future Work}{name=nedostatki,column=2,below=exout}{
+		\headerbox{Future Work}{name=nedostatki,column=2,below=coverage}{
 			\begin{itemize}
 				\item case changes for words with one root\\
 					Финландия \eng{Finland}, финландиялык \eng{Finnish}
@@ -524,6 +613,8 @@ which issues are left to resolve. An evaluation is presented which shows that th
 				\item compound verbs\\
 				\item gerunds with mono-syllabic V-final verbs\\
 					(*жөө / жеш < же-)
+				\item Disambiguation
+				\item Machine translation between Turkic languages
 			\end{itemize}
 		}
 
