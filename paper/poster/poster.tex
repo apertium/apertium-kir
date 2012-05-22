@@ -66,6 +66,7 @@
 %\newcommand{\htwo}[1]{{\htwofont \textbf{:::#1:::}}}%\hrule} %\hline\\}
 \newcommand{\htwo}[1]{{\htwofont \textbf{\dotfill{}#1\dotfill{}}}}
 
+\newcommand{\blank}[1]{\underline{\hspace{#1}}}
 % FIXME: Breaks baposter
 %\usepackage[novoc,fdf2alif]{arabxetex}
 %\newfontfamily\uighurfont[Script=Arabic,Scale=1.5]{Lateef}
@@ -143,11 +144,11 @@
 %	\includegraphics[width=0.99\textwidth]{flagkg2}
 %}
 	\background{{
-		\begin{tikzpicture}[remember picture,overlay]%
-			\draw (current page.north west)+(-4em,2em) node[anchor=north west] {\includegraphics[width=1.1\textwidth,height=1.1\textheight]{flagkg2}};
-		\end{tikzpicture}%
-%		\includegraphics[width=0.99\textwidth]{flagkg2}
-%			\draw (current page.north west)+(-2em,2em) node[anchor=north west] {\includegraphics[width=0.9\textwidth]{flagkg2}};
+%		\begin{tikzpicture}[remember picture,overlay]%
+%			\draw (current page.north west)+(-4em,2em) node[anchor=north west] {\includegraphics[width=1.1\textwidth,height=1.1\textheight]{flagkg2}};
+%		\end{tikzpicture}%
+%%		\includegraphics[width=0.99\textwidth]{flagkg2}
+%%			\draw (current page.north west)+(-2em,2em) node[anchor=north west] {\includegraphics[width=0.9\textwidth]{flagkg2}};
 	}}
 
 
@@ -267,23 +268,35 @@ which issues are left to resolve. An evaluation is presented which shows that th
 
 			\end{itemize}
 		}
-		\headerbox{Morphological Transducers}{name=morphtrans,below=kyrgyz}{
-			\htwo{Morphological transducers}
-			\begin{itemize}
-				\item stuff
-			\end{itemize}
+                \headerbox{Morphological transducers}{name=morphtrans,below=kyrgyz}{
+                        \htwo{Morphological transducers}
+                        \begin{itemize}
+                                \item Take a surface form, and produce all valid
+                                   lexical forms\\
+											  e.g. `алдым'
+                                \item Take a lexical form, and produce one or more
+                                   valid surface forms\\
+                                   e.g., \texttt{ал{\small <v><tv><ifi><p1><sg>}},
+                                         \texttt{алд{\small <n><px1sg><nom>}}
+                        \end{itemize}
 
-			\htwo{Available Turkic Transducers}
-			\begin{itemize}
-				\item stuff
-			\end{itemize}
+                        \htwo{Transducers for Turkic languages}
+                        \begin{itemize}
+                                \item Turkish (\hiliteone{Çöltekin, 2010}; \hilitetwo{Öflazer, 1994})
+                                \item Crimean Tatar (\hilitetwo{Altıntaş, 2001})
+                                \item Turkmen (\hilitetwo{Tantuğ et al., 2006})
+                                \item \ldots this is the first transducer for Kyrgyz
+										  \item and it's \hiliteone{GPL (=free and open!)}
+                        \end{itemize}
 
-			\htwo{Framework: HFST / Apertium}
-			\begin{itemize}
-				\item stuff
-			\end{itemize}
+                        \htwo{Framework: HFST}
+                        \begin{itemize}
+                                \item Reimplementation of Xerox FST formalisms ({\tt lexc} and {\tt twol})
+                                \item Also provides a wrapper around popular FST free/open-source
+                                  toolkits: SFST, OpenFST, and Foma
+                        \end{itemize}
 
-		}
+                }
 
 %		\headerbox{Available Turkic Transducers}{name=turkictrans,below=morphtrans}{
 %* Other Turkic morphological transducers\\
@@ -315,58 +328,6 @@ which issues are left to resolve. An evaluation is presented which shows that th
 		}
 
 					\renewcommand{\arraystretch}{0.65}
-		\headerbox{Morphophonology}{name=twol,below=lexc}{
-%			\htwo{Vowel harmony}
-%			\begin{itemize}
-%				\item two basic vowel archiphonemes:
-%				\begin{itemize}
-%					\item high vowel, \texttt{\{I\}}; [±back] and [±round] from prev.\ V\\
-%		\begin{tabular}{ccccc}
-%			\toprule
-%			after & result & & after & result \\
-%			\midrule
-%			{\qipa и} & {\qipa и} & & {\qipa ы} & {\qipa ы} \\
-%			{\qipa ү} & {\qipa ү} & & {\qipa у} & {\qipa у} \\
-%			{\qipa е} & {\qipa и} & & {\qipa а} & {\qipa ы} \\
-%			{\qipa ө} & {\qipa ү} & & {\qipa о} & {\qipa у} \\
-%			\bottomrule
-%		\end{tabular}
-%					\item low vowel, \texttt{\{A\}}; [±back] and [±round] from prev.\ V\\
-%					with one important exception: after \hilitetwo{у}\\
-%		\begin{tabular}{ccccc}
-%			\toprule
-%			after & result & & after & result \\
-%			\midrule
-%			{\qipa и} & {\qipa е} & & {\qipa ы} & {\qipa а} \\
-%			{\qipa ү} & {\qipa ө} & & {\qipa \hilitetwo{у}} & {\qipa \hilitetwo{а}} \\
-%			{\qipa е} & {\qipa е} & & {\qipa а} & {\qipa а} \\
-%			{\qipa ө} & {\qipa ө} & & {\qipa о} & {\qipa о} \\
-%			\bottomrule
-%		\end{tabular}
-%
-%
-%				\end{itemize}
-%				\item take backness and roundness of previous vowel\\
-%				exception: 
-%
-%			\end{itemize}
-
-			\htwo{Desonorisation}
-			\texttt{"L Desonorisation"\\
-			\%{L\%}:д <=> VoicedLowSonCns \%>: \blank{2em} ;\\
-			
-			"N Desonorisation"\\
-			\%{N\%}:д <=> VoicedCns \%>: \blank{2em} ;}
-
-			\htwo{Lenition}
-
-			%\htwo{Nouns ending in /рн/}
-
-			\htwo{й+vowel letters}
-
-
-		}
-
 %		\headerbox{The Transducer}{name=transducer,column=0,span=2,row=1}{
 %Tagset\\
 %* something witty\\
@@ -402,7 +363,7 @@ which issues are left to resolve. An evaluation is presented which shows that th
 \^{}\hilitetwo{карап}/\hilitegrey{кара<v><iv><gna\_perf>}/\hilitegrey{кара<v><iv><prc\_real>}/\hilitegrey{кара<v><tv><gna\_perf>}/\hiliteone{кара<v><tv><prc\_real>}\$\\ %¹\hfill {\textrm {\footnotesize (¹ transitive forms removed)}} \\%\footnote{tv readings removed}\\
 \^{}\hilitetwo{жатат}/\hilitegrey{жат<vaux><aor><p3><pl>}/\hiliteone{жат<vaux><aor><p3><sg>}/\hilitegrey{жат<vaux><prc\_irre>}\$\hfill{}\textrm{{\footnotesize (intransitive verb forms removed)}}\\%²\\%\footnote{iv readings removed}\\
 \^{}\hilitetwo{,}/\hilitegrey{,<cm>}\$\\ %\hfill {\textrm {\footnotesize (² intransitive verb forms removed)}}\\
-\^{}\hilitetwo{бирок}/бирок<adv>/бирок<cnjadv>\$\\
+\^{}\hilitetwo{бирок}/\hiliteone{бирок<cnjadv>}\$\\
 \^{}\hilitetwo{Азамат}/\hiliteone{Азамат<np><ant><m><nom>}\$\\
 \^{}\hilitetwo{аякта}/\hiliteone{ал<det><dem>+жак<n><loc>}/\hilitegrey{аяк<n><loc>}/\hilitegrey{аякта<v><tv><imp><p2><sg>}\$\\
 \^{}\hilitetwo{эмес}/\hilitegrey{э<cop><neg><p3><pl>}/\hiliteone{э<cop><neg><p3><sg>}\$\\
@@ -463,6 +424,93 @@ which issues are left to resolve. An evaluation is presented which shows that th
 %				\end{tabular}
 %			\end{center}
 		}
+
+		\headerbox{Morphophonology}{name=twol,column=1,below=coverage}{
+%			\htwo{Vowel harmony}
+%			\begin{itemize}
+%				\item two basic vowel archiphonemes:
+%				\begin{itemize}
+%					\item high vowel, \texttt{\{I\}}; [±back] and [±round] from prev.\ V\\
+%		\begin{tabular}{ccccc}
+%			\toprule
+%			after & result & & after & result \\
+%			\midrule
+%			{\qipa и} & {\qipa и} & & {\qipa ы} & {\qipa ы} \\
+%			{\qipa ү} & {\qipa ү} & & {\qipa у} & {\qipa у} \\
+%			{\qipa е} & {\qipa и} & & {\qipa а} & {\qipa ы} \\
+%			{\qipa ө} & {\qipa ү} & & {\qipa о} & {\qipa у} \\
+%			\bottomrule
+%		\end{tabular}
+%					\item low vowel, \texttt{\{A\}}; [±back] and [±round] from prev.\ V\\
+%					with one important exception: after \hilitetwo{у}\\
+%		\begin{tabular}{ccccc}
+%			\toprule
+%			after & result & & after & result \\
+%			\midrule
+%			{\qipa и} & {\qipa е} & & {\qipa ы} & {\qipa а} \\
+%			{\qipa ү} & {\qipa ө} & & {\qipa \hilitetwo{у}} & {\qipa \hilitetwo{а}} \\
+%			{\qipa е} & {\qipa е} & & {\qipa а} & {\qipa а} \\
+%			{\qipa ө} & {\qipa ө} & & {\qipa о} & {\qipa о} \\
+%			\bottomrule
+%		\end{tabular}
+%
+%
+%				\end{itemize}
+%				\item take backness and roundness of previous vowel\\
+%				exception: 
+%
+%			\end{itemize}
+
+			\htwo{Desonorisation}
+\begin{itemize}
+	\item {\texttt \{N\}} desonorises to д after a consonant\\
+		алма-\hiliteone{\{N\}}\{I\} → алма\hiliteone{н}ы \eng{apple--\gmk{ACC}} \\
+		сыр-\hiliteone{\{N\}}\{I\} → сыр\hiliteone{д}ы \eng{secret--\gmk{ACC}} \\
+	\item {\texttt \{L\}} desonorises to д after cons.\ of equal or lower sonority\\
+		сыр-\hiliteone{\{L\}}\{A\}р → сыр\hiliteone{л}ар \eng{secret--\gmk{PL}} \\
+		кыз-\hiliteone{\{L\}}\{A\}р → кыз\hiliteone{д}ар \eng{girl--\gmk{PL}} \\
+
+\end{itemize}
+
+\hrule
+			\texttt{"L Desonorisation"\\
+			\%\{L\%\}:д <=> :VoicedLowSonCns \%>:\ \blank{1em} ;}\\
+			
+			\texttt{"N Desonorisation"\\
+			\%\{N\%\}:д <=> :VoicedCns \%>:\ \blank{1em} ;}
+\hrule
+
+			\htwo{Lenition}
+\begin{itemize}
+	\item Turn {\texttt \{y\}} into a harmonised high vowel when a vowel doesn't follow the following consonant\\
+	мур\{у\}н → мурун \eng{nose}\\
+	мур\{у\}н+\{I\}м → мурдум \eng{my nose}
+\end{itemize}
+\hrule
+{\small \texttt{\%\{y\%\}:Vy <=> [ :LastVowel :Cns* :Cns ]/[:0] \blank{1em}\\
+	\vspace{1pt}\hspace{1pt}\hfill{} [ :Cns [ .\#.\ | :Cns ] ]/[ :0 | \%>:]\ ;\\
+  where  Vy  in  (  и  ү  и  и  ү  ы  ы  у  у  ы  у  у )\\
+  LastVowel  in  (  и  ү  е  э  ө  я  а  ё  о  ы  ю  у )\\
+           matched ;}}
+\hrule
+
+			%\htwo{Nouns ending in /рн/}
+
+			\htwo{й+vowel letters}
+			\begin{itemize}
+				\item{} [ а о у ] become [ я ё ю ] after й and й deletes
+				\item й incorporated into the context of many rules
+				\item + separate rules to change the characters
+				\item + a rule to delete the original й
+			\end{itemize}
+
+				\hrule
+					\texttt{"Deletion of й before yoticised vowels"\\
+					й:0 <=> \blank{1em} [ :YotVow ]/[ :0 | \%>:\ ]\ ;}
+				\hrule
+
+		}
+
 
 
 		\headerbox{Future Work}{name=nedostatki,column=2,below=exout}{
