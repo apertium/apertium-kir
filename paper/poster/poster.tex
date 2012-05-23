@@ -284,6 +284,9 @@
 %			\end{spacing}\vspace{-0.25ex}
 %		}
 		\headerbox{Kyrgyz}{name=kyrgyz,column=0,row=0}{
+			\vspace{0.5ex}
+			\includegraphics[width=\textwidth]{map2}
+			\vspace{-1.1em}  % -1.25em
 			\begin{itemize}
 				\item Turkic language
 				\begin{itemize}
@@ -300,8 +303,6 @@
 				\item Our transducer based on written Kyrgyz of the former Soviet Union (literary and colloquial standards)
 
 			\end{itemize}
-			\includegraphics[width=\textwidth]{map}
-			\vspace{-1.25em}
 		}
                 \headerbox{Morphological transducers}{name=morphtrans,below=kyrgyz}{
                         \htwo{Morphological transducers}
@@ -327,7 +328,7 @@
                         \htwo{Framework: HFST}
                         \begin{itemize}
                                 \item Reimplementation of Xerox FST formalisms\\({\tt lexc} and {\tt twol})
-                                \item Also provides a wrapper around popular FST free/open-source
+                                \item Also provides a wrapper around popular free/open-source FST
                                   toolkits: SFST, OpenFST, and Foma
                         \end{itemize}
 
@@ -393,7 +394,7 @@
 			\begin{itemize}
 				\item one type of N-N compunds: N2 has \texttt{<px3>} and related morphology
 			\end{itemize}
-
+			\vspace{0.6ex}
 			\codeex{
 			{\small
 			\texttt{LEXICON N-INFL-3PX-COMPOUND\\
@@ -404,6 +405,7 @@
 			\vspace{-0.5ex}чакыруу\%\ кагазы:чакыруу\%\ кагаз\ N-INFL-3PX-\\\vspace{-0.5ex}\hspace{0.1pt}\hfill{}COMPOUND ;\ !\ "invitation"}}
 			}
 				
+			\vspace{0.5ex}
 			%чакыруу кагазы
 		}
 
@@ -553,6 +555,8 @@
 %			\htwo{Two measures}
 			\htwo{Precision \& recall}
 			\begin{itemize}
+				\item selected 1000 surface forms at random from RFE/RL corpus,
+				proof read analyses
 				\item \textbf{Precision} (of a form's analyses \% correct): \hfill \hiliteone{\textbf{97.32\%}}
 				\item \textbf{Recall} (percentage of analyses provided by the transducer that are correct for a form, by comparing against a gold standard): \hfill \hiliteone{\textbf{94.56\%}}
 			\end{itemize}
@@ -628,7 +632,7 @@
 
 			\htwo{Lenition}
 \begin{itemize}
-	\item Turn {\texttt \{y\}} into a harmonised high vowel when a vowel doesn't follow the following consonant\\
+	\item Turn {\texttt \{y\}} into a harmonised high vowel when a vowel doesn't follow the following consonant:\\
 	мур\{у\}н → мурун \eng{nose}\\
 	мур\{у\}н+\{I\}м → мурдум \eng{my nose}\\
 \end{itemize}
@@ -671,6 +675,7 @@
 					{\qipa иште- \eng{work} → иштеш / иштөө \eng{working}}\\
 					{\qipa же- \eng{eat} → жеш / *жөө \eng{eating}}
 				\item Disambiguation
+				\item More stems!
 				\item Machine translation between Turkic languages
 			\end{itemize}
 		}
@@ -678,15 +683,15 @@
 		\headerbox{Further information}{name=getting,column=1,below=twol}{
 			\begin{itemize}
 				\item The transducer is available from apertium's svn repo\.:\\
-				more info at: \url{http://wiki.apertium.org/}
+				info at {\small \url{http://wiki.apertium.org/wiki/apertium-kir}}
 
 				\item Turkic RBMT mailing list (>25 subscribers):\\
 				\texttt{apertium-turkic@lists.sourceforge.net}\\
-				\vspace{-0.5ex}Feel free to post in any language!
+				\vspace{-0.5ex}Feel free to post in any language!\\\vspace{-2.5ex}
 				\item See our paper in the LREC 2012 proceedings
 				\item And feel free to contact the authors any time!
 			\end{itemize}
-
+			\vspace{2.8ex}
 		}
 
 
