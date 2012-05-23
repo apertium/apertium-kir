@@ -285,7 +285,7 @@
 				\end{itemize}
 				\item Spoken in
 				\begin{itemize}
-					\item Kyrgyzstan as official language\\
+					\item Kyrgyzstan, as co-official language\\
 					\textit{high levels of bilingualism with Russian}
 					\item China, Tajikistan, Uzbekistan
 				\end{itemize}
@@ -490,6 +490,28 @@
 
 
 		\headerbox{Evaluation}{name=coverage,span=1,column=2,below=exout}{
+			\htwo{8,466 total stems}
+
+			\vspace{-1.5em}
+			\setlength{\columnsep}{-1em}
+			\setlength{\topsep}{-\parskip}
+			\begin{multicols}{2}
+			\begin{tabbing}
+				Noun \hspace{3.0em} \= 4,972\\[-0.5ex]
+				Verb \> 1,231 \\[-0.5ex]
+				Adjective \> 944\\[-0.5ex]
+				Proper noun \> 796\\[-0.5ex]
+				Adverb \> 295 \\[-0.5ex]
+				\columnbreak
+				Numeral \> 63 \\[-0.5ex]
+				Conjunction \> 58 \\[-0.5ex]
+				Postposition \> 51 \\[-0.5ex]
+				Pronoun \> 29\\[-0.5ex]
+				Determiner \> 27\\[-0.5ex]
+			\end{tabbing}
+			\end{multicols}
+			\vspace{-1ex}
+
 			\htwo{Test corpora}
 			\begin{itemize}
 				\item \textbf{Kyrgyz Wikipedia} dump dated 2011-09-23 
@@ -582,13 +604,13 @@
 \begin{itemize}
 	\item {\texttt \{N\}} desonorises to д after a consonant\\
 		алма-\hiliteone{\{N\}}\{I\} → алма\hiliteone{н}ы \eng{apple--\gmk{ACC}} \\
-		сыр-\hiliteone{\{N\}}\{I\} → сыр\hiliteone{д}ы \eng{secret--\gmk{ACC}} \\
-	\item {\texttt \{L\}} desonorises to д after cons.\ of equal or lower sonority\\
+		сыр-\hiliteone{\{N\}}\{I\} → сыр\hiliteone{д}ы \eng{secret--\gmk{ACC}}
+	\item {\texttt \{L\}} desonorises to д after cons.\ of sonority ≤ /l/ \\
 		сыр-\hiliteone{\{L\}}\{A\}р → сыр\hiliteone{л}ар \eng{secret--\gmk{PL}} \\
 		кыз-\hiliteone{\{L\}}\{A\}р → кыз\hiliteone{д}ар \eng{girl--\gmk{PL}} \\
-
 \end{itemize}
 
+	\vspace{-0.5ex}
 \codeex{
 			\texttt{"L Desonorisation"\\
 			\%\{L\%\}:д <=> :VoicedLowSonCns \%>:\ \blank{1em} ;}\\
@@ -601,8 +623,9 @@
 \begin{itemize}
 	\item Turn {\texttt \{y\}} into a harmonised high vowel when a vowel doesn't follow the following consonant\\
 	мур\{у\}н → мурун \eng{nose}\\
-	мур\{у\}н+\{I\}м → мурдум \eng{my nose}
+	мур\{у\}н+\{I\}м → мурдум \eng{my nose}\\
 \end{itemize}
+	\vspace{-0.5ex}
 \codeex{
 {\small \texttt{\%\{y\%\}:Vy <=> [ :LastVowel :Cns* :Cns ]/[:0] \blank{1em}\\
 	\vspace{-0.5ex}\hspace{1pt}\hfill{} [ :Cns [ .\#.\ | :Cns ] ]/[ :0 | \%>:]\ ;\\
@@ -618,36 +641,46 @@
 				\item{} [ а о у ] become [ я ё ю ] after й and й deletes
 				\item й incorporated into the context of many rules
 				\item + separate rules to change the characters
-				\item + a rule to delete the original й
+				\item + a rule to delete the original й\\
 			\end{itemize}
+	\vspace{-1ex}
 
 				\codeex{
 					\texttt{"Deletion of й before yoticised vowels"\\
 					й:0 <=> \blank{1em} [ :YotVow ]/[ :0 | \%>:\ ]\ ;}
 				}
-
-		}
-
-		\headerbox{Getting the transducer}{name=getting,column=1,below=twol}{
-
-
 		}
 
 		\headerbox{Future Work}{name=nedostatki,column=2,below=coverage}{
 			\begin{itemize}
 				\item case changes for words with one root\\
-					Финландия \eng{Finland}, финландиялык \eng{Finnish}
-				\item vowel harmony with abbreviations\\
-					АКШ [акышы] \eng{USA}, АКШнын / *АКШтын
+					\hiliteone{Ф}инландия \eng{Finland}, \hiliteone{ф}инландиялык \eng{Finnish}
+				\item phonology (vowel harmony, desonorisation) with abbreviations\\
+					АКШ [акышы] \eng{USA}, АКШ\hiliteone{н}ын / *АКШ\hiliteone{т}ын
 				\item vowel harmony with numbers\\
-					{\qipa 100 [жүз], 100дүн}
-				\item compound verbs\\
+					{\qipa 100 [жүз], 100дүн [жүздүн] / *100нын}
+				\item compound verbs (esp.\ ones with changeable parts)
 				\item gerunds with mono-syllabic V-final verbs\\
-					(*жөө / жеш < же-)
+					{\qipa иште- \eng{work} → иштеш / иштөө \eng{working}}\\
+					{\qipa же- \eng{eat} → жеш / *жөө \eng{eating}}
 				\item Disambiguation
 				\item Machine translation between Turkic languages
 			\end{itemize}
 		}
+
+		\headerbox{Further information}{name=getting,column=1,below=twol}{
+			\begin{itemize}
+				\item The transducer is available from apertium's svn repo\.:\\
+				more info at: \url{http://wiki.apertium.org/}
+
+				\item Turkic RBMT mailing list (we speak your language!):\\
+				{\small \texttt{apertium-turkic@lists.sourceforge.net}} (>25 subscribers)
+				\item See our paper in the LREC 2012 proceedings
+				\item And feel free to contact the authors any time!
+			\end{itemize}
+
+		}
+
 
 %		\headerbox{References}{name=references,column=2,below=nedostatki}{
 %			%\begin{thebibliography}{1}\itemsep=-0.01em
