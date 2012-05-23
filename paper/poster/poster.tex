@@ -13,7 +13,8 @@
 %%% Color Definitions %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %\definecolor{bordercol}{RGB}{40,40,40}
-\definecolor{bordercol}{RGB}{100,0,0}
+%\definecolor{bordercol}{RGB}{100,0,0}
+\definecolor{bordercol}{RGB}{0,0,0}
 %\definecolor{headercol1}{RGB}{186,215,230}
 %\definecolor{headercol2}{RGB}{80,80,80}
 \definecolor{headercol1}{RGB}{153,0,0}
@@ -71,6 +72,24 @@
 %\newcommand{\htwo}[1]{::: {\htwofont #1} :::}%\hrule} %\hline\\}
 %\newcommand{\htwo}[1]{{\htwofont \textbf{:::#1:::}}}%\hrule} %\hline\\}
 \newcommand{\htwo}[1]{{\htwofont \textbf{\dotfill{}#1\dotfill{}}}}
+
+%\definecolor{MyGray}{rgb}{0.96,0.97,0.98}
+%\newenvironment{codebox}{%
+%   \begin{lrbox}{\@tempboxa}\begin{minipage}{\columnwidth}}{\end{minipage}\end{lrbox}%
+%   \colorbox{MyGray}{\usebox{\@tempboxa}}
+%}
+%\newcommand{\codeex}[1]{\begin{codebox}#1\end{codebox}}
+
+%\definecolor{grey}{rgb}{0.96,0.97,0.98}
+\definecolor{grey}{rgb}{0.91,0.91,0.91}
+\newcommand{\codeex}[1]{
+   \fbox{\colorbox{grey}{
+         \begin{minipage}[t]{0.91\textwidth}
+            #1
+         \end{minipage}
+      }
+   }
+}
 
 \newcommand{\blank}[1]{\underline{\hspace{#1}}}
 % FIXME: Breaks baposter
@@ -198,7 +217,7 @@
 					{\footnotesize Indiana University\\\texttt{jonwashi@indiana.edu}}
 				\end{spacing}
 			\end{minipage}
-			\begin{minipage}[t]{9.25em}
+			\begin{minipage}[t]{9.5em}
 				\begin{spacing}{0.4}
 					{Mirlan Ipasov}\\
 					{\footnotesize International Atatürk Alatoo University\\\texttt{mipasov@gmail.com}}
@@ -270,9 +289,12 @@
 					\textit{high levels of bilingualism with Russian}
 					\item China, Tajikistan, Uzbekistan
 				\end{itemize}
-				\item Over 3 million native speakers \citep{lewis2009}
+				\item Over 3 million native speakers\\(estimate based on data from Ethnologue) %\citep{lewis2009}
+				\item Our transducer based on written Kyrgyz of the former Soviet Union (literary and colloquial standards)
 
 			\end{itemize}
+			\includegraphics[width=\textwidth]{map}
+			\vspace{-1.25em}
 		}
                 \headerbox{Morphological transducers}{name=morphtrans,below=kyrgyz}{
                         \htwo{Morphological transducers}
@@ -292,12 +314,12 @@
                                 \item Crimean Tatar (\hilitetwo{Altıntaş, 2001})
                                 \item Turkmen (\hilitetwo{Tantuğ et al., 2006})
                                 \item \ldots this is the first transducer for Kyrgyz
-										  \item and it's \hiliteone{GPL (=free and open!)}
+										  \item and it's \hiliteone{GPL (=free and open)}!
                         \end{itemize}
 
                         \htwo{Framework: HFST}
                         \begin{itemize}
-                                \item Reimplementation of Xerox FST formalisms ({\tt lexc} and {\tt twol})
+                                \item Reimplementation of Xerox FST formalisms\\({\tt lexc} and {\tt twol})
                                 \item Also provides a wrapper around popular FST free/open-source
                                   toolkits: SFST, OpenFST, and Foma
                         \end{itemize}
@@ -319,9 +341,9 @@
 
 			\begin{itemize}
 				\item{} {\qipa өнүктүрөбүзбү ?} \eng{will we develop [it]?}\\
-				{\qipa өнүк{\tt {\small <v><tv><caus><aor><p1><pl>+}}бы{\tt {\small <qst>}}}
+				\texttt{ өнүк{\small <v><tv><caus><aor><p1><pl>+}бы{\small <qst>}}
 				\item{} {\qipa келатсаң} \eng{if you come}\\
-				{\qipa кел{\tt {\small <v><iv><prt\_impf>}}+жат\texttt{{\small <vaux><gna\_cnd><p2><sg>}}}
+				\texttt{кел{\tt {\small <v><iv><prt\_impf>}}+жат{\small <vaux><gna\_cnd><p2><sg>}}
 			\end{itemize}
 
 			%\htwo{Irregular negatives of finite verb forms}
@@ -329,14 +351,8 @@
 			\htwo{Irregular [noun + possessive + case] forms}
 
 			\begin{itemize}
-				\item Some combinations of possessive and case morphemes are distinct
-				\item Trade-off:
-				\begin{itemize}
-					\item morphophon.\ complicateder, morphotactics simpler
-					\item underlying form used: \texttt{\{S\}\{I\}\{n\}}
-					\item phonological rules delete \texttt{\{n\}}, \texttt{\{S\}} by context
-				\end{itemize}
-			\end{itemize}
+				\item Some combinations of possessive and case morphemes are distinct (i.e., not formed simply by concatenation):
+
 			\begin{center}
 			\vspace{-0.5em}
 {\small
@@ -349,27 +365,37 @@
 		acc & -NI & -(I)мдI & -(I)ңдI & -\textbf{(S)Iн}  \\
 		gen & -NIн & -(I)мдIн & -(I)ңдIн & -(S)IнIн  \\
 		loc & -DA & -(I)мдA & -(I)ңдA & -\textbf{(S)IндA}  \\
-		abl & -DAн & -(I)мдAн & -(I)ндAн & -\textbf{(S)IнAн}  \\
+		abl & -DAн & -(I)мдAн, & -(I)ндAн, & -\textbf{(S)IнAн}  \\
 		~   &     & -\textbf{(I)мAн} & -\textbf{(I)ңAн} \\
 		dat & -GA & -\textbf{(I)мA} & -\textbf{(I)ңA} & -\textbf{(S)IнA} \\
 		\bottomrule
 	\end{tabular}
 }}
 			\end{center}
+
+				\item Trade-off:
+				\begin{itemize}
+					\item morphophon.\ complicateder, morphotactics simpler
+					\item underlying form used: \texttt{\{S\}\{I\}\{n\}}
+					\item phonological rules delete \texttt{\{n\}}, \texttt{\{S\}} by context
+				\end{itemize}
+			\end{itemize}
+
 			\htwo{Noun-noun compounds}
 
 			\begin{itemize}
 				\item one type of N-N compunds: N2 has \texttt{<px3>} and related morphology
 			\end{itemize}
 
-			\hrule
+			\codeex{
+			{\small
 			\texttt{LEXICON N-INFL-3PX-COMPOUND\\
-			\%<n\%>:\%>\%\{S\%\}\%\{I\%\}\%\{n\%\} GEN-POS ;}
+			\vspace{-0.5ex}\%<n\%>:\%>\%\{S\%\}\%\{I\%\}\%\{n\%\} GEN-POS ;}\\
 			
 			\texttt{LEXICON Nouns\\
-			аба\% ырайы:аба\% ырай N-INFL-3PX-COMPOUND ;}
-			чакыруу\% кагазы:чакыруу кагаз N-INFL-3PX-COMPOUND ;}
-			\hrule
+			\vspace{-0.5ex}аба\%\ ырайы:аба\%\ ырай\ N-INFL-3PX-COMPOUND ;\\\vspace{-0.5ex}\hspace{0.1pt}\hfill{}!\ "weather"\\
+			\vspace{-0.5ex}чакыруу\%\ кагазы:чакыруу\%\ кагаз\ N-INFL-3PX-\\\vspace{-0.5ex}\hspace{0.1pt}\hfill{}COMPOUND ;\ !\ "invitation"}}
+			}
 				
 			%чакыруу кагазы
 		}
@@ -418,41 +444,43 @@
 
 		\htwo{Tagset}
 
-\vspace{-2em}
-\setlength{\columnsep}{1.75em}
+\vspace{-1.5em}
+\setlength{\columnsep}{-1em}
+\setlength{\topsep}{-\parskip}
+%\spacing{0.8}
 \begin{multicols}{3}
 \begin{tabbing}
-  \texttt{{\small <n>}}\hspace{3.0em} \=  Noun\\
-  \texttt{{\small <np>}} \> Proper noun\\
-  \texttt{{\small <v>}} \>  Verb\\
-  \texttt{{\small <det>}} \>  Determiner\\
-  \texttt{{\small <cnjcoo>}} \> Coord. conjunct.\\
-  \texttt{{\small <cnjadv>}} \> Adv. conjunct.\\
-  \texttt{{\small <adv>}} \> Adverb\\
-  \texttt{{\small <vaux>}} \> Auxiliary verb\\
-  \texttt{{\small <cop>}} \> Copula\\
-  \texttt{{\small <iv>}} \> Intransitive\\
-  \texttt{{\small <tv>}} \> Transitive\\
-  \texttt{{\small <p2>}} \> Second person\\
-  \texttt{{\small <p3>}} \> Third person\\
-  \texttt{{\small <ant>}} \> Anthroponym\\
-  \texttt{{\small <dem>}} \> Demonstrative\\
-  \texttt{{\small <m>}} \> Masculine\\
-  \texttt{{\small <sg>}} \> Singular\\
-  \texttt{{\small <pl>}} \> Plural\\
-  \texttt{{\small <nom>}} \> `Nominative'\\
-  \texttt{{\small <gen>}} \> Genitive\\
-  \texttt{{\small <acc>}} \> Accusative\\
-  \texttt{{\small <loc>}} \> Locative\\
-  \texttt{{\small <px3sg>}} \> 3rd person poss. (Singular)\\
-  \texttt{{\small <px3pl>}} \> 3rd person poss. (Plural)\\
-  \texttt{{\small <neg>}} \> Negative\\
-  \texttt{{\small <aor>}} \> Aorist\\
-  \texttt{{\small <imp>}} \> Imperative\\
-  \texttt{{\small <gna\_perf>}} \> Verbal adverb (Perfect)\\
-  \texttt{{\small <prc\_impf>}} \> Participle (Imperfect)\\
-  \texttt{{\small <prc\_irre>}} \> Participle (Irrealis)\\
-  \texttt{{\small <prc\_real>}} \> Participle (Realis)\\
+  \texttt{{\small <n>}}\hspace{3.0em} \=  Noun\\[-0.5ex]
+  \texttt{{\small <np>}} \> Proper noun\\[-0.5ex]
+  \texttt{{\small <v>}} \>  Verb\\[-0.5ex]
+  \texttt{{\small <det>}} \>  Determiner\\[-0.5ex]
+  \texttt{{\small <cnjcoo>}} \> Coord. conjunct.\\[-0.5ex]
+  \texttt{{\small <cnjadv>}} \> Adv. conjunct.\\[-0.5ex]
+  \texttt{{\small <adv>}} \> Adverb\\[-0.5ex]
+  \texttt{{\small <vaux>}} \> Auxiliary verb\\[-0.5ex]
+  \texttt{{\small <cop>}} \> Copula\\[-0.5ex]
+  \texttt{{\small <iv>}} \> Intransitive\\[-0.5ex]
+  \texttt{{\small <tv>}} \> Transitive\\[-0.5ex]
+  \texttt{{\small <p2>}} \> Second person\\[-0.5ex]
+  \texttt{{\small <p3>}} \> Third person\\[-0.5ex]
+  \texttt{{\small <ant>}} \> Anthroponym\\[-0.5ex]
+  \texttt{{\small <dem>}} \> Demonstrative\\[-0.5ex]
+  \texttt{{\small <m>}} \> Masculine\\[-0.5ex]
+  \texttt{{\small <sg>}} \> Singular\\[-0.5ex]
+  \texttt{{\small <pl>}} \> Plural\\[-0.5ex]
+  \texttt{{\small <nom>}} \> `Nominative'\\[-0.5ex]
+  \texttt{{\small <gen>}} \> Genitive\\[-0.5ex]
+  \texttt{{\small <acc>}} \> Accusative\\[-0.5ex]
+  \texttt{{\small <loc>}} \> Locative\\[-0.5ex]
+  \texttt{{\small <px3sg>}} \> 3rd person poss. (Singular)\\[-0.5ex]
+  \texttt{{\small <px3pl>}} \> 3rd person poss. (Plural)\\[-0.5ex]
+  \texttt{{\small <neg>}} \> Negative\\[-0.5ex]
+  \texttt{{\small <aor>}} \> Aorist\\[-0.5ex]
+  \texttt{{\small <imp>}} \> Imperative\\[-0.5ex]
+  \texttt{{\small <gna\_perf>}} \> Verbal adverb (Perfect)\\[-0.5ex]
+  \texttt{{\small <prc\_impf>}} \> Participle (Imperfect)\\[-0.5ex]
+  \texttt{{\small <prc\_irre>}} \> Participle (Irrealis)\\[-0.5ex]
+  \texttt{{\small <prc\_real>}} \> Participle (Realis)\\[-0.5ex]
   \texttt{{\small <cm>}} \> Comma\\
   
 \end{tabbing}
@@ -561,13 +589,13 @@
 
 \end{itemize}
 
-\hrule
+\codeex{
 			\texttt{"L Desonorisation"\\
 			\%\{L\%\}:д <=> :VoicedLowSonCns \%>:\ \blank{1em} ;}\\
 			
 			\texttt{"N Desonorisation"\\
 			\%\{N\%\}:д <=> :VoicedCns \%>:\ \blank{1em} ;}
-\hrule
+}
 
 			\htwo{Lenition}
 \begin{itemize}
@@ -575,13 +603,13 @@
 	мур\{у\}н → мурун \eng{nose}\\
 	мур\{у\}н+\{I\}м → мурдум \eng{my nose}
 \end{itemize}
-\hrule
+\codeex{
 {\small \texttt{\%\{y\%\}:Vy <=> [ :LastVowel :Cns* :Cns ]/[:0] \blank{1em}\\
-	\vspace{1pt}\hspace{1pt}\hfill{} [ :Cns [ .\#.\ | :Cns ] ]/[ :0 | \%>:]\ ;\\
-  where  Vy  in  (  и  ү  и  и  ү  ы  ы  у  у  ы  у  у )\\
-  LastVowel  in  (  и  ү  е  э  ө  я  а  ё  о  ы  ю  у )\\
-           matched ;}}
-\hrule
+	\vspace{-0.5ex}\hspace{1pt}\hfill{} [ :Cns [ .\#.\ | :Cns ] ]/[ :0 | \%>:]\ ;\\
+  \vspace{-0.5ex}\hspace{1ex}where  Vy  in  (  и  ү  и  и  ү  ы  ы  у  у  ы  у  у )\\
+  \vspace{-0.5ex}LastVowel  in  (  и  ү  е  э  ө  я  а  ё  о  ы  ю  у )\\
+  \vspace{-0.5ex}\hspace{12ex}         matched ;}}
+}
 
 			%\htwo{Nouns ending in /рн/}
 
@@ -593,10 +621,10 @@
 				\item + a rule to delete the original й
 			\end{itemize}
 
-				\hrule
+				\codeex{
 					\texttt{"Deletion of й before yoticised vowels"\\
 					й:0 <=> \blank{1em} [ :YotVow ]/[ :0 | \%>:\ ]\ ;}
-				\hrule
+				}
 
 		}
 
