@@ -34,6 +34,7 @@ paper/poster/TODO -text
 paper/poster/apertium.pdf -text svneol=unset#unset
 paper/poster/flagkg1.pdf -text
 paper/poster/flagkg2.pdf -text
+paper/poster/map.pdf -text
 paper/poster/paper.bib -text
 paper/poster/poster.pdf -text
 paper/poster/poster.tex -text
