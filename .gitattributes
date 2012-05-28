@@ -32,6 +32,7 @@ paper/poster/Makefile -text
 paper/poster/OUTLINE -text
 paper/poster/TODO -text
 paper/poster/apertium.pdf -text svneol=unset#unset
+paper/poster/apertium5a.pdf -text
 paper/poster/flagkg1.pdf -text
 paper/poster/flagkg2.pdf -text
 paper/poster/map.pdf -text
