@@ -1,14 +1,13 @@
-\documentclass[a0paper,fontscale=0.3]{baposter}  % fontscale=0.285
+\documentclass[a0paper,dvipdfm,fontscale=0.3]{baposter}  % fontscale=0.285
 
 \usepackage{setspace}
-\usepackage{graphicx}
 \usepackage{multicol}
 
-\usepackage{tikz}
-\usepackage{pgfbaselayers}
-\pgfdeclarelayer{background}
-\pgfdeclarelayer{foreground}
-\pgfsetlayers{background,main,foreground}
+%\usepackage{tikz}
+%\usepackage{pgfbaselayers}
+%\pgfdeclarelayer{background}
+%\pgfdeclarelayer{foreground}
+%\pgfsetlayers{background,main,foreground}
 
 %%% Color Definitions %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -72,6 +71,9 @@
 %\newcommand{\htwo}[1]{::: {\htwofont #1} :::}%\hrule} %\hline\\}
 %\newcommand{\htwo}[1]{{\htwofont \textbf{:::#1:::}}}%\hrule} %\hline\\}
 \newcommand{\htwo}[1]{{\htwofont \textbf{\dotfill{}#1\dotfill{}}}}
+
+
+\usepackage{graphicx}  % [dvipdfm]
 
 %\definecolor{MyGray}{rgb}{0.96,0.97,0.98}
 %\newenvironment{codebox}{%
@@ -201,7 +203,12 @@
 			boxshade=plain,
 			textborder=roundedleft,
 		}{
-			\hspace{-2em}\includegraphics[height=6.5em]{apertium}
+			%\hspace{-2em}\includegraphics[height=6.5em,bb=0 0 242 203]{apertium}
+			%\hspace{-2em}\includegraphics[height=6.5em,bb=0 0 612 792]{apertium2}
+			%\hspace{-2em}\includegraphics[height=6.5em,bb=0 0 203 242]{apertium3}
+			%\hspace{-2em}\includegraphics[height=6.5em,bb=0 0 242 203]{apertium3a}
+			%\hspace{-2em}\includegraphics[height=6.5em,bb=0 0 242 203]{apertium4}
+			\hspace{-2em}\includegraphics[angle=90,height=6.5em,bb=0 0 203 242]{apertium5}
 			%Eye Catcher, empty if option eyecatcher=false - unused
 		}{
 			{\vspace{0pt}\hspace{-2ex}
@@ -271,7 +278,7 @@
 			%{\begin{minipage}{19em}
 				%\hfill
 				%\includegraphics[height=6.5em]{apertium}
-				\includegraphics[height=6.5em]{flagkg1}
+				\includegraphics[height=6.5em,bb=0 0 800 480]{flagkg1}
 			%\end{minipage}}
 		}
 
@@ -285,7 +292,7 @@
 %		}
 		\headerbox{Kyrgyz}{name=kyrgyz,column=0,row=0}{
 			\vspace{0.5ex}
-			\includegraphics[width=\textwidth]{map2}
+			\includegraphics[width=\textwidth,bb=0 0 838 342]{map}
 			\vspace{-1.1em}  % -1.25em
 			\begin{itemize}
 				\item Turkic language (SOV, agglutinative, vowel harmony)
