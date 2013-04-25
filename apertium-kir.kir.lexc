@@ -603,10 +603,10 @@ NUM-COMMON ;
 
 LEXICON NUM-ONE
 
-% жүз NUM ; ! "one hundred"
-% миң NUM ; ! "one thousand"
-% миллион NUM ; ! "one million"
-% миллиард NUM ; ! "one billion"
+% жүз:% жүз NUM ; ! "one hundred"
+% миң:% миң NUM ; ! "one thousand"
+% миллион:% миллион NUM ; ! "one million"
+% миллиард:% миллиард NUM ; ! "one billion"
 
 NUM-COMMON ;
 
@@ -1118,31 +1118,31 @@ LEXICON Copula
 LEXICON Particles 
 
 ! FIXME: сыяктуу and экен have special grammar, but are ~modal particles
-сыяктуу PART ; ! modal particle; adjective, usually with dative "similar to"
-экен PART ; ! non-eyewitness modal particle
-экен PART-PERS-COP ; ! non-eyewitness modal particle
+сыяктуу:сыяктуу PART ; ! modal particle; adjective, usually with dative "similar to"
+экен:экен PART ; ! non-eyewitness modal particle
+экен:экен PART-PERS-COP ; ! non-eyewitness modal particle
 !эле PART-PERS-PAST ; ! 
 
 LEXICON Postadverbs 
 
-гана POSTADV ; ! "only"
-эле POSTADV ; ! "only"
-деле POSTADV ; ! "even"
-дагы POSTADV ; ! "... дагы" = "and ... too"
-ашуун POSTADV ; ! "more than"
-ашык POSTADV ; ! "more than"
+гана:гана POSTADV ; ! "only"
+эле:эле POSTADV ; ! "only"
+деле:деле POSTADV ; ! "even"
+дагы:дагы POSTADV ; ! "... дагы" = "and ... too"
+ашуун:ашуун POSTADV ; ! "more than"
+ашык:ашык POSTADV ; ! "more than"
 
 LEXICON Conjunctions 
 
 жана:жана CC ; ! "and"
 болсо:болсо CC ;
 да:да CC ; ! <s>"and"</s> "also", "both ... and ..."
-дагы ADV ; ! "дагы ..." "another ..."
+дагы:дагы ADV ; ! "дагы ..." "another ..."
 же:же CC ; ! "or"
 менен:менен CC ; ! "and" / "including"
 үчүн:үчүн CC ; ! ""
 не:не CC ; ! "neither... nor..."
-ал% эми CA ; ! "and now"
+ал% эми:ал% эми CA ; ! "and now"
 а:а CA ; ! "but/and"
 бирок:бирок CA ; ! "but"
 анткени:анткени CA ; ! "because"
@@ -1152,14 +1152,14 @@ LEXICON Conjunctions
 !эгер PART ; ! conjunction like particle "if"
 !эгерде PART ; ! conjunction like particle "if"
 
-же% болбосо CA ; ! ""
+же% болбосо:же% болбосо CA ; ! ""
 кийин:кийин CA ; ! ""
 мисалы:мисалы CA ; ! "for example"
 
 
 жана:жана CA ; ! Dir/RL "but"  ! Eh?? 
 
-болуп CS ; ! Dir/RL ""    ! Huh?
+болуп:болуп CS ; ! Dir/RL ""    ! Huh?
 
 га:га CA ;
 да:да CA ;
@@ -1167,7 +1167,7 @@ LEXICON Conjunctions
 ! керек CC ;
 ! арасы CC ;
 ! эмеспи CA ;
-же% болбосо CA ;
+же% болбосо:же% болбосо CA ;
 ! анткени CA ;
 башкача% айтканда CA ;
 ! мейли CA ;
@@ -1176,8 +1176,8 @@ LEXICON Conjunctions
 ! мисалы CA ;
 деп CS ;
 ошондуктан:ошондуктан CA ;
-ал% эмес CA ;
-бул% эле% эмес CA ;
+ал% эмес:ал% эмес CA ;
+бул% эле% эмес:бул% эле% эмес CA ;
 кааласа:кааласа CA ;
 демек:демек CA ;
 анда:анда CA ;
@@ -1207,8 +1207,8 @@ LEXICON Conjunctions
 маселен:маселен CA ;
 кыскача% айтканда CA ;
 ! мына CA ;
-эч% болбосо CA ;
-жок% дегенде CA ;
+эч% болбосо:эч% болбосо CA ;
+жок% дегенде:жок% дегенде CA ; ! "at least"
 ! чынында CA ;
 ! дейсиң CA ;
 
@@ -1269,55 +1269,55 @@ LEXICON Postpositions
 
 LEXICON Determiners
 
-бул DET-DEM ; ! "this"
+бул:бул DET-DEM ; ! "this"
 бул:бу DET-DEM ; ! "this" ! Dir/LR
-мобу DET-DEM ; ! "this here"
-ошол DET-DEM ; ! "that"
+мобу:мобу DET-DEM ; ! "this here"
+ошол:ошол DET-DEM ; ! "that"
 ошол:ошо DET-DEM ; ! "that" ! Dir/LR
-ушул DET-DEM ; ! "this (visible)"
+ушул:ушул DET-DEM ; ! "this (visible)"
 ушул:ушу DET-DEM ; ! "this (visible)" ! Dir/LR
-ал DET-DEM ; ! "that"
+ал:ал DET-DEM ; ! "that"
 тиги:тигил DET-DEM ; ! "that (yonder)" ! Dir/LR
-тиги DET-DEM ; ! "that (yonder)"
-кай DET-DEM ; ! "which"
+тиги:тиги DET-DEM ; ! "that (yonder)"
+кай:кай DET-DEM ; ! "which"
 
-айрым DET-IND ; ! "other"
-ушундай DET-IND ; ! "this kind of"
-ар DET-IND ; ! "every"
-эчбир DET-IND ; ! "no"
-кээбир DET-IND ; ! "some"
-бир DET-IND ; ! "a"
+айрым:айрым DET-IND ; ! "other"
+ушундай:ушундай DET-IND ; ! "this kind of"
+ар:ар DET-IND ; ! "every"
+эчбир:эчбир DET-IND ; ! "no"
+кээбир:кээбир DET-IND ; ! "some"
+бир:бир DET-IND ; ! "a"
 
-эч% бир DET-IND ; ! "no"
-кээ% бир DET-QNT ; ! "some"
-бир% нече DET-QNT ; ! "some, several"
-көптөгөн DET-QNT ; ! "many"
-канча DET-QNT ; ! "how many"  ! FIXME: not <itg> somehow?
-канчалык DET-QNT ; ! "how many"  ! FIXME: this is really an adverb
-бүтүн DET-QNT ; ! "entire"
+эч% бир:эч% бир DET-IND ; ! "no"
+кээ% бир:кээ% бир DET-QNT ; ! "some"
+бир% нече:бир% нече DET-QNT ; ! "some, several"
+көптөгөн:көптөгөн DET-QNT ; ! "many"
+канча:канча DET-QNT ; ! "how many"  ! FIXME: not <itg> somehow?
+канчалык:канчалык DET-QNT ; ! "how many"  ! FIXME: this is really an adverb
+бүтүн:бүтүн DET-QNT ; ! "entire"
 
-кайсы PRON-ITG ;  ! FIXME: why ITG if next is DEM?
+кайсы:кайсы PRON-ITG ;  ! FIXME: why ITG if next is DEM?
 кайсыл:кайсы DET-DEM ; ! "which?" ! FIXME: need morph to fix
 
-кайсы% бир DET-IND ;
-кандайдыр% бир DET-IND ; ! "some kind of"
-башка DET-IND ;    ! FIXME: Hmmmm
-бир% далай DET-QNT ;
-бүт% баары DET-QNT ;
-бир% канча DET-QNT ;
-ушунчалык DET-QNT ;
-биртке DET-QNT ;
-анчалык DET-QNT ;
-бардык DET-QNT ;
-ар% ким DET-IND ;
+кайсы% бир:кайсы% бир DET-IND ;
+кандайдыр% бир:кандайдыр% бир DET-IND ; ! "some kind of"
+башка:башка DET-IND ;    ! FIXME: Hmmmm
+бир% далай:бир% далай DET-QNT ;
+бүт% баары:бүт% баары DET-QNT ;
+бир% канча:бир% канча DET-QNT ;
+ушунчалык:ушунчалык DET-QNT ;
+биртке:биртке DET-QNT ;
+анчалык:анчалык DET-QNT ;
+бардык:бардык DET-QNT ;
+ар% ким:ар% ким DET-IND ;
 ! кайсы% бир DET-IND ;
-бирдей DET-IND ;
-ушунчалык DET-QNT ;
-бир% катар DET-QNT ;
-толук DET-QNT ;
-бир% бөлүк DET-QNT ;
+бирдей:бирдей DET-IND ;
+ушунчалык:ушунчалык DET-QNT ;
+бир% катар:бир% катар DET-QNT ;
+толук:толук DET-QNT ;
+бир% бөлүк:бир% бөлүк DET-QNT ;
 !берки DET-IND ;
-бир% канча% даана DET-QNT ;
+бир% канча% даана:бир% канча% даана DET-QNT ;
 !берки DET-IND ;
 
 LEXICON Pronouns
@@ -1337,12 +1337,12 @@ LEXICON Pronouns
 ал:а PRON-DEM-AL ; ! "that"
 тигил:тиги PRON-DEM-TIGIL ; ! "that (yonder)
 
-эмне PRON-ITG ; ! "what?"
-кайсыны PRON-ITG ; ! "which one?"
-ким PRON-ITG ; ! "who?"
-кайда PRON-ITG ; ! "where?"  ! FIXME: doesn't take possession or cases!!!!  is <loc> of кай<det>!!
+эмне:эмне PRON-ITG ; ! "what?"
+кайсыны:кайсыны PRON-ITG ; ! "which one?"
+ким:ким PRON-ITG ; ! "who?"
+кайда:кайда PRON-ITG ; ! "where?"  ! FIXME: doesn't take possession or cases!!!!  is <loc> of кай<det>!!
 
-өз PRON-REFL ; ! "own/self"
+өз:өз PRON-REFL ; ! "own/self"
 ! бул% жер PRON-DEM ;  ! compositional
 ! ушу% жер PRON-DEM ;  ! compositional
 ! ал% жак PRON-DEM ;   ! compositional
@@ -1355,23 +1355,23 @@ LEXICON Pronouns
 кай%<det%>%<dem%>%+жак%<n%>:каяк POSSESSION ; ! "where"
 
 
-кимдир% бирөө PRON-IND ; ! "someone" TODO: Check
-айрым PRON-IND ; ! "other"
-башка PRON-IND ; ! "other"  ! FIXME: DET
-баары PRON-IND ; ! "everyone"  !!! This is an alternate of below
+кимдир% бирөө:кимдир% бирөө PRON-IND ; ! "someone" TODO: Check
+айрым:айрым PRON-IND ; ! "other"
+башка:башка PRON-IND ; ! "other"  ! FIXME: DET
+баары:баары PRON-IND ; ! "everyone"  !!! This is an alternate of below
 баары:баар PRON-IND-POSS ; ! "everyone"
 
 ! FIXME: THESE ARE DET!!!
-кээ% бир PRON-QNT ; ! "some"
-бир% нече PRON-QNT ; ! "some, several"
-көптөгөн PRON-QNT ; ! "many"
+кээ% бир:кээ% бир PRON-QNT ; ! "some"
+бир% нече:бир% нече PRON-QNT ; ! "some, several"
+көптөгөн:көптөгөн PRON-QNT ; ! "many"
 
 бири-бир PRON-RECIP ; ! "each other, one another"
 ! ал% жак PRON-DEM ;
 ! кайсы% жер PRON-ITG ; 
-эмне PRON-ITG ;
+эмне:эмне PRON-ITG ;
 бирин-бири PRON-RECIP ;   ! CHECK
-тиги PRON-DEM ;
+тиги:тиги PRON-DEM ;
 
 бир:бирөө PRON-COLL ;
 эки:экөө PRON-COLL ;
@@ -1396,29 +1396,29 @@ LEXICON Numerals
 жети NUM-ONE ; ! "seven"
 сегиз NUM-ONE ; ! "eight"
 тогуз NUM-ONE ; ! "nine"
-он NUM ; ! "ten"
-жыйырма NUM ; ! "twenty"
-отуз NUM ; ! "thirty"
-кырк NUM ; ! "forty"
-элүү NUM ; ! "fifty"
-алтымыш NUM ; ! "sixty"
-жетимиш NUM ; ! "seventy"
-сексен NUM ; ! "eighty"
-токсон NUM ; ! "ninety"
-жүз NUM ; ! "one hundred"
-миң NUM ; ! "one thousand"
-миллион NUM ; ! "one million"
-миллиард NUM ; ! "one billion"
-ноль NUM ;
-он% эки NUM ;
-он% бир NUM ;
-триллион NUM ;
-онтогуз NUM ;
-жыйырма% беш NUM ;
-он% сегиз NUM ;
-он% беш NUM ;
-он% алты NUM ;
-бир% жарым NUM ;
+он:он NUM ; ! "ten"
+жыйырма:жыйырма NUM ; ! "twenty"
+отуз:отуз NUM ; ! "thirty"
+кырк:кырк NUM ; ! "forty"
+элүү:элүү NUM ; ! "fifty"
+алтымыш:алтымыш NUM ; ! "sixty"
+жетимиш:жетимиш NUM ; ! "seventy"
+сексен:сексен NUM ; ! "eighty"
+токсон:токсон NUM ; ! "ninety"
+жүз:жүз NUM ; ! "one hundred"
+миң:миң NUM ; ! "one thousand"
+миллион:миллион NUM ; ! "one million"
+миллиард:миллиард NUM ; ! "one billion"
+ноль:ноль NUM ;
+он% эки:он% эки NUM ;
+он% бир:он% бир NUM ;
+триллион:триллион NUM ;
+онтогуз:онтогуз NUM ;
+жыйырма% беш:жыйырма% беш NUM ;
+он% сегиз:он% сегиз NUM ;
+он% беш:он% беш NUM ;
+он% алты:он% алты NUM ;
+бир% жарым:бир% жарым NUM ;
 
 
 
@@ -9959,58 +9959,58 @@ ISBN:ISBN ABBR ;
 
 LEXICON Interjections 
 
-албетте INTERJ ; ! "of course"
-мына INTERJ ; ! "here is, вот"
-ооба INTERJ ; ! "yes"
-жок INTERJ ; ! "no"
-эй INTERJ ; ! "hey"
+албетте:албетте INTERJ ; ! "of course"
+мына:мына INTERJ ; ! "here is, вот"
+ооба:ооба INTERJ ; ! "yes"
+жок:жок INTERJ ; ! "no"
+эй:эй INTERJ ; ! "hey"
 !ананчы INTERJ ; ! "of course"
-макул INTERJ ; ! "fine/okay"
-мейли INTERJ ; ! "okay/fine"
-түшүнүктүү INTERJ ; ! "understood"
-ме INTERJ ; ! "here you go / take"
-жарайт INTERJ ;
-макул INTERJ ;
-болуптур INTERJ ;
-анда INTERJ ;
-андай% болсо INTERJ ;
+макул:макул INTERJ ; ! "fine/okay"
+мейли:мейли INTERJ ; ! "okay/fine"
+түшүнүктүү:түшүнүктүү INTERJ ; ! "understood"
+ме:ме INTERJ ; ! "here you go / take"
+жарайт:жарайт INTERJ ;
+макул:макул INTERJ ;
+болуптур:болуптур INTERJ ;
+анда:анда INTERJ ;
+андай% болсо:андай% болсо INTERJ ;
 
 LEXICON Nationalities
-казак NAT ;  ! "Kazakh"
-татар NAT ;  ! "Tatar"
-моңгол NAT ;  ! "Mongol"
+казак:казак NAT ;  ! "Kazakh"
+татар:татар NAT ;  ! "Tatar"
+моңгол:моңгол NAT ;  ! "Mongol"
 моңгол:монгол NAT ;  ! "Mongol"    ! Dir/LR
-дуңган NAT ;  ! "Dungan"
-кыргыз NAT ; ! "Kyrgyz"
-түрк NAT ; ! "Turkish"
+дуңган:дуңган NAT ;  ! "Dungan"
+кыргыз:кыргыз NAT ; ! "Kyrgyz"
+түрк:түрк NAT ; ! "Turkish"
 ! кыргызча ADJ ; ! This should be automatically generated
-орус NAT ; ! "Russian"
-булгар NAT ; ! "Bulgarian"
-грек NAT ; ! "Greek"
-еврей NAT ; ! "Jewish"
-арап NAT ; ! "Arab"
-өзбөк NAT ; ! "Uzbek"
-тажик NAT ; ! "Tajik"
-украин NAT ; ! "Ukranian"
-калмак NAT ; ! "Kalmyk"
-кытай NAT ; ! "Chinese"
-латын NAT ; ! "Latin"
-дунган NAT ; ! "Dungan"
+орус:орус NAT ; ! "Russian"
+булгар:булгар NAT ; ! "Bulgarian"
+грек:грек NAT ; ! "Greek"
+еврей:еврей NAT ; ! "Jewish"
+арап:арап NAT ; ! "Arab"
+өзбөк:өзбөк NAT ; ! "Uzbek"
+тажик:тажик NAT ; ! "Tajik"
+украин:украин NAT ; ! "Ukranian"
+калмак:калмак NAT ; ! "Kalmyk"
+кытай:кытай NAT ; ! "Chinese"
+латын:латын NAT ; ! "Latin"
+дунган:дунган NAT ; ! "Dungan"
 дунган:дуңган NAT ; ! "Dungan"     ! Dir/LR
 
-америка NAT ; ! "American"
+америка:америка NAT ; ! "American"
 ! америка:американдык NAT ; ! FIXME: this form works in addition to "америкалык"
 
-испан NAT ; ! "Spanish"
+испан:испан NAT ; ! "Spanish"
 
 ! италия:италиялык NAT ; ! FIXME: "Italian" has the lemma "италия"
 
-англис NAT ; ! "English"
+англис:англис NAT ; ! "English"
 ! англиялык:англис NAT ;  ! FIXME: "English the language" has an irregular lemma
 ! англиялык:аңглис NAT ;  ! "English the language"
 ! англиялык NAT ;  ! "English"
 
-француз NAT ; ! "French"  ! FIXME
+француз:француз NAT ; ! "French"  ! FIXME
 ! француз:франциялык NAT ; ! "French"
 
 
