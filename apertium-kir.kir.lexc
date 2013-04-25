@@ -9942,7 +9942,7 @@ ISBN:ISBN ABBR ;
 кг:кг ABBR ; 
 км:км ABBR ; 
 см:см ABBR ; 
-м³:м3:м³:м3 ABBR ; ! Dir/LR
+м³:м3 ABBR ; ! Dir/LR
 м³:м³ ABBR ; 
 янв%.:янв%. ABBR ; 
 февр%.:февр%. ABBR ; 
