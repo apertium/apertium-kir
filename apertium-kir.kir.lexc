@@ -1232,40 +1232,40 @@ LEXICON Postpositions
 тиешелүү:тиешелүү POST ; ! "belonging to" +dat
 карата:карата POST ; ! "" +dat
 карабай:карабай POST ;
-дагы POST ; ! FIXME: not POST
-керек POST ; ! FIXME: not POST
+дагы:дагы POST ; ! FIXME: not POST
+керек:керек POST ; ! FIXME: not POST
 ! ушуга% чейин POST ; ! FIXME: what? !! compositional
-дайым POST ; ! FIXME: not POST
-соң POST ;
-тышкары POST ; ! "aside from, besides" +abl
-бери POST ; ! "since" +abl
-жараша POST ;
-байланыштуу POST ; ! "in connection with" +dat
-үчүн POST ; ! "for" + nom
-каршы POST ;
-карабастан POST ;
+дайым:дайым POST ; ! FIXME: not POST
+соң:соң POST ;
+тышкары:тышкары POST ; ! "aside from, besides" +abl
+бери:бери POST ; ! "since" +abl
+жараша:жараша POST ;
+байланыштуу:байланыштуу POST ; ! "in connection with" +dat
+үчүн:үчүн POST ; ! "for" + nom
+каршы:каршы POST ;
+карабастан:карабастан POST ;
 ! менен% бирге POST ;  ! CHECK: is бирге ADV?  !! compositional
-улам POST ;
-тууралуу POST ;
-боло% турган% болсо POST ; ! BAD: wtf
-тиешелүү POST ;
-сыңары POST ;
-жакында POST ;
-карай POST ;
-тартып POST ;
-улам POST ;
-учурга% чейин POST ;
-башка POST ;  ! FIXME: this isn't a POST !!!
+улам:улам POST ;
+тууралуу:тууралуу POST ;
+боло% турган% болсо:боло% турган% болсо POST ; ! BAD: wtf
+тиешелүү:тиешелүү POST ;
+сыңары:сыңары POST ;
+жакында:жакында POST ;
+карай:карай POST ;
+тартып:тартып POST ;
+улам:улам POST ;
+учурга% чейин:учурга% чейин POST ;
+башка:башка POST ;  ! FIXME: this isn't a POST !!!
 ! убактагы POST ; ! See bidix
 ! байланыштуу% болчу POST ; ! FIXME Agh what is this??
-боюнча POST ;
-өйдө POST ;
-менен POST ;
-караштуу POST ;
-сыяктуу POST-DECL ;
+боюнча:боюнча POST ;
+өйдө:өйдө POST ;
+менен:менен POST ;
+караштуу:караштуу POST ;
+сыяктуу:сыяктуу POST-DECL ;
 ! ортосунда POST ;
 ! үстүндө POST ;
-көздөй POST ; ! "towards" (+ACC)
+көздөй:көздөй POST ; ! "towards" (+ACC)
 
 LEXICON Determiners
 
