@@ -312,7 +312,8 @@ POSSESSION ;
 LEXICON N-INFL-SG  ! nouns with no/irregular plural
 
 !%<n%>: N-INFL-COMMON ;
-%<n%>%<attr%>:%>%{L%}%{U%}%{U%} ATTR ;
+!%<n%>%<attr%>:%>%{L%}%{U%}%{U%} ATTR ;
+%<n%>%<attr%>: ATTR ;
 %<n%>: POSSESSION ;
 
 LEXICON N-INFL      ! Nouns that have a LUU attributive form
