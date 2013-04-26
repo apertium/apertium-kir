@@ -296,6 +296,7 @@ LEXICON VOL-ENDINGS
 
 LEXICON EXI
 
+%<adj%>: # ;
 %<adj%>: ATTR ;
 %<adj%>%<subst%>: POSSESSION ;
 
@@ -318,7 +319,8 @@ LEXICON N-INFL-SG  ! nouns with no/irregular plural
 
 LEXICON N-INFL      ! Nouns that have a LUU attributive form
 
-%<n%>%<attr%>:%>%{L%}%{U%}%{U%} ATTR ;
+!%<n%>%<attr%>:%>%{L%}%{U%}%{U%} ATTR ;
+%<n%>%<attr%>: ATTR ;
 %<n%>: SUBST-COMMON ;
 
 LEXICON N-INFL-KI   ! Nouns that have a KI attributive form
@@ -1149,7 +1151,7 @@ LEXICON Conjunctions
 үчүн:үчүн CC ; ! ""
 не:не CC ; ! "neither... nor..."
 ал% эми:ал% эми CA ; ! "and now"
-а:а CA ; ! "but/and"
+а:а CC ; ! "but/and"
 бирок:бирок CC ; ! "but"
 анткени:анткени CA ; ! "because"
 себеби:себеби CA ; ! "because"
@@ -7350,6 +7352,10 @@ Tеңир NP-TOP ; ! ""
 
 
 LEXICON Adjectives
+
+бар:бар EXI ;
+жок:жок EXI ;
+
 кош:кош ADJ ;
 ! алдыңкы ADJ ;
 ! алгачкы ADJ-ORD ; ! "first"
@@ -8311,6 +8317,7 @@ LEXICON Adjectives
 бактылуу:бактылуу ADJ ; ! "happy"
 эгемендүү:эгемендүү ADJ ; ! CHECK
 ыйгарымдуу:ыйгарымдуу ADJ ; ! CHECK
+жашаар:жашаар ADJ ; ! "X year-old"
 
 
 
@@ -8661,12 +8668,6 @@ v
 
 
 LEXICON Verbs
-
-! бар%<v%>%<exi%>:бар # ;
-! жок%<v%>%<neg%>%<exi%>:жок # ;
-! жок%<v%>%<neg%>%<exi%>:жок V-PERS-COP-SUF ;
-бар:бар EXI ;
-жок:жок EXI ;
 
 э%<cop%>%<neg%>:эмес V-PERS-COP-SUF ; 
 э%<cop%>%<evid%>:экен V-PERS-COP-SUF ; 
