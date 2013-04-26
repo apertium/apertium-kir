@@ -610,15 +610,19 @@ LEXICON NUM-ONE
 
 NUM-COMMON ;
 
+LEXICON NUM-ORDINAL
 
-LEXICON NUM-COMMON
-
-%<num%>: POSSESSION ;
-! %<num%>%<sim%>:%>%{D%}%{A%}й POSSESSION ;  ! WTF is this?
+! FIXME: This should look more like in kaz.lexc probably
 %<num%>%<ord%>:%>%{I%}нч%{I%} # ;
 %<num%>%<ord%>%<advl%>:%>%{I%}нч%{I%} ADVL ;
 %<num%>%<ord%>%<subst%>:%>%{I%}нч%{I%} SUBST-COMMON ;  ! yes, they can be plural
 
+LEXICON NUM-COMMON
+
+%<num%>: # ;
+%<num%>%<subst%>: SUBST-COMMON ;
+! %<num%>%<sim%>:%>%{D%}%{A%}й POSSESSION ;  ! WTF is this?
+NUM-ORDINAL ;
 
 LEXICON PRON-DEM-BUL
 
@@ -1140,7 +1144,7 @@ LEXICON Conjunctions
 да:да CC ; ! <s>"and"</s> "also", "both ... and ..."
 дагы:дагы ADV ; ! "дагы ..." "another ..."
 же:же CC ; ! "or"
-менен:менен CC ; ! "and" / "including"
+!менен:менен CC ; ! "and" / "including"
 үчүн:үчүн CC ; ! ""
 не:не CC ; ! "neither... nor..."
 ал% эми:ал% эми CA ; ! "and now"
@@ -1261,7 +1265,7 @@ LEXICON Postpositions
 ! байланыштуу% болчу POST ; ! FIXME Agh what is this??
 боюнча:боюнча POST ;
 өйдө:өйдө POST ;
-менен:менен POST ;
+! менен:менен POST ;
 караштуу:караштуу POST ;
 сыяктуу:сыяктуу POST-DECL ;
 ! ортосунда POST ;
@@ -1760,7 +1764,7 @@ LEXICON Nouns
 бажа:бажа N-INFL ; 
 байрак:байрак N-INFL ; 
 бакыт:бакыт N-INFL ; 
-бала N-INFL-SG ; ! "child"
+бала:бала N-INFL-SG ; ! "child"
 бала%<n%>%<pl%>:балдар POSSESSION ; ! "children"
 балдыз:балдыз N-INFL ; 
 балта:балта N-INFL ; 
@@ -4973,7 +4977,7 @@ LEXICON Nouns
 өнүгүү:өнүгүү N-INFL ;
 сот% процесси:сот% процесси N-INFL ;
 көргөзмө:көргөзмө N-INFL ;
-бүгүн:бүгүн N-INFL ;
+! бүгүн:бүгүн N-INFL ;
 кайрылуу:кайрылуу N-INFL ;
 аскерлик% база:аскерлик% база N-INFL ;
 убактылуу:убактылуу N-INFL ;
@@ -5606,7 +5610,7 @@ LEXICON Nouns
 бар:бар N-INFL ;
 ! алды N-INFL ;
 арыз:арыз N-INFL ;
-чогуу:чогуу N-INFL ;
+! чогуу:чогуу N-INFL ;
 аны:аны N-INFL ;
 минимум:минимум N-INFL ;
 жыныс:жыныс N-INFL ;
@@ -6497,19 +6501,19 @@ LEXICON Nouns
 !! these are nouns that take -KI for their <attr> form
 ! баш N-KI ; ! "principle"
 башкы:башкы ADJ ; ! "principle"  ! we're going to just let this be a fixed form, since баштуу is the ATTR form of баш
-күз N-INFL-KI ; ! "fall"/"fall-time"
-кыш N-INFL-KI ; ! "winter"/"wintery"
-жаз N-INFL-KI ; ! "spring"/"spring-time"
-жай N-INFL-KI ; ! "summer"/"summery"
-соң N-INFL-KI ; ! "end"/"final"
-тыш N-INFL-KI ; ! "outside"/"outer"
-сырт N-INFL-KI ; ! "outside"/"outer"
-ич N-INFL-KI ; ! "inside"/"inner"
-төмөн N-INFL-KI ; ! "bottom"/"following/below"
-жыл N-INFL-KI ; ! "year"
-күн N-INFL-KI ; ! "day"
+күз:күз N-INFL-KI ; ! "fall"/"fall-time"
+кыш:кыш N-INFL-KI ; ! "winter"/"wintery"
+жаз:жаз N-INFL-KI ; ! "spring"/"spring-time"
+жай:жай N-INFL-KI ; ! "summer"/"summery"
+соң:соң N-INFL-KI ; ! "end"/"final"
+тыш:тыш N-INFL-KI ; ! "outside"/"outer"
+сырт:сырт N-INFL-KI ; ! "outside"/"outer"
+ич:ич N-INFL-KI ; ! "inside"/"inner"
+төмөн:төмөн N-INFL-KI ; ! "bottom"/"following/below"
+жыл:жыл N-INFL-KI ; ! "year"
+күн:күн N-INFL-KI ; ! "day"
 ! ай KI ; ! "month"  ! DOESN'T HAVE -KI FORM (takes LUU)
-кеч N-INFL-KI ; ! "evening"
+кеч:кеч N-INFL-KI ; ! "evening"
 
 !аст:астын N-INFL-JUST-KI ; ! "lower"
 !алд:алдын N-INFL-JUST-KI ; ! "forward"
@@ -6520,11 +6524,11 @@ LEXICON Nouns
 !үст N-INFL-NO-ATTR ; ! "top"
 !орто N-INFL-NO-ATTR ; ! "middle/center"
 
-аст N-INFL-NKI ; ! "bottom", "lower"
-алд N-INFL-NKI ; ! "front/forward", "forward"
-үст N-INFL-NKI ; ! "top", "upper"
-орто N-INFL-NKI ; ! "middle/center", "central"
-арт N-INFL-NKI ; ! "back", "rear"
+аст:аст N-INFL-NKI ; ! "bottom", "lower"
+алд:алд N-INFL-NKI ; ! "front/forward", "forward"
+үст:үст N-INFL-NKI ; ! "top", "upper"
+орто:орто N-INFL-NKI ; ! "middle/center", "central"
+арт:арт N-INFL-NKI ; ! "back", "rear"
 
 
 LEXICON ProperNouns
@@ -8308,76 +8312,6 @@ LEXICON Adjectives
 ыйгарымдуу:ыйгарымдуу ADJ ; ! CHECK
 
 
-!! FIXME: productive {K}{I} forms
-!! some are from adverbs, some are from nouns
-
-мурун:мурун ADV-WITH-KI-ABL ; ! "old (former)"
-бүгүн:бүгүн ADV-WITH-KI-ABL ; ! "today's"
-бая:бая ADV-WITH-KI-ABL ; ! "~former"
-жана:жана ADV-WITH-KI-ABL ; ! "~recent"
-келер:келер ADV-WITH-KI-ABL ; ! "coming/future"
-келээр:келээр ADV-WITH-KI-ABL ; ! "coming/future"
-алгач:алгач ADV-WITH-KI-ABL ; ! KI: "first" ADV: "at first; first of all"
-кийин:кийин ADV-WITH-KI-ABL ; ! "next"
-азыр:азыр ADV-WITH-KI-ABL ; ! "present"
-күн:күн ADV-WITH-KI-ABL ; ! "day"             ! Trust me, these are ADJs
-түн:түн ADV-WITH-KI-ABL ; ! "night"           ! ""
-чейин:чейин ADV-WITH-KI-ABL ; ! "before"
-быйыл:быйыл ADV-WITH-KI-ABL ; ! "this year's"
-былтыр:былтыр ADV-WITH-KI-ABL ; ! "last year's"
-жол:жол ADV-WITH-KI-ABL ; ! "-time"
-мурда:мурда ADV-WITH-KI-ABL ; ! "long-ago"
-
-илгери:илгери ADV ; !
-илгери:илгер ADV-WITH-KI ; ! "ancient"
-илгери:илгер ADV-WITH-ABL ; ! "ancient"
-
-эми:эми ADV-WITH-ABL ;
-эми:эм ADV-KI ; ! "next/soon-to-be"
-эми:эмди ADV-WITH-KI ! dialectal form    ! Dir/LR
-эми:эмди ADV-ABL-REG ! dialectal form    ! Dir/LR
-! эмди ADV-WITH-KI-ABL ; ! "next/soon-to-be"
-эмдигиче:эмдигиче ADV ; ! "until now"
-
-ары:ары ADV-ABL ; ! "further away"           ! Dir/LR
-ары:ары ADV-WITH-ABL-REG ; ! "further away"
-ары:ар ADV-KI ; ! "further away"
-нары:нары ADV-ABL ; ! "futher away"           ! Dir/LR
-нары:нары ADV-WITH-ABL-REG ; ! "futher away"
-нары:нар ADV-KI ; ! "futher away"
-бери:бери ADV-ABL ; ! "nearer"                ! Dir/LR
-бери:бери ADV-WITH-ABL-REG ; ! "nearer"
-бери:бер ADV-KI ; ! "nearer"
-жогору:жогору ADV-ABL ; ! "high"              ! Dir/LR
-жогору:жогору ADV-WITH-ABL-REG ; ! "high"
-жогору:жогор ADV-KI ; ! "high"
-
-эртең% менен:эртең% менен ADV-WITH-KI-ABL ; ! "morning
-эртең% менен:эртең% менен ADV-ABL-REG ; ! "morning      ! Dir/LR
-
-!! FIXME: these are all valid variant forms based on the same adverb
-кечеки ADJ-COMMON ; ! "yesterday's"
-кечөөкү ADJ-COMMON ; ! "yesterday's"
-кечээки ADJ-COMMON ; ! "yesterday's"
-кечеги ADJ-COMMON ; ! "yesterday's"
-кечөөгү ADJ-COMMON ; ! "yesterday's"
-кечээги ADJ-COMMON ; ! "yesterday's"
-кече:кече ADV ; ! "yesterday"
-кечөө:кечөө ADV ; ! "yesterday"
-кечээ:кечээ ADV ; ! "yesterday"
-! кече N-INFL ; ! "yesterday"   ! NOT NOUNS!
-! кечөө N-INFL ; ! "yesterday"  ! NOT NOUNS!
-! кечээ N-INFL ; ! "yesterday"  ! NOT NOUNS!
-
-! кийин ADV-WITH-KI ; ! "later"
-! мурда ADV-WITH-KI ; ! "long ago"
-! азыр ADV-WITH-KI ; 
-! бүгүн ADV-WITH-KI ; ! from pending list
-! жыл ADV-WITH-KI ; ! what?
-! күн ADV-WITH-KI ; ! ??
-! ай ADV-WITH-KI ; ! ??
-! заман ADV-WITH-KI ; ! ??
-
 
 LEXICON Adverbs
 
@@ -8651,6 +8585,78 @@ LEXICON Adverbs
 аттиң:аттиң ADV ;
 кызык:кызык ADV ;
 биротоло:биротоло ADV ; ! "all at once"
+
+v
+!! FIXME: productive {K}{I} forms
+!! some are from adverbs, some are from nouns
+
+мурун:мурун ADV-WITH-KI-ABL ; ! "old (former)"
+бүгүн:бүгүн ADV-WITH-KI-ABL ; ! "today's"
+бая:бая ADV-WITH-KI-ABL ; ! "~former"
+жана:жана ADV-WITH-KI-ABL ; ! "~recent"
+келер:келер ADV-WITH-KI-ABL ; ! "coming/future"
+келээр:келээр ADV-WITH-KI-ABL ; ! "coming/future"
+алгач:алгач ADV-WITH-KI-ABL ; ! KI: "first" ADV: "at first; first of all"
+кийин:кийин ADV-WITH-KI-ABL ; ! "next"
+азыр:азыр ADV-WITH-KI-ABL ; ! "present"
+күн:күн ADV-WITH-KI-ABL ; ! "day"             ! Trust me, these are ADJs
+түн:түн ADV-WITH-KI-ABL ; ! "night"           ! ""
+чейин:чейин ADV-WITH-KI-ABL ; ! "before"
+быйыл:быйыл ADV-WITH-KI-ABL ; ! "this year's"
+былтыр:былтыр ADV-WITH-KI-ABL ; ! "last year's"
+жол:жол ADV-WITH-KI-ABL ; ! "-time"
+мурда:мурда ADV-WITH-KI-ABL ; ! "long-ago"
+
+илгери:илгери ADV ; !
+илгери:илгер ADV-WITH-KI ; ! "ancient"
+илгери:илгер ADV-WITH-ABL ; ! "ancient"
+
+эми:эми ADV-WITH-ABL ;
+эми:эм ADV-KI ; ! "next/soon-to-be"
+эми:эмди ADV-WITH-KI ! dialectal form    ! Dir/LR
+эми:эмди ADV-ABL-REG ! dialectal form    ! Dir/LR
+! эмди ADV-WITH-KI-ABL ; ! "next/soon-to-be"
+эмдигиче:эмдигиче ADV ; ! "until now"
+
+ары:ары ADV-ABL ; ! "further away"           ! Dir/LR
+ары:ары ADV-WITH-ABL-REG ; ! "further away"
+ары:ар ADV-KI ; ! "further away"
+нары:нары ADV-ABL ; ! "futher away"           ! Dir/LR
+нары:нары ADV-WITH-ABL-REG ; ! "futher away"
+нары:нар ADV-KI ; ! "futher away"
+бери:бери ADV-ABL ; ! "nearer"                ! Dir/LR
+бери:бери ADV-WITH-ABL-REG ; ! "nearer"
+бери:бер ADV-KI ; ! "nearer"
+жогору:жогору ADV-ABL ; ! "high"              ! Dir/LR
+жогору:жогору ADV-WITH-ABL-REG ; ! "high"
+жогору:жогор ADV-KI ; ! "high"
+
+эртең% менен:эртең% менен ADV-WITH-KI-ABL ; ! "morning
+эртең% менен:эртең% менен ADV-ABL-REG ; ! "morning      ! Dir/LR
+
+!! FIXME: these are all valid variant forms based on the same adverb
+кечеки ADJ-COMMON ; ! "yesterday's"
+кечөөкү ADJ-COMMON ; ! "yesterday's"
+кечээки ADJ-COMMON ; ! "yesterday's"
+кечеги ADJ-COMMON ; ! "yesterday's"
+кечөөгү ADJ-COMMON ; ! "yesterday's"
+кечээги ADJ-COMMON ; ! "yesterday's"
+кече:кече ADV ; ! "yesterday"
+кечөө:кечөө ADV ; ! "yesterday"
+кечээ:кечээ ADV ; ! "yesterday"
+! кече N-INFL ; ! "yesterday"   ! NOT NOUNS!
+! кечөө N-INFL ; ! "yesterday"  ! NOT NOUNS!
+! кечээ N-INFL ; ! "yesterday"  ! NOT NOUNS!
+
+! кийин ADV-WITH-KI ; ! "later"
+! мурда ADV-WITH-KI ; ! "long ago"
+! азыр ADV-WITH-KI ; 
+! бүгүн ADV-WITH-KI ; ! from pending list
+! жыл ADV-WITH-KI ; ! what?
+! күн ADV-WITH-KI ; ! ??
+! ай ADV-WITH-KI ; ! ??
+! заман ADV-WITH-KI ; ! ??
+
 
 
 LEXICON Verbs
