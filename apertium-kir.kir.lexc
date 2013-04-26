@@ -400,7 +400,8 @@ LEXICON NP-AL
 
 LEXICON ADJ-LEVELS
 
-%<pst%>: # ;
+! %<pst%>: # ;
+# ;
 %<comp%>:%>%{I%}р%{A%}%{A%}к # ;
 %<comp%>:%>%{I%}р%{A%}к # ;        ! Dir/LR
 
@@ -1113,6 +1114,7 @@ LEXICON Copula
 
 э%<cop%>%<ger%>:экен POSSESSION ;
 э%<cop%>%<ger_perf%>:экен%>%{L%}%{I%}к POSSESSION ;
+э%<cop%>%<ifi%>:эле V-PERS-PAST ;
 
 LEXICON Particles 
 
