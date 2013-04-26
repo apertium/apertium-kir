@@ -5484,7 +5484,7 @@ LEXICON Nouns
 пайда:пайда N-INFL ;
 мафия:мафия N-INFL ;
 аркылуу:аркылуу N-INFL ;
-көзөмөл:көзөмөл N-INFL ;
+! көзөмөл:көзөмөл N-INFL ;
 учтагыч:учтагыч N-INFL ;
 кан:кан N-INFL ;
 норма:норма N-INFL ;
@@ -5594,7 +5594,7 @@ LEXICON Nouns
 түгөлдөмө:түгөлдөмө N-INFL ;
 презентация:презентация N-INFL ;
 штаб:штаб N-INFL ;
-көзөмөл:көзөмөл N-INFL ;
+! көзөмөл:көзөмөл N-INFL ;
 ерте:ерте N-INFL ;
 көзөомөл% тобу:көзөомөл% тобу N-INFL ;
 археолог:археолог N-INFL ;
@@ -6487,6 +6487,9 @@ LEXICON Nouns
 ээ:эге N-INFL ; ! Dir/RL
 чоңдук:чоңдук N-INFL ; ! "bigness"
 мом:мом N-INFL ; ! "wax"
+коңгуроо:коңгуроо N-INFL ; ! "bell"
+сакчы:сакчы N-INFL ; ! CHECK
+документалдуу% тасма:документалдуу% тасма N-INFL ; ! FIXME: Compositional
 
 
 !! these are nouns that take -KI for their <attr> form
@@ -8041,7 +8044,7 @@ LEXICON Adjectives
 жалпак:жалпак ADJ ;
 ! жалгыз:жалгыз ADJ ;
 кошуламалуу:кошуламалуу ADJ ;
-бирдей:бирдей ADJ ;
+! бирдей:бирдей ADJ ;
 сары% күрөн ADJ ;
 жактоочу:жактоочу ADJ ;
 ыңгайлуу:ыңгайлуу ADJ ;
@@ -8187,7 +8190,7 @@ LEXICON Adjectives
 адепсиз:адепсиз ADJ ;
 оң:оң ADJ ;
 момун:момун ADJ ;
-бирдей:бирдей ADJ ;
+! бирдей:бирдей ADJ ;
 миосен:миосен ADJ ;
 алсыз:алсыз ADJ ;
 улуттар% аралык ADJ ;
@@ -10057,11 +10060,11 @@ LEXICON Punctuation
 !=============================================================================!
 ! To be checked and moved to the correct continuation lexica
 !=============================================================================!
-
-LEXICON TO-REMOVE 
-
+!
+!LEXICON TO-REMOVE 
+!
 ! ошентип:ошентип ADV ; ! Dir/RL
-
+!
 ! эчки:эчки N ; ! Dir/RL
 ! эскирген:эскирген ADJ ; ! Dir/RL
 ! эң% чоң ADJ ; ! Dir/RL
@@ -10074,7 +10077,7 @@ LEXICON TO-REMOVE
 ! жалгыз:жалгыз ADJ ; ! Dir/RL
 ! беркиси:беркиси ADJ ; ! Dir/RL
 ! бактылуу:бактылуу ADJ ; ! Dir/RL
-
+!
 ! этникалык:этникалык N-INFL ; ! Dir/RL
 ! эрте:эрте N-INFL ; ! Dir/RL
 ! эпископ:эпископ N-INFL ; ! Dir/RL
@@ -10098,29 +10101,29 @@ LEXICON TO-REMOVE
 ! мом:мом N-INFL ; ! Dir/RL
 ! кыска N-INFL ; ! Dir/RL  ! FIXME: ADJ
 ! күчү N-INFL ; ! Dir/RL   ! FIXME: compositional
-котор:котор N-INFL ; ! Dir/RL
-коңгуроо:коңгуроо N-INFL ; ! Dir/RL
-көзөмөл% тобу:көзөмөл% тобу N-INFL ; ! Dir/RL
-керектүү:керектүү N-INFL ; ! Dir/RL
+! котор:котор N-INFL ; ! Dir/RL
+! коңгуроо:коңгуроо N-INFL ; ! Dir/RL
+! көзөмөл% тобу:көзөмөл% тобу N-INFL ; ! Dir/RL
+! керектүү:керектүү N-INFL ; ! Dir/RL
 ! иши N-INFL ; ! Dir/RL    ! FIXME: compositional
-жол% багыты:жол% багыты N-INFL ; ! Dir/RL
-жан% сакчы:жан% сакчы N-INFL ; ! Dir/RL
+! жол% багыты:жол% багыты N-INFL ; ! Dir/RL
+! жан% сакчы:жан% сакчы N-INFL ; ! Dir/RL
 ! жаман N-INFL ; ! Dir/RL  ! FIXME: ADJ
 ! жалпы N-INFL ; ! Dir/RL  ! FIXME: ADJ
-документалдуу% тасма:документалдуу% тасма N-INFL ; ! Dir/RL
-гелин:гелин N-INFL ; ! Dir/RL
+! документалдуу% тасма:документалдуу% тасма N-INFL ; ! Dir/RL
+! гелин:гелин N-INFL ; ! Dir/RL
 ! бүтүн N-INFL ; ! Dir/RL
-бири-бир N-INFL ; ! Dir/RL
-бирдей:бирдей N-INFL ; ! Dir/RL
+! бири-бир N-INFL ; ! Dir/RL
+! бирдей:бирдей N-INFL ; ! Dir/RL
 ! башкы% эпископ:башкы% эпископ N-INFL ; ! Dir/RL ! FIXME: compositional
-байланыштуу:байланыштуу N-INFL ; ! Dir/RL
-байкалган:байкалган N-INFL ; ! Dir/RL
+! байланыштуу:байланыштуу N-INFL ; ! Dir/RL
+! байкалган:байкалган N-INFL ; ! Dir/RL
 ! айуу N-INFL ; ! Dir/RL  ! FIXME: spelled аюу
-аз:аз N-INFL ; ! Dir/RL
+! аз:аз N-INFL ; ! Dir/RL
 ! адабий N-INFL ; ! Dir/RL  ! FIXME: ADJ
 ! автономиялуу N-INFL ; ! Dir/RL  ! FIXME: regular adjectival form
-
-
-бы%<qst%>:бы V-PERS-COP ; ! Dir/RL ! CHECK
-бы%<qst%>:бы # ; ! Dir/RL ! CHECK
+!
+!
+!бы%<qst%>:бы V-PERS-COP ; ! Dir/RL ! CHECK
+!бы%<qst%>:бы # ; ! Dir/RL ! CHECK
 
