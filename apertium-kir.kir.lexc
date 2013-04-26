@@ -317,6 +317,9 @@ LEXICON N-INFL-SG  ! nouns with no/irregular plural
 %<n%>%<attr%>: ATTR ;
 %<n%>: POSSESSION ;
 
+LEXICON N-INFL-PL  ! for irregular plurals
+%<n%>%<pl%>: POSSESSION ;
+
 LEXICON N-INFL      ! Nouns that have a LUU attributive form
 
 !%<n%>%<attr%>:%>%{L%}%{U%}%{U%} ATTR ;
@@ -1768,7 +1771,7 @@ LEXICON Nouns
 байрак:байрак N-INFL ; 
 бакыт:бакыт N-INFL ; 
 бала:бала N-INFL-SG ; ! "child"
-бала%<n%>%<pl%>:балдар POSSESSION ; ! "children"
+бала:балдар N-INFL-PL ; ! "children"
 балдыз:балдыз N-INFL ; 
 балта:балта N-INFL ; 
 балтыркан:балтыркан N-INFL ; 
