@@ -75,7 +75,7 @@ Multichar_Symbols
 %<org%>     ! Organisation name
 
 %<frm%>     ! Formal
- 
+
 %<dem%>     ! Demonstrative
 %<neg%>     ! Negative
 %<exi%>     ! Existential
@@ -84,6 +84,7 @@ Multichar_Symbols
 %<mod_foc%> ! "what about ..." question particle
 %<mod_ass%> ! assumption-that-interlocutor-knows-something modal particle
 %<mod_tru%> ! assumption-that-statement-is-true modal particle
+%<mod_ind%> ! Indefinite modal particle (expresses doubt)
 
 %<pst%>     ! Positive level of comparison
 %<comp%>    ! Comparative level of comparison 
@@ -116,7 +117,7 @@ Multichar_Symbols
 
 %<gna_perf%>
 %<gna_prp%>
-%<gna_cnd%>
+%<gna_cond%>
 %<gna_ala%>   ! "as long as"
 
 %<ger_fut%>
@@ -143,7 +144,7 @@ Multichar_Symbols
 
 %<pres%>    ! Present tense
 %<aor%>     ! Aorist, -E
-%<cond%>    ! Conditional, -сA
+! %<cond%>    ! Conditional, -сA
 %<opt%>     ! Optative, -мAк>чI
 %<past%>    ! Past tense
 %<pih%>     ! Past habitual
@@ -573,6 +574,11 @@ LEXICON DET-QNT
 
 %<det%>%<qnt%>: # ;
 
+LEXICON DET-REF
+
+%<det%>%<ref%>: # ;
+
+
 LEXICON NumeralList
 
 %0 NumeralLoop ;
@@ -796,6 +802,12 @@ LEXICON PRON-QNT
 %<prn%>%<qnt%>: POSSESSION ;
 %<prn%>%<qnt%>%<pl%>:%>%{L%}%{A%}р POSSESSION ;
 
+
+LEXICON PRN-NEG
+
+%<prn%>%<neg%>: CASES ;
+
+
 LEXICON PRON-RECIP
 
 !%<prn%>%<recip%>: CASES ;
@@ -826,6 +838,7 @@ LEXICON V-CLIT-OTHER
 %+чы%<mod_foc%>:%>ч%{I%} # ;
 %+го%<mod_ass%>:% го # ;
 %+да%<mod_tru%>:% да # ;
+%+дыр%<mod_ind%>:%>%{D%}%{I%}р # ;   ! FIXME: twol size acts like this is causative
 !%го%<mod_ass%>:го # ;
 !%да%<mod_tru%>:да # ;
 # ;
@@ -940,7 +953,8 @@ LEXICON V-INFL-NON-FINITE-IRREG
 
 ! Participles
 %<prc_vol%>:%>%{G%}%{I%} VOL-ENDINGS ;     ! no negative form
-%<prc_real%>:%>%{I%}п # ;
+! %<prc_real%>:%>%{I%}п # ;
+%<prc_perf%>:%>%{I%}п # ;
 %<neg%>%<prc_real%>:%>%{B%}%{A%}%>%{E%} # ;
 
 ! Verbal adverbs
@@ -977,7 +991,7 @@ LEXICON V-INFL-NON-FINITE-REG
 
 ! Verbal adverbs
 %<gna_prp%>:%>%{G%}%{A%}н%{I%} # ;  ! rare IS
-%<gna_cnd%>:%>с%{A%} V-PERS-COND ;
+%<gna_cond%>:%>с%{A%} V-PERS-COND ;
 
 ! Gerunds
 %<ger_past%>:%>%{G%}%{A%}н GER-INFL ; ! <coop> IS only ?
@@ -1085,6 +1099,17 @@ LEXICON V-INFL-TV
 %<v%>%<tv%>%<caus%>%<pass%>:%>%{D%}%{I%}р%>%{I%}%{l%} V-INFL-COMMON ;                             
 %<v%>%<tv%>%<pass%>%<caus%>:%>%{I%}%{l%}%>%{D%}%{I%}р V-INFL-COMMON ;                             
 
+LEXICON V-INFL-TV-NOPASS
+
+%<v%>%<tv%>: V-INFL-COMMON ;
+! %<v%>%<tv%>%<caus%>:%>%{D%}%{I%}р V-INFL-COMMON ;
+
+LEXICON V-INFL-TV-PASS
+
+%<v%>%<tv%>%<pass%>: V-INFL-COMMON ;
+%<v%>%<tv%>%<pass%>%<caus%>:%>%{D%}%{I%}р V-INFL-COMMON ;
+
+
 LEXICON V-INFL-IV
 
 %<v%>%<iv%>: V-INFL-COMMON ;
@@ -1119,12 +1144,6 @@ LEXICON VAUX-ELE
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!                  L E X I C O N    E N T R I E S                         !!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-
-LEXICON Copula
-
-э%<cop%>%<ger%>:экен POSSESSION ;
-э%<cop%>%<ger_perf%>:экен%>%{L%}%{I%}к POSSESSION ;
-э%<cop%>%<ifi%>:эле V-PERS-PAST ;
 
 LEXICON Particles 
 
@@ -1190,7 +1209,7 @@ LEXICON Conjunctions
 ал% эмес:ал% эмес CA ;
 бул% эле% эмес:бул% эле% эмес CA ;
 кааласа:кааласа CA ;
-демек:демек CA ;
+демек:демек CA ;  ! FIXME: check; is this different from the IJ?
 анда:анда CA ;
 башкача% айтканда:башкача% айтканда CA ;
 тактап% айтканда:тактап% айтканда CA ;
@@ -1331,6 +1350,8 @@ LEXICON Determiners
 бир% канча% даана:бир% канча% даана DET-QNT ;
 !берки DET-IND ;
 
+өз:өз DET-REF ; ! "oneself's"
+
 LEXICON Pronouns
 
 мен%<prn%>%<pers%>%<p1%>%<sg%>:м PRON-PERS-EN ; 
@@ -1351,7 +1372,7 @@ LEXICON Pronouns
 эмне:эмне PRON-ITG ; ! "what?"
 кайсыны:кайсыны PRON-ITG ; ! "which one?"
 ким:ким PRON-ITG ; ! "who?"
-кайда:кайда PRON-ITG ; ! "where?"  ! FIXME: doesn't take possession or cases!!!!  is <loc> of кай<det>!!
+! кайда:кайда PRON-ITG ; ! "where?"  ! FIXME: doesn't take possession or cases!!!!  is <loc> of кай<det>!!
 
 өз:өз PRON-REFL ; ! "own/self"
 ! бул% жер PRON-DEM ;  ! compositional
@@ -1395,6 +1416,7 @@ LEXICON Pronouns
 ! but its use beyond 7 is extremely rare
 ! and is of questionable grammaticality
 
+эч% нерсе:эч% нерсе PRN-NEG ; ! "nothing"
 
 LEXICON Numerals 
 
@@ -4061,7 +4083,6 @@ LEXICON Nouns
 бийлик:бийлик N-INFL ; 
 ынкылаб:ынкылаб N-INFL ; 
 фразеология:фразеология N-INFL ; 
-көңүл:көңүл N-INFL ; 
 дилбар:дилбар N-INFL ; 
 тилек:тилек N-INFL ; ! "wish"
 тил:тил N-INFL ; 
@@ -4240,7 +4261,6 @@ LEXICON Nouns
 көлөкө:көлөкө N-INFL ; 
 көл:көл N-INFL ; 
 желек:желек N-INFL ; 
-көңүл:көңүл N-INFL ; 
 милдет:милдет N-INFL ; 
 адеп:адеп N-INFL ; 
 ой-пикир N-INFL ; 
@@ -4303,7 +4323,6 @@ LEXICON Nouns
 ката:ката N-INFL ; 
 линия:линия N-INFL ; 
 хатип:хатип N-INFL ; 
-көңүл:көңүл N-INFL ; 
 абаа:абаа N-INFL ; 
 сабиз:сабиз N-INFL ; 
 кыял:кыял N-INFL ; 
@@ -4759,7 +4778,7 @@ LEXICON Nouns
 билдирүү:билдирүү N-INFL ;
 маалымдоо:маалымдоо N-INFL ;
 чоку:чоку N-INFL ;
-өзү:өзү N-INFL ;
+! өзү:өзү N-INFL ;
 ишкерлик:ишкерлик N-INFL ;
 ишке% киришүү:ишке% киришүү N-INFL ;
 тур:тур N-INFL ;
@@ -6502,6 +6521,7 @@ LEXICON Nouns
 коңгуроо:коңгуроо N-INFL ; ! "bell"
 сакчы:сакчы N-INFL ; ! CHECK
 документалдуу% тасма:документалдуу% тасма N-INFL ; ! FIXME: Compositional
+тыбыш:тыбыш N-INFL ; ! "speech sound"
 
 
 !! these are nouns that take -KI for their <attr> form
@@ -8321,6 +8341,7 @@ LEXICON Adjectives
 эгемендүү:эгемендүү ADJ ; ! CHECK
 ыйгарымдуу:ыйгарымдуу ADJ ; ! CHECK
 жашаар:жашаар ADJ ; ! "X year-old"
+көңүлдүү:көңүлдүү ADJ ; ! "cheerful"
 
 
 
@@ -8330,7 +8351,7 @@ LEXICON Adverbs
 качан:качан ADV-ITG ; ! "when"
 кандай:кандай ADV-ITG ; ! "how"
 кандайча:кандайча ADV-ITG ; ! "howso"
-кайда:кай%<loc%> ADV-ITG ; ! "where"
+кайда:кайда ADV-ITG ; ! "where"
 
 ! бери ADV ; ! "since" +abl -- see bdix
 али:али ADV ; ! "still"
@@ -8624,8 +8645,8 @@ v
 
 эми:эми ADV-WITH-ABL ;
 эми:эм ADV-KI ; ! "next/soon-to-be"
-эми:эмди ADV-WITH-KI ! dialectal form    ! Dir/LR
-эми:эмди ADV-ABL-REG ! dialectal form    ! Dir/LR
+эми:эмди ADV-WITH-KI ; ! dialectal form    ! Dir/LR
+эми:эмди ADV-ABL-REG ; ! dialectal form    ! Dir/LR
 ! эмди ADV-WITH-KI-ABL ; ! "next/soon-to-be"
 эмдигиче:эмдигиче ADV ; ! "until now"
 
@@ -8669,12 +8690,17 @@ v
 ! заман ADV-WITH-KI ; ! ??
 
 
-
-LEXICON Verbs
+LEXICON Copula
 
 э%<cop%>%<neg%>:эмес V-PERS-COP-SUF ; 
 э%<cop%>%<evid%>:экен V-PERS-COP-SUF ; 
 э%<cop%>%<neg%>%<evid%>:эмес% экен V-PERS-COP-SUF ; 
+э%<cop%>%<ger_past%>:экен POSSESSION ;
+э%<cop%>%<ger_perf%>:экен%>%{L%}%{I%}к POSSESSION ;
+э%<cop%>%<ifi%>:эле V-PERS-PAST ;
+
+
+LEXICON Verbs
 
 кел%<v%>%<iv%>%<prt_impf%>%+жат%<vaux%>:келат V-INFL-COMMON ;  ! Dir/LR
 бар%<v%>%<iv%>%<prt_impf%>%+жат%<vaux%>:барат V-INFL-COMMON ; ! Dir/LR
@@ -8753,7 +8779,6 @@ LEXICON Verbs
 ич:ич V-INFL-TV ; ! "drink"
 кара:кара V-INFL-IV ; 
 кара:кара V-INFL-TV ;
-көрүн:көрүн V-INFL-TV ;
 кат:кат V-INFL-TV ; 
 
 зыян% кел:зыян% кел V-INFL-IV-NO-CAUS ; ! "for harm to come"
@@ -8912,7 +8937,8 @@ LEXICON Verbs
 көч:көч V-INFL-IV-NO-CAUS ; ! "move"
 көч:көчүр V-INFL-IV-IRREG-CAUS ; ! "make move"
 
-көр:көр V-INFL-TV ; ! "see"
+көр:көр V-INFL-TV-NOPASS ; ! "see"
+көр:көрүн V-INFL-TV-PASS ; ! "be seen"
 көрсөт:көрсөт V-INFL-TV ; ! "show"
 көрсөт:көрсөт V-INFL-IV ;
 макта:макта V-INFL-TV ; ! "brag about"
@@ -9180,7 +9206,6 @@ LEXICON Verbs
 ичине% ал:ичине% ал V-INFL-TV ;
 ичине% камты:ичине% камты V-INFL-TV ;
 жокко% чыгар:жокко% чыгар V-INFL-TV ;
-көрүн:көрүн V-INFL-IV ;
 !жаз V-INFL-TV ;
 туу:туу V-INFL-TV ; ! "to bear young"
 !туул V-INFL-IV ; ! "to be born" (of non-humans) FIXME: productive
@@ -9205,6 +9230,7 @@ LEXICON Verbs
 тык:тык V-INFL-TV ;
 !сал V-INFL-TV ;
 жашыр:жашыр V-INFL-TV ;
+жашырын:жашырын V-INFL-IV ;
 бекит:бекит V-INFL-TV ;
 кат:кат V-INFL-TV ;
 кабарлаш:кабарлаш V-INFL-IV ;
@@ -9528,7 +9554,6 @@ LEXICON Verbs
 уяла:уяла V-INFL-IV ;
 сүйрө:сүйрө V-INFL-TV ;
 сөк:сөк V-INFL-TV ;
-көрүн:көрүн V-INFL-IV ;
 жет:жет V-INFL-TV ;
 тирил:тирил V-INFL-IV-NO-CAUS ;  ! "come to live"
 тирил:тирилт V-INFL-IV-IRREG-CAUS ;  ! "revive"
@@ -9956,6 +9981,8 @@ LEXICON Verbs
 ушинт:ушинт V-INFL-TV ;
 тигинт:тигинт V-INFL-IV ;
 тигинт:тигинт V-INFL-TV ;
+минт:минт V-INFL-IV ;
+минт:минт V-INFL-TV ;
 
 
 LEXICON Abbreviations
@@ -10006,6 +10033,7 @@ LEXICON Interjections
 болуптур:болуптур INTERJ ;
 анда:анда INTERJ ;
 андай% болсо:андай% болсо INTERJ ;
+демек:демек INTERJ ;
 
 LEXICON Nationalities
 казак:казак NAT ;  ! "Kazakh"
