@@ -1414,6 +1414,7 @@ LEXICON Pronouns
 башка:башка PRON-IND ; ! "other"  ! FIXME: DET
 баары:баары PRON-IND ; ! "everyone"  !!! This is an alternate of below
 баары:баар PRON-IND-POSS ; ! "everyone"
+бир% нерсе:бир% нерсе PRON-IND ; ! "something"
 
 ! FIXME: THESE ARE DET!!!
 кээ% бир:кээ% бир PRON-QNT ; ! "some"
