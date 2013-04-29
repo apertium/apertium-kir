@@ -860,6 +860,17 @@ V-CLIT-BI ;
 ! @D.NEG.1@%<p2%>%<frm%>%<pl%>:@D.NEG.1@%>%ң%{I%}зд%{A%}р PRED ;  
 ! %<p3%>%<pl%>:%>%{S%}%{I%} PRED ; 
 
+LEXICON V-PERS-COP-SUF-NOSG3
+
+%<p1%>%<sg%>:%>м%{I%}н V-CLIT ; 
+%<p2%>%<sg%>:%>с%{I%}ң V-CLIT ; 
+%<p2%>%<frm%>%<sg%>:%>с%{I%}з V-CLIT ; 
+%<p3%>%<sg%>: V-CLIT ;    ! P3 forms are null and look stupid
+%<p1%>%<pl%>:%>%{B%}%{I%}з V-CLIT ; 
+%<p2%>%<pl%>:%>с%{I%}ң%{A%}р V-CLIT ;  
+%<p2%>%<frm%>%<pl%>:%>с%{I%}зд%{A%}р V-CLIT ;  
+%<p3%>%<pl%>: V-CLIT ; ! P3 forms are null and look stupid
+
 LEXICON V-PERS-COP ! P_3
 
 %+э%<cop%>: V-PERS-COP-SUF-NOSG3 ; 
@@ -867,16 +878,6 @@ LEXICON V-PERS-COP ! P_3
 !%+э%<cop%>%<evid%>:% экен V-PERS-COP-SUF ; 
 !%+э%<cop%>%<neg%>%<evid%>:% эмес% экен V-PERS-COP-SUF ; 
 
-LEXICON V-PERS-COP-SUF-NOSG3
-
-%<p1%>%<sg%>:%>м%{I%}н V-CLIT ; 
-%<p2%>%<sg%>:%>с%{I%}ң V-CLIT ; 
-%<p2%>%<frm%>%<sg%>:%>с%{I%}з V-CLIT ; 
-!%<p3%>%<sg%>: V-CLIT ;    ! P3 forms are null and look stupid
-%<p1%>%<pl%>:%>%{B%}%{I%}з V-CLIT ; 
-%<p2%>%<pl%>:%>с%{I%}ң%{A%}р V-CLIT ;  
-%<p2%>%<frm%>%<pl%>:%>с%{I%}зд%{A%}р V-CLIT ;  
-!%<p3%>%<pl%>: V-CLIT ; 
 
 LEXICON V-PERS-COP-SUF 
 
@@ -8372,6 +8373,7 @@ LEXICON Adverbs
 бирге:бирге ADV ; ! "together"
 катуу:катуу ADV ; ! "fast/quickly (with verbs of motion), strongly"
 
+эч% качан:эч% качан ADV ; ! Use/MT
 негизинде:негизинде ADV ; ! "basically, in general"
 ! эртеси:эртеси ADV ; 
 өзүнчө:өзүнчө ADV ;  ! "by oneself"
