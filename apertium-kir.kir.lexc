@@ -130,15 +130,15 @@ Multichar_Symbols
 %<ger_notyet%>    ! Not-yet gerund, -E элек
 %<ger_ppot%>      ! Perfective(?) potential gerund
 
-%<glp_fut%>       ! verbal adjectives = глагольное прилагательное
-%<glp_pot2%>
-%<glp_perf%>
-%<glp_past%>
-%<glp%>
-%<glp_pot%>
-%<glp_impf%>
-%<glp_hab%>
-%<glp_notyet%>  ! Not-yet verbal adjective, -E элек
+%<gpr_fut%>       ! verbal adjectives = глагольное прилагательное
+%<gpr_pot2%>
+%<gpr_perf%>
+%<gpr_past%>
+%<gpr%>
+%<gpr_pot%>
+%<gpr_impf%>
+%<gpr_hab%>
+%<gpr_notyet%>  ! Not-yet verbal adjective, -E элек
 
 %<imp%>     ! imperative
 
@@ -995,11 +995,11 @@ LEXICON V-INFL-NON-FINITE-IRREG
 
 
 ! Verbal Adjectives
-%<glp_fut%>:%>%{A%}р V-ADJ ;
-%<glp_fut%>:%>%{A%}%{A%}р V-ADJ ;                            ! Dir/LR
-%<neg%>%<glp_fut%>:%>%{B%}%{A%}%>%с V-ADJ ;                  !
-%<neg%>%<glp_fut%>:%>%{B%}%{A%}%>%{A%}с V-ADJ ;              ! Dir/LR
-%<neg%>%<glp_pot2%>:%>%{G%}%{I%}с V-ADJ ;
+%<gpr_fut%>:%>%{A%}р V-ADJ ;
+%<gpr_fut%>:%>%{A%}%{A%}р V-ADJ ;                            ! Dir/LR
+%<neg%>%<gpr_fut%>:%>%{B%}%{A%}%>%с V-ADJ ;                  !
+%<neg%>%<gpr_fut%>:%>%{B%}%{A%}%>%{A%}с V-ADJ ;              ! Dir/LR
+%<neg%>%<gpr_pot2%>:%>%{G%}%{I%}с V-ADJ ;
 
 
 LEXICON V-INFL-NON-FINITE-REG
@@ -1024,12 +1024,12 @@ LEXICON V-INFL-NON-FINITE-REG
 %<ger_notyet%>:%>{E%}% элек GER-INFL ;
 
 ! Verbal adjectives 
-%<glp_past%>:%>%{G%}%{A%}н V-ADJ ;  ! <pl> IS okay
-%<glp%>:%>%{G%}%{A%}н V-ADJ ;  ! <pl> IS okay  ! both past (or perf?) and general
-%<glp_hab%>:%>ч%{U%} V-ADJ ;  ! <pl> IS okay
+%<gpr_past%>:%>%{G%}%{A%}н V-ADJ ;  ! <pl> IS okay
+%<gpr%>:%>%{G%}%{A%}н V-ADJ ;  ! <pl> IS okay  ! both past (or perf?) and general
+%<gpr_hab%>:%>ч%{U%} V-ADJ ;  ! <pl> IS okay
 !%<vadj_impf%>:%>%{E%}% турган V-ADJ ;       ! Done already by <prt_impf> тур<vaux><vadj_past>
-%<glp_pot%>:%>%{U%}%{U%}%>ч%{U%} V-ADJ ;
-%<glp_notyet%>:%>{E%}% элек V-ADJ ;
+%<gpr_pot%>:%>%{U%}%{U%}%>ч%{U%} V-ADJ ;
+%<gpr_notyet%>:%>{E%}% элек V-ADJ ;
 
 !  Imperatives
 
