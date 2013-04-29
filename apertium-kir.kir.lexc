@@ -815,7 +815,8 @@ LEXICON PRON-RECIP
 
 LEXICON PRON-COLL   ! "Collective"(?) pronouns
 
-%<prn%>%<coll%>: POSSESSION ;
+! %<prn%>%<coll%>: POSSESSION ;
+%<num%>%<coll%>%<subst%>: POSSESSION ;
 
 
 LEXICON PRED
@@ -1405,17 +1406,6 @@ LEXICON Pronouns
 бирин-бири PRON-RECIP ;   ! CHECK
 тиги:тиги PRON-DEM ;
 
-бир:бирөө PRON-COLL ;
-эки:экөө PRON-COLL ;
-үч:үчөө PRON-COLL ;
-төрт:төртөө PRON-COLL ;
-беш:бешөө PRON-COLL ;
-алты:алтоо PRON-COLL ;
-жети:жетөө PRON-COLL ;
-! Technically this goes on to higher numbers
-! but its use beyond 7 is extremely rare
-! and is of questionable grammaticality
-
 эч% нерсе:эч% нерсе PRN-NEG ; ! "nothing"
 
 LEXICON Numerals 
@@ -1453,6 +1443,16 @@ LEXICON Numerals
 он% алты:он% алты NUM ;
 бир% жарым:бир% жарым NUM ;
 
+бир:бирөө PRON-COLL ;
+эки:экөө PRON-COLL ;
+үч:үчөө PRON-COLL ;
+төрт:төртөө PRON-COLL ;
+беш:бешөө PRON-COLL ;
+алты:алтоо PRON-COLL ;
+жети:жетөө PRON-COLL ;
+! Technically this goes on to higher numbers
+! but its use beyond 7 is extremely rare
+! and is of questionable grammaticality
 
 
 I NUM-ROMAN ; ! ""
