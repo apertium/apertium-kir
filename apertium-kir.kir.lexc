@@ -80,11 +80,12 @@ Multichar_Symbols
 %<neg%>     ! Negative
 %<exi%>     ! Existential
 
-%<qst%>     ! Question modal particle
-%<mod_foc%> ! "what about ..." question particle
+%<qst%>     ! Question modal particle and "what about" focus particle
+!%<mod_foc%> ! "what about ..." question particle
 %<mod_ass%> ! assumption-that-interlocutor-knows-something modal particle
 %<mod_tru%> ! assumption-that-statement-is-true modal particle
 %<mod_ind%> ! Indefinite modal particle (expresses doubt)
+%<emph%>    ! Polite emphatic particle used with imperatives
 
 %<pst%>     ! Positive level of comparison
 %<comp%>    ! Comparative level of comparison 
@@ -850,12 +851,14 @@ LEXICON V-CLIT-BI
 !! Modal/discourse particles
 !!!!! %+бы%<qst%>:%>%{B%}%{I%} V-PERS-COP ; ! CHECK  !! CAUSING LOOPS!
 %+бы%<qst%>:%>%{B%}%{I%} # ;
+%+чы%<qst%>:%>ч%{I%} # ;
 
 LEXICON V-CLIT-OTHER
 
 %+беле%<qst%>:% беле # ;
 %+бекен%<qst%>:% бекен # ;
-%+чы%<mod_foc%>:%>ч%{I%} # ;
+!%+чы%<mod_foc%>:%>ч%{I%} # ;
+%+чы%<qst%>:%>ч%{I%} # ;
 %+го%<mod_ass%>:% го # ;
 %+да%<mod_tru%>:% да # ;
 %+дыр%<mod_ind%>:%>%{D%}%{I%}р # ;   ! FIXME: twol size acts like this is causative
@@ -1001,6 +1004,12 @@ LEXICON V-INFL-NON-FINITE-IRREG
 %<neg%>%<gpr_fut%>:%>%{B%}%{A%}%>%{A%}с V-ADJ ;              ! Dir/LR
 %<neg%>%<gpr_pot2%>:%>%{G%}%{I%}с V-ADJ ;
 
+LEXICON IMP
+!!! Stuff that can come after imperative forms !!!
+
+%+чы%<emph%>:%>ч%{I%} # ;
+# ;
+
 
 LEXICON V-INFL-NON-FINITE-REG
 
@@ -1033,24 +1042,24 @@ LEXICON V-INFL-NON-FINITE-REG
 
 !  Imperatives
 
-%<imp%>%<p2%>%<sg%>: # ;
-%<imp%>%<p2%>%<frm%>%<sg%>:%>%{I%}ң%{I%}з # ;
-%<imp%>%<p2%>%<frm%>%<sg%>:%>%{I%}ң # ;                      ! Dir/LR
-%<imp%>%<p2%>%<frm%>%<pl%>:%>%{I%}ң%{I%}з%>%{L%}%{A%}р # ;
+%<imp%>%<p2%>%<sg%>: IMP ;
+%<imp%>%<p2%>%<frm%>%<sg%>:%>%{I%}ң%{I%}з IMP ;
+%<imp%>%<p2%>%<frm%>%<sg%>:%>%{I%}ң IMP ;                      ! Dir/LR
+%<imp%>%<p2%>%<frm%>%<pl%>:%>%{I%}ң%{I%}з%>%{L%}%{A%}р IMP ;
 
 !  Optative/jussive forms
 
-%<opt%>%<p1%>%<sg%>:%>%{A%}й%{I%}н # ;
+%<opt%>%<p1%>%<sg%>:%>%{A%}й%{I%}н V-CLIT ;
 %<opt%>%<p2%>%<sg%>:%>%{G%}%{I%}н # ;
 %<opt%>%<p2%>%<frm%>%<sg%>:%>%{G%}%{I%}л%{A%} # ;
-%<opt%>%<p3%>%<sg%>:%>с%{I%}н # ;
-%<opt%>%<p1%>%<pl%>:%>%{E%}л%{I%} # ;
-%<opt%>%<p1%>%<pl%>:%>%{A%}йл%{I%} # ; ! Dir/LR
-%<opt%>%<p1%>%<pl%>:%>%{E%}л%{I%}к # ; ! Dir/LR  
-%<opt%>%<p1%>%<pl%>:%>%{A%}йл%{I%}к # ; ! Dir/LR
+%<opt%>%<p3%>%<sg%>:%>с%{I%}н V-CLIT ;
+%<opt%>%<p1%>%<pl%>:%>%{E%}л%{I%} V-CLIT ;
+%<opt%>%<p1%>%<pl%>:%>%{A%}йл%{I%} V-CLIT ; ! Dir/LR
+%<opt%>%<p1%>%<pl%>:%>%{E%}л%{I%}к V-CLIT ; ! Dir/LR  
+%<opt%>%<p1%>%<pl%>:%>%{A%}йл%{I%}к V-CLIT ; ! Dir/LR
 %<opt%>%<p2%>%<pl%>:%>%{G%}%{I%}л%{A%} # ;
 %<opt%>%<p2%>%<frm%>%<pl%>:%>%{G%}%{I%}л%{A%} # ;
-%<opt%>%<p3%>%<pl%>:%>с%{I%}н # ;
+%<opt%>%<p3%>%<pl%>:%>с%{I%}н V-CLIT ;
 
 
 LEXICON V-INFL-FINITE
@@ -1813,7 +1822,6 @@ LEXICON Nouns
 бадан:бадан N-INFL ; 
 бажа:бажа N-INFL ; 
 байрак:байрак N-INFL ; 
-бакыт:бакыт N-INFL ; 
 бала:бала N-INFL-SG ; ! "child"
 бала:балдар N-INFL-PL ; ! "children"
 балдыз:балдыз N-INFL ; 
@@ -1853,7 +1861,7 @@ LEXICON Nouns
 үй% бүлө:үй% бүлө N-INFL ; ! "family"
 бөбөк:бөбөк N-INFL ; 
 бөз:бөз N-INFL ; 
-гүл:гүл N-INFL ; 
+гүл:гүл N-INFL ; "flower"
 дарак:дарак N-INFL ; 
 дарек:дарек N-INFL ; 
 дене:дене N-INFL ; 
@@ -1911,16 +1919,14 @@ LEXICON Nouns
 таң:таң N-INFL ; ! "dawn"
 токой:токой N-INFL ; 
 тоо:тоо N-INFL ; ! "" 
-топ:топ N-INFL ; ! "ball"
+топ:топ N-INFL ; ! "ball; group"
 тор:тор N-INFL ; ! "net"
 туз:туз N-INFL ; ! "salt"
-төө:төө N-INFL ; ! "" 
+төө:төө N-INFL ; ! "camel" 
 унаа:унаа N-INFL ; ! "" 
 ууч:ууч N-INFL ; 
-үй:үй N-INFL ; ! "house"
-чака:чака N-INFL ; ! "bucket"
 чалап:чалап N-INFL ; 
-челек:челек N-INFL ; ! "bucket"
+челек:челек N-INFL ; ! "barrel"
 шекил:шекил N-INFL ; 
 шерменде:шерменде N-INFL ; 
 шилекей:шилекей N-INFL ; ! "" 
@@ -1934,7 +1940,7 @@ LEXICON Nouns
 өлкө:өлкө N-INFL ; ! "country, land"
 өсүмдүк:өсүмдүк N-INFL ; ! "plant"
 өтүнүч:өтүнүч N-INFL ; 
-өтүк:өтүк N-INFL ; ! "shoe"
+өтүк:өтүк N-INFL ; ! "boot"
 ручка:ручка N-INFL ; ! "pen"
 банк:банк N-INFL ; ! "bank"
 секретар:секретар N-INFL ; ! "secretary (man)"
@@ -1963,7 +1969,6 @@ LEXICON Nouns
 жыгач:жыгач N-INFL ; 
 дарак:дарак N-INFL ; 
 токой:токой N-INFL ; 
-гүл:гүл N-INFL ; 
 адаш:адаш N-INFL ; 
 адрес:адрес N-INFL ; 
 дарек:дарек N-INFL ; 
@@ -3465,7 +3470,6 @@ LEXICON Nouns
 тумар:тумар N-INFL ; 
 тон:тон N-INFL ; 
 тоннаж:тоннаж N-INFL ; 
-топ:топ N-INFL ; 
 топаз:топаз N-INFL ; 
 торпедо:торпедо N-INFL ; 
 тост:тост N-INFL ; 
@@ -3752,7 +3756,6 @@ LEXICON Nouns
 ооз:ооз N-INFL ; 
 август:август N-INFL ; 
 ахлак:ахлак N-INFL ; 
-үй:үй N-INFL ; 
 таандык:таандык N-INFL ; 
 агент:агент N-INFL ; 
 агенттик:агенттик N-INFL ; 
@@ -4009,7 +4012,6 @@ LEXICON Nouns
 чейрек:чейрек N-INFL ; 
 ! жаза N-INFL ; 
 сыздоок:сыздоок N-INFL ; 
-гүл:гүл N-INFL ; 
 токтоо:токтоо N-INFL ; 
 фермер:фермер N-INFL ; 
 боор:боор N-INFL ; 
@@ -4100,7 +4102,6 @@ LEXICON Nouns
 дастан:дастан N-INFL ; 
 колдоо:колдоо N-INFL ; 
 уланды:уланды N-INFL ; 
-төө:төө N-INFL ; 
 дөө:дөө N-INFL ; 
 бийлик:бийлик N-INFL ; 
 ынкылаб:ынкылаб N-INFL ; 
@@ -4301,7 +4302,6 @@ LEXICON Nouns
 күн:күн N-INFL ; ! "sun"
 кой:кой N-INFL ; ! "sheep"
 күрөш:күрөш N-INFL ; 
-топ:топ N-INFL ; 
 намыс:намыс N-INFL ; 
 көгүчкөн:көгүчкөн N-INFL ; 
 ажы:ажы N-INFL ; 
@@ -4805,7 +4805,6 @@ LEXICON Nouns
 ишке% киришүү:ишке% киришүү N-INFL ;
 тур:тур N-INFL ;
 дүң:дүң N-INFL ;
-топ:топ N-INFL ;
 ! бүтүн N-INFL ; ! ADJ
 мүчөө:мүчөө N-INFL ;
 азчылык:азчылык N-INFL ;
@@ -4873,7 +4872,6 @@ LEXICON Nouns
 тескери:тескери N-INFL ;
 артыкчылык:артыкчылык N-INFL ;
 биринчилик:биринчилик N-INFL ;
-эл:эл N-INFL ;
 режеп:режеп N-INFL ;
 алкак:алкак N-INFL ;
 жээк:жээк N-INFL ;
@@ -5159,7 +5157,6 @@ LEXICON Nouns
 жөндөм:жөндөм N-INFL ;
 жарыш:жарыш N-INFL ;
 курулуш:курулуш N-INFL ;
-топ:топ N-INFL ;
 кечигүү:кечигүү N-INFL ;
 басып% калуу:басып% калуу N-INFL ;
 чет% өлкө:чет% өлкө N-INFL ;
@@ -5730,7 +5727,6 @@ LEXICON Nouns
 татмин:татмин N-INFL ;
 тажоо:тажоо N-INFL ;
 көрүүчү:көрүүчү N-INFL ;
-эл:эл N-INFL ;
 текст:текст N-INFL ;
 ишеним% кат:ишеним% кат N-INFL ;
 критерий:критерий N-INFL ;
@@ -5801,7 +5797,6 @@ LEXICON Nouns
 коруучу:коруучу N-INFL ;
 түшүрүү:түшүрүү N-INFL ;
 археология:археология N-INFL ;
-туз:туз N-INFL ;
 көрөгөчтүк:көрөгөчтүк N-INFL ;
 мартини:мартини N-INFL ;
 алуу:алуу N-INFL ;
@@ -6397,7 +6392,6 @@ LEXICON Nouns
 ак-сакал N-INFL ;
 аксакал:аксакал N-INFL ; 
 эгер:эгер N-INFL ;
-өтүк:өтүк N-INFL ;
 вексель:вексель N-INFL ;
 бокс:бокс N-INFL ;
 атаандаш:атаандаш N-INFL ;
@@ -8726,7 +8720,7 @@ LEXICON Copula
 LEXICON Verbs
 
 кел%<v%>%<iv%>%<prt_impf%>%+жат%<vaux%>:келат V-INFL-COMMON ;  ! Dir/LR
-бар%<v%>%<iv%>%<prt_impf%>%+жат%<vaux%>:барат V-INFL-COMMON ; ! Dir/LR
+бар%<v%>%<iv%>%<prt_impf%>%+жат%<vaux%>:барат V-INFL-COMMON ;  ! Dir/LR
 
 жат:жат VAUX-INFL ; ! 
 жат:ат VAUX-INFL ; ! Dir/LR
