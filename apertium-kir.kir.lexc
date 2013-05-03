@@ -426,6 +426,7 @@ LEXICON A1
 
 LEXICON CLIT
 
+# ;
 V-CLIT ;
 
 LEXICON SUBST
@@ -7643,7 +7644,7 @@ LEXICON Adjectives
 эркек:эркек ADJ ; 
 мамлекеттик:мамлекеттик ADJ ; 
 белгилүү:белгилүү ADJ ; 
-көп:көп ADJ ; 
+көп:көп A1 ; 
 жашыл:жашыл ADJ ; 
 ишин% билген ADJ ; 
 өлүк:өлүк ADJ ; 
@@ -8392,7 +8393,7 @@ LEXICON Adverbs
 негизинде:негизинде ADV ; ! "basically, in general"
 ! эртеси:эртеси ADV ; 
 өзүнчө:өзүнчө ADV ;  ! "by oneself"
-көп:көп ADV ; 
+! көп:көп ADV ;  ! automatic
 ! жок ADV ; ! FIXME: adv?
 ар% дайым:ар% дайым ADV ; 
 ! төмөнкү ADV ;
