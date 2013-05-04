@@ -347,9 +347,16 @@ LEXICON N-INFL-NKI
 %<n%>:%{I%}ң KI ; 
 %<n%>: SUBST-COMMON ;
 
+LEXICON N-COMPOUND-PX-COMMON
+
+:%>%{S%}%{I%}%{n%} GEN-POS ;
+POSSESSION-ENDINGS ;  ! for stuff like "биздин аба ырайыбыз" and even "анын аба ырайы",
+                      ! which should have a <px3sp> analysis
+
+
 LEXICON N-INFL-3PX-COMPOUND
 
-%<n%>:%>%{S%}%{I%}%{n%} GEN-POS ;
+%<n%>: N-COMPOUND-PX-COMMON ;
 
 LEXICON GER-INFL
 
@@ -379,6 +386,10 @@ LEXICON NP-ANT-F
 LEXICON NP-ORG
 
 %<np%>%<org%>: POSSESSION ;
+
+LEXICON NP-ORG-COMPOUND
+
+%<np%>%<org%>: N-COMPOUND-PX-COMMON ;
 
 LEXICON NP-TOP-ASSR
 
@@ -6861,6 +6872,7 @@ Tеңир NP-TOP ; ! ""
 Серб% Аскери:Серб% Аскери NP-ORG ;
 КМУ:КМУ NP-ORG ;
 Киргизучпедгиз:Киргизучпедгиз NP-ORG ;
+Түркия% Абажолдору:Түркия% Абажолдор NP-ORG-COMPOUND ; ! "Turkish Airlines"
 
 Сарайбосня NP-AL;
 Нооруз:Нооруз NP-AL ; ! ""
