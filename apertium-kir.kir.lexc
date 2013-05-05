@@ -6872,7 +6872,8 @@ Tеңир NP-TOP ; ! ""
 Серб% Аскери:Серб% Аскери NP-ORG ;
 КМУ:КМУ NP-ORG ;
 Киргизучпедгиз:Киргизучпедгиз NP-ORG ;
-Түркия% Абажолдору:Түркия% Абажолдор NP-ORG-COMPOUND ; ! "Turkish Airlines"
+Түрк% Аба% Жолдору:Түрк% Аба% Жолдор NP-ORG-COMPOUND ; ! "Turkish Airlines"
+Боруссия% Дортмунд:Боруссия% Дортмунд NP-ORG ; ! "Borussia Dortmund"
 
 Сарайбосня NP-AL;
 Нооруз:Нооруз NP-AL ; ! ""
@@ -6960,6 +6961,10 @@ Tеңир NP-TOP ; ! ""
 Амос:Амос NP-ANT-M ; ! "Amos"
 Жунус:Жунус NP-ANT-M ; ! "Jonah"
 Филип:Филип NP-ANT-M ; ! "Philip"
+
+Боруссия:Боруссия NP-ANT-M ; ! ""
+Дортмунд:Дортмунд NP-COG-M ; ! ""
+
 
 Мария:Мария NP-ANT-F ; ! "Marija"
 Юлия:Юлия NP-ANT-F ; ! "Julija"
