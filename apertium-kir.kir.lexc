@@ -660,7 +660,8 @@ NUM-COMMON ;
 LEXICON NUM-ORDINAL
 
 ! FIXME: This should look more like in kaz.lexc probably
-%<num%>%<ord%>:%>%{I%}нч%{I%} # ;
+%<num%>%<ord%>:%>%{I%}нч%{I%} # ;                      ! base form, <det> reading
+%<num%>%<ord%>:%>%{I%}нч%{I%} SUBST-COMMON ;
 %<num%>%<ord%>%<advl%>:%>%{I%}нч%{I%} ADVL ;
 %<num%>%<ord%>%<subst%>:%>%{I%}нч%{I%} SUBST-COMMON ;  ! yes, they can be plural
 
