@@ -6881,6 +6881,9 @@ Tеңир NP-TOP ; ! ""
 Киргизучпедгиз:Киргизучпедгиз NP-ORG ;
 Түрк% Аба% Жолдору:Түрк% Аба% Жолдор NP-ORG-COMPOUND ; ! "Turkish Airlines"
 Боруссия% Дортмунд:Боруссия% Дортмунд NP-ORG ; ! "Borussia Dortmund"
+Барселона:Барселона NP-ORG; ! "Futbol Club Barcelona"
+Манчестер% Юнайтед:Манчестер% Юнайтед NP-ORG; ! "Manchester United Football Club"
+Бундеслига:Бундеслига NP-ORG; ! "Bundesliga"
 
 Сарайбосня NP-AL;
 Нооруз:Нооруз NP-AL ; ! ""
@@ -10100,6 +10103,7 @@ LEXICON Nationalities
 калмак:калмак NAT ; ! "Kalmyk"
 кытай:кытай NAT ; ! "Chinese"
 латын:латын NAT ; ! "Latin"
+немис:немис NAT ; ! "German"
 дунган:дунган NAT ; ! "Dungan"
 дунган:дуңган NAT ; ! "Dungan"     ! Dir/LR
 
