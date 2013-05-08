@@ -214,7 +214,7 @@ Verbs ;
 Punctuation ;
 Interjections ;
 Abbreviations ;
-Nationalities ;
+! Nationalities ;
 ! TO-REMOVE ;
 
 
@@ -6560,10 +6560,49 @@ LEXICON Nouns
 ынтымак:ынтымак N-INFL ; ! "unity"
 ынтымакташтык:ынтымакташтык N-INFL ; ! "commonweal"
 
+!!!!!! Nationalities  !!!!!!!
+казак:казак NAT ;  ! "Kazakh"
+татар:татар NAT ;  ! "Tatar"
+моңгол:моңгол NAT ;  ! "Mongol"
+моңгол:монгол NAT ;  ! "Mongol"    ! Dir/LR
+дуңган:дуңган NAT ;  ! "Dungan"
+кыргыз:кыргыз NAT ; ! "Kyrgyz"
+түрк:түрк NAT ; ! "Turkish"
+! кыргызча ADJ ; ! This should be automatically generated
+орус:орус NAT ; ! "Russian"
+булгар:булгар NAT ; ! "Bulgarian"
+грек:грек NAT ; ! "Greek"
+еврей:еврей NAT ; ! "Jewish"
+арап:арап NAT ; ! "Arab"
+өзбөк:өзбөк NAT ; ! "Uzbek"
+тажик:тажик NAT ; ! "Tajik"
+украин:украин NAT ; ! "Ukranian"
+калмак:калмак NAT ; ! "Kalmyk"
+кытай:кытай NAT ; ! "Chinese"
+латын:латын NAT ; ! "Latin"
+немис:немис NAT ; ! "German"
+дунган:дунган NAT ; ! "Dungan"
+дунган:дуңган NAT ; ! "Dungan"     ! Dir/LR
 
+америка:америка NAT ; ! "American"
+! америка:американдык NAT ; ! FIXME: this form works in addition to "америкалык"
+
+испан:испан NAT ; ! "Spanish"
+
+! италия:италиялык NAT ; ! FIXME: "Italian" has the lemma "италия"
+
+англис:англис NAT ; ! "English"
+! англиялык:англис NAT ;  ! FIXME: "English the language" has an irregular lemma
+! англиялык:аңглис NAT ;  ! "English the language"
+! англиялык NAT ;  ! "English"
+
+француз:француз NAT ; ! "French"  ! FIXME
+! француз:франциялык NAT ; ! "French"
+
+
+!!!!!!! KI nouns !!!!!!!!!
 !! these are nouns that take -KI for their <attr> form
-! баш N-KI ; ! "principle"
-башкы:башкы ADJ ; ! "principle"  ! we're going to just let this be a fixed form, since баштуу is the ATTR form of баш
+!! e.g., күз/күзгү
 күз:күз N-INFL-KI ; ! "fall"/"fall-time"
 кыш:кыш N-INFL-KI ; ! "winter"/"wintery"
 жаз:жаз N-INFL-KI ; ! "spring"/"spring-time"
@@ -6592,6 +6631,10 @@ LEXICON Nouns
 үст:үст N-INFL-NKI ; ! "top", "upper"
 орто:орто N-INFL-NKI ; ! "middle/center", "central"
 арт:арт N-INFL-NKI ; ! "back", "rear"
+
+! баш N-KI ; ! "principle"
+башкы:башкы ADJ ; ! "principle"  ! we're going to just let this be a fixed form, since баштуу is the ATTR form of баш
+
 
 
 LEXICON ProperNouns
@@ -7640,7 +7683,6 @@ LEXICON Adjectives
 түрдүү:түрдүү ADJ ; 
 радикалдуу:радикалдуу ADJ ; 
 мүмкүн:мүмкүн ADJ ; 
-немис:немис ADJ ; 
 техникалуу:техникалуу ADJ ; 
 туура:туура ADJ ; 
 оор:оор ADJ ; 
@@ -10083,45 +10125,6 @@ LEXICON Interjections
 анда:анда INTERJ ;
 андай% болсо:андай% болсо INTERJ ;
 демек:демек INTERJ ;
-
-LEXICON Nationalities
-казак:казак NAT ;  ! "Kazakh"
-татар:татар NAT ;  ! "Tatar"
-моңгол:моңгол NAT ;  ! "Mongol"
-моңгол:монгол NAT ;  ! "Mongol"    ! Dir/LR
-дуңган:дуңган NAT ;  ! "Dungan"
-кыргыз:кыргыз NAT ; ! "Kyrgyz"
-түрк:түрк NAT ; ! "Turkish"
-! кыргызча ADJ ; ! This should be automatically generated
-орус:орус NAT ; ! "Russian"
-булгар:булгар NAT ; ! "Bulgarian"
-грек:грек NAT ; ! "Greek"
-еврей:еврей NAT ; ! "Jewish"
-арап:арап NAT ; ! "Arab"
-өзбөк:өзбөк NAT ; ! "Uzbek"
-тажик:тажик NAT ; ! "Tajik"
-украин:украин NAT ; ! "Ukranian"
-калмак:калмак NAT ; ! "Kalmyk"
-кытай:кытай NAT ; ! "Chinese"
-латын:латын NAT ; ! "Latin"
-немис:немис NAT ; ! "German"
-дунган:дунган NAT ; ! "Dungan"
-дунган:дуңган NAT ; ! "Dungan"     ! Dir/LR
-
-америка:америка NAT ; ! "American"
-! америка:американдык NAT ; ! FIXME: this form works in addition to "америкалык"
-
-испан:испан NAT ; ! "Spanish"
-
-! италия:италиялык NAT ; ! FIXME: "Italian" has the lemma "италия"
-
-англис:англис NAT ; ! "English"
-! англиялык:англис NAT ;  ! FIXME: "English the language" has an irregular lemma
-! англиялык:аңглис NAT ;  ! "English the language"
-! англиялык NAT ;  ! "English"
-
-француз:француз NAT ; ! "French"  ! FIXME
-! француз:франциялык NAT ; ! "French"
 
 
 LEXICON Punctuation
