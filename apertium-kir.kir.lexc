@@ -421,19 +421,22 @@ LEXICON ADJ-LEVELS
 
 ! %<pst%>: # ;
 # ;
-%<comp%>:%>%{I%}р%{A%}%{A%}к # ;
-%<comp%>:%>%{I%}р%{A%}к # ;        ! Dir/LR
+%<comp%>:%>%{I%}р%{A%}%{A%}к CLIT ;
+%<comp%>:%>%{I%}р%{A%}к CLIT ;        ! Dir/LR
 
 LEXICON A1
 
 %<adj%>: CLIT ;                                       !# жақсы адам
-%<adj%>%<comp%>:%>%{I%}р%{A%}%{K%} CLIT ;             !# жақсырақ іс
+%<adj%>%<comp%>:%>%{I%}р%{A%}%{A%}к CLIT ;            !# жақсырақ іс
+%<adj%>%<comp%>:%>%{I%}р%{A%}к CLIT ;                 ! Dir/LR
 
 %<adj%>%<subst%>: SUBST ;                             !# жақсыны таптым
-%<adj%>%<comp%>%<subst%>:%>%{I%}р%{A%}%{K%} SUBST ;   !# жақсырақты таптым
+%<adj%>%<comp%>%<subst%>:%>%{I%}р%{A%}%{A%}к SUBST ;  !# жақсырақты таптым
+%<adj%>%<comp%>%<subst%>:%>%{I%}р%{A%}к SUBST ;       ! Dir/LR
 
 %<adj%>%<advl%>: CLIT ;                               !# жақсы білемін
-%<adj%>%<comp%>%<advl%>:%>%{I%}р%{A%}%{K%} CLIT ;     !# "...ион көп болса соғұрлым тоқ жақсырақ өтеді."
+%<adj%>%<comp%>%<advl%>:%>%{I%}р%{A%}%{A%}к CLIT ;    !# "...ион көп болса соғұрлым тоқ жақсырақ өтеді."
+%<adj%>%<comp%>%<advl%>:%>%{I%}р%{A%}к CLIT ;         ! Dir/LR
 
 LEXICON CLIT
 
