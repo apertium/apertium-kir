@@ -1031,6 +1031,7 @@ LEXICON V-INFL-NON-FINITE-REG
 %<prc_prp%>:%>%{G%}%{A%}н%{I%} # ;  ! rare IS
 %<prc_impf%>:%>%{E%} # ;   ! rare IS
 %<prc_irre%>:%>%{E%}т # ;
+%<prc_cond%>:%>с%{A%} V-PERS-COND ;
 
 ! Verbal adverbs
 %<gna_prp%>:%>%{G%}%{A%}н%{I%} # ;  ! rare IS
@@ -1204,6 +1205,7 @@ LEXICON Postadverbs
 дагы:дагы POSTADV ; ! "... дагы" = "and ... too"
 ашуун:ашуун POSTADV ; ! "more than"
 ашык:ашык POSTADV ; ! "more than"
+тең:тең POSTADV ; ! "~both" e.g., экөө тең
 
 LEXICON Conjunctions 
 
@@ -7728,7 +7730,7 @@ LEXICON Adjectives
 нымдуу:нымдуу ADJ ;
 жарым:жарым ADJ ;
 ! бир ADJ ;
-тунук:тунук ADJ ;
+тунук:тунук A1 ;
 кедей:кедей ADJ ;
 улуу:улуу ADJ ;
 бийик:бийик ADJ ;
@@ -8390,6 +8392,7 @@ LEXICON Adverbs
 
 ! бери ADV ; ! "since" +abl -- see bdix
 али:али ADV ; ! "still"
+дагы% эле:дагы% эле ADV ; ! "still"
 өтө:өтө ADV ; ! "very"
 мисалы:мисалы ADV ; ! "for example"
 улам:улам ADV ; ! "???"
