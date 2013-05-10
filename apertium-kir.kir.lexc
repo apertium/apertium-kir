@@ -6053,6 +6053,7 @@ LEXICON Nouns
 квота:квота N-INFL ;
 катар:катар N-INFL ;
 машыктыргыч:машыктыргыч N-INFL ;
+машыктыруучу:машыктыруучу N-INFL; ! "coach"
 курал-жарак% склад N-INFL ;
 бидет:бидет N-INFL ;
 уч:уч N-INFL ;
@@ -6916,6 +6917,10 @@ Tеңир NP-TOP ; ! ""
 Египет:Египет NP-TOP ; ! "Egypt"
 Ниневия:Ниневия NP-TOP ; ! "Nineva"
 
+! Stadium names
+!-----------------
+Сигнал% Идуна% Парк:Сигнал% Идуна% Парк NP-TOP; ! "Signal Iduna Park football stadium"
+
 Кыргызмамбас:Кыргызмамбас NP-ORG ; ! ""
 Киргизгосиздат:Киргизгосиздат NP-ORG ; ! "" (ru)
 Ленинчил:Ленинчил NP-ORG ; ! "" 
@@ -7016,8 +7021,10 @@ Tеңир NP-TOP ; ! ""
 Жунус:Жунус NP-ANT-M ; ! "Jonah"
 Филип:Филип NP-ANT-M ; ! "Philip"
 
-Боруссия:Боруссия NP-ANT-M ; ! ""
-Дортмунд:Дортмунд NP-COG-M ; ! ""
+Темел:Темел NP-ANT-M ; ! "Temel (Turkish name)"
+Юрген:Юрген NP-ANT-M; ! "Jürgen (German name)"
+Ханс:Ханс NP-ANT-M; ! "Hans (German name)"
+Иохим:Иохим NP-ANT-M; ! "Joachim (German name)"
 
 
 Мария:Мария NP-ANT-F ; ! "Marija"
@@ -7038,6 +7045,9 @@ Tеңир NP-TOP ; ! ""
 Айша:Айша NP-ANT-F ;
 Толгонай:Толгонай NP-ANT-F ;
 
+Котил:Котил NP-COG-M ; ! "Kotil (Turkish surname)"
+Клоп:Клоп NP-COG-M ; ! "Klopp (German surname)"
+Ватзке:Ватзке NP-COG-M; ! "Watzke (German surname)"
 Солтоноев:Солтоноев NP-COG-M ;
 Чороев:Чороев NP-COG-M ;
 Бен% Ладен:Бен% Ладен NP-COG-M ; ! "Bin Laden"
@@ -9140,7 +9150,7 @@ LEXICON Verbs
 сиңир:сиңир V-INFL-TV ;
 уч:уч V-INFL-IV ;
 өп:өп V-INFL-TV ; ! "to kiss"
-катыш:катыш V-INFL-TV ;
+катыш:катыш V-INFL-IV ;
 кат:кат V-INFL-IV-NO-CAUS ; ! "to get hard"
 кат:катыр V-INFL-IV-IRREG-CAUS ; ! "to make hard"
 сарсанаа% тарт:сарсанаа% тарт V-INFL-TV ;
