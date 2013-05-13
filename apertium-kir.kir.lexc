@@ -5326,10 +5326,6 @@ LEXICON Nouns
 кол% тийбестик:кол% тийбестик N-INFL ;
 үмүт% кылынган:үмүт% кылынган N-INFL ;
 салуу:салуу N-INFL ;
-<<<<<<< .mine
-аба% жол:аба% жол N-INFL ;
-=======
->>>>>>> .r44335
 дарыя:дарыя N-INFL ;
 кошуна:кошуна N-INFL ;
 коомдук% пикир:коомдук% пикир N-INFL ;
@@ -6936,11 +6932,11 @@ Tеңир NP-TOP ; ! ""
 Киргизучпедгиз:Киргизучпедгиз NP-ORG ;
 Түрк% Аба% Жолдору:Түрк% Аба% Жолдор NP-ORG-COMPOUND ; ! "Turkish Airlines"
 Боруссия% Дортмунд:Боруссия% Дортмунд NP-ORG ; ! "Borussia Dortmund"
-Байер% Мюнхен:Байер% Мюнхен%{☭%} NP-ORG ; ! "FC Bayern München"
+Байер% Мюнхен:Байер% Мюнхен NP-ORG ; ! "FC Bayern München"
 Барселона:Барселона NP-ORG; ! "Futbol Club Barcelona"
 Манчестер% Юнайтед:Манчестер% Юнайтед NP-ORG; ! "Manchester United Football Club"
 Бундеслига:Бундеслига NP-ORG; ! "Bundesliga"
-Чемпиондор% лигасы:Чемпиондор% лигасы NP-ORG ; ! "UEFA Champions League"
+Чемпиондор% лигасы:Чемпиондор% лига NP-ORG-COMPOUND ; ! "UEFA Champions League"
 Реал% Мадрид:Реал% Мадрид NP-ORG ; ! "Real Madrid Club de Fútbol"
 
 Сарайбосня NP-AL;
@@ -9486,7 +9482,7 @@ LEXICON Verbs
 түзөл:түзөл V-INFL-IV ;
 кыдыр:кыдыр V-INFL-IV ;
 маалыматтан:маалыматтан V-INFL-IV ;
-маалымда:маалымда V-INFL-TV ; "to inform"
+маалымда:маалымда V-INFL-TV ; ! "to inform"
 термелт:термелт V-INFL-TV ;
 планда:планда V-INFL-IV ;
 тая:тая V-INFL-TV ;
