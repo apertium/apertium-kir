@@ -1910,7 +1910,8 @@ LEXICON Nouns
 келесоо:келесоо N-INFL ; 
 кеме:кеме N-INFL ; ! "ship"
 китеп:китеп N-INFL ; ! "book"
-кол:кол N-INFL ; ! "hand"
+кол:кол N-INFL ; ! "hand, arm; signature"
+кол% тамга:кол% тамга N-INFL ; ! "autograph"
 короо:короо N-INFL ; ! ""
 коом:коом N-INFL ; ! "community"
 кыз:кыз N-INFL ; ! "girl"
@@ -2267,7 +2268,6 @@ LEXICON Nouns
 экспертиза:экспертиза N-INFL ; 
 экстра:экстра N-INFL ; 
 журт:журт N-INFL ; 
-кол:кол N-INFL ; 
 элек:элек N-INFL ; ! a sieve (?)
 электролит:электролит N-INFL ; 
 электроника:электроника N-INFL ; 
@@ -2706,7 +2706,6 @@ LEXICON Nouns
 код:код N-INFL ; 
 кодекс:кодекс N-INFL ; 
 кокаин:кокаин N-INFL ; 
-кол:кол N-INFL ; 
 аскердик% топ:аскердик% топ N-INFL ; 
 колледж:колледж N-INFL ; 
 коллекция:коллекция N-INFL ; 
@@ -4179,7 +4178,6 @@ LEXICON Nouns
 элчи:элчи N-INFL ; 
 колкап:колкап N-INFL ; 
 кызматчы:кызматчы N-INFL ; 
-кол:кол N-INFL ; 
 алмаз:алмаз N-INFL ; 
 аманат:аманат N-INFL ; 
 эмгек:эмгек N-INFL ; 
@@ -5941,7 +5939,7 @@ LEXICON Nouns
 келишим:келишим N-INFL ;
 оюк:оюк N-INFL ;
 колбашчы:колбашчы N-INFL ;
-ушундай:ушундай N-INFL ;
+! ушундай:ушундай N-INFL ;
 жылуулук:жылуулук N-INFL ;
 жоокер:жоокер N-INFL ;
 титирөө:титирөө N-INFL ;
@@ -6552,7 +6550,7 @@ LEXICON Nouns
 эпископ:эпископ N-INFL ; ! CHECK
 эгемендик:эгемендик N-INFL ; ! CHECK
 ! экмек:экмек N-INFL ; ! CHECK
-ээ:эге N-INFL ; ! Dir/RL
+ээ:эге N-INFL ; ! Dir/RL dialectal form
 чоңдук:чоңдук N-INFL ; ! "bigness"
 мом:мом N-INFL ; ! "wax"
 коңгуроо:коңгуроо N-INFL ; ! "bell"
@@ -6569,7 +6567,6 @@ LEXICON Nouns
 татар:татар NAT ;  ! "Tatar"
 моңгол:моңгол NAT ;  ! "Mongol"
 моңгол:монгол NAT ;  ! "Mongol"    ! Dir/LR
-дуңган:дуңган NAT ;  ! "Dungan"
 кыргыз:кыргыз NAT ; ! "Kyrgyz"
 түрк:түрк NAT ; ! "Turkish"
 ! кыргызча ADJ ; ! This should be automatically generated
@@ -7513,7 +7510,7 @@ LEXICON Adjectives
 шаардык:шаардык ADJ ;
 тандалган:тандалган ADJ ;
 аракетчил:аракетчил ADJ ; ! ""
-ушундай:ушундай ADJ ;
+! ушундай:ушундай ADJ ;
 өткөн:өткөн ADJ ; 
 аял:аял ADJ ;
 жаш:жаш ADJ ; 
@@ -7761,7 +7758,7 @@ LEXICON Adjectives
 ашыкча:ашыкча ADJ ;
 анык:анык A1 ;
 так:так ADJ ;
-ушундай:ушундай ADJ ;
+! ушундай:ушундай ADJ ;
 ылдам:ылдам ADJ ;
 жакын:жакын ADJ ;
 ишеничтүү:ишеничтүү ADJ ;
@@ -8120,7 +8117,7 @@ LEXICON Adjectives
 суткалык:суткалык ADJ ; ! ""
 температуралык:температуралык ADJ ; ! "" 
 термикалык:термикалык ADJ ; ! 
-ушунчалык:ушунчалык ADJ ; ! ""
+! ушунчалык:ушунчалык ADJ ; ! ""
 ферганалык:ферганалык ADJ ; ! ""
 физикалык:физикалык ADJ ; ! ""
 энергетикалык:энергетикалык ADJ ; ! ""
@@ -8534,7 +8531,7 @@ LEXICON Adverbs
 кайакта:кайакта ADV ; ! FIXME: INTERROGATIVE
 кокустан:кокустан ADV ; ! "suddenly"
 ! жок ADV ; 
-ушундайча:ушундайча ADV ; 
+! ушундайча:ушундайча ADV ; 
 аз% да% болсо:аз% да% болсо ADV ; ! FIXME: compositional
 ыктымал:ыктымал ADV ; 
 балким:балким ADV ; 
