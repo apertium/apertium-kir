@@ -4782,6 +4782,7 @@ LEXICON Nouns
 бета:бета N-INFL ;
 сайт:сайт N-INFL ;
 шериктештик:шериктештик N-INFL ;
+шериктеш:шериктеш N-INFL ;
 ортоктук:ортоктук N-INFL ;
 сунуш:сунуш N-INFL ;
 комиссия:комиссия N-INFL ;
@@ -6561,6 +6562,7 @@ LEXICON Nouns
 ынтымак:ынтымак N-INFL ; ! "unity"
 ынтымакташтык:ынтымакташтык N-INFL ; ! "commonweal"
 кызматкер:кызматкер N-INFL ; ! "служащий"
+жетишкендик:жетишкендик N-INFL ; ! "success"
 
 !!!!!! Nationalities  !!!!!!!
 казак:казак NAT ;  ! "Kazakh"
@@ -6934,6 +6936,8 @@ Tеңир NP-TOP ; ! ""
 Барселона:Барселона NP-ORG; ! "Futbol Club Barcelona"
 Манчестер% Юнайтед:Манчестер% Юнайтед NP-ORG; ! "Manchester United Football Club"
 Бундеслига:Бундеслига NP-ORG; ! "Bundesliga"
+Чемпиондор% лигасы:Чемпиондор% лигасы NP-ORG ; ! "UEFA Champions League"
+Реал% Мадрид:Реал% Мадрид% NP-ORG ; ! "Real Madrid Club de Fútbol"
 
 Сарайбосня NP-AL;
 Нооруз:Нооруз NP-AL ; ! ""
