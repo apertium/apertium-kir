@@ -6936,6 +6936,7 @@ Tеңир NP-TOP ; ! ""
 Киргизучпедгиз:Киргизучпедгиз NP-ORG ;
 Түрк% Аба% Жолдору:Түрк% Аба% Жолдор NP-ORG-COMPOUND ; ! "Turkish Airlines"
 Боруссия% Дортмунд:Боруссия% Дортмунд NP-ORG ; ! "Borussia Dortmund"
+Байер% Мюнхен:Байер% Мюнхен%{☭%} NP-ORG ; ! "FC Bayern München"
 Барселона:Барселона NP-ORG; ! "Futbol Club Barcelona"
 Манчестер% Юнайтед:Манчестер% Юнайтед NP-ORG; ! "Manchester United Football Club"
 Бундеслига:Бундеслига NP-ORG; ! "Bundesliga"
@@ -8898,6 +8899,7 @@ LEXICON Verbs
 
 кел:кел V-INFL-IV-NO-CAUS ; ! "come"
 кел:келтир V-INFL-IV-IRREG-CAUS ; ! "make come"
+келтир:келтир V-INFL-TV ; ! ""
 кет:кет V-INFL-IV-NO-CAUS ; ! "go away / leave"
 кет:кетир V-INFL-IV-IRREG-CAUS ; ! "to make leave"
 кой:кой V-INFL-TV ; ! "put, place" 
@@ -9069,6 +9071,7 @@ LEXICON Verbs
 парала:парала V-INFL-TV ; 
 планда:планда V-INFL-TV ; 
 планда:планда V-INFL-IV ;
+проектиле:проектиле V-INFL-TV ;
 сагын:сагын V-INFL-TV ; 
 сайра:сайра V-INFL-IV ; 
 салаңда:салаңда V-INFL-IV ; 
@@ -9483,7 +9486,7 @@ LEXICON Verbs
 түзөл:түзөл V-INFL-IV ;
 кыдыр:кыдыр V-INFL-IV ;
 маалыматтан:маалыматтан V-INFL-IV ;
-маалымда:мааалымды V-INFL-TV ; "to inform"
+маалымда:маалымда V-INFL-TV ; "to inform"
 термелт:термелт V-INFL-TV ;
 планда:планда V-INFL-IV ;
 тая:тая V-INFL-TV ;
