@@ -357,6 +357,7 @@ POSSESSION-ENDINGS ;  ! for stuff like "биздин аба ырайыбыз" an
 LEXICON N-INFL-3PX-COMPOUND
 
 %<n%>: N-COMPOUND-PX-COMMON ;
+%<n%>%<pl%>:%>%{L%}%{A%}р%>%{S%}%{I%}%{n%} GEN-POS ;
 
 LEXICON GER-INFL
 
@@ -4598,6 +4599,7 @@ LEXICON Nouns
 карындаш:карындаш N-INFL ; ! "younger sister (for male)"
 үстөл:үстөл N-INFL ; ! "table"
 аба% ырайы:аба% ырай N-INFL-3PX-COMPOUND ; ! "weather"   ! FIXME: is ырай<px3>, so takes cases after <px3>
+аба% жолу:аба% жол N-INFL-3PX-COMPOUND ;
 
 дүйшөмбү:дүйшөмбү N-INFL ; ! "Monday"
 шейшемби:шейшемби N-INFL ; ! "Tuesday"
@@ -5324,7 +5326,6 @@ LEXICON Nouns
 кол% тийбестик:кол% тийбестик N-INFL ;
 үмүт% кылынган:үмүт% кылынган N-INFL ;
 салуу:салуу N-INFL ;
-аба% жолу:аба% жолу N-INFL ;
 дарыя:дарыя N-INFL ;
 кошуна:кошуна N-INFL ;
 коомдук% пикир:коомдук% пикир N-INFL ;
@@ -6934,7 +6935,7 @@ Tеңир NP-TOP ; ! ""
 Манчестер% Юнайтед:Манчестер% Юнайтед NP-ORG; ! "Manchester United Football Club"
 Бундеслига:Бундеслига NP-ORG; ! "Bundesliga"
 Чемпиондор% лигасы:Чемпиондор% лигасы NP-ORG ; ! "UEFA Champions League"
-Реал% Мадрид:Реал% Мадрид% NP-ORG ; ! "Real Madrid Club de Fútbol"
+Реал% Мадрид:Реал% Мадрид NP-ORG ; ! "Real Madrid Club de Fútbol"
 
 Сарайбосня NP-AL;
 Нооруз:Нооруз NP-AL ; ! ""
