@@ -395,15 +395,19 @@ LEXICON NP-ORG-COMPOUND
 LEXICON NP-TOP-ASSR
 
 %<np%>%<top%>: POSSESSION ;
+%<np%>%<top%>%<attr%>: # ;
 
 LEXICON NP-TOP
 
 %<np%>%<top%>: POSSESSION ;
-%<np%>%<top%>:%>%{L%}%{I%}к ADJ-COMMON ;
+%<np%>%<top%>%<attr%>: # ;
+
+! %<np%>%<top%>:%>%{L%}%{I%}к ADJ-COMMON ;
 
 LEXICON NP-TOP-ACR
 
 %<np%>%<top%>: POSSESSION ;
+%<np%>%<top%>%<attr%>: # ;
 
 LEXICON NAT
 ! Nationalities
