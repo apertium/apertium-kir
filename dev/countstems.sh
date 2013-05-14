@@ -6,7 +6,7 @@ BIN=${LIBPATH}/lib/apertium/apertium-${LNG}/${LNG}.automorf.hfst
 
 LEXC=$DIX
 
-allcounts=`hfst-lexc --format foma $LEXC -o /dev/null | grep Root | sed 's/,/\n/g'`
+allcounts=`hfst-lexc --format foma $LEXC -o /dev/null 2>&1 | grep Root | sed 's/,/\n/g'`
 
 for line in $allcounts; do
 	thing=`echo $line | sed -r 's/(.*)\.\.\.([0-9]*),?/\1/'`;
