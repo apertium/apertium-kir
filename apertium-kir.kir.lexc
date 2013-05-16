@@ -7986,6 +7986,7 @@ LEXICON Adjectives
 кыймылсыз:кыймылсыз ADJ ;
 күрөң:күрөң ADJ ;
 жарашыктуу:жарашыктуу ADJ ;
+жарашчудай:жарашчудай ADJ ;
 сүйүктүү:сүйүктүү ADJ ;
 кокустан:кокустан ADJ ;
 жеңүүчү:жеңүүчү ADJ ;
@@ -8452,6 +8453,7 @@ LEXICON Adjectives
 ыйгарымдуу:ыйгарымдуу ADJ ; ! CHECK
 жашаар:жашаар ADJ ; ! "X year-old"
 көңүлдүү:көңүлдүү ADJ ; ! "cheerful"
+демөөрчүлүк:демөөрчүлүк ADJ ; ! "sponsoring [e.g., organisation]"
 
 
 
