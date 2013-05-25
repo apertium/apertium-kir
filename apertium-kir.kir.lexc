@@ -307,6 +307,12 @@ LEXICON SUBST-COMMON
 %<pl%>:%>%{L%}%{A%}р POSSESSION ;
 POSSESSION ;
 
+LEXICON N1-ABBR
+
+%<n%>%<attr%>: ATTR ;
+%<n%>:%- POSSESSION ;
+%<n%>%<gen%>:%-%>нын # ;  ! FIXME: needs rules and all
+
 !LEXICON N-INFL-COMMON
 !
 !!%<n%>:%>%{L%}%{U%}%{U%} ADJ ;  ! Any noun can be made into an adjective like this, though it's basically derivation
@@ -606,6 +612,10 @@ LEXICON DET-DEM
 
 %<det%>%<dem%>: # ;
 
+LEXICON DET-DEM-L
+
+%<det%>%<dem%>: # ;
+
 LEXICON DET-IND
 
 %<det%>%<ind%>: # ;
@@ -721,7 +731,7 @@ LEXICON PRON-DEM-USUL
 %<prn%>%<dem%>%<dat%>:га # ;
 %<prn%>%<dem%>%<loc%>:нда PRED ;
 %<prn%>%<dem%>%<abl%>:ндан PRED ;
-%<prn%>%<dem%>%<sim%>:ндай PRED ;
+%<prn%>%<dem%>%<sim%>:ндай SUBST-COMMON ;
 
 %<prn%>%<dem%>%<loc%>:ндагы DAGI ;
 %<prn%>%<dem%>%<reason%>%<abl%>:ндуктан PRED ;  ! FIXME: need better name
@@ -1353,15 +1363,15 @@ LEXICON Postpositions
 
 LEXICON Determiners
 
-бул:бул DET-DEM ; ! "this"
+бул:бул DET-DEM-L ; ! "this"
 бул:бу DET-DEM ; ! "this" ! Dir/LR
 мобу:мобу DET-DEM ; ! "this here"
-ошол:ошол DET-DEM ; ! "that"
+ошол:ошол DET-DEM-L ; ! "that"
 ошол:ошо DET-DEM ; ! "that" ! Dir/LR
-ушул:ушул DET-DEM ; ! "this (visible)"
+ушул:ушул DET-DEM-L ; ! "this (visible)"
 ушул:ушу DET-DEM ; ! "this (visible)" ! Dir/LR
 ал:ал DET-DEM ; ! "that"
-тиги:тигил DET-DEM ; ! "that (yonder)" ! Dir/LR
+тиги:тигил DET-DEM-L ; ! "that (yonder)" ! Dir/LR
 тиги:тиги DET-DEM ; ! "that (yonder)"
 кай:кай DET-DEM ; ! "which"
 
@@ -1547,6 +1557,7 @@ LEXICON Nouns
 аба:аба N-INFL ; 
 абажур:абажур N-INFL ; 
 абал:абал N-INFL ; 
+аберрация:аберрация N-INFL ; ! "aberration"
 аванс:аванс N-INFL ; 
 авто:авто N-INFL ; 
 автобиография:автобиография N-INFL ; 
@@ -1753,6 +1764,7 @@ LEXICON Nouns
 абдесте:абдесте N-INFL ; 
 абдыра:абдыра N-INFL ; 
 абет:абет N-INFL ; 
+аберация:аберациа N-INFL ; ! "aberration"
 абжип:абжип N-INFL ; 
 абжор:абжор N-INFL ; 
 абзал:абзал N-INFL ; 
@@ -1915,6 +1927,7 @@ LEXICON Nouns
 келесоо:келесоо N-INFL ; 
 кеме:кеме N-INFL ; ! "ship"
 китеп:китеп N-INFL ; ! "book"
+клетка:клетка N-INFL ; ! "cell (biol.)"
 кол:кол N-INFL ; ! "hand, arm; signature"
 кол% тамга:кол% тамга N-INFL ; ! "autograph"
 короо:короо N-INFL ; ! ""
@@ -1930,6 +1943,7 @@ LEXICON Nouns
 мал:мал N-INFL ; ! "livestock / herd animal"
 мамлекет:мамлекет N-INFL ; ! "state"
 мектеп:мектеп N-INFL ; ! "school"
+мутация:мутация N-INFL ; ! "mutation"
 наристе:наристе N-INFL ; 
 ини:ини N-INFL ; ! "younger brother"
 омийин:омийин N-INFL ; 
@@ -3879,6 +3893,7 @@ LEXICON Nouns
 нерсе:нерсе N-INFL ; ! "thing"
 телефон:телефон N-INFL ; 
 инфраструктура:инфраструктура N-INFL ; 
+структура:структура N-INFL ; 
 оорукана:оорукана N-INFL ; 
 дүкөн:дүкөн N-INFL ; 
 шарап:шарап N-INFL ; 
@@ -5902,7 +5917,6 @@ LEXICON Nouns
 жагымдуу:жагымдуу N-INFL ;
 жарака:жарака N-INFL ;
 пайда:пайда N-INFL ;
-биологиялык:биологиялык N-INFL ;
 ритуал:ритуал N-INFL ;
 алты:алты N-INFL ;
 талаа:талаа N-INFL ;
@@ -6566,6 +6580,13 @@ LEXICON Nouns
 ынтымакташтык:ынтымакташтык N-INFL ; ! "commonweal"
 кызматкер:кызматкер N-INFL ; ! "служащий"
 жетишкендик:жетишкендик N-INFL ; ! "success"
+
+
+! Abbreviations
+! =============
+ДНК:ДНК N1-ABBR ; ! "DNA"
+
+
 
 !!!!!! Nationalities  !!!!!!!
 казак:казак NAT ;  ! "Kazakh"
@@ -8133,6 +8154,7 @@ LEXICON Adjectives
 этикалык:этикалык ADJ ; ! ""
 этногенетикалык:этногенетикалык ADJ ; ! ""
 юридикалык:юридикалык ADJ ; ! ""
+хромосомалык:хромосомалык ADJ ; ! ""
 билимдүү:билимдүү ADJ ;
 даярдыктуу:даярдыктуу ADJ ;
 коркунучтуу:коркунучтуу ADJ ;
@@ -8143,7 +8165,7 @@ LEXICON Adjectives
 улуу:улуу ADJ ;
 улуттук:улуттук ADJ ;
 дүйнөлүк:дүйнөлүк ADJ ;
-акыркы:акыркы ADJ ;
+!! акыркы:акыркы ADJ ;
 ийгиликтүү:ийгиликтүү ADJ ;
 бай:бай ADJ ;
 узак:узак ADJ ;
@@ -8454,6 +8476,7 @@ LEXICON Adjectives
 жашаар:жашаар ADJ ; ! "X year-old"
 көңүлдүү:көңүлдүү ADJ ; ! "cheerful"
 демөөрчүлүк:демөөрчүлүк ADJ ; ! "sponsoring [e.g., organisation]"
+ордуна% тургус:ордуна% тургус ADJ ; ! "irreversible" Use/MT
 
 
 
@@ -9014,6 +9037,7 @@ LEXICON Verbs
 жең:жең V-INFL-IV ;
 жүктө:жүктө V-INFL-TV ; 
 илгериле:илгериле V-INFL-IV ; 
+ионда:ионда V-INFL-TV ; ! "ionise"
 кайна:кайна V-INFL-IV ; ! "boil"
 кайнат:кайнат V-INFL-TV ; ! "boil"
 кал:кал V-INFL-IV-NO-CAUS ; ! "stay, remain"
@@ -10087,6 +10111,8 @@ LEXICON Verbs
 айык:айык V-INFL-IV ; ! "heal"  ! айыктыр caus
 куй:куй V-INFL-TV ; ! "pour"
 суз:суз V-INFL-TV ; ! "scoop"
+душар% бол:душар% бол V-INFL-IV; ! "be exposed to"
+кыйра:кыйра V-INFL-IV ; ! "be destroyed"
 
 
 кант:кант%{e%} V-INFL-IV ;  ! "how to do" ! FIXME: make work properly
