@@ -1,0 +1,14 @@
+This catalogue is for regression testing.
+
+Usage:
+
+./HfstTester.py -i -c -C ky-nouns.yaml
+
+Flags:
+-i = tolerate homonym input
+-c = coloured output
+-C = add a compact test summary at the end
+
+Documentation:
+
+http://giellatekno.uit.no/doc/tools/HfstTester.html

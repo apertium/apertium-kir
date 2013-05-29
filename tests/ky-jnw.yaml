@@ -1,0 +1,62 @@
+Config:
+  hfst:
+    App: hfst-optimised-lookup
+    Gen: ../tr-ky.autogen.hfst
+    Morph: ../ky-tr.automorf.hfst
+
+Tests:
+
+  "[twol] Yotification":
+    кой<v><tv><prt_perf> : коюп
+    кой<v><tv><ger><nom> : коюу
+    кой<v><tv><prt_impf> : коё
+    тий<v><tv><prt_impf> : тие
+    жай<v><tv><prt_impf> : жая
+    саба<v><tv><prt_impf> : сабай
+    боё<v><tv><prt_impf> : боёй
+    бой<n><px3sg><nom> : бою
+    бой<n><px3sg><acc> : боюн
+
+  "[twol] м and п stuff":
+    тап<v><tv><prt_perf> : таап
+    өп<v><tv><prt_perf> : өөп
+    теп<v><tv><prt_perf> : тээп
+    там<v><iv><prt_perf> : таамп
+    эм<v><iv><prt_perf> : ээмп
+    саба<v><tv><prt_perf> : сабап
+
+  "[twol] {I}{l} passives":
+    тап<v><tv><pass><ger><nom> : табылуу
+    саба<v><tv><pass><ger><nom> : сабалуу
+    бил<v><tv><pass><ger><nom> : билинүү
+    талкала<v><tv><pass><ger><nom> : талкалануу
+
+  "[lexc] Infinitive -{U}{U}":
+    айт<v><iv><ger><nom> : айтуу
+    тарт<v><tv><ger><nom> : тартуу
+    бол<v><iv><ger><nom> : болуу
+    сүй<v><tv><ger><nom> : сүйүү
+    окшо<v><iv><ger><nom> : окшоо
+    иште<v><iv><ger><nom> : иштөө
+    саба<v><tv><ger><nom> : сабоо
+    аарчы<v><tv><ger><nom> : аарчуу
+    аарчы<v><iv><ger><nom> : аарчуу
+    шиши<v><iv><ger><nom> : шишүү
+    ат<v><tv><ger><nom> : атуу
+    кет<v><iv><ger><nom> : кетүү
+    боё<v><tv><ger><nom> : боёо
+
+  "[twol] {I} deletion":
+    бол<v><iv><prt_perf> : болуп
+    айт<v><iv><prt_perf> : айтып
+    айт<v><tv><prt_perf> : айтып
+    жет<v><iv><prt_perf> : жетип
+    сүй<v><tv><prt_perf> : сүйүп
+    иште<v><iv><prt_perf> : иштеп
+    саба<v><tv><prt_perf> : сабап
+
+  "[twol] random vociing stuff":
+    чык<v><iv><prt_perf> : чыгып
+    чык<v><iv><prt_impf> : чыга
+    тап<v><tv><prt_impf> : таба
+    теп<v><tv><prt_impf> : тебе

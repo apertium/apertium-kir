@@ -1,0 +1,56 @@
+Config:
+  hfst:
+    App: hfst-optimised-lookup
+    Gen: ../tr-ky.autogen.hfst
+    Morph: ../ky-tr.automorf.hfst
+
+Tests:
+
+  "[lexc] Basic optatives":
+    бол<v><iv><opt><p1><sg> : болоюн
+    бол<v><iv><opt><p2><sg> : болгун
+    бол<v><iv><opt><p2><frm><sg> : болгула
+    бол<v><iv><opt><p3><sg> : болсун
+    бол<v><iv><opt><p1><pl> : бололу
+    бол<v><iv><opt><p1><pl> : бололук
+    бол<v><iv><opt><p1><pl> : болойлу
+    бол<v><iv><opt><p1><pl> : болойлук
+    бол<v><iv><opt><p2><pl> : болгула
+    бол<v><iv><opt><p2><frm><pl> : болгула
+    бол<v><iv><opt><p3><pl> : болсун
+ 
+  "[lexc] Basic optatives with front vowels":
+    бөл<v><tv><opt><p1><sg> : бөлөйүн
+    бөл<v><tv><opt><p2><sg> : бөлгүн
+    бөл<v><tv><opt><p2><frm><sg> : бөлгүлө
+    бөл<v><tv><opt><p3><sg> : бөлсүн
+    бөл<v><tv><opt><p1><pl> : бөлөлү
+    бөл<v><tv><opt><p1><pl> : бөлөлүк
+    бөл<v><tv><opt><p1><pl> : бөлөйлү
+    бөл<v><tv><opt><p1><pl> : бөлөйлүк
+    бөл<v><tv><opt><p2><pl> : бөлгүлө
+    бөл<v><tv><opt><p2><frm><pl> : бөлгүлө
+    бөл<v><tv><opt><p3><pl> : бөлсүн
+
+  "[twol] Optatives after vowels":
+    аарчы<v><iv><opt><p1><sg> : аарчыйын
+    аарчы<v><iv><opt><p2><sg> : аарчыгын
+    аарчы<v><iv><opt><p2><frm><sg> : аарчыгыла
+    аарчы<v><iv><opt><p3><sg> : аарчысын
+    аарчы<v><iv><opt><p1><pl> : аарчыйлы
+    аарчы<v><iv><opt><p1><pl> : аарчыйлык
+    аарчы<v><iv><opt><p2><pl> : аарчыгыла
+    аарчы<v><iv><opt><p2><frm><pl> : аарчыгыла
+    аарчы<v><iv><opt><p3><pl> : аарчысын
+ 
+  "[twol] Optatives after rounded vowels":
+    оку<v><iv><opt><p1><sg> : окуюн
+    оку<v><iv><opt><p2><sg> : окугун
+    оку<v><iv><opt><p2><frm><sg> : окугула
+    оку<v><iv><opt><p3><sg> : окусун
+    оку<v><iv><opt><p1><pl> : окуйлу
+    оку<v><iv><opt><p1><pl> : окуйлук
+    оку<v><iv><opt><p2><pl> : окугула
+    оку<v><iv><opt><p2><frm><pl> : окугула
+    оку<v><iv><opt><p3><pl> : окусун
+ 

@@ -1,0 +1,16 @@
+Config:
+  hfst:
+    App: hfst-optimised-lookup
+    Gen: ../tr-ky.autogen.hfst
+    Morph: ../ky-tr.automorf.hfst
+
+Tests:
+
+  "[lexc] Forms of жат":
+    бол<v><iv><prt_perf>+жат<aux><aor><p3><sg> : болуп жатат
+    бол<v><iv><prt_perf>+жат<aux><aor><p3><sg> : болуп атат
+    бар<v><iv><prt_impf>+жат<aux><aor><p3><sg> : бара жатат
+    бар<v><iv><prt_impf>+жат<aux><aor><p3><sg> : баратат
+    кел<v><iv><prt_impf>+жат<aux><aor><p3><sg> : келе жатат
+    кел<v><iv><prt_impf>+жат<aux><aor><p3><sg> : келатат
+

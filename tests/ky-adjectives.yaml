@@ -1,0 +1,22 @@
+Config:
+  hfst:
+    App: hfst-optimised-lookup
+    Gen: ../tr-ky.autogen.hfst
+    Morph: ../ky-tr.automorf.hfst
+
+Tests:
+  "[lexc] normal adjectives":
+    жаман<adj><norm> : жаман
+    мол<adj><norm> : мол
+    жакшы<adj><norm> : жакшы
+    көк<adj><norm> : көк
+  
+  "[lexc] comparative adjectives":
+    кызыл<adj><comp> : кызылыраак
+    таттуу<adj><comp> : таттуураак
+    жакшы<adj><comp> : жакшыраак
+    кең<adj><comp> : кеңирээк
+    сары<adj><comp> : сарыраак
+    тоголок<adj><comp> : тоголокураак
+    соо<adj><comp> : соороок
+    өзгөчө<adj><comp> : өзгөчөрөөк 

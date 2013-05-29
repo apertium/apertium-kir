@@ -1,0 +1,56 @@
+Config:
+  hfst:
+    App: hfst-optimised-lookup
+    Gen: ../tr-ky.autogen.hfst
+    Morph: ../ky-tr.automorf.hfst
+
+Tests:
+
+  "[lexc] Infinitive -{U}{U}":
+    бол<v><iv><ger><nom> : болуу
+    сүй<v><tv><ger><nom> : сүйүү
+    окшо<v><iv><ger><nom> : окшоо
+    иште<v><iv><ger><nom> : иштөө
+    саба<v><tv><ger><nom> : сабоо
+    аарчы<v><tv><ger><nom> : аарчуу
+    шиши<v><iv><ger><nom> : шишүү
+    ат<v><tv><ger><nom> : атуу
+    кет<v><iv><ger><nom> : кетүү
+
+  "[twol] {I} deletion":
+    бол<v><iv><prt_perf> : болуп
+    сүй<v><tv><prt_perf> : сүйүп
+    иште<v><iv><prt_perf> : иштеп
+
+  "[twol] Yotification":
+    кой<v><tv><prt_perf> : коюп
+    кой<v><tv><ger><nom> : коюу
+
+  "[lexc] Complex tenses":
+    кой<v><tv><ger_pres><nom> : коюш
+    кой<v><tv><neg><ger_pres><nom> : койбош
+    кой<v><tv><fut><p1><sg> : коёрмун
+    кой<v><tv><neg><fut><p1><sg> : койбосмун
+    кой<v><tv><fut><p1><sg> : коёормун
+    кой<v><tv><neg><fut><p1><sg> : койбоосмун
+    кой<v><tv><ifi><p1><sg> : койдум
+    кой<v><tv><neg><ifi><p1><sg> : койгон жокмун
+
+  "[lexc] Volative participle":
+    кой<v><tv><prt_vol><p1><sg> : койгум
+    кой<v><tv><prt_vol><p2><sg> : койгуң
+    кой<v><tv><prt_vol><p2><sg><frm> : койгуңуз
+    кой<v><tv><prt_vol><p3><sg> : койгусу
+    кой<v><tv><prt_vol><p1><pl> : койгубуз
+    кой<v><tv><prt_vol><p2><pl> : койгуңар
+    кой<v><tv><prt_vol><p2><pl><frm> : койгуңуздар
+    кой<v><tv><prt_vol><p3><pl> : койгусу
+    кет<v><iv><prt_vol><p1><sg> : кетким
+    кет<v><iv><prt_vol><p2><sg> : кеткиң
+    кет<v><iv><prt_vol><p2><sg><frm> : кеткиңиз
+    кет<v><iv><prt_vol><p3><sg> : кеткиси
+    кет<v><iv><prt_vol><p1><pl> : кеткибиз
+    кет<v><iv><prt_vol><p2><pl> : кеткиңер
+    кет<v><iv><prt_vol><p2><pl><frm> : кеткиңиздер
+    кет<v><iv><prt_vol><p3><pl> : кеткиси
+

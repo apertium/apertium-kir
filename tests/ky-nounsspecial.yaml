@@ -1,0 +1,21 @@
+Config:
+  hfst:
+    App: hfst-optimised-lookup
+    Gen: ../tr-ky.autogen.hfst
+    Morph: ../ky-tr.automorf.hfst
+
+Tests:
+
+  "[lexc] Pronoun cases and stuff":
+    бири-бир<prn><recip><nom> : бири-бир
+    бири-бир<prn><recip><px3sg><nom> : бири-бири
+    бири-бир<prn><recip><px3sg><gen> : бири-биринин
+    бири-бир<prn><recip><px1pl><dat> : бири-бирибизге
+
+  "[twol] Nouns with epenthetic vowels":
+    орун<n><nom> : орун
+    орун<n><loc> : орунда
+    орун<n><px1sg><nom> : ордум
+    орун<n><px1sg><loc> : ордумда
+    орун<n><pl><nom> : орундар
+    орун<n><px3sg><abl> : ордунан
