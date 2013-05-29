@@ -187,8 +187,8 @@ Cx:Cy <=>  [ :UnvoicedNonSonCns ]/[ [ :0 - %{n%}:0 ] | %>: ] _ ;
 !                                              %{A%}: _ ; ! so that AA = ээ, not ее
         [ [ :и | :е | :э ] :Cns* :Cns ]/[ :0 | %>: ] _ %{A%}: ;
                                              %{A%}:э _ ; 
-        where LastVowel in (  и  ү  е  э  ө  я  а  ё  о  ы  ю  у  )
-                     Vy in (  е  ө  е  е  ө  а  а  о  о  а  а  а  )
+        where LastVowel in (  и  ү  е  э  ө  я  а  ё  о  ы  ю  у  О )
+                     Vy in (  е  ө  е  е  ө  а  а  о  о  а  а  а  о )
 !        where LastVowel in (  ү  ө  я  а  ё  о  ы  ю  у  )
 !                     Vy in (  ө  ө  а  а  о  о  а  а  а  )
 

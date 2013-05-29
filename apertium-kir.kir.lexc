@@ -257,17 +257,19 @@ CASES-DEFAULT ;
 LEXICON GEN-POS
 CASES ;
 %<px%>:%>%{N%}%{I%}к%{I%}%{n%} CASES ; !CASES-SHORT-ACC ; 
-!%<locattr%>:%>%{D%}%{A%}г%{I%} ADJ-DAGI ;
-%<loc%>:%>%{D%}%{A%}г%{I%} DAGI ;
-!%<locattr%>:%>%{D%}%{A%}г%{I%} CASES ;
-!%<locattr%>:%>%{D%}%{A%}г%{I%} V-ADJ ; ! FIXME: when we go recursive, use this
+!!%<locattr%>:%>%{D%}%{A%}г%{I%} ADJ-DAGI ;
+!%<loc%>:%>%{D%}%{A%}г%{I%} DAGI ;
+!!%<locattr%>:%>%{D%}%{A%}г%{I%} CASES ;
+!!%<locattr%>:%>%{D%}%{A%}г%{I%} V-ADJ ; ! FIXME: when we go recursive, use this
+DAGI ;
 
 LEXICON GEN-POS-PX12SG
 CASES-PX12SG ;
 %<px%>:%>%{N%}%{I%}к%{I%}%{n%} CASES ; !CASES-SHORT-ACC ; 
-%<loc%>:%>%{D%}%{A%}г%{I%} DAGI ;
-! %<locattr%>:%>%{D%}%{A%}г%{I%} CASES ;
-!%<locattr%>:%>%{D%}%{A%}г%{I%} V-ADJ ; ! FIXME: when we go recursive, use this
+!%<loc%>:%>%{D%}%{A%}г%{I%} DAGI ;
+!! %<locattr%>:%>%{D%}%{A%}г%{I%} CASES ;
+!!%<locattr%>:%>%{D%}%{A%}г%{I%} V-ADJ ; ! FIXME: when we go recursive, use this
+DAGI ;
 
 !! LEXICON GEN-POS-SHORT-ACC
 !! CASES-SHORT-ACC ;
@@ -312,6 +314,10 @@ LEXICON N1-ABBR
 %<n%>%<attr%>: ATTR ;
 %<n%>:%- POSSESSION ;
 %<n%>%<gen%>:%-%>нын # ;  ! FIXME: needs rules and all
+
+LEXICON N-INFL-COMMON
+
+POSSESSION ;
 
 !LEXICON N-INFL-COMMON
 !
@@ -370,6 +376,10 @@ LEXICON GER-INFL
 POSSESSION ;
 %<pl%>:%>%{L%}%{A%}р POSSESSION ;
 
+
+LEXICON NP-COMMON
+N-INFL-COMMON ;
+
 LEXICON NP-COG-MF
 
 %<np%>%<cog%>%<mf%>: POSSESSION ;
@@ -405,7 +415,7 @@ LEXICON NP-TOP-ASSR
 
 LEXICON NP-TOP
 
-%<np%>%<top%>: POSSESSION ;
+%<np%>%<top%>: NP-COMMON ;
 %<np%>%<top%>%<attr%>: # ;
 
 ! %<np%>%<top%>:%>%{L%}%{I%}к ADJ-COMMON ;
@@ -449,6 +459,14 @@ LEXICON A1
 %<adj%>%<comp%>%<advl%>:%>%{I%}р%{A%}%{A%}к CLIT ;    !# "...ион көп болса соғұрлым тоқ жақсырақ өтеді."
 %<adj%>%<comp%>%<advl%>:%>%{I%}р%{A%}к CLIT ;         ! Dir/LR
 
+
+LEXICON A4                 ! "pure" adjectives - no adverbial and substantive readings, no comparison levels;
+                           !# улуттук
+
+%<adj%>: CLIT ;                                       !# улуттук тамак
+
+
+
 LEXICON CLIT
 
 # ;
@@ -474,11 +492,15 @@ LEXICON DAGI
 !%<adj%>%<pst%>: # ;
 !# ;
 
-%<attr%>: # ;
-!%<subst%>: POSSESSION ;
-!%<subst%>%<pl%>:%{L%}%{A%}р POSSESSION ;  ! This is instead of the line below
-%<subst%>: SUBST-COMMON ;  ! Use/Circ  !! FIXME: when we go recursie, uncomment
+!%<attr%>: # ;
+!!%<subst%>: POSSESSION ;
+!!%<subst%>%<pl%>:%{L%}%{A%}р POSSESSION ;  ! This is instead of the line below
+!%<subst%>: SUBST-COMMON ;  ! Use/Circ  !! FIXME: when we go recursie, uncomment
 
+%<loc%>%<attr%>:%>%{D%}%{A%}г%{I%} # ;
+!%<loc%>%<subst%>:%>%{D%}%{A%}г%{I%} SUBST-COMMON ;  ! Use/Circ  !! FIXME: when we go recursie, uncomment
+%<loc%>%<subst%>:%>%{D%}%{A%}г%{I%} CASES ;
+%<loc%>%<subst%>%<pl%>:%>%{D%}%{A%}г%{I%}%>%{L%}%{A%}р CASES ;
 
 LEXICON V-ADJ
 
@@ -698,7 +720,7 @@ LEXICON PRON-DEM-BUL
 %<prn%>%<dem%>%<abl%>:мындан PRED ;
 %<prn%>%<dem%>%<sim%>:мындай PRED ;  
 
-%<prn%>%<dem%>%<loc%>:мындагы DAGI ;
+%<prn%>%<dem%>:мын DAGI ;
 
 %<prn%>%<dem%>:муну POSSESSION-ENDINGS ;
 
@@ -715,7 +737,7 @@ LEXICON PRON-DEM-OSOL
 %<prn%>%<dem%>%<abl%>:ндон PRED ;
 %<prn%>%<dem%>%<sim%>:ндой PRED ;
 
-%<prn%>%<dem%>%<loc%>:ндогу DAGI ;
+%<prn%>%<dem%>:н DAGI ;
 %<prn%>%<dem%>%<reason%>%<abl%>:ндуктан PRED ;  ! FIXME: need better name
 
 %<prn%>%<dem%>:ну POSSESSION-ENDINGS ;
@@ -733,7 +755,7 @@ LEXICON PRON-DEM-USUL
 %<prn%>%<dem%>%<abl%>:ндан PRED ;
 %<prn%>%<dem%>%<sim%>:ндай SUBST-COMMON ;
 
-%<prn%>%<dem%>%<loc%>:ндагы DAGI ;
+%<prn%>%<dem%>:н DAGI ;
 %<prn%>%<dem%>%<reason%>%<abl%>:ндуктан PRED ;  ! FIXME: need better name
 
 %<prn%>%<dem%>:ну POSSESSION-ENDINGS ;
@@ -751,7 +773,7 @@ LEXICON PRON-DEM-AL
 %<prn%>%<dem%>%<abl%>:ндан PRED ;
 %<prn%>%<dem%>%<sim%>:ндай PRED ;
 
-%<prn%>%<dem%>%<loc%>:ндагы DAGI ;
+%<prn%>%<dem%>:н DAGI ;
 %<prn%>%<dem%>%<reason%>%<abl%>:ндыктан PRED ;  ! FIXME: need better name
 
 %<prn%>%<dem%>:ны POSSESSION-ENDINGS ;
@@ -769,7 +791,7 @@ LEXICON PRON-DEM-TIGIL
 %<prn%>%<dem%>%<abl%>:нден PRED ;
 %<prn%>%<dem%>%<sim%>:нндей PRED ;
 
-%<prn%>%<dem%>%<loc%>:ндеги DAGI ;
+%<prn%>%<dem%>:н DAGI ;
 
 %<prn%>%<dem%>:ни POSSESSION-ENDINGS ;
 
@@ -786,7 +808,7 @@ LEXICON PRON-PERS-EN
 %<loc%>:енде PRED ;
 %<abl%>:енден PRED ;
 %<sim%>:ендей PRED ;
-%<loc%>:ендеги DAGI ;
+:ен DAGI ;
 
 LEXICON PRON-PERS-IZ
 
@@ -797,7 +819,7 @@ LEXICON PRON-PERS-IZ
 %<loc%>:де PRED ;
 %<abl%>:ден PRED ;
 %<sim%>:дей PRED ;
-%<loc%>:деги DAGI ;
+DAGI ;
 
 LEXICON PRON-PERS-AL
 
@@ -808,7 +830,7 @@ LEXICON PRON-PERS-AL
 %<loc%>:нда PRED ;
 %<abl%>:ндан PRED ;
 %<sim%>:ндай PRED ;
-%<loc%>:ндагы DAGI ;
+:н DAGI ;
 
 LEXICON PRON-PERS-PLURALS
 
@@ -819,7 +841,7 @@ LEXICON PRON-PERS-PLURALS
 %<loc%>:%>д%{A%} PRED ;
 %<abl%>:%>д%{A%}н PRED ;
 %<sim%>:%>д%{A%}й PRED ;
-%<loc%>:%>д%{A%}г%{I%} DAGI ;
+: DAGI ;
 
 LEXICON PRON-ITG
 
@@ -1419,7 +1441,9 @@ LEXICON Determiners
 LEXICON Pronouns
 
 мен%<prn%>%<pers%>%<p1%>%<sg%>:м PRON-PERS-EN ; 
+мен%<prn%>%<pers%>%<p1%>%<sg%>%<adv%>:менимче CLIT ;
 сен%<prn%>%<pers%>%<p2%>%<sg%>:с PRON-PERS-EN ; 
+мен%<prn%>%<pers%>%<p1%>%<sg%>%<adv%>:сенинче CLIT ;
 сиз%<prn%>%<pers%>%<p2%>%<frm%>%<sg%>:сиз PRON-PERS-IZ ; 
 ал%<prn%>%<pers%>%<p3%>%<sg%>:а PRON-PERS-AL ; 
 биз%<prn%>%<pers%>%<p1%>%<pl%>:биз PRON-PERS-IZ ; 
@@ -6942,6 +6966,8 @@ Tеңир NP-TOP ; ! ""
 Иерусалим:Иерусалим NP-TOP ; ! "Jerusalem"
 Египет:Египет NP-TOP ; ! "Egypt"
 Ниневия:Ниневия NP-TOP ; ! "Nineva"
+Ооганстан:Ооганстан NP-TOP ; ! "Afghanistan"
+Тажикстан:Тажикстан NP-TOP ; ! "Tajikistan"
 
 ! Stadium names
 !-----------------
@@ -8478,6 +8504,7 @@ LEXICON Adjectives
 демөөрчүлүк:демөөрчүлүк ADJ ; ! "sponsoring [e.g., organisation]"
 ордуна% тургус:ордуна% тургус ADJ ; ! "irreversible" Use/MT
 кутулгус:кутулгус ADJ ; ! "irreversible"
+аттуу A4 ; ! "named"
 
 
 
