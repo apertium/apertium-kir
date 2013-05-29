@@ -1,0 +1,62 @@
+Config:
+  hfst:
+    App: hfst-optimised-lookup
+    Gen: ../tr-ky.autogen.hfst
+    Morph: ../ky-tr.automorf.hfst
+
+Tests:
+
+  "[lexc] Regular causative -{T}{I}р":
+    бол<v><iv><caus><ger><nom> : болдуруу
+    бас<v><iv><caus><ger><nom> : бастыруу
+    жак<v><iv><caus><ger><nom> : жактыруу
+    кач<v><iv><caus><ger><nom> : качтыруу
+
+  "[twol] Regular causative -т":
+    ээри<v><iv><caus><ger><nom> : ээритүү
+    иште<v><iv><caus><past><p2><sg> : иштеткенсиң
+    иште<v><iv><caus><ger><nom> : иштетүү
+    иште<v><iv><caus><ifi><p1><sg> : иштеттим
+    токто<v><iv><caus><ifi><p1><sg> : токтоттум
+    ачы<v><iv><caus><vadj_past><pst> : ачыткан
+    салкында<v><iv><caus><prt_perf>: салкындатып
+
+  "[twol] Regular causative -т after consonants":
+    өзгөр<v><iv><caus><prt_perf> : өзгөртүп
+    узар<v><iv><caus><prt_perf> : узартып
+    эскир<v><iv><caus><prt_perf> : эскиртип
+    кыскар<v><iv><caus><prt_perf> : кыскартып
+    айлан<v><iv><caus><prt_perf> : айлантып
+    айлан<v><iv><caus><prt_perf> : айландырып
+    улан<v><iv><caus><prt_perf> : улантып
+    улан<v><iv><caus><prt_perf> : уландырып
+    чогул<v><iv><caus><prt_perf> : чогултуп
+
+
+  "[lexc] Irregular causatives":
+    отур<v><iv><caus><ger><nom> : отургузуу
+    быш<v><iv><caus><ger><nom> : бышыруу
+    түш<v><iv><caus><ger><nom> : түшүрүү
+    бүт<v><iv><caus><ger><nom> : бүтүрүү
+    кет<v><iv><caus><ger><nom> : кетирүү
+    ак<v><iv><caus><ger><nom> : агызуу
+    чык<v><iv><caus><ger><nom> : чыгаруу
+    өч<v><iv><caus><ger><nom> : өчүрүү
+    кат<v><iv><caus><ger><nom> : катыруу
+    жет<v><iv><caus><ger><nom> : жеткирүү
+    жет<v><iv><caus><ger><nom> : жеткизүү
+    өт<v><iv><caus><ger><nom> : өткөрүү
+    өт<v><iv><caus><ger><nom> : өткөзүү
+
+  "[twol] Passives":
+    сез<v><tv><pass><ger><nom> : сезилүү
+    жаз<v><tv><pass><prt_perf> : жазылып
+    көтөр<v><tv><pass><prt_perf> : көтөрүлүп
+    саба<v><tv><pass><prt_perf> : сабалып
+
+  "[twol] Passives with verb stem in л":
+    мал<v><tv><pass><ger><nom> : малынуу
+    жала<v><tv><pass><prt_perf> : жаланып
+    бомбала<v><tv><pass><prt_perf> : бомбаланып
+    тил<v><tv><pass><prt_perf> : тилинип
+    баала<v><tv><pass><prt_perf> : бааланып

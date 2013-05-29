@@ -1,0 +1,28 @@
+Config:
+  hfst:
+    App: hfst-optimised-lookup
+    Gen: ../tr-ky.autogen.hfst
+    Morph: ../ky-tr.automorf.hfst
+
+Tests:
+
+  "[lexc] Infinitive -{U}{U}":
+    бол<v><iv><ger><nom> : болуу
+    сүй<v><tv><ger><nom> : сүйүү
+    окшо<v><iv><ger><nom> : окшоо
+    иште<v><iv><ger><nom> : иштөө
+    саба<v><tv><ger><nom> : сабоо
+    аарчы<v><tv><ger><nom> : аарчуу
+    ат<v><tv><ger><nom> : атуу
+
+  "[lexc] Negative -б{A}":
+    бол<v><iv><neg><prt_cond><p1><sg> : болбосом
+
+  "[lexc] Conditional -с{A}":
+    бол<v><iv><prt_cond><p1><sg> : болсом
+
+  "[lexc] Perfect Converb -{I}п":
+    иште<v><iv><prt_perf> : иштеп
+
+  "[twol] Yotification":
+    кой<v><tv><prt_perf> : коюп

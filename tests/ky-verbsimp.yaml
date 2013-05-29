@@ -1,0 +1,43 @@
+Config:
+  hfst:
+    App: hfst-optimised-lookup
+    Gen: ../tr-ky.autogen.hfst
+    Morph: ../ky-tr.automorf.hfst
+
+Tests:
+
+  "[lexc] Imperatives":
+    бол<v><iv><imp><p2><sg> : бол
+    бол<v><iv><imp><p2><frm><sg> : болуңуз
+    бол<v><iv><imp><p2><frm><sg> : болуң
+    бол<v><iv><imp><p2><frm><pl> : болуңуздар
+    сүй<v><tv><imp><p2><sg> : сүй
+    сүй<v><tv><imp><p2><frm><sg> : сүйүңүз
+    сүй<v><tv><imp><p2><frm><sg> : сүйүң
+    сүй<v><tv><imp><p2><frm><pl> : сүйүңүздөр
+    иште<v><iv><imp><p2><sg> : иште
+    иште<v><iv><imp><p2><frm><sg> : иштеңиз
+    иште<v><iv><imp><p2><frm><sg> : иштең
+    иште<v><iv><imp><p2><frm><pl> : иштеңиздер
+    тап<v><tv><imp><p2><sg> : тап
+    тап<v><tv><imp><p2><frm><sg> : табыңыз
+    тап<v><tv><imp><p2><frm><sg> : табың
+    тап<v><tv><imp><p2><frm><pl> : табыңыздар
+
+  "[lexc] Negative imperatives":
+    бол<v><iv><neg><imp><p2><sg> : болбо
+    бол<v><iv><neg><imp><p2><frm><sg> : болбоңуз
+    бол<v><iv><neg><imp><p2><frm><sg> : болбоң
+    бол<v><iv><neg><imp><p2><frm><pl> : болбоңуздар
+    сүй<v><tv><neg><imp><p2><sg> : сүйбө
+    сүй<v><tv><neg><imp><p2><frm><sg> : сүйбөңүз
+    сүй<v><tv><neg><imp><p2><frm><sg> : сүйбөң
+    сүй<v><tv><neg><imp><p2><frm><pl> : сүйбөңүздөр
+    иште<v><iv><neg><imp><p2><sg> : иштебе
+    иште<v><iv><neg><imp><p2><frm><sg> : иштебеңиз
+    иште<v><iv><neg><imp><p2><frm><sg> : иштебең
+    иште<v><iv><neg><imp><p2><frm><pl> : иштебеңиздер
+    тап<v><tv><neg><imp><p2><sg> : таппа
+    тап<v><tv><neg><imp><p2><frm><sg> : таппаңыз
+    тап<v><tv><neg><imp><p2><frm><sg> : таппаң
+    тап<v><tv><neg><imp><p2><frm><pl> : таппаңыздар

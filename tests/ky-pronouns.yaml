@@ -1,0 +1,113 @@
+Config:
+  hfst:
+    App: hfst-optimised-lookup
+    Gen: ../tr-ky.autogen.hfst
+    Morph: ../ky-tr.automorf.hfst
+
+Tests:
+  "[lexc] Personal pronouns":
+    мен<prn><pers><p1><sg><nom>  : мен 
+    сен<prn><pers><p2><sg><nom>  : сен 
+    сиз<prn><pers><p2><frm><sg><nom>  : сиз 
+    ал<prn><pers><p3><sg><nom>  : ал 
+    биз<prn><pers><p1><pl><nom>  : биз 
+    силер<prn><pers><p2><pl><nom>  : силер 
+    сиздер<prn><pers><p2><frm><pl><nom>  : сиздер 
+    алар<prn><pers><p3><pl><nom> : алар 
+    мен<prn><pers><p1><sg><acc>  : мени 
+    сен<prn><pers><p2><sg><acc>  : сени 
+    сиз<prn><pers><p2><frm><sg><gen>  : сизди 
+    ал<prn><pers><p3><sg><gen>  : аны 
+    биз<prn><pers><p1><pl><gen>  : бизди 
+    силер<prn><pers><p2><pl><gen>  : силерди 
+    сиздер<prn><pers><p2><frm><pl><gen>  : сиздерди 
+    алар<prn><pers><p3><pl><gen> : аларды 
+    мен<prn><pers><p1><sg><gen>  : менин 
+    сен<prn><pers><p2><sg><gen>  : сенин 
+    сиз<prn><pers><p2><frm><sg><acc>  : сиздин 
+    ал<prn><pers><p3><sg><acc>  : анын 
+    биз<prn><pers><p1><pl><acc>  : биздин 
+    силер<prn><pers><p2><pl><acc>  : силердин 
+    сиздер<prn><pers><p2><frm><pl><acc>  : сиздердин 
+    алар<prn><pers><p3><pl><acc> : алардын 
+    мен<prn><pers><p1><sg><dat>  : мага 
+    сен<prn><pers><p2><sg><dat>  : сага 
+    сиз<prn><pers><p2><frm><sg><dat>  : сизге 
+    ал<prn><pers><p3><sg><dat>  : ага 
+    биз<prn><pers><p1><pl><dat>  : бизге 
+    силер<prn><pers><p2><pl><dat>  : силерге 
+    сиздер<prn><pers><p2><frm><pl><dat>  : сиздерге 
+    алар<prn><pers><p3><pl><dat> : аларга 
+    мен<prn><pers><p1><sg><loc>  : менде 
+    сен<prn><pers><p2><sg><loc>  : сенде 
+    сиз<prn><pers><p2><frm><sg><loc>  : сизде 
+    ал<prn><pers><p3><sg><loc>  : анда 
+    биз<prn><pers><p1><pl><loc>  : бизде 
+    силер<prn><pers><p2><pl><loc>  : силерде 
+    сиздер<prn><pers><p2><frm><pl><loc>  : сиздерде 
+    алар<prn><pers><p3><pl><loc> : аларда 
+    мен<prn><pers><p1><sg><abl>  : менден 
+    сен<prn><pers><p2><sg><abl>  : сенден 
+    сиз<prn><pers><p2><sg><frm><abl>  : сизден 
+    ал<prn><pers><p3><sg><abl>  : андан 
+    биз<prn><pers><p1><pl><abl>  : бизден 
+    силер<prn><pers><p2><pl><abl>  : силерден 
+    сиздер<prn><pers><p2><frm><pl><abl>  : сиздерден 
+    алар<prn><pers><p3><pl><abl> : алардан 
+
+  "[lexc] Demonstrative pronoun 'бул'": 
+    бул<prn><dem><sg><nom> : бул
+    бул<prn><dem><sg><gen> : мунун
+    бул<prn><dem><sg><dat> : буга
+    бул<prn><dem><sg><acc> : муну
+    бул<prn><dem><sg><loc> : мында
+    бул<prn><dem><sg><abl> : мындан
+    бул<prn><dem><pl><nom> : булар
+    бул<prn><dem><pl><gen> : булардын
+    бул<prn><dem><pl><dat> : буларга
+    бул<prn><dem><pl><acc> : буларды
+    бул<prn><dem><pl><loc> : буларда
+    бул<prn><dem><pl><abl> : булардан
+
+  "[lexc] Demonstrative pronoun 'ал'":
+    ал<prn><dem><sg><nom> : ал
+    ал<prn><dem><sg><gen> : анын
+    ал<prn><dem><sg><dat> : ага
+    ал<prn><dem><sg><acc> : аны
+    ал<prn><dem><sg><loc> : анда
+    ал<prn><dem><sg><abl> : андан
+    ал<prn><dem><pl><nom> : алар
+    ал<prn><dem><pl><gen> : алардын
+    ал<prn><dem><pl><dat> : аларга
+    ал<prn><dem><pl><acc> : аларды
+    ал<prn><dem><pl><loc> : аларда
+    ал<prn><dem><pl><abl> : алардан
+
+  "[lexc] Demonstrative pronoun 'ошол'":
+    ошол<prn><dem><sg><nom> : ошол
+    ошол<prn><dem><sg><gen> : ошонун
+    ошол<prn><dem><sg><dat> : ошого
+    ошол<prn><dem><sg><acc> : ошону
+    ошол<prn><dem><sg><loc> : ошондо
+    ошол<prn><dem><sg><abl> : ошондон
+    ошол<prn><dem><pl><nom> : ошолор
+    ошол<prn><dem><pl><gen> : ошолордун
+    ошол<prn><dem><pl><dat> : ошолорго
+    ошол<prn><dem><pl><acc> : ошолорду
+    ошол<prn><dem><pl><loc> : ошолордо
+    ошол<prn><dem><pl><abl> : ошолордон
+
+  "[lexc] Demonstrative pronoun 'тигил'":
+    тигил<prn><dem><sg><nom> : тигил
+    тигил<prn><dem><sg><gen> : тигинин
+    тигил<prn><dem><sg><dat> : тигиге
+    тигил<prn><dem><sg><acc> : тигини
+    тигил<prn><dem><sg><loc> : тигинде
+    тигил<prn><dem><sg><abl> : тигинден
+    тигил<prn><dem><pl><nom> : тигилер
+    тигил<prn><dem><pl><gen> : тигилердин
+    тигил<prn><dem><pl><dat> : тигилерге
+    тигил<prn><dem><pl><acc> : тигилерди
+    тигил<prn><dem><pl><loc> : тигилерде
+    тигил<prn><dem><pl><abl> : тигилерден
+

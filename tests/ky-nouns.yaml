@@ -1,0 +1,322 @@
+Config:
+  hfst:
+    App: hfst-optimised-lookup
+    Gen: ../tr-ky.autogen.hfst
+    Morph: ../ky-tr.automorf.hfst
+
+Tests:
+
+  "[twol] Мягкий знак deletion before suffix":
+    июль<n><dat> : июлга
+
+  "[twol] L desonorisation":
+    адам<n><pl><nom> : адамдар
+    адам<n><pl><nom>+э<cop><p3><sg> : адамдар
+    адам<n><pl><nom>+э<cop><p3><pl> : адамдар
+
+  "[twol] Double vowel harmony in suffix":
+    дүйнө<n><rloc> : дүйнөдөгү
+
+  "[lexc] 1st person singular possessive":
+    ат<n><px1sg><nom> : атым
+    ат<n><px1sg><nom>+э<cop><p3><sg> : атым
+    ат<n><px1sg><nom>+э<cop><p3><pl> : атым
+    салт<n><px1sg><nom> : салтым
+    салт<n><px1sg><nom>+э<cop><p3><sg> : салтым
+    салт<n><px1sg><nom>+э<cop><p3><pl> : салтым
+
+  "[lexc] 1st person plural noun singular possessive":
+    ат<n><pl><px1sg><nom> : аттарым
+    ат<n><pl><px1sg><nom>+э<cop><p3><sg> : аттарым
+    ат<n><pl><px1sg><nom>+э<cop><p3><pl> : аттарым
+    салт<n><pl><px1sg><nom> : салттарым
+    салт<n><pl><px1sg><nom>+э<cop><p3><sg> : салттарым
+    салт<n><pl><px1sg><nom>+э<cop><p3><pl> : салттарым
+
+  "[lexc] 1st person plural possessive":
+    ат<n><px1pl><nom> : атыбыз
+    салт<n><px1pl><nom> : салтыбыз
+  
+  "[lexc] 1st person plural noun plural possessive":
+    ат<n><pl><px1pl><nom> : аттарыбыз
+    салт<n><pl><px1pl><nom> : салттарыбыз
+
+  "[lexc] 2nd person singular possessive":
+    ат<n><px2sg><nom> : атың
+    салт<n><px2sg><nom> : салтың
+    ат<n><px2sg><frm><nom> : атыңыз
+    салт<n><px2sg><frm><nom> : салтыңыз
+
+  "[lexc] 2nd person plural noun singular possessive":
+    ат<n><pl><px2sg><nom> : аттарың
+    салт<n><pl><px2sg><nom> : салттарың
+    ат<n><pl><px2sg><frm><nom> : аттарыңыз
+    салт<n><pl><px2sg><frm><nom> : салттарыңыз
+
+  "[lexc] 2nd person plural possessive":
+    ат<n><px2pl><nom> : атыңар
+    салт<n><px2pl><nom> : салтыңар
+    ат<n><px2pl><frm><nom> : атыңыздар
+    салт<n><px2pl><frm><nom> : салтыңыздар
+
+  "[lexc] 2nd person plural noun plural possessive":
+    ат<n><pl><px2pl><nom> : аттарыңар
+    салт<n><pl><px2pl><nom> : салттарыңар
+    ат<n><pl><px2pl><frm><nom> : аттарыңыздар
+    салт<n><pl><px2pl><frm><nom> : салттарыңыздар
+
+  "[lexc] 3rd person singular noun possessive":
+    ат<n><px3sg><nom> : аты
+    салт<n><px3sg><nom> : салты
+    китеп<n><px3sg><nom> : китеби
+    тарап<n><px3sg><nom> : тарабы
+    ат<n><px3pl><nom> : аты
+    салт<n><px3pl><nom> : салты
+    китеп<n><px3pl><nom> : китеби
+    тарап<n><px3pl><nom> : тарабы
+
+  "[lexc] 3rd person noun possessive plural":
+    ат<n><pl><px3pl><nom> : аттары
+    салт<n><pl><px3pl><nom> : салттары
+    ат<n><pl><px3sg><nom> : аттары
+    салт<n><pl><px3sg><nom> : салттары
+  
+  "[lexc] Miscellaneous possessives": 
+    ат<n><px1sg><nom> : атым
+    бала<n><px1sg><nom> : балам
+    ат<n><px1pl><nom> : атыбыз
+    бала<n><px1pl><nom> : балабыз
+    ат<n><px2sg><nom> : атың
+    бала<n><px2sg><nom> : балаң
+    ат<n><px2sg><frm><nom> : атыңыз
+    бала<n><px2sg><frm><nom> : балаңыз
+    ат<n><px2pl><nom> : атыңар
+    бала<n><px2pl><nom> : балаңар
+    ат<n><px2pl><frm><nom> : атыңыздар
+    бала<n><px2pl><frm><nom> : балаңыздар
+    ат<n><px3sg><nom> : аты
+    ат<n><px3pl><nom> : аты
+    бала<n><px3sg><nom> : баласы
+    бала<n><px3pl><nom> : баласы
+    эл<n><px><nom> : элдики
+    мал<n><px><nom> : малдыкы
+    бала<n><px2sg><px><nom> : балаңдыкы
+    тоо<n><px><nom> : тоонуку
+    төө<n><px><nom> : төөнүкү
+    
+  "[lexc] Singular genitive (-{N}{I}n)": 
+    кеме<n><gen> : кеменин
+    кол<n><gen> : колдун
+    көз<n><gen> : көздүн
+    баш<n><gen> : баштын
+    аба<n><gen> : абанын
+    туз<n><gen> : туздун
+    челек<n><gen> : челектин
+    
+
+  "[lexc] Singular dative (-{G}{A})": 
+    кеме<n><dat> : кемеге
+    аба<n><dat> : абага
+    кол<n><dat> : колго
+    көз<n><dat> : көзгө
+    #баш<n><dat> : башка
+    туз<n><dat> : тузга
+    челек<n><dat> : челекке
+    таш<n><dat> : ташка
+    от<n><dat> : отко
+    терек<n><dat> : терекке
+    жүрөк<n><dat> : жүрөккө
+    адам<n><dat> : адамга
+
+  "[lexc] Singular accusative (-{N}{I})": 
+    кеме<n><acc> : кемени
+    ай<n><acc> : айды
+    тор<n><acc> : торду
+    кол<n><acc> : колду
+    көз<n><acc> : көздү
+    баш<n><acc> : башты
+    таң<n><acc> : таңды
+    туз<n><acc> : тузду
+    челек<n><acc> : челекти
+    парта<n><acc> : партаны
+    кино<n><acc> : кинону
+    терезе<n><acc> : терезени
+    көчө<n><acc> : көчөнү
+    кыз<n><acc> : кызды
+    кулун<n><acc> : кулунду
+    жер<n><acc> : жерди
+    #жүзүм<n><acc> : жүзүмдү
+    бакыт<n><acc> : бакытты
+    куш<n><acc> : кушту
+    китеп<n><acc> : китепти
+    күрөк<n><acc> : күрөктү
+
+  "[lexc] Singular locative (-{D}{A})": 
+    кеме<n><loc> : кемеде
+    аба<n><loc> : абада
+    челек<n><loc> : челекте
+    кол<n><loc> : колдо
+    баш<n><loc> : башта
+    туз<n><loc> : тузда
+    көз<n><loc> : көздө
+
+  "[lexc] Singular ablative (-{D}{A}n)": 
+    кеме<n><abl> : кемеден
+    аба<n><abl> : абадан
+    челек<n><abl> : челектен
+    кол<n><abl> : колдон
+    баш<n><abl> : баштан
+    туз<n><abl> : туздан
+    көз<n><abl> : көздөн
+
+  "[lexc] Plural suffix": 
+    кеме<n><pl><nom> : кемелер
+    ай<n><pl><nom> : айлар
+    тор<n><pl><nom> : торлор
+    кол<n><pl><nom> : колдор
+    таң<n><pl><nom> : таңдар
+    көз<n><pl><nom> : көздөр
+    баш<n><pl><nom> : баштар
+
+  "[lexc] Relativised locative":
+    дүйнө<n><rloc> : дүйнөдөгү
+
+  "[twol] p desonorization into b when Vow p Vow":
+    мектеп<n><px1sg><nom> : мектебим
+    китеп<n><px1sg><nom> : китебим
+    арип<n><px1sg><nom> : арибим
+    арап<n><px1sg><nom> : арабым
+    араб<n><px1sg><nom> : арабым
+    азап<n><px1sg><nom> : азабым
+    зайып<n><px1sg><nom> : зайыбым
+
+  "[twol] {G} / г deletion after uyan consonant":
+    саат<n><px1sg><dat> : саатыма
+    үй<n><px1sg><dat> : үйүмө
+    мектеп<n><px1sg><dat> : мектебиме
+    короо<n><px1sg><dat> : короомо
+    бала<n><px1sg><dat> : балама
+    бала<n><px2sg><dat> : балаңа
+    мектеп<n><px2sg><dat> : мектебиңе
+    китеп<n><px1sg><dat> : китебиме
+    китеп<n><px2sg><dat> : китебиңе
+    эже<n><px1sg><dat> : эжеме
+    эже<n><px2sg><dat> : эжеңе
+    бала<n><dat> : балага
+    китеп<n><dat> : китепке
+    аскер<n><dat> : аскерге
+    кыз<n><dat> : кызга
+    алд<n><px3sg><dat> : алдына
+
+  "[twol] {G} / г desonorisation into н after between {I} and {A}":
+    апа<n><px1sg><px><dat> : апамдыкына
+    апа<n><px2sg><px><dat> : апаңдыкына
+    апа<n><px3sg><px><dat> : апасыныкына
+    апа<n><px3pl><px><dat> : апасыныкына
+    кыз<n><px1pl><px><dat> : кызыбыздыкына
+    кыз<n><px2pl><px><dat> : кызыңардыкына
+    кыз<n><pl><px3sg><px><dat> : кыздарыныкына
+    кыз<n><pl><px3pl><px><dat> : кыздарыныкына
+    ата<n><pl><px3sg><px><dat> : аталарыныкына
+    ата<n><pl><px3pl><px><dat> : аталарыныкына
+    саат<n><pl><px3sg><px><dat> : сааттарыныкына
+    саат<n><pl><px3pl><px><dat> : сааттарыныкына
+    мал<n><pl><px3sg><px><dat> : малдарыныкына
+    мал<n><pl><px3pl><px><dat> : малдарыныкына
+
+  "[twol] {D} -> н in ablative": 
+    ата<n><px3sg><px><abl> : атасыныкынан
+    ата<n><px3pl><px><abl> : атасыныкынан
+
+  "[twol] н insertion between {I} and {D} in locative":
+    ата<n><px3sg><px><loc> : атасыныкында
+    ата<n><px3pl><px><loc> : атасыныкында
+
+  "[twol] Voiceless non-coronal stop voicing before possessive >c{I}":
+    китеп<n><px3sg><nom> : китеби
+    китеп<n><px3pl><nom> : китеби
+    тарап<n><px3sg><nom> : тарабы
+    тарап<n><px3pl><nom> : тарабы
+    эмгек<n><px3pl><nom> : эмгеги
+    эмгек<n><px3sg><nom> : эмгеги
+
+  "[freq] unrecognised nouns from top 150":
+    жыйнак<n><px3sg><nom> : жыйнагы
+    жыйнак<n><px3pl><nom> : жыйнагы
+    повесть<n><nom> : повесть
+    повесть<n><pl><nom> : повесттер
+    союз<n><px3sg><gen> : союзунун
+    тарап<n><px3sg><abl> : тарабынан
+    тил<n><px3sg><loc> : тилинде
+    университет<n><px3sg><gen> : университетинин
+    бала<n><pl><nom> : балдар
+    гезит<n><px3sg><loc> : гезитинде
+    жылдык<n><nom> : жылдык
+    гезит<n><px3sg><gen> : гезитинин
+    район<n><px3sg><gen> : районунун
+    эмгек<n><px3sg><nom> : эмгеги
+    эл<n><px3sg><gen> : элинин
+    китеп<n><px3sg><nom> : китеби
+    тил<n><px3sg><dat> : тилине
+    орунбасар<n><px3sg><nom> : орунбасары
+
+  "[freq] unrecognised nouns from top 150":
+    союз<n><px3sg><gen> : союзунун
+    союз<n><px3pl><gen> : союзунун
+    уч<n><px3sg><gen> : учунун
+    уч<n><px3pl><gen> : учунун
+
+  "[twol] possessive + cases":
+    бала<n><px3sg><nom> : баласы
+    бала<n><px3sg><acc> : баласын
+    бала<n><px3sg><gen> : баласынын
+    бала<n><px3sg><loc> : баласында
+    бала<n><px3sg><abl> : баласынан
+    бала<n><px3sg><dat> : баласына
+    бала<n><px3sg><px><nom> : баласыныкы
+    ит<n><px3sg><nom> : ити
+    ит<n><px3sg><acc> : итин
+    ит<n><px3sg><gen> : итинин
+    ит<n><px3sg><loc> : итинде
+    ит<n><px3sg><abl> : итинен
+    ит<n><px3sg><dat> : итине
+    ит<n><px3sg><px><nom> : итиники
+    эже<n><px3sg><nom> : эжеси
+    эже<n><px3sg><acc> : эжесин
+    эже<n><px3sg><gen> : эжесинин
+    эже<n><px3sg><loc> : эжесинде
+    эже<n><px3sg><abl> : эжесинен
+    эже<n><px3sg><dat> : эжесине
+    эже<n><px3sg><px><nom> : эжесиники
+
+  "[twol] cases":
+    бала<n><nom> : бала
+    бала<n><acc> : баланы
+    бала<n><gen> : баланын
+    бала<n><loc> : балада
+    бала<n><abl> : баладан
+    бала<n><dat> : балага
+    бала<n><px><nom> : баланыкы
+    ит<n><nom> : ит
+    ит<n><acc> : итти
+    ит<n><gen> : иттин
+    ит<n><loc> : итте
+    ит<n><abl> : иттен
+    ит<n><dat> : итке
+    ит<n><px><nom> : иттики
+    ит<n><rloc> : иттеги
+    эже<n><nom> : эже
+    эже<n><acc> : эжени
+    эже<n><gen> : эженин
+    эже<n><loc> : эжеде
+    эже<n><abl> : эжеден
+    эже<n><dat> : эжеге
+    эже<n><px><nom> : эженики
+    эже<n><rloc> : эжедеги
+    төл<n><nom> : төл
+    төл<n><acc> : төлдү
+    төл<n><gen> : төлдүн
+    төл<n><loc> : төлдө
+    төл<n><abl> : төлдөн
+    төл<n><dat> : төлгө
+    төл<n><px><nom> : төлдүкү
