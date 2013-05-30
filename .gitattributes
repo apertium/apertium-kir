@@ -41,6 +41,7 @@ paper/poster/poster.pdf -text
 paper/poster/poster.tex -text
 tests/HfstTester.py -text
 tests/README -text
+tests/abbreviations.yaml -text
 tests/ky-adjectives.yaml -text
 tests/ky-causpass.yaml -text
 tests/ky-jnw.yaml -text
