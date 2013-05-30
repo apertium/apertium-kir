@@ -184,6 +184,10 @@ Multichar_Symbols
 %{e%}       ! Realised as ''; only used to make vowel harmony come out right for things that normally break vowel harmony
 %{K%}       ! Realised as 'к' or 'г'; only used in attributive -{K}{I}
 
+%{а%}       ! Archiphoneme for back vowel numerals/abbreviation
+%{э%}       ! Archiphoneme for front vowel numerals/abbreviation
+%{й%}       ! Archiphoneme for й/р
+
 
 @P.NEG.0@   ! Set if -{I}š is not present
 @P.NEG.1@   ! Set if -{I}š is present
@@ -6876,8 +6880,8 @@ Tеңир NP-TOP ; ! ""
 Түркстан:Түркстан NP-TOP ;
 Алтай:Алтай NP-TOP ;
 Тоң:Тоң NP-TOP ;
-АКШ:АКШ NP-TOP ;
-КР:КР NP-TOP ;
+АКШ:АКШ%{а%} NP-TOP ; ! "USA"
+КР:КР%{э%}%{й%} NP-TOP ; ! "Kyrgyz Republic"
 Жумгал:Жумгал NP-TOP ;
 ССР:ССР NP-TOP ;
 Ленинград:Ленинград NP-TOP ;
@@ -7245,6 +7249,9 @@ Tеңир NP-TOP ; ! ""
 Каддафи:Каддафи NP-COG-M ; ! "Kaddafi"
 Муралиев:Муралиев NP-COG-M ;
 Келдибеков:Келдибеков NP-COG-M ;
+Аскар:Аскар NP-COG-M ;
+Владимир:Владимир NP-COG-M ;
+Дмитрий:Дмитрий NP-COG-M ;
 
 Орузбаева:Орузбаева NP-COG-F ;
 Отунбаева:Отунбаева NP-COG-F ;

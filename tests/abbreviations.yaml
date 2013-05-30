@@ -1,0 +1,23 @@
+Config:
+  hfst:
+    App: hfst-lookup
+    Gen: ../kir.autogen.hfst
+    Morph: ../kir.automorf.hfst
+
+Tests:
+
+  "[twol] Abbreviations in %{а%}":
+    АКШ<np><top><nom> : АКШ
+    АКШ<np><top><acc> : АКШны
+    АКШ<np><top><gen> : АКШнын
+    АКШ<np><top><loc> : АКШда
+    АКШ<np><top><abl> : АКШдан
+    АКШ<np><top><dat> : АКШга
+
+  "[twol] Abbreviations in %{э%}:%{й%}":
+    КР<np><top><nom> : КР
+    КР<np><top><acc> : КРди
+    КР<np><top><gen> : КРдин
+    КР<np><top><loc> : КРде
+    КР<np><top><abl> : КРден
+    КР<np><top><dat> : КРге
