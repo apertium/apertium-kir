@@ -8275,7 +8275,7 @@ LEXICON Adjectives
 автократ:автократ ADJ ;
 огуз:огуз ADJ ;
 ахлактуу:ахлактуу ADJ ;
-айрыкча:айрыкча ADJ ;
+айрыкча:айрыкча A1 ; ! "especially"
 түзөтүүчү:түзөтүүчү ADJ ;
 барокко:барокко ADJ ;
 мекенин% сүйгөн ADJ ;
@@ -8517,6 +8517,7 @@ LEXICON Adjectives
 ордуна% тургус:ордуна% тургус ADJ ; ! "irreversible" Use/MT
 кутулгус:кутулгус ADJ ; ! "irreversible"
 аттуу A4 ; ! "named"
+атайын:атайын A1 ; ! "purposely"
 
 
 
@@ -8534,7 +8535,7 @@ LEXICON Adverbs
 өтө:өтө ADV ; ! "very"
 мисалы:мисалы ADV ; ! "for example"
 улам:улам ADV ; ! "???"
-айрыкча:айрыкча ADV ;
+! айрыкча:айрыкча ADV ;
 кыйла:кыйла ADV ;
 барган% сайын:барган% сайын ADV ; ! see bidix
 адегенде:адегенде ADV ;
@@ -8638,7 +8639,6 @@ LEXICON Adverbs
 жооп% оордуна:жооп% оордуна ADV ; ! FIXME: compositional
 даражада:даражада ADV ; ! FIXME: compositional
 досчо:досчо ADV ; ! FIXME: compositional
-атайын:атайын ADV ; ! "purposely"
 !тышкары ADV ; ! FIXME: POSTP
 мейли:мейли ADV ; ! FIXME: interjection
 ошондой:ошондой ADV ; ! FIXME: compositional
