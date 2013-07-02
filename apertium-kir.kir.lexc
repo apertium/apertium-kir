@@ -1274,6 +1274,8 @@ LEXICON Conjunctions
 !FIXME: integrate these two correctly:
 !эгер PART ; ! conjunction like particle "if"
 !эгерде PART ; ! conjunction like particle "if"
+эгер CS ; ! conjunction like particle "if"
+эгерде CS ; ! conjunction like particle "if"
 
 же% болбосо:же% болбосо CA ; ! ""
 кийин:кийин CA ; ! ""
@@ -6759,7 +6761,7 @@ Aзирейил NP-TOP ; ! ""
 Tеңир NP-TOP ; ! ""
 Таала:Таала NP-TOP ;
 Адам:Адам NP-TOP ; ! ""
-Алла:Алла NP-TOP ; ! ""
+Алла:Алла N1 ; ! ""
 Теңир:Теңир NP-TOP ;
 Арктика:Арктика NP-TOP ; ! ""
 Кудай:Кудай NP-TOP ; ! ""
@@ -8982,6 +8984,7 @@ LEXICON Verbs
 саба:саба V-INFL-TV ; ! ""
 сакта:сакта V-INFL-TV ;
 сал:сал V-INFL-TV ;
+салгылаш:салгылаш V-INFL-IV;
 сана:сана V-INFL-TV ; ! "count/consider"
 сий:сий V-INFL-IV ; ! "pee"
 сыйла:сыйла V-INFL-TV ; 
