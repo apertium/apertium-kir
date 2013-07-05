@@ -8330,7 +8330,6 @@ LEXICON Adjectives
 сейрек:сейрек ADJ ;
 эгилген:эгилген ADJ ;
 айланган:айланган ADJ ;
-толук:толук ADJ ;
 бас:бас ADJ ;
 тар:тар ADJ ;
 сорт:сорт ADJ ;
@@ -10203,6 +10202,7 @@ ISBN:ISBN ABBR ;
 млн:млн ABBR ;
 англ:англ ABBR ;
 с%.а%.в%.:с%.а%.в%. ABBR ; ! ""
+Т%.:Т%. ABBR ; ! ""
 
 LEXICON Interjections 
 
