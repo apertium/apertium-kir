@@ -1659,6 +1659,7 @@ LEXICON Nouns
 акыбет:акыбет N-INFL ; 
 акыйкат:акыйкат N-INFL ; 
 акыл:акыл N-INFL ; 
+акылдуулук:акылдуулук N-INFL ; 
 акыр:акыр N-INFL ; 
 ала:ала N-INFL ; 
 алака:алака N-INFL ; 
@@ -2805,6 +2806,7 @@ LEXICON Nouns
 кул:кул N-INFL ; 
 кулак:кулак N-INFL ; 
 кулач:кулач N-INFL ; 
+кулчулук:кулчулук N-INFL ; 
 клуб:клуб N-INFL ; 
 кум:кум N-INFL ; 
 кумар:кумар N-INFL ; 
@@ -3692,6 +3694,7 @@ LEXICON Nouns
 зооспора:зооспора N-INFL ; 
 зоотехника:зоотехника N-INFL ; 
 зулум:зулум N-INFL ; 
+зулумдук:зулумдук N-INFL ; 
 сурнай:сурнай N-INFL ; 
 жираф:жираф N-INFL ; 
 чатыр:чатыр N-INFL ; 
@@ -6361,11 +6364,14 @@ LEXICON Nouns
 таажы:таажы N-INFL ; ! "crown"
 туш:туш N-INFL ; 
 куран:куран N-INFL ; ! "qur'an"
+Куран:Куран N-INFL ; ! ""
 жетекчи:жетекчи N-INFL ; ! "director/leader"
 жетекчилик:жетекчилик N-INFL ; ! "leadership"
 чат:чат N-INFL ; ! "crotch"
 өрөөн:өрөөн N-INFL ; ! "valley (large)"
 пайгамбар:пайгамбар N-INFL ; ! "prophet"
+Пайгамбар:Пайгамбар N-INFL ; ! "prophet"
+пайгамбардык:пайгамбардык N-INFL ; ! "prophecy"
 чалкан:чалкан N-INFL ; ! "nettle"
 укурук:укурук N-INFL ; ! "lasso pole"
 начальник:начальник N-INFL ; ! "boss" (Russian)
@@ -6615,6 +6621,10 @@ LEXICON Nouns
 кызматкер:кызматкер N-INFL ; ! "служащий"
 жетишкендик:жетишкендик N-INFL ; ! "success"
 конститутсия:конститутсия N-INFL ; ! "constitution"
+жакшылык:жакшылык N-INFL ; ! ""
+үгүт:үгүт N-INFL ; ! ""
+үгүттөөчү:үгүттөөчү N-INFL ; ! ""
+вахий:вахий N-INFL ; ! "пайгамбарга алланын кабары"
 
 
 ! Abbreviations
@@ -7020,6 +7030,7 @@ Tеңир NP-TOP ; ! ""
 Болот:Болот NP-ANT-M ; ! "Bolot"
 Керим:Керим NP-ANT-M ;
 Мухаммед:Мухаммед NP-ANT-M ;
+Нух:Нух NP-ANT-M ;
 !Элеонора NP-ANT-F ; ! "Eleanora"
 Манас:Манас NP-ANT-M ;
 Ардак:Ардак NP-ANT-MF ;
@@ -8519,6 +8530,7 @@ LEXICON Adjectives
 кутулгус:кутулгус ADJ ; ! "irreversible"
 аттуу A4 ; ! "named"
 атайын:атайын A1 ; ! "purposely"
+үстөм:үстөм ADJ ; ! "превосходящий, господствующий;"
 
 
 
@@ -8613,6 +8625,7 @@ LEXICON Adverbs
 абдан:абдан ADV ; ! "really"
 бираз:бираз ADV ; 
 ! ошентип ADV ; ! FIXME: compositional
+ошентип ADV ; ! ""
 баарыбир:баарыбир ADV ; 
 айлардан% бери:айлардан% бери ADV ; ! FIXME: compositional
 башка:башка ADV ; 
@@ -10155,6 +10168,8 @@ LEXICON Verbs
 суз:суз V-INFL-TV ; ! "scoop"
 дуушар% бол:дуушар% бол V-INFL-IV; ! "be exposed to"
 кыйра:кыйра V-INFL-IV ; ! "be destroyed"
+үгүттө:үгүттө V-INFL-TV ; ! "to agitate"
+үгүттөн:үгүттөн V-INFL-IV ; ! "be agitated"
 
 
 кант:кант%{e%} V-INFL-IV ;  ! "how to do" ! FIXME: make work properly
@@ -10169,6 +10184,7 @@ LEXICON Verbs
 тигинт:тигинт V-INFL-TV ;
 минт:минт V-INFL-IV ;
 минт:минт V-INFL-TV ;
+моюн% сун:моюн% сун V-INFL-TV ; ! "повиноваться"
 
 
 LEXICON Abbreviations
