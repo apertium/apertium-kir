@@ -1353,6 +1353,7 @@ LEXICON Postpositions
 ичинде:ичинде POST ; ! "inside of" +gen|+nom
 жараша:жараша POST ; ! "by, in accordance with" +dat
 боюнча:боюнча POST ; ! "according to" +nom
+бою:бою POST ;
 жөнүндө:жөнүндө POST ; ! "about" +nom
 тиешелүү:тиешелүү POST ; ! "belonging to" +dat
 карата:карата POST ; ! "" +dat
@@ -1368,6 +1369,7 @@ LEXICON Postpositions
 байланыштуу:байланыштуу POST ; ! "in connection with" +dat
 үчүн:үчүн POST ; ! "for" + nom
 каршы:каршы POST ;
+кошо:кошо POST ;
 карабастан:карабастан POST ;
 ! менен% бирге POST ;  ! CHECK: is бирге ADV?  !! compositional
 улам:улам POST ;
@@ -1391,6 +1393,9 @@ LEXICON Postpositions
 ! ортосунда POST ;
 ! үстүндө POST ;
 көздөй:көздөй POST ; ! "towards" (+ACC)
+максатында:максатында POST ;
+жакын:жакын POST ;
+чамасында:чамасында POST ;
 
 LEXICON Determiners
 
@@ -1413,7 +1418,9 @@ LEXICON Determiners
 кээбир:кээбир DET-IND ; ! "some"
 бир:бир DET-IND ; ! "a"
 
+ар% бир:ар% бир DET-QNT ; ! ""
 эч% бир:эч% бир DET-IND ; ! "no"
+эч% кандай:эч% кандай DET-IND ; ! ""
 кээ% бир:кээ% бир DET-QNT ; ! "some"
 бир% нече:бир% нече DET-QNT ; ! "some, several"
 көптөгөн:көптөгөн DET-QNT ; ! "many"
@@ -1444,6 +1451,15 @@ LEXICON Determiners
 !берки DET-IND ;
 бир% канча% даана:бир% канча% даана DET-QNT ;
 !берки DET-IND ;
+
+ондогон:ондогон DET-QNT ;
+жүздөгөн:жүздөгөн DET-QNT ;
+миңдеген:миңдеген DET-QNT ;
+он% миңдеген:он% миңдеген DET-QNT ;
+миллиондогон:миллиондогон DET-QNT ;
+миллиарддаган:миллиарддаган DET-QNT ;
+
+бир%-бир:бир%-бир PRON-RECIP ; ! "each other, one another"
 
 өз:өз DET-REF ; ! "oneself's"
 
@@ -1490,6 +1506,8 @@ LEXICON Pronouns
 баары:баары PRON-IND ; ! "everyone"  !!! This is an alternate of below
 баары:баар PRON-IND-POSS ; ! "everyone"
 бир% нерсе:бир% нерсе PRON-IND ; ! "something"
+бир% деме:бир% деме PRON-IND ; ! ""
+бирөө:бирөө PRON-IND ; ! "someone"
 
 ! FIXME: THESE ARE DET!!!
 кээ% бир:кээ% бир PRON-QNT ; ! "some"
@@ -1504,6 +1522,7 @@ LEXICON Pronouns
 тиги:тиги PRON-DEM ;
 
 эч% нерсе:эч% нерсе PRN-NEG ; ! "nothing"
+эч% ким:эч% ким PRN-NEG ; ! "no one"
 
 LEXICON Numerals 
 
@@ -1544,6 +1563,7 @@ LEXICON Numerals
 жыйырма% беш:жыйырма% беш NUM ;
 бир% жарым:бир% жарым NUM ;
 он% миң:он% миң NUM ;
+сан% жеткис:сан% жеткис NUM ;
 
 бир:бирөө PRON-COLL ;
 эки:экөө PRON-COLL ;
@@ -4726,6 +4746,7 @@ LEXICON Nouns
 агартуу:агартуу N-INFL ;
 сол:сол N-INFL ;
 чарба:чарба N-INFL ;
+чарбачылык:чарбачылык N-INFL ;
 коомчулук:коомчулук N-INFL ;
 очерк:очерк N-INFL ;
 жөн:жөн N-INFL ;
@@ -6633,6 +6654,8 @@ LEXICON Nouns
 үгүт:үгүт N-INFL ; ! ""
 үгүттөөчү:үгүттөөчү N-INFL ; ! ""
 вахий:вахий N-INFL ; ! "пайгамбарга алланын кабары"
+калаа:калаа N-INFL ; ! "city"
+мунай:мунай N-INFL ; ! ""
 
 
 ! Abbreviations
@@ -6642,8 +6665,31 @@ LEXICON Nouns
 
 
 !!!!!! Nationalities  !!!!!!!
+албан:албан NAT ; ! ""
+американ:американ NAT ; ! ""
+арамей:арамей NAT ; ! ""
+белорус:белорус NAT ; ! ""
+британ:британ NAT ; ! ""
+бурят:бурят NAT ; ! ""
+венгр:венгр NAT ; ! ""
+грек:грек NAT ; ! "Greek"
+грузин:грузин NAT ; ! ""
+гуарани:гуарани NAT ; ! ""
+еврей:еврей NAT ; ! "Jewish"
+итальян:итальян NAT ; ! ""
+карел:карел NAT ; ! ""
+мордва:мордва NAT ; ! ""
+поляк:поляк NAT ; ! ""
+татар:татар NAT ; ! "Tatar"
+украин:украин NAT ; ! "Ukranian"
+урду:урду NAT ; ! ""
+француз:француз NAT ; ! "French"
+чех:чех NAT ; ! ""
+чуваш:чуваш NAT ; ! ""
+швед:швед NAT ; ! "" 
+якут:якут NAT ; ! ""
+славян:славян NAT ; ! ""
 казак:казак NAT ;  ! "Kazakh"
-татар:татар NAT ;  ! "Tatar"
 моңгол:моңгол NAT ;  ! "Mongol"
 моңгол:монгол NAT ;  ! "Mongol"    ! Dir/LR
 кыргыз:кыргыз NAT ; ! "Kyrgyz"
@@ -6651,12 +6697,9 @@ LEXICON Nouns
 ! кыргызча ADJ ; ! This should be automatically generated
 орус:орус NAT ; ! "Russian"
 булгар:булгар NAT ; ! "Bulgarian"
-грек:грек NAT ; ! "Greek"
-еврей:еврей NAT ; ! "Jewish"
 арап:арап NAT ; ! "Arab"
 өзбөк:өзбөк NAT ; ! "Uzbek"
 тажик:тажик NAT ; ! "Tajik"
-украин:украин NAT ; ! "Ukranian"
 калмак:калмак NAT ; ! "Kalmyk"
 кытай:кытай NAT ; ! "Chinese"
 латын:латын NAT ; ! "Latin"
@@ -7604,7 +7647,7 @@ LEXICON Adjectives
 укмуш:укмуш ADJ ;
 сонун:сонун ADJ ;
 зор:зор ADJ ;
-! чейинки:чейинки ADJ ;
+чейинки:чейинки ADJ ;
 түз:түз ADJ ;
 чакан:чакан ADJ ;
 улук:улук ADJ ;
@@ -7632,7 +7675,7 @@ LEXICON Adjectives
 бирдей:бирдей ADJ ; 
 байланыштуу:байланыштуу ADJ ;
 улуттук:улуттук ADJ ; ! "national"
-! жогорку:жогорку ADJ ; ! "high" (as in жогорку кеңеш "high council")
+жогорку:жогорку ADJ ; ! "high" (as in жогорку кеңеш "high council")
 коомдук:коомдук ADJ ; ! "societal" < коом "society" + лук noun>ADJ
 саясий:саясий ADJ ; ! "political"
 зарыл:зарыл ADJ ; ! "mandatory"
@@ -8245,7 +8288,7 @@ LEXICON Adjectives
 келишкен:келишкен ADJ ;
 ! тышкы ADJ ;
 булганган:булганган ADJ ;
-! сырткы ADJ ;
+сырткы:сырткы ADJ ;
 бирдиктүү:бирдиктүү ADJ ;
 саясый:саясый ADJ ;
 рухий:рухий ADJ ;
@@ -8540,7 +8583,13 @@ LEXICON Adjectives
 атайын:атайын A1 ; ! "purposely"
 үстөм:үстөм ADJ ; ! "превосходящий, господствующий;"
 мээримдүү:мээримдүү ADJ ; ! ""
-
+шайкеш:шайкеш ADJ ; ! "подобный (соответствующий)"
+камсыздандырылган:камсыздандырылган ADJ ; ! "обеспеченный"
+ички:ички ADJ ; ! "internal"
+өз% ара:өз% ара ADJ ; ! "взаимный"
+орточо:орточо ADJ ; ! "средний"
+каржылык:каржылык ADJ ; ! "финансовый"
+төмөнкү:төмөнкү ADJ ; ! "нижний"
 
 
 LEXICON Adverbs
@@ -8557,7 +8606,7 @@ LEXICON Adverbs
 өтө:өтө ADV ; ! "very"
 мисалы:мисалы ADV ; ! "for example"
 улам:улам ADV ; ! "???"
-! айрыкча:айрыкча ADV ;
+айрыкча:айрыкча ADV ;
 кыйла:кыйла ADV ;
 барган% сайын:барган% сайын ADV ; ! see bidix
 адегенде:адегенде ADV ;
@@ -9072,6 +9121,7 @@ LEXICON Verbs
 бүк:бүк V-INFL-TV ; 
 бүктө:бүктө V-INFL-TV ; 
 бөл:бөл V-INFL-TV ; ! "divide"
+бөлүн:бөлүн V-INFL-TV ; ! ""
 кий:кий V-INFL-TV ; ! "put on"
 кий:кий V-INFL-IV-NO-CAUS ; ! "get dressed"
 кий:кийгиз V-INFL-IV-IRREG-CAUS ; ! "dress"
@@ -9943,6 +9993,7 @@ LEXICON Verbs
 жакта:жакта V-INFL-TV ; ! FIXME: check transitivity (probably IV and TV)
 негизде:негизде V-INFL-TV ;
 кезде:кезде V-INFL-TV ;
+кездеш:кездеш V-INFL-TV ;
 ыйгар:ыйгар V-INFL-TV ; ! "dedicate" (?)
 эскир:эскир V-INFL-IV ; ! "get old"
 картай:картай V-INFL-IV ; ! "get old" (person)
@@ -10198,22 +10249,109 @@ LEXICON Verbs
 
 LEXICON Abbreviations
 
+BAE:BAE ABBR ;
+BG:BG ABBR ;
+CEZ:CEZ ABBR ; ! ""
+CNPC:CNPC ABBR ; ! ""
+ER:ER ABBR ; ! ""
+HAS:HAS ABBR ; ! ""
+IMD:IMD ABBR ; ! ""
+Kaz:Kaz ABBR ; ! ""
+KPO:KPO ABBR ; ! ""
+KZ:KZ ABBR ; ! ""
+kz:kz ABBR ; ! ""
+ААК:AAK ABBR ; ! "Ачык Акционердик Коом"
+АК:АК ABBR ; ! ""
+АССР:АССР ; ! ""
+АКШ:АКШ ; ! "Америка Кошмо Штаттары"
+СВМДА:СВМДА ; ! "Совещание по взаимодействию и мерам доверия в Азии"
+б%.з%.:б%.з%. ABBR ; ! "биздин заман"
+б%.з%.ч%.:б%.з%.ч%. ABBR ; ! биздин заманга чейинки "B.C.E."
+биол%.:биол%. ABBR ; ! ""
+Биохим:Биохим ABBR ; ! "Разведка&Добыча"
+БТА:БТА ABBR ; ! "a bank in Kazakhstan"
+БУУ:БУУ ABBR ; ! "Бириккен Улуттардын Уюму"
+ВИЧ:ВИЧ ABBR ; ! ""
+геогр%.:геогр%. ABBR ; ! ""
+геол%.:геол%. ABBR ; ! ""
+Гленкор:Гленкор ABBR ; ! ""
+ГЭС:ГЭС ABBR ; ! ""
+ЕККУ:ЕККУ ABBR ; ! "Европадагы Коопсуздук жана Кызматташтык Уюму"
+Ембемунайгаз:Ембемунайгаз ABBR ; ! ""
+ЕврАзЭС:ЕврАзЭС ABBR ; ! ""
+Евросоюз:Евросоюз ABBR ; ! ""
 жж%.:жж%. ABBR ;
 ж%.:ж%. ABBR ;
+ИДП:ИДП ABBR ; ! "Ички Дүн Продукт - (ИДП) [gross domestic product, GDP]"
+ЖСДП:ЖСДП ABBR ; ! "Жалпы улуттук Социал Демократтар Партиясы"
+ЖЧК:ЖЧК ABBR ; ! "ЖООПКЕРЧИЛИГИ ЧЕКТЕЛГЕН КООМ"
+ИИМ:ИИМ ABBR ; ! "Ички Иштер Министрлиги"
 б%.:б%. ABBR ;
 ж%.б%.:ж%.б%. ABBR ; ! жана башка "etc."
 ! ж%.б%.:ж%.% б%.:ж%.б%.:ж%.% б%. ABBR ; ! Dir/LR жана башка "etc."  ! WTF?
 бб%.:бб%. ABBR ; ! 
 б%.а%.:б%.а%. ABBR ; ! башкача айтканда "in other words"
-б%.з%.ч%.:б%.з%.ч%. ABBR ; ! биздин заманга чейинки "B.C.E."
 ж%.б%.у%.с%.:ж%.б%.у%.с%. ABBR ; ! жана башка ушул сыяктуу "and similar"
 №:№ ABBR ; 
 ISBN:ISBN ABBR ; 
 кг:кг ABBR ; 
+КГБ:КГБ ABBR ; 
+км²:км² ABBR ; 
+км³:км³ ABBR ; 
 км:км ABBR ; 
+ССР:ССР ABBR ; 
+КСРБ:КСРБ ABBR ; ! "USSR Кеңештик Социалисттик Республикалар Бирлиги"
+КЭДР:КЭДР ABBR ; ! "Корея Элдик Демократиялык Республикасы"
+Казатомпром:Казатомпром ABBR ; ! ""
+КазССР:КазССР ABBR ; ! ""
+КазМУ:КазМУ ABBR ; ! ""
+Казмунайгаз:Казмунайгаз ABBR ; ! ""
+Казпошта:Казпошта ABBR ; ! ""
+КазТАГ:КазТАГ ABBR ; ! ""
+КазМУ:КазМУ ABBR ; ! "Al-Farabi Kazakh National Universty"
+ККП:ККП ABBR ; ! ""
+КМДН:КМДН ABBR ; ! ""
+КР:КР ABBR ; ! "Казакстан Республикасы"
+КЭР:КЭР ABBR ; ! "Кытай Эл Республикасы"
+лат%.:лат%. ABBR ; ! ""
+м²:м² ABBR ; ! "m²"
+м²:м2 ABBR ; ! "m²" Dir/LR
+м³:м³ ABBR ; ! "m³"
+м³:м3 ABBR ; ! "m³" Dir/LR
+МАГАТЭ:МАГАТЭ ABBR ; ! ""
+млн:млн ABBR ; ! "million"
+млрд:млрд ABBR ; ! "billion"
+м:м ABBR ; ! "m"
+мм:мм ABBR ; ! "mm"
+НАТО:НАТО ABBR ; ! ""
+обл%.:обл%. ABBR ; ! ""
+ОГПУ:ОГПУ ABBR ; ! ""
+түш%.:түш%. ABBR ; ! ""
+Өзенмунайгаз:Өзенмунайгаз ABBR ; ! ""
+пед%.:пед%. ABBR ; ! ""
+РСФСР:РСФСР ABBR ; ! ""
+РНК:РНК ABBR ; ! ""
+РФ:РФ ABBR ; ! "Russian Federation"
 см:см ABBR ; 
-м³:м3 ABBR ; ! Dir/LR
-м³:м³ ABBR ; 
+СНПС:СНПС ABBR ; ! ""
+түнд%.:түнд%. ABBR ; ! ""
+СПИД:СПИД ABBR ; ! ""
+ССС:ССС ABBR ; ! ""
+СССР:СССР ABBR ; ! "USSR"
+СЭС:СЭС ABBR ; ! ""
+т%.:т%. ABBR ; ! "tonne"
+тех%.:тех%. ABBR ; ! ""
+КМЫ:КМЫ ABBR ; ! "Күнкорсуз мамлекеттер ынтымагы"
+ТР:ТР ABBR ; ! "Republic of Tatarstan"
+УЕФА:УЕФА ABBR ; ! "UEFA"
+ЖККУ:ЖККУ ABBR ; ! "Жамааттык Коопсуздук Келишим Уюмунун"
+ФСБ:ФСБ ABBR ; ! ""
+хим%.:хим%. ABBR ; ! "chemical"
+ШКУ:ШКУ ABBR ; ! "Шанхай Кызматташтык Уюму же ШКУ/SCO"
+экон%.:экон%. ABBR ; ! "economic"
+ЮНЕСКО:ЮНЕСКО ABBR ; ! ""
+EITI:EITI ABBR ; ! ""
+ЕБ:ЕБ ABBR ; ! "European Union"
 янв%.:янв%. ABBR ; 
 февр%.:февр%. ABBR ; 
 апр%.:апр%. ABBR ;
@@ -10224,7 +10362,6 @@ ISBN:ISBN ABBR ;
 нояб%.:нояб%. ABBR ;
 дек%.:дек%. ABBR ;
 апр:апр ABBR ;
-млн:млн ABBR ;
 англ:англ ABBR ;
 с%.а%.в%.:с%.а%.в%. ABBR ; ! ""
 Т%.:Т%. ABBR ; ! ""
@@ -10252,6 +10389,11 @@ LEXICON Interjections
 аттигинай:аттигинай INTERJ ;
 баракелде:баракелде INTERJ ;
 баса:баса INTERJ ;
+айтмакчы:айтмакчы INTERJ ;
+балким:балким INTERJ ;
+бирок:бирок INTERJ ;
+маселен:маселен INTERJ ;
+мисалы:мисалы INTERJ ;
 дурус:дурус INTERJ ;
 кана:кана INTERJ ;
 кош:кош INTERJ ;
