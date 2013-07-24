@@ -421,6 +421,11 @@ LEXICON NP-ORG-COMPOUND
 
 %<np%>%<org%>: N-COMPOUND-PX-COMMON ;
 
+LEXICON ADV-LANG
+
+N-INFL ;
+ADV ;
+
 LEXICON NP-TOP-ASSR
 
 %<np%>%<top%>: POSSESSION ;
@@ -806,6 +811,17 @@ LEXICON PRON-DEM-TIGIL
 %<prn%>%<dem%>%<loc%>:нде PRED ;
 %<prn%>%<dem%>%<abl%>:нден PRED ;
 %<prn%>%<dem%>%<sim%>:нндей PRED ;
+
+LEXICON PRON-DEM-MINA
+
+%<prn%>%<dem%>%<nom%>:мына PRED ;
+%<prn%>%<dem%>%<gen%>:мунун PRED ;
+%<prn%>%<dem%>%<acc%>:муну PRED ;
+%<prn%>%<dem%>%<dat%>:буга PRED ;
+%<prn%>%<dem%>%<loc%>:мында PRED ;
+%<prn%>%<dem%>%<abl%>:мындан PRED ;
+%<prn%>%<dem%>%<sim%>:мындай PRED ;
+
 
 %<prn%>%<dem%>:н DAGI ;
 
@@ -1331,6 +1347,8 @@ LEXICON Conjunctions
 болсо% да:болсо% да CA ;
 кандай% болсо% да:кандай% болсо% да CA ;
 кана% эмесе CC ;
+жалгыз% гана CC ;
+гана% эмес CC ;
 ошентсе% да CC ;
 эмне:эмне CC ;
 ошондой:ошондой CA ;
@@ -1349,6 +1367,22 @@ LEXICON Conjunctions
 жок% дегенде:жок% дегенде CA ; ! "at least"
 ! чынында CA ;
 ! дейсиң CA ;
+андай% деген% менен:андай% деген% менен CA ; ! "nevertheless"
+жазышынча:жазышынча CA ;
+ошол% себептен:ошол% себептен CA ;
+пикиринче:пикиринче CA ;
+ошондо% да:ошондо% да CA ;
+ошондо:ошондо CA ;
+сөздөрү% боюнча:сөздөрү% боюнча CA ;
+сөзү% боюнча:сөзү% боюнча CA ;
+ошого% карабастан:ошого% карабастан CA ;
+кабарлашынча:кабарлашынча CA ;
+
+айтканы% менен:айтканы% менен CA ;
+айтуулары% боюнча:айтуулары% боюнча CA ;
+оюнча:оюнча CA ;
+маалыматы% боюнча:маалыматы% боюнча CA ;
+баамдоосу% боюнча:баамдоосу% боюнча CA ;
 
 LEXICON Postpositions
 
@@ -1367,6 +1401,7 @@ LEXICON Postpositions
 жараша:жараша POST ; ! "by, in accordance with" +dat
 боюнча:боюнча POST ; ! "according to" +nom
 бою:бою POST ;
+боюнда:боюнда POST ;
 жөнүндө:жөнүндө POST ; ! "about" +nom
 тиешелүү:тиешелүү POST ; ! "belonging to" +dat
 карата:карата POST ; ! "" +dat
@@ -1410,6 +1445,10 @@ LEXICON Postpositions
 максатында:максатында POST ;
 жакын:жакын POST ;
 чамасында:чамасында POST ;
+мурун:мурун POST ;
+көрү:көрү POST ;
+карамагында:карамагында POST ;
+карамагындагы:карамагындагы POST ;
 
 LEXICON Determiners
 
@@ -1424,6 +1463,9 @@ LEXICON Determiners
 тиги:тигил DET-DEM-L ; ! "that (yonder)" ! Dir/LR
 тиги:тиги DET-DEM ; ! "that (yonder)"
 кай:кай DET-DEM ; ! "which"
+алиги:алиги DET-DEM ; ! ""
+мына% бу:мына% бу DET-DEM ; ! ""
+тетиги:тетиги DET-DEM ; ! ""
 
 айрым:айрым DET-IND ; ! "other"
 ушундай:ушундай DET-IND ; ! "this kind of"
@@ -1431,8 +1473,10 @@ LEXICON Determiners
 эчбир:эчбир DET-IND ; ! "no"
 кээбир:кээбир DET-IND ; ! "some"
 бир:бир DET-IND ; ! "a"
+кээ:кээ DET-IND ; ! ""
 
 ар% бир:ар% бир DET-QNT ; ! ""
+ар% түрдүү: ар% түрдүү DET-QNT ; ! ""
 эч% бир:эч% бир DET-IND ; ! "no"
 эч% кандай:эч% кандай DET-IND ; ! ""
 кээ% бир:кээ% бир DET-QNT ; ! "some"
@@ -1449,6 +1493,7 @@ LEXICON Determiners
 кандайдыр% бир:кандайдыр% бир DET-IND ; ! "some kind of"
 башка:башка DET-IND ;    ! FIXME: Hmmmm
 бир% далай:бир% далай DET-QNT ;
+бирер:бирер DET-IND ;
 бүт% баары:бүт% баары DET-QNT ;
 бир% канча:бир% канча DET-QNT ;
 ушунчалык:ушунчалык DET-QNT ;
@@ -1495,6 +1540,7 @@ LEXICON Pronouns
 ушул:ушу PRON-DEM-USUL ; ! "this"
 ал:а PRON-DEM-AL ; ! "that"
 тигил:тиги PRON-DEM-TIGIL ; ! "that (yonder)
+мына:мына PRON-DEM-MINA ; ! ""
 
 эмне:эмне PRON-ITG ; ! "what?"
 кайсыны:кайсыны PRON-ITG ; ! "which one?"
@@ -1522,6 +1568,7 @@ LEXICON Pronouns
 бир% нерсе:бир% нерсе PRON-IND ; ! "something"
 бир% деме:бир% деме PRON-IND ; ! ""
 бирөө:бирөө PRON-IND ; ! "someone"
+кээ:кээ PRON-IND ; 
 
 ! FIXME: THESE ARE DET!!!
 кээ% бир:кээ% бир PRON-QNT ; ! "some"
@@ -1642,7 +1689,7 @@ LEXICON Nouns
 автопарк:автопарк N-INFL ; 
 авторитет:авторитет N-INFL ; 
 ага:ага N-INFL ; 
-агылуу:агылуу N-INFL ; 
+! агылуу:агылуу N-INFL ; ! "use MT selimcan"
 агым:агым N-INFL ; 
 агын:агын N-INFL ; 
 адабият:адабият N-INFL ; 
@@ -14558,6 +14605,47 @@ LEXICON Copula
 э%<cop%>%<ger_perf%>:экен%>%{L%}%{I%}к POSSESSION ;
 э%<cop%>%<ifi%>:эле V-PERS-PAST ;
 
+! Languages
+! =========
+
+! FIXME CHECK these
+англисче:англисче ADV-LANG ; ! "English"
+американча:американча ADV-LANG ; ! ""
+арабча:арабча ADV-LANG ; ! "Arab"
+арамейче:арамейче ADV-LANG ; ! ""
+башкыртча:башкыртча ADV-LANG ; ! ""
+белорусча:белорусча ADV-LANG ; ! ""
+бурятча:бурятча ADV-LANG ; ! ""
+венгрче:венгрче ADV-LANG ; ! ""
+грекче:грекче ADV-LANG ; ! "Greek"
+грузинче:грузинче ADV-LANG ; ! ""
+гуараниче:гуараниче ADV-LANG ; ! ""
+итальянча:итальянча ADV-LANG ; ! ""
+калмакча:калмакча ADV-LANG ; ! "Kalmyk"
+карелче:карелче ADV-LANG ; ! ""
+казакча:казакча ADV-LANG ; ! "Kazakh"
+кыргызча:кыргызча ADV-LANG ; ! "Kyrgyz"
+кытайча:кытайча ADV-LANG ; ! "Chinese"
+латынча:латынча ADV-LANG ; ! "Latin"
+моңголчо:монголчо ADV-LANG ; ! "Mongol" Dir/LR
+моңголчо:моңголчо ADV-LANG ; ! "Mongol"
+мордвача:мордвача ADV-LANG ; ! ""
+немисче:немисче ADV-LANG ; ! "German"
+орусча:орусча ADV-LANG ; ! "Russian"
+өзбекче:өзбекче ADV-LANG ; ! "Uzbek"
+парсыча:парсыча ADV-LANG ; ! "Persian"
+полякча:полякча ADV-LANG ; ! ""
+татарча:татарча ADV-LANG ; ! "Tatar"
+тажикче:тажикче ADV-LANG ; ! ""
+түркчө:түркчө ADV-LANG ; ! "Turkish"
+украинче:украинче ADV-LANG ; ! ""
+урдуча:урдуча ADV-LANG ; ! ""
+французча:французча ADV-LANG ; ! "French"
+чехче:чехче ADV-LANG ; ! "Czech"
+чувашча:чувашча ADV-LANG ; ! "Chuvash"
+шведче:шведче ADV-LANG ; ! ""
+якутча:якутча ADV-LANG ; ! ""
+еврейче:еврейче ADV-LANG ; ! "Jewish/Jew"
 
 LEXICON Verbs
 
