@@ -435,8 +435,8 @@ LEXICON NP-TOP
 
 %<np%>%<top%>: NP-COMMON ;
 %<np%>%<top%>%<attr%>: # ;
-:%>%{L%}%{I%}%{K%} A4 ;
-%<n%>:%>%{L%}%{I%}%{K%} SUBST-COMMON ;
+! :%>%{L%}%{I%}%{K%} A4 ;
+! %<n%>:%>%{L%}%{I%}%{K%} SUBST-COMMON ;
 
 
 ! %<np%>%<top%>:%>%{L%}%{I%}к ADJ-COMMON ;
@@ -812,15 +812,15 @@ LEXICON PRON-DEM-TIGIL
 %<prn%>%<dem%>%<abl%>:нден PRED ;
 %<prn%>%<dem%>%<sim%>:нндей PRED ;
 
-LEXICON PRON-DEM-MINA
+! LEXICON PRON-DEM-MINA
 
-%<prn%>%<dem%>%<nom%>:мына PRED ;
-%<prn%>%<dem%>%<gen%>:мунун PRED ;
-%<prn%>%<dem%>%<acc%>:муну PRED ;
-%<prn%>%<dem%>%<dat%>:буга PRED ;
-%<prn%>%<dem%>%<loc%>:мында PRED ;
-%<prn%>%<dem%>%<abl%>:мындан PRED ;
-%<prn%>%<dem%>%<sim%>:мындай PRED ;
+! %<prn%>%<dem%>%<nom%>:мына PRED ;
+! %<prn%>%<dem%>%<gen%>:мунун PRED ;
+! %<prn%>%<dem%>%<acc%>:муну PRED ;
+! %<prn%>%<dem%>%<dat%>:буга PRED ;
+! %<prn%>%<dem%>%<loc%>:мында PRED ;
+! %<prn%>%<dem%>%<abl%>:мындан PRED ;
+! %<prn%>%<dem%>%<sim%>:мындай PRED ; ! "FIXME how this should be done?"
 
 
 %<prn%>%<dem%>:н DAGI ;
@@ -1536,12 +1536,12 @@ LEXICON Pronouns
 сиздер%<prn%>%<pers%>%<p2%>%<frm%>%<pl%>:сиздер PRON-PERS-PLURALS ; 
 алар%<prn%>%<pers%>%<p3%>%<pl%>:алар PRON-PERS-PLURALS ; 
 
-бул: PRON-DEM-BUL ; ! "this"
+бул: PRON-DEM-BUL ; ! "this" 
 ошол:ошо PRON-DEM-OSOL ; ! "that"
 ушул:ушу PRON-DEM-USUL ; ! "this"
 ал:а PRON-DEM-AL ; ! "that"
 тигил:тиги PRON-DEM-TIGIL ; ! "that (yonder)
-мына:мына PRON-DEM-MINA ; ! ""
+! мына:мына PRON-DEM-MINA ; ! "" "FIXME how this shoulbe done?"
 
 эмне:эмне PRON-ITG ; ! "what?"
 кайсыны:кайсыны PRON-ITG ; ! "which one?"
@@ -3656,7 +3656,7 @@ LEXICON Nouns
 сперматозоид:сперматозоид N-INFL ; 
 специалист:специалист N-INFL ; 
 спикер:спикер N-INFL ; 
-адис:адис N1 ; 
+адис:адис N-INFL ; 
 спиритуализм:спиритуализм N-INFL ; 
 спорт:спорт N-INFL ; 
 стадион:стадион N-INFL ; 
@@ -6171,7 +6171,7 @@ LEXICON Nouns
 киреше:киреше N-INFL ;
 гидро% электрикалык:гидро% электрикалык N-INFL ;
 суук:суук N-INFL ;
-туура:туура N-INFL ;
+! туура:туура N-INFL ; ! "removing duplicate" 
 жэр:жэр N-INFL ;
 иш% оорду:иш% оорду N-INFL ;
 ! соң N-INFL ;
@@ -7000,7 +7000,8 @@ LEXICON Nouns
 коррупция:коррупция N-INFL ; ! ""
 жаңжал:жаңжал N-INFL ; ! "скандал"
 ! менчиктештирүү:менчиктештирүү N-INFL ; ! "приватизация"
-стачка:стачка N-INFL ; ! ""
+стачка:стачка N-INFL ; ! "" 
+эсе:эсе N-INFL ; ! "" 
 
 ! Abbreviations
 ! =============
@@ -7050,10 +7051,10 @@ LEXICON Nouns
 орус:орус N1 ; ! "Russian"
 булгар:булгар N1 ; ! "Bulgarian"
 арап:арап N1 ; ! "Arab"
-өзбөк:өзбөк N1 ; ! "Uzbek"
+өзбек:өзбек N1 ; ! "Uzbek"
 тажик:тажик N1 ; ! "Tajik"
 калмак:калмак N1 ; ! "Kalmyk"
-кытай:кытай N1 ; ! "Chinese"
+кытай:кытай N-INFL ; ! "Chinese"
 латын:латын N1 ; ! "Latin"
 моңгол:монгол N1 ; ! "Mongol" Dir/LR
 моңгол:моңгол N1 ; ! "Mongol"
@@ -13305,7 +13306,7 @@ LEXICON Adjectives
 чакан:чакан ADJ ;
 улук:улук ADJ ;
 ири:ири A1 ;
-расмий:расмий ADJ ;
+расмий:расмий A4 ;
 таза:таза A1 ; ! "clean"
 майда:майда ADJ ; ! "fine (i.e., small pieces)"
 ыйык:ыйык A1 ;
@@ -13738,7 +13739,7 @@ LEXICON Adjectives
 ойго:ойго ADJ ;
 бириккен:бириккен ADJ ;
 ! суюк:суюк ADJ ; ! "removing duplicate" 
-расмий:расмий ADJ ;
+! расмий:расмий ADJ ; ! "removing duplicate" 
 эр% жеткен ADJ ;
 бойго% жеткен ADJ ;
 оптималдуу:оптималдуу ADJ ;
@@ -14210,7 +14211,7 @@ LEXICON Adjectives
 документалдуу:документалдуу ADJ ; ! "documentary"
 кандидаттык:кандидаттык ADJ ; ! FIXME: check
 бырыш:бырыш ADJ ; ! "wrinkled"
-кытайлык:кытайлык ADJ ; ! "Chinese" ! NAT
+кытайлык:кытайлык A4 ; ! "Chinese" ! NAT
 керемет:керемет ADJ ; ! "wonderful"
 коммунисттик:коммунисттик ADJ ; ! "communist"
 кир:кир A1 ; ! "dirty"
@@ -14246,7 +14247,7 @@ LEXICON Adjectives
 төмөнкү:төмөнкү A1 ; ! "нижний"
 коррупциялык:коррупциялык ADJ ; ! ""
 базар:базар ADJ ; ! ""
-официалдуу% эмес:официалдуу% эмес ADJ ; ! ""
+расмий% эмес:расмий% эмес A4 ; ! ""
 катышкан:катышкан ADJ ; ! ""
 картаң:картаң A1 ; ! "old(person)"
 түрк:түрк A1 ; ! "Turkic" "FIXME is it A1?"
@@ -14327,6 +14328,7 @@ LEXICON Adjectives
 негиздүү:негиздүү A1 ; 
 тору:тору A1 ; 
 жарты:жарты A1 ; 
+басымдуу:басымдуу A1 ; 
 
 
 LEXICON Adverbs
@@ -14483,7 +14485,7 @@ LEXICON Adverbs
 ! көбүрөөк ADV ; ! FIXME: compositional
 апачык:апачык ADV ; 
 ошондой:ошондой ADV ; ! FIXME: compositional
-эсе:эсе ADV ; ! "_ times _-er" maybe N?  but fine for now
+! эсе:эсе ADV ; ! "_ times _-er" maybe N?  but fine for now ! "transferred to N-INFL(N1)" 
 күндүзү:күндүзү ADV ; 
 кайра:кайра ADV ; 
 көп-көп:көп-көп ADV ; 
