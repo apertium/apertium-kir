@@ -1694,7 +1694,7 @@ LEXICON Nouns
 агылуу:агылуу N-INFL ; ! "use MT selimcan"
 агым:агым N-INFL ; 
 агын:агын N-INFL ; 
-адабият:адабият N-INFL ; 
+адабият:адабият N-INFL ; ! "literature" 
 адам:адам N-INFL ; ! "man, human, person" 
 адам% баласы:адам% баласы N-INFL ; 
 адамзат:адамзат N-INFL ; ! "humanity"
@@ -1847,11 +1847,11 @@ LEXICON Nouns
 аалам:аалам N-INFL ; ! "universe"
 ! аба:аба N-INFL ; ! "removing duplicate" 
 абал:абал N-INFL ; ! "condition, state"
-адабият:адабият N-INFL ; ! "literature"
+! адабият:адабият N-INFL ; ! "removing duplicate" 
 ! адам:адам N-INFL ; ! "removing duplicate" 
 адаш:адаш N-INFL ; 
 адрес:адрес N-INFL ; 
-азап:азап N-INFL ; 
+! азап:азап N-INFL ; ! "removing duplicate" 
 азат:азат N-INFL ; 
 ! азык:азык N-INFL ; ! "removing duplicate" 
 ай:ай N-INFL ; ! "month"
@@ -1873,7 +1873,7 @@ LEXICON Nouns
 аста:аста N-INFL ; 
 атак-даңк N-INFL ; 
 аферист:аферист N-INFL ; 
-аалам:аалам N-INFL ; 
+! аалам:аалам N-INFL ; ! "removing duplicate" 
 аалат:аалат N-INFL ; 
 аалим:аалим N-INFL ; 
 аалы:аалы N-INFL ; 
@@ -2011,10 +2011,10 @@ LEXICON Nouns
 без:без N-INFL ; 
 бейт:бейт N-INFL ; 
 бекзаада:бекзаада N-INFL ; 
-бел:бел N-INFL ; 
-белги:белги N-INFL ; 
+бел:бел N-INFL ; ! "waist" 
+белги:белги N-INFL ; ! "symbol" 
 бентонит:бентонит N-INFL ; 
-бет:бет N-INFL ; 
+бет:бет N-INFL ; ! "page, face" 
 бетер:бетер N-INFL ; 
 бетон:бетон N-INFL ; 
 бетпак:бетпак N-INFL ; 
@@ -2024,7 +2024,7 @@ LEXICON Nouns
 бизнесмен:бизнесмен N-INFL ; 
 билдирүү:билдирүү N-INFL ; 
 билек:билек N-INFL ; 
-билерик:билерик N-INFL ; 
+билерик:билерик N-INFL ; ! "bracelet" 
 ! билим N-INFL ; 
 бирдик:бирдик N-INFL ; 
 ! бирөө N-INFL ;   ! BAD: Pronoun
@@ -2166,8 +2166,8 @@ LEXICON Nouns
 академия:академия N-INFL ; 
 акча:акча N-INFL ; 
 пул:пул N-INFL ; 
-аалам:аалам N-INFL ; 
-дүйнө:дүйнө N-INFL ; 
+! аалам:аалам N-INFL ; ! "removing duplicate" 
+! дүйнө:дүйнө N-INFL ; ! "removing duplicate" 
 кол% чабуу:кол% чабуу N-INFL ; ! FIXME: errr....
 омийин:омийин N-INFL ; 
 ! арыз:арыз N-INFL ; ! "removing duplicate" 
@@ -2191,7 +2191,7 @@ LEXICON Nouns
 ! аят:аят N-INFL ; ! "removing duplicate" 
 ! айгыр:айгыр N-INFL ; ! "removing duplicate" 
 чалап:чалап N-INFL ; 
-азап:азап N-INFL ; 
+! азап:азап N-INFL ; ! "removing duplicate" 
 кыйноо:кыйноо N-INFL ; ! "hardship"
 азат:азат N-INFL ;  
 азык% түлүк:азык% түлүк N-INFL ; 
@@ -2227,13 +2227,13 @@ LEXICON Nouns
 мир:мир N-INFL ; 
 мирас:мирас N-INFL ; 
 бадан:бадан N-INFL ; 
-бел:бел N-INFL ; ! "waist"
-белги:белги N-INFL ; ! "symbol"
+! бел:бел N-INFL ; ! "removing duplicate" 
+! белги:белги N-INFL ; ! "removing duplicate" 
 бысмылда:бысмылда N-INFL ; 
-бет:бет N-INFL ; ! "page, face"
+! бет:бет N-INFL ; ! "removing duplicate" 
 жүз:жүз N-INFL ; ! "face"
 бетер:бетер N-INFL ; ! FIXME
-баян:баян N-INFL ; 
+! баян:баян N-INFL ; ! "removing dulpicate" 
 билдирүү:билдирүү N-INFL ; 
 бейт:бейт N-INFL ; 
 бекзаада:бекзаада N-INFL ; 
@@ -2241,7 +2241,7 @@ LEXICON Nouns
 бөз:бөз N-INFL ; 
 бешик:бешик N-INFL ; ! "cradle"
 билек:билек N-INFL ; ! "wrist"
-билерик:билерик N-INFL ; ! "bracelet"
+! билерик:билерик N-INFL ; ! "removing duplicate" 
 бүлөө:бүлөө N-INFL ; 
 илим:илим N-INFL ; ! "science"
 билим:билим N-INFL ; ! "knowledge"
@@ -2252,7 +2252,7 @@ LEXICON Nouns
 ! бирөөсү N-INFL ;  ! BAD: Pronoun
 ! кимдир% бирөөсү N-INFL ;  ! BAD: Pronoun
 ! бир% канча N-INFL ;  ! BAD: Determiner
-бирдик:бирдик N-INFL ; 
+! бирдик:бирдик N-INFL ; ! "removing duplicate" 
 бысмылда:бысмылда N-INFL ; 
 бит:бит N-INFL ; 
 бычым:бычым N-INFL ; 
@@ -2282,7 +2282,7 @@ LEXICON Nouns
 муз:муз N-INFL ; 
 музоо:музоо N-INFL ; 
 буудай:буудай N-INFL ; 
-буу:буу N-INFL ; 
+! буу:буу N-INFL ; ! "removing duplicate" 
 бөйрөк:бөйрөк N-INFL ; 
 бөрк:бөрк N-INFL ; 
 былтыр:былтыр N-INFL ; 
@@ -2294,7 +2294,7 @@ LEXICON Nouns
 жаныбар:жаныбар N-INFL ; 
 айбан:айбан N-INFL ; 
 жапа:жапа N-INFL ; 
-азап:азап N-INFL ; 
+! азап:азап N-INFL ; ! "removing duplicate" 
 кыйноо:кыйноо N-INFL ; 
 жакет:жакет N-INFL ; 
 пиджак:пиджак N-INFL ; 
@@ -2358,7 +2358,7 @@ LEXICON Nouns
 оору:оору N-INFL ; 
 дарт:дарт N-INFL ; 
 кайгы:кайгы N-INFL ; 
-азап:азап N-INFL ; 
+! азап:азап N-INFL ; ! "removing duplicate" 
 арман:арман N-INFL ; 
 детектив:детектив N-INFL ; 
 детерминант:детерминант N-INFL ; 
@@ -2428,10 +2428,10 @@ LEXICON Nouns
 дүрбү:дүрбү N-INFL ; 
 турнабай:турнабай N-INFL ; 
 ажал:ажал N-INFL ; 
-адабият:адабият N-INFL ; 
+! адабият:адабият N-INFL ; ! "removing duplicate" 
 адеп:адеп N-INFL ; 
 эффект:эффект N-INFL ; 
-таасир:таасир N-INFL ; 
+таасир:таасир N-INFL ; ! "" 
 эгоист:эгоист N-INFL ; 
 эгоизм:эгоизм N-INFL ; 
 экзотика:экзотика N-INFL ; 
@@ -2703,7 +2703,7 @@ LEXICON Nouns
 айкел:айкел N-INFL ; 
 эстелик:эстелик N-INFL ; 
 икая:икая N-INFL ; 
-аңгеме:аңгеме N-INFL ; 
+аңгеме:аңгеме N-INFL ; ! "" 
 баян:баян N-INFL ; 
 гипноз:гипноз N-INFL ; 
 ипподром:ипподром N-INFL ; 
@@ -3172,7 +3172,7 @@ LEXICON Nouns
 жемиш:жемиш N-INFL ; 
 мейман:мейман N-INFL ; 
 конок:конок N-INFL ; 
-азап:азап N-INFL ; 
+! азап:азап N-INFL ; ! "removing duplicate" 
 мээнет:мээнет N-INFL ; 
 кыйынчылык:кыйынчылык N-INFL ; 
 микрофон:микрофон N-INFL ; 
@@ -3230,7 +3230,7 @@ LEXICON Nouns
 директор:директор N-INFL ; 
 мөөр:мөөр N-INFL ; 
 мүлк:мүлк N-INFL ; 
-байлык:байлык N-INFL ; 
+! байлык:байлык N-INFL ; ! "removing duplicate" 
 музыка:музыка N-INFL ; 
 мүшкүл:мүшкүл N-INFL ; 
 нафталин:нафталин N-INFL ; 
@@ -4076,7 +4076,7 @@ LEXICON Nouns
 үйрөнчүк:үйрөнчүк N-INFL ; 
 бурч:бурч N-INFL ; 
 арал:арал N-INFL ; 
-адилет:адилет N-INFL ; 
+! адилет:адилет N-INFL ; ! "removing duplicate" 
 ! адам:адам N-INFL ; ! "removing duplicate" 
 талапкер:талапкер N-INFL ; 
 даана:даана N-INFL ; 
@@ -4111,7 +4111,7 @@ LEXICON Nouns
 конгуроо:конгуроо N-INFL ; 
 шылдың:шылдың N-INFL ; 
 гипс:гипс N-INFL ; 
-аалам:аалам N-INFL ; 
+! аалам:аалам N-INFL ; "removing duplicate" 
 шайман:шайман N-INFL ; 
 алоо:алоо N-INFL ; 
 алипе:алипе N-INFL ; 
@@ -4185,7 +4185,7 @@ LEXICON Nouns
 күзгү:күзгү N-INFL ; ! "mirror"
 бөлөк:бөлөк N-INFL ; 
 мүчөө:мүчөө N-INFL ; 
-азап:азап N-INFL ; 
+! азап:азап N-INFL ; ! "removing duplicate" 
 азат:азат N-INFL ; 
 жер:жер N-INFL ; ! "land"
 маңдай:маңдай N-INFL ; ! "forehead"
@@ -4249,7 +4249,7 @@ LEXICON Nouns
 документ:документ N-INFL ; 
 ! документалдуу% тасма N-INFL ;  ! compositional
 тасма:тасма N-INFL ;
-бел:бел N-INFL ; 
+! бел:бел N-INFL ; ! "removing duplicate" 
 боштондук:боштондук N-INFL ; 
 чач% тарач:чач% тарач N-INFL ; 
 чач:чач N-INFL ;
@@ -4259,7 +4259,7 @@ LEXICON Nouns
 обон:обон N-INFL ; 
 бэт:бэт N-INFL ; 
 мээ:мээ N-INFL ; 
-буурчак:буурчак N-INFL ; 
+! буурчак:буурчак N-INFL ; ! "removing duplicate" 
 калемпир:калемпир N-INFL ; 
 бычак:бычак N-INFL ; 
 баланс:баланс N-INFL ; 
@@ -4275,12 +4275,12 @@ LEXICON Nouns
 бит:бит N-INFL ; 
 өсүмдүк:өсүмдүк N-INFL ; 
 биография:биография N-INFL ; 
-бөйрөк:бөйрөк N-INFL ; 
+! бөйрөк:бөйрөк N-INFL ; ! "removing duplicate" 
 курт:курт N-INFL ; 
 подвал:подвал N-INFL ; 
 кекиртек:кекиртек N-INFL ; 
 аймак:аймак N-INFL ; 
-карыз:карыз N-INFL ; 
+! карыз:карыз N-INFL ; ! "removing duplicate" 
 чот% кара:чот% кара N-INFL ; 
 түтүк:түтүк N-INFL ; 
 таяк:таяк N-INFL ; 
@@ -4291,9 +4291,9 @@ LEXICON Nouns
 тармак:тармак N-INFL ; 
 бронз:бронз N-INFL ; 
 брошюра:брошюра N-INFL ; 
-буудай:буудай N-INFL ; 
-буу:буу N-INFL ; 
-булут:булут N-INFL ; 
+! буудай:буудай N-INFL ; ! "removing duplicate" 
+! буу:буу N-INFL ; ! "removing duplicate" 
+! булут:булут N-INFL ; ! "removing duplicate" 
 ! бул% жак N-INFL ; 
 жылдыз:жылдыз N-INFL ; 
 бюрократия:бюрократия N-INFL ; 
@@ -4363,7 +4363,7 @@ LEXICON Nouns
 фермер:фермер N-INFL ; 
 боор:боор N-INFL ; 
 күрткү:күрткү N-INFL ; 
-дүйнө:дүйнө N-INFL ; 
+! дүйнө:дүйнө N-INFL ; ! "removing duplicate" 
 жихад:жихад N-INFL ; 
 чыгуу:чыгуу N-INFL ; 
 лак:лак N-INFL ; 
@@ -4396,7 +4396,7 @@ LEXICON Nouns
 батир:батир N-INFL ; 
 мүнөт:мүнөт N-INFL ; 
 чумкугуч:чумкугуч N-INFL ; 
-бутак:бутак N-INFL ; 
+! бутак:бутак N-INFL ; ! "removing duplicate" 
 тамыр:тамыр N-INFL ; 
 күйө% бала:күйө% бала N-INFL ; 
 ! из:из N-INFL ; ! "removing duplicate" 
@@ -4570,7 +4570,7 @@ LEXICON Nouns
 этиш:этиш N-INFL ; 
 кыймыл:кыймыл N-INFL ; 
 пикир:пикир N-INFL ; 
-аңгеме:аңгеме N-INFL ; 
+! аңгеме:аңгеме N-INFL ; ! "removing duplicate" 
 пил:пил N-INFL ; 
 бүчүр:бүчүр N-INFL ; 
 битон:битон N-INFL ; 
@@ -4582,7 +4582,7 @@ LEXICON Nouns
 ыраазы:ыраазы N-INFL ; 
 грыжа:грыжа N-INFL ; 
 фияско:фияско N-INFL ; 
-баа:баа N-INFL ; 
+! баа:баа N-INFL ; ! "removing duplicate" 
 флирт:флирт N-INFL ; 
 жарманке:жарманке N-INFL ; 
 күнөө:күнөө N-INFL ; 
@@ -4674,7 +4674,7 @@ LEXICON Nouns
 ! акыйкат:акыйкат N-INFL ; ! "removing duplicate" 
 дарыгер:дарыгер N-INFL ; 
 дарыгерчилик:дарыгерчилик N-INFL ; 
-башчы:башчы N-INFL ; 
+! башчы:башчы N-INFL ; ! "removing duplicate" 
 ! акыбал:акыбал N-INFL ; ! "removing duplicate" 
 халифа:халифа N-INFL ; 
 чөйрө:чөйрө N-INFL ; 
@@ -4742,7 +4742,7 @@ LEXICON Nouns
 климат:климат N-INFL ; 
 көндүрүү:көндүрүү N-INFL ; 
 сый:сый N-INFL ; 
-бийлик:бийлик N-INFL ; 
+! бийлик:бийлик N-INFL ; ! "removing duplicate" 
 даары:даары N-INFL ; 
 теңир:теңир N-INFL ; 
 теология:теология N-INFL ; 
@@ -4804,7 +4804,7 @@ LEXICON Nouns
 мойнуна% алуу:мойнуна% алуу N-INFL ; 
 биригүү:биригүү N-INFL ; 
 уруксаат:уруксаат N-INFL ; 
-көрүнүш:көрүнүш N-INFL ; 
+! көрүнүш:көрүнүш N-INFL ; ! "removing duplicate" 
 пучок:пучок N-INFL ; 
 жест:жест N-INFL ; 
 реактивдүү:реактивдүү N-INFL ; 
@@ -4943,7 +4943,7 @@ LEXICON Nouns
 такыбалык:такыбалык N-INFL ; ! ""
 мотиватсия:мотиватсия N-INFL ;
 ! чейинки:чейинки N-INFL ; 
-аскер:аскер N-INFL ; 
+! аскер:аскер N-INFL ; ! "removing duplicate" 
 аял:аял N-INFL ; 
 кезек:кезек N-INFL ; 
 класс:класс N-INFL ; 
@@ -5071,7 +5071,7 @@ LEXICON Nouns
 саясий:саясий N-INFL ;
 жоолугушуу:жоолугушуу N-INFL ;
 жүз:жүз N-INFL ;
-бет:бет N-INFL ;
+! бет:бет N-INFL ; ! "removing duplicate" 
 кеңешме:кеңешме N-INFL ;
 ! жак N-INFL ;
 чогулуш:чогулуш N-INFL ;
@@ -5103,7 +5103,7 @@ LEXICON Nouns
 чек% ара:чек% ара N-INFL ;
 жамаат:жамаат N-INFL ;
 коом:коом N-INFL ;
-аскер:аскер N-INFL ;
+! аскер:аскер N-INFL ; ! "removing duplicate" 
 ! борбор:борбор N-INFL ; ! "removing duplicate" 
 статуя:статуя N-INFL ;
 жыйынтык:жыйынтык N-INFL ;
@@ -5198,7 +5198,7 @@ LEXICON Nouns
 ! бүтүн N-INFL ; ! ADJ
 мүчөө:мүчөө N-INFL ;
 азчылык:азчылык N-INFL ;
-бөлүк:бөлүк N-INFL ;
+! бөлүк:бөлүк N-INFL ; ! "removing duplicate" 
 ескертүү:ескертүү N-INFL ;
 кеңейүү:кеңейүү N-INFL ; ! FIXME: hmmm
 командир:командир N-INFL ;
@@ -5275,7 +5275,7 @@ LEXICON Nouns
 сыйлык:сыйлык N-INFL ;
 мөрөй:мөрөй N-INFL ;
 укук:укук N-INFL ;
-бийлик:бийлик N-INFL ;
+! бийлик:бийлик N-INFL ; ! "removing duplicate" 
 өсүү:өсүү N-INFL ;
 өнүгүү:өнүгүү N-INFL ;
 прогресс:прогресс N-INFL ;
@@ -5286,7 +5286,7 @@ LEXICON Nouns
 кубат:кубат N-INFL ;
 даремет:даремет N-INFL ;
 электр% энергиясы:электр% энергиясы N-INFL ;
-салык:салык N-INFL ;
+! салык:салык N-INFL ; ! "removing duplicate" 
 тубаса% жөндөм:тубаса% жөндөм N-INFL ;
 алынуу:алынуу N-INFL ;
 күбө:күбө N-INFL ;
@@ -5342,7 +5342,7 @@ LEXICON Nouns
 согуш:согуш N-INFL ;
 уруш:уруш N-INFL ;
 эркиндик:эркиндик N-INFL ;
-боштондук:боштондук N-INFL ;
+! боштондук:боштондук N-INFL ; ! "removing duplicate" 
 спорт% бут% кийими:спорт% бут% кийими N-INFL ;
 так:так N-INFL ;
 ! анык:анык N-INFL ;  ! ADJ
@@ -5351,7 +5351,7 @@ LEXICON Nouns
 түрмө:түрмө N-INFL ;
 террорист:террорист N-INFL ;
 көө:көө N-INFL ;
-бөлүм:бөлүм N-INFL ;
+! бөлүм:бөлүм N-INFL ; ! "removing duplicate" 
 басуу:басуу N-INFL ;
 пресс:пресс N-INFL ;
 карабастан:карабастан N-INFL ;
@@ -5362,7 +5362,7 @@ LEXICON Nouns
 жарактуулук:жарактуулук N-INFL ;
 иш:иш N-INFL ;
 бар% болуш:бар% болуш N-INFL ;
-бөлүк:бөлүк N-INFL ;
+! бөлүк:бөлүк N-INFL ; ! "removing duplicate" 
 үлүш:үлүш N-INFL ;
 кадам:кадам N-INFL ;
 чөйрө:чөйрө N-INFL ;
@@ -5412,7 +5412,7 @@ LEXICON Nouns
 отургуч:отургуч N-INFL ;
 партнер:партнер N-INFL ;
 орток:орток N-INFL ;
-таасир:таасир N-INFL ;
+! таасир:таасир N-INFL ; ! "removing duplicate" 
 чоңоюуу:чоңоюуу N-INFL ;
 өнүгүү:өнүгүү N-INFL ;
 сот% процесси:сот% процесси N-INFL ;
@@ -5551,7 +5551,7 @@ LEXICON Nouns
 нары:нары N-INFL ;
 көбөйүү:көбөйүү N-INFL ;
 байкот:байкот N-INFL ;
-көрүнүш:көрүнүш N-INFL ;
+! көрүнүш:көрүнүш N-INFL ; ! "removing duplicate" 
 колдоо:колдоо N-INFL ;
 аныктама:аныктама N-INFL ;
 бал:бал N-INFL ;
@@ -5629,7 +5629,7 @@ LEXICON Nouns
 чара:чара N-INFL ;
 конок:конок N-INFL ;
 мүрзөө:мүрзөө N-INFL ;
-качкын:качкын N-INFL ;
+! качкын:качкын N-INFL ; ! "removing duplicate" 
 эс% алуу:эс% алуу N-INFL ;
 долбоор:долбоор N-INFL ;
 орточо% эсеп:орточо% эсеп N-INFL ;
@@ -5663,7 +5663,7 @@ LEXICON Nouns
 колкойуу:колкойуу N-INFL ;
 интерпилятсия:интерпилятсия N-INFL ;
 көрсөтмө:көрсөтмө N-INFL ;
-бедел:бедел N-INFL ;
+! бедел:бедел N-INFL ; ! "removing duplicate" 
 текшерүүчү:текшерүүчү N-INFL ;
 жүргүнчү:жүргүнчү N-INFL ;
 ач:ач N-INFL ;
@@ -5678,7 +5678,7 @@ LEXICON Nouns
 улут:улут N-INFL ;
 эл% өкүлү:эл% өкүлү N-INFL ;
 молдук:молдук N-INFL ;
-курс:курс N-INFL ;
+! курс:курс N-INFL ; ! "removing duplicate" 
 дене:дене N-INFL ;
 кассация:кассация N-INFL ;
 өнүгүү:өнүгүү N-INFL ;
@@ -5695,7 +5695,7 @@ LEXICON Nouns
 ачыктык:ачыктык N-INFL ;
 мамлекеттик% кызматкер:мамлекеттик% кызматкер N-INFL ;
 чыгым:чыгым N-INFL ;
-буйрук:буйрук N-INFL ;
+! буйрук:буйрук N-INFL ; ! "removing duplicate" 
 командачылык:командачылык N-INFL ;
 импорт:импорт N-INFL ;
 мурас:мурас N-INFL ;
@@ -5802,7 +5802,7 @@ LEXICON Nouns
 техника:техника N-INFL ; 
 шерик:шерик N-INFL ;
 жабуу:жабуу N-INFL ;
-даярдык:даярдык N-INFL ;
+! даярдык:даярдык N-INFL ; ! "removing duplicate" 
 дарылоо:дарылоо N-INFL ;
 семинар:семинар N-INFL ;
 конуш:конуш N-INFL ;
@@ -5828,7 +5828,7 @@ LEXICON Nouns
 белгисиз:белгисиз N-INFL ;
 чечим:чечим N-INFL ;
 сигнал:сигнал N-INFL ;
-аскер:аскер N-INFL ;
+! аскер:аскер N-INFL ; ! "removing duplicate" 
 туруктуу:туруктуу N-INFL ;
 гарантия:гарантия N-INFL ;
 ! жок N-INFL ;
@@ -5863,7 +5863,7 @@ LEXICON Nouns
 християн:християн N-INFL ;
 кыймылсыз% мүлк:кыймылсыз% мүлк N-INFL ;
 ым:ым N-INFL ; 
-ыр:ыр N-INFL ;
+! ыр:ыр N-INFL ; ! "removing duplicate" 
 өмүр:өмүр N-INFL ;
 билим% берүү:билим% берүү N-INFL ;
 байкоо:байкоо N-INFL ;
@@ -5919,7 +5919,7 @@ LEXICON Nouns
 терроризм:терроризм N-INFL ;
 шерик:шерик N-INFL ;
 жабуу:жабуу N-INFL ;
-даярдык:даярдык N-INFL ;
+! даярдык:даярдык N-INFL ; ! "removing duplicate" 
 дарылоо:дарылоо N-INFL ;
 семинар:семинар N-INFL ;
 конуш:конуш N-INFL ;
@@ -5945,7 +5945,7 @@ LEXICON Nouns
 белгисиз:белгисиз N-INFL ;
 чечим:чечим N-INFL ;
 сигнал:сигнал N-INFL ;
-аскер:аскер N-INFL ;
+! аскер:аскер N-INFL ; ! "removing duplicate" 
 туруктуу:туруктуу N-INFL ;
 гарантия:гарантия N-INFL ;
 ! жок N-INFL ;
@@ -5976,7 +5976,7 @@ LEXICON Nouns
 коридор:коридор N-INFL ;
 християн:християн N-INFL ;
 кыймылсыз% мүлк:кыймылсыз% мүлк N-INFL ;
-ыр:ыр N-INFL ;
+! ыр:ыр N-INFL ; ! "removing duplicate" 
 өмүр:өмүр N-INFL ;
 ! билим% берүү N-INFL ;
 байкоо:байкоо N-INFL ;
@@ -6056,10 +6056,10 @@ LEXICON Nouns
 эскерүү:эскерүү N-INFL ;
 репартер:репартер N-INFL ;
 изилдөөчү:изилдөөчү N-INFL ;
-бөлүк:бөлүк N-INFL ;
+! бөлүк:бөлүк N-INFL ; ! "removing duplicate" 
 бузуку:бузуку N-INFL ;
-ыкма:ыкма N-INFL ;
-байлык:байлык N-INFL ;
+! ыкма:ыкма N-INFL ; ! "removing duplicate" 
+! байлык:байлык N-INFL ; ! "removing duplicate" 
 генерал:генерал N-INFL ;
 эларалык:эларалык N-INFL ;
 бригада:бригада N-INFL ;
@@ -6095,7 +6095,7 @@ LEXICON Nouns
 модерндешитүү:модерндешитүү N-INFL ;
 кыймылдуу:кыймылдуу N-INFL ;
 жүрөк:жүрөк N-INFL ;
-ыкма:ыкма N-INFL ;
+! ыкма:ыкма N-INFL ; ! "removing duplicate" 
 айдоочу:айдоочу N-INFL ;
 оң:оң N-INFL ;
 кен:кен N-INFL ;
@@ -6117,7 +6117,7 @@ LEXICON Nouns
 контекст:контекст N-INFL ;
 партиялуу:партиялуу N-INFL ;
 коммунизм:коммунизм N-INFL ;
-батыш:батыш N-INFL ;
+! батыш:батыш N-INFL ; ! "removing duplicate" 
 таштанды:таштанды N-INFL ;
 кабарчы:кабарчы N-INFL ;
 марка:марка N-INFL ;
@@ -6221,7 +6221,7 @@ LEXICON Nouns
 жүгөн:жүгөн N-INFL ;
 кеме:кеме N-INFL ;
 дагы:дагы N-INFL ;
-даярдык:даярдык N-INFL ;
+! даярдык:даярдык N-INFL ; ! "removing duplicate" 
 куттук:куттук N-INFL ;
 ! акын:акын N-INFL ; ! "removing duplicate" 
 очок:очок N-INFL ;
@@ -6236,14 +6236,14 @@ LEXICON Nouns
 алуу:алуу N-INFL ;
 слоган:слоган N-INFL ;
 бардыгы:бардыгы N-INFL ;
-бет:бет N-INFL ;
+! бет:бет N-INFL ; ! "removing duplicate" 
 өзүнчө:өзүнчө N-INFL ;
 комплекс:комплекс N-INFL ;
 каттоо:каттоо N-INFL ;
 ишенимдүү:ишенимдүү N-INFL ;
 чочко:чочко N-INFL ;
 жемил:жемил N-INFL ;
-бедел:бедел N-INFL ;
+! бедел:бедел N-INFL ; ! "removing duplicate" 
 коомдук% тартип:коомдук% тартип N-INFL ;
 коштошуу:коштошуу N-INFL ;
 кулуар:кулуар N-INFL ;
@@ -6305,7 +6305,7 @@ LEXICON Nouns
 келгени:келгени N-INFL ;
 сүрөтчү:сүрөтчү N-INFL ;
 чеп:чеп N-INFL ;
-баш:баш N-INFL ;
+! баш:баш N-INFL ; ! "removing duplicate" 
 күйүүчү% май:күйүүчү% май N-INFL ;
 ок:ок N-INFL ;
 пират:пират N-INFL ;
@@ -6345,7 +6345,7 @@ LEXICON Nouns
 партизан:партизан N-INFL ;
 кайгы:кайгы N-INFL ;
 айтыш:айтыш N-INFL ;
-белги:белги N-INFL ;
+! белги:белги N-INFL ; ! "removing duplicate" 
 атлет:атлет N-INFL ;
 атлетика:атлетика N-INFL ; 
 команда:команда N-INFL ;
@@ -6375,7 +6375,7 @@ LEXICON Nouns
 фольга:фольга N-INFL ; 
 терс:терс N-INFL ;
 турне:турне N-INFL ;
-ыр:ыр N-INFL ;
+! ыр:ыр N-INFL ; ! "removing duplicate" 
 туткун:туткун N-INFL ;
 коюу:коюу N-INFL ;
 почта:почта N-INFL ;
@@ -6384,7 +6384,7 @@ LEXICON Nouns
 камера:камера N-INFL ;
 өлүм:өлүм N-INFL ;
 жылдыз:жылдыз N-INFL ;
-божомол:божомол N-INFL ;
+! божомол:божомол N-INFL ; ! "removing duplicate" 
 академик:академик N-INFL ;
 мамлекет% кирешеси:мамлекет% кирешеси N-INFL ;
 жыйынтыксыз:жыйынтыксыз N-INFL ;
@@ -6396,7 +6396,7 @@ LEXICON Nouns
 ой% пикир:ой% пикир N-INFL ;
 баскетбол:баскетбол N-INFL ;
 жаңычыл:жаңычыл N-INFL ;
-белги:белги N-INFL ;
+! белги:белги N-INFL ; ! "removing duplicate" 
 акталышы% керек% болгон% киши:акталышы% керек% болгон% киши N-INFL ;
 жүгөрү:жүгөрү N-INFL ;
 ак-куу N-INFL ;
@@ -6418,7 +6418,7 @@ LEXICON Nouns
 гало:гало N-INFL ;
 крест:крест N-INFL ;
 мындай:мындай N-INFL ;
-ыкма:ыкма N-INFL ;
+! ыкма:ыкма N-INFL ; ! "removing duplicate" 
 маек:маек N-INFL ;
 сансыз:сансыз N-INFL ;
 макулдук:макулдук N-INFL ;
@@ -6466,7 +6466,7 @@ LEXICON Nouns
 ысыка% байланыштуу:ысыка% байланыштуу N-INFL ;
 танытылган% нерсе:танытылган% нерсе N-INFL ;
 таанытма:таанытма N-INFL ;
-тынчтык:тынчтык N-INFL ;
+! тынчтык:тынчтык N-INFL ; ! "removing duplicate" 
 медициналык% текшерүү:медициналык% текшерүү N-INFL ;
 квота:квота N-INFL ;
 катар:катар N-INFL ;
@@ -6500,7 +6500,7 @@ LEXICON Nouns
 маалыматтар% негизи:маалыматтар% негизи N-INFL ;
 уят:уят N-INFL ;
 чексиз:чексиз N-INFL ;
-байлык:байлык N-INFL ;
+! байлык:байлык N-INFL ; ! "removing duplicate" 
 өрнөк:өрнөк N-INFL ;
 өч% алуу:өч% алуу N-INFL ;
 бурч:бурч N-INFL ;
@@ -6516,7 +6516,7 @@ LEXICON Nouns
 чын% жүрөктөн:чын% жүрөктөн N-INFL ;
 уюштуруучу:уюштуруучу N-INFL ;
 оңдомо:оңдомо N-INFL ;
-көрүнүш:көрүнүш N-INFL ;
+! көрүнүш:көрүнүш N-INFL ; ! "removing duplicate" 
 королева:королева N-INFL ;
 сорт:сорт N-INFL ;
 функция:функция N-INFL ;
@@ -6584,7 +6584,7 @@ LEXICON Nouns
 көчүрмө:көчүрмө N-INFL ;
 реабилитация:реабилитация N-INFL ;
 кошумча% акы:кошумча% акы N-INFL ;
-аңгеме:аңгеме N-INFL ;
+! аңгеме:аңгеме N-INFL ; ! "removing duplicate" 
 автобан:автобан N-INFL ;
 аныкы:аныкы N-INFL ;
 шылтоо:шылтоо N-INFL ;
@@ -6657,7 +6657,7 @@ LEXICON Nouns
 чакыруу:чакыруу N-INFL ;
 тартыныч:тартыныч N-INFL ;
 бразилия:бразилия N-INFL ;
-басма:басма N-INFL ;
+! басма:басма N-INFL ; ! "removing duplicate" 
 атом:атом N-INFL ;
 чөйрө:чөйрө N-INFL ;
 заказ:заказ N-INFL ;
@@ -6694,7 +6694,7 @@ LEXICON Nouns
 жака:жака N-INFL ;
 ! маалымат:маалымат N-INFL ;
 өкүлчүлүк:өкүлчүлүк N-INFL ;
-бирдик:бирдик N-INFL ;
+! бирдик:бирдик N-INFL ; ! "removing duplicate" 
 китеп% жазма:китеп% жазма N-INFL ;
 жоопкерчиликсиз:жоопкерчиликсиз N-INFL ;
 талма:талма N-INFL ;
@@ -6723,7 +6723,7 @@ LEXICON Nouns
 бечера:бечера N-INFL ;
 байкуш% киши:байкуш% киши N-INFL ;
 сарсанаа:сарсанаа N-INFL ;
-боор:боор N-INFL ;
+! боор:боор N-INFL ; ! "removing duplicate" 
 өзгөчөлүк:өзгөчөлүк N-INFL ; 
 санжыра:санжыра N-INFL ; ! "genealogy"
 түркмөн:түркмөн N-INFL ; ! "Turkmen"
@@ -6895,7 +6895,7 @@ LEXICON Nouns
 боксер:боксер N-INFL ;
 баглама:баглама N-INFL ;
 жөндөм:жөндөм N-INFL ;
-ыкма:ыкма N-INFL ;
+! ыкма:ыкма N-INFL ; ! "removing duplicate" 
 тиран:тиран N-INFL ;
 ! билим N-INFL ;
 супермаркет:супермаркет N-INFL ;
@@ -7035,6 +7035,51 @@ LEXICON Nouns
 оордук:оордук N-INFL ; ! "" 
 ачарчылык:ачарчылык N-INFL ; ! "" 
 ачыткы:ачыткы N-INFL ; ! "закваска" 
+адилеттик:адилеттик N-INFL ; ! "fairness" 
+адилетсиздик:адилетсиздик N-INFL ; ! "" 
+азыр:азыр N-INFL ; ! "should be adv?" 
+акимдик:акимдик N-INFL ; ! "" 
+акимчилик:акимчилик N-INFL ; ! "" 
+өнөктөштүк:өнөктөштүк N-INFL ; ! "partnership" 
+аэропорт:аэропорт N-INFL ; ! "airport" 
+династия:династия N-INFL ; ! "" 
+убара:убара N-INFL ; ! "" 
+мамы:мамы N-INFL ; ! "" 
+базардык:базардык N-INFL ; ! "" 
+бакыр:бакыр N-INFL ; ! "медная монета двухкопеечного достоинства" 
+бала% бакча:бала% бакча N-INFL ; ! "kindergarten" 
+кайни:кайни N-INFL ; ! "younger brother of wife" 
+бап:бап N-INFL ; ! "" 
+тренер:тренер N-INFL ; ! "" 
+жүрүш:жүрүш N-INFL ; ! "" 
+турак% жай:турак% жай N-INFL ; ! "" 
+далда:далда N-INFL ; ! "" 
+басылыш:басылыш N-INFL ; ! "" 
+боордош:боордош N-INFL ; ! "" 
+баяндама:баяндама N-INFL ; ! "" 
+байбиче:байбиче N-INFL ; ! "" 
+атаандаштык:атаандаштык N-INFL ; ! "" 
+батинке:батинке N-INFL ; ! "" 
+рельеф:рельеф N-INFL ; ! "" 
+образ:образ N-INFL ; ! "" 
+ашуу:ашуу N-INFL ; ! "" 
+активдүүлүк:активдүүлүк N-INFL ; ! "" 
+бетеге:бетеге N-INFL ; ! "Овсяница (лат. Festuca) — род травянистых растений семейства Злаки (Poaceae)." 
+бешмант:бешмант N-INFL ; ! "легкая приталенная одежда на подкладке до колен" 
+быйыл:быйыл N-INFL ; ! "" 
+тынчтык% сактоо% ишмердик:тынчтык% сактоо% ишмердик N-INFL ; ! "" 
+болуш:болуш N-INFL ; ! "волость в дореволюционном периоде" 
+плотина:плотина N-INFL ; ! "" 
+бөгөт:бөгөт N-INFL ; ! "" 
+бөлчөк:бөлчөк N-INFL ; ! "" 
+устун:устун N-INFL ; ! "" 
+козголоңчу:козголоңчу N-INFL ; ! "" 
+бүрсүгүнү:бүрсүгүнү N-INFL ; ! "not adv?" 
+бузукулук:бузукулук N-INFL ; ! "" 
+мурч:мурч N-INFL ; ! "" 
+бадал:бадал N-INFL ; ! "" 
+ванна:ванна N-INFL ; ! "" 
+тополоң:тополоң N-INFL ; ! "" 
 
 ! Abbreviations
 ! =============
@@ -13830,7 +13875,7 @@ LEXICON Adjectives
 эгиз:эгиз ADJ ;
 кабардар:кабардар ADJ ;
 саяакатчы:саяакатчы ADJ ;
-качкын:качкын ADJ ;
+! качкын:качкын ADJ ; ! "removing duplicate" 
 фанат:фанат ADJ ;
 естетикалык:естетикалык ADJ ;
 кол% кармашып ADJ ;
