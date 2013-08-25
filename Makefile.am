@@ -2,8 +2,8 @@
 ## Makefile for apertium-kir
 ###############################################################################
 
-RELEASE=0.1
-VERSION=0.1.0
+RELEASE=1.0
+VERSION=1.0.0
 LANG1=kir
 BASENAME=apertium-$(LANG1)
 
