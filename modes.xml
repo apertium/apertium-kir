@@ -13,8 +13,8 @@
 
   <mode name="kir-morph">
     <pipeline>
-      <program name="hfst-proc -w">
-        <file name="kir.automorf.hfst"/>
+      <program name="lt-proc -w">
+        <file name="kir.automorf.bin"/>
       </program>
     </pipeline>
   </mode>
@@ -31,15 +31,15 @@
   <mode name="kir-gener">
     <pipeline>
       <program name="hfst-proc -g">
-        <file name="kir.autogen.hfst"/>
+        <file name="kir.autogen.bin"/>
       </program>
     </pipeline>
   </mode>
 
   <mode name="kir-disam">
     <pipeline>
-      <program name="hfst-proc -w">
-        <file name="kir.automorf.hfst"/>
+      <program name="lt-proc -w">
+        <file name="kir.automorf.bin"/>
       </program>
       <program name="cg-proc -w">
         <file name="kir.rlx.bin"/>
