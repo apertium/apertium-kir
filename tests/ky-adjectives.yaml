@@ -1,8 +1,8 @@
 Config:
   hfst:
     App: hfst-optimised-lookup
-    Gen: ../tr-ky.autogen.hfst
-    Morph: ../ky-tr.automorf.hfst
+    Gen: ../kir.autogen.hfst
+    Morph: ../kir.automorf.hfst
 
 Tests:
   "[lexc] normal adjectives":
