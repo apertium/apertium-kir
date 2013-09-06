@@ -1,15 +1,15 @@
 Config:
   hfst:
-    App: hfst-optimised-lookup
+    App: hfst-lookup
     Gen: ../kir.autogen.hfst
     Morph: ../kir.automorf.hfst
 
 Tests:
   "[lexc] normal adjectives":
-    жаман<adj><norm> : жаман
-    мол<adj><norm> : мол
-    жакшы<adj><norm> : жакшы
-    көк<adj><norm> : көк
+    жаман<adj> : жаман
+    мол<adj> : мол
+    жакшы<adj> : жакшы
+    көк<adj> : көк
   
   "[lexc] comparative adjectives":
     кызыл<adj><comp> : кызылыраак
@@ -17,6 +17,6 @@ Tests:
     жакшы<adj><comp> : жакшыраак
     кең<adj><comp> : кеңирээк
     сары<adj><comp> : сарыраак
-    тоголок<adj><comp> : тоголокураак
+    тоголок<adj><comp> : тогологураак
     соо<adj><comp> : соороок
     өзгөчө<adj><comp> : өзгөчөрөөк 
