@@ -2201,7 +2201,7 @@ LEXICON Nouns
 тиги% дүйнө:тиги% дүйнө N-INFL ; ! FIXME: What???
 ! акмак:акмак N-INFL ; ! FIXME: This is ambiguous between adj and noun, I suppose, but I'd go with adj ! "removing duplicate" 
 эси% жок:эси% жок N-INFL ; ! FIXME: what?  This is more like and adjective.  I guess.
-келесоо:келесоо N-INFL ; 
+! келесоо:келесоо N-INFL ; ! "removing duplicate" 
 академия:академия N-INFL ; 
 акча:акча N-INFL ; 
 пул:пул N-INFL ; 
@@ -4195,7 +4195,7 @@ LEXICON Nouns
 антиквариат:антиквариат N-INFL ; 
 көп% кабат:көп% кабат N-INFL ; 
 жинди:жинди N-INFL ; 
-келесоо:келесоо N-INFL ; 
+! келесоо:келесоо N-INFL ; ! "removing duplicate" 
 араба:араба N-INFL ; 
 унаа:унаа N-INFL ; 
 талаа:талаа N-INFL ; 
@@ -6915,7 +6915,7 @@ LEXICON Nouns
 чийме:чийме N-INFL ;
 кеп:кеп N-INFL ;
 эзүү:эзүү N-INFL ;
-кара:кара N-INFL ;
+! кара:кара N-INFL ; ! "removing duplicate" 
 сатуучу:сатуучу N-INFL ;
 ! туу:туу N-INFL ; ! "removing duplicate" 
 ! арка:арка N-INFL ; ! "removing duplicate" 
@@ -7590,6 +7590,16 @@ LEXICON Nouns
 ырыс:ырыс N-INFL ; ! "" 
 ядро:ядро N-INFL ; ! "" 
 
+кас:кас N-INFL ; ! "enemy" 
+
+Желмаян:желмаян N-INFL ; ! "" 
+эңсеген% жер:эңсеген% жер N-INFL ; ! "" 
+торгой:торгой N-INFL ; ! "lark" 
+такыр:такыр N-INFL ; ! "" 
+жайлоо:жайлоо N-INFL ; ! "" 
+жут:жут N-INFL ; ! "" 
+тайлак:тайлак N-INFL ; ! "a colt" 
+буура:буура N-INFL ; ! "camel (male)" 
 
 ! Abbreviations
 ! =============
@@ -8271,6 +8281,25 @@ Tеңир NP-TOP ; ! ""
 Темиртау:Темиртау NP-TOP ; ! ""
 Шетпе:Шетпе NP-TOP ; ! ""
 Шүбарши:Шүбарши NP-TOP ; ! ""
+
+Жеруйык:Жеруйык NP-TOP ; ! "" 
+Сауран:Сауран NP-TOP ; ! "" 
+Жетисуу:Жетисуу NP-TOP ; ! "" 
+Баянауыл:Баянауыл NP-TOP ; ! "" 
+Каратал:Каратал NP-TOP ; ! "" 
+Мерке:Мерке NP-TOP ; ! "" 
+Аспара:Аспара NP-TOP ; ! "" 
+Шу:Шу NP-TOP ; ! "" 
+Сарысу:Сарысу NP-TOP ; ! "" 
+Олуяата:Олуяата NP-TOP ; ! "" 
+Келес:Келес NP-TOP ! "Keles river" 
+Жуалы:Жуалы NP-TOP ! "" 
+Ауан:Ауан NP-TOP ; ! "" 
+Ак%-Мечит:Ак%-Мечит NP-TOP ; ! "old name of Кызылорда" 
+Карсакбай:Карсакбай NP-TOP ; ! "" 
+Самар:Самар NP-TOP ; ! "" 
+Шыңгырлау:Шыңгырлау NP-TOP ; ! "" 
+Шөлистан:Шөлистан NP-TOP ; ! "" 
 
 ! Cities/towns/regions of Tatarstan
 !----------------------------------
@@ -11425,6 +11454,7 @@ Aйталы:Aйталы NP-ANT-M; ! "Aytğalıy" (Arabic)
 Ханс:Ханс NP-ANT-M; ! "Hans (German name)"
 Иохим:Иохим NP-ANT-M; ! "Joachim (German name)"
 
+Апенди:Апенди NP-ANT-M ; ! "" 
 
 Мария:Мария NP-ANT-F ; ! "Marija"
 Юлия:Юлия NP-ANT-F ; ! "Julija"
@@ -13993,7 +14023,7 @@ LEXICON Adjectives
 парафиндүү:парафиндүү A4 ; ! "" 
 партиялык:партиялык A4 ; ! "" 
 патриархалдык:патриархалдык A4 ; ! "" 
-патриархалдык:патриархалдуу A4 ; ! "" ! Dir/LR
+патриархалдык:патриархалдуу A4 ; ! "" Dir/LR
 педагогикалык:педагогикалык A4 ; ! "" 
 периоддук:периоддук A4 ; ! "" 
 пластикалык:пластикалык A4 ; ! "" 
@@ -14016,7 +14046,7 @@ LEXICON Adjectives
 реалисттик:реалисттик A4 ; ! "" 
 революциялык:революциялык A4 ; ! "" 
 режиссёрдук:режиссёрдук A4 ; ! "" 
-режиссёрдук:режиссердук A4 ; ! "" ! Dir/LR
+режиссёрдук:режиссердук A4 ; ! "" Dir/LR
 расмий:расмий A4 ; ! "" 
 республикалык:республикалык A4 ; ! "" 
 рецессивдүү:рецессивдүү A4 ; ! "" 
@@ -14158,6 +14188,11 @@ cубъективдүү:cубъективдүү A4 ; ! ""
 түшүмдүү:түшүмдүү A4 ; ! "FIXME check this it has comp form түшүмдүүрөөк" 
 кадимки:кадимки A4 ; ! "" 
 шордуу:шордуу A4 ; ! "" 
+
+суулуу:суулуу A4 ; ! "" 
+айдоого% жарамдуу:айдоого жарамдуу A4 ; ! "" 
+киши% тийбеген:киши% тийбеген A4 ; ! "" 
+жылтыраган:жылтыраган A4 ;  ! "" 
 
 ! A3 adj., adj.subst
 ! ==================
@@ -14315,13 +14350,15 @@ cубъективдүү:cубъективдүү A4 ; ! ""
 сыяктуу:сыяктуу A3 ; ! "FIXME check this" 
 таандык:таандык A3 ; ! "" 
 тийиштүү:тийиштүү A3 ; ! "" 
+
+чытырман:чытырман A3 ; ! "FIXME subst version used very few" 
  
 ! A2 adj.(comp), adj.(comp).subst
 ! ===============================
 
 татыктуу:татыктуу A2 ; ! "" 
 айыптуу:айыптуу A2 ; ! "" 
-айыптуу:күнөөлүү A2 ; ! "" ! Dir/LR
+айыптуу:күнөөлүү A2 ; ! "" Dir/LR
 бойлуу:бойлуу A2 ; ! "" 
 сулуу:сулуу A2 ; ! "" 
 жеткиликтүү:жеткиликтүү A2 ; ! "" 
@@ -14333,7 +14370,7 @@ cубъективдүү:cубъективдүү A4 ; ! ""
 
 түрдүү:түрдүү A2 ; ! "" 
 сапаттуу:сапаттуу A2 ; ! "" 
-сапаттуу:сапаттык A2 ; ! "" ! Dir/LR
+сапаттуу:сапаттык A2 ; ! "" Dir/LR
 милдеттүү:милдеттүү A2 ; ! "" 
 
 байланыштуу:байланыштуу A2 ; ! "" 
@@ -14731,7 +14768,7 @@ cубъективдүү:cубъективдүү A4 ; ! ""
 дос:дос ADJ ;
 ийилчээк:ийилчээк ADJ ;
 ! чексиз:чексиз ADJ ; ! "moved to A3 section" 
-жылтыраган:жылтыраган ADJ ;  ! FIXME: compositional
+! жылтыраган:жылтыраган ADJ ;  ! FIXME: compositional ! "moved to A4 section"
 керилген:керилген ADJ ;  ! FIXME: compositional
 чыңалган:чыңалган ADJ ;  ! FIXME: compositional
 тартылган:тартылган ADJ ;  ! FIXME: compositional
@@ -15212,7 +15249,7 @@ cубъективдүү:cубъективдүү A4 ; ! ""
 ташкын:ташкын ADJ ;
 козголбос:козголбос ADJ ;
 сойлоп% жүрүүчү ADJ ;
-суулуу:суулуу ADJ ;
+! суулуу:суулуу ADJ ; ! "moved to A4 section" 
 тектүү:тектүү ADJ ;
 мындай:мындай ADJ ;
 шовинист:шовинист ADJ ;
@@ -15995,7 +16032,7 @@ LEXICON Verbs
 жүр:жүр V-INFL-IV ;
 ич:ич V-INFL-TV ; ! "drink"
 кара:кара V-INFL-IV ; 
-кара:кара V-INFL-TV ;
+кара:кара V-INFL-TV ; ! "" 
 кат:кат V-INFL-TV ; 
 
 зыян% кел:зыян% кел V-INFL-IV-NO-CAUS ; ! "for harm to come"
@@ -16324,7 +16361,7 @@ LEXICON Verbs
 иш% жүзүнө% ашыр:иш% жүзүнө% ашыр V-INFL-IV ; ! FIXME: complex verb
 колдо:колдо V-INFL-TV ;
 жуун:жуун V-INFL-IV ;  ! FIXME: productive
-жарыяла:жарыяла V-INFL-TV ;
+! жарыяла:жарыяла V-INFL-TV ; ! "removing duplicate" 
 кабарла:кабарла V-INFL-TV ;
 келиш:келиш V-INFL-IV ;
 түшүнүш:түшүнүш V-INFL-IV ;
@@ -16353,7 +16390,7 @@ LEXICON Verbs
 көз% алдында% тут:көз% алдында% тут V-INFL-TV ;
 алдын% көр:алдын% көр V-INFL-TV ;
 асты% жагын% кара:асты% жагын% кара V-INFL-TV ;
-кон:кон V-INFL-IV ;
+! кон:кон V-INFL-IV ; ! "removing duplicate" 
 сунушта:сунушта V-INFL-TV ;
 өзгөр:өзгөр V-INFL-IV ;
 алмаш:алмаш V-INFL-IV ;
@@ -16548,7 +16585,7 @@ LEXICON Verbs
 кез:кез V-INFL-IV ;
 саякатта:саякатта V-INFL-IV ;
 ий:ий V-INFL-TV ;
-кара:кара V-INFL-TV ;
+! кара:кара V-INFL-TV ; ! "removing duplicate" 
 тукурул:тукурул V-INFL-TV ;
 үркү:үркү V-INFL-IV ;
 ээлик% кыл:ээлик% кыл V-INFL-TV ;
@@ -17252,6 +17289,16 @@ LEXICON Verbs
 минт:минт V-INFL-TV ;
 моюн% сун:моюн% сун V-INFL-TV ; ! "повиноваться"
 
+жумурткала:жумурткала V-INFL-IV ; ! "to lay eggs" 
+конуштан:конуштан V-INFL-IV ; ! ""
+конуштандыр:конуштандыр V-INFL-TV ; ! ""  
+жайкал:жайкал V-INFL-IV ; ! "" 
+шуулда:шуулда V-INFL-IV ; ! "" 
+оттот:оттот V-INFL-TV ; ! "" 
+өстүр:өстүр V-INFL-TV ; ! "" 
+эрик:эрик V-INFL-IV ; ! "" 
+үшүк% ал:үшүк% ал V-INFL-IV ; ! "" 
+
 
 LEXICON Abbreviations
 
@@ -17390,7 +17437,7 @@ LEXICON Interjections
 анда:анда INTERJ ;
 андай% болсо:андай% болсо INTERJ ;
 демек:демек INTERJ ;
-э:э INTERJ ;
+Э:э INTERJ ;
 аттигиниң:аттигиниң INTERJ ;
 аттиң:аттиң INTERJ ;
 аттигинай:аттигинай INTERJ ;
@@ -17409,6 +17456,8 @@ LEXICON Interjections
 о:о INTERJ ;
 оу:оу INTERJ ;
 ойбой:ойбой INTERJ ;
+
+аттиң% ай:аттиң% ай INTERJ ; ! "" 
 
 
 LEXICON Punctuation
