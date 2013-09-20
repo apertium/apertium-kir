@@ -6648,7 +6648,7 @@ LEXICON Nouns
 ! аңгеме:аңгеме N-INFL ; ! "removing duplicate" 
 автобан:автобан N-INFL ;
 аныкы:аныкы N-INFL ;
-шылтоо:шылтоо N-INFL ;
+! шылтоо:шылтоо N-INFL ; ! "removing duplicate" 
 ыйык:ыйык N-INFL ;
 карасуу:карасуу N-INFL ;
 ! калып:калып N-INFL ; ! "removing duplicate" 
@@ -7600,6 +7600,13 @@ LEXICON Nouns
 жут:жут N-INFL ; ! "" 
 тайлак:тайлак N-INFL ; ! "a colt" 
 буура:буура N-INFL ; ! "camel (male)" 
+жамбаш:жамбаш N-INFL ; ! "side,pelvis" 
+сыз:сыз N-INFL ; ! "cold" 
+үшүк:үшүк N-INFL ; ! "" 
+уч:уч N-INFL ; ! "the tip of" 
+тулга:тулга N-INFL ; ! "" 
+можу:можу N-INFL ; ! "" 
+чайнек:чайнек N-INFL ; ! "teapot" 
 
 ! Abbreviations
 ! =============
@@ -16515,7 +16522,8 @@ LEXICON Verbs
 ажырат:ажырат V-INFL-TV ;
 кечик:кечик V-INFL-TV ; ! "to be late"
 жала:жала V-INFL-TV ; ! "to lick"
-жак:жак V-INFL-IV ; ! "gustar"
+жак:жак V-INFL-IV ; ! "нравиться" 
+жак:жак V-INFL-TV ; ! "нравиться"
 
 катарга% тиз:катарга% тиз V-INFL-TV ;
 
@@ -17298,6 +17306,11 @@ LEXICON Verbs
 өстүр:өстүр V-INFL-TV ; ! "" 
 эрик:эрик V-INFL-IV ; ! "" 
 үшүк% ал:үшүк% ал V-INFL-IV ; ! "" 
+орундат:орундат V-INFL-TV ; ! "" 
+жамын:жамын V-INFL-TV ; ! "" 
+жылтыра:жылтыра V-INFL-IV ; ! "to shine" 
+тырыш:тырыш V-INFL-IV ; ! "" 
+ил:ил V-INFL-TV ; ! "hang" 
 
 
 LEXICON Abbreviations
