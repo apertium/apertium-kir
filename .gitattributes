@@ -12,6 +12,7 @@
 /autogen.sh -text
 /configure.ac -text
 dev/countstems.sh -text
+dev/editdist.py -text
 eval/Makefile -text
 eval/README -text
 eval/evaluate-morph.py -text
@@ -39,6 +40,10 @@ paper/poster/map.pdf -text
 paper/poster/paper.bib -text
 paper/poster/poster.pdf -text
 paper/poster/poster.tex -text
+speller/editdist.default.txt -text
+speller/index.xml -text
+speller/strings.default.txt -text
+speller/words.default.txt -text
 tests/HfstTester.py -text
 tests/README -text
 tests/abbreviations.yaml -text
