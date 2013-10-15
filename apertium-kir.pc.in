@@ -1,6 +1,8 @@
 prefix=@prefix@
 exec_prefix=${prefix}
 libdir=@libdir@
+dir=@libdir@/apertium/apertium-kir
+srcdir=@datarootdir@/apertium/apertium-kir
 
 Name: apertium-kir
 Description: Finite-state morphological transducer and constraint grammar for Kyrgyz 
