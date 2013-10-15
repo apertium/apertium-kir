@@ -109,4 +109,4 @@ fi
 
 
 
-AC_OUTPUT([Makefile apertium-kir-1.0.pc])
+AC_OUTPUT([Makefile apertium-kir.pc])
