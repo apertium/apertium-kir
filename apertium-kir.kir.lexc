@@ -5775,7 +5775,7 @@ LEXICON Nouns
 ! бирикме:бирикме N-INFL ; ! "removing duplicate" 
 дайындоо:дайындоо N-INFL ;
 соодалашуу:соодалашуу N-INFL ;
-укукий:укукий N-INFL ;
+укукий:укукий N-INFL ; ! FIXME: CHECK: not ADJ?
 багыт:багыт N-INFL ;
 ! адис:адис N-INFL ; ! "removing duplicate" 
 бай:бай N-INFL ; 
@@ -7618,6 +7618,7 @@ LEXICON Nouns
 тулга:тулга N-INFL ; ! "" 
 можу:можу N-INFL ; ! "" 
 чайнек:чайнек N-INFL ; ! "teapot" 
+статья:статья N-INFL ; ! "article (см. макала, бап)"
 
 ! Abbreviations
 ! =============
@@ -14645,6 +14646,8 @@ cубъективдүү:cубъективдүү A4 ; ! ""
 бай:бай A1 ; ! "" 
 тунук:тунук A1 ; ! "" 
 
+укуктуу:укуктуу ADJ ; ! ""
+
 бар:бар EXI ;
 жок:жок EXI ;
 
@@ -16281,8 +16284,8 @@ LEXICON Verbs
 майрамда:майрамда V-INFL-IV ;
 майрамда:майрамда V-INFL-TV ;
 ойлон:ойлон V-INFL-TV ;
-оку:оку V-INFL-IV ; ! "read"
-оку:оку V-INFL-TV ; ! "read"
+оку:оку V-INFL-IV ; ! "study (e.g., somewhere)"
+оку:оку V-INFL-TV ; ! "read, study (e.g., something)"
 окшо:окшо V-INFL-IV ; ! "be similar to"
 саба:саба V-INFL-TV ; ! ""
 сакта:сакта V-INFL-TV ;
