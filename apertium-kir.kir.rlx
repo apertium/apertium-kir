@@ -19,6 +19,8 @@ LIST Verb = v ;
 LIST Vb-or-Aux = v vaux ;
 LIST Part = prt_plan prt_cond prt_perf prt_impf prt_vol prt_irre prt_ala ;
 LIST PartIrre = prt_irre ;
+LIST Ger = ger ger_fut ger_past ;
+LIST Det = det ;
 LIST Cop = cop ;
 LIST Sent = sent ;
 LIST Pl = pl ;
@@ -97,3 +99,7 @@ REMOVE PartIrre IF
 REMOVE Px3pl IF
 	(0C Px3-Sg-Or-Pl)
 	(*-1C Np-Nom-Or-Gen-Sg BARRIER Sent);
+
+# жер
+REMOVE Verb IF
+	(-1 Det);

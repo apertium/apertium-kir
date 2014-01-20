@@ -1537,7 +1537,8 @@ LEXICON Determiners
 бүт:бүт DET-QNT ; ! "" 
 
 кайсы:кайсы PRON-ITG ;  ! FIXME: why ITG if next is DEM?
-кайсыл:кайсы DET-DEM ; ! "which?" ! FIXME: need morph to fix
+кайсы:кайсыл DET-DEM ; ! "which?" ! FIXME: need morph to fix  ! Dir/LR
+кайсы:кайсы DET-DEM ; ! "which?" ! FIXME: need morph to fix
 
 кайсы% бир:кайсы% бир DET-IND ;
 кандайдыр% бир:кандайдыр% бир DET-IND ; ! "some kind of"
