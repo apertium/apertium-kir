@@ -29,6 +29,7 @@ LIST Iv = iv ;
 LIST Aor = aor ;
 LIST Px3pl = px3pl ;
 LIST Px3sg = px3sg ;
+LIST Post = post ;
 
 LIST Vb-Pl = (v pl) ;
 LIST Vb-Sg = (v sg) ;
@@ -103,3 +104,4 @@ REMOVE Px3pl IF
 # жер
 REMOVE Verb IF
 	(-1 Det);
+
