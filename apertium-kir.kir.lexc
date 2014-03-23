@@ -191,6 +191,7 @@ Multichar_Symbols
 
 %>          ! Morpheme boundary
 % 
+%+ 
 
 @P.NEG.0@   ! Set if -{I}š is not present
 @P.NEG.1@   ! Set if -{I}š is present
@@ -1076,8 +1077,8 @@ LEXICON V-PERS-PRES ! P_6
 @D.NEG.1@%<p1%>%<sg%>:@D.NEG.1@%>м V-CLIT ; 
 @D.NEG.1@%<p2%>%<sg%>:@D.NEG.1@%>с%{I%}ң V-CLIT ; 
 @D.NEG.1@%<p2%>%<frm%>%<sg%>:@D.NEG.1@%>с%{I%}з V-CLIT ; 
-@D.NEG.1@%<p3%>%<sg%>:@D.NEG.1@%>т V-CLIT-OTHER ; 
-@D.NEG.1@%<p3%>%<sg%>:@D.NEG.1@%> V-CLIT-BI ; 
+@D.NEG.1@%<p3%>%<sg%>:%>@D.NEG.1@т V-CLIT-OTHER ; 
+@D.NEG.1@%<p3%>%<sg%>:%>@D.NEG.1@ V-CLIT-BI ; 
 @D.NEG.1@%<p1%>%<pl%>:@D.NEG.1@%>б%{I%}з V-CLIT ; 
 @D.NEG.1@%<p2%>%<pl%>:@D.NEG.1@%>с%{I%}ң%{A%}р V-CLIT ;  
 @D.NEG.1@%<p2%>%<frm%>%<pl%>:@D.NEG.1@%>с%{I%}зд%{A%}р V-CLIT ;  
