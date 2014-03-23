@@ -189,6 +189,9 @@ Multichar_Symbols
 %{й%}       ! Archiphoneme for й/р
 
 
+%>          ! Morpheme boundary
+% 
+
 @P.NEG.0@   ! Set if -{I}š is not present
 @P.NEG.1@   ! Set if -{I}š is present
 @D.NEG.0@   ! Disallow if -{I}š is not present
