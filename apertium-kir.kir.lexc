@@ -15,14 +15,12 @@ Multichar_Symbols
 %<prn%>     ! Pronoun
 %<post%>    ! Postposition
 %<postadv%> ! Postadverb
-%<part%>    ! Particle
 %<abbr%>    ! Abbreviation
 %<ij%>      ! Interjection 
 %<cnjcoo%>  ! Coordinating conjunction
 %<cnjadv%>  ! Adverbial conjunction
 %<cnjsub%>  ! Subordinating conjunction
 %<cop%>     ! Copula
-%<pred%>    ! Predicative
 
 %<iv%>      ! Intransitive 
 %<tv%>      ! Transitive
@@ -77,9 +75,8 @@ Multichar_Symbols
 
 %<dem%>     ! Demonstrative
 %<neg%>     ! Negative
-%<exi%>     ! Existential
 
-%<qst%>     ! Question modal particle and "what about" focus particle
+%<qst%>     ! Question modal word and "what about" focus particle
 !%<mod_foc%> ! "what about ..." question particle
 %<mod_ass%> ! assumption-that-interlocutor-knows-something modal particle
 %<mod_tru%> ! assumption-that-statement-is-true modal particle
@@ -1412,11 +1409,6 @@ LEXICON VAUX-ELE
 
 %<vaux%>: V-PERS-COND ;
 
-!LEXICON PRED
-!
-!%<pred%>%<subst%>: SUBST-COMMON ;
-!%<pred%>: ATTR ;
-
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!                  L E X I C O N    E N T R I E S                         !!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -1456,10 +1448,10 @@ LEXICON Conjunctions
 себеби:себеби CA ; ! "because"
 ошондуктан:ошондуктан CA ;  ! "that's why"
 !FIXME: integrate these two correctly:
-!эгер PART ; ! conjunction like particle "if"
-!эгерде PART ; ! conjunction like particle "if"
-эгер CS ; ! conjunction like particle "if"
-эгерде CS ; ! conjunction like particle "if"
+!эгер PART ; ! conjunction like word "if"
+!эгерде PART ; ! conjunction like word "if"
+эгер CS ; ! conjunction like word "if"
+эгерде CS ; ! conjunction like word "if"
 
 же% болбосо:же% болбосо CA ; ! ""
 кийин:кийин CA ; ! ""
