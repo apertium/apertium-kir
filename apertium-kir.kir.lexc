@@ -139,7 +139,6 @@ Multichar_Symbols
 
 %<imp%>     ! imperative
 
-%<pres%>    ! Present tense
 %<aor%>     ! Aorist, -E
 ! %<cond%>    ! Conditional, -сA
 %<opt%>     ! Optative, -мAк>чI
@@ -1307,7 +1306,6 @@ LEXICON V-INFL-NON-FINITE-REG
 LEXICON V-INFL-FINITE
 
 ! Finite forms
-!%<pres%>:%>%{A%} V-PERS-PRES ;                                ! TODO: Check
 %<aor%>:%>%{E%} V-PERS-PRES ;                                 !
 %<fut%>:%>%{A%}р V-PERS-COP-SUF ;                                 !
 %<fut%>:%>%{A%}%{A%}р V-PERS-COP-SUF ;                            ! Dir/LR
@@ -1322,7 +1320,6 @@ LEXICON V-INFL-FINITE
 %<pcond%>:%>м%{A%}к V-PERS-COP-SUF ;                              ! 
 %<notyet%>:%>{E%}% элек V-PERS-COP-SUF ;                          ! 
 
-!%<neg%>%<pres%>:%>%{B%}%{A%} V-PERS-PRES ;                    ! TODO: Check  (WTF is this?)
 !%<neg%>%<fut%>:%>%{B%}%{A%}%>%{A%}р V-PERS-COP ;              !
 !%<neg%>%<fut%>:%>%{B%}%{A%}%>%{A%}%{A%}р V-PERS-COP ;         ! Dir/LR
 !%<neg%>%<ifi%>:%>%{B%}%{A%}%>%{D%}%{I%} V-PERS-PAST ;         ! 
