@@ -651,9 +651,9 @@ LEXICON ADJ-LEVELS
 
 LEXICON A1
 
-%<adj%>: CLIT ;                                       !# жақсы адам
-%<adj%>%<comp%>:%>%{I%}р%{A%}%{A%}к CLIT ;            !# жақсырақ іс
-%<adj%>%<comp%>:%>%{I%}р%{A%}к CLIT ;                 ! Dir/LR
+%<adj%>: PRED ;                                       !# жақсы адам
+%<adj%>%<comp%>:%>%{I%}р%{A%}%{A%}к PRED ;            !# жақсырақ іс
+%<adj%>%<comp%>:%>%{I%}р%{A%}к PRED ;                 ! Dir/LR
 
 %<adj%>%<subst%>: SUBST ;                             !# жақсыны таптым
 %<adj%>%<comp%>%<subst%>:%>%{I%}р%{A%}%{A%}к SUBST ;  !# жақсырақты таптым
@@ -667,9 +667,9 @@ LEXICON A2                 ! (derived/not fully lexicalised) adjectives without 
                            ! <adj> and <adj.subst> readings have comparison levels.
                            !# татыктуу
 
-%<adj%>: CLIT ;                                       !# татыктуу адам
-%<adj%>%<comp%>:%>%{I%}р%{A%}%{A%}к CLIT ;            !# татыктуураак ага караганда
-%<adj%>%<comp%>:%>%{I%}р%{A%}к CLIT ;                 ! Dir/LR
+%<adj%>: PRED ;                                       !# татыктуу адам
+%<adj%>%<comp%>:%>%{I%}р%{A%}%{A%}к PRED ;            !# татыктуураак ага караганда
+%<adj%>%<comp%>:%>%{I%}р%{A%}к PRED ;                 ! Dir/LR
 
 %<adj%>%<subst%>: SUBST ;                             !# чыныгы наамга татыктууну издейли
 %<adj%>%<comp%>%<subst%>:%>%{I%}р%{A%}%{A%}к SUBST ;  !# "пайгамбардын биринчи ордун басуучулук милдетине барынан татыктуураагы Абу Бакр (р.а.) экендигин билдиришет."
@@ -680,7 +680,7 @@ LEXICON A3                 ! (derived/not fully lexicalised) adjectives without 
                            ! no comparison levels at all.
                            !# examples go here
 
-%<adj%>: CLIT ;                                       !# example 1
+%<adj%>: PRED ;                                       !# example 1
 %<adj%>%<subst%>: SUBST ;                             !# example 2
                                                       !# example 3
 
@@ -690,16 +690,16 @@ LEXICON A3                 ! (derived/not fully lexicalised) adjectives without 
 LEXICON A4                 ! "pure" adjectives - no adverbial and substantive readings, no comparison levels;
                            !# улуттук
 
-%<adj%>: CLIT ;                                       !# улуттук тамак
+%<adj%>: PRED ;                                       !# улуттук тамак
 
 
 LEXICON A5                 ! adjectives with comparative reading only;
                            ! <adj> and <adj.comp> 
                            !# кеңири
 
-%<adj%>: CLIT ;                                       !# кеңири
-%<adj%>%<comp%>:%>%{I%}р%{A%}%{A%}к CLIT ;            !# продукция үчүн кеңирирээк рыноктор ачылат
-%<adj%>%<comp%>:%>%{I%}р%{A%}к CLIT ;                 ! Dir/LR
+%<adj%>: PRED ;                                       !# кеңири
+%<adj%>%<comp%>:%>%{I%}р%{A%}%{A%}к PRED ;            !# продукция үчүн кеңирирээк рыноктор ачылат
+%<adj%>%<comp%>:%>%{I%}р%{A%}к PRED ;                 ! Dir/LR
 
 
 
