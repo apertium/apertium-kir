@@ -1137,7 +1137,7 @@ LEXICON V-PERS-COP-SUF-NOSG3
 LEXICON V-PERS-COP ! P_3
 
 !%+э%<cop%>: V-PERS-COP-SUF-NOSG3 ; 
-%+э%<cop%>: V-PERS-COP-SUF ; 
+%+э%<cop%>%<aor%>: V-PERS-COP-SUF ; 
 !%+э%<cop%>%<neg%>:% эмес V-PERS-COP-SUF ; 
 !%+э%<cop%>%<evid%>:% экен V-PERS-COP-SUF ; 
 !%+э%<cop%>%<neg%>%<evid%>:% эмес% экен V-PERS-COP-SUF ; 
