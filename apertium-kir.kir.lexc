@@ -7746,6 +7746,8 @@ LEXICON Nouns
 насыя:насыя N-INFL ; ! "credit"
 түшкү% тамак:түшкү% тамак N-INFL ; ! "lunch"
 эртең% мененки% тамак:эртең% мененки% тамак N-INFL ; ! "breakfast" ! FIXME: check
+дүйнөнүн% төрт% бурчу:дүйнөнүн% төрт% бурч N-INFL-3PX-COMPOUND ; ! "the four corners of the world"   ! Use/MT
+маек% алуу N-INFL ; ! "interview (as an event)" ! Use/MT
 
 
 ! Abbreviations
@@ -8588,6 +8590,7 @@ Wrigley:Wrigley NP-ORG ; ! ""
 Google:Google NP-ORG ; ! ""
 Twitter:Twitter NP-ORG ; ! ""
 YouTube:YouTube NP-ORG ; ! ""
+ABC:ABC%{э%} NP-ORG ; ! ""
 
 Түрік% Әуежолдары:Түрік% Әуежолдар NP-ORG-COMPOUND ; ! "Turkish Airways"
 Боруссия% Дортмунд:Боруссия% Дортмунд%{☭%} NP-ORG ; ! "Borussia Dortmund"
@@ -17686,6 +17689,7 @@ LEXICON Verbs
 
 !! JNW Verbs
 айна% сеп:айна% сеп V-INFL-TV ; ! "powder" ! Use/MT
+атактуу% бол V-INFL-IV ; ! "become famous" ! Use/MT
 
 
 LEXICON Abbreviations
