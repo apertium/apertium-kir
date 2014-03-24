@@ -187,11 +187,15 @@ Multichar_Symbols
 %{а%}       ! Archiphoneme for back vowel numerals/abbreviation
 %{э%}       ! Archiphoneme for front vowel numerals/abbreviation
 %{й%}       ! Archiphoneme for й/р
+%{н%}       !
+%{з%}       ! 
+%{с%}       !
 
 
 %>          ! Morpheme boundary
 % 
 %+ 
+%-
 
 @P.NEG.0@   ! Set if -{I}š is not present
 @P.NEG.1@   ! Set if -{I}š is present
@@ -205,7 +209,6 @@ Multichar_Symbols
 
 LEXICON Root
 
-NumeralList ; ! Use/Circ
 Copula ;
 Particles ;
 Postpositions ;
@@ -222,8 +225,160 @@ Verbs ;
 Punctuation ;
 Interjections ;
 Abbreviations ;
+Digits ; ! Use/Circ
 ! Nationalities ;
 ! TO-REMOVE ;
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+LEXICON CASE-NONOM
+
+! This continuation lexicon is a copy of the normal case lexicon,
+! only it does not include nominative
+!   1<num><nom> = 1, 1<num><acc> = 1-{N}{I}
+
+%<gen%>:%>%{N%}%{I%}н COMMON-CLITICS ;
+%<dat%>:%>%{G%}%{A%} COMMON-CLITICS ;
+%<acc%>:%>%{N%}%{I%} COMMON-CLITICS ;
+%<abl%>:%>%{D%}%{A%}н # ;
+%<loc%>:%>%{D%}%{A%} # ;
+%<ins%>:%>%{M%}ен COMMON-CLITICS ;
+
+LEXICON CASE-ETC-NONOM
+
+CASE-NONOM ;
+GENPOSS-ETC ;
+
+LEXICON N-INFL-COMMON-NONOM
+
+POSSESSIVES ;
+CASE-ETC-NONOM ;
+
+LEXICON SUBST-NONOM
+
+N-INFL-COMMON-NONOM ;
+%<pl%>:%>%{L%}%{A%}р N-INFL-COMMON-NONOM ;
+
+LEXICON SQRD
+! This lexicon includes common ways of writing squared, cubed etc.
+
+²%<num%>:2 # ;  ! Dir/LR
+³%<num%>:3 # ;  ! Dir/LR
+²%<num%>:² # ;
+³%<num%>:³ # ;
+%<num%>: # ;
+
+LEXICON NUM-DIGIT
+
+%<num%>: # ;
+%<num%>%<subst%>%<nom%>: # ;
+%<num%>%<subst%>:%- SUBST-NONOM ;
+%<num%>%<subst%>: SUBST-NONOM ; ! Dir/LR
+
+%<num%>%<ord%>:%-%{I%}нш%{I%} # ;
+%<num%>%<ord%>%<subst%>%<nom%>:%-%{I%}нш%{I%} # ;
+%<num%>%<ord%>%<subst%>:%-%{I%}нш%{I%} SUBST-NONOM ;
+%<num%>%<ord%>:%-ш%{I%} # ; ! Dir/LR
+%<num%>%<ord%>%<subst%>%<nom%>:%-ш%{I%} # ; ! Dir/LR
+%<num%>%<ord%>%<subst%>:%-ш%{I%} SUBST-NONOM ; ! Dir/LR
+
+%<num%>%<coll%>%<advl%>:%-%{A%}у # ;
+%<num%>%<coll%>%<nom%>:%-%{A%}у # ;
+%<num%>%<coll%>:%-%{A%}у SUBST-NONOM ;
+
+%<num%>%<percent%>:%% # ;
+%<num%>%<percent%>%<subst%>%<nom%>:%% # ;
+
+%<num%>%<percent%>%<subst%>:%%%{а%}%{з%}%- SUBST-NONOM ;
+%<num%>%<percent%>%<subst%>:%%%{а%}%{з%} SUBST-NONOM ; ! Dir/LR
+%<num%>%<percent%>%<subst%>:%%%{э%}%{с%}%- SUBST-NONOM ; ! Dir/LR
+%<num%>%<percent%>%<subst%>:%%%{э%}%{с%} SUBST-NONOM ; ! Dir/LR
+
+°С%<num%>:°С # ;
+°С%<num%>%<subst%>%<nom%>:°С # ;
+°С%<num%>%<subst%>:°С%{а%}%{с%}%- SUBST-NONOM ;
+°С%<num%>%<subst%>:°С%{э%}%{с%}%- SUBST-NONOM ; ! Dir/LR
+°С%<num%>:ºС # ; ! Dir/LR
+°С%<num%>%<subst%>%<nom%>:ºС # ; ! Dir/LR
+°С%<num%>%<subst%>:ºС%{а%}%{с%}%- SUBST-NONOM ; ! Dir/LR
+°С%<num%>%<subst%>:ºС%{э%}%{с%}%- SUBST-NONOM ; ! Dir/LR
+°С%<num%>:С # ; ! Dir/LR
+°С%<num%>%<subst%>%<nom%>:С # ; ! Dir/LR
+°С%<num%>%<subst%>:С%{а%}%{с%}%- SUBST-NONOM ; ! Dir/LR
+°С%<num%>%<subst%>:С%{э%}%{с%}%- SUBST-NONOM ; ! Dir/LR
+
+С%<num%>:° # ; ! Dir/LR
+С%<num%>%<subst%>%<nom%>:° # ; ! Dir/LR
+С%<num%>%<subst%>:°%{а%}%{с%}%- SUBST-NONOM ; ! Dir/LR
+С%<num%>%<subst%>:°%{э%}%{с%}%- SUBST-NONOM ; ! Dir/LR
+
+! Measurement units
+
+км:км SQRD ;
+мм:мм SQRD ;
+см:см SQRD ;
+м:м SQRD ;
+
+LEXICON LASTDIGIT
+
+1:1%{э%}%{й%}           NUM-DIGIT ; ! "бир"
+2:2%{э%}                NUM-DIGIT ; ! "эки"
+3:3%{э%}%{с%}           NUM-DIGIT ; ! "үч"
+4:4%{э%}%{с%}           NUM-DIGIT ; ! "төрт"
+5:5%{э%}%{с%}           NUM-DIGIT ; ! "беш"
+6:6%{а%}                NUM-DIGIT ; ! "алты"
+7:7%{э%}                NUM-DIGIT ; ! "жети"
+8:8%{э%}%{з%}           NUM-DIGIT ; ! "сегиз"
+9:9%{а%}%{з%}           NUM-DIGIT ; ! "тогуз"
+
+LEXICON LASTDIGIT-REST
+
+1%0:1%0%{а%}%{н%}       NUM-DIGIT ; ! "он"
+2%0:2%0%{а%}            NUM-DIGIT ; ! "қырық"
+3%0:3%0%{а%}%{з%}       NUM-DIGIT ; ! "отыз"
+4%0:4%0%{а%}%{с%}       NUM-DIGIT ; ! "қырық"
+5%0:5%0%{э%}%{й%}       NUM-DIGIT ; ! "елу"
+6%0:6%0%{а%}%{с%}       NUM-DIGIT ; ! "алпыс"
+7%0:7%0%{э%}%{с%}       NUM-DIGIT ; ! "жетпіс"
+8%0:8%0%{э%}%{н%}       NUM-DIGIT ; ! "сексен"
+9%0:9%0%{а%}%{н%}       NUM-DIGIT ; ! "тоқсан"
+
+LEXICON POWERS
+%0%0:%0%0%{э%}%{з%}     NUM-DIGIT ; ! "жүз"
+%0%0%0:%0%0%0%{а%}%{н%} NUM-DIGIT ; ! "мың"
+
+
+LEXICON LOOP
+
+%,:%, DIGITLEX ;
+%.:%. DIGITLEX ;
+%,:%, LASTDIGIT ;
+%.:%. LASTDIGIT ;
+%,:%, LASTDIGIT-REST ;
+%.:%. LASTDIGIT-REST ;
+%,:%, POWERS ;
+%.:%. POWERS ;
+      DIGITLEX ;
+      LASTDIGIT ;
+      LASTDIGIT-REST ;
+      POWERS ;
+
+LEXICON DIGITLEX
+
+%0:%0 LOOP ;
+1:1   LOOP ;
+2:2   LOOP ;
+3:3   LOOP ;
+4:4   LOOP ;
+5:5   LOOP ;
+6:6   LOOP ;
+7:7   LOOP ;
+8:8   LOOP ;
+9:9   LOOP ;
+
+!==============================================================================!
+!          N U M E R A L     L E X I C O N     E N D S     H E R E
+!==============================================================================!
 
 
 LEXICON CASES-DEFAULT
@@ -721,64 +876,6 @@ LEXICON DET-REF
 
 %<det%>%<ref%>: # ;
 
-
-LEXICON NumeralList
-
-%0 NumeralLoop ;
-1 NumeralLoop ;
-2 NumeralLoop ;
-3 NumeralLoop ;
-4 NumeralLoop ;
-5 NumeralLoop ;
-6 NumeralLoop ;
-7 NumeralLoop ;
-8 NumeralLoop ;
-9 NumeralLoop ;
-%% NumeralLoop ;
-
-LEXICON NumeralLoop
-NumeralList ;
-%. NumeralList  ;
-%, NumeralList  ;
-%. NUM ; ! Dir/RL
-%, NUM ; ! Dir/RL
-%%%<num%>:%% CASES ;
-!Num ;
-NUM ;
-
-LEXICON NUM-ROMAN
-
-%<num%>: CASES ;
-
-
-LEXICON NUM
-
-NUM-COMMON ;
-
-
-LEXICON NUM-ONE
-
-% жүз:% жүз NUM ; ! "one hundred"
-% миң:% миң NUM ; ! "one thousand"
-% миллион:% миллион NUM ; ! "one million"
-% миллиард:% миллиард NUM ; ! "one billion"
-
-NUM-COMMON ;
-
-LEXICON NUM-ORDINAL
-
-! FIXME: This should look more like in kaz.lexc probably
-%<num%>%<ord%>:%>%{I%}нч%{I%} # ;                      ! base form, <det> reading
-%<num%>%<ord%>:%>%{I%}нч%{I%} SUBST-COMMON ;
-%<num%>%<ord%>%<advl%>:%>%{I%}нч%{I%} ADVL ;
-%<num%>%<ord%>%<subst%>:%>%{I%}нч%{I%} SUBST-COMMON ;  ! yes, they can be plural
-
-LEXICON NUM-COMMON
-
-%<num%>: # ;
-%<num%>%<subst%>: SUBST-COMMON ;
-! %<num%>%<sim%>:%>%{D%}%{A%}й POSSESSION ;  ! WTF is this?
-NUM-ORDINAL ;
 
 LEXICON PRON-DEM-BUL
 
@@ -1642,15 +1739,15 @@ LEXICON Pronouns
 
 LEXICON Numerals 
 
-бир NUM-ONE ; ! "one"
-эки NUM-ONE ; ! "two"
-үч NUM-ONE ; ! "three"
-төрт NUM-ONE ; ! "four"
-беш NUM-ONE ; ! "five"
-алты NUM-ONE ; ! "six"
-жети NUM-ONE ; ! "seven"
-сегиз NUM-ONE ; ! "eight"
-тогуз NUM-ONE ; ! "nine"
+бир:бир NUM ; ! "one"
+эки NUM ; ! "two"
+үч NUM ; ! "three"
+төрт NUM ; ! "four"
+беш NUM ; ! "five"
+алты NUM ; ! "six"
+жети NUM ; ! "seven"
+сегиз NUM ; ! "eight"
+тогуз NUM ; ! "nine"
 он:он NUM ; ! "ten"
 жыйырма:жыйырма NUM ; ! "twenty"
 отуз:отуз NUM ; ! "thirty"
@@ -17737,6 +17834,19 @@ LEXICON Punctuation
 %)%<rpar%>:%) # ;
 \%<sent%>:\ # ;
 /%<sent%>:/ # ;
+
+
+!==============!
+ LEXICON Digits ! Use/Circ
+!==============!
+
+
+%0:%0 NUM ;  ! Use/Circ
+№:№ DIGITLEX ;  ! Use/Circ
+DIGITLEX ; ! Use/Circ
+LASTDIGIT ; ! Use/Circ
+LASTDIGIT-REST ; ! Use/Circ
+
 
 !=============================================================================!
 ! To be checked and moved to the correct continuation lexica
