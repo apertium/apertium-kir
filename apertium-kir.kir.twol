@@ -88,8 +88,8 @@ WildNoVow = Cns %> 0 ;
 WildNonPhon = %> 0 ;
 !WildNoVowNoY = [ Cns - й ] %> 0 ;
 
-Abstract = %{а%} %{э%} %{ө%} %{у%} %{о%} %{й%} %{л%} %{з%} %{с%} ;
-AbstractCns = %{й%} %{л%} %{з%} %{с%} ;
+Abstract = %{а%} %{э%} %{ү%} %{у%} %{о%} %{й%} %{л%} %{з%} %{т%} ;
+AbstractCns = %{й%} %{л%} %{з%} %{т%} ;
 
 
 Rules
@@ -134,7 +134,7 @@ Rules
 
 "Devoicing of stops etc. across morpheme boundary after voiceless consonants" !!"Katkalan harmony in consonants"
 Cx:Cy <=>  [ :UnvoicedNonSonCns ]/[ [ :0 - [ %{n%}:0 | Abstract:0 ] ] | %>: ] _ ;
-           [ %{с%}:0 ]/[ %>: ] _ ;
+           [ %{т%}:0 ]/[ %>: | %- ] _ ;
                            except
                                    ! avoid conflict with "Causative stuff"
                                    [ :SurVow | :р | :н ] %>: _ %{I%}: р: ;
@@ -205,11 +205,17 @@ Cx:Cy <=>  [ :UnvoicedNonSonCns ]/[ [ :0 - [ %{n%}:0 | Abstract:0 ] ] | %>: ] _ 
 
                      matched ;
 
-"Abstract vowel harmony for {А} after {а}"
-%{A%}:а  <=> [ %{а%}:0 AbstractCns:0* :Cns* ]/[ [ :0 - Abstract: ] | %>: ] _ ;
+"Abstract vowel harmony for {А} after {а} or {у}"
+%{A%}:а  <=> [ [ %{а%}:0 | %{у%}:0 ] AbstractCns:0* :Cns* ]/[ [ :0 - Abstract: ] | %>: | %- ] _ ;
 
 "Abstract vowel harmony for {А} after {э}"
-%{A%}:е  <=> [ %{э%}:0 AbstractCns:0* :Cns* ]/[ [ :0 - Abstract: ] | %>: ] _ ;
+%{A%}:е  <=> [ %{э%}:0 AbstractCns:0* :Cns* ]/[ [ :0 - Abstract: ] | %>: | %- ] _ ;
+
+"Abstract vowel harmony for {А} after {ү}"
+%{A%}:ө  <=> [ %{ү%}:0 AbstractCns:0* :Cns* ]/[ [ :0 - Abstract: ] | %>: | %- ] _ ;
+
+"Abstract vowel harmony for {А} after {о}"
+%{A%}:о  <=> [ %{о%}:0 AbstractCns:0* :Cns* ]/[ [ :0 - Abstract: ] | %>: | %- ] _ ;
 
 
 "Vowel harmony for {A} so that AA becomes ээ"  ! and not ее
