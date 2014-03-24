@@ -34,7 +34,6 @@ Multichar_Symbols
 %<loc%>     ! Locative
 %<abl%>     ! Ablative
 
-!%<locattr%>    ! Relativised locative -DAGI
 %<subst%>   ! substantive use of non-nouns
 %<attr%>    ! attributive use of non-adjectives
 %<advl%>    ! adverbial use of non adverbs
@@ -630,6 +629,17 @@ N-INFL ;          ! a member of the nationality, e.g. "A Turk"
 %>ч%{A%} ADV ;    ! as / in the style of the nat., e.g. "à la Turk"
 %>ч%{A%} ADV ;    ! in the language of the nationality, e.g. "in Turkish"
 %>ч%{A%} N-INFL ; ! the language of the nationality, e.g. "Turkish"
+
+LEXICON NUM-COMMON
+
+%<num%>: # ;
+%<num%>%<subst%>: SUBST ;
+
+LEXICON NUM
+
+NUM-COMMON ;
+%<num%>%<ord%>:%>%{I%}нш%{I%} # ;             ! FIXME: base form, <det> reading
+%<num%>%<ord%>:%>%{I%}нш%{I%} N-INFL-COMMON ;
 
 LEXICON NP-AL
 
