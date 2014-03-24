@@ -1227,7 +1227,7 @@ LEXICON V-INFL-NON-FINITE-IRREG
 %<neg%>%<prc_real%>:%>%{B%}%{A%}%>%{E%} # ;
 
 ! Verbal adverbs
-%<gna_ala%>:%>м%{A%}й%{I%}нч%{A%} #;       ! no negative form  ! rare IS
+%<gna_ala%>:%>м%{A%}й%{I%}нч%{A%} # ;       ! no negative form  ! rare IS
 %<gna_perf%>:%>%{I%}п # ;
 %<neg%>%<gna_perf%>:%>%{B%}%{A%}%>%{E%} # ;
 
@@ -1658,13 +1658,13 @@ LEXICON Determiners
 башка:башка DET-IND ;    ! FIXME: Hmmmm
 бир% далай:бир% далай DET-QNT ;
 бирер:бирер DET-IND ;
-бүт% баары:бүт% баары DET-QNT ;
+бүт% баары:бүт% баары PRON-QNT ;
 бир% канча:бир% канча DET-QNT ;
 ушунчалык:ушунчалык DET-QNT ;
 биртке:биртке DET-QNT ;
 анчалык:анчалык DET-QNT ;
 бардык:бардык DET-QNT ;
-ар% ким:ар% ким DET-IND ;
+ар% ким:ар% ким PRON-IND ;
 ! кайсы% бир DET-IND ;
 бирдей:бирдей DET-IND ;
 ушунчалык:ушунчалык DET-QNT ;
@@ -5096,7 +5096,7 @@ LEXICON Nouns
 ! кыштак N-INFL ;
 котормочу:котормочу N-INFL ;
 журналистика:журналистика N-INFL ;
-маек:маек N-INFL ;
+маек:маек N-INFL ;  ! "interview"
 сөздүк:сөздүк N-INFL ;
 ! түр:түр N-INFL ; ! "removing duplicate" 
 уч:уч N-INFL ; ! "tip, point"
@@ -5628,7 +5628,7 @@ LEXICON Nouns
 комсомол:комсомол N-INFL ; 
 ! кеңеш:кеңеш N-INFL ; ! "removing duplicate" 
 порт:порт N-INFL ;
-өлүм:өлүм N-INFL ;
+өлүм:өлүм N-INFL ; ! "death"
 бомба:бомба N-INFL ;
 ! өндүрүш:өндүрүш N-INFL ; ! "removing duplicate" 
 жанына% кол% салуу:жанына% кол% салуу N-INFL ;
@@ -6605,7 +6605,7 @@ LEXICON Nouns
 крест:крест N-INFL ;
 мындай:мындай N-INFL ;
 ! ыкма:ыкма N-INFL ; ! "removing duplicate" 
-маек:маек N-INFL ;
+! маек:маек N-INFL ; ! "removing duplicate"
 сансыз:сансыз N-INFL ;
 макулдук:макулдук N-INFL ;
 пасха:пасха N-INFL ;
@@ -7737,6 +7737,15 @@ LEXICON Nouns
 !! JNW Nouns
 чымчык:чымчык N-INFL ; ! "bird"
 медайым:медайым N-INFL ; ! "nurse"
+алып% баруучу:алып% баруучу N-INFL ; ! "MC, host"
+көнүгүү:көнүгүү N-INFL ; ! "exercise"
+пончик:пончик N-INFL ; ! "scone/doughnut/etc."
+булочка:булочка N-INFL ; ! "roll (food)"
+рахат:рахат N-INFL ; ! "pleasure"
+рахат:ырахат N-INFL ; ! "pleasure" ! Dir/LR
+насыя:насыя N-INFL ; ! "credit"
+түшкү% тамак:түшкү% тамак N-INFL ; ! "lunch"
+эртең% мененки% тамак:эртең% мененки% тамак N-INFL ; ! "breakfast" ! FIXME: check
 
 
 ! Abbreviations
@@ -11614,6 +11623,10 @@ Aйталы:Aйталы NP-ANT-M ; ! "Aytğalıy" (Arabic)
 Айша:Айша NP-ANT-F ;
 Толгонай:Толгонай NP-ANT-F ;
 
+!! JNW ANT
+Тэд:Тэд NP-ANT-M ; ! "Ted"
+Митч:Митч NP-ANT-M ; ! "Mitch"
+
 ! Patronyms
 !==========
 
@@ -14020,6 +14033,9 @@ Aйталы:Aйталы NP-ANT-M ; ! "Aytğalıy" (Arabic)
 Ылич:Ылич NP-COG-MF ;
 Эйүпович:Эйүпович NP-COG-MF ;
 
+!! JNW COG
+Коппел:Коппел NP-COG-MF ; ! "Koppel"
+Албом:Албом NP-COG-MF ; ! "Albom"
 
 
 LEXICON Adjectives
