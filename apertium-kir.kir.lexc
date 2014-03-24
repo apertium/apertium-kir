@@ -186,10 +186,13 @@ Multichar_Symbols
 
 %{а%}       ! Archiphoneme for back vowel numerals/abbreviation
 %{э%}       ! Archiphoneme for front vowel numerals/abbreviation
+%{ү%}       ! Archiphoneme for front rounded vowels numerals/abbreviation
+%{у%}
+%{о%}
 %{й%}       ! Archiphoneme for й/р
-%{н%}       !
-%{з%}       ! 
-%{с%}       !
+%{л%}
+%{з%}       ! Archiphoneme for nasals and voiced obstruents numerals/abbreviation
+%{т%}       ! Archiphoneme for voiceless consonants numerals/abbreviation
 
 
 %>          ! Morpheme boundary
@@ -291,26 +294,26 @@ LEXICON NUM-DIGIT
 
 %<num%>%<percent%>%<subst%>:%%%{а%}%{з%}%- SUBST-NONOM ;
 %<num%>%<percent%>%<subst%>:%%%{а%}%{з%} SUBST-NONOM ; ! Dir/LR
-%<num%>%<percent%>%<subst%>:%%%{э%}%{с%}%- SUBST-NONOM ; ! Dir/LR
-%<num%>%<percent%>%<subst%>:%%%{э%}%{с%} SUBST-NONOM ; ! Dir/LR
+%<num%>%<percent%>%<subst%>:%%%{э%}%{т%}%- SUBST-NONOM ; ! Dir/LR
+%<num%>%<percent%>%<subst%>:%%%{э%}%{т%} SUBST-NONOM ; ! Dir/LR
 
 °С%<num%>:°С # ;
 °С%<num%>%<subst%>%<nom%>:°С # ;
-°С%<num%>%<subst%>:°С%{а%}%{с%}%- SUBST-NONOM ;
-°С%<num%>%<subst%>:°С%{э%}%{с%}%- SUBST-NONOM ; ! Dir/LR
+°С%<num%>%<subst%>:°С%{у%}%{т%}%- SUBST-NONOM ;
+°С%<num%>%<subst%>:°С%{э%}%{т%}%- SUBST-NONOM ; ! Dir/LR
 °С%<num%>:ºС # ; ! Dir/LR
 °С%<num%>%<subst%>%<nom%>:ºС # ; ! Dir/LR
-°С%<num%>%<subst%>:ºС%{а%}%{с%}%- SUBST-NONOM ; ! Dir/LR
-°С%<num%>%<subst%>:ºС%{э%}%{с%}%- SUBST-NONOM ; ! Dir/LR
+°С%<num%>%<subst%>:ºС%{у%}%{т%}%- SUBST-NONOM ; ! Dir/LR
+°С%<num%>%<subst%>:ºС%{э%}%{т%}%- SUBST-NONOM ; ! Dir/LR
 °С%<num%>:С # ; ! Dir/LR
 °С%<num%>%<subst%>%<nom%>:С # ; ! Dir/LR
-°С%<num%>%<subst%>:С%{а%}%{с%}%- SUBST-NONOM ; ! Dir/LR
-°С%<num%>%<subst%>:С%{э%}%{с%}%- SUBST-NONOM ; ! Dir/LR
+°С%<num%>%<subst%>:С%{у%}%{т%}%- SUBST-NONOM ; ! Dir/LR
+°С%<num%>%<subst%>:С%{э%}%{т%}%- SUBST-NONOM ; ! Dir/LR
 
 С%<num%>:° # ; ! Dir/LR
 С%<num%>%<subst%>%<nom%>:° # ; ! Dir/LR
-С%<num%>%<subst%>:°%{а%}%{с%}%- SUBST-NONOM ; ! Dir/LR
-С%<num%>%<subst%>:°%{э%}%{с%}%- SUBST-NONOM ; ! Dir/LR
+С%<num%>%<subst%>:°%{у%}%{т%}%- SUBST-NONOM ; ! Dir/LR
+С%<num%>%<subst%>:°%{э%}%{т%}%- SUBST-NONOM ; ! Dir/LR
 
 ! Measurement units
 
@@ -323,29 +326,29 @@ LEXICON LASTDIGIT
 
 1:1%{э%}%{й%}           NUM-DIGIT ; ! "бир"
 2:2%{э%}                NUM-DIGIT ; ! "эки"
-3:3%{э%}%{с%}           NUM-DIGIT ; ! "үч"
-4:4%{э%}%{с%}           NUM-DIGIT ; ! "төрт"
-5:5%{э%}%{с%}           NUM-DIGIT ; ! "беш"
+3:3%{ү%}%{т%}           NUM-DIGIT ; ! "үч"
+4:4%{ү%}%{т%}           NUM-DIGIT ; ! "төрт"
+5:5%{э%}%{т%}           NUM-DIGIT ; ! "беш"
 6:6%{а%}                NUM-DIGIT ; ! "алты"
 7:7%{э%}                NUM-DIGIT ; ! "жети"
 8:8%{э%}%{з%}           NUM-DIGIT ; ! "сегиз"
-9:9%{а%}%{з%}           NUM-DIGIT ; ! "тогуз"
+9:9%{у%}%{з%}           NUM-DIGIT ; ! "тогуз"
 
 LEXICON LASTDIGIT-REST
 
-1%0:1%0%{а%}%{н%}       NUM-DIGIT ; ! "он"
+1%0:1%0%{о%}%{з%}       NUM-DIGIT ; ! "он"
 2%0:2%0%{а%}            NUM-DIGIT ; ! "жыйырма"
-3%0:3%0%{а%}%{з%}       NUM-DIGIT ; ! "отуз"
-4%0:4%0%{а%}%{с%}       NUM-DIGIT ; ! "кырк"
-5%0:5%0%{э%}%{й%}       NUM-DIGIT ; ! "элүү"
-6%0:6%0%{а%}%{с%}       NUM-DIGIT ; ! "алтымыш"
-7%0:7%0%{э%}%{с%}       NUM-DIGIT ; ! "жетимиш"
-8%0:8%0%{э%}%{н%}       NUM-DIGIT ; ! "сексен"
-9%0:9%0%{а%}%{н%}       NUM-DIGIT ; ! "токсон"
+3%0:3%0%{у%}%{з%}       NUM-DIGIT ; ! "отуз"
+4%0:4%0%{а%}%{т%}       NUM-DIGIT ; ! "кырк"
+5%0:5%0%{ү%}            NUM-DIGIT ; ! "элүү"
+6%0:6%0%{а%}%{т%}       NUM-DIGIT ; ! "алтымыш"
+7%0:7%0%{э%}%{т%}       NUM-DIGIT ; ! "жетимиш"
+8%0:8%0%{э%}%{з%}       NUM-DIGIT ; ! "сексен"
+9%0:9%0%{о%}%{з%}       NUM-DIGIT ; ! "токсон"
 
 LEXICON POWERS
-%0%0:%0%0%{э%}%{з%}     NUM-DIGIT ; ! "жүз"
-%0%0%0:%0%0%0%{э%}%{н%} NUM-DIGIT ; ! "миң"
+%0%0:%0%0%{ү%}%{з%}     NUM-DIGIT ; ! "жүз"
+%0%0%0:%0%0%0%{э%}%{з%} NUM-DIGIT ; ! "миң"
 
 
 LEXICON LOOP
@@ -875,7 +878,6 @@ LEXICON DET-QNT
 LEXICON DET-REF
 
 %<det%>%<ref%>: # ;
-
 
 LEXICON PRON-DEM-BUL
 
