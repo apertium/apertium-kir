@@ -1742,14 +1742,14 @@ LEXICON Pronouns
 LEXICON Numerals 
 
 бир:бир NUM ; ! "one"
-эки NUM ; ! "two"
-үч NUM ; ! "three"
-төрт NUM ; ! "four"
-беш NUM ; ! "five"
-алты NUM ; ! "six"
-жети NUM ; ! "seven"
-сегиз NUM ; ! "eight"
-тогуз NUM ; ! "nine"
+эки:эки NUM ; ! "two"
+үч:үч NUM ; ! "three"
+төрт:төрт NUM ; ! "four"
+беш:беш NUM ; ! "five"
+алты:алты NUM ; ! "six"
+жети:жети NUM ; ! "seven"
+сегиз:сегиз NUM ; ! "eight"
+тогуз:тогуз NUM ; ! "nine"
 он:он NUM ; ! "ten"
 жыйырма:жыйырма NUM ; ! "twenty"
 отуз:отуз NUM ; ! "thirty"
@@ -7714,8 +7714,8 @@ LEXICON Nouns
 жайлоо:жайлоо N-INFL ; ! "" 
 жут:жут N-INFL ; ! "" 
 тайлак:тайлак N-INFL ; ! "a colt" 
-буура:буура N-INFL ; ! "camel (male)" 
-жамбаш:жамбаш N-INFL ; ! "side,pelvis" 
+буура:буура N-INFL ; ! "male camel" 
+жамбаш:жамбаш N-INFL ; ! "hips" 
 сыз:сыз N-INFL ; ! "cold" 
 үшүк:үшүк N-INFL ; ! "" 
 уч:уч N-INFL ; ! "the tip of" 
@@ -7725,6 +7725,8 @@ LEXICON Nouns
 статья:статья N-INFL ; ! "article (см. макала, бап)"
 
 !! JNW Nouns
+чымчык:чымчык N-INFL ; ! "bird"
+медайым:медайым N-INFL ; ! "nurse"
 
 
 ! Abbreviations
@@ -15835,6 +15837,10 @@ cубъективдүү:cубъективдүү A4 ; ! ""
 басымдуу:басымдуу A1 ; 
 гениалдуу:гениалдуу A1 ; 
 
+!! JNW Adjectives
+
+дөңгөлөгү% бар:дөңгөлөгү% бар A4 ; ! "wheeled" ! Use/MT
+
 
 LEXICON Adverbs
 
@@ -17651,6 +17657,9 @@ LEXICON Verbs
 жайла:жайла V-INFL-IV ; ! "to set up a summer camp" 
 кышта:кышта V-INFL-IV ; ! "to pass the winter" 
 жута:жута V-INFL-IV ; ! "лишиться скота во время джута" 
+
+!! JNW Verbs
+айна% сеп:айна% сеп V-INFL-TV ; ! "powder" ! Use/MT
 
 
 LEXICON Abbreviations
