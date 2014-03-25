@@ -9,6 +9,7 @@
 /apertium-kir.kir.rlx -text
 /apertium-kir.kir.twol -text
 /apertium-kir.pc.in -text
+/apertium-kir.post-kir.dix -text
 /autogen.sh -text
 /configure.ac -text
 dev/countstems.sh -text
