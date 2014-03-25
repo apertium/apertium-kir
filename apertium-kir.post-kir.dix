@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dictionary>
+  <alphabet/>
+  <pardefs>
+    <pardef n="caracter_general">
+      <e>
+        <i>#</i>
+      </e>
+      <e>
+        <i>*</i>
+      </e>
+      <e>
+        <i>@</i>
+      </e>
+      <e>
+        <i><b/></i>
+      </e>
+    </pardef>
+  </pardefs>
+
+  <section id="main" type="standard">
+      <e>
+        <!-- Әхмәтнең бәләкәй бер эте бар, *әлегә эт ~да *баҡсала. -->
+        <p><l><a/></l><r></r></p>
+        <re>[А-Фа-ф]*[ӘЕЭИӨәеэиө]+т</re>
+        <p>
+          <l><b/><a/>да<b/></l>
+          <r><b/>тә<b/></r>
+        </p>
+      </e>
+      <e>
+        <p><l><a/></l><r></r></p>
+        <re>[А-Фа-ф]*[ӘЕЭИӨәеэиө]+[бвгғдҙжзйкҡлмнңпрсҫфхһцчшщъьәеэиө]</re>
+        <p>
+          <l><b/><a/>да<b/></l>
+          <r><b/>дә<b/></r>
+        </p>
+      </e>
+  </section>
+
+</dictionary>
