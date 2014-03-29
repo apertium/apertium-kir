@@ -208,7 +208,7 @@ Multichar_Symbols
 LEXICON Root
 
 Copula ;
-Particles ;
+Miscellaneous ;
 Postpositions ;
 Conjunctions ;
 Determiners ;
@@ -1433,13 +1433,16 @@ LEXICON VAUX-ELE
 !!!                  L E X I C O N    E N T R I E S                         !!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-LEXICON Particles 
+LEXICON Miscellaneous
 
 ! FIXME: сыяктуу and экен have special grammar, but are ~modal particles
 сыяктуу:сыяктуу PART ; ! modal particle; adjective, usually with dative "similar to"
 экен:экен PART ; ! non-eyewitness modal particle
 экен:экен PART-PERS-COP ; ! non-eyewitness modal particle
 !эле PART-PERS-PAST ; ! 
+
+! FIXME: Add the other forms as Dir/LR
+бы%<qst%>:%~бы # ; ! Dir/RL 
 
 LEXICON Postadverbs
 
