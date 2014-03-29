@@ -1111,17 +1111,6 @@ LEXICON V-CLIT
 V-CLIT-OTHER ;
 V-CLIT-BI ;
 
-! LEXICON V-PERS-POSS ! P_2
-! 
-! @D.NEG.1@%<p1%>%<sg%>:@D.NEG.1@%>м PRED ; 
-! @D.NEG.1@%<p2%>%<sg%>:@D.NEG.1@%>ң PRED ; 
-! @D.NEG.1@%<p2%>%<frm%>%<sg%>:@D.NEG.1@%>ң%{I%}з PRED ; 
-! @D.NEG.1@%<p3%>%<sg%>:@D.NEG.1@%>%{S%}%{I%} PRED ; 
-! @D.NEG.1@%<p1%>%<pl%>:@D.NEG.1@%>%б%{I%}з PRED ; 
-! @D.NEG.1@%<p2%>%<pl%>:@D.NEG.1@%>%ң%{A%}р PRED ;  
-! @D.NEG.1@%<p2%>%<frm%>%<pl%>:@D.NEG.1@%>%ң%{I%}зд%{A%}р PRED ;  
-! %<p3%>%<pl%>:%>%{S%}%{I%} PRED ; 
-
 LEXICON V-PERS-COP-SUF-NOSG3
 
 %<p1%>%<sg%>:%>м%{I%}н V-CLIT ; 
@@ -1155,38 +1144,69 @@ LEXICON V-PERS-COP-SUF
 
 LEXICON V-PERS-PAST ! P_4
 
-@D.NEG.1@%<p1%>%<sg%>:@D.NEG.1@%>%{I%}м V-CLIT ;
-@D.NEG.1@%<p2%>%<sg%>:@D.NEG.1@%>%{I%}ң V-CLIT ;
-@D.NEG.1@%<p2%>%<frm%>%<sg%>:@D.NEG.1@%>%{I%}ң%{I%}з V-CLIT ;
-@D.NEG.1@%<p3%>%<sg%>:@D.NEG.1@ V-CLIT ;  
-@D.NEG.1@%<p1%>%<pl%>:@D.NEG.1@%>%{I%}к V-CLIT ;
-@D.NEG.1@%<p2%>%<pl%>:@D.NEG.1@%>%{I%}ң%{A%}р V-CLIT ;
-@D.NEG.1@%<p2%>%<frm%>%<pl%>:@D.NEG.1@%>%{I%}ң%{I%}зд%{A%}р V-CLIT ;
+!¶@D.NEG.1@%<p1%>%<sg%>:@D.NEG.1@%>%{I%}м V-CLIT ;
+!¶@D.NEG.1@%<p2%>%<sg%>:@D.NEG.1@%>%{I%}ң V-CLIT ;
+!¶@D.NEG.1@%<p2%>%<frm%>%<sg%>:@D.NEG.1@%>%{I%}ң%{I%}з V-CLIT ;
+!¶@D.NEG.1@%<p3%>%<sg%>:@D.NEG.1@ V-CLIT ;  
+!¶@D.NEG.1@%<p1%>%<pl%>:@D.NEG.1@%>%{I%}к V-CLIT ;
+!¶@D.NEG.1@%<p2%>%<pl%>:@D.NEG.1@%>%{I%}ң%{A%}р V-CLIT ;
+!¶@D.NEG.1@%<p2%>%<frm%>%<pl%>:@D.NEG.1@%>%{I%}ң%{I%}зд%{A%}р V-CLIT ;
+!¶%<p3%>%<pl%>: V-CLIT ;
+
+%<p1%>%<sg%>:%>%{I%}м V-CLIT ;
+%<p2%>%<sg%>:%>%{I%}ң V-CLIT ;
+%<p2%>%<frm%>%<sg%>:%>%{I%}ң%{I%}з V-CLIT ;
+%<p3%>%<sg%>: V-CLIT ;  
+%<p1%>%<pl%>:%>%{I%}к V-CLIT ;
+%<p2%>%<pl%>:%>%{I%}ң%{A%}р V-CLIT ;
+%<p2%>%<frm%>%<pl%>:%>%{I%}ң%{I%}зд%{A%}р V-CLIT ;
 %<p3%>%<pl%>: V-CLIT ;
+
 
 LEXICON V-PERS-COND ! P_4
 ! Really these should allow деле, да, дагы, etc. afterwards
 !  .. but maybe those are best allowed to be their own words :)
 
-@D.NEG.1@%<p1%>%<sg%>:@D.NEG.1@%>%{I%}м # ;
-@D.NEG.1@%<p2%>%<sg%>:@D.NEG.1@%>%{I%}ң # ;
-@D.NEG.1@%<p2%>%<frm%>%<sg%>:@D.NEG.1@%>%{I%}ң%{I%}з # ;
-@D.NEG.1@%<p3%>%<sg%>:@D.NEG.1@ # ;
-@D.NEG.1@%<p1%>%<pl%>:@D.NEG.1@%>%{I%}к # ;
-@D.NEG.1@%<p2%>%<pl%>:@D.NEG.1@%>%{I%}ң%{A%}р # ;
-@D.NEG.1@%<p2%>%<frm%>%<pl%>:@D.NEG.1@%>%{I%}ң%{I%}зд%{A%}р # ;
+!¶@D.NEG.1@%<p1%>%<sg%>:@D.NEG.1@%>%{I%}м # ;
+!¶@D.NEG.1@%<p2%>%<sg%>:@D.NEG.1@%>%{I%}ң # ;
+!¶@D.NEG.1@%<p2%>%<frm%>%<sg%>:@D.NEG.1@%>%{I%}ң%{I%}з # ;
+!¶@D.NEG.1@%<p3%>%<sg%>:@D.NEG.1@ # ;
+!¶@D.NEG.1@%<p1%>%<pl%>:@D.NEG.1@%>%{I%}к # ;
+!¶@D.NEG.1@%<p2%>%<pl%>:@D.NEG.1@%>%{I%}ң%{A%}р # ;
+!¶@D.NEG.1@%<p2%>%<frm%>%<pl%>:@D.NEG.1@%>%{I%}ң%{I%}зд%{A%}р # ;
+!¶%<p3%>%<pl%>: # ;  
+
+
+%<p1%>%<sg%>:%>%{I%}м # ;
+%<p2%>%<sg%>:%>%{I%}ң # ;
+%<p2%>%<frm%>%<sg%>:%>%{I%}ң%{I%}з # ;
+%<p3%>%<sg%>: # ;
+%<p1%>%<pl%>:%>%{I%}к # ;
+%<p2%>%<pl%>:%>%{I%}ң%{A%}р # ;
+%<p2%>%<frm%>%<pl%>:%>%{I%}ң%{I%}зд%{A%}р # ;
 %<p3%>%<pl%>: # ;  
 
 LEXICON V-PERS-PRES ! P_6
 
-@D.NEG.1@%<p1%>%<sg%>:@D.NEG.1@%>м V-CLIT ; 
-@D.NEG.1@%<p2%>%<sg%>:@D.NEG.1@%>с%{I%}ң V-CLIT ; 
-@D.NEG.1@%<p2%>%<frm%>%<sg%>:@D.NEG.1@%>с%{I%}з V-CLIT ; 
-@D.NEG.1@%<p3%>%<sg%>:%>@D.NEG.1@т V-CLIT-OTHER ; 
-@D.NEG.1@%<p3%>%<sg%>:%>@D.NEG.1@ V-CLIT-BI ; 
-@D.NEG.1@%<p1%>%<pl%>:@D.NEG.1@%>б%{I%}з V-CLIT ; 
-@D.NEG.1@%<p2%>%<pl%>:@D.NEG.1@%>с%{I%}ң%{A%}р V-CLIT ;  
-@D.NEG.1@%<p2%>%<frm%>%<pl%>:@D.NEG.1@%>с%{I%}зд%{A%}р V-CLIT ;  
+!¶@D.NEG.1@%<p1%>%<sg%>:@D.NEG.1@%>м V-CLIT ; 
+!¶@D.NEG.1@%<p2%>%<sg%>:@D.NEG.1@%>с%{I%}ң V-CLIT ; 
+!¶@D.NEG.1@%<p2%>%<frm%>%<sg%>:@D.NEG.1@%>с%{I%}з V-CLIT ; 
+!¶@D.NEG.1@%<p3%>%<sg%>:%>@D.NEG.1@т V-CLIT-OTHER ; 
+!¶@D.NEG.1@%<p3%>%<sg%>:%>@D.NEG.1@ V-CLIT-BI ; 
+!¶@D.NEG.1@%<p1%>%<pl%>:@D.NEG.1@%>б%{I%}з V-CLIT ; 
+!¶@D.NEG.1@%<p2%>%<pl%>:@D.NEG.1@%>с%{I%}ң%{A%}р V-CLIT ;  
+!¶@D.NEG.1@%<p2%>%<frm%>%<pl%>:@D.NEG.1@%>с%{I%}зд%{A%}р V-CLIT ;  
+!¶%<p3%>%<pl%>:%>т V-CLIT-OTHER ; 
+!¶%<p3%>%<pl%>:%> V-CLIT-BI ; 
+
+%<p1%>%<sg%>:%>м V-CLIT ; 
+%<p2%>%<sg%>:%>с%{I%}ң V-CLIT ; 
+%<p2%>%<frm%>%<sg%>:%>с%{I%}з V-CLIT ; 
+%<p3%>%<sg%>:%>т V-CLIT-OTHER ; 
+%<p3%>%<sg%>:%> V-CLIT-BI ; 
+%<p1%>%<pl%>:%>б%{I%}з V-CLIT ; 
+%<p2%>%<pl%>:%>с%{I%}ң%{A%}р V-CLIT ;  
+%<p2%>%<frm%>%<pl%>:%>с%{I%}зд%{A%}р V-CLIT ;  
 %<p3%>%<pl%>:%>т V-CLIT-OTHER ; 
 %<p3%>%<pl%>:%> V-CLIT-BI ; 
 
@@ -1196,13 +1216,16 @@ LEXICON V-PERS-PRES ! P_6
 LEXICON V-INFL-COMMON
 
 V-INFL-COMMON-SECOND ;
-@P.NEG.1@:%>%{I%}ш@P.NEG.1@ V-INFL-COMMON-SECOND ; ! Dir/LR
+!¶@P.NEG.1@:%>%{I%}ш@P.NEG.1@ V-INFL-COMMON-SECOND ; ! Dir/LR
+:%>%{I%}ш V-INFL-COMMON-SECOND ; ! Dir/LR
 %<coop%>:%>%{I%}ш V-INFL-COMMON-SECOND ;
 
 LEXICON V-INFL-COMMON-SECOND
 
 V-INFL-FINITE ;
-@D.NEG.1@:@D.NEG.1@ V-INFL-NON-FINITE ; 
+!¶@D.NEG.1@:@D.NEG.1@ V-INFL-NON-FINITE ; 
+
+V-INFL-NON-FINITE ; 
 
 %<asif%>:%>%{G%}%{A%}н%>с%{I%} V-INFL-ASIF ;
 %<asif%>%<neg%>:%>%{B%}%{A%}%>%{G%}%{A%}н%>с%{I%} V-INFL-ASIF ;
