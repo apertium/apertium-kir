@@ -1457,6 +1457,7 @@ LEXICON Conjunctions
 болсо:болсо CC ;
 да:да CC ; ! <s>"and"</s> "also", "both ... and ..."
 дагы:дагы ADV ; ! "дагы ..." "another ..."
+дагы:дагы CC ; ! "too"
 же:же CC ; ! "or"
 !менен:менен CC ; ! "and" / "including"
 үчүн:үчүн CC ; ! ""
