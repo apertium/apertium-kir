@@ -102,6 +102,7 @@ Multichar_Symbols
 ! %<cv_pur%>  ! Converb purpose, -GAнI
 
 %<asif%>          ! a verbal affix adding "as if ..." to the meaning
+%<pcond%>         ! conditional something "would X"
 
 %<prc_plan%>
 %<prc_cond%>
