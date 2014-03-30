@@ -1357,7 +1357,7 @@ LEXICON V-INFL-FINITE
 %<neg%>%<aor%>:%>%{B%}%{A%}%>%{E%} V-PERS-PRES ;              !
 !%<neg%>%<cond%>:%>%{B%}%{A%}%>с%{A%} V-PERS-PAST ;            ! not a finite form
 %<neg%>%<past%>:%>%{G%}%{A%}н% эмес V-PERS-COP-SUF ;        ! 
-%<neg%>%<pcond%>:%>%{B%}%{A%}%>м%{A%}к V-PERS-COP-SUF ;           ! 
+%<neg%>%<pcond%>:%>м%{A%}к% эмес V-PERS-COP-SUF ;           ! 
 %<neg%>%<pih%>:%>%{B%}%{A%}%>ч%{U%} V-PERS-COP-SUF ;              ! 
 
 LEXICON V-INFL-ASIF
