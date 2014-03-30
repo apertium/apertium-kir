@@ -1454,6 +1454,7 @@ LEXICON Postadverbs
 ашуун:ашуун POSTADV ; ! "more than"
 ашык:ашык POSTADV ; ! "more than"
 тең:тең POSTADV ; ! "~both" e.g., экөө тең
+болсо:болсо POSTADV ; ! "as for"
 
 LEXICON Conjunctions 
 
@@ -16632,7 +16633,8 @@ LEXICON Verbs
 тажа:тажа V-INFL-IV ; ! "get fed up with"
 талкала:талкала V-INFL-TV ; ! "destroy"
 там:там V-INFL-IV ; ! "drip"
-таң% кал:таң% кал V-INFL-IV ; ! "be surprised"
+таң% кал:таң% кал V-INFL-IV-NO-CAUS ; ! "be surprised"
+таң% кал:таң% калтыр V-INFL-IV-IRREG-CAUS ; ! "surprise"
 тап:тап V-INFL-TV ; ! "find"
 тартуула:тартуула V-INFL-TV ; 
 тартын:тартын V-INFL-TV ; 
@@ -17709,6 +17711,7 @@ LEXICON Verbs
 айна% сеп:айна% сеп V-INFL-TV ; ! "powder" ! Use/MT
 атактуу% бол V-INFL-IV ; ! "become famous" ! Use/MT
 чай% ич:чай% ич V-INFL-IV ; ! "have breakfast"
+сатып% ал:сатып% ал V-INFL-TV ; ! "buy" ! Use/MT
 
 
 LEXICON Abbreviations
