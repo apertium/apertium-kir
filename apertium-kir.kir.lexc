@@ -1284,6 +1284,7 @@ LEXICON V-INFL-NON-FINITE-REG
 %<prc_impf%>:%>%{E%} # ;   ! rare IS
 %<prc_irre%>:%>%{E%}т # ;
 %<prc_cond%>:%>с%{A%} V-PERS-COND ;
+%<prc_pcond%>:%>м%{A%}к # ;    ! in -мАк эле- etc.
 
 ! Verbal adverbs
 %<gna_prp%>:%>%{G%}%{A%}н%{I%} # ;  ! rare IS
