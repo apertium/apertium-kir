@@ -112,6 +112,7 @@ Multichar_Symbols
 %<prc_irre%>  ! irrealis
 %<prc_prp%>   ! purposive
 %<prc_real%>  ! realis
+%<prc_pcond%> ! "would have" etc.
 
 %<gna_perf%>
 %<gna_prp%>
@@ -17720,6 +17721,7 @@ LEXICON Verbs
 атактуу% бол V-INFL-IV ; ! "become famous" ! Use/MT
 чай% ич:чай% ич V-INFL-IV ; ! "have breakfast"
 сатып% ал:сатып% ал V-INFL-TV ; ! "buy" ! Use/MT
+жалт% кара:жалт% кара V-INFL-TV ; ! "glance at / look at [suddenly]"
 
 
 LEXICON Abbreviations
