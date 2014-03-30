@@ -4614,7 +4614,7 @@ LEXICON Nouns
 жолу:жолу N-INFL ; 
 казына:казына N-INFL ; 
 ! дептер:дептер N-INFL ; ! "removing duplicate" 
-башкача:башкача N-INFL ; 
+! башкача:башкача N-INFL ; 
 алмашуучу:алмашуучу N-INFL ; 
 ! таяк:таяк N-INFL ; ! "removing duplicate" 
 коркунуч:коркунуч N-INFL ; 
@@ -16222,7 +16222,7 @@ LEXICON Adverbs
 адаттан% тышкары:адаттан% тышкары ADV ; ! "" 
 
 !!! JNW Adverbs
-
+башкача:башкача ADV ; ! "differently"
 
 !! FIXME: productive {K}{I} forms
 !! some are from adverbs, some are from nouns
