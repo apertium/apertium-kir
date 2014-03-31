@@ -2334,7 +2334,7 @@ LEXICON Nouns
 ! абал:абал N-INFL ; ! "removing duplicate" 
 катар:катар N-INFL ; 
 жыгач:жыгач N-INFL ; 
-дарак:дарак N-INFL ; 
+! дарак:дарак N-INFL ; ! "removing duplicate"
 ! токой:токой N-INFL ; ! "removing duplicate" 
 адаш:адаш N-INFL ; 
 адрес:адрес N-INFL ; 
@@ -15924,7 +15924,7 @@ LEXICON Adverbs
 кээде:кээде ADV ; ! "sometimes"
 жакында:жакында ADV ; ! "soon"
 бирге:бирге ADV ; ! "together"
-катуу:катуу ADV ; ! "fast/quickly (with verbs of motion), strongly"
+! катуу:катуу ADV ; ! "fast/quickly (with verbs of motion), strongly" ! "removing duplicate see A1 section"
 
 эч% качан:эч% качан ADV ; ! Use/MT
 негизинде:негизинде ADV ; ! "basically, in general"
@@ -17208,7 +17208,7 @@ LEXICON Verbs
 кары:кары V-INFL-IV ;
 тааныш:тааныш V-INFL-IV ;
 үч% жолу% чайка:үч% жолу% чайка V-INFL-TV ;
-жап:жап V-INFL-TV ;
+! жап:жап V-INFL-TV ; ! "removing duplicate"
 жазып% ал:жазып% ал V-INFL-TV ;
 ширеш:ширеш V-INFL-TV ;
 күчтөн:күчтөн V-INFL-IV ;
@@ -17221,7 +17221,7 @@ LEXICON Verbs
 эңсе:эңсе V-INFL-IV ; ! "to desire"  CHECK transitivity
 жогорула:жогорула V-INFL-IV ;
 арыздан:арыздан V-INFL-IV ;
-укта:укта V-INFL-IV ;
+! укта:укта V-INFL-IV ; ! "removing duplicate"
 тизмеле:тизмеле V-INFL-TV ;
 кызып% кет:кызып% кет V-INFL-IV ;
 кабыл% ал:кабыл% ал V-INFL-TV ;
@@ -17375,7 +17375,7 @@ LEXICON Verbs
 силки:силки V-INFL-TV ;
 бат:бат V-INFL-IV ;
 сендел:сендел V-INFL-IV ;
-жашын:жашын V-INFL-IV ;
+! жашын:жашын V-INFL-IV ; ! "removing duplicate"
 пакетте:пакетте V-INFL-TV ;
 ортоло:ортоло V-INFL-TV ;
 өрнөк% бол:өрнөк% бол V-INFL-IV ;
