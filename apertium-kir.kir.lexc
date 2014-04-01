@@ -1766,8 +1766,15 @@ LEXICON Pronouns
 бирин-бири PRON-RECIP ;   ! CHECK  ! Dir/LR
 тиги:тиги PRON-DEM ;
 
-эч% нерсе:эч% нерсе PRN-NEG ; ! "nothing"
+эч% бир:эч% бир PRN-NEG ; ! ""
+эч% кайда:эч% кайда PRN-NEG ; ! ""
+эч% кайсы:эч% кайсы PRN-NEG ; ! ""
+эч% кандай:эч% кандай PRN-NEG ; ! ""
+эч% канча:эч% канча PRN-NEG ; ! ""
+эч% качан:эч% качан PRN-NEG ; ! ""
 эч% ким:эч% ким PRN-NEG ; ! "no one"
+эч% нерсе:эч% нерсе PRN-NEG ; ! "nothing"
+! эчтеме:эчтеме PRN-NEG ; ! "" ! "FIXME look for variations"
 
 LEXICON Numerals 
 
