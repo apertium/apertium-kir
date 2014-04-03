@@ -1414,9 +1414,21 @@ LEXICON V-INFL-IV
 %<v%>%<iv%>%<caus%>%<caus%>:%>%{D%}%{I%}р%>%{D%}%{I%}р V-INFL-COMMON ;                             
 %<v%>%<iv%>%<caus%>%<pass%>:%>%{D%}%{I%}р%>%{I%}%{l%} V-INFL-COMMON ;                             
 
+LEXICON V-INFL-TV-NO-CAUS
+
+%<v%>%<iv%>: V-INFL-COMMON ;
+%<v%>%<tv%>%<pass%>:%>%{I%}%{l%} V-INFL-COMMON ;
+
 LEXICON V-INFL-IV-NO-CAUS
 
 %<v%>%<iv%>: V-INFL-COMMON ;
+
+
+LEXICON V-INFL-TV-IRREG-CAUS
+
+%<v%>%<tv%>%<caus%>:%> V-INFL-COMMON ;                                    !
+%<v%>%<tv%>%<caus%>%<caus%>:%>%{D%}%{I%}р V-INFL-COMMON ;                                    !
+%<v%>%<tv%>%<caus%>%<pass%>:%>%{I%}%{l%} V-INFL-COMMON ;                             !  FIXME: When we make it cyclical, this should really be V-INFL-TV
 
 LEXICON V-INFL-IV-IRREG-CAUS
 
@@ -16874,7 +16886,8 @@ LEXICON Verbs
 ур:ур V-INFL-TV ; ! "to strike"
 уруш:уруш V-INFL-TV ; ! "to yell at"
 изилде:изилде V-INFL-TV ; ! "to research/investigate"
-түшүн:түшүн V-INFL-TV ; ! "understand"
+түшүн:түшүн V-INFL-TV-NO-CAUS ; ! "understand"
+түшүн:түшүндүр V-INFL-TV-IRREG-CAUS ; ! "understand"
 котор:котор V-INFL-TV ; ! "translate/convert"
 тара:тара V-INFL-IV ;
 башкар:башкар V-INFL-TV ;
