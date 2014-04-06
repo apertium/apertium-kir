@@ -1002,8 +1002,8 @@ LEXICON PRON-PERS-EN
 LEXICON PRON-PERS-IZ
 
 %<nom%>: PRED ;
-%<gen%>:ди # ;
-%<acc%>:дин # ;
+%<gen%>:дин # ;
+%<acc%>:ди # ;
 %<dat%>:ге # ;
 %<loc%>:де PRED ;
 %<abl%>:ден PRED ;
@@ -1013,8 +1013,8 @@ DAGI ;
 LEXICON PRON-PERS-AL
 
 %<nom%>:л PRED ;
-%<gen%>:ны # ;
-%<acc%>:нын # ;
+%<gen%>:нын # ;
+%<acc%>:ны # ;
 %<dat%>:га # ;
 %<loc%>:нда PRED ;
 %<abl%>:ндан PRED ;
@@ -1024,8 +1024,8 @@ LEXICON PRON-PERS-AL
 LEXICON PRON-PERS-PLURALS
 
 %<nom%>: PRED ;
-%<gen%>:%>д%{I%} # ;
-%<acc%>:%>д%{I%}н # ;
+%<gen%>:%>д%{I%}н # ;
+%<acc%>:%>д%{I%} # ;
 %<dat%>:%>г%{A%} # ;
 %<loc%>:%>д%{A%} PRED ;
 %<abl%>:%>д%{A%}н PRED ;
