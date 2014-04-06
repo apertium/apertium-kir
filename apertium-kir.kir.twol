@@ -106,7 +106,7 @@ Rules
 %{E%}:й <=> :SurVow %>: _ ;
 
 "L Desonorisation"
-%{L%}:д <=> :VoicedLowSonCns %>: _ ;
+%{L%}:д <=> :VoicedLowSonCns/[ %>: | [ :0 - AbstractCns: ] ] _ ;
             [ %{л%}:0 | %{з%}:0 ] %>: _ ;
 
 "N Desonorisation"
