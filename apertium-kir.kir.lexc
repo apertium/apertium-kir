@@ -1681,6 +1681,7 @@ LEXICON Determiners
 бүтүн:бүтүн DET-QNT ; ! "entire"
 бүткүл:бүткүл DET-QNT ; ! "" 
 бүт:бүт DET-QNT ; ! "" 
+каалаганча DET-QNT ; ! "as much as you want"
 
 кайсы:кайсы PRON-ITG ;  ! FIXME: why ITG if next is DEM?
 кайсы:кайсыл DET-DEM ; ! "which?" ! FIXME: need morph to fix  ! Dir/LR
