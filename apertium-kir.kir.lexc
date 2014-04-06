@@ -251,7 +251,8 @@ GENPOSS-ETC ;
 
 LEXICON N-INFL-COMMON-NONOM
 
-POSSESSIVES ;
+!POSSESSIVES ;  ! huh?
+POSSESSION ; 
 CASE-ETC-NONOM ;
 
 LEXICON SUBST-NONOM
@@ -1745,12 +1746,12 @@ LEXICON Pronouns
 ! кайда:кайда PRON-ITG ; ! "where?"  ! FIXME: doesn't take possession or cases!!!!  is <loc> of кай<det>!!
 
 өз:өз PRON-REFL ; ! "own/self"
-! бул% жер PRON-DEM ;  ! compositional
-! ушу% жер PRON-DEM ;  ! compositional
-! ал% жак PRON-DEM ;   ! compositional
+бул% жер PRON-DEM ;  ! compositional  ! Use/MT
+ушу% жер PRON-DEM ;  ! compositional  ! Use/MT
+ал% жак PRON-DEM ;   ! compositional  ! Use/MT
 !жер PRON-DEM ;
 !жак PRON-DEM ;
-!кай% жак PRON-DEM ; ! "where" +POSSESSION +CASES, etc.
+кай% жак PRON-DEM ; ! "where" +POSSESSION +CASES, etc. ! Use/MT
 
 бул%<det%>%<dem%>%+жак%<n%>:быяк POSSESSION ; ! "here"
 ал%<det%>%<dem%>%+жак%<n%>:аяк POSSESSION ; ! "there"
