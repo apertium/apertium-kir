@@ -1246,7 +1246,8 @@ LEXICON V-INFL-NON-FINITE-IRREG
 %<prc_vol%>:%>%{G%}%{I%} VOL-ENDINGS ;     ! no negative form
 ! %<prc_real%>:%>%{I%}п # ;
 %<prc_perf%>:%>%{I%}п # ;
-%<neg%>%<prc_real%>:%>%{B%}%{A%}%>%{E%} # ;
+!%<neg%>%<prc_real%>:%>%{B%}%{A%}%>%{E%} # ;
+%<neg%>%<prc_perf%>:%>%{B%}%{A%}%>%{E%} # ;
 
 ! Verbal adverbs
 %<gna_ala%>:%>м%{A%}й%{I%}нч%{A%} # ;       ! no negative form  ! rare IS
