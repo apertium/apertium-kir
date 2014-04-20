@@ -162,6 +162,7 @@ Multichar_Symbols
 %<apos%>    ! Apostrophe
 %<rquot%>   ! Quote marker (right hand side) 
 %<lquot%>   ! Quote marker (left hand side) 
+%<quot%>    ! Quote marker 
 %<rpar%>    ! Parenthetical marker (right hand side) 
 %<lpar%>    ! Parenthetical marker (left hand side) 
 
@@ -13980,7 +13981,7 @@ Aйталы:Aйталы NP-ANT-M ; ! "Aytğalıy" (Arabic)
 Милижевич:Милижевич NP-COG-MF ;
 Милисич:Милисич NP-COG-MF ;
 Милич:Милич NP-COG-MF ;
-Милоşевич NP-COG-MF ;
+Милошевич NP-COG-MF ;
 Милованович:Милованович NP-COG-MF ;
 Милосавлевич:Милосавлевич NP-COG-MF ;
 Милосевич:Милосевич NP-COG-MF ;
@@ -17924,7 +17925,7 @@ LEXICON Punctuation
 ,%<cm%>:, # ;
 %?%<sent%>:%? # ; 
 %'%<apos%>:%' # ;
-%"%<sent%>:%" # ;
+%"%<quot%>:%" # ;
 %«%<lquot%>:%« # ;
 %»%<rquot%>:%» # ;
 %”%<rquot%>:%” # ;
