@@ -105,6 +105,7 @@ Multichar_Symbols
 %<pcond%>         ! conditional something "would X"
 
 %<prc_plan%>
+%<prc_past%>
 %<prc_cond%>
 %<prc_perf%>
 %<prc_impf%>
@@ -1289,6 +1290,7 @@ LEXICON V-INFL-NON-FINITE-REG
 %<prc_irre%>:%>%{E%}т # ;
 %<prc_cond%>:%>с%{A%} V-PERS-COND ;
 %<prc_pcond%>:%>м%{A%}к # ;    ! in -мАк эле- etc.
+%<prc_past%>:%>%{G%}%{A%}н # ; ! 
 
 ! Verbal adverbs
 %<gna_prp%>:%>%{G%}%{A%}н%{I%} # ;  ! rare IS
@@ -14477,6 +14479,7 @@ cубъективдүү:cубъективдүү A4 ; ! ""
 ! FIXME There is a better way of handling them, find it!
 ! (note that they all are ambigious between adj/n)
 
+жашыруун:жашыруун A3 ; ! ""
 пакистандык:пакистандык A3 ; ! "" 
 кубалык:кубалык A3 ; ! "" 
 япониялык:япониялык A3 ; ! "" 
