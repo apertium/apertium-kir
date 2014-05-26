@@ -892,14 +892,14 @@ LEXICON DET-REF
 
 LEXICON PRON-DEM-BUL
 
-%<prn%>%<dem%>%<nom%>:бул PRED ;
-%<prn%>%<dem%>%<nom%>:бу PRED ;   ! Dir/LR
-%<prn%>%<dem%>%<gen%>:мунун # ;
-%<prn%>%<dem%>%<acc%>:муну # ;
-%<prn%>%<dem%>%<dat%>:буга # ;
-%<prn%>%<dem%>%<loc%>:мында PRED ;
-%<prn%>%<dem%>%<abl%>:мындан PRED ;
-%<prn%>%<dem%>%<sim%>:мындай PRED ;  
+бул%<prn%>%<dem%>%<nom%>:бул PRED ;
+бул%<prn%>%<dem%>%<nom%>:бу PRED ;   ! Dir/LR
+бул%<prn%>%<dem%>%<gen%>:мунун # ;
+бул%<prn%>%<dem%>%<acc%>:муну # ;
+бул%<prn%>%<dem%>%<dat%>:буга # ;
+бул%<prn%>%<dem%>%<loc%>:мында PRED ;
+бул%<prn%>%<dem%>%<abl%>:мындан PRED ;
+бул%<prn%>%<dem%>%<sim%>:мындай PRED ;  
 
 %<prn%>%<dem%>:мын DAGI ;
 
@@ -1674,7 +1674,7 @@ LEXICON Determiners
 кээ:кээ DET-IND ; ! ""
 
 ар% бир:ар% бир DET-QNT ; ! ""
-ар% түрдүү: ар% түрдүү DET-QNT ; ! ""
+ар% түрдүү:ар% түрдүү DET-QNT ; ! ""
 эч% бир:эч% бир DET-IND ; ! "no"
 эч% кандай:эч% кандай DET-IND ; ! ""
 кээ% бир:кээ% бир DET-QNT ; ! "some"
@@ -1738,7 +1738,7 @@ LEXICON Pronouns
 сиздер%<prn%>%<pers%>%<p2%>%<frm%>%<pl%>:сиздер PRON-PERS-PLURALS ; 
 алар%<prn%>%<pers%>%<p3%>%<pl%>:алар PRON-PERS-PLURALS ; 
 
-бул: PRON-DEM-BUL ; ! "this" 
+PRON-DEM-BUL ; ! "this" 
 ошол:ошо PRON-DEM-OSOL ; ! "that"
 ушул:ушу PRON-DEM-USUL ; ! "this"
 ал:а PRON-DEM-AL ; ! "that"
