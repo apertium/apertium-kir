@@ -278,15 +278,15 @@ LEXICON NUM-DIGIT
 %<num%>%<subst%>:%- SUBST-NONOM ;
 %<num%>%<subst%>: SUBST-NONOM ; ! Dir/LR
 
-%<num%>%<ord%>:%-%{I%}нш%{I%} # ;
-%<num%>%<ord%>%<subst%>%<nom%>:%-%{I%}нш%{I%} # ;
-%<num%>%<ord%>%<subst%>:%-%{I%}нш%{I%} SUBST-NONOM ;
-%<num%>%<ord%>:%-ш%{I%} # ; ! Dir/LR
+%<num%>%<ord%>:%-%{I%}нч%{I%} # ;
+%<num%>%<ord%>%<subst%>%<nom%>:%-%{I%}нч%{I%} # ;
+%<num%>%<ord%>%<subst%>:%-%{I%}нч%{I%} SUBST-NONOM ;
+%<num%>%<ord%>:%-ч%{I%} # ; ! Dir/LR
 %<num%>%<ord%>%<subst%>%<nom%>:%-ш%{I%} # ; ! Dir/LR
-%<num%>%<ord%>%<subst%>:%-ш%{I%} SUBST-NONOM ; ! Dir/LR
+%<num%>%<ord%>%<subst%>:%-ч%{I%} SUBST-NONOM ; ! Dir/LR
 
-%<num%>%<coll%>%<advl%>:%-%{A%}у # ;
-%<num%>%<coll%>%<nom%>:%-%{A%}у # ;
+%<num%>%<coll%>%<advl%>:%-%{A%}у # ; ! FIXME: оо/өө
+%<num%>%<coll%>%<nom%>:%-%{A%}у # ;	 ! FIXME: оо/өө
 %<num%>%<coll%>:%-%{A%}у SUBST-NONOM ;
 
 %<num%>%<percent%>:%% # ;
@@ -639,8 +639,8 @@ LEXICON NUM-COMMON
 LEXICON NUM
 
 NUM-COMMON ;
-%<num%>%<ord%>:%>%{I%}нш%{I%} # ;             ! FIXME: base form, <det> reading
-%<num%>%<ord%>:%>%{I%}нш%{I%} N-INFL-COMMON ;
+%<num%>%<ord%>:%>%{I%}нч%{I%} # ;             ! FIXME: base form, <det> reading
+%<num%>%<ord%>:%>%{I%}нч%{I%} N-INFL-COMMON ;
 
 LEXICON NP-AL
 
@@ -7799,6 +7799,7 @@ LEXICON Nouns
 жерге% берүү:жерге% берүү N-INFL ; ! "funeral/burial" ! Use/MT
 буддист:буддист N-INFL ; ! "buddhist"
 наристе% кези:наристе% кез N-INFL-3PX-COMPOUND ; ! "baby-hood" ! Use/MT
+маанай:маанай N-INFL ; ! "mood"
 
 
 ! Abbreviations
