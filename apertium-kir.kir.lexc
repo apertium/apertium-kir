@@ -1091,6 +1091,7 @@ V-CLIT ;  ! TODO: I guess these aren't technically necessary?
 
 LEXICON CLIT-NONPRED
 V-CLIT-BI ; ! FIXME: can we just do V-CLIT ?
+# ;
 
 
 LEXICON V-CLIT-BI
