@@ -1491,6 +1491,7 @@ LEXICON Conjunctions
 не:не CC ; ! "neither... nor..."
 ал% эми:ал% эми CA ; ! "and now"
 а:а CC ; ! "but/and"
+бирок:бирок CA ; ! "however"
 бирок:бирок CC ; ! "but"
 анткени:анткени CA ; ! "because"
 себеби:себеби CA ; ! "because"
@@ -15972,7 +15973,7 @@ LEXICON Adverbs
 ! төмөнкү ADV ;
 негизи:негизи ADV ; 
 дагы:дагы ADV ; 
-бирок:бирок ADV ;   ! "although"
+! бирок:бирок ADV ;   ! "although"  ! ACTUALLY: CA, not ADV
 кыскача:кыскача ADV ; ! "in short"
 бирдикте:бирдикте ADV ; 
 каршы:каршы ADV ; 
