@@ -901,11 +901,11 @@ LEXICON PRON-DEM-BUL
 бул%<prn%>%<dem%>%<abl%>:мындан PRED ;
 бул%<prn%>%<dem%>%<sim%>:мындай PRED ;  
 
-%<prn%>%<dem%>:мын DAGI ;
+бул%<prn%>%<dem%>:мын DAGI ;
 
-%<prn%>%<dem%>:муну POSSESSION-ENDINGS ;
+бул%<prn%>%<dem%>:муну POSSESSION-ENDINGS ;
 
-%<prn%>%<dem%>%<pl%>:бу%>л%{A%}р CASES ;
+бул%<prn%>%<dem%>%<pl%>:бу%>л%{A%}р CASES ;
 
 LEXICON PRON-DEM-OSOL
 
@@ -1608,7 +1608,6 @@ LEXICON Postpositions
 караганда:караганда POST ; 
 дагы:дагы POST ; ! FIXME: not POST
 керек:керек POST ; ! FIXME: not POST
-! ушуга% чейин POST ; ! FIXME: what? !! compositional
 дайым:дайым POST ; ! FIXME: not POST
 соң:соң POST ;
 тышкары:тышкары POST ; ! "aside from, besides" +abl  ! FIXME: account for тышкарысы
@@ -8646,6 +8645,8 @@ Google:Google NP-ORG ; ! ""
 Twitter:Twitter NP-ORG ; ! ""
 YouTube:YouTube NP-ORG ; ! ""
 ABC:ABC%{э%} NP-ORG ; ! ""
+Getty% Images:Getty% Images%{э%}%{з%} NP-ORG ; ! ""
+Рейтер:Рейтер NP-ORG ; ! "Reuters"
 
 Түрік% Әуежолдары:Түрік% Әуежолдар NP-ORG-COMPOUND ; ! "Turkish Airways"
 Боруссия% Дортмунд:Боруссия% Дортмунд%{☭%} NP-ORG ; ! "Borussia Dortmund"
@@ -16262,6 +16263,8 @@ LEXICON Adverbs
 башкача:башкача ADV ; ! "differently"
 күн% сайын% эртең% менен:күн% сайын% эртең% менен ADV ; ! "every morning" ! Use/MT
 тирүү% кезинде:тирүү% кезинде ADV ; ! "while alive"
+ушуга% чейин ADV ; ! "until now" ! Use/MT
+
 
 !! FIXME: productive {K}{I} forms
 !! some are from adverbs, some are from nouns
