@@ -550,27 +550,32 @@ POSSESSION ;
 LEXICON NP-COMMON
 N-INFL-COMMON ;
 
+LEXICON NP-COG-COMMON
+
+%<attr%>: # ;
+NP-COMMON ;
+
 LEXICON NP-COG-IN
 
-%<np%>%<cog%>%<m%>: POSSESSION ; ! FIXME
-%<np%>%<cog%>%<f%>:а POSSESSION ; ! FIXME
+%<np%>%<cog%>%<m%>: NP-COG-COMMON ; ! FIXME
+%<np%>%<cog%>%<f%>:а NP-COG-COMMON ; ! FIXME
 
 LEXICON NP-COG-OB
 
-%<np%>%<cog%>%<m%>: POSSESSION ; ! FIXME
-%<np%>%<cog%>%<f%>:а POSSESSION ; ! FIXME
+%<np%>%<cog%>%<m%>: NP-COG-COMMON ; ! FIXME
+%<np%>%<cog%>%<f%>:а NP-COG-COMMON ; ! FIXME
 
 LEXICON NP-COG-MF
 
-%<np%>%<cog%>%<mf%>: POSSESSION ;
+%<np%>%<cog%>%<mf%>: NP-COG-COMMON ;
 
 LEXICON NP-COG-M
 
-%<np%>%<cog%>%<m%>: POSSESSION ;
+%<np%>%<cog%>%<m%>: NP-COG-COMMON ;
 
 LEXICON NP-COG-F
 
-%<np%>%<cog%>%<f%>: POSSESSION ;
+%<np%>%<cog%>%<f%>: NP-COG-COMMON ;
 
 LEXICON NP-ANT-M
 
@@ -7236,7 +7241,7 @@ LEXICON Nouns
 эпископ:эпископ N-INFL ; ! CHECK
 эгемендик:эгемендик N-INFL ; ! CHECK
 ! экмек:экмек N-INFL ; ! CHECK
-ээ:эге N-INFL ; ! Dir/RL dialectal form
+ээ:эге N-INFL ; ! Dir/LR dialectal form
 чоңдук:чоңдук N-INFL ; ! "bigness"
 мом:мом N-INFL ; ! "wax"
 коңгуроо:коңгуроо N-INFL ; ! "bell"
