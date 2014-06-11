@@ -1805,7 +1805,7 @@ PRON-DEM-BUL ; ! "this"
 
 бири%-бири:бири%-бир PRON-RECIP ; ! "each other, one another"
 ! ал% жак PRON-DEM ;
-! кайсы% жер PRON-ITG ; 
+кайсы% жер PRON-ITG ; ! Use/MT
 эмне:эмне PRON-ITG ;
 бирин-бири PRON-RECIP ;   ! CHECK  ! Dir/LR
 тиги:тиги PRON-DEM ;
@@ -14019,7 +14019,8 @@ Aйталы:Aйталы NP-ANT-M ; ! "Aytğalıy" (Arabic)
 Милижевич:Милижевич NP-COG-MF ;
 Милисич:Милисич NP-COG-MF ;
 Милич:Милич NP-COG-MF ;
-Милошевич NP-COG-MF ;
+Милошевич:Милошевич NP-COG-MF ;
+Костуница:Костуница NP-COG-MF ;
 Милованович:Милованович NP-COG-MF ;
 Милосавлевич:Милосавлевич NP-COG-MF ;
 Милосевич:Милосевич NP-COG-MF ;
