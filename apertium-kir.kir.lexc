@@ -617,6 +617,11 @@ LEXICON NP-TOP
 
 ! %<np%>%<top%>:%>%{L%}%{I%}к ADJ-COMMON ;
 
+LEXICON NP-TOP-COMPOUND
+
+%<np%>%<top%>: N-COMPOUND-PX-COMMON ;
+%<np%>%<top%>%<attr%>: # ;
+
 LEXICON NP-TOP-ACR
 
 %<np%>%<top%>: POSSESSION ;
@@ -8314,7 +8319,7 @@ Tеңир NP-TOP ; ! ""
 Босня:Босня NP-TOP ;
 Греция:Греция NP-TOP ;
 Гренландия:Гренландия NP-TOP ; 
-ЕБ:ЕБ NP-TOP-ACR ;
+! ЕБ:ЕБ NP-TOP-ACR ;
 Түрк:Түрк NP-TOP ;
 Харват:Харват NP-TOP ;
 Балгар:Балгар NP-TOP ;
@@ -8665,6 +8670,7 @@ Getty% Images:Getty% Images%{э%}%{з%} NP-ORG ; ! ""
 Бундеслига:Бундеслига NP-ORG; ! "Bundesliga"
 Чемпиондар% лигасы:Чемпиондар% лига NP-ORG-COMPOUND ; ! "UEFA Champions League"
 Реал% Мадрид:Реал% Мадрид%{☭%} NP-ORG ; ! "Real Madrid Club de Fútbol"
+! ЕБ:ЕБ NP-ORG-COMPOUND ; ! "European Union"
 
 
 ! Other proper names (events etc)
@@ -14869,14 +14875,14 @@ cубъективдүү:cубъективдүү A4 ; ! ""
 мол:мол A5 ; ! "" 
 рационалдуу:рационалдуу A5 ; ! "" 
 системалуу:системалуу A5 ; ! "" ! "comp form used very few" 
-түндүк:түндүк A5 ; ! "" 
-түштүк:түштүк A5 ; ! "" 
-батыш:батыш A5 ; ! "" 
-чыгыш:чыгыш A5 ; ! "" 
-түндүк% батыш:түндүк% батыш A5 ; ! "" 
-түндүк% чыгыш:түндүк% чыгыш A5 ; ! "" 
-түштүк% батыш:түштүк% батыш A5 ; ! "" 
-түштүк% чыгыш:түштүк% чыгыш A5 ; ! "" 
+түндүк:түндүк A2 ; ! "" 
+түштүк:түштүк A2 ; ! "" 
+батыш:батыш A2 ; ! "" 
+чыгыш:чыгыш A2 ; ! "" 
+түндүк% батыш:түндүк% батыш A2 ; ! "" 
+түндүк% чыгыш:түндүк% чыгыш A2 ; ! "" 
+түштүк% батыш:түштүк% батыш A2 ; ! "" 
+түштүк% чыгыш:түштүк% чыгыш A2 ; ! "" 
 тартыш:тартыш A5 ; ! "" 
 ишеничтүү:ишеничтүү A5 ; ! "" 
 
@@ -17880,7 +17886,8 @@ ISBN:ISBN ABBR ;
 экон%.:экон%. ABBR ; ! "economic"
 ЮНЕСКО:ЮНЕСКО ABBR ; ! ""
 EITI:EITI ABBR ; ! ""
-ЕБ:ЕБ ABBR ; ! "European Union"
+! ЕБ:ЕБ ABBR ; ! "European Union"
+ЕБ:ЕБ NP-TOP-COMPOUND ; ! "European Union"
 янв%.:янв%. ABBR ; 
 февр%.:февр%. ABBR ; 
 апр%.:апр%. ABBR ;
