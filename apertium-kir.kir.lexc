@@ -619,8 +619,11 @@ LEXICON NP-TOP
 
 LEXICON NP-TOP-COMPOUND
 
-%<np%>%<top%>: N-COMPOUND-PX-COMMON ;
-%<np%>%<top%>%<attr%>: # ;
+! FIXME:
+!%<np%>%<top%>%<nom%>: # ;
+!%<np%>%<top%>: N-COMPOUND-PX-COMMON ;
+!%<np%>%<top%>%<attr%>: # ;
+%<np%>%<top%>: NP-COMMON ;
 
 LEXICON NP-TOP-ACR
 
@@ -1498,7 +1501,7 @@ LEXICON Conjunctions
 дагы:дагы ADV ; ! "дагы ..." "another ..."
 дагы:дагы CC ; ! "too"
 же:же CC ; ! "or"
-!менен:менен CC ; ! "and" / "including"
+менен:менен CC ; ! "and" / "including" ! Use/MT
 үчүн:үчүн CC ; ! ""
 не:не CC ; ! "neither... nor..."
 ал% эми:ал% эми CA ; ! "and now"
@@ -1538,7 +1541,7 @@ LEXICON Conjunctions
 татыктуу:татыктуу CC ;
 бирок% тилекке% каршы:бирок% тилекке% каршы CA ;
 ! мисалы CA ;
-! деп CS ;
+деп CS ; ! Use/MT
 ошондуктан:ошондуктан CA ;
 ал% эмес:ал% эмес CA ;
 бул% эле% эмес:бул% эле% эмес CA ;
@@ -8320,6 +8323,7 @@ Tеңир NP-TOP ; ! ""
 Греция:Греция NP-TOP ;
 Гренландия:Гренландия NP-TOP ; 
 ! ЕБ:ЕБ NP-TOP-ACR ;
+ЕБ:ЕБ%{э%} NP-TOP-COMPOUND ; ! "European Union"
 Түрк:Түрк NP-TOP ;
 Харват:Харват NP-TOP ;
 Балгар:Балгар NP-TOP ;
@@ -8378,7 +8382,7 @@ Tеңир NP-TOP ; ! ""
 Дублин:Дублин NP-TOP ;
 Душанбе:Душанбе NP-TOP ;
 Эмба:Эмба NP-TOP ;
-ИМФ:ИМФ NP-TOP ;
+ИМФ:ИМФ NP-ORG ;
 Апрель:Апрель NP-TOP ;
 Декабрь:Декабрь NP-TOP ;
 Январь:Январь NP-TOP ;
@@ -11703,6 +11707,7 @@ Aйталы:Aйталы NP-ANT-M ; ! "Aytğalıy" (Arabic)
 !! JNW ANT
 Тэд:Тэд NP-ANT-M ; ! "Ted"
 Митч:Митч NP-ANT-M ; ! "Mitch"
+Рен:Рен NP-ANT-MF ; ! "Rehn"
 
 ! Patronyms
 !==========
@@ -17887,7 +17892,6 @@ ISBN:ISBN ABBR ;
 ЮНЕСКО:ЮНЕСКО ABBR ; ! ""
 EITI:EITI ABBR ; ! ""
 ! ЕБ:ЕБ ABBR ; ! "European Union"
-ЕБ:ЕБ NP-TOP-COMPOUND ; ! "European Union"
 янв%.:янв%. ABBR ; 
 февр%.:февр%. ABBR ; 
 апр%.:апр%. ABBR ;
