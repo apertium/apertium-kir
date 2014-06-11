@@ -1685,6 +1685,7 @@ LEXICON Determiners
 ! бүткүл:бүткүл DET-DEM ; ! "" ! "moved to DET-QNT"
 
 айрым:айрым DET-IND ; ! "other"
+жалгыз:жалгыз DET-IND ; ! "a sole/single"
 ушундай:ушундай DET-IND ; ! "this kind of"
 ар:ар DET-IND ; ! "every"
 эчбир:эчбир DET-IND ; ! "no"
