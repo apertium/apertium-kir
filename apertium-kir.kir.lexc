@@ -642,9 +642,16 @@ NUM-COMMON ;
 %<num%>%<ord%>:%>%{I%}нч%{I%} # ;             ! FIXME: base form, <det> reading
 %<num%>%<ord%>:%>%{I%}нч%{I%} N-INFL-COMMON ;
 
+LEXICON NP-AL-PL
+
+%<np%>%<al%>: POSSESSION ;
+%<np%>%<al%>%<pl%>:%>%{L%}%{A%}р POSSESSION ;
+%<np%>%<al%>%<attr%>: # ;
+
 LEXICON NP-AL
 
 %<np%>%<al%>: POSSESSION ;
+%<np%>%<al%>%<attr%>: # ;
 
 LEXICON ADJ-LEVELS
 
@@ -8719,6 +8726,8 @@ New% York% Times:New% York% Times NP-AL ; ! ""
 Золото:Золото NP-AL ; ! ""
 Kazakhstan:Kazakhstan NP-AL ; ! ""
 Аймаңдай:Аймаңдай NP-AL ; ! ""
+
+Совет:Совет NP-AL-PL ; ! ""
 
 ! Stadium names
 !-----------------
