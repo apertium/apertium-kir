@@ -11707,7 +11707,6 @@ Aйталы:Aйталы NP-ANT-M ; ! "Aytğalıy" (Arabic)
 !! JNW ANT
 Тэд:Тэд NP-ANT-M ; ! "Ted"
 Митч:Митч NP-ANT-M ; ! "Mitch"
-Рен:Рен NP-ANT-MF ; ! "Rehn"
 
 ! Patronyms
 !==========
@@ -14119,6 +14118,7 @@ Aйталы:Aйталы NP-ANT-M ; ! "Aytğalıy" (Arabic)
 !! JNW COG
 Коппел:Коппел NP-COG-MF ; ! "Koppel"
 Албом:Албом NP-COG-MF ; ! "Albom"
+Рен:Рен NP-COG-MF ; ! "Rehn"
 
 
 LEXICON Adjectives
