@@ -89,6 +89,7 @@ WildNonPhon = %> 0 ;
 !WildNoVowNoY = [ Cns - й ] %> 0 ;
 
 Abstract = %{а%} %{э%} %{ү%} %{у%} %{о%} %{й%} %{л%} %{з%} %{т%} ;
+AbstractVow = %{а%} %{э%} %{ү%} %{у%} %{о%} ;
 AbstractCns = %{й%} %{л%} %{з%} %{т%} ;
 
 
@@ -181,6 +182,8 @@ Cx:Cy <=>  [ :UnvoicedNonSonCns ]/[ [ :0 - [ %{n%}:0 | Abstract:0 ] ] | %>: ] _ 
 "Deletion of {S} after a consonant"
 !%{S%}:0 <=> [ :Cns | й: | ь:0 ]/[ %>: ]* _ ;
 %{S%}:0 <=> [ :Cns | й: ]/[ %>: | :0 ] _ ;
+        except
+            AbstractVow:/:0 _ ;
 
 
 
