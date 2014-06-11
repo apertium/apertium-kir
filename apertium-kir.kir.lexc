@@ -624,6 +624,7 @@ LEXICON NP-TOP-COMPOUND
 !%<np%>%<top%>: N-COMPOUND-PX-COMMON ;
 !%<np%>%<top%>%<attr%>: # ;
 %<np%>%<top%>: NP-COMMON ;
+%<np%>%<top%>%<attr%>: # ;
 
 LEXICON NP-TOP-ACR
 
