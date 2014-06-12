@@ -212,7 +212,7 @@ Multichar_Symbols
 LEXICON Root
 
 Copula ;
-Miscellaneous ;
+! Miscellaneous ;
 Postpositions ;
 Conjunctions ;
 Determiners ;
@@ -1088,6 +1088,10 @@ LEXICON PRON-QNT
 %<prn%>%<qnt%>: POSSESSION ;
 %<prn%>%<qnt%>%<pl%>:%>%{L%}%{A%}р POSSESSION ;
 
+LEXICON PRON-QNT-POSS
+
+%<prn%>%<qnt%>: POSSESSION-ENDINGS ;
+
 
 LEXICON PRN-NEG
 
@@ -1477,16 +1481,16 @@ LEXICON VAUX-ELE
 !!!                  L E X I C O N    E N T R I E S                         !!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-LEXICON Miscellaneous
-
-! FIXME: сыяктуу and экен have special grammar, but are ~modal particles
-сыяктуу:сыяктуу PART ; ! modal particle; adjective, usually with dative "similar to"
-экен:экен PART ; ! non-eyewitness modal particle
-экен:экен PART-PERS-COP ; ! non-eyewitness modal particle
-!эле PART-PERS-PAST ; ! 
-
-! FIXME: Add the other forms as Dir/LR
-бы%<qst%>:%~бы # ; ! Dir/RL 
+! LEXICON Miscellaneous
+! 
+! ! FIXME: сыяктуу and экен have special grammar, but are ~modal particles
+! сыяктуу:сыяктуу PART ; ! modal particle; adjective, usually with dative "similar to"
+! экен:экен PART ; ! non-eyewitness modal particle
+! экен:экен PART-PERS-COP ; ! non-eyewitness modal particle
+! !эле PART-PERS-PAST ; ! 
+! 
+! ! FIXME: Add the other forms as Dir/LR
+! бы%<qst%>:%~бы # ; ! Dir/RL 
 
 LEXICON Postadverbs
 
@@ -1721,6 +1725,7 @@ LEXICON Determiners
 башка:башка DET-IND ;    ! FIXME: Hmmmm
 бир% далай:бир% далай DET-QNT ;
 бирер:бирер DET-IND ;
+баары:баар PRON-QNT-POSS ;
 бүт% баары:бүт% баары PRON-QNT ;
 бүт% баары:бүт% баары DET-QNT ;
 бир% канча:бир% канча DET-QNT ;
