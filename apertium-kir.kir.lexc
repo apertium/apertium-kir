@@ -95,12 +95,6 @@ Multichar_Symbols
 %<coop%>    ! Cooperative
 %<evid%>    ! Evidential
 
-! %<cv_impf%> ! Converb imperfect, -E
-! %<cv_perf%> ! Converb perfect, -Iп
-! %<cv_irre%> ! Converb irrealis, -Eт
-! %<cv_fut%>  ! Converb future, -Aр
-! %<cv_pur%>  ! Converb purpose, -GAнI
-
 %<asif%>          ! a verbal affix adding "as if ..." to the meaning
 %<pcond%>         ! conditional something "would X"
 
@@ -597,6 +591,7 @@ LEXICON NP-PAT-VICH
 LEXICON NP-ORG
 
 %<np%>%<org%>: POSSESSION ;
+%<np%>%<org%>%<attr%>: # ;
 
 LEXICON NP-ORG-COMPOUND
 
@@ -654,7 +649,7 @@ LEXICON NUM
 
 NUM-COMMON ;
 %<num%>%<ord%>:%>%{I%}нч%{I%} # ;             ! FIXME: base form, <det> reading
-%<num%>%<ord%>:%>%{I%}нч%{I%} N-INFL-COMMON ;
+%<num%>%<ord%>%<subst%>:%>%{I%}нч%{I%} N-INFL-COMMON ; ! Added <subst>
 
 LEXICON NP-AL-PL
 
@@ -8701,7 +8696,7 @@ Global:Global NP-AL ; ! ""
 Group:Group NP-AL ; ! ""
 Halal:Halal NP-AL ; ! ""
 Independent:Independent NP-AL ; ! ""
-SETimes:SETimes NP-AL ; ! ""
+SETimes:SETimes%{а%}%{з%} NP-AL ; ! ""
 Leaks:Leaks NP-AL ; ! ""
 Mobil:Mobil NP-AL ; ! ""
 News% of% the% World:News% of% the% World NP-AL ; ! ""
