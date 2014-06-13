@@ -36,16 +36,16 @@ FromCns = SurCns Я я Ё ё Ю ю ;
 Vow =     А Е Ё И О Ө У Ү Ы Э Ю Я
           а е ё и о ө у ү ы э ю я 
           %{A%} %{I%} %{U%} %{E%} %{y%}
-          %{а%} %{э%} %{ө%} %{у%} %{о%} ;
+          %{а%} %{э%} %{ү%} %{у%} %{о%} ;
 
 SurVow = А Е Ё И О Ө У Ү Ы Э Ю Я
          а е ё и о ө у ү ы э ю я ; 
 
-FrontVow = И Ө Е Ү Э и ө ү э е %{э%} %{ө%} ;  ! I V L C M ;
+FrontVow = И Ө Е Ү Э и ө ү э е %{э%} %{ү%} ;  ! I V L C M ;
 BackVow = А О У Ы а о у ы Я я Ю ю %{а%} %{у%} %{о%} ; ! X ;
 FrontUnrndVow = И Е Э и э е %{э%} ; 
 BackUnrndVow = А Ы а ы Я я ;
-FrontRndVow = Ө Ү ө ү %{ө%} ;
+FrontRndVow = Ө Ү ө ү %{ү%} ;
 BackRndVow =  О У о у Ю ю Ё ё %{о%} %{у%} ;
 BackLowRndVow = О о Ё ё %{о%} ;
 LowVow = Е е Э э Ө ө А а Я я О о Ё ё ;
@@ -111,19 +111,19 @@ Rules
             [ %{л%}:0 | %{з%}:0 ] %>: _ ;
 
 "N Desonorisation"
-%{N%}:д <=> [ :VoicedCns - %{n%}:н ]/[ %>: | [ :0 - [ Abstract: | %{n%}: ] ] ] _ ;
-            [ %{й%}:0 | %{л%}:0 | %{з%}:0 ]/[ %>: | [ :0 - [ Abstract: | %{n%}: ] ] ] _ ;
+%{N%}:д <=> [ :VoicedCns - %{n%}:н ]/[ %>: | [ [ :0 | %-: ] - [ Abstract: | %{n%}: ] ] ] _ ;
+            [ %{й%}:0 | %{л%}:0 | %{з%}:0 ]/[ %>: | %-: | [ :0 - [ Abstract: | %{n%}: ] ] ] _ ;
 !%{N%}:д <=> VoicedCns (%>:) _ ;
 
 !!!!!! рн stuff !!!!! 
 
 "Unepenthesis in рн stems"
-%{y%}:0 <=> _ [ :Cns :SurVow ]/[ :0 | %>: ] ;
+%{y%}:0 <=> _ [ :Cns :SurVow ]/[ :0 | %>: | %-: ] ;
 
 ! FIXME: check
 "Harmony of epenthesised vowel in рн stems"
 !%{y%}:Vy <=> [ :LastVowel :Cns* :Cns ]/[:0] _ [ :Cns \:SurVow ]/[ :0 | %>:] ;
-%{y%}:Vy <=> [ :LastVowel :Cns* :Cns ]/[:0] _ [ :Cns [ .#. | :Cns ] ]/[ :0 | %>:] ;
+%{y%}:Vy <=> [ :LastVowel :Cns* :Cns ]/[:0] _ [ :Cns [ .#. | :Cns ] ]/[ :0 | %-: | %>:] ;
   where  Vy  in  (  и  ү  и  и  ү  ы  ы  у  у  ы  у  у )
   LastVowel  in  (  и  ү  е  э  ө  я  а  ё  о  ы  ю  у )
            matched ;
@@ -134,7 +134,7 @@ Rules
 !!!!!!!!!!!!!   Rules that might be messing with me !!!!!!!!!!!!!
 
 "Devoicing of stops etc. across morpheme boundary after voiceless consonants" !!"Katkalan harmony in consonants"
-Cx:Cy <=>  [ :UnvoicedNonSonCns ]/[ [ :0 - [ %{n%}:0 | Abstract:0 ] ] | %>: ] _ ;
+Cx:Cy <=>  [ :UnvoicedNonSonCns ]/[ [ :0 - [ %{n%}:0 | Abstract:0 ] ] | %-: | %>: ] _ ;
            [ %{т%}:0 ]/[ %>: | %- ] _ ;
                            except
                                    ! avoid conflict with "Causative stuff"
@@ -163,7 +163,7 @@ Cx:Cy <=>  [ :UnvoicedNonSonCns ]/[ [ :0 - [ %{n%}:0 | Abstract:0 ] ] | %>: ] _ 
 !!!!!!!!!!!!   Deletion   !!!!!!!!!!!!!!!!
 
 "Deletion of {I} after vowels"
-%{I%}:0 <=> [ :SurVow ]/[ [ :0 - Abstract: ] | %>: ] _ ;
+%{I%}:0 <=> [ :SurVow ]/[ [ :0 - Abstract: ] | %-: | %>: ] _ ;
       except
                     й:0/[ %>: | [ :0 - Abstract: ] ] _ ;    ! Avoid conflict w y-vowels
                               :LowVow LabialCns: %>: _ п ;  ! Avoid conflict with {I}п stuff
@@ -171,32 +171,32 @@ Cx:Cy <=>  [ :UnvoicedNonSonCns ]/[ [ :0 - [ %{n%}:0 | Abstract:0 ] ] | %>: ] _ 
 "Deletion of {I} after {n}"
 %{I%}:0 <=> %{n%}:н/[ [ :0 - Abstract: ] | %>: ] _ ;
       except
-   [ %{e%}: :Cns* ]/[ [ :0 - Abstract: ] | %>: ] _ ;        ! Avoid conflict w irreg vowel harm
+   [ %{e%}: :Cns* ]/[ [ :0 - Abstract: ] | %>: | %-: ] _ ;        ! Avoid conflict w irreg vowel harm
 
 "Deletion of {A} after vowels"
-%{A%}:0 <=> [ :SurVow ]/[ [ :0 - Abstract: ] | %>: ] _ ;
+%{A%}:0 <=> [ :SurVow ]/[ [ :0 - Abstract: ] | %-: | %>: ] _ ;
          except
                  %{A%}:/[ :0 | %>: ] _ ;    ! Avoid conflict with ??? FIXME
                      й:/[ :0 | %>: ] _ ;    ! Avoid conflict w y-vowels
 
 "Deletion of {S} after a consonant"
 !%{S%}:0 <=> [ :Cns | й: | ь:0 ]/[ %>: ]* _ ;
-%{S%}:0 <=> [ :Cns | й: ]/[ %>: | :0 ] _ ;
+%{S%}:0 <=> [ :Cns | й: ]/[ %>: | %-: | :0 ] _ ;
         except
-            AbstractVow:/:0 _ ;
+            AbstractVow:/[ :0 | %-: ] _ ;
 
 
 
 !!!!!!!!!!!!   Vowel harmony !!!!!!!!!!!!!
 
 "Vowel harmony for archiphoneme {A}"
-%{A%}:Vy  <=> [ :LastVowel :Cns* :Cns ]/[ :0 - [ Abstract:0 ] | %>: ] _ ;
+%{A%}:Vy  <=> [ :LastVowel :Cns* :Cns ]/[ :0 - [ Abstract:0 ] | %>: | %-: ] _ ;
                                  [ %{A%}:LastVowel ] _ ;
                  except
                                                      _ ( %>: ) %{U%}: ;
                           :LastVowel й:/[ :0 | %>: ] _ ;
 
-                            [ %{e%}: :Cns* ]/[ %>: ] _ ;    ! Avoid conflict with irregular vowel harmony
+                            [ %{e%}: :Cns* ]/[ %>: | %-: ] _ ;    ! Avoid conflict with irregular vowel harmony
 !                                                     _ %{A%}: ; ! so that AA = ээ, not ее
 !                                              %{A%}: _ ; ! so that AA = ээ, not ее
         [ [ :и | :е | :э ] :Cns* :Cns ]/[ :0 | %>: ] _ %{A%}: ;
@@ -209,16 +209,16 @@ Cx:Cy <=>  [ :UnvoicedNonSonCns ]/[ [ :0 - [ %{n%}:0 | Abstract:0 ] ] | %>: ] _ 
                      matched ;
 
 "Abstract vowel harmony for {А} after {а} or {у}"
-%{A%}:а  <=> [ [ %{а%}:0 | %{у%}:0 ] AbstractCns:0* :Cns* ]/[ [ :0 - Abstract: ] | %>: | %- ] _ ;
+%{A%}:а  <=> [ [ %{а%}:0 | %{у%}:0 ] AbstractCns:0* :Cns* ]/[ [ :0 - Abstract: ] | %>: | %-: ] _ ;
 
 "Abstract vowel harmony for {А} after {э}"
-%{A%}:е  <=> [ %{э%}:0 AbstractCns:0* :Cns* ]/[ [ :0 - Abstract: ] | %>: | %- ] _ ;
+%{A%}:е  <=> [ %{э%}:0 AbstractCns:0* :Cns* ]/[ [ :0 - Abstract: ] | %>: | %-: ] _ ;
 
 "Abstract vowel harmony for {А} after {ү}"
-%{A%}:ө  <=> [ %{ү%}:0 AbstractCns:0* :Cns* ]/[ [ :0 - Abstract: ] | %>: | %- ] _ ;
+%{A%}:ө  <=> [ %{ү%}:0 AbstractCns:0* :Cns* ]/[ [ :0 - Abstract: ] | %>: | %-: ] _ ;
 
 "Abstract vowel harmony for {А} after {о}"
-%{A%}:о  <=> [ %{о%}:0 AbstractCns:0* :Cns* ]/[ [ :0 - Abstract: ] | %>: | %- ] _ ;
+%{A%}:о  <=> [ %{о%}:0 AbstractCns:0* :Cns* ]/[ [ :0 - Abstract: ] | %>: | %-: ] _ ;
 
 
 "Vowel harmony for {A} so that AA becomes ээ"  ! and not ее
@@ -236,57 +236,70 @@ Cx:Cy <=>  [ :UnvoicedNonSonCns ]/[ [ :0 - [ %{n%}:0 | Abstract:0 ] ] | %>: ] _ 
                     _ %{A%}: ;
 
 "Vowel harmony for archiphoneme {I}"
-%{I%}:Vy <=> [ :LastVowel :Cns* :Cns ]/[ %>: | [ :0 - Abstract: ] ] _ ;
+%{I%}:Vy <=> [ :LastVowel :Cns* :Cns ]/[ %>: | %-: | [ :0 - Abstract: ] ] _ ;
               except
                         [ :LowVow м: ]/[ :0 | %>: ] _ п/[ :0 | %>: ] ;
                                 %{n%}:/[ :0 | %>: ] _ ;     ! Avoid conflict with {n} stuff
                                     й:/[ :0 | %>: ] _ ;     ! Avoid conflict w y-vowels
-                           [ %{e%}: :Cns* ]/[ %>: ] _ ;     ! Avoid conflict with irregular vowel harmony
+                     [ %{e%}: :Cns* ]/[ %>: | %-: ] _ ;     ! Avoid conflict with irregular vowel harmony
                                                     _ р:0 ; ! Avoid conflict w causative
   where  Vy  in  (  и  ү  и  и  ү  ы  ы  у  у  ы  у  у )
   LastVowel  in  (  и  ү  е  э  ө  я  а  ё  о  ы  ю  у )
            matched ;
 
 "Irregular vowel harmony for archiphoneme {I}"
-%{I%}:Vy <=> [ :LastVowel :Cns* %{e%}: :Cns :Cns* ]/[ %>: ] _ ;
-             [ :LastVowel :Cns* :Cns %{e%}: :Cns* ]/[ %>: ] _ ; 
+%{I%}:Vy <=> [ :LastVowel :Cns* %{e%}: :Cns :Cns* ]/[ %>: | %-: ] _ ;
+             [ :LastVowel :Cns* :Cns %{e%}: :Cns* ]/[ %>: | %-: ] _ ; 
   where  Vy  in  (  и  ү  и  и  ү  и  и  ү  ү  и  ү  ү )
   LastVowel  in  (  и  ү  е  э  ө  я  а  ё  о  ы  ю  у )
            matched ;
 
 "Irregular vowel harmony for archiphoneme {A}"
-%{A%}:Vy <=> [ :LastVowel :Cns* %{e%}: :Cns :Cns* ]/[ %>: ] _ ;
-             [ :LastVowel :Cns* :Cns %{e%}: :Cns* ]/[ %>: ] _ ; 
+%{A%}:Vy <=> [ :LastVowel :Cns* %{e%}: :Cns :Cns* ]/[ %>: | %-: ] _ ;
+             [ :LastVowel :Cns* :Cns %{e%}: :Cns* ]/[ %>: | %-: ] _ ; 
              except
-                                                            _ %{A%}: ;
+                                                                  _ %{A%}: ;
   where  Vy  in  (  е  ө  е  е  ө  е  е  ө  ө  е  ө  ө )
   LastVowel  in  (  и  ү  е  э  ө  я  а  ё  о  ы  ю  у )
            matched ;
 
 "Abstract vowel harmony for {I} after {а}"
-%{I%}:ы  <=> [ %{а%}:0 AbstractCns:0* :Cns* ]/[ [ :0 - Abstract: ] | %>: ] _ ;
+%{I%}:ы  <=> [ %{а%}:0 AbstractCns:0* :Cns* ]/[ [ :0 - Abstract: ] | %>: | %-: ] _ ;
          except
-                                                               %>: %{D%}:т _ р:0 ; ! Avoid conflict with deletion in Causative
-                                      %{n%}:н/[ [ :0 - Abstract: ] | %>: ] _ ; ! Avoid conflict with accusative deletion
+                                                                     %>: %{D%}:т _ р:0 ; ! Avoid conflict with deletion in Causative
+                                      %{n%}:н/[ [ :0 - Abstract: ] | %>: | %-: ] _ ; ! Avoid conflict with accusative deletion
 
 "Abstract vowel harmony for {I} after {э}"
-%{I%}:и  <=> [ %{э%}:0 AbstractCns:0* :Cns* ]/[ [ :0 - Abstract: ] | %>: ] _ ;
+%{I%}:и  <=> [ %{э%}:0 AbstractCns:0* :Cns* ]/[ [ :0 - Abstract: ] | %>: | %-: ] _ ;
          except
-                                                               %>: %{D%}:т _ р:0 ; ! Avoid conflict with deletion in Causative
-                                      %{n%}:н/[ [ :0 - Abstract: ] | %>: ] _ ; ! Avoid conflict with accusative deletion
+                                                                     %>: %{D%}:т _ р:0 ; ! Avoid conflict with deletion in Causative
+                                            %{n%}:н/[ [ :0 - Abstract: ] | %>: ] _ ; ! Avoid conflict with accusative deletion
+
+"Abstract vowel harmony for {I} after {о} and {у}"
+%{I%}:у  <=> [ [ %{о%}:0 | %{у%}:0 ] AbstractCns:0* :Cns* ]/[ [ :0 - Abstract: ] | %>: | %-: ] _ ;
+         except
+                                                                     %>: %{D%}:т _ р:0 ; ! Avoid conflict with deletion in Causative
+                                            %{n%}:н/[ [ :0 - Abstract: ] | %>: ] _ ; ! Avoid conflict with accusative deletion
+
+"Abstract vowel harmony for {I} after {ү}"
+%{I%}:и  <=> [ %{ү%}:0 AbstractCns:0* :Cns* ]/[ [ :0 - Abstract: ] | %>: | %-: ] _ ;
+         except
+                                                                     %>: %{D%}:т _ р:0 ; ! Avoid conflict with deletion in Causative
+                                            %{n%}:н/[ [ :0 - Abstract: ] | %>: ] _ ; ! Avoid conflict with accusative deletion
+
 
 "Irregular vowel harmony for archiphoneme {E}"
-%{E%}:Vy <=> [ :LastVowel :Cns* %{e%}: :Cns :Cns* ]/[ %>: ] _ ;
-             [ :LastVowel :Cns* :Cns %{e%}: :Cns* ]/[ %>: ] _ ; 
+%{E%}:Vy <=> [ :LastVowel :Cns* %{e%}: :Cns :Cns* ]/[ %>: | %-: ] _ ;
+             [ :LastVowel :Cns* :Cns %{e%}: :Cns* ]/[ %>: | %-: ] _ ; 
   where  Vy  in  (  е  ө  е  е  ө  е  е  ө  ө  е  ө  ө )
   LastVowel  in  (  и  ү  е  э  ө  я  а  ё  о  ы  ю  у )
            matched ;
 
 
 "Vowel harmony for archiphoneme {E}" ! should be just like {A}
-%{E%}:Vy <=> [ :LastVowel Cns* [ :Cns - й ] ]/[ :0 | %>: ] _ ;
+%{E%}:Vy <=> [ :LastVowel Cns* [ :Cns - й ] ]/[ :0 | %>: | %-: ] _ ;
                         except
-                                 [ %{e%}: :Cns* ]/[ %>: ] _ ;     ! Avoid conflict with irregular vowel harmony
+                                 [ %{e%}: :Cns* ]/[ %>: | %-: ] _ ;     ! Avoid conflict with irregular vowel harmony
   where Vy   in  (  е  ө  е  е  ө  а  а  о  о  а  а  а )
   LastVowel  in  (  и  ү  е  э  ө  я  а  ё  о  ы  ю  у )
               matched ; 
@@ -420,7 +433,7 @@ Vx:Vy <=> _ [ %{U%}: - :YotVow ]/[ :0 | %>: ] ;
 %{I%}:0 <=> [ :SurVow | :р | :л | :н ] %>: %{D%}:т _ р:0 ;
                  except
                          ! avoid conflict with irregular vowel harmony
-                         [ %{e%}: :Cns :Cns* ]/%>: _ ;     ! Avoid conflict with irregular vowel harmony
+                         [ %{e%}: :Cns :Cns* ]/[ %>: | %-: ] _ ;     ! Avoid conflict with irregular vowel harmony
 
 "Deletion of р after {D}{I}"
 р:0 <=> [ :SurVow | :р | :н ] %>: %{D%}:т %{I%}: _ ;
