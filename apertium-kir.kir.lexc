@@ -7877,7 +7877,7 @@ LEXICON Nouns
 моңгол:моңгол N1 ;  ! "Mongol"
 моңгол:монгол N1 ;  ! "Mongol"    ! Dir/LR
 кыргыз:кыргыз N1 ; ! "Kyrgyz"
-түрк:түрк N1 ; ! "Turkish"
+түрк:түрк A3 ; ! "Turkish"
 ! кыргызча ADJ ; ! This should be automatically generated
 орус:орус N1 ; ! "Russian"
 булгар:булгар N1 ; ! "Bulgarian"
@@ -8232,7 +8232,8 @@ Tеңир NP-TOP ; ! ""
 Моголстан:Моголстан NP-TOP ; ! ""
 Молдавия:Молдавия NP-TOP ; ! ""
 Молдова:Молдова NP-TOP ; ! ""
-Монако:Монако NP-TOP ;
+Монако:Монако NP-TOP ; ! "Monaco"
+Мусул:Мусул NP-TOP ; ! ""
 Норвегия:Норвегия NP-TOP ; ! "Norway"
 Найпидау:Найпидау NP-TOP ; ! ""
 Найроби:Найроби NP-TOP ; ! ""
