@@ -282,7 +282,7 @@ Cx:Cy <=>  [ :UnvoicedNonSonCns ]/[ [ :0 - [ %{n%}:0 | Abstract:0 ] ] | %-: | %>
                                             %{n%}:н/[ [ :0 - Abstract: ] | %>: ] _ ; ! Avoid conflict with accusative deletion
 
 "Abstract vowel harmony for {I} after {ү}"
-%{I%}:и  <=> [ %{ү%}:0 AbstractCns:0* :Cns* ]/[ [ :0 - Abstract: ] | %>: | %-: ] _ ;
+%{I%}:ү  <=> [ %{ү%}:0 AbstractCns:0* :Cns* ]/[ [ :0 - Abstract: ] | %>: | %-: ] _ ;
          except
                                                                      %>: %{D%}:т _ р:0 ; ! Avoid conflict with deletion in Causative
                                             %{n%}:н/[ [ :0 - Abstract: ] | %>: ] _ ; ! Avoid conflict with accusative deletion
