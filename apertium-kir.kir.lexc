@@ -14333,7 +14333,7 @@ cубъективдүү:cубъективдүү A4 ; ! ""
 террордук:террорлук A4 ; ! "" Dir/LR
 техникалык:техникалык A4 ; ! "technical" 
 технологиялык:технологиялык A4 ; ! "" 
-атайын:атайын A4 ; ! "purposely" ! "FIXME not sure about this"  maybe ADV -JNW
+! атайын:атайын A4 ; ! "purposely" ! "FIXME not sure about this"  maybe ADV -JNW
 трагедиялык:трагедиялык A4 ; ! "" 
 трагедиялык:трагедиялуу A4 ; ! "" Dir/LR
 тропиктик:тропиктик A4 ; ! "" 
@@ -15968,6 +15968,7 @@ cубъективдүү:cубъективдүү A4 ; ! ""
 өткөн:өткөн A4 ; ! "previous, last" ! Use/MT
 ишин% билген:ишин% билген A3 ; ! "professional" ! Use/MT 
 адилеттүү:адилеттүү A3 ; ! "just" ! FIXME: CHECK A3,
+абдан% чоң:абдан% чоң A3 ; ! "huge" ! USE/MT ! FIXME: THIS IS TERRIBLE
 
 
 LEXICON Adverbs
@@ -16303,6 +16304,7 @@ LEXICON Adverbs
 күн% сайын% эртең% менен:күн% сайын% эртең% менен ADV ; ! "every morning" ! Use/MT
 тирүү% кезинде:тирүү% кезинде ADV ; ! "while alive"
 ушуга% чейин ADV ; ! "until now" ! Use/MT
+атайын:атайын ADV ; ! "purposely"
 
 
 !! FIXME: productive {K}{I} forms
