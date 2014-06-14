@@ -181,9 +181,9 @@ Cx:Cy <=>  [ :UnvoicedNonSonCns ]/[ [ :0 - [ %{n%}:0 | Abstract:0 ] ] | %-: | %>
 
 "Deletion of {S} after a consonant"
 !%{S%}:0 <=> [ :Cns | й: | ь:0 ]/[ %>: ]* _ ;
-%{S%}:0 <=> [ :Cns | й: ]/[ %>: | %-: | :0 ] _ ;
+%{S%}:0 <=> [ AbstractCns: | :Cns | й: ]/[ %>: | %-: | [ :0 - Abstract: ] ]* _ ;
         except
-            AbstractVow:/[ :0 | %-: ] _ ;
+            AbstractVow:/[ [ :0 - Abstract: ] | %-: ]* _ ;
 
 
 
