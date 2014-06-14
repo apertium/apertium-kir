@@ -649,7 +649,7 @@ LEXICON NUM
 
 NUM-COMMON ;
 %<num%>%<ord%>:%>%{I%}нч%{I%} # ;             ! FIXME: base form, <det> reading
-%<num%>%<ord%>%<subst%>:%>%{I%}нч%{I%} N-INFL-COMMON ; ! Added <subst>
+%<num%>%<ord%>%<subst%>:%>%{I%}нч%{I%} SUBST-COMMON ; ! Added <subst>
 
 LEXICON NP-AL-PL
 
