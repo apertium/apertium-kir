@@ -4235,7 +4235,7 @@ LEXICON Nouns
 кичинекей% коңгуроо:кичинекей% коңгуроо N-INFL ; 
 чаян:чаян N-INFL ; 
 өт:өт N-INFL ; 
-! ачуу:ачуу N-INFL ; ! "should be adj see A2 section" 
+ачуу:ачуу N-INFL ; ! "anger, ire; opening"
 ! жин:жин N-INFL ; ! "removing duplicate" 
 каар:каар N-INFL ; 
 өгүз:өгүз N-INFL ; 
@@ -7828,6 +7828,7 @@ LEXICON Nouns
 буддист:буддист N-INFL ; ! "buddhist"
 наристе% кези:наристе% кез N-INFL-3PX-COMPOUND ; ! "baby-hood" ! Use/MT
 маанай:маанай N-INFL ; ! "mood"
+кошумча:кошумча N-INFL ; ! "addition, extension(?)" ! Use/MT ! FIXME: or check whether <adj><subst> is right -JNW 
 
 
 ! Abbreviations
@@ -15964,6 +15965,9 @@ cубъективдүү:cубъективдүү A4 ; ! ""
 
 дөңгөлөгү% бар:дөңгөлөгү% бар A4 ; ! "wheeled" ! Use/MT
 дарагы% бар:дарагы% бар A4 ; ! "betreed" ! Use/MT
+өткөн:өткөн A4 ; ! "previous, last" ! Use/MT
+ишин% билген:ишин% билген A3 ; ! "professional" ! Use/MT 
+адилеттүү:адилеттүү A3 ; ! "just" ! FIXME: CHECK A3,
 
 
 LEXICON Adverbs
