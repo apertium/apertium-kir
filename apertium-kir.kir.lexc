@@ -15092,6 +15092,7 @@ cубъективдүү:cубъективдүү A4 ; ! ""
 ! орток:орток A1 ; ! "moved to A3 section" 
 ! үнөмдүү:үнөмдүү ADJ ; ! "moved to A2 section" 
 ! демократ:демократ ADJ ; ! "this is noun not adj" 
+демократ:демократ ADJ ; ! "democrat, e.g. democrat ministers"
 ! жоопкерчиликтүү:жоопкерчиликтүү ADJ ; ! "moved to A2 section" 
 ! жакшы:жакшы A1 ; 
 ! жалгыз:жалгыз A1 ; ! "moved to A3 section" 
