@@ -1099,11 +1099,10 @@ LEXICON PRON-RECIP
 !%<prn%>%<recip%>: CASES ;
 %<prn%>%<recip%>: POSSESSION ;
 
-LEXICON PRON-COLL   ! "Collective"(?) pronouns
+LEXICON PRON-COLL   ! "Collective"(?) pronoun-like numbers
 
 %<num%>%<coll%>%<advl%>: # ;
-%<num%>%<coll%>%<nom%>: # ;
-%<num%>%<coll%>: SUBST-NONOM ;
+%<num%>%<coll%>: POSSESSION ;
 
 
 
