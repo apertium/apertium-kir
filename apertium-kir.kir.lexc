@@ -585,7 +585,7 @@ LEXICON NP-PAT-VICH
 ! For patronyms ending with -вич
 ! Their feminine equivalets end with -вна /I.S./
 
-%<np%>%<pat%>%<m%>:вич%{☭%} NP-COMMON ;
+%<np%>%<pat%>%<m%>:вич NP-COMMON ;
 
 %<np%>%<pat%>%<f%>:вна NP-COMMON ;
 
@@ -8686,13 +8686,13 @@ Getty% Images:Getty% Images%{э%}%{з%} NP-ORG ; ! ""
 Рейтер:Рейтер NP-ORG ; ! "Reuters"
 
 Түрік% Әуежолдары:Түрік% Әуежолдар NP-ORG-COMPOUND ; ! "Turkish Airways"
-Боруссия% Дортмунд:Боруссия% Дортмунд%{☭%} NP-ORG ; ! "Borussia Dortmund"
-Байер% Мюнхен:Байер% Мюнхен%{☭%} NP-ORG ; ! "FC Bayern München"
+Боруссия% Дортмунд:Боруссия% Дортмунд NP-ORG ; ! "Borussia Dortmund"
+Байер% Мюнхен:Байер% Мюнхен NP-ORG ; ! "FC Bayern München"
 Барселона:Барселона NP-ORG; ! "Futbol Club Barcelona"
 Манчестер% Юнайтед:Манчестер% Юнайтед NP-ORG; ! "Manchester United Football Club"
 Бундеслига:Бундеслига NP-ORG; ! "Bundesliga"
 Чемпиондар% лигасы:Чемпиондар% лига NP-ORG-COMPOUND ; ! "UEFA Champions League"
-Реал% Мадрид:Реал% Мадрид%{☭%} NP-ORG ; ! "Real Madrid Club de Fútbol"
+Реал% Мадрид:Реал% Мадрид NP-ORG ; ! "Real Madrid Club de Fútbol"
 ! ЕБ:ЕБ NP-ORG-COMPOUND ; ! "European Union"
 
 
@@ -10219,7 +10219,7 @@ Aйталы:Aйталы NP-ANT-M ; ! "Aytğalıy" (Arabic)
 Игорь:Игорь NP-ANT-M ; ! ""
 Идаят:Идаят NP-ANT-M ; ! "İydayat" 
 Изатбек:Изатбек NP-ANT-M ; ! "İyzatbek" (Arabic)
-Израил:Израил%{☭%} NP-ANT-M ; ! ""
+Израил:Израил NP-ANT-M ; ! ""
 Икрама:Икрама NP-ANT-F ; ! "İykrama" (Persian)
 Икрам:Икрам NP-ANT-M ; ! "İykram" (Arabic)
 Илмар:Илмар NP-ANT-M ; ! "İylmar" (Arabic)
@@ -10254,7 +10254,7 @@ Aйталы:Aйталы NP-ANT-M ; ! "Aytğalıy" (Arabic)
 Исалы:Исалы NP-ANT-M ; ! "İysalı" (Arabic)
 Исатай:Исатай NP-ANT-M ; ! "İysatay" (Arabic)
 Исахмет:Исахмет NP-ANT-M ; ! "İysaxmet" (Arabic)
-Исраил:Исраил%{☭%} NP-ANT-M ; ! "Israel (as in Jacob)"
+Исраил:Исраил NP-ANT-M ; ! "Israel (as in Jacob)"
 Ишая:Ишая NP-ANT-M ; ! ""
 Ибни:Ибни NP-ANT-M ; ! "İbniy" (Arabic)
 Избасар:Избасар NP-ANT-M ; ! "İzbasar" (Kazakh)
@@ -11816,7 +11816,7 @@ Aйталы:Aйталы NP-ANT-M ; ! "Aytğalıy" (Arabic)
 Дьяченко:Дьяченко NP-COG-MF ; ! ""
 Дяченко:Дяченко NP-COG-MF ; ! ""
 Ердоган:Ердоган NP-COG-MF ; ! ""
-Жовтис:Жовтис%{☭%} NP-COG-MF ; ! ""
+Жовтис:Жовтис NP-COG-MF ; ! ""
 Захарченко:Захарченко NP-COG-MF ; ! ""
 Здоровенко:Здоровенко NP-COG-MF ; ! ""
 Зинченко:Зинченко NP-COG-MF ; ! ""
