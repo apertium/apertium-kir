@@ -170,7 +170,7 @@ Multichar_Symbols
 %{B%}       ! Realised as 'б', 'п'
 %{N%}       ! Realised as 'н', 'д', 'т'
 %{L%}       ! Realised as 'л', 'д', 'т'
-%{S%}       ! Realised as 'с' or ''; only used in 3rd person morphology
+%{s%}       ! Realised as 'с' or ''; only used in 3rd person morphology
 %{n%}       ! Realised as 'н' or ''; only used in 3rd person morphology and -NIKI
 %{l%}       ! Realised as 'л' or 'н'; only used in passive -{I}{l}
 %{y%}       ! Realised as '' or '{I}'; only used in epenthesis for nouns
@@ -444,7 +444,7 @@ LEXICON POSSESSION-ENDINGS  ! P_2
 %<px1sg%>:%>%{I%}м GEN-POS-PX12SG ;
 %<px2sg%>:%>%{I%}ң GEN-POS-PX12SG ; 
 %<px2sg%>%<frm%>:%>%{I%}ң%{I%}з GEN-POS ; 
-%<px3sp%>:%>%{S%}%{I%}%{n%} GEN-POS ;
+%<px3sp%>:%>%{s%}%{I%}%{n%} GEN-POS ;
 %<px1pl%>:%>%{I%}б%{I%}з GEN-POS ; 
 %<px2pl%>:%>%{I%}ң%{A%}р GEN-POS ; 
 %<px2pl%>%<frm%>:%{I%}ң%{I%}зд%{A%}р GEN-POS ;
@@ -453,11 +453,11 @@ LEXICON VOL-ENDINGS
 %<p1%>%<sg%>:%>%{I%}м # ;
 %<p2%>%<sg%>:%>%{I%}ң # ; 
 %<p2%>%<sg%>%<frm%>:%>%{I%}ң%{I%}з # ; 
-%<p3%>%<sg%>:%>%{S%}%{I%}%{n%} # ;
+%<p3%>%<sg%>:%>%{s%}%{I%}%{n%} # ;
 %<p1%>%<pl%>:%>%{I%}б%{I%}з # ; 
 %<p2%>%<pl%>:%>%{I%}ң%{A%}р # ; 
 %<p2%>%<pl%>%<frm%>:%{I%}ң%{I%}зд%{A%}р # ;
-%<p3%>%<pl%>:%>%{S%}%{I%}%{n%} # ;
+%<p3%>%<pl%>:%>%{s%}%{I%}%{n%} # ;
 
 LEXICON EXI
 
@@ -526,7 +526,7 @@ LEXICON N-INFL-NKI
 
 LEXICON N-COMPOUND-PX-COMMON
 
-:%>%{S%}%{I%}%{n%} GEN-POS ;
+:%>%{s%}%{I%}%{n%} GEN-POS ;
 POSSESSION-ENDINGS ;  ! for stuff like "биздин аба ырайыбыз" and even "анын аба ырайы",
                       ! which should have a <px3sp> analysis
 
@@ -534,7 +534,7 @@ POSSESSION-ENDINGS ;  ! for stuff like "биздин аба ырайыбыз" an
 LEXICON N-INFL-3PX-COMPOUND
 
 %<n%>: N-COMPOUND-PX-COMMON ;
-%<n%>%<pl%>:%>%{L%}%{A%}р%>%{S%}%{I%}%{n%} GEN-POS ;
+%<n%>%<pl%>:%>%{L%}%{A%}р%>%{s%}%{I%}%{n%} GEN-POS ;
 
 LEXICON GER-INFL
 
