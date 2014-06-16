@@ -16575,10 +16575,11 @@ LEXICON Verbs
 өл:өлтүр V-INFL-IV-IRREG-CAUS ; ! "kill"
 
 
-өт:өт V-INFL-TV ; ! "conduct"
-өт:өт V-INFL-IV-NO-CAUS ; ! "pass"
-өт:өткөр V-INFL-IV-IRREG-CAUS ; ! "pass"
-өт:өткөз V-INFL-IV-IRREG-CAUS ; ! "pass"  ! Dir/LR
+өт:өт V-INFL-IV-NO-CAUS ; ! "pass by"
+
+өт:өт V-INFL-TV-NO-CAUS ; ! "pass, conduct"
+өт:өткөр V-INFL-TV-IRREG-CAUS ; ! "pass, conduct"
+өт:өткөз V-INFL-TV-IRREG-CAUS ; ! "pass, conduct"  ! Dir/LR
 
 кон:кон V-INFL-IV ;
 ачы:ачы V-INFL-IV ; ! "ferment"
@@ -17436,7 +17437,7 @@ LEXICON Verbs
 карар:карар V-INFL-IV ;
 күрөш:күрөш V-INFL-IV ;
 жатта:жатта V-INFL-TV ; ! "to memorise" ! CHECK transitivity
-жатта:жатта V-INFL-IV ; ! CHECK transitivity
+жатта:жатта V-INFL-IV ; ! CHECK transitivity  Hm, doesn't seem right -JNW
 түгөйлөштүр:түгөйлөштүр V-INFL-TV ;
 азай:азай V-INFL-TV ;
 шырылда:шырылда V-INFL-IV ;
@@ -17701,7 +17702,7 @@ LEXICON Verbs
 чал:чал V-INFL-TV ;
 чартылда:чартылда V-INFL-IV ;
 чап:чап V-INFL-IV ;
-ашыра% баала:ашыра% баала V-INFL-IV ;
+ашыра% баала:ашыра% баала V-INFL-TV ;
 бүтүндө:бүтүндө V-INFL-TV ;
 жасалгала:жасалгала V-INFL-TV ;
 окшош:окшош V-INFL-IV ;
@@ -17810,6 +17811,7 @@ LEXICON Verbs
 жалт% кара:жалт% кара V-INFL-TV ; ! "glance at / look at [suddenly]"
 кажет% бол:кажет% бол V-INFL-IV ; ! "be necessary"
 заявление% бер:заявление% бер V-INFL-IV ; ! "apply (for)" ! Use/MT
+элестет:элестет V-INFL-TV ; ! "imagine"
 
 
 LEXICON Abbreviations
