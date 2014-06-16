@@ -5151,7 +5151,7 @@ LEXICON Nouns
 совет:совет N-INFL ; ! "Soviet"
 солдат:солдат N-INFL ; 
 совхоз:совхоз N-INFL ; 
-жыйнак N-INFL;
+жыйнак:жыйнак N-INFL ;
 орун% басар:орун% басар N-INFL ;
 орун% басар:орунбасар N-INFL ; ! Dir/LR
 таала:таала N-INFL ;
@@ -6736,7 +6736,7 @@ LEXICON Nouns
 квота:квота N-INFL ;
 катар:катар N-INFL ;
 машыктыргыч:машыктыргыч N-INFL ;
-машыктыруучу:машыктыруучу N-INFL; ! "coach"
+машыктыруучу:машыктыруучу N-INFL ; ! "coach"
 курал-жарак% склад N-INFL ;
 бидет:бидет N-INFL ;
 уч:уч N-INFL ;
@@ -7359,7 +7359,7 @@ LEXICON Nouns
 талант:талант N-INFL ; ! "" 
 тактык:тактык N-INFL ; ! "" 
 дары:дары N-INFL ; ! "" 
-дарыкана:дарыкана N-INFL; ! "" 
+дарыкана:дарыкана N-INFL ; ! "" 
 дарман:дарман N-INFL ; ! "" 
 дем% алыш:дем% алыш N-INFL ; ! "" 
 депутаттык:депутаттык N-INFL ; ! "" 
@@ -8420,7 +8420,7 @@ Tеңир NP-TOP ; ! ""
 ЛАХЕЙ:ЛАХЕЙ NP-TOP ;
 Виена:Виена NP-TOP ;
 Венгрия:Венгрия NP-TOP ;
-Венесуэла:Венесуэла NP-TOP;
+Венесуэла:Венесуэла NP-TOP ;
 Москва:Москва NP-TOP ;
 Испания:Испания NP-TOP ;
 Украина:Украина NP-TOP ;
@@ -8688,9 +8688,9 @@ Getty% Images:Getty% Images%{э%}%{з%} NP-ORG ; ! ""
 Түрік% Әуежолдары:Түрік% Әуежолдар NP-ORG-COMPOUND ; ! "Turkish Airways"
 Боруссия% Дортмунд:Боруссия% Дортмунд NP-ORG ; ! "Borussia Dortmund"
 Байер% Мюнхен:Байер% Мюнхен NP-ORG ; ! "FC Bayern München"
-Барселона:Барселона NP-ORG; ! "Futbol Club Barcelona"
-Манчестер% Юнайтед:Манчестер% Юнайтед NP-ORG; ! "Manchester United Football Club"
-Бундеслига:Бундеслига NP-ORG; ! "Bundesliga"
+Барселона:Барселона NP-ORG ; ! "Futbol Club Barcelona"
+Манчестер% Юнайтед:Манчестер% Юнайтед NP-ORG ; ! "Manchester United Football Club"
+Бундеслига:Бундеслига NP-ORG ; ! "Bundesliga"
 Чемпиондар% лигасы:Чемпиондар% лига NP-ORG-COMPOUND ; ! "UEFA Champions League"
 Реал% Мадрид:Реал% Мадрид NP-ORG ; ! "Real Madrid Club de Fútbol"
 ! ЕБ:ЕБ NP-ORG-COMPOUND ; ! "European Union"
@@ -8761,7 +8761,7 @@ Kazakhstan:Kazakhstan NP-AL ; ! ""
 ! Stadium names
 !-----------------
 Сигнал% Идуна% Парк:Сигнал% Идуна% Парк NP-TOP; ! "Signal Iduna Park football stadium"
-Вимблей:Вимблей NP-TOP; ! "Wembley Stadium"
+Вимблей:Вимблей NP-TOP ; ! "Wembley Stadium"
 
 Кыргызмамбас:Кыргызмамбас NP-ORG ; ! ""
 Киргизгосиздат:Киргизгосиздат NP-ORG ; ! "" (ru)
@@ -8773,13 +8773,13 @@ Kazakhstan:Kazakhstan NP-AL ; ! ""
 Түрк% Аба% Жолдору:Түрк% Аба% Жолдор NP-ORG-COMPOUND ; ! "Turkish Airlines"
 Боруссия% Дортмунд:Боруссия% Дортмунд NP-ORG ; ! "Borussia Dortmund"
 Байер% Мюнхен:Байер% Мюнхен NP-ORG ; ! "FC Bayern München"
-Барселона:Барселона NP-ORG; ! "Futbol Club Barcelona"
-Манчестер% Юнайтед:Манчестер% Юнайтед NP-ORG; ! "Manchester United Football Club"
-Бундеслига:Бундеслига NP-ORG; ! "Bundesliga"
+Барселона:Барселона NP-ORG ; ! "Futbol Club Barcelona"
+Манчестер% Юнайтед:Манчестер% Юнайтед NP-ORG ; ! "Manchester United Football Club"
+Бундеслига:Бундеслига NP-ORG ; ! "Bundesliga"
 Чемпиондор% лигасы:Чемпиондор% лига NP-ORG-COMPOUND ; ! "UEFA Champions League"
 Реал% Мадрид:Реал% Мадрид NP-ORG ; ! "Real Madrid Club de Fútbol"
 
-Сарайбосня NP-AL;
+Сарайбосня NP-AL ;
 Нооруз:Нооруз NP-AL ; ! ""
 Супер% Галеб:Супер% Галеб NP-AL ;
 Галеб:Галеб NP-AL ;
@@ -16549,7 +16549,7 @@ LEXICON Verbs
 саба:саба V-INFL-TV ; ! ""
 сакта:сакта V-INFL-TV ;
 сал:сал V-INFL-TV ;
-салгылаш:салгылаш V-INFL-IV;
+салгылаш:салгылаш V-INFL-IV ;
 сана:сана V-INFL-TV ; ! "count/consider"
 сий:сий V-INFL-IV ; ! "pee"
 сыйла:сыйла V-INFL-TV ; 
@@ -16833,7 +16833,7 @@ LEXICON Verbs
 айда:айда V-INFL-TV ;
 жылмай:жылмай V-INFL-IV ;
 ойло:ойло V-INFL-TV ;
-салыштыр V-INFL-IV;
+салыштыр V-INFL-IV ;
 манёвр% кыл:манёвр% кыл V-INFL-TV ;
 көтөр:көтөр V-INFL-TV ; ! "lift, raise"
 ! көтөрүл V-INFL-IV ; ! productive
