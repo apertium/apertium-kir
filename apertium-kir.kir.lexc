@@ -1759,12 +1759,14 @@ LEXICON Pronouns
 мен%<prn%>%<pers%>%<p1%>%<sg%>:м PRON-PERS-EN ; 
 мен%<prn%>%<pers%>%<p1%>%<sg%>%<adv%>:менимче CLIT ;
 сен%<prn%>%<pers%>%<p2%>%<sg%>:с PRON-PERS-EN ; 
-мен%<prn%>%<pers%>%<p1%>%<sg%>%<adv%>:сенинче CLIT ;
+сен%<prn%>%<pers%>%<p2%>%<sg%>%<adv%>:сенинче CLIT ;
 сиз%<prn%>%<pers%>%<p2%>%<frm%>%<sg%>:сиз PRON-PERS-IZ ; 
 ал%<prn%>%<pers%>%<p3%>%<sg%>:а PRON-PERS-AL ; 
 биз%<prn%>%<pers%>%<p1%>%<pl%>:биз PRON-PERS-IZ ; 
 силер%<prn%>%<pers%>%<p2%>%<pl%>:силер PRON-PERS-PLURALS ; 
+силер%<prn%>%<pers%>%<p2%>%<pl%>%<adv%>:силерче CLIT ; 
 сиздер%<prn%>%<pers%>%<p2%>%<frm%>%<pl%>:сиздер PRON-PERS-PLURALS ; 
+сиздер%<prn%>%<pers%>%<p2%>%<frm%>%<pl%>%<adv%>:сиздерче CLIT ; 
 алар%<prn%>%<pers%>%<p3%>%<pl%>:алар PRON-PERS-PLURALS ; 
 
 PRON-DEM-BUL ; ! "this" 
@@ -1989,7 +1991,7 @@ LEXICON Nouns
 акыйкат:акыйкат N-INFL ; 
 акыл:акыл N-INFL ; 
 акылдуулук:акылдуулук N-INFL ; 
-акыр:акыр N-INFL ; 
+акыр:акыр N-INFL ; ! "~stall in a stable"
 ала:ала N-INFL ; 
 алака:алака N-INFL ; 
 алгоритм:алгоритм N-INFL ; 
@@ -6075,7 +6077,7 @@ LEXICON Nouns
 таануу:таануу N-INFL ;
 иш% кана:иш% кана N-INFL ;
 ! чек:чек N-INFL ; ! "removing duplicate" 
-азайуу:азайуу N-INFL ;
+азаюу:азаюу N-INFL ;
 каршы% болгон:каршы% болгон N-INFL ;
 ! гуманисттик:гуманисттик N-INFL ; ! "should be adj see A4 section" 
 тройка:тройка N-INFL ;
@@ -14617,7 +14619,7 @@ cубъективдүү:cубъективдүү A4 ; ! ""
 чектелген:чектелген A3 ; ! "" 
 астыңкы:астыңкы A3 ; ! "" 
 дүлөй:дүлөй A3 ; ! "" 
-акыркы:акыркы A3 ; ! "" 
+акыркы:акыркы A3 ; ! "previous" 
 араз:араз A3 ; ! "" 
 жылаңач:жылаңач A3 ; ! "" 
 картаң:картаң A3 ; ! "old(person)" 
