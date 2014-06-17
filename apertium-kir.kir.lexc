@@ -5827,7 +5827,7 @@ LEXICON Nouns
 ! курулуш:курулуш N-INFL ; ! "removing duplicate" 
 кечигүү:кечигүү N-INFL ;
 басып% калуу:басып% калуу N-INFL ;
-чет% өлкө:чет% өлкө N-INFL ;
+чет% өлкө:чет% өлкө N-INFL ; ! Use/MT
 ! арка:арка N-INFL ; ! "removing duplicate" 
 жаратылыш% газ:жаратылыш% газ N-INFL ;
 түгөй:түгөй N-INFL ;
@@ -6555,6 +6555,7 @@ LEXICON Nouns
 президент:президент N-INFL ;
 сегиз:сегиз N-INFL ;
 ! ыйык:ыйык N-INFL ; ! "should be adj see A1 section" 
+ыйык:ыйык N-INFL ; ! "saint" ! Use/MT
 ! деталь:деталь N-INFL ; ! "removing duplicate" 
 өнөркана:өнөркана N-INFL ;
 ! кайык:кайык N-INFL ; ! "removing duplicate" 
