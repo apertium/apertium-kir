@@ -1447,7 +1447,7 @@ LEXICON V-INFL-IV
 
 LEXICON V-INFL-TV-NO-CAUS
 
-%<v%>%<iv%>: V-INFL-COMMON ;
+%<v%>%<tv%>: V-INFL-COMMON ;
 %<v%>%<tv%>%<pass%>:%>%{I%}%{l%} V-INFL-COMMON ;
 
 LEXICON V-INFL-IV-NO-CAUS
