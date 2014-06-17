@@ -4683,6 +4683,7 @@ LEXICON Nouns
 делегат:делегат N-INFL ; 
 жинди:жинди N-INFL ; 
 ! жыртык:жыртык N-INFL ; ! "should be adj see A3 section" 
+жыртык:жыртык N-INFL ; ! "a rip, a tear — also A3"
 ! далил:далил N-INFL ; ! "removing duplicate" 
 дельта:дельта N-INFL ; 
 демагогия:демагогия N-INFL ; 
@@ -7835,6 +7836,7 @@ LEXICON Nouns
 маанай:маанай N-INFL ; ! "mood"
 кошумча:кошумча N-INFL ; ! "addition, extension(?)" ! Use/MT ! FIXME: or check whether <adj><subst> is right -JNW 
 ыйгарымдуу% элчи:ыйгарымдуу% элчи N-INFL ; ! Use/MT
+антена:антена N-INFL ; ! "antenna"
 
 
 ! Abbreviations
