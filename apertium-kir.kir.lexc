@@ -1701,6 +1701,8 @@ LEXICON Determiners
 бир:бир DET-IND ; ! "a"
 кээ:кээ DET-IND ; ! ""
 
+каалаган:каалаган DET-IND ; ! "any"
+
 ар% бир:ар% бир DET-QNT ; ! ""
 ар% түрдүү:ар% түрдүү DET-QNT ; ! ""
 эч% бир:эч% бир DET-IND ; ! "no"
@@ -1713,7 +1715,7 @@ LEXICON Determiners
 бүтүн:бүтүн DET-QNT ; ! "entire"
 бүткүл:бүткүл DET-QNT ; ! "" 
 бүт:бүт DET-QNT ; ! "" 
-каалаганча DET-QNT ; ! "as much as you want"
+каалаганча:каалаганча DET-QNT ; ! "as much as you want"
 
 кайсы:кайсы PRON-ITG ;  ! FIXME: why ITG if next is DEM?
 кайсы:кайсыл DET-DEM ; ! "which?" ! FIXME: need morph to fix  ! Dir/LR
@@ -16401,6 +16403,9 @@ LEXICON Copula
 э%<cop%>%<ger_perf%>:экен%>%{L%}%{I%}к POSSESSION ;
 э%<cop%>%<ifi%>:эле V-PERS-PAST ;
 э%<cop%>%<past%>:экен V-PERS-COP-SUF ;
+
+э%<cop%>%<aor%>%<p3%>%<sg%>: # ; ! Dir/RL ! to generate nothing if attached to an unknown form
+э%<cop%>%<aor%>%<p3%>%<pl%>: # ; ! Dir/RL
 
 ! Languages
 ! =========
