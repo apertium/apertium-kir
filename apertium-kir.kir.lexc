@@ -15982,6 +15982,7 @@ cубъективдүү:cубъективдүү A4 ; ! ""
 адилеттүү:адилеттүү A3 ; ! "just" ! FIXME: CHECK A3,
 абдан% чоң:абдан% чоң A3 ; ! "huge" ! USE/MT ! FIXME: THIS IS TERRIBLE
 нормалдуу:нормалдуу A1 ; ! "normal"
+соңку:соңку A3 ; ! "final"
 
 
 LEXICON Adverbs
