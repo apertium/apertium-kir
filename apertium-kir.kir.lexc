@@ -15983,6 +15983,8 @@ cубъективдүү:cубъективдүү A4 ; ! ""
 абдан% чоң:абдан% чоң A3 ; ! "huge" ! USE/MT ! FIXME: THIS IS TERRIBLE
 нормалдуу:нормалдуу A1 ; ! "normal"
 соңку:соңку A3 ; ! "final"
+баштапкы:баштапкы A2 ; ! "initial, entry-level"
+пассивдүү:пассивдүү A2 ; ! "passive"
 
 
 LEXICON Adverbs
