@@ -1,5 +1,11 @@
-
+! We should probably have all the possible 
+! symbols on the surface (not morphotactic!) side here
 Alphabet
+
+ А Б В Г Д Е Ё Ж З И И К Л М Н Ң О Ө П Р С Т У Ү Ф Х Ц Ч Ш Щ Ь Ы Ъ Э Ю Я
+ а б в г д е ё ж з и й к л м н ң о ө п р с т у ү ф х ц ч ш щ ь ы ъ э ю я
+
+ %<v%>
 
  %[%+p3pl%]:0  %[%-p3pl%]:0  ;
 
@@ -9,6 +15,9 @@ Verb = %<v%> ;
 
 Rules 
 
-"Forbid [-p3pl] preceeded by [+p3pl]"
-%[%-p3pl%]:0 /<= %[%+p3pl%]:0 :* _ ; 
+"Match prefixes"
+Tx:0 /<= Ty:0 :* _ ; 
+   where 
+         Tx in ( %[%+p3pl%] %[%-p3pl%] )   
+         Ty in ( %[%-p3pl%] %[%+p3pl%] )  matched ; 
 
