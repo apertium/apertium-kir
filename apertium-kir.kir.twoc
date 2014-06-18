@@ -1,0 +1,14 @@
+
+Alphabet
+
+ %[%+p3pl%]:0  %[%-p3pl%]:0  ;
+
+Sets 
+
+Verb = %<v%> ;
+
+Rules 
+
+"Forbid [-p3pl] preceeded by [+p3pl]"
+%[%-p3pl%]:0 /<= %[%+p3pl%]:0 :* _ ; 
+
