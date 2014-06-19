@@ -16691,7 +16691,7 @@ LEXICON Verbs
 ! кургат V-INFL-TV ;  ! productive
 кучакта:кучакта V-INFL-TV ; 
 кый:кый V-INFL-TV ; 
-кыйна:кыйна V-INFL-TV ; 
+! кыйна:кыйна V-INFL-TV ; 
 кырк:кырк V-INFL-TV ; 
 кыс:кыс V-INFL-TV ; 
 азайт:азайт V-INFL-TV ;
@@ -16844,7 +16844,7 @@ LEXICON Verbs
 каала:каала V-INFL-TV ; ! "want"
 тазала:тазала V-INFL-TV ;
 
-кыйн:кыйн V-INFL-TV ; 
+! кыйн:кыйн V-INFL-TV ; 
 айда:айда V-INFL-TV ;
 жылмай:жылмай V-INFL-IV ;
 ойло:ойло V-INFL-TV ;
@@ -17114,7 +17114,7 @@ LEXICON Verbs
 буйрук% бер:буйрук% бер V-INFL-IV ; ! "give an order"
 жаа:жаа V-INFL-IV ; ! "precipitate"
 же:же V-INFL-TV ; ! "eat"
-кыйна:кыйна V-INFL-IV ; ! "have a tough time"
+кыйна:кыйна V-INFL-TV ; ! "give someone a tough time"
 мин:мин V-INFL-TV ; ! "ride"
 !отур V-INFL-IV ; ! "sit"
 салкында:салкында V-INFL-IV ; ! "cool off"
