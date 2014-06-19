@@ -1,0 +1,5 @@
+^Алтайлык/Алтайлык<adj>$
+^01.01.2011/01.01.2011<num>/01.01.2011<num><subst><nom>/01.01.2011<num><subst><nom>+э<cop><aor><p3><pl>/01.01.2011<num><subst><nom>+э<cop><aor><p3><sg>$
+^дайындоо/дайында<v><tv><ger><nom>/дайындоо<n><nom>/дайындоо<n><attr>/дайында<v><tv><ger><nom>+э<cop><aor><p3><pl>/дайында<v><tv><ger><nom>+э<cop><aor><p3><sg>/дайындоо<n><nom>+э<cop><aor><p3><pl>/дайындоо<n><nom>+э<cop><aor><p3><sg>$
+^кетиребиз/кет<v><iv><caus><aor><p1><pl>$
+^буйтактап/буйтакта<v><iv><prc_perf>/буйтакта<v><iv><gna_perf>$
