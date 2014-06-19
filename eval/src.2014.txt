@@ -3,3 +3,14 @@
 ^дайындоо/дайында<v><tv><ger><nom>/дайындоо<n><nom>/дайындоо<n><attr>/дайында<v><tv><ger><nom>+э<cop><aor><p3><pl>/дайында<v><tv><ger><nom>+э<cop><aor><p3><sg>/дайындоо<n><nom>+э<cop><aor><p3><pl>/дайындоо<n><nom>+э<cop><aor><p3><sg>$
 ^кетиребиз/кет<v><iv><caus><aor><p1><pl>$
 ^буйтактап/*буйтактап$
+^конкреттештирилип/*конкреттештирилип$
+^көкүткөндөр/*көкүткөндөр$
+^жетели/жет<v><iv><opt><p1><pl>/жет<v><tv><opt><p1><pl>/же<v><tv><caus><opt><p1><pl>$
+^Атай/Ата<v><tv><prc_impf>$
+^чемоданды/*чемоданды$
+^эгин/эгин<n><nom>/эгин<n><attr>/эгин<n><nom>+э<cop><aor><p3><pl>/эгин<n><nom>+э<cop><aor><p3><sg>$
+^кечиндеги/кеч<n><px3sp><loc><attr>/кеч<adj><subst><px3sp><loc><attr>/кеч<n><px3sp><loc><subst><nom>/кеч<adj><subst><px3sp><loc><subst><nom>/кеч<n><px3sp><loc><subst><nom>+э<cop><aor><p3><pl>/кеч<n><px3sp><loc><subst><nom>+э<cop><aor><p3><sg>/кеч<adj><subst><px3sp><loc><subst><nom>+э<cop><aor><p3><pl>/кеч<adj><subst><px3sp><loc><subst><nom>+э<cop><aor><p3><sg>$
+^аракет кылуудабыз/аракет кыл<v><iv><ger><loc>+э<cop><aor><p1><pl>$
+^Барсуковдун/*Барсуковдун$
+^ыңкылапчыларына/*ыңкылапчыларына$
+^кыргызстандыктарбыз/*кыргызстандыктарбыз$
