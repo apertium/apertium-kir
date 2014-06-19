@@ -79,3 +79,8 @@
 ^окугандарды/оку<v><iv><ger_past><pl><acc>/оку<v><tv><ger_past><pl><acc>/оку<v><iv><gpr_past><subst><pl><acc>/оку<v><iv><gpr><subst><pl><acc>/оку<v><tv><gpr_past><subst><pl><acc>/оку<v><tv><gpr><subst><pl><acc>$
 ^Оштон да/Ош<np><top><abl>+да<mod_tru>/Ош<np><top><abl>+э<cop><aor><p3><pl>+да<mod_tru>/Ош<np><top><abl>+э<cop><aor><p3><sg>+да<mod_tru>$
 ^Анда-санда/Анда-санда<adv>$
+^салгылашынан/*салгылашынан$
+^Коллективдеги/Коллектив<n><loc><attr>/Коллектив<n><loc><subst><nom>/Коллектив<n><loc><subst><nom>+э<cop><aor><p3><pl>/Коллектив<n><loc><subst><nom>+э<cop><aor><p3><sg>$
+^Аткезчилик/*Аткезчилик$
+^Якоб/*Якоб$
+^респиратордук/*респиратордук$
