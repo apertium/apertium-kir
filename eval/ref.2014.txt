@@ -79,3 +79,8 @@
 ^окугандарды/оку<v><iv><ger_past><pl><acc>/оку<v><tv><ger_past><pl><acc>/оку<v><iv><gpr_past><subst><pl><acc>/оку<v><iv><gpr><subst><pl><acc>/оку<v><tv><gpr_past><subst><pl><acc>/оку<v><tv><gpr><subst><pl><acc>$
 ^Оштон да/Ош<np><top><abl>+да<mod_tru>/Ош<np><top><abl>+э<cop><aor><p3><pl>+да<mod_tru>/Ош<np><top><abl>+э<cop><aor><p3><sg>+да<mod_tru>/Ош<np><top><abl>+да<cnjcoo>/Ош<np><top><abl>+да<cnjadv>$
 ^Анда-санда/Анда-санда<adv>$
+^салгылашынан/салгыла<v><iv><ger_pres><px3sp><abl>/салгыла<v><iv><ger_pres><px3sp><abl>+э<cop><aor><p3><pl>/салгыла<v><iv><ger_pres><px3sp><abl>+э<cop><aor><p3><sg>$
+^Коллективдеги/Коллектив<n><loc><attr>/Коллектив<n><loc><subst><nom>/Коллектив<n><loc><subst><nom>+э<cop><aor><p3><pl>/Коллектив<n><loc><subst><nom>+э<cop><aor><p3><sg>$
+^Аткезчилик/аткезчилик<n><attr>/аткезчилик<n><nom>/аткезчилик<n><nom>+э<cop><aor><p3><pl>/аткезчилик<n><nom>+э<cop><aor><p3><sg>$
+^Якоб/Якоб<np><ant><m><nom>/Якоб<np><ant><m><nom>+э<cop><aor><p3><pl>/Якоб<np><ant><m><nom>+э<cop><aor><p3><sg>$
+^респиратордук/резпиратордук<n><attr>/резпиратордук<n><nom>/резпиратордук<n><nom>+э<cop><aor><p3><pl>/резпиратордук<n><nom>+э<cop><aor><p3><sg>$
