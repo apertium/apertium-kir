@@ -5,7 +5,7 @@
 ^буйтактап/буйтакта<v><iv><prc_perf>/буйтакта<v><iv><gna_perf>$
 ^конкреттештирилип/конкреттештир<v><tv><pass><prc_perf>/конкреттештир<v><tv><pass><gna_perf>$
 ^көкүткөндөр/көкү<v><iv><caus><ger_past><pl><nom>/көкү<v><iv><caus><ger_past><pl><nom>+э<cop><aor><p3><pl>/көкү<v><iv><caus><ger_past><pl><nom>+э<cop><aor><p3><sg>/көкү<v><iv><caus><gpr><subst><pl><nom>/көкү<v><iv><caus><gpr><subst><pl><nom>+э<cop><aor><p3><pl>/көкү<v><iv><caus><gpr><subst><pl><nom>+э<cop><aor><p3><sg>/көкү<v><iv><caus><gpr_past><subst><pl><nom>/көкү<v><iv><caus><gpr_past><subst><pl><nom>+э<cop><aor><p3><pl>/көкү<v><iv><caus><gpr_past><subst><pl><nom>+э<cop><aor><p3><sg>$$
-^жетели/жет<v><iv><opt><p1><pl>/жет<v><tv><opt><p1><pl>/же<v><tv><caus><opt><p1><pl>$
+^жетели/жет<v><iv><opt><p1><pl>/жет<v><tv><opt><p1><pl>$
 ^Атай/Ата<v><tv><prc_impf>/Атай<np><ant><m><nom>/Атай<np><ant><m><nom>+э<cop><aor><p3><pl>/Атай<np><ant><m><nom>+э<cop><aor><p3><sg>$
 ^чемоданды/чемодан<n><acc>$
 ^эгин/эгин<n><nom>/эгин<n><attr>/эгин<n><nom>+э<cop><aor><p3><pl>/эгин<n><nom>+э<cop><aor><p3><sg>$
@@ -53,7 +53,7 @@
 ^Ху/Ху<np><cog><mf><nom>/Ху<np><cog><mf><attr>/Ху<np><cog><mf><nom>+э<cop><aor><p3><pl>/Ху<np><cog><mf><nom>+э<cop><aor><p3><sg>$
 ^арттырууга/арт<v><iv><caus><ger><dat>/арттыруу<n><dat>$
 ^салтанаттарга/салтанат<n><pl><dat>$
-^Некляеуну/*Некляеу<np><cog><m><acc>$
+^Некляеуну/Некляеу<np><cog><m><acc>$
 ^таратсак/тарат<v><tv><prc_cond><p1><pl>/тарат<v><tv><gna_cond><p1><pl>/тара<v><iv><caus><prc_cond><p1><pl>/тара<v><iv><caus><gna_cond><p1><pl>/тара<v><tv><caus><prc_cond><p1><pl>/тара<v><tv><caus><gna_cond><p1><pl>$
 ^Хоглунд/Хоглунд<np><cog><m><attr>/Хоглунд<np><cog><m><nom>/Хоглунд<np><cog><m><nom>+э<cop><aor><p3><pl>/Хоглунд<np><cog><m><nom>+э<cop><aor><p3><sg>$
 ^агымдарды/агым<n><pl><acc>$
@@ -61,3 +61,21 @@
 ^танса/тан<v><iv><prc_cond><p3><pl>/тан<v><iv><prc_cond><p3><sg>/тан<v><iv><gna_cond><p3><pl>/тан<v><iv><gna_cond><p3><sg>/тан<v><tv><prc_cond><p3><pl>/тан<v><tv><prc_cond><p3><sg>/тан<v><tv><gna_cond><p3><pl>/тан<v><tv><gna_cond><p3><sg>$
 ^Альбинанын/Альбина<np><ant><f><gen>$
 ^диетаңызга/диета<n><px2sg><frm><dat>$
+^келтирилген эмес/келтир<v><tv><pass><neg><past><p3><pl>/келтир<v><tv><pass><neg><past><p3><sg>/кел<v><iv><caus><pass><neg><past><p3><pl>/кел<v><iv><caus><pass><neg><past><p3><sg>$
+^Симонова/Симонов<np><cog><f><nom>/Симонов<np><cog><f><attr>/Симонов<np><cog><f><nom>+э<cop><aor><p3><pl>/Симонов<np><cog><f><nom>+э<cop><aor><p3><sg>$
+^ачууланышы/ачуулан<v><iv><ger_pres><px3sp><nom>/ачуулан<v><iv><ger_pres><px3sp><nom>+э<cop><aor><p3><pl>/ачуулан<v><iv><ger_pres><px3sp><nom>+э<cop><aor><p3><sg>$
+^тыюу салган эмес/тыюу сал<v><tv><neg><past><p3><pl>/тыюу сал<v><tv><neg><past><p3><sg>$
+^мамлекетте/мамлекет<n><loc>/мамлекет<n><loc>+э<cop><aor><p3><pl>/мамлекет<n><loc>+э<cop><aor><p3><sg>$
+^тенденциялардын/тенденция<n><pl><gen>/тенденцияла<v><tv><ger_fut><gen>/тенденцияла<v><tv><gpr_fut><subst><gen>$
+^Мюнхенде/Мюнхен<np><top><loc>/Мюнхен<np><top><loc>+э<cop><aor><p3><pl>/Мюнхен<np><top><loc>+э<cop><aor><p3><sg>$
+^буйруса/буйру<v><iv><prc_cond><p3><pl>/буйру<v><iv><prc_cond><p3><sg>/буйру<v><iv><gna_cond><p3><pl>/буйру<v><iv><gna_cond><p3><sg>$
+^тилиндеги/тил<n><px3sp><loc><attr>/тил<n><px3sp><loc><subst><nom>/тил<n><px3sp><loc><subst><nom>+э<cop><aor><p3><pl>/тил<n><px3sp><loc><subst><nom>+э<cop><aor><p3><sg>$
+^жергиликтүүлөргө/жергиликтүү<adj><subst><pl><dat>$
+^Шаңшып/шаңшы<v><iv><gna_perf>/шаңшы<v><iv><prc_perf>$
+^учагынан/учак<n><px3sp><abl>/учак<n><px3sp><abl>+э<cop><aor><p3><pl>/учак<n><px3sp><abl>+э<cop><aor><p3><sg>$
+^жарабаса/жара<v><tv><neg><prc_cond><p3><pl>/жара<v><tv><neg><prc_cond><p3><sg>/жара<v><tv><neg><gna_cond><p3><pl>/жара<v><tv><neg><gna_cond><p3><sg>$
+^караймын/кара<v><iv><aor><p1><sg>/кара<v><tv><aor><p1><sg>$
+^түрлөрүндө/түр<n><pl><px3sp><loc>/түр<n><pl><px3sp><loc>+э<cop><aor><p3><pl>/түр<n><pl><px3sp><loc>+э<cop><aor><p3><sg>$
+^окугандарды/оку<v><iv><ger_past><pl><acc>/оку<v><tv><ger_past><pl><acc>/оку<v><iv><gpr_past><subst><pl><acc>/оку<v><iv><gpr><subst><pl><acc>/оку<v><tv><gpr_past><subst><pl><acc>/оку<v><tv><gpr><subst><pl><acc>$
+^Оштон да/Ош<np><top><abl>+да<mod_tru>/Ош<np><top><abl>+э<cop><aor><p3><pl>+да<mod_tru>/Ош<np><top><abl>+э<cop><aor><p3><sg>+да<mod_tru>/Ош<np><top><abl>+да<cnjcoo>/Ош<np><top><abl>+да<cnjadv>$
+^Анда-санда/Анда-санда<adv>$
