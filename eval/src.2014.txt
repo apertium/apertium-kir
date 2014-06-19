@@ -90,3 +90,34 @@
 ^кызматкерлерден/кызматкер<n><pl><abl>/кызматкер<n><pl><abl>+э<cop><aor><p3><pl>/кызматкер<n><pl><abl>+э<cop><aor><p3><sg>$
 ^кундак/*кундак$
 ^Ата Журтубуздан/Ата журт<n><px1pl><abl>/Ата журт<n><px1pl><abl>+э<cop><aor><p3><pl>/Ата журт<n><px1pl><abl>+э<cop><aor><p3><sg>$
+^божомолу/божомол<n><px3sp><nom>/божомол<n><px3sp><nom>+э<cop><aor><p3><pl>/божомол<n><px3sp><nom>+э<cop><aor><p3><sg>$
+^террористтик/террористтик<adj>/террористтик<adj>+э<cop><aor><p3><pl>/террористтик<adj>+э<cop><aor><p3><sg>$
+^Конгондон/Кон<v><iv><ger_past><abl>/Кон<v><iv><gpr_past><subst><abl>/Кон<v><iv><gpr><subst><abl>/Кон<v><iv><ger_past><abl>+э<cop><aor><p3><pl>/Кон<v><iv><ger_past><abl>+э<cop><aor><p3><sg>/Кон<v><iv><gpr_past><subst><abl>+э<cop><aor><p3><pl>/Кон<v><iv><gpr_past><subst><abl>+э<cop><aor><p3><sg>/Кон<v><iv><gpr><subst><abl>+э<cop><aor><p3><pl>/Кон<v><iv><gpr><subst><abl>+э<cop><aor><p3><sg>$
+^жатышпаганын/жат<vaux><neg><ger_past><px3sp><acc>/жат<vaux><coop><neg><ger_past><px3sp><acc>/жат<v><iv><neg><ger_past><px3sp><acc>/жат<v><iv><coop><neg><ger_past><px3sp><acc>/жат<vaux><neg><gpr_past><subst><px3sp><acc>/жат<vaux><neg><gpr><subst><px3sp><acc>/жат<vaux><coop><neg><gpr_past><subst><px3sp><acc>/жат<vaux><coop><neg><gpr><subst><px3sp><acc>/жат<v><iv><neg><gpr_past><subst><px3sp><acc>/жат<v><iv><neg><gpr><subst><px3sp><acc>/жат<v><iv><coop><neg><gpr_past><subst><px3sp><acc>/жат<v><iv><coop><neg><gpr><subst><px3sp><acc>$
+^мыскылданат/*мыскылданат$
+^Кабарга/Кабар<n><dat>$
+^Чет элдиктер/Чет элдик<adj><subst><pl><nom>/Чет элдик<adj><subst><pl><nom>+э<cop><aor><p3><pl>/Чет элдик<adj><subst><pl><nom>+э<cop><aor><p3><sg>$
+^жакабызды/жака<n><px1pl><acc>$
+^сүрөткө тартылып/сүрөткө тарт<v><tv><pass><prc_perf>/сүрөткө тарт<v><tv><pass><gna_perf>$
+^Кыргызтемиржолу/*Кыргызтемиржолу$
+^фастфудду/*фастфудду$
+^Көпчүлүгүндө/Көпчүлүк<n><px3sp><loc>/Көпчүлүк<n><px3sp><loc>+э<cop><aor><p3><pl>/Көпчүлүк<n><px3sp><loc>+э<cop><aor><p3><sg>$
+^сыяктуулардын/сыяктуу<adj><subst><pl><gen>$
+^Буш/*Буш$
+^Жайыл/Жайыл<np><top><nom>/Жайыл<np><top><attr>/Жай<v><tv><pass><imp><p2><sg>/Жайыл<np><top><nom>+э<cop><aor><p3><pl>/Жайыл<np><top><nom>+э<cop><aor><p3><sg>$
+^Евгеньевич/*Евгеньевич$
+^жасалбаганын/жаса<v><tv><pass><neg><ger_past><px3sp><acc>/жаса<v><tv><pass><neg><gpr_past><subst><px3sp><acc>/жаса<v><tv><pass><neg><gpr><subst><px3sp><acc>$
+^окуюн/оку<v><iv><opt><p1><sg>/оку<v><tv><opt><p1><sg>$
+^кумар/кумар<n><nom>/кумар<n><attr>/кумар<n><nom>+э<cop><aor><p3><pl>/кумар<n><nom>+э<cop><aor><p3><sg>$
+^фанаттарды/фанат<adj><subst><pl><acc>$
+^төңкөрүүгө/*төңкөрүүгө$
+^диаспорабыз/*диаспорабыз$
+^Солоновка/*Солоновка$
+^терезелерине/терезе<n><pl><px3sp><dat>$
+^жакшылыктарда/жакшылык<n><pl><loc>/жакшылык<n><pl><loc>+э<cop><aor><p3><pl>/жакшылык<n><pl><loc>+э<cop><aor><p3><sg>$
+^картаңдын/карта<n><px2sg><gen>/картаң<adj><subst><gen>$
+^түшүндүрүшүүдө/түшүндүр<v><tv><ger><loc>/түшүндүр<v><tv><coop><ger><loc>/түшүн<v><tv><caus><ger><loc>/түшүн<v><tv><caus><coop><ger><loc>/түшүндүр<v><tv><ger><loc>+э<cop><aor><p3><pl>/түшүндүр<v><tv><ger><loc>+э<cop><aor><p3><sg>/түшүндүр<v><tv><coop><ger><loc>+э<cop><aor><p3><pl>/түшүндүр<v><tv><coop><ger><loc>+э<cop><aor><p3><sg>/түшүн<v><tv><caus><ger><loc>+э<cop><aor><p3><pl>/түшүн<v><tv><caus><ger><loc>+э<cop><aor><p3><sg>/түшүн<v><tv><caus><coop><ger><loc>+э<cop><aor><p3><pl>/түшүн<v><tv><caus><coop><ger><loc>+э<cop><aor><p3><sg>$
+^шагылдан/*шагылдан$
+^отургузганга/отур<v><iv><caus><ger_past><dat>/отур<v><iv><caus><gpr_past><subst><dat>/отур<v><iv><caus><gpr><subst><dat>$
+^чокуну/чоку<n><acc>$
+^орнотконбуз/орно<v><iv><caus><past><p1><pl>/орно<v><iv><caus><ger_past><nom>+э<cop><aor><p1><pl>/орно<v><iv><caus><gpr_past><subst><nom>+э<cop><aor><p1><pl>/орно<v><iv><caus><gpr><subst><nom>+э<cop><aor><p1><pl>$
