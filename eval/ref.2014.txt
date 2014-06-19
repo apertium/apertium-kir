@@ -87,6 +87,7 @@
 ^ташталган/ташта<v><tv><pass><prc_past>/ташта<v><tv><pass><gpr_past>/ташта<v><tv><pass><gpr>/ташта<v><tv><pass><ger_past><nom>/ташта<v><tv><pass><past><p3><pl>/ташта<v><tv><pass><past><p3><sg>/ташта<v><tv><pass><gpr_past><subst><nom>/ташта<v><tv><pass><gpr><subst><nom>/ташта<v><tv><pass><ger_past><nom>+э<cop><aor><p3><pl>/ташта<v><tv><pass><ger_past><nom>+э<cop><aor><p3><sg>/ташта<v><tv><pass><gpr_past><subst><nom>+э<cop><aor><p3><pl>/ташта<v><tv><pass><gpr_past><subst><nom>+э<cop><aor><p3><sg>/ташта<v><tv><pass><gpr><subst><nom>+э<cop><aor><p3><pl>/ташта<v><tv><pass><gpr><subst><nom>+э<cop><aor><p3><sg>$
 ^гильотина/гильотина<n><attr>/гильотина<n><nom>/гильотина<n><nom>+э<cop><aor><p3><pl>/гильотина<n><nom>+э<cop><aor><p3><sg>$
 ^уланталы/улан<v><iv><caus><opt><p1><pl>$
+^мисалдап/мисалда<v><tv><gna_perf>/мисалда<v><tv><prc_perf>$
 ^кызматкерлерден/кызматкер<n><pl><abl>/кызматкер<n><pl><abl>+э<cop><aor><p3><pl>/кызматкер<n><pl><abl>+э<cop><aor><p3><sg>$
 ^кундак/кундак<n><attr>/кундак<n><nom>/кундак<n><nom>+э<cop><aor><p3><pl>/кундак<n><nom>+э<cop><aor><p3><sg>$
 ^Ата Журтубуздан/Ата журт<n><px1pl><abl>/Ата журт<n><px1pl><abl>+э<cop><aor><p3><pl>/Ата журт<n><px1pl><abl>+э<cop><aor><p3><sg>$
@@ -121,3 +122,23 @@
 ^отургузганга/отур<v><iv><caus><ger_past><dat>/отур<v><iv><caus><gpr_past><subst><dat>/отур<v><iv><caus><gpr><subst><dat>$
 ^чокуну/чоку<n><acc>$
 ^орнотконбуз/орно<v><iv><caus><past><p1><pl>/орно<v><iv><caus><ger_past><nom>+э<cop><aor><p1><pl>/орно<v><iv><caus><gpr_past><subst><nom>+э<cop><aor><p1><pl>/орно<v><iv><caus><gpr><subst><nom>+э<cop><aor><p1><pl>$
+^император/император<n><nom>/император<n><attr>/император<n><nom>+э<cop><aor><p3><pl>/император<n><nom>+э<cop><aor><p3><sg>$
+^колдодубу/колдо<v><tv><ifi><p3><pl>+бы<qst>/колдо<v><tv><ifi><p3><sg>+бы<qst>$
+^реформатор/реформатор<n><attr>/реформатор<n><nom>/реформатор<n><nom>+э<cop><aor><p3><pl>/реформатор<n><nom>+э<cop><aor><p3><sg>$
+^кандыкты/кандык<n><acc>$
+^шериктештикти/шериктештик<n><acc>/шериктеш<v><iv><ifi><p1><pl>$
+^Жатаканасынын/Жатакана<n><px3sp><gen>$
+^башаламандыктарын/башаламандык<n><pl><px3sp><acc>$
+^аласалып/аласал<v><iv><gna_perf>/аласал<v><iv><prc_perf>$
+^кетпөөсү/кет<vaux><neg><ger><px3sp><nom>/кет<v><iv><neg><ger><px3sp><nom>/кет<vaux><neg><ger><px3sp><nom>+э<cop><aor><p3><pl>/кет<vaux><neg><ger><px3sp><nom>+э<cop><aor><p3><sg>/кет<v><iv><neg><ger><px3sp><nom>+э<cop><aor><p3><pl>/кет<v><iv><neg><ger><px3sp><nom>+э<cop><aor><p3><sg>$
+^өрттөгөнгө/өрттө<v><tv><ger_past><dat>/өрттө<v><tv><gpr_past><subst><dat>/өрттө<v><tv><gpr><subst><dat>$
+^терисинин/тери<n><px3sp><gen>$
+^бир тууганындай/бир тууган<n><px3sp><sim>/бир тууган<n><px3sp><sim>+э<cop><aor><p3><pl>/бир тууган<n><px3sp><sim>+э<cop><aor><p3><sg>$
+^күмүштүн/күмүш<n><gen>$
+^Ошэлектро/Ошэлектро<np><org><attr>/Ошэлектро<np><org><nom>/Ошэлектро<np><org><nom>+э<cop><aor><p3><pl>/Ошэлектро<np><org><nom>+э<cop><aor><p3><sg>$
+^тартипке сала элек/тартипке сал<v><iv><gpr_notyet>/тартипке сал<v><iv><ger_notyet><nom>/тартипке сал<v><iv><notyet><p3><pl>/тартипке сал<v><iv><notyet><p3><sg>/тартипке сал<v><iv><gpr_notyet><subst><nom>/тартипке сал<v><iv><ger_notyet><nom>+э<cop><aor><p3><pl>/тартипке сал<v><iv><ger_notyet><nom>+э<cop><aor><p3><sg>/тартипке сал<v><iv><gpr_notyet><subst><nom>+э<cop><aor><p3><pl>/тартипке сал<v><iv><gpr_notyet><subst><nom>+э<cop><aor><p3><sg>$
+^окуяга/окуя<n><dat>$
+^Болотбек/Болотбек<np><ant><m><nom>/Болотбек<np><ant><m><nom>+э<cop><aor><p3><pl>/Болотбек<np><ant><m><nom>+э<cop><aor><p3><sg>$
+^ишендиргим/ишен<v><tv><caus><prc_vol><p1><sg>$
+^тапчы/тап<n><nom>+чы<qst>/тап<n><attr>+чы<qst>/тап<v><tv><imp><p2><sg>+чы<emph>/тап<n><nom>+э<cop><aor><p3><pl>+чы<qst>/тап<n><nom>+э<cop><aor><p3><sg>+чы<qst>$
+^максаттарымдын/максат<n><pl><px1sg><gen>$
