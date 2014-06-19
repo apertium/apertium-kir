@@ -84,3 +84,9 @@
 ^Аткезчилик/*Аткезчилик$
 ^Якоб/*Якоб$
 ^респиратордук/*респиратордук$
+^ташталган/ташта<v><tv><pass><prc_past>/ташта<v><tv><pass><gpr_past>/ташта<v><tv><pass><gpr>/ташта<v><tv><pass><ger_past><nom>/ташта<v><tv><pass><past><p3><pl>/ташта<v><tv><pass><past><p3><sg>/ташта<v><tv><pass><gpr_past><subst><nom>/ташта<v><tv><pass><gpr><subst><nom>/ташта<v><tv><pass><ger_past><nom>+э<cop><aor><p3><pl>/ташта<v><tv><pass><ger_past><nom>+э<cop><aor><p3><sg>/ташта<v><tv><pass><gpr_past><subst><nom>+э<cop><aor><p3><pl>/ташта<v><tv><pass><gpr_past><subst><nom>+э<cop><aor><p3><sg>/ташта<v><tv><pass><gpr><subst><nom>+э<cop><aor><p3><pl>/ташта<v><tv><pass><gpr><subst><nom>+э<cop><aor><p3><sg>$
+^гильотина/*гильотина$
+^уланталы/улан<v><iv><caus><opt><p1><pl>$
+^кызматкерлерден/кызматкер<n><pl><abl>/кызматкер<n><pl><abl>+э<cop><aor><p3><pl>/кызматкер<n><pl><abl>+э<cop><aor><p3><sg>$
+^кундак/*кундак$
+^Ата Журтубуздан/Ата журт<n><px1pl><abl>/Ата журт<n><px1pl><abl>+э<cop><aor><p3><pl>/Ата журт<n><px1pl><abl>+э<cop><aor><p3><sg>$
