@@ -36,3 +36,28 @@
 ^Чайкап/Чайка<v><tv><prc_perf>/Чайка<v><tv><gna_perf>$
 ^Ардамина/Ардамина<np><ant><f><nom>/Ардамина<np><ant><f><nom>+э<cop><aor><p3><pl>/Ардамина<np><ant><f><nom>+э<cop><aor><p3><sg>/Ардамина<np><org><attr>/Ардамина<np><org><nom>/Ардамина<np><org><nom>+э<cop><aor><p3><pl>/Ардамина<np><org><nom>+э<cop><aor><p3><sg>$
 ^Исамилованы/Исамилов<np><cog><f><acc>$
+^баш тартканы/баш тарт<v><iv><prc_prp>/баш тарт<v><iv><gna_prp>/баш тарт<v><iv><ger_past><px3sp><nom>/баш тарт<v><iv><gpr_past><subst><px3sp><nom>/баш тарт<v><iv><ger_past><px3sp><nom>+э<cop><aor><p3><pl>/баш тарт<v><iv><ger_past><px3sp><nom>+э<cop><aor><p3><sg>/баш тарт<v><iv><gpr_past><subst><px3sp><nom>+э<cop><aor><p3><pl>/баш тарт<v><iv><gpr_past><subst><px3sp><nom>+э<cop><aor><p3><sg>$
+^Баймурадов/Баймурадов<np><cog><m><attr>/Баймурадов<np><cog><m><nom>/Баймурадов<np><cog><m><nom>+э<cop><aor><p3><pl>/Баймурадов<np><cog><m><nom>+э<cop><aor><p3><sg>$
+^жабыркаганбы/жабырка<v><iv><ger_past><nom>+бы<qst>/жабырка<v><iv><ger_past><nom>+э<cop><aor><p3><pl>+бы<qst>/жабырка<v><iv><ger_past><nom>+э<cop><aor><p3><sg>+бы<qst>/жабырка<v><iv><gpr>+бы<qst>/жабырка<v><iv><gpr><subst><nom>+бы<qst>/жабырка<v><iv><gpr><subst><nom>+э<cop><aor><p3><pl>+бы<qst>/жабырка<v><iv><gpr><subst><nom>+э<cop><aor><p3><sg>+бы<qst>/жабырка<v><iv><gpr_past>+бы<qst>/жабырка<v><iv><gpr_past><subst><nom>+бы<qst>/жабырка<v><iv><gpr_past><subst><nom>+э<cop><aor><p3><pl>+бы<qst>/жабырка<v><iv><gpr_past><subst><nom>+э<cop><aor><p3><sg>+бы<qst>/жабырка<v><iv><past><p3><pl>+бы<qst>/жабырка<v><iv><past><p3><sg>+бы<qst>$
+^Язлыеванын/Язлыев<np><cog><f><gen>$
+^телекөрсөтүүлөр/телекөрсөтүү<n><pl><nom>/телекөрсөтүү<n><pl><nom>+э<cop><aor><p3><pl>/телекөрсөтүү<n><pl><nom>+э<cop><aor><p3><sg>$
+^ошолор/ошол<prn><dem><pl><nom>/ошол<prn><dem><pl><nom>+э<cop><aor><p3><pl>/ошол<prn><dem><pl><nom>+э<cop><aor><p3><sg>$
+^түштүктөгүлөр/түштүк<adj><subst><loc><subst><pl><nom>/түштүк<adj><subst><loc><subst><pl><nom>+э<cop><aor><p3><pl>/түштүк<adj><subst><loc><subst><pl><nom>+э<cop><aor><p3><sg>$
+^кылышчу/кыл<v><tv><coop><gpr_hab>/кыл<v><tv><pih><p3><pl>/кыл<v><tv><coop><pih><p3><sg>/кыл<v><tv><pih><p3><pl>/кыл<v><tv><coop><pih><p3><pl>/кыл<v><tv><coop><gpr_hab><subst><nom>/кыл<v><tv><coop><gpr_hab><subst><nom>+э<cop><aor><p3><pl>/кыл<v><tv><coop><gpr_hab><subst><nom>+э<cop><aor><p3><sg>$
+^жука/жука<adj>/жука<adj><advl>/жука<adj><subst><nom>/жука<adj>+э<cop><aor><p3><pl>/жука<adj>+э<cop><aor><p3><sg>/жука<adj><subst><nom>+э<cop><aor><p3><pl>/жука<adj><subst><nom>+э<cop><aor><p3><sg>$
+^жабылууда/жап<v><tv><pass><ger><loc>/жап<v><tv><pass><ger><loc>+э<cop><aor><p3><pl>/жап<v><tv><pass><ger><loc>+э<cop><aor><p3><sg>$
+^фотожурналист/фотожурналист<n><attr>/фотожурналист<n><nom>/фотожурналист<n><nom>+э<cop><aor><p3><pl>/фотожурналист<n><nom>+э<cop><aor><p3><sg>$
+^тартип да/тартип<n><nom>+да<mod_tru>/тартип<n><attr>+да<mod_tru>/тартип<n><nom>+э<cop><aor><p3><pl>+да<mod_tru>/тартип<n><nom>+э<cop><aor><p3><sg>+да<mod_tru>/тартип<n><nom>+да<cnjcoo>/тартип<n><attr>+да<cnjcoo>/тартип<n><nom>+да<cnjadv>/тартип<n><attr>+да<cnjadv>$
+^ташылып/ташы<v><tv><pass><prc_perf>/ташы<v><tv><pass><gna_perf>$
+^жүргүзбөстөн/жүргүз<v><tv><neg><ger_fut><abl>/жүргүз<v><tv><neg><gpr_fut><subst><abl>/жүргүз<v><tv><neg><ger_fut><abl>+э<cop><aor><p3><pl>/жүргүз<v><tv><neg><ger_fut><abl>+э<cop><aor><p3><sg>/жүргүз<v><tv><neg><gpr_fut><subst><abl>+э<cop><aor><p3><pl>/жүргүз<v><tv><neg><gpr_fut><subst><abl>+э<cop><aor><p3><sg>$
+^Ху/Ху<np><cog><mf><nom>/Ху<np><cog><mf><attr>/Ху<np><cog><mf><nom>+э<cop><aor><p3><pl>/Ху<np><cog><mf><nom>+э<cop><aor><p3><sg>$
+^арттырууга/арт<v><iv><caus><ger><dat>/арттыруу<n><dat>$
+^салтанаттарга/салтанат<n><pl><dat>$
+^Некляеуну/*Некляеу<np><cog><m><acc>$
+^таратсак/тарат<v><tv><prc_cond><p1><pl>/тарат<v><tv><gna_cond><p1><pl>/тара<v><iv><caus><prc_cond><p1><pl>/тара<v><iv><caus><gna_cond><p1><pl>/тара<v><tv><caus><prc_cond><p1><pl>/тара<v><tv><caus><gna_cond><p1><pl>$
+^Хоглунд/Хоглунд<np><cog><m><attr>/Хоглунд<np><cog><m><nom>/Хоглунд<np><cog><m><nom>+э<cop><aor><p3><pl>/Хоглунд<np><cog><m><nom>+э<cop><aor><p3><sg>$
+^агымдарды/агым<n><pl><acc>$
+^Мамасеитова/Маматсеитов<np><cog><f><attr>/Маматсеитов<np><cog><f><nom>/Маматсеитов<np><cog><f><nom>+э<cop><aor><p3><pl>/Маматсеитов<np><cog><f><nom>+э<cop><aor><p3><sg>$
+^танса/тан<v><iv><prc_cond><p3><pl>/тан<v><iv><prc_cond><p3><sg>/тан<v><iv><gna_cond><p3><pl>/тан<v><iv><gna_cond><p3><sg>/тан<v><tv><prc_cond><p3><pl>/тан<v><tv><prc_cond><p3><sg>/тан<v><tv><gna_cond><p3><pl>/тан<v><tv><gna_cond><p3><sg>$
+^Альбинанын/Альбина<np><ant><f><gen>$
+^диетаңызга/диета<n><px2sg><frm><dat>$
