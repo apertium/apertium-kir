@@ -142,3 +142,31 @@
 ^ишендиргим/ишен<v><tv><caus><prc_vol><p1><sg>$
 ^тапчы/тап<n><nom>+чы<qst>/тап<n><attr>+чы<qst>/тап<v><tv><imp><p2><sg>+чы<emph>/тап<n><nom>+э<cop><aor><p3><pl>+чы<qst>/тап<n><nom>+э<cop><aor><p3><sg>+чы<qst>$
 ^максаттарымдын/максат<n><pl><px1sg><gen>$
+^кирээрде/кир<v><iv><ger_fut><loc>/кир<v><tv><ger_fut><loc>/кир<v><iv><gpr_fut><subst><loc>/кир<v><tv><gpr_fut><subst><loc>/кир<v><iv><ger_fut><loc>+э<cop><aor><p3><pl>/кир<v><iv><ger_fut><loc>+э<cop><aor><p3><sg>/кир<v><tv><ger_fut><loc>+э<cop><aor><p3><pl>/кир<v><tv><ger_fut><loc>+э<cop><aor><p3><sg>/кир<v><iv><gpr_fut><subst><loc>+э<cop><aor><p3><pl>/кир<v><iv><gpr_fut><subst><loc>+э<cop><aor><p3><sg>/кир<v><tv><gpr_fut><subst><loc>+э<cop><aor><p3><pl>/кир<v><tv><gpr_fut><subst><loc>+э<cop><aor><p3><sg>$
+^уурдаттык/уурда<v><tv><caus><ifi><p1><pl>$
+^түзгөн эмеспиз/түз<v><tv><neg><past><p1><pl>$
+^канчасында/канча<det><qnt><subst><px3sp><loc>$
+^Караколдо/Каракол<np><top><loc>/Каракол<np><top><loc>+э<cop><aor><p3><pl>/Каракол<np><top><loc>+э<cop><aor><p3><sg>$
+^жатаканада/жатакана<n><loc>/жатакана<n><loc>+э<cop><aor><p3><pl>/жатакана<n><loc>+э<cop><aor><p3><sg>$
+^зөөкүрдүктөн/зөөкүрдүк<n><abl>/зөөкүрдүк<n><abl>+э<cop><aor><p3><pl>/зөөкүрдүк<n><abl>+э<cop><aor><p3><sg>$
+^айтабыз да/айт<v><iv><aor><p1><pl>+да<mod_tru>/айт<v><tv><aor><p1><pl>+да<mod_tru>$
+^издешүүдө/изде<v><tv><coop><ger><loc>/изде<v><tv><coop><ger><loc>+э<cop><aor><p3><pl>/изде<v><tv><coop><ger><loc>+э<cop><aor><p3><sg>$
+^сумканы/сумка<n><acc>$
+^күйүүчү майдан/күйүүчү май<n><abl>/күйүүчү май<n><abl>+э<cop><aor><p3><pl>/күйүүчү май<n><abl>+э<cop><aor><p3><sg>$
+^Адырдан/Адыр<n><abl>/Адыр<n><abl>+э<cop><aor><p3><pl>/Адыр<n><abl>+э<cop><aor><p3><sg>$
+^Мугалимдер да/Мугалим<n><pl><nom>+да<mod_tru>/Мугалим<n><pl><nom>+э<cop><aor><p3><pl>+да<mod_tru>/Мугалим<n><pl><nom>+э<cop><aor><p3><sg>+да<mod_tru>/Мугалим<n><pl><nom>+да<cnjcoo>/Мугалим<n><pl><nom>+да<cnjadv>$
+^жээкке/жээк<n><dat>$
+^сатылышы/сат<v><tv><pass><ger_pres><px3sp><nom>/сат<v><tv><pass><ger_pres><px3sp><nom>+э<cop><aor><p3><pl>/сат<v><tv><pass><ger_pres><px3sp><nom>+э<cop><aor><p3><sg>$
+^кызматтарынанбы/кызмат<n><pl><px3sp><abl>+бы<qst>/кызмат<n><pl><px3sp><abl>+э<cop><aor><p3><pl>+бы<qst>/кызмат<n><pl><px3sp><abl>+э<cop><aor><p3><sg>+бы<qst>$
+^Уйбаттын/Уйбат<np><top><gen>$
+^тийиш го/тийиш<adj>+го<mod_ass>/тий<v><iv><ger_pres><nom>+го<mod_ass>/тий<v><tv><ger_pres><nom>+го<mod_ass>/тийиш<adj><subst><nom>+го<mod_ass>/тийиш<adj>+э<cop><aor><p3><pl>+го<mod_ass>/тийиш<adj>+э<cop><aor><p3><sg>+го<mod_ass>/тий<v><iv><ger_pres><nom>+э<cop><aor><p3><pl>+го<mod_ass>/тий<v><iv><ger_pres><nom>+э<cop><aor><p3><sg>+го<mod_ass>/тий<v><tv><ger_pres><nom>+э<cop><aor><p3><pl>+го<mod_ass>/тий<v><tv><ger_pres><nom>+э<cop><aor><p3><sg>+го<mod_ass>/тийиш<adj><subst><nom>+э<cop><aor><p3><pl>+го<mod_ass>/тийиш<adj><subst><nom>+э<cop><aor><p3><sg>+го<mod_ass>$
+^Саркисяндын/Саркисян<np><cog><mf><gen>$
+^генералдан/генерал<n><abl>/генерал<n><abl>+э<cop><aor><p3><pl>/генерал<n><abl>+э<cop><aor><p3><sg>$
+^өкүлчүлүктөрү/өкүлчүлүк<n><pl><px3sp><nom>/өкүлчүлүк<n><pl><px3sp><nom>+э<cop><aor><p3><pl>/өкүлчүлүк<n><pl><px3sp><nom>+э<cop><aor><p3><sg>$
+^Чжинин/Чжинин<np><cog><mf><attr>/Чжинин<np><cog><mf><nom>/Чжинин<np><cog><mf><nom>+э<cop><aor><p3><pl>/Чжинин<np><cog><mf><nom>+э<cop><aor><p3><sg>$
+^милдет/милдет<n><nom>/милдет<n><attr>/милдет<n><nom>+э<cop><aor><p3><pl>/милдет<n><nom>+э<cop><aor><p3><sg>$
+^дубал/дубал<n><nom>/дубал<n><attr>/дубал<n><nom>+э<cop><aor><p3><pl>/дубал<n><nom>+э<cop><aor><p3><sg>$
+^улам/улам<adv>/улам<post>$
+^аялдуулукка/аялдуулук<n><attr>/аялдуулук<n><nom>/аялдуулук<n><nom>+э<cop><aor><p3><pl>/аялдуулук<n><nom>+э<cop><aor><p3><sg>$
+^баана/баана<n><attr>/баана<n><nom>/баана<n><nom>+э<cop><aor><p3><pl>/баана<n><nom>+э<cop><aor><p3><sg>$
+^Өндүрүштүн/Өндүрүш<n><gen>$
