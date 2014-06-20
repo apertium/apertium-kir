@@ -170,3 +170,18 @@
 ^аялдуулукка/*аялдуулукка$
 ^баана/*баана$
 ^Өндүрүштүн/Өндүрүш<n><gen>$
+^кабарлагыла/кабарла<v><tv><opt><p2><pl>/кабарла<v><tv><opt><p2><frm><pl>/кабарла<v><tv><opt><p2><frm><sg>$
+^качпастан/кач<v><iv><neg><ger_fut><abl>/кач<v><iv><neg><gpr_fut><subst><abl>/кач<v><iv><neg><ger_fut><abl>+э<cop><aor><p3><pl>/кач<v><iv><neg><ger_fut><abl>+э<cop><aor><p3><sg>/кач<v><iv><neg><gpr_fut><subst><abl>+э<cop><aor><p3><pl>/кач<v><iv><neg><gpr_fut><subst><abl>+э<cop><aor><p3><sg>$
+^Абдыкапаров/*Абдыкапаров$
+^Президенттен/Президент<n><abl>/Президент<n><abl>+э<cop><aor><p3><pl>/Президент<n><abl>+э<cop><aor><p3><sg>$
+^укугубузду/укук<n><px1pl><acc>$
+^кыз баланын/кыз бала<n><gen>$
+^салынганы/сал<v><tv><pass><prc_prp>/сал<v><tv><pass><gna_prp>/салын<v><iv><prc_prp>/салын<v><iv><gna_prp>/сал<v><tv><pass><ger_past><px3sp><nom>/салын<v><iv><ger_past><px3sp><nom>/сал<v><tv><pass><gpr_past><subst><px3sp><nom>/сал<v><tv><pass><gpr><subst><px3sp><nom>/салын<v><iv><gpr_past><subst><px3sp><nom>/салын<v><iv><gpr><subst><px3sp><nom>/сал<v><tv><pass><ger_past><px3sp><nom>+э<cop><aor><p3><pl>/сал<v><tv><pass><ger_past><px3sp><nom>+э<cop><aor><p3><sg>/салын<v><iv><ger_past><px3sp><nom>+э<cop><aor><p3><pl>/салын<v><iv><ger_past><px3sp><nom>+э<cop><aor><p3><sg>/сал<v><tv><pass><gpr_past><subst><px3sp><nom>+э<cop><aor><p3><pl>/сал<v><tv><pass><gpr_past><subst><px3sp><nom>+э<cop><aor><p3><sg>/сал<v><tv><pass><gpr><subst><px3sp><nom>+э<cop><aor><p3><pl>/сал<v><tv><pass><gpr><subst><px3sp><nom>+э<cop><aor><p3><sg>/салын<v><iv><gpr_past><subst><px3sp><nom>+э<cop><aor><p3><pl>/салын<v><iv><gpr_past><subst><px3sp><nom>+э<cop><aor><p3><sg>/салын<v><iv><gpr><subst><px3sp><nom>+э<cop><aor><p3><pl>/салын<v><iv><gpr><subst><px3sp><nom>+э<cop><aor><p3><sg>$
+^сейсмологдордун/*сейсмологдордун$
+^голландиялыктар/*голландиялыктар$
+^булуңундагы/булуң<n><px3sp><loc><attr>/булуң<n><px3sp><loc><subst><nom>/булуң<n><px3sp><loc><subst><nom>+э<cop><aor><p3><pl>/булуң<n><px3sp><loc><subst><nom>+э<cop><aor><p3><sg>$
+^бөлүнүүсүнө/бөл<v><tv><pass><ger><px3sp><dat>/бөлүн<v><tv><ger><px3sp><dat>$
+^валюттук/*валюттук$
+^жазаланыш/жазала<v><tv><pass><ger_pres><nom>/жазала<v><tv><pass><imp><p2><sg>/жазала<v><tv><pass><coop><imp><p2><sg>/жазала<v><tv><pass><ger_pres><nom>+э<cop><aor><p3><pl>/жазала<v><tv><pass><ger_pres><nom>+э<cop><aor><p3><sg>$
+^бул жолу/бул жолу<adv>$
+^даражаларды/даража<n><pl><acc>$
