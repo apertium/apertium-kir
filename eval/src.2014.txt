@@ -185,3 +185,16 @@
 ^жазаланыш/жазала<v><tv><pass><ger_pres><nom>/жазала<v><tv><pass><imp><p2><sg>/жазала<v><tv><pass><coop><imp><p2><sg>/жазала<v><tv><pass><ger_pres><nom>+э<cop><aor><p3><pl>/жазала<v><tv><pass><ger_pres><nom>+э<cop><aor><p3><sg>$
 ^бул жолу/бул жолу<adv>$
 ^даражаларды/даража<n><pl><acc>$
+^Сырга/Сыр<n><dat>/Сырга<n><nom>/Сырга<n><attr>/Сырга<n><nom>+э<cop><aor><p3><pl>/Сырга<n><nom>+э<cop><aor><p3><sg>$
+^аргументтерин/аргумент<n><pl><px3sp><acc>$
+^электрондукпу/электрондук<adj>+бы<qst>/электрондук<adj>+э<cop><aor><p3><pl>+бы<qst>/электрондук<adj>+э<cop><aor><p3><sg>+бы<qst>$
+^жаба элек/жап<v><tv><gpr_notyet>/жап<v><tv><ger_notyet><nom>/жап<v><tv><notyet><p3><pl>/жап<v><tv><notyet><p3><sg>/жап<v><tv><gpr_notyet><subst><nom>/жап<v><tv><ger_notyet><nom>+э<cop><aor><p3><pl>/жап<v><tv><ger_notyet><nom>+э<cop><aor><p3><sg>/жап<v><tv><gpr_notyet><subst><nom>+э<cop><aor><p3><pl>/жап<v><tv><gpr_notyet><subst><nom>+э<cop><aor><p3><sg>$
+^маалымдагандай/маалымда<v><tv><ger_past><sim>/маалымда<v><tv><gpr_past><subst><sim>/маалымда<v><tv><gpr><subst><sim>/маалымда<v><tv><ger_past><sim>+э<cop><aor><p3><pl>/маалымда<v><tv><ger_past><sim>+э<cop><aor><p3><sg>/маалымда<v><tv><gpr_past><subst><sim>+э<cop><aor><p3><pl>/маалымда<v><tv><gpr_past><subst><sim>+э<cop><aor><p3><sg>/маалымда<v><tv><gpr><subst><sim>+э<cop><aor><p3><pl>/маалымда<v><tv><gpr><subst><sim>+э<cop><aor><p3><sg>$
+^көтөрбөшү/көтөр<v><tv><neg><ger_pres><px3sp><nom>/көтөр<v><tv><neg><ger_pres><px3sp><nom>+э<cop><aor><p3><pl>/көтөр<v><tv><neg><ger_pres><px3sp><nom>+э<cop><aor><p3><sg>$
+^доотай/*доотай$
+^Адилден/Адил<adj><subst><abl>/Адил<np><ant><m><abl>/Адил<adj><subst><abl>+э<cop><aor><p3><pl>/Адил<adj><subst><abl>+э<cop><aor><p3><sg>/Адил<np><ant><m><abl>+э<cop><aor><p3><pl>/Адил<np><ant><m><abl>+э<cop><aor><p3><sg>$
+^Жыйырмага/Жыйырма<num><subst><dat>$
+^атаарлар/жат<vaux><ger_fut><pl><nom>/ат<v><tv><ger_fut><pl><nom>/жат<vaux><gpr_fut><subst><pl><nom>/ат<v><tv><gpr_fut><subst><pl><nom>/жат<vaux><ger_fut><pl><nom>+э<cop><aor><p3><pl>/жат<vaux><ger_fut><pl><nom>+э<cop><aor><p3><sg>/ат<v><tv><ger_fut><pl><nom>+э<cop><aor><p3><pl>/ат<v><tv><ger_fut><pl><nom>+э<cop><aor><p3><sg>/жат<vaux><gpr_fut><subst><pl><nom>+э<cop><aor><p3><pl>/жат<vaux><gpr_fut><subst><pl><nom>+э<cop><aor><p3><sg>/ат<v><tv><gpr_fut><subst><pl><nom>+э<cop><aor><p3><pl>/ат<v><tv><gpr_fut><subst><pl><nom>+э<cop><aor><p3><sg>$
+^бааланмак/баала<v><tv><pass><prc_pcond>/баала<v><tv><pass><pcond><p3><pl>/баала<v><tv><pass><pcond><p3><sg>$
+^арбалды/*арбалды$
+^көчсө/көч<v><iv><prc_cond><p3><pl>/көч<v><iv><prc_cond><p3><sg>/көч<v><iv><gna_cond><p3><pl>/көч<v><iv><gna_cond><p3><sg>$
