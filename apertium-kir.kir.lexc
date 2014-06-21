@@ -11734,6 +11734,7 @@ Aйталы:Aйталы NP-ANT-M ; ! "Aytğalıy" (Arabic)
 !! JNW ANT
 Тэд:Тэд NP-ANT-M ; ! "Ted"
 Митч:Митч NP-ANT-M ; ! "Mitch"
+Чжин:Чжин NP-ANT-MF ; ! ""
 
 ! Patronyms
 !==========
@@ -14147,6 +14148,7 @@ Aйталы:Aйталы NP-ANT-M ; ! "Aytğalıy" (Arabic)
 Коппел:Коппел NP-COG-MF ; ! "Koppel"
 Албом:Албом NP-COG-MF ; ! "Albom"
 Рен:Рен NP-COG-MF ; ! "Rehn"
+Чжинин:Чжинин NP-COG-MF ; ! ""
 
 
 LEXICON Adjectives
@@ -16706,6 +16708,7 @@ LEXICON Verbs
 
 көр:көр V-INFL-TV-NOPASS ; ! "see"
 көр:көрүн V-INFL-TV-PASS ; ! "be seen"
+көр:көр%>%{G%}%{A%}з V-INFL-TV-IRREG-CAUS ; ! "understand"
 көрсөт:көрсөт V-INFL-TV ; ! "show"
 көрсөт:көрсөт V-INFL-IV ;
 макта:макта V-INFL-TV ; ! "brag about"
