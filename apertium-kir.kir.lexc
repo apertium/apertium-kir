@@ -1374,12 +1374,12 @@ LEXICON V-INFL-NON-FINITE-REG
 %<opt%>%<p1%>%<sg%>:%>%{A%}й%{I%}н V-CLIT ;
 %<opt%>%<p2%>%<sg%>:%>%{G%}%{I%}н # ;
 %<opt%>%<p2%>%<frm%>%<sg%>:%>%{G%}%{I%}л%{A%} # ;
-%<opt%>%<p3%>%<sg%>%:%>с%{I%}н V-CLIT ;
-%<opt%>%<p1%>%<pl%>%:%>%{E%}л%{I%} V-CLIT ;
-%<opt%>%<p1%>%<pl%>%:%>%{A%}йл%{I%} V-CLIT ; ! Dir/LR
-%<opt%>%<p1%>%<pl%>%:%>%{E%}л%{I%}к V-CLIT ; ! Dir/LR  
-%<opt%>%<p1%>%<pl%>%:%>%{A%}йл%{I%}к V-CLIT ; ! Dir/LR
-%<opt%>%<p2%>%<pl%>%:%>%{G%}%{I%}л%{A%} # ;
+%<opt%>%<p3%>%<sg%>:%>с%{I%}н V-CLIT ;
+%<opt%>%<p1%>%<pl%>:%>%{E%}л%{I%} V-CLIT ;
+%<opt%>%<p1%>%<pl%>:%>%{A%}йл%{I%} V-CLIT ; ! Dir/LR
+%<opt%>%<p1%>%<pl%>:%>%{E%}л%{I%}к V-CLIT ; ! Dir/LR  
+%<opt%>%<p1%>%<pl%>:%>%{A%}йл%{I%}к V-CLIT ; ! Dir/LR
+%<opt%>%<p2%>%<pl%>:%>%{G%}%{I%}л%{A%} # ;
 %<opt%>%<p2%>%<frm%>%<pl%>:%>%{G%}%{I%}л%{A%} # ;
 %<opt%>%<p3%>%<pl%>%[%+p3pl%]:%>с%{I%}н V-CLIT ;
 
