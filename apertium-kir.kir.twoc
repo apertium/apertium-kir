@@ -15,9 +15,13 @@ Verb = %<v%> ;
 
 Rules 
 
-"Match prefixes"
-Tx:0 /<= Ty:0 :* _ ; 
-   where 
-         Tx in ( %[%+p3pl%] %[%-p3pl%] )   
-         Ty in ( %[%-p3pl%] %[%+p3pl%] )  matched ; 
+!"Match prefixes"
+!Tx:0 /<= Ty:0 :* _ ; 
+!   where 
+!         Tx in ( %[%+p3pl%] %[%-p3pl%] )   
+!         Ty in ( %[%-p3pl%] %[%+p3pl%] )  matched ; 
 
+"Ensure"
+%[%-coop%]:0 /<= _ ; 
+   except
+       _ (:*) %[%+p3pl%]:0 ; 

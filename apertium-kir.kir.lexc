@@ -199,7 +199,8 @@ Multichar_Symbols
 !@D.NEG.0@   ! Disallow if -{I}š is not present
 !@D.NEG.1@   ! Disallow if -{I}š is present
 
-%[%-p3pl%]
+%[%-coop%]
+
 %[%+p3pl%]
 
 
@@ -459,13 +460,13 @@ LEXICON POSSESSION-ENDINGS  ! P_2
 %<px2pl%>%<frm%>:%{I%}ң%{I%}зд%{A%}р GEN-POS ;
 
 LEXICON VOL-ENDINGS
-%<p1%>%<sg%>%[%-p3pl%]:%>%{I%}м # ;
-%<p2%>%<sg%>%[%-p3pl%]:%>%{I%}ң # ; 
-%<p2%>%<sg%>%<frm%>%[%-p3pl%]:%>%{I%}ң%{I%}з # ; 
-%<p3%>%<sg%>%[%-p3pl%]:%>%{s%}%{I%}%{n%} # ;
-%<p1%>%<pl%>%[%-p3pl%]:%>%{I%}б%{I%}з # ; 
-%<p2%>%<pl%>%[%-p3pl%]:%>%{I%}ң%{A%}р # ; 
-%<p2%>%<pl%>%<frm%>%[%-p3pl%]:%{I%}ң%{I%}зд%{A%}р # ;
+%<p1%>%<sg%>:%>%{I%}м # ;
+%<p2%>%<sg%>:%>%{I%}ң # ; 
+%<p2%>%<sg%>%<frm%>:%>%{I%}ң%{I%}з # ; 
+%<p3%>%<sg%>:%>%{s%}%{I%}%{n%} # ;
+%<p1%>%<pl%>:%>%{I%}б%{I%}з # ; 
+%<p2%>%<pl%>:%>%{I%}ң%{A%}р # ; 
+%<p2%>%<pl%>%<frm%>:%{I%}ң%{I%}зд%{A%}р # ;
 %<p3%>%<pl%>%[%+p3pl%]:%>%{s%}%{I%}%{n%} # ;
 
 LEXICON EXI
@@ -1207,13 +1208,13 @@ LEXICON V-PERS-PAST ! P_4
 !¶@D.NEG.1@%<p2%>%<frm%>%<pl%>:@D.NEG.1@%>%{I%}ң%{I%}зд%{A%}р V-CLIT ;
 !¶%<p3%>%<pl%>: V-CLIT ;
 
-%<p1%>%<sg%>%[%-p3pl%]:%>%{I%}м V-CLIT ;
-%<p2%>%<sg%>%[%-p3pl%]:%>%{I%}ң V-CLIT ;
-%<p2%>%<frm%>%<sg%>%[%-p3pl%]:%>%{I%}ң%{I%}з V-CLIT ;
-%<p3%>%<sg%>%[%-p3pl%]: V-CLIT ;  
-%<p1%>%<pl%>%[%-p3pl%]:%>%{I%}к V-CLIT ;
-%<p2%>%<pl%>%[%-p3pl%]:%>%{I%}ң%{A%}р V-CLIT ;
-%<p2%>%<frm%>%<pl%>%[%-p3pl%]:%>%{I%}ң%{I%}зд%{A%}р V-CLIT ;
+%<p1%>%<sg%>:%>%{I%}м V-CLIT ;
+%<p2%>%<sg%>:%>%{I%}ң V-CLIT ;
+%<p2%>%<frm%>%<sg%>:%>%{I%}ң%{I%}з V-CLIT ;
+%<p3%>%<sg%>: V-CLIT ;  
+%<p1%>%<pl%>:%>%{I%}к V-CLIT ;
+%<p2%>%<pl%>:%>%{I%}ң%{A%}р V-CLIT ;
+%<p2%>%<frm%>%<pl%>:%>%{I%}ң%{I%}зд%{A%}р V-CLIT ;
 %<p3%>%<pl%>%[%+p3pl%]: V-CLIT ;
 
 
@@ -1231,13 +1232,13 @@ LEXICON V-PERS-COND ! P_4
 !¶%<p3%>%<pl%>: # ;  
 
 
-%<p1%>%<sg%>%[%-p3pl%]:%>%{I%}м # ;
-%<p2%>%<sg%>%[%-p3pl%]:%>%{I%}ң # ;
-%<p2%>%<frm%>%<sg%>%[%-p3pl%]:%>%{I%}ң%{I%}з # ;
-%<p3%>%<sg%>%[%-p3pl%]: # ;
-%<p1%>%<pl%>%[%-p3pl%]:%>%{I%}к # ;
-%<p2%>%<pl%>%[%-p3pl%]:%>%{I%}ң%{A%}р # ;
-%<p2%>%<frm%>%<pl%>%[%-p3pl%]:%>%{I%}ң%{I%}зд%{A%}р # ;
+%<p1%>%<sg%>:%>%{I%}м # ;
+%<p2%>%<sg%>:%>%{I%}ң # ;
+%<p2%>%<frm%>%<sg%>:%>%{I%}ң%{I%}з # ;
+%<p3%>%<sg%>: # ;
+%<p1%>%<pl%>:%>%{I%}к # ;
+%<p2%>%<pl%>:%>%{I%}ң%{A%}р # ;
+%<p2%>%<frm%>%<pl%>:%>%{I%}ң%{I%}зд%{A%}р # ;
 %<p3%>%<pl%>%[%+p3pl%]: # ;  
 
 LEXICON V-PERS-PRES ! P_6
@@ -1253,16 +1254,16 @@ LEXICON V-PERS-PRES ! P_6
 !¶%<p3%>%<pl%>:%>т V-CLIT-OTHER ; 
 !¶%<p3%>%<pl%>:%> V-CLIT-BI ; 
 
-%<p1%>%<sg%>%[%-p3pl%]:%>м V-CLIT ; 
-%<p2%>%<sg%>%[%-p3pl%]:%>с%{I%}ң V-CLIT ; 
-%<p2%>%<frm%>%<sg%>%[%-p3pl%]:%>с%{I%}з V-CLIT ; 
-%<p3%>%<sg%>%[%-p3pl%]:%>т V-CLIT-OTHER ; 
-%<p3%>%<sg%>%[%-p3pl%]:%> V-CLIT-BI ; 
-%<p1%>%<pl%>%[%-p3pl%]:%>б%{I%}з V-CLIT ; 
-%<p2%>%<pl%>%[%-p3pl%]:%>с%{I%}ң%{A%}р V-CLIT ;  
-%<p2%>%<frm%>%<pl%>%[%-p3pl%]:%>с%{I%}зд%{A%}р V-CLIT ;  
+%<p1%>%<sg%>:%>м V-CLIT ; 
+%<p2%>%<sg%>:%>с%{I%}ң V-CLIT ; 
+%<p2%>%<frm%>%<sg%>:%>с%{I%}з V-CLIT ; 
+%<p3%>%<sg%>:%>т V-CLIT-OTHER ; 
+%<p3%>%<sg%>:%> V-CLIT-BI ; 
+%<p1%>%<pl%>:%>б%{I%}з V-CLIT ; 
+%<p2%>%<pl%>:%>с%{I%}ң%{A%}р V-CLIT ;  
+%<p2%>%<frm%>%<pl%>:%>с%{I%}зд%{A%}р V-CLIT ;  
 %<p3%>%<pl%>%[%+p3pl%]:%>т V-CLIT-OTHER ; 
-%<p3%>%<pl%>%[%-p3pl%]:%> V-CLIT-BI ; 
+%<p3%>%<pl%>:%> V-CLIT-BI ; 
 
 !LEXICON V-PERS-IMPER ! P_6
 
@@ -1271,7 +1272,7 @@ LEXICON V-INFL-COMMON
 
 V-INFL-COMMON-SECOND ;
 !¶@P.NEG.1@:%>%{I%}ш@P.NEG.1@ V-INFL-COMMON-SECOND ; ! Dir/LR
-%[%+p3pl%]:%>%{I%}ш V-INFL-COMMON-SECOND ;
+%[%-coop%]:%>%{I%}ш V-INFL-COMMON-SECOND ;
 %<coop%>:%>%{I%}ш V-INFL-COMMON-SECOND ;
 
 LEXICON V-INFL-COMMON-SECOND
