@@ -417,22 +417,27 @@ CASES-DEFAULT ;
 !%<px3sp%>%<dat%>:%>н%{A%} # ;
 !%<px3sp%>%<locattr%>:%>нд%{A%}г%{I%} # ;
 
+LEXICON NIKI
+
+%<gen%>%<subst%>:%>%{N%}%{I%}к%{I%}%{n%} CASES ;
 
 LEXICON GEN-POS
 CASES ;
-%<px%>:%>%{N%}%{I%}к%{I%}%{n%} CASES ; !CASES-SHORT-ACC ; 
+!%<px%>:%>%{N%}%{I%}к%{I%}%{n%} CASES ; !CASES-SHORT-ACC ; 
 !!%<locattr%>:%>%{D%}%{A%}г%{I%} ADJ-DAGI ;
 !%<loc%>:%>%{D%}%{A%}г%{I%} DAGI ;
 !!%<locattr%>:%>%{D%}%{A%}г%{I%} CASES ;
 !!%<locattr%>:%>%{D%}%{A%}г%{I%} V-ADJ ; ! FIXME: when we go recursive, use this
+NIKI ;
 DAGI ;
 
 LEXICON GEN-POS-PX12SG
 CASES-PX12SG ;
-%<px%>:%>%{N%}%{I%}к%{I%}%{n%} CASES ; !CASES-SHORT-ACC ; 
+!%<px%>:%>%{N%}%{I%}к%{I%}%{n%} CASES ; !CASES-SHORT-ACC ; 
 !%<loc%>:%>%{D%}%{A%}г%{I%} DAGI ;
 !! %<locattr%>:%>%{D%}%{A%}г%{I%} CASES ;
 !!%<locattr%>:%>%{D%}%{A%}г%{I%} V-ADJ ; ! FIXME: when we go recursive, use this
+NIKI ;
 DAGI ;
 
 !! LEXICON GEN-POS-SHORT-ACC
@@ -1021,6 +1026,7 @@ LEXICON PRON-PERS-EN
 %<abl%>:енден PRED ;
 %<sim%>:ендей PRED ;
 :ен DAGI ;
+:е NIKI ;
 
 LEXICON PRON-PERS-IZ
 
@@ -1032,6 +1038,7 @@ LEXICON PRON-PERS-IZ
 %<abl%>:ден PRED ;
 %<sim%>:дей PRED ;
 DAGI ;
+NIKI ;
 
 LEXICON PRON-PERS-AL
 
@@ -1043,6 +1050,7 @@ LEXICON PRON-PERS-AL
 %<abl%>:ндан PRED ;
 %<sim%>:ндай PRED ;
 :н DAGI ;
+NIKI ;
 
 LEXICON PRON-PERS-PLURALS
 
@@ -1053,7 +1061,8 @@ LEXICON PRON-PERS-PLURALS
 %<loc%>:%>д%{A%} PRED ;
 %<abl%>:%>д%{A%}н PRED ;
 %<sim%>:%>д%{A%}й PRED ;
-: DAGI ;
+DAGI ;
+NIKI ;
 
 LEXICON PRON-ITG
 
@@ -1762,17 +1771,30 @@ LEXICON Determiners
 LEXICON Pronouns
 
 мен%<prn%>%<pers%>%<p1%>%<sg%>:м PRON-PERS-EN ; 
-мен%<prn%>%<pers%>%<p1%>%<sg%>%<adv%>:менимче CLIT ;
+мен%<prn%>%<pers%>%<p1%>%<sg%>%<advl%>:менимче CLIT ;
+мен%<prn%>%<pers%>%<p1%>%<sg%>%<advl%>:меникиче CLIT ; ! Dir/LR - different meaning than менимче!!
+
 сен%<prn%>%<pers%>%<p2%>%<sg%>:с PRON-PERS-EN ; 
-сен%<prn%>%<pers%>%<p2%>%<sg%>%<adv%>:сенинче CLIT ;
+сен%<prn%>%<pers%>%<p2%>%<sg%>%<advl%>:сеникиче CLIT ;
+
 сиз%<prn%>%<pers%>%<p2%>%<frm%>%<sg%>:сиз PRON-PERS-IZ ; 
+сиз%<prn%>%<pers%>%<p2%>%<frm%>%<sg%>%<advl%>:сиздикиче CLIT ;
+
 ал%<prn%>%<pers%>%<p3%>%<sg%>:а PRON-PERS-AL ; 
+ал%<prn%>%<pers%>%<p3%>%<sg%>%<advl%>:аныкыча CLIT ; 
+
 биз%<prn%>%<pers%>%<p1%>%<pl%>:биз PRON-PERS-IZ ; 
+биз%<prn%>%<pers%>%<p1%>%<pl%>%<advl%>:биздикиче CLIT ; 
+биз%<prn%>%<pers%>%<p1%>%<pl%>%<advl%>:бизче CLIT ; ! Dir/LR
+
 силер%<prn%>%<pers%>%<p2%>%<pl%>:силер PRON-PERS-PLURALS ; 
-силер%<prn%>%<pers%>%<p2%>%<pl%>%<adv%>:силерче CLIT ; 
+силер%<prn%>%<pers%>%<p2%>%<pl%>%<advl%>:силерче CLIT ; 
+
 сиздер%<prn%>%<pers%>%<p2%>%<frm%>%<pl%>:сиздер PRON-PERS-PLURALS ; 
-сиздер%<prn%>%<pers%>%<p2%>%<frm%>%<pl%>%<adv%>:сиздерче CLIT ; 
+сиздер%<prn%>%<pers%>%<p2%>%<frm%>%<pl%>%<advl%>:сиздерче CLIT ; 
+
 алар%<prn%>%<pers%>%<p3%>%<pl%>:алар PRON-PERS-PLURALS ; 
+алар%<prn%>%<pers%>%<p3%>%<pl%>%<advl%>:алардыкыча CLIT ; 
 
 PRON-DEM-BUL ; ! "this" 
 ошол:ошо PRON-DEM-OSOL ; ! "that"
