@@ -1172,6 +1172,7 @@ LEXICON V-PERS-COP ! P_3
 !%+э%<cop%>%<neg%>:% эмес V-PERS-COP-SUF ; 
 !%+э%<cop%>%<evid%>:% экен V-PERS-COP-SUF ; 
 !%+э%<cop%>%<neg%>%<evid%>:% эмес% экен V-PERS-COP-SUF ; 
+%+э%<cop%>%<dub%>%<aor%>:м%{I%}ш V-PERS-COP-SUF ;
 
 
 LEXICON V-PERS-COP-SUF 
