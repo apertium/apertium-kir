@@ -94,6 +94,7 @@ Multichar_Symbols
 %<caus%>    ! Causative
 %<coop%>    ! Cooperative
 %<evid%>    ! Evidential
+%<dub%>     ! Dubative
 
 %<asif%>          ! a verbal affix adding "as if ..." to the meaning
 %<pcond%>         ! conditional something "would X"
