@@ -732,6 +732,15 @@ LEXICON A5                 ! adjectives with comparative reading only;
 %<adj%>%<comp%>:%>%{I%}р%{A%}к PRED ;                 ! Dir/LR
 
 
+LEXICON A6                 ! (derived/not fully lexicalised) adjectives without comparative reading,
+                           ! no comparison levels at all.
+                           !# examples go here
+
+%<adj%>: PRED ;                                       !# example 1
+%<adj%>%<subst%>: SUBST ;                             !# example 2
+%<adj%>%<advl%>: CLIT ;                               !# example 3
+
+
 
 LEXICON CLIT
 
@@ -14561,7 +14570,7 @@ cубъективдүү:cубъективдүү A4 ; ! ""
 ! FIXME There is a better way of handling them, find it!
 ! (note that they all are ambigious between adj/n)
 
-жашыруун:жашыруун A3 ; ! ""
+жашыруун:жашыруун A6 ; ! "secret; secretly (seems to be used adverbially, might also be comparable, see 2 examples provided by google"
 пакистандык:пакистандык A3 ; ! "" 
 кубалык:кубалык A3 ; ! "" 
 япониялык:япониялык A3 ; ! "" 
@@ -14657,7 +14666,7 @@ cубъективдүү:cубъективдүү A4 ; ! ""
 араз:араз A3 ; ! "" 
 жылаңач:жылаңач A3 ; ! "" 
 картаң:картаң A3 ; ! "old(person)" 
-жалгыз:жалгыз A3 ; ! "" 
+жалгыз:жалгыз A6 ; ! "" 
 үйлүү:үйлүү A3 ; ! "" 
 ысымдуу:ысымдуу A3 ; ! "" 
 катышкан:катышкан A3 ; ! "" 
