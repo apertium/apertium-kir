@@ -16082,7 +16082,7 @@ LEXICON Adverbs
 ! жана ADV ; 
 ! аз:аз ADV ; ! "should be adj see A1 section" 
 дагы:дагы ADV ; ! FIXME: oh?
-илгери:илгери ADV ; 
+! илгери:илгери ADV ; ! "removing duplicate"
 эрте:эрте ADV ; 
 ! бек:бек ADV ; ! "should be adj see A1 section" 
 кайрадан:кайрадан ADV ; ! "yet/once again"
@@ -16388,9 +16388,9 @@ LEXICON Adverbs
 кеч:кеч ADV-WITH-KI-ABL ; ! "" 
 күндүз:күндүз ADV-WITH-KI-ABL ; ! "" 
 
-! илгери:илгери ADV ; ! "removing duplicate" 
-илгери:илгер ADV-WITH-KI ; ! "ancient"
-илгери:илгер ADV-WITH-ABL ; ! "ancient"
+илгери:илгери ADV ; ! "ancient" 
+илгери:илгер ADV-ABL ; ! "ancient"
+илгери:илгер ADV-KI ; ! "ancient"
 
 эми:эми ADV-WITH-ABL ;
 эми:эм ADV-KI ; ! "next/soon-to-be"
