@@ -81,6 +81,7 @@ Multichar_Symbols
 %<mod_ass%> ! assumption-that-interlocutor-knows-something modal particle
 %<mod_tru%> ! assumption-that-statement-is-true modal particle
 %<mod_ind%> ! Indefinite modal particle (expresses doubt)
+%<mod_dub%> ! Dubative
 %<emph%>    ! Polite emphatic particle used with imperatives
 
 %<pst%>     ! Positive level of comparison
@@ -94,7 +95,6 @@ Multichar_Symbols
 %<caus%>    ! Causative
 %<coop%>    ! Cooperative
 %<evid%>    ! Evidential
-%<dub%>     ! Dubative
 
 %<asif%>          ! a verbal affix adding "as if ..." to the meaning
 %<pcond%>         ! conditional something "would X"
@@ -1156,6 +1156,7 @@ LEXICON V-CLIT-OTHER
 %+го%<mod_ass%>:% го # ;
 %+да%<mod_tru%>:% да # ;
 %+дыр%<mod_ind%>:%>%{D%}%{I%}р # ;   ! FIXME: twol size acts like this is causative
+%+имиш%<mod_dub%>:% имиш # ;
 !%го%<mod_ass%>:го # ;
 !%да%<mod_tru%>:да # ;
 # ;
@@ -1183,7 +1184,6 @@ LEXICON V-PERS-COP ! P_3
 !%+э%<cop%>%<neg%>:% эмес V-PERS-COP-SUF ; 
 !%+э%<cop%>%<evid%>:% экен V-PERS-COP-SUF ; 
 !%+э%<cop%>%<neg%>%<evid%>:% эмес% экен V-PERS-COP-SUF ; 
-%+э%<cop%>%<dub%>%<aor%>:м%{I%}ш V-PERS-COP-SUF ;
 
 
 LEXICON V-PERS-COP-SUF 
