@@ -4679,7 +4679,7 @@ LEXICON Nouns
 чыбык:чыбык N-INFL ; 
 жоомарт:жоомарт N-INFL ; 
 байпак:байпак N-INFL ; 
-! шорпо:шорпо N-INFL ; ! "removing duplicate" 
+шорпо:шорпо N-INFL ;
 эргежээл:эргежээл N-INFL ; 
 жума:жума N-INFL ; ! "Friday" 
 ишенби:ишенби N-INFL ; 
@@ -7878,6 +7878,7 @@ LEXICON Nouns
 ыйгарымдуу% элчи:ыйгарымдуу% элчи N-INFL ; ! Use/MT
 антена:антена N-INFL ; ! "antenna"
 кеңдик:кеңдик N-INFL ; ! "width"
+жол% багыты:жол% багыты N-INFL ; ! "güzergah" ! Use/MT
 
 
 ! Abbreviations
@@ -16018,10 +16019,11 @@ cубъективдүү:cубъективдүү A4 ; ! ""
 
 дөңгөлөгү% бар:дөңгөлөгү% бар A4 ; ! "wheeled" ! Use/MT
 дарагы% бар:дарагы% бар A4 ; ! "betreed" ! Use/MT
-өткөн:өткөн A4 ; ! "previous, last" ! Use/MT
+өткөн:өткөн A3 ; ! "previous, last" ! Use/MT
 ишин% билген:ишин% билген A3 ; ! "professional" ! Use/MT 
 адилеттүү:адилеттүү A3 ; ! "just" ! FIXME: CHECK A3,
 абдан% чоң:абдан% чоң A3 ; ! "huge" ! Use/MT ! FIXME: THIS IS TERRIBLE
+абдан% жаман:абдан% жаман A3 ; ! "terrible" ! Use/MT ! FIXME: THIS IS TERRIBLE
 нормалдуу:нормалдуу A1 ; ! "normal"
 соңку:соңку A3 ; ! "final"
 баштапкы:баштапкы A2 ; ! "initial, entry-level"
