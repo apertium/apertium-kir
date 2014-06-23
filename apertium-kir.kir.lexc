@@ -18047,6 +18047,7 @@ LEXICON Punctuation
 %:%<sent%>:%: # ;
 %!%<sent%>:%! # ;
 %-%<guio%>:%- # ;
+%—%<guio%>:%— # ;
 ,%<cm%>:, # ;
 %?%<sent%>:%? # ; 
 %'%<apos%>:%' # ;
