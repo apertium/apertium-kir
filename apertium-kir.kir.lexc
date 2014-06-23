@@ -7879,6 +7879,7 @@ LEXICON Nouns
 антена:антена N-INFL ; ! "antenna"
 кеңдик:кеңдик N-INFL ; ! "width"
 жол% багыты:жол% багыты N-INFL ; ! "güzergah" ! Use/MT
+жан% сакчы:жан% сакчы N-INFL ; ! "body guard" ! Use/MT
 
 
 ! Abbreviations
@@ -8951,6 +8952,7 @@ Aйталы:Aйталы NP-ANT-M ; ! "Aytğalıy" (Arabic)
 Айтуган:Айтуган NP-ANT-M ; ! "Aytıwğan" (Kazakh)
 Айтуды:Айтуды NP-ANT-M ; ! "Aytıwdı" (Arabic)
 Айша:Айша NP-ANT-F ; ! "Aysha" (Arabic)
+Айше:Айше NP-ANT-F ; ! "Ayshe" (Arabic)
 Айшаиым:Айшаиым NP-ANT-F ; ! "Ayshaiım" (Kazakh)
 Айшолпан:Айшолпан NP-ANT-F ; ! "Aysholpan" (Kazakh)
 Айшуак:Айшуак NP-ANT-M ; ! "Ayshıwaq" (Kazakh)
@@ -16113,6 +16115,7 @@ LEXICON Adverbs
 чынында:чынында ADV ; ! FIXME: not a lemma: "in truth"
 жай:жай ADV ; 
 жартылай:жартылай ADV ; 
+жарым-жартылай:жарым-жартылай ADV ; 
 дагы% эле:дагы% эле ADV ; ! FIXME: compositional
 көбүнчө:көбүнчө ADV ; 
 кайакта:кайакта ADV ; ! FIXME: INTERROGATIVE
@@ -16366,6 +16369,8 @@ LEXICON Adverbs
 ушуга% чейин ADV ; ! "until now" ! Use/MT
 атайын:атайын ADV ; ! "purposely"
 алдын% ала:алдын% ала ADV ; ! "beforehand, ahead of time" ! Use/MT
+өтө% эле:өтө% эле ADV ; ! "extremely" ! Use/MT
+бүтүндөй:бүтүндөй ADV ; ! "nearly all" ! Use/MT
 
 
 !! FIXME: productive {K}{I} forms
