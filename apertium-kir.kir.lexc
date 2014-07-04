@@ -1847,6 +1847,7 @@ PRON-DEM-BUL ; ! "this"
 кээ% бир:кээ% бир PRON-QNT ; ! "some"
 бир% нече:бир% нече PRON-QNT ; ! "some, several"
 көптөгөн:көптөгөн PRON-QNT ; ! "many"
+бардык:бардык PRON-QNT ;
 
 бири%-бири:бири%-бир PRON-RECIP ; ! "each other, one another"
 ! ал% жак PRON-DEM ;
@@ -1944,77 +1945,6 @@ XIX NUM-ROMAN ; ! ""
 
 LEXICON Nouns
 
-! байкалган N-INFL ; ! productive
-! байкоо:байкоо N-INFL ; ! "removing duplicate" 
-! байлык:байлык N-INFL ; ! "removing duplicate" 
-! бактылуу:бактылуу N-INFL ;   ! ADJ
-! бактылуу:бактылуу N-INFL ; ! ADJ
-! балдыз N-INFL ; 
-! бар:бар N-INFL ; ! "should be adj see A3 section" 
-! бардыгы:бардыгы N-INFL ; ! "FIXME this is pronoun adj section also" 
-! бардыгы:бардыгы N-INFL ; ! "removing duplicate" 
-! басма:басма N-INFL ; ! "removing duplicate" 
-! батыш:батыш N-INFL ; ! "removing duplicate" 
-! баш:баш N-INFL ; ! "removing duplicate" 
-! башкача:башкача N-INFL ; 
-! баштапкы:баштапкы N-INFL ; ! "should be adj see A3 section" 
-! башчы     ! FIXME
-! башчы:башчы N-INFL ; ! "removing duplicate" 
-! баягы N-INFL ;   ! Not a noun!!
-! баян:баян N-INFL ; ! "removing dulpicate" 
-! бедел:бедел N-INFL ; ! "removing duplicate" 
-! бекем:бекем N-INFL ; ! "should be adj see A2 section" 
-! бел:бел N-INFL ; ! "removing duplicate" 
-! белги:белги N-INFL ; ! "removing duplicate" 
-! белгисиз:белгисиз N-INFL ; ! "removing duplicate" 
-! белгисиз:белгисиз N-INFL ; ! "should be adj see A3 section" 
-! бет:бет N-INFL ; ! "removing duplicate" 
-! бийлик:бийлик N-INFL ; ! "removing duplicate" 
-! билдирүү:билдирүү N-INFL ; ! "removing duplicate" 
-! билерик:билерик N-INFL ; ! "removing duplicate" 
-! билим N-INFL ;
-! билим N-INFL ; 
-! билим% берүү N-INFL ;
-! билимдүү N-INFL ;
-! бир N-INFL ;
-! бир% канча N-INFL ;  ! BAD: Determiner
-! бир% канча:бир% канча N-INFL ; ! "defined in DET-QNT" 
-! бирдик:бирдик N-INFL ; ! "removing duplicate" 
-! бириккен:бириккен N-INFL ; ! "should be adj see A3  section" 
-! бирикме:бирикме N-INFL ; ! "removing duplicate" 
-! бирөө N-INFL ;   ! BAD: Pronoun
-! бирөө N-INFL ;  ! BAD: Pronoun
-! бирөө N-INFL ; ! BAD: pronoun
-! бирөөсү N-INFL ;  ! BAD: Pronoun
-! бирөөсү N-INFL ; ! BAD: Pronoun
-! божомол:божомол N-INFL ; ! "removing duplicate" 
-! боор:боор N-INFL ; ! "removing duplicate" 
-! борбор:борбор N-INFL ; ! "removing duplicate" 
-! борбордук:борбордук N-INFL ; ! "should be adj see A3 section" 
-! бороон:бороон N-INFL ; ! "removing duplicate" 
-! боштондук:боштондук N-INFL ; ! "removing duplicate" 
-! буйрук:буйрук N-INFL ; ! "removing duplicate" 
-! бул% жак N-INFL ; 
-! булак:булак N-INFL ; ! "removing duplicate" 
-! булак:булак N-INFL ; ! "removing duplicate" s
-! булут:булут N-INFL ; ! "removing duplicate" 
-! булуң:булуң N-INFL ; ! "removing duplicate" 
-! бутак:бутак N-INFL ; ! "removing duplicate" 
-! буу:буу N-INFL ; ! "removing duplicate" 
-! буудай:буудай N-INFL ; ! "removing duplicate" 
-! буурчак:буурчак N-INFL ; ! "removing duplicate" 
-! бычак:бычак N-INFL ; ! "removing duplicate" 
-! бүгүн:бүгүн N-INFL ;
-! бүтүн N-INFL ; ! ADJ
-! бөбөк:бөбөк N-INFL ; ! "removing duplicate" 
-! бөз:бөз N-INFL ; ! "removing duplicate" 
-! бөйрөк:бөйрөк N-INFL ; ! "removing duplicate" 
-! бөлмө N-INFL ;
-! бөлүк:бөлүк N-INFL ; ! "removing duplicate" 
-! бөлүм:бөлүм N-INFL ; ! "removing duplicate" 
-! бөлүштүрмө:бөлүштүрмө N-INFL ; ! "removing duplicate" 
-! валюта:валюта N-INFL ; ! "removing duplicate" 
-! велосипед:велосипед N-INFL ; ! "removing duplicate" 
 ! гарантия:гарантия N-INFL ; ! "removing duplicate" 
 ! гезит:гезит N-INFL ; ! "removing duplicate" 
 ! генерал-полковник N-INFL ; ! "removing duplicate" 
@@ -2408,15 +2338,10 @@ LEXICON Nouns
 ! тыгыз:тыгыз N-INFL ; ! "should be adj see A1 section" 
 ! тынчтык:тынчтык N-INFL ; ! "removing duplicate" 
 ! тыш:тыш N-INFL ; ! "removing duplicate -KI section" 
-! түндүк% батыш:түндүк% батыш N-INFL ; ! "should be adj see A5 section" 
-! түндүк% чыгыш:түндүк% чыгыш N-INFL ; ! "should be adj see A5 section" 
-! түндүк:түндүк N-INFL ; ! "removing duplicate" 
 ! түп:түп N-INFL ; ! "removing duplicate" 
 ! түр:түр N-INFL ; ! "removing duplicate" 
 ! түрдүү:түрдүү N-INFL ; ! "should be adj see A2 section" 
 ! түрмө:түрмө N-INFL ; ! "removing duplicate" 
-! түштүк% батыш:түштүк% батыш N-INFL ; ! "should be adj see A5 section" 
-! түштүк% чыгыш:түштүк% чыгыш N-INFL ; ! "should be adj see A5 section" 
 ! төмөн N-INFL ;
 ! төшөк:төшөк N-INFL ; ! "removing duplicate" 
 ! убада:убада N-INFL ; ! "removing duplicate" 
@@ -3214,7 +3139,6 @@ LEXICON Nouns
 бекзаада:бекзаада N-INFL ; 
 бекитүү:бекитүү N-INFL ;
 бел:бел N-INFL ; ! "waist" 
-белги:белги N-INFL ; ! "symbol" 
 белгилөө:белгилөө N-INFL ;
 белек:белек N-INFL ;
 бензин:бензин N-INFL ;
@@ -3225,12 +3149,11 @@ LEXICON Nouns
 бет:бет N-INFL ; ! "page, face" 
 бета:бета N-INFL ;
 бетеге:бетеге N-INFL ; ! "Овсяница (лат. Festuca) — род травянистых растений семейства Злаки (Poaceae)." 
-бетер:бетер N-INFL ; 
 бетер:бетер N-INFL ; ! FIXME
 бетон:бетон N-INFL ; 
 бетпак:бетпак N-INFL ; 
 бечера:бечера N-INFL ;
-беш:беш N-INFL ;
+беш:беш N-INFL ; ! FIXME: check
 бешик:бешик N-INFL ; 
 бешик:бешик N-INFL ; ! "cradle"
 бешмант:бешмант N-INFL ; ! "легкая приталенная одежда на подкладке до колен" 
@@ -3281,56 +3204,52 @@ LEXICON Nouns
 боло% турган:боло% турган N-INFL ;
 болот:болот N-INFL ;
 болуш:болуш N-INFL ; ! "волость в дореволюционном периоде" 
-бомба:бомба N-INFL ;
-бомбалоо:бомбалоо N-INFL ;
-боо:боо N-INFL ; 
+бомба:бомба N-INFL ; ! "bomb"
+бомбалоо:бомбалоо N-INFL ; ! "bombing"
+боо:боо N-INFL ; ! "knot/band/etc."
 бооз:бооз N-INFL ; 
-боор:боор N-INFL ; 
+боор:боор N-INFL ; ! "liver"
 боордош:боордош N-INFL ; ! "" 
 бор:бор N-INFL ;
 борбор:борбор N-INFL ; ! "capital"
-бороон:бороон N-INFL ; 
-бочка:бочка N-INFL ; 
+бороон:бороон N-INFL ; ! "storm/blizzard"
+бочка:бочка N-INFL ; ! "barrel"
 бошотуу:бошотуу N-INFL ;
 боштондук:боштондук N-INFL ; 
 боштук:боштук N-INFL ;
-боёк:боёк N-INFL ; 
+боёк:боёк N-INFL ; ! "paint"
 бразилия:бразилия N-INFL ;
 бригада:бригада N-INFL ;
 брифинг:брифинг N-INFL ;
 бронз:бронз N-INFL ; 
 брошюра:брошюра N-INFL ; 
-бугу:бугу N-INFL ; 
+бугу:бугу N-INFL ; ! "buck"
 буддизм:буддизм N-INFL ; 
 бузуку:бузуку N-INFL ;
 бузукулук:бузукулук N-INFL ; ! "" 
 бузуу:бузуу N-INFL ; 
-буйрук:буйрук N-INFL ; 
-бука:бука N-INFL ; 
+буйрук:буйрук N-INFL ; ! "command"
+бука:бука N-INFL ; ! "bull"
 букара:букара N-INFL ; 
 буктурма:буктурма N-INFL ;
-булак:булак N-INFL ; 
+булак:булак N-INFL ; ! "spring, source"
 буламык:буламык N-INFL ; 
 булганыч:булганыч N-INFL ; 
-булут:булут N-INFL ; 
+булут:булут N-INFL ; ! "cloud"
 булуң:булуң N-INFL ;
-булчуң:булчуң N-INFL ;
+булчуң:булчуң N-INFL ; ! "muscle"
 бульдозер:бульдозер N-INFL ;
 бурсат:бурсат N-INFL ; 
-бурч:бурч N-INFL ;
-бурч:бурч N-INFL ; 
-бут% кийим:бут% кийим N-INFL ; 
-бут:бут N-INFL ; 
+бурч:бурч N-INFL ; ! "corner"
+бут% кийим:бут% кийим N-INFL ; ! "footwear/shoe"
 бут:бут N-INFL ; ! "leg"
 бута:бута N-INFL ; ! "" 
-бутак:бутак N-INFL ; 
+бутак:бутак N-INFL ; ! "branch"
 бутпарас:бутпарас N-INFL ; 
-буу:буу N-INFL ; 
-буудай:буудай N-INFL ; 
+буу:буу N-INFL ; ! "steam"
+буудай:буудай N-INFL ; ! "wheat"
 буура:буура N-INFL ; ! "male camel" 
-буурчак:буурчак N-INFL ; 
-быйыл:быйыл N-INFL ; ! "" 
-былтыр:былтыр N-INFL ; 
+буурчак:буурчак N-INFL ; ! "pea"
 бысмылда:бысмылда N-INFL ; 
 бычак:бычак N-INFL ; 
 бычым:бычым N-INFL ; 
@@ -3348,14 +3267,14 @@ LEXICON Nouns
 бүрсүгүнү:бүрсүгүнү N-INFL ; ! "not adv?" 
 бүтүрүүчү:бүтүрүүчү N-INFL ;
 бүчүр:бүчүр N-INFL ; 
-бөбөк:бөбөк N-INFL ; 
-бөгөт:бөгөт N-INFL ; ! "" 
+бөбөк:бөбөк N-INFL ; ! "baby"
+бөгөт:бөгөт N-INFL ; ! "dam?" 
 бөжөк:бөжөк N-INFL ; ! "leveret, hare" 
 бөз:бөз N-INFL ; 
 бөйрөк:бөйрөк N-INFL ; 
 бөксө:бөксө N-INFL ; 
 бөкөн:бөкөн N-INFL ; ! "сайгак" 
-бөлмө:бөлмө N-INFL ;
+бөлмө:бөлмө N-INFL ; ! "room"
 бөлчөк:бөлчөк N-INFL ; ! "" 
 бөлүк:бөлүк N-INFL ; 
 бөлүм:бөлүм N-INFL ;
@@ -3371,12 +3290,12 @@ LEXICON Nouns
 ваза:ваза N-INFL ; 
 вазелин:вазелин N-INFL ; 
 вазыйпа:вазыйпа N-INFL ; 
-вакуум:вакуум N-INFL ; 
+вакуум:вакуум N-INFL ; ! "vacuum"
 вакцина:вакцина N-INFL ; 
 валет:валет N-INFL ; 
-вальс:вальс N-INFL ; 
-валюта:валюта N-INFL ; 
-вампир:вампир N-INFL ; 
+вальс:вальс N-INFL ; ! "waltz"
+валюта:валюта N-INFL ; ! "currency"
+вампир:вампир N-INFL ; ! "vampire"
 ванадий:ванадий N-INFL ; 
 ваниль:ваниль N-INFL ; 
 ванна:ванна N-INFL ; ! "" 
@@ -3388,13 +3307,13 @@ LEXICON Nouns
 вебсайт:веб%-сайт N-INFL ; ! "website" Dir/LR
 вегетариан:вегетариан N-INFL ; 
 вексель:вексель N-INFL ;
-вектор:вектор N-INFL ; 
-велосипед:велосипед N-INFL ; 
-венок:венок N-INFL ;
-вентилятор:вентилятор N-INFL ; 
-веранда:веранда N-INFL ; 
+вектор:вектор N-INFL ; ! "vector"
+велосипед:велосипед N-INFL ; ! "bicycle"
+венок:венок N-INFL ; ! "wreath"
+вентилятор:вентилятор N-INFL ; ! "fan"
+веранда:веранда N-INFL ; ! "veranda"
 вертолёт:вертолёт N-INFL ; ! "helicopter"
-ветеринар:ветеринар N-INFL ; 
+ветеринар:ветеринар N-INFL ; ! "veterinarian"
 взвод:взвод N-INFL ; 
 вибрация:вибрация N-INFL ; 
 видео:видео N-INFL ;
@@ -6486,7 +6405,6 @@ LEXICON Nouns
 убада:убада N-INFL ; 
 убайым:убайым N-INFL ; ! "" 
 убак:убак N-INFL ;
-убактылуу:убактылуу N-INFL ;
 убакыт:убакыт N-INFL ; 
 убал:убал N-INFL ;
 убара:убара N-INFL ; ! "" 
@@ -7353,6 +7271,9 @@ LEXICON Nouns
 күн:күн N-INFL-KI ; ! "day"
 ! ай KI ; ! "month"  ! DOESN'T HAVE -KI FORM (takes LUU)
 кеч:кеч N-INFL-KI ; ! "evening"
+
+быйыл:быйыл N-INFL ; ! "this year"  see KI ADVs
+былтыр:былтыр N-INFL ; ! "last year" see KI ADVs
 
 !аст:астын N-INFL-JUST-KI ; ! "lower"
 !алд:алдын N-INFL-JUST-KI ; ! "forward"
@@ -14065,7 +13986,6 @@ cубъективдүү:cубъективдүү A4 ; ! ""
 бар:бар A3 ; ! "" 
 баштапкы:баштапкы A3 ; ! "" 
 бириккен:бириккен A3 ; ! "" 
-бүгүнкү:бүгүнкү A3 ; ! "" 
 жашар:жашар A3 ; ! "" 
 жеке:жеке A3 ; ! "" 
 жылкы:жылкы A3 ; ! "" 
@@ -14538,7 +14458,6 @@ cубъективдүү:cубъективдүү A4 ; ! ""
 !абдан% жаман ADJ ; 
 ! түндүк:түндүк ADJ ; ! "moved to A5 section" 
 ! түштүк% чыгыш ADJ ; ! "moved to A5 section" 
-! батыш:батыш ADJ ; ! "moved to A5 section" 
 ! кичинекей:кичинекей A1 ; ! "moved to A2 section" 
 ! кээбир:кээбир ADJ ; ! "defined in DET-IND" 
 ! айрым:айрым A1 ; ! "moved to A3 section" 
@@ -14728,7 +14647,6 @@ cубъективдүү:cубъективдүү A4 ; ! ""
 тетири:тетири ADJ ;
 эпидемиялык:эпидемиялык ADJ ;
 ошондой:ошондой ADJ ;
-! түндүк% батыш ADJ ; ! "moved to A5 section" 
 көркөмдүү:көркөмдүү ADJ ;
 кооз:кооз ADJ ;
 караңгы:караңгы A1 ;
@@ -14746,7 +14664,6 @@ cубъективдүү:cубъективдүү A4 ; ! ""
 бышкан:бышкан ADJ ;
 ! атактуу:атактуу ADJ ; ! "removing duplicate" 
 тең:тең A1 ;
-! түштүк% батыш ADJ ; ! "moved to A5 section" 
 кепилдиктүү:кепилдиктүү ADJ ;
 ! жапайы:жапайы ADJ ; ! "moved to A2 section" 
 кош% бойлуу ADJ ;
@@ -14804,7 +14721,6 @@ cубъективдүү:cубъективдүү A4 ; ! ""
 досчо:досчо ADJ ;
 жөө:жөө ADJ ;
 ойго:ойго ADJ ;
-! бириккен:бириккен ADJ ; ! "moved to A3 section" 
 ! суюк:суюк ADJ ; ! "removing duplicate" 
 ! расмий:расмий ADJ ; ! "removing duplicate" 
 эр% жеткен ADJ ;
@@ -15325,7 +15241,7 @@ cубъективдүү:cубъективдүү A4 ; ! ""
 ыраак:ыраак A1 ; ! "" 
 өзгө:өзгө A1 ; ! "" 
 бөтөн:бөтөн A1 ; ! "" 
-бүтүн:бүтүн A1 ; ! "" 
+бүтүн:бүтүн A1 ; ! "" FIXME: check
 дайым:дайым A1 ; ! "" 
 килейген:килейген A1 ; ! "FIXME is it A1?" 
 дурус:дурус A1 ; ! "" 
@@ -17474,7 +17390,6 @@ LASTDIGIT-REST ; ! Use/Circ
 ! резерв:резерв ADJ ; ! Dir/RL
 ! жалгыз:жалгыз ADJ ; ! Dir/RL
 ! беркиси:беркиси ADJ ; ! Dir/RL
-! бактылуу:бактылуу ADJ ; ! Dir/RL
 !
 ! этникалык:этникалык N-INFL ; ! Dir/RL
 ! эрте:эрте N-INFL ; ! Dir/RL
@@ -17515,7 +17430,6 @@ LASTDIGIT-REST ; ! Use/Circ
 ! бирдей:бирдей N-INFL ; ! Dir/RL
 ! башкы% эпископ:башкы% эпископ N-INFL ; ! Dir/RL ! FIXME: compositional
 ! байланыштуу:байланыштуу N-INFL ; ! Dir/RL
-! байкалган:байкалган N-INFL ; ! Dir/RL
 ! айуу N-INFL ; ! Dir/RL  ! FIXME: spelled аюу
 ! аз:аз N-INFL ; ! Dir/RL
 ! адабий N-INFL ; ! Dir/RL  ! FIXME: ADJ
