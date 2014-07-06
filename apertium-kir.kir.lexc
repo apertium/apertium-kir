@@ -193,6 +193,8 @@ Multichar_Symbols
 % 
 %+ 
 %-
+%.
+%,
 
 !@P.NEG.0@   ! Set if -{I}š is not present
 !@P.NEG.1@   ! Set if -{I}š is present
