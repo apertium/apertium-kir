@@ -240,12 +240,12 @@ LEXICON CASE-NONOM
 ! only it does not include nominative
 !   1<num><nom> = 1, 1<num><acc> = 1-{N}{I}
 
-%<gen%>:%>%{N%}%{I%}н CLITICS-NO-COP ;
-%<dat%>:%>%{G%}%{A%} CLITICS-NO-COP ;
+%<gen%>:%>%{N%}%{I%}н CLIT-NONPRED ;
+%<dat%>:%>%{G%}%{A%} CLIT-NONPRED ;
 %<acc%>:%>%{N%}%{I%} CLIT-NONPRED ;
-%<abl%>:%>%{D%}%{A%}н CLIT-NONPRED ;
-%<loc%>:%>%{D%}%{A%} CLIT-NONPRED ;
-%<ins%>:%>%{M%}ен CLITICS-NO-COP ;
+
+%<abl%>:%>%{D%}%{A%}н PRED ;
+%<loc%>:%>%{D%}%{A%} PRED ;
 
 LEXICON CASE-ETC-NONOM
 
@@ -1159,10 +1159,6 @@ V-CLIT ;  ! TODO: I guess these aren't technically necessary?
 LEXICON CLIT-NONPRED
 V-CLIT-BI ; ! FIXME: can we just do V-CLIT ?
 # ;
-
-LEXICON CLITICS-NO-COP 
-
-V-CLIT-OTHER ; 
 
 LEXICON V-CLIT-BI
 
