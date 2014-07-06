@@ -601,6 +601,11 @@ LEXICON NP-ANT-F
 
 %<np%>%<ant%>%<f%>: POSSESSION ;
 
+LEXICON NP-ANT-MF
+
+NP-ANT-M ; 
+NP-ANT-F ; 
+
 LEXICON NP-PAT-VICH
 
 ! For patronyms ending with -вич
