@@ -1945,16 +1945,6 @@ XIX NUM-ROMAN ; ! ""
 
 LEXICON Nouns
 
-! гарантия:гарантия N-INFL ; ! "removing duplicate" 
-! гезит:гезит N-INFL ; ! "removing duplicate" 
-! генерал-полковник N-INFL ; ! "removing duplicate" 
-! генерал:генерал N-INFL ; ! "removing duplicate" 
-! география:география N-INFL ; ! "removing duplicate" 
-! глобалдуу:глобалдуу N-INFL ; ! "should be adj see A4 section for глобалдык" 
-! глобалдык:глобалдык N-INFL ; ! "shoul be adj see A4 section" 
-! гуманисттик:гуманисттик N-INFL ; ! "removing duplicate" 
-! гуманисттик:гуманисттик N-INFL ; ! "should be adj see A4 section" 
-! гүч:гүч N-INFL ; 
 ! даана:даана N-INFL ; ! "removing duplicate" 
 ! далил:далил N-INFL ; ! "removing duplicate" 
 ! дан:дан N-INFL ; ! "removing duplicate" 
@@ -3355,27 +3345,27 @@ LEXICON Nouns
 гарнитур:гарнитур N-INFL ; 
 гастрит:гастрит N-INFL ; 
 гвардия:гвардия N-INFL ; 
-гезит:гезит N-INFL ; 
+гезит:гезит N-INFL ; ! "newspaper"
 гектар:гектар N-INFL ; 
 ген:ген N-INFL ; 
 генерал%-полковник:генерал%-полковник N-INFL ;
-генерал:генерал N-INFL ; 
+генерал:генерал N-INFL ; ! "general"
 генералдык% штаб:генералдык% штаб N-INFL ;
-генератор:генератор N-INFL ; 
-генетика:генетика N-INFL ; 
-генотип:генотип N-INFL ; 
-геноцид:геноцид N-INFL ;
-географ:географ N-INFL ; ! ""
+генератор:генератор N-INFL ; ! "generator"
+генетика:генетика N-INFL ; ! "genetics"
+генотип:генотип N-INFL ; ! "genotype"
+геноцид:геноцид N-INFL ; ! "genocide"
+географ:географ N-INFL ; ! "geographer"
 география:география N-INFL ; ! "geography"
 геодезия:геодезия N-INFL ; 
-геолог:геолог N-INFL ; 
-геология:геология N-INFL ; 
-геометрия:геометрия N-INFL ; 
-гепатит:гепатит N-INFL ; 
-герб:герб N-INFL ; 
-героин:героин N-INFL ; 
-гестапо:гестапо N-INFL ; 
-гигиена:гигиена N-INFL ;
+геолог:геолог N-INFL ; ! "geologist"
+геология:геология N-INFL ; ! "geology"
+геометрия:геометрия N-INFL ; ! "geometry"
+гепатит:гепатит N-INFL ; ! "hepatitis"
+герб:герб N-INFL ; ! "coat of arms"
+героин:героин N-INFL ; ! "heroin"
+гестапо:гестапо N-INFL ; ! "gestapo"
+гигиена:гигиена N-INFL ; ! "hygiene"
 гидро% электрикалык:гидро% электрикалык N-INFL ;
 гимнастика:гимнастика N-INFL ; 
 гинеколог:гинеколог N-INFL ; 
@@ -13543,7 +13533,7 @@ LEXICON Adjectives
 грамматикалык:грамматикалык A4 ; ! "" 
 графикалык:графикалык A4 ; ! "" 
 гумандуу:гумандуу A4 ; ! "" 
-гумандуу:гуманисттик A4 ; ! "" Dir/LR
+гуманисттик:гуманисттик A4 ; ! ""
 гуманитардык:гуманитардык A4 ; ! "" 
 дедуктивдик:дедуктивдик A4 ; ! "" 
 дедуктивдик:дедуктивдүү A4 ; ! "" Dir/LR
@@ -13560,7 +13550,7 @@ LEXICON Adjectives
 дүйнөлүк:дүйнөлүк A4 ; ! "" 
 евразиялык:евразиялык A4 ; ! "" 
 глобалдык:глобалдык A4 ; ! "" 
-глобалдык:глобалдуу A4 ; ! "" Dir/LR
+глобалдык:глобалдуу A4 ; ! "" Dir/LR ! FIXME: check
 элдик:элдик A4 ; ! "" 
 мыйзамдуу:мыйзамдуу A4 ; ! "" 
 мыйзамдуу:закондуу A4 ; ! "" Dir/LR
@@ -14380,7 +14370,6 @@ cубъективдүү:cубъективдүү A4 ; ! ""
 ! байкоосуз:байкоосуз ADJ ; ! "moved to A4 section" 
 ! кетик:кетик ADJ ; ! "moved to A3 section" 
 ! геометриялык:геометриялык ADJ ; ! "moved to A4 section" 
-! глобалдуу:глобалдуу ADJ ; ! "see глобалдык in A4 section" 
 ! идеологиялык:идеологиялык ADJ ; ! "moved to A4 section" 
 ! информациялык:информациялык ADJ ; ! "moved to A4 section" 
 ! ипичке:ипичке ADJ ; ! "moved to A4 section" 
@@ -15323,7 +15312,7 @@ cубъективдүү:cубъективдүү A4 ; ! ""
 соңку:соңку A3 ; ! "final"
 баштапкы:баштапкы A2 ; ! "initial, entry-level"
 пассивдүү:пассивдүү A2 ; ! "passive"
-глобалдуу:глобалдуу A2 ; ! "global" ! Use/MT
+глобалдуу:глобалдуу A2 ; ! "global" ! FIXME: was MT-only, why?
 ! автономдуу N-INFL ; ! FIXME: regular ADJ form
 
 
