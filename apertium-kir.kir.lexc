@@ -667,6 +667,10 @@ LEXICON NUM-COMMON
 %<num%>: # ;
 %<num%>%<subst%>: SUBST ;
 
+LEXICON NUM-ROMAN
+
+%<num%>%<ord%>: # ; 
+
 LEXICON NUM
 
 NUM-COMMON ;
@@ -1190,7 +1194,7 @@ LEXICON V-PERS-COP-SUF-NOSG3
 
 LEXICON V-PERS-COP ! P_3
 
-!%+э%<cop%>: V-PERS-COP-SUF-NOSG3 ; 
+%+э%<cop%>: V-PERS-COP-SUF-NOSG3 ; ! Dir/RL
 %+э%<cop%>%<aor%>: V-PERS-COP-SUF ; 
 !%+э%<cop%>%<neg%>:% эмес V-PERS-COP-SUF ; 
 !%+э%<cop%>%<evid%>:% экен V-PERS-COP-SUF ; 
@@ -1930,28 +1934,27 @@ LEXICON Numerals
 ! and is of questionable grammaticality
 
 
-I NUM-ROMAN ; ! ""
-II NUM-ROMAN ; ! ""
-III NUM-ROMAN ; ! ""
-IV NUM-ROMAN ; ! ""
-V NUM-ROMAN ; ! ""
-VI NUM-ROMAN ; ! ""
-VII NUM-ROMAN ; ! ""
-VIII NUM-ROMAN ; ! ""
-IX NUM-ROMAN ; ! ""
-X NUM-ROMAN ; ! ""
-XI NUM-ROMAN ; ! ""
-XI NUM-ROMAN ; ! ""
-XII NUM-ROMAN ; ! ""
-XIII NUM-ROMAN ; ! ""
-XIV NUM-ROMAN ; ! ""
-XV NUM-ROMAN ; ! ""
-XVI NUM-ROMAN ; ! ""
-XVII NUM-ROMAN ; ! ""
-XVIII NUM-ROMAN ; ! ""
-XX NUM-ROMAN ; ! ""
-XXI NUM-ROMAN ; ! ""
-XIX NUM-ROMAN ; ! ""
+I:I NUM-ROMAN ; ! ""
+II:II NUM-ROMAN ; ! ""
+III:III NUM-ROMAN ; ! ""
+IV:IV NUM-ROMAN ; ! ""
+V:V NUM-ROMAN ; ! ""
+VI:VI NUM-ROMAN ; ! ""
+VII:VII NUM-ROMAN ; ! ""
+VIII:VIII NUM-ROMAN ; ! ""
+IX:IX NUM-ROMAN ; ! ""
+X:X NUM-ROMAN ; ! ""
+XI:XI NUM-ROMAN ; ! ""
+XII:XII NUM-ROMAN ; ! ""
+XIII:XIII NUM-ROMAN ; ! ""
+XIV:XIV NUM-ROMAN ; ! ""
+XV:XV NUM-ROMAN ; ! ""
+XVI:XVI NUM-ROMAN ; ! ""
+XVII:XVII NUM-ROMAN ; ! ""
+XVIII:XVIII NUM-ROMAN ; ! ""
+XX:XX NUM-ROMAN ; ! ""
+XXI:XXI NUM-ROMAN ; ! ""
+XIX:XIX NUM-ROMAN ; ! ""
 
 
 LEXICON Nouns
