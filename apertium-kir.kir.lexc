@@ -261,6 +261,7 @@ LEXICON SUBST-NONOM
 N-INFL-COMMON-NONOM ;
 %<pl%>:%>%{L%}%{A%}р N-INFL-COMMON-NONOM ;
 
+
 LEXICON SQRD
 ! This lexicon includes common ways of writing squared, cubed etc.
 
@@ -475,10 +476,20 @@ LEXICON EXI
 %<adj%>: ATTR ;
 %<adj%>%<subst%>: POSSESSION ;
 
+LEXICON ABESSIVE-SUFFIX
+
+%+сыз%<post%>:%>с%{I%}з # ;
+
+LEXICON LI-SUFFIX
+
+%+лы%<post%>:%>л%{I%} # ;
+
 LEXICON SUBST-COMMON
 
 %<pl%>:%>%{L%}%{A%}р POSSESSION ;
 POSSESSION ;
+ABESSIVE-SUFFIX ; 
+LI-SUFFIX ; 
 
 LEXICON N1-ABBR
 
@@ -1171,11 +1182,11 @@ LEXICON V-PERS-COP-SUF-NOSG3
 %<p1%>%<sg%>:%>м%{I%}н V-CLIT ; 
 %<p2%>%<sg%>:%>с%{I%}ң V-CLIT ; 
 %<p2%>%<frm%>%<sg%>:%>с%{I%}з V-CLIT ; 
-!%<p3%>%<sg%>: V-CLIT ;    ! P3 forms are null and look stupid
+%<p3%>%<sg%>: V-CLIT ;  ! Dir/RL  ! P3 forms are null and look stupid
 %<p1%>%<pl%>:%>%{B%}%{I%}з V-CLIT ; 
 %<p2%>%<pl%>:%>с%{I%}ң%{A%}р V-CLIT ;  
 %<p2%>%<frm%>%<pl%>:%>с%{I%}зд%{A%}р V-CLIT ;  
-!%<p3%>%<pl%>: V-CLIT ; ! P3 forms are null and look stupid
+%<p3%>%<pl%>: V-CLIT ; ! ! Dir/RL  ! P3 forms are null and look stupid
 
 LEXICON V-PERS-COP ! P_3
 
