@@ -86,7 +86,7 @@ Multichar_Symbols
 
 %<pst%>     ! Positive level of comparison
 %<comp%>    ! Comparative level of comparison 
-%<sup%>	    ! Superlative level of comparison 
+%<sup%>     ! Superlative level of comparison 
 %<ord%>     ! Ordinal
 %<sim%>     ! Similative
 %<attr%>    ! -KI suffix, adjectivaliser
@@ -240,17 +240,17 @@ LEXICON CASE-NONOM
 ! only it does not include nominative
 !   1<num><nom> = 1, 1<num><acc> = 1-{N}{I}
 
-%<gen%>:%>%{N%}%{I%}н COMMON-CLITICS ;
-%<dat%>:%>%{G%}%{A%} COMMON-CLITICS ;
+%<gen%>:%>%{N%}%{I%}н CLITICS-NO-COP ;
+%<dat%>:%>%{G%}%{A%} CLITICS-NO-COP ;
 %<acc%>:%>%{N%}%{I%} CLIT-NONPRED ;
 %<abl%>:%>%{D%}%{A%}н CLIT-NONPRED ;
 %<loc%>:%>%{D%}%{A%} CLIT-NONPRED ;
-%<ins%>:%>%{M%}ен COMMON-CLITICS ;
+%<ins%>:%>%{M%}ен CLITICS-NO-COP ;
 
 LEXICON CASE-ETC-NONOM
 
 CASE-NONOM ;
-GENPOSS-ETC ;
+!GENERAL-POSSESSIVE-ETC ; 
 
 LEXICON N-INFL-COMMON-NONOM
 
@@ -289,7 +289,7 @@ LEXICON NUM-DIGIT
 
 ! See PRON-COLL
 !%<num%>%<coll%>%<advl%>:%-%{A%}у # ; ! FIXME: оо/өө
-!%<num%>%<coll%>%<nom%>:%-%{A%}у # ;	 ! FIXME: оо/өө
+!%<num%>%<coll%>%<nom%>:%-%{A%}у # ; ! FIXME: оо/өө
 !%<num%>%<coll%>:%-%{A%}у SUBST-NONOM ;
 
 %<num%>%<percent%>:%% # ;
@@ -352,7 +352,6 @@ LEXICON LASTDIGIT-REST
 LEXICON POWERS
 %0%0:%0%0%{ү%}%{з%}     NUM-DIGIT ; ! "жүз"
 %0%0%0:%0%0%0%{э%}%{з%} NUM-DIGIT ; ! "миң"
-
 
 LEXICON LOOP
 
@@ -1161,6 +1160,9 @@ LEXICON CLIT-NONPRED
 V-CLIT-BI ; ! FIXME: can we just do V-CLIT ?
 # ;
 
+LEXICON CLITICS-NO-COP 
+
+V-CLIT-OTHER ; 
 
 LEXICON V-CLIT-BI
 
@@ -14368,7 +14370,7 @@ cубъективдүү:cубъективдүү A4 ; ! ""
 ! жаман:жаман A1 ; ! "bad" 
 ! сом:сом ADJ ; ! "pure" ! "moved to A4 section" 
 ! кыз:кыз ADJ ; ! "" ! "don't know the adj form for this" 
-!эң ADJ ; ! "most"	
+!эң ADJ ; ! "most"
 ! илимий:илимий A1 ; ! "scientific" ! "moved to A4 section" 
 ! инсанча:инсанча ADJ ; ! "moved to A4 section" 
 ! кишиче:кишиче ADJ ; ! "moved to A4 section" 
@@ -14892,7 +14894,7 @@ cубъективдүү:cубъективдүү A4 ; ! ""
 сатиралык:сатиралык ADJ ; ! ""
 ! синтетикалык:синтетикалык ADJ ; ! "" ! "moved to A4 section" 
 системалык:системалык ADJ ; ! ""
-суммалык:суммалык ADJ ; ! ""  	
+суммалык:суммалык ADJ ; ! ""  
 суткалык:суткалык ADJ ; ! ""
 ! температуралык:температуралык ADJ ; ! "" ! "moved to A4 section" 
 термикалык:термикалык ADJ ; ! 
@@ -15606,7 +15608,7 @@ LEXICON Adverbs
 ! бүтүндөй ADV ;
 кичине:кичине ADV ;
 апачык:апачык ADV ;
-күтүүсүздөн:күтүүсүздөн ADV ;	
+күтүүсүздөн:күтүүсүздөн ADV ;
 алдында:алдында ADV ;  ! See bidix
 !барган% сайын ADV ; ! done with <ger> and POSTP
 !бери ADV ; ! FIXME: POSTPOS!
