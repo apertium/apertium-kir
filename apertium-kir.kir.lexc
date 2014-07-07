@@ -482,7 +482,7 @@ LEXICON ABESSIVE-SUFFIX
 
 LEXICON LI-SUFFIX
 
-%+лы%<post%>:%>л%{I%} # ;
+%+луу%<post%>:%>%{L%}%{U%}%{U%} # ;
 
 LEXICON SUBST-COMMON
 
