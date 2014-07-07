@@ -61,6 +61,7 @@ tests/ky-pronouns.yaml -text
 tests/ky-verbs.pairtest -text
 tests/ky-verbs.yaml -text
 tests/ky-verbs2.yaml -text
+tests/ky-verbs3pl.yaml -text
 tests/ky-verbsaux.yaml -text
 tests/ky-verbsimp.yaml -text
 tests/ky-verbsopt.yaml -text
