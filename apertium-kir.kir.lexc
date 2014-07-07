@@ -7140,6 +7140,9 @@ LEXICON Nouns
 жол% багыты:жол% багыты N-INFL ; ! "güzergah" ! Use/MT
 жан% сакчы:жан% сакчы N-INFL ; ! "body guard" ! Use/MT
 башкы% эпископ:башкы% эпископ N-INFL ; ! Use/MT
+белги:белги N-INFL ; ! "sign, symbol"
+мазмун:мазмун N-INFL ; ! "contents"
+буюм:буюм N-INFL ; ! "thing"
 
 
 ! Abbreviations
@@ -16732,6 +16735,7 @@ LEXICON Verbs
 кажет% бол:кажет% бол V-INFL-IV ; ! "be necessary"
 заявление% бер:заявление% бер V-INFL-IV ; ! "apply (for)" ! Use/MT
 элестет:элестет V-INFL-TV ; ! "imagine"
+текшер:текшер V-INFL-TV ; ! "check"
 
 
 LEXICON Abbreviations
