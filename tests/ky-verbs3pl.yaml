@@ -1,0 +1,32 @@
+Config:
+  hfst:
+    App: hfst-lookup
+    Gen: ../kir.autogen.hfst
+    Morph: ../kir.automorf.hfst
+
+Tests:
+
+  "[lexc] aorist forms":
+    бол<v><iv><aor><coop><p3><pl> : болушат
+    бол<v><iv><aor><p3><pl> : болушат
+    бол<v><iv><aor><p3><pl> : болот
+    бол<v><iv><aor><p3><sg> : болот
+
+  "[lexc] negative aorist forms":
+    бол<v><iv><neg><aor><coop><p3><pl> : болушпайт
+    бол<v><iv><neg><aor><p3><pl> : болушпайт
+    бол<v><iv><neg><aor><p3><pl> : болбойт
+    бол<v><iv><neg><aor><p3><sg> : болбойт
+
+  "[lexc] ifi forms":
+    бол<v><iv><ifi><coop><p3><pl> : болушту
+    бол<v><iv><ifi><p3><pl> : болушту
+    бол<v><iv><ifi><p3><pl> : болду
+    бол<v><iv><ifi><p3><sg> : болду
+
+  "[lexc] negative aorist forms":
+    бол<v><iv><neg><ifi><coop><p3><pl> : болушкан жок
+    бол<v><iv><neg><ifi><p3><pl> : болушкан жок
+    бол<v><iv><neg><ifi><p3><pl> : болгон жок
+    бол<v><iv><neg><ifi><p3><sg> : болгон жок
+
