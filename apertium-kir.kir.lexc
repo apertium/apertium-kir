@@ -15719,6 +15719,7 @@ LEXICON Verbs
 өлчө:өлчө V-INFL-TV ; 
 өр:өр V-INFL-TV ; 
 өрттө:өрттө V-INFL-TV ; 
+өрттөн:өрттөн V-INFL-IV ; ! FIXME: irregular passive
 өч:өч V-INFL-IV-NO-CAUS ; ! "turn off"
 өч:өчүр V-INFL-IV-IRREG-CAUS ; ! "make turn off"
 сүр:сүр V-INFL-TV ;
@@ -15962,7 +15963,7 @@ LEXICON Verbs
 көп% иште:көп% иште V-INFL-IV ;   ! "work a lot"   ! Use/Trmorph
 алек% бол:алек% бол V-INFL-TV ;
 жогол:жогол V-INFL-TV ;
-адаш:адаш V-INFL-IV ;
+адаш:адаш V-INFL-IV ; ! "err,be mistaken,loose one's way,get lost"
 сөз% кыл:сөз% кыл V-INFL-TV ;
 !тий V-INFL-TV ;
 чачыра:чачыра V-INFL-IV ;
@@ -16737,6 +16738,7 @@ LEXICON Verbs
 заявление% бер:заявление% бер V-INFL-IV ; ! "apply (for)" ! Use/MT
 элестет:элестет V-INFL-TV ; ! "imagine"
 текшер:текшер V-INFL-TV ; ! "check"
+алсыра:алсыра V-INFL-IV ; ! "get weak, lose strength"
 
 
 LEXICON Abbreviations
