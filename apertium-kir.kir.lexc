@@ -3459,7 +3459,7 @@ LEXICON Nouns
 делегация:делегация N-INFL ; 
 дельта:дельта N-INFL ; 
 дем% алыш:дем% алыш N-INFL ; ! "" 
-дем:дем N-INFL ; 
+дем:дем N-INFL ; ! "breath, strength"
 демагог:демагог N-INFL ; 
 демагогия:демагогия N-INFL ; 
 демилге:демилге N-INFL ;
@@ -5218,7 +5218,7 @@ LEXICON Nouns
 ноябрь:ноябрь N-INFL ;
 нур:нур N-INFL ; ! "" 
 нуска:нуска N-INFL ; 
-ным:ным N-INFL ; 
+ным:ным N-INFL ; ! "moisture"
 нюанс:нюанс N-INFL ; 
 нөкөр:нөкөр N-INFL ; ! "" 
 нөөмөт:нөөмөт N-INFL ; 
@@ -16739,6 +16739,7 @@ LEXICON Verbs
 элестет:элестет V-INFL-TV ; ! "imagine"
 текшер:текшер V-INFL-TV ; ! "check"
 алсыра:алсыра V-INFL-IV ; ! "get weak, lose strength"
+куру:куру V-INFL-IV ; ! "disappear"
 
 
 LEXICON Abbreviations
