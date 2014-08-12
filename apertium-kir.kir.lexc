@@ -1145,7 +1145,14 @@ LEXICON PRON-RECIP
 LEXICON PRON-COLL   ! "Collective"(?) pronoun-like numbers
 
 %<num%>%<coll%>%<advl%>: # ;
-%<num%>%<coll%>: POSSESSION ;
+%<num%>%<coll%>%<subst%>%<nom%>: # ;
+%<num%>%<coll%>: SUBST-NONOM ;
+
+! OLD STUFF:
+!%<num%>%<coll%>%<advl%>:%-%{A%}у # ; ! FIXME: оо/өө
+!%<num%>%<coll%>%<nom%>:%-%{A%}у # ; ! FIXME: оо/өө
+!%<num%>%<coll%>:%-%{A%}у SUBST-NONOM ;
+
 
 
 
