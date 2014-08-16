@@ -798,7 +798,7 @@ LEXICON DAGI
 !!%<subst%>%<pl%>:%{L%}%{A%}р POSSESSION ;  ! This is instead of the line below
 !%<subst%>: SUBST-COMMON ;  ! Use/Circ  !! FIXME: when we go recursie, uncomment
 
-%<loc%>%<attr%>:%>%{D%}%{A%}г%{I%} # ;
+%<loc%>%<attr%>:%>%{D%}%{A%}г%{I%} CLITICS-NO-COP ;
 !%<loc%>%<subst%>:%>%{D%}%{A%}г%{I%} SUBST-COMMON ;  ! Use/Circ  !! FIXME: when we go recursie, uncomment
 %<loc%>%<subst%>:%>%{D%}%{A%}г%{I%} CASES ;
 %<loc%>%<subst%>%<pl%>:%>%{D%}%{A%}г%{I%}%>%{L%}%{A%}р CASES ;
