@@ -1540,6 +1540,10 @@ LEXICON Miscellaneous
 ! ! FIXME: Add the other forms as Dir/LR
 бы%<qst%>:%~бы # ; ! Dir/RL 
 бы%<qst%>:бы # ; ! Dir/LR 
+бекен%<qst%>:%~бекен # ; ! Dir/RL
+бекен%<qst%>:бекен # ; ! Dir/LR
+го%<mod_ass%>:%~го # ; ! Dir/RL
+го%<mod_ass%>:го # ; ! Dir/LR
 
 LEXICON Postadverbs
 
