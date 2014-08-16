@@ -111,9 +111,11 @@ Multichar_Symbols
 %<prc_pcond%> ! "would have" etc.
 
 %<gna_perf%>
-%<gna_prp%>
+! %<gna_prp%>
 %<gna_cond%>
 %<gna_ala%>   ! "as long as"
+%<gna_until%>
+%<gna_after%> ! was: gna_prp
 
 %<ger_fut%>
 %<ger_past%>
@@ -1349,6 +1351,10 @@ LEXICON V-INFL-NON-FINITE-IRREG
 %<gna_perf%>:%>%{I%}п # ;
 %<neg%>%<gna_perf%>:%>%{B%}%{A%}%>%{E%} # ;
 
+%<gna_until%>:%>%{G%}%{A%}нч%{A%} CLITICS-NO-COP ;
+%<gna_after%>:%>%{G%}%{A%}н%{I%} CLITICS-NO-COP ;
+
+
 ! Gerunds
 %<ger_fut%>:%>%{A%}р GER-INFL ;     ! <coop> IS only ?
 %<ger_fut%>:%>%{A%}%{A%}р GER-INFL ;                        ! Dir/LR
@@ -1387,7 +1393,8 @@ LEXICON V-INFL-NON-FINITE-REG
 %<prc_past%>:%>%{G%}%{A%}н # ; ! 
 
 ! Verbal adverbs
-%<gna_prp%>:%>%{G%}%{A%}н%{I%} # ;  ! rare IS
+! %<gna_prp%>:%>%{G%}%{A%}н%{I%} # ;  ! rare IS
+! - changed to gna_after 2024-08-16 JNW
 %<gna_cond%>:%>с%{A%} V-PERS-COND ;
 
 ! Gerunds
