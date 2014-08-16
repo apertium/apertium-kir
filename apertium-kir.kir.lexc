@@ -423,6 +423,7 @@ CASES-DEFAULT ;
 LEXICON NIKI
 
 %<gen%>%<subst%>:%>%{N%}%{I%}к%{I%}%{n%} CASES ;
+%<px%>:%>%{N%}%{I%}к%{I%}%{n%} CASES ; ! Dir/RL
 
 LEXICON GEN-POS
 CASES ;
