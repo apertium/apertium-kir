@@ -881,7 +881,7 @@ LEXICON ADVITG
 
 LEXICON POST
 
-%<post%>: # ; 
+%<post%>: V-CLIT ; 
 
 LEXICON POST-DECL
 
