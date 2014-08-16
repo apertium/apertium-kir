@@ -1418,6 +1418,7 @@ LEXICON V-INFL-NON-FINITE-REG
 !  Imperatives
 
 %<imp%>%<p2%>%<sg%>: IMP ;
+%<imp%>%<p2%>%<pl%>:%>%{I%}ң%>д%{A%}р IMP ;
 %<imp%>%<p2%>%<frm%>%<sg%>:%>%{I%}ң%{I%}з IMP ;
 %<imp%>%<p2%>%<frm%>%<sg%>:%>%{I%}ң IMP ;                      ! Dir/LR
 %<imp%>%<p2%>%<frm%>%<pl%>:%>%{I%}ң%{I%}з%>%{L%}%{A%}р IMP ;
