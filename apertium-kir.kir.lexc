@@ -1342,6 +1342,7 @@ LEXICON V-INFL-NON-FINITE-IRREG
 %<prc_perf%>:%>%{I%}п # ;
 !%<neg%>%<prc_real%>:%>%{B%}%{A%}%>%{E%} # ;
 %<neg%>%<prc_perf%>:%>%{B%}%{A%}%>%{E%} # ;
+%<prc_plan%>:%>%{G%}%{A%}н%{I%} CLIT-GANA-ETC ;
 
 ! Verbal adverbs
 %<gna_ala%>:%>м%{A%}й%{I%}нч%{A%} # ;       ! no negative form  ! rare IS
