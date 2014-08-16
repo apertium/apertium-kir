@@ -1274,16 +1274,6 @@ LEXICON V-PERS-COND ! P_4
 ! Really these should allow деле, да, дагы, etc. afterwards
 !  .. but maybe those are best allowed to be their own words :)
 
-!¶@D.NEG.1@%<p1%>%<sg%>:@D.NEG.1@%>%{I%}м # ;
-!¶@D.NEG.1@%<p2%>%<sg%>:@D.NEG.1@%>%{I%}ң # ;
-!¶@D.NEG.1@%<p2%>%<frm%>%<sg%>:@D.NEG.1@%>%{I%}ң%{I%}з # ;
-!¶@D.NEG.1@%<p3%>%<sg%>:@D.NEG.1@ # ;
-!¶@D.NEG.1@%<p1%>%<pl%>:@D.NEG.1@%>%{I%}к # ;
-!¶@D.NEG.1@%<p2%>%<pl%>:@D.NEG.1@%>%{I%}ң%{A%}р # ;
-!¶@D.NEG.1@%<p2%>%<frm%>%<pl%>:@D.NEG.1@%>%{I%}ң%{I%}зд%{A%}р # ;
-!¶%<p3%>%<pl%>: # ;  
-
-
 %<p1%>%<sg%>:%>%{I%}м CLITICS-NO-COP ;
 %<p2%>%<sg%>:%>%{I%}ң CLITICS-NO-COP ;
 %<p2%>%<frm%>%<sg%>:%>%{I%}ң%{I%}з CLITICS-NO-COP ;
