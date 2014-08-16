@@ -479,11 +479,11 @@ LEXICON EXI
 
 LEXICON ABESSIVE-SUFFIX
 
-%+сыз%<post%>:%>с%{I%}з # ;
+%+сыз%<post%>:%>с%{I%}з CLITICS-NO-COP ;
 
 LEXICON LI-SUFFIX
 
-%+луу%<post%>:%>%{L%}%{U%}%{U%} # ;
+%+луу%<post%>:%>%{L%}%{U%}%{U%} CLITICS-NO-COP ;
 
 LEXICON SUBST-COMMON
 
@@ -1157,7 +1157,31 @@ LEXICON PRON-COLL   ! "Collective"(?) pronoun-like numbers
 !%<num%>%<coll%>:%-%{A%}у SUBST-NONOM ;
 
 
+LEXICON CLIT-QST
 
+V-CLIT-BI ;
+%+беле%<qst%>:% беле # ;
+%+бекен%<qst%>:% бекен # ;
+!%+чы%<mod_foc%>:%>ч%{I%} # ;
+%+чы%<qst%>:%>ч%{I%} # ;
+# ;
+
+LEXICON CLIT-MODASS
+
+%+го%<mod_ass%>:% го # ;
+# ;
+
+LEXICON CLIT-GANA-ETC
+
+!!! FIXME: These are all in POSTADV in Kyrgyz
+# ;
+
+
+LEXICON CLITICS-NO-COP
+
+CLIT-QST ;
+CLIT-MODASS ;
+CLIT-GANA-ETC ;
 
 
 LEXICON PRED
@@ -1178,11 +1202,8 @@ LEXICON V-CLIT-BI
 
 LEXICON V-CLIT-OTHER
 
-%+беле%<qst%>:% беле # ;
-%+бекен%<qst%>:% бекен # ;
-!%+чы%<mod_foc%>:%>ч%{I%} # ;
-%+чы%<qst%>:%>ч%{I%} # ;
-%+го%<mod_ass%>:% го # ;
+CLIT-QST ;
+CLIT-MODASS ;
 %+да%<mod_tru%>:% да # ;
 %+дыр%<mod_ind%>:%>%{D%}%{I%}р # ;   ! FIXME: twol size acts like this is causative
 %+имиш%<mod_dub%>:% имиш # ;
