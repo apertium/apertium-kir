@@ -99,14 +99,14 @@ Multichar_Symbols
 %<asif%>          ! a verbal affix adding "as if ..." to the meaning
 %<pcond%>         ! conditional something "would X"
 
-%<prc_plan%>
+%<prc_plan%>  ! was: purposive
 %<prc_past%>
 %<prc_cond%>
 %<prc_perf%>
 %<prc_impf%>
 %<prc_vol%>   ! volitional
 %<prc_irre%>  ! irrealis
-%<prc_prp%>   ! purposive
+! %<prc_prp%>   ! purposive
 %<prc_real%>  ! realis
 %<prc_pcond%> ! "would have" etc.
 
