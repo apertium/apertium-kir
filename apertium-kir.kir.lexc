@@ -1392,11 +1392,11 @@ LEXICON V-INFL-NON-FINITE-REG
 %<prc_cond%>:%>с%{A%} V-PERS-COND ;
 %<prc_pcond%>:%>м%{A%}к # ;    ! in -мАк эле- etc.
 %<prc_past%>:%>%{G%}%{A%}н # ; ! 
-%<prc_fplan%>:%>м%{A%}й # ;    !  бармай болдум - I decided to go
+%<prc_fplan%>:%>м%{A%}й CLITICS-NO-COP ;    !  бармай болдум - I decided to go
 
 ! Verbal adverbs
 ! %<gna_prp%>:%>%{G%}%{A%}н%{I%} # ;  ! rare IS
-! - changed to gna_after 2024-08-16 JNW
+! - changed to gna_after 2014-08-16 JNW
 %<gna_cond%>:%>с%{A%} V-PERS-COND ;
 
 ! Gerunds
