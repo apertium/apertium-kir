@@ -1349,8 +1349,8 @@ LEXICON V-INFL-NON-FINITE-IRREG
 
 ! Verbal adverbs
 %<gna_ala%>:%>м%{A%}й%{I%}нч%{A%} # ;       ! no negative form  ! rare IS
-%<gna_perf%>:%>%{I%}п # ;
-%<neg%>%<gna_perf%>:%>%{B%}%{A%}%>%{E%} # ;
+%<gna_perf%>:%>%{I%}п CLITICS-NO-COP ;
+%<neg%>%<gna_perf%>:%>%{B%}%{A%}%>%{E%} CLITICS-NO-COP ;
 
 %<gna_until%>:%>%{G%}%{A%}нч%{A%} CLITICS-NO-COP ;
 %<gna_after%>:%>%{G%}%{A%}н%{I%} CLITICS-NO-COP ;
