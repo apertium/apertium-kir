@@ -1378,7 +1378,8 @@ LEXICON V-INFL-NON-FINITE-REG
 %<plist%>:%>м%{A%}й # ;                                       ! huh? "-mAj is used mainly for listing"
 
 ! Participles
-%<prc_prp%>:%>%{G%}%{A%}н%{I%} # ;  ! rare IS
+! %<prc_prp%>:%>%{G%}%{A%}н%{I%} # ;  ! rare IS
+! - changed to prc_plan 2014-08-16 JNW
 %<prc_impf%>:%>%{E%} # ;   ! rare IS
 %<prc_irre%>:%>%{E%}т # ;
 %<prc_cond%>:%>с%{A%} V-PERS-COND ;
