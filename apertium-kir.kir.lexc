@@ -424,6 +424,7 @@ LEXICON NIKI
 
 %<gen%>%<subst%>:%>%{N%}%{I%}к%{I%}%{n%} CASES ;
 %<px%>:%>%{N%}%{I%}к%{I%}%{n%} CASES ; ! Dir/RL
+%<px%>:%>%{N%}%{I%}к%{I%}%{n%} CLITICS-NO-COP ; ! Dir/RL ! FMT: in -kaz this is what the gerunds get.
 
 LEXICON GEN-POS
 CASES ;
