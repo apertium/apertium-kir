@@ -1807,30 +1807,30 @@ LEXICON Determiners
 LEXICON Pronouns
 
 мен%<prn%>%<pers%>%<p1%>%<sg%>:м PRON-PERS-EN ; 
-мен%<prn%>%<pers%>%<p1%>%<sg%>%<advl%>:менимче CLIT ;
-мен%<prn%>%<pers%>%<p1%>%<sg%>%<advl%>:меникиче CLIT ; ! Dir/LR - different meaning than менимче!!
+мен%<prn%>%<pers%>%<p1%>%<sg%>%<adv%>:менимче CLIT ;
+мен%<prn%>%<pers%>%<p1%>%<sg%>%<adv%>:меникиче CLIT ; ! Dir/LR - different meaning than менимче!!
 
 сен%<prn%>%<pers%>%<p2%>%<sg%>:с PRON-PERS-EN ; 
-сен%<prn%>%<pers%>%<p2%>%<sg%>%<advl%>:сеникиче CLIT ;
+сен%<prn%>%<pers%>%<p2%>%<sg%>%<adv%>:сеникиче CLIT ;
 
 сиз%<prn%>%<pers%>%<p2%>%<frm%>%<sg%>:сиз PRON-PERS-IZ ; 
-сиз%<prn%>%<pers%>%<p2%>%<frm%>%<sg%>%<advl%>:сиздикиче CLIT ;
+сиз%<prn%>%<pers%>%<p2%>%<frm%>%<sg%>%<adv%>:сиздикиче CLIT ;
 
 ал%<prn%>%<pers%>%<p3%>%<sg%>:а PRON-PERS-AL ; 
-ал%<prn%>%<pers%>%<p3%>%<sg%>%<advl%>:аныкыча CLIT ; 
+ал%<prn%>%<pers%>%<p3%>%<sg%>%<adv%>:аныкыча CLIT ; 
 
 биз%<prn%>%<pers%>%<p1%>%<pl%>:биз PRON-PERS-IZ ; 
-биз%<prn%>%<pers%>%<p1%>%<pl%>%<advl%>:биздикиче CLIT ; 
-биз%<prn%>%<pers%>%<p1%>%<pl%>%<advl%>:бизче CLIT ; ! Dir/LR
+биз%<prn%>%<pers%>%<p1%>%<pl%>%<adv%>:биздикиче CLIT ; 
+биз%<prn%>%<pers%>%<p1%>%<pl%>%<adv%>:бизче CLIT ; ! Dir/LR
 
 силер%<prn%>%<pers%>%<p2%>%<pl%>:силер PRON-PERS-PLURALS ; 
-силер%<prn%>%<pers%>%<p2%>%<pl%>%<advl%>:силерче CLIT ; 
+силер%<prn%>%<pers%>%<p2%>%<pl%>%<adv%>:силерче CLIT ; 
 
 сиздер%<prn%>%<pers%>%<p2%>%<frm%>%<pl%>:сиздер PRON-PERS-PLURALS ; 
-сиздер%<prn%>%<pers%>%<p2%>%<frm%>%<pl%>%<advl%>:сиздерче CLIT ; 
+сиздер%<prn%>%<pers%>%<p2%>%<frm%>%<pl%>%<adv%>:сиздерче CLIT ; 
 
 алар%<prn%>%<pers%>%<p3%>%<pl%>:алар PRON-PERS-PLURALS ; 
-алар%<prn%>%<pers%>%<p3%>%<pl%>%<advl%>:алардыкыча CLIT ; 
+алар%<prn%>%<pers%>%<p3%>%<pl%>%<adv%>:алардыкыча CLIT ; 
 
 PRON-DEM-BUL ; ! "this" 
 ошол:ошо PRON-DEM-OSOL ; ! "that"
