@@ -109,6 +109,7 @@ Multichar_Symbols
 ! %<prc_prp%>   ! purposive
 %<prc_real%>  ! realis
 %<prc_pcond%> ! "would have" etc.
+%<prc_fplan%> ! planning to
 
 %<gna_perf%>
 ! %<gna_prp%>
@@ -1381,7 +1382,7 @@ LEXICON IMP
 
 LEXICON V-INFL-NON-FINITE-REG
 
-%<plist%>:%>м%{A%}й # ;                                       ! huh? "-mAj is used mainly for listing"
+! %<plist%>:%>м%{A%}й # ;                                       ! huh? "-mAj is used mainly for listing"
 
 ! Participles
 ! %<prc_prp%>:%>%{G%}%{A%}н%{I%} # ;  ! rare IS
@@ -1391,6 +1392,7 @@ LEXICON V-INFL-NON-FINITE-REG
 %<prc_cond%>:%>с%{A%} V-PERS-COND ;
 %<prc_pcond%>:%>м%{A%}к # ;    ! in -мАк эле- etc.
 %<prc_past%>:%>%{G%}%{A%}н # ; ! 
+%<prc_fplan%>:%>м%{A%}й # ;    !  бармай болдум - I decided to go
 
 ! Verbal adverbs
 ! %<gna_prp%>:%>%{G%}%{A%}н%{I%} # ;  ! rare IS
