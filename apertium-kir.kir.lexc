@@ -7275,6 +7275,9 @@ LEXICON Nouns
 ууру:ууру N-INFL ; ! "thief"
 ящур:ящур N-INFL ; ! "see шарп" ! Dir/LR
 көч:көч N-INFL ; ! "nomadic movement"
+айырбаш:айырбаш N-INFL ; ! "exchange"
+туура:туура N-INFL ; ! "width"
+көлдөлөң N-INFL ; ! "a stitched mat"
 
 
 ! Abbreviations
@@ -14225,7 +14228,7 @@ LEXICON Adjectives
 чыдамдуу:чыдамдуу A2 ; ! "" 
 шашылыш:шашылыш A2 ; ! "FIXME not sure about this" 
 ылайык:ылайык A2 ; ! "appropriate" 
-ылайык:ылайыксыз A4 ; ! ""
+ылайыксыз:ылайыксыз A4 ; ! ""
 ынтымактуу:ынтымактуу A2 ; ! "" 
 ээн:ээн A2 ; ! "" 
 үмүттүү:үмүттүү A2 ; ! "" 
@@ -15031,6 +15034,7 @@ LEXICON Adjectives
 аруу:аруу A3 ; ! "pure"
 атайын:атайын ADJ ; ! Use/MT
 тентек:тентек A1 ; ! "naughty, poorly behaved" ! FIXME: CHECK A1
+күтүүсүз:күтүүсүз A4 ; ! "unexpected"
 
 
 LEXICON Adverbs
