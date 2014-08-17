@@ -341,8 +341,9 @@ Cx:Cy <=>  [ :UnvoicedNonSonCns ]/[ [ :0 - [ %{n%}:0 | Abstract:0 ] ] | %-: | %>
         LastVowel in ( и  ү  е  э  ө  я  а  ё  о  ы  ю  у )
                matched ;
 
-"Deletion of й before yoticised vowels"
-й:0 <=> _ [ :YotVow ]/[ :0 | %>: ] ;
+"Deletion of й before yoticised vowels when not earlier in a stem"
+й:0 <=> _ %>: [ :YotVow ]/[ :0 ] ;
+
 
 
 !!!!!!!!!!!  {I}п stuff !!!!!!!!!!!!!
