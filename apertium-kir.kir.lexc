@@ -6079,7 +6079,7 @@ LEXICON Nouns
 там:там N-INFL ; 
 тамак:тамак N-INFL ; 
 тамаки:тамаки N-INFL ;
-таман:табан N-INFL ; 
+таман:таман N-INFL ; 
 тамаша:тамаша N-INFL ; 
 тамга:тамга N-INFL ; 
 тамеки:тамеки N-INFL ;
@@ -7228,6 +7228,9 @@ LEXICON Nouns
 айыптоо% сөзү:айыптоо% сөз N-INFL-3PX-COMPOUND ; ! ""  FIXME: MT-only?
 балапан:балапан N-INFL ; ! "chick"
 урпак:урпак N-INFL ; ! "[bran] siftings (отруби); descendant"
+кедерги:кедерги N-INFL ; ! "hinderance"
+кыйындык:кыйындык N-INFL ; ! "difficulty, hardship"
+турак:турак N-INFL ; ! "~habitation"
 
 
 ! Abbreviations
@@ -14983,6 +14986,7 @@ LEXICON Adjectives
 жашыруун:жашыруун A6 ; ! "secret; secretly (seems to be used adverbially, might also be comparable, see 2 examples provided by google"
 аруу:аруу A3 ; ! "pure"
 атайын:атайын ADJ ; ! Use/MT
+тентек:тентек ADJ ; ! "naughty, poorly behaved"
 
 
 LEXICON Adverbs
@@ -16829,6 +16833,7 @@ LEXICON Verbs
 текшер:текшер V-INFL-TV ; ! "check"
 алсыра:алсыра V-INFL-IV ; ! "get weak, lose strength"
 куру:куру V-INFL-IV ; ! "disappear"
+рамкала:рамкала V-INFL-TV ; ! "to frame / put in a frame ?"
 
 
 LEXICON Abbreviations
