@@ -7274,6 +7274,7 @@ LEXICON Nouns
 саан:саан N-INFL ; ! "milking (e.g., саан уй = milk cow, саан токтоду = milking is over)"
 ууру:ууру N-INFL ; ! "thief"
 ящур:ящур N-INFL ; ! "see шарп" ! Dir/LR
+көч:көч N-INFL ; ! "nomadic movement"
 
 
 ! Abbreviations
@@ -14152,8 +14153,8 @@ LEXICON Adjectives
 
 агыш:агыш A2 ; ! "" 
 агыш:акчыл A2 ; ! "" Dir/LR
-айыптуу:айыптуу A2 ; ! "" 
-айыптуу:күнөөлүү A2 ; ! "" Dir/LR
+айыптуу:айыптуу A2 ; ! "guilty" 
+күнөөлүү:күнөөлүү A2 ; ! "guilty" FIXME: check A2
 алыс:алыс A2 ; ! "" 
 арык:арык A2 ; ! "" 
 ачуу:ачуу A2 ; ! "" 
