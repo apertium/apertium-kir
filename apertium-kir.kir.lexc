@@ -1390,8 +1390,17 @@ LEXICON V-INFL-NON-FINITE-IRREG
 %<neg%>%<ger_fut%>:%>%{B%}%{A%}%>%с GER-INFL ;              !
 %<neg%>%<ger_fut%>:%>%{B%}%{A%}%>%{A%}с GER-INFL ;          ! Dir/LR
 
+! Affirmative forms with л{I}к may exist?
 %<ger_ppot%>:%>%{A%}р%>л%{I%}к GER-INFL ;                     ! Dir/LR
-%<ger_ppot%>:%>%{A%}%{A%}р%>л%{I%}к GER-INFL ;
+%<ger_ppot%>:%>%{A%}%{A%}р%>л%{I%}к GER-INFL ;                ! Dir/LR
+
+! Forms with only one {A} should be analysed
+%<ger_ppot%>:%>%{A%}р GER-INFL ;                              ! Dir/LR
+%<neg%>%<ger_ppot%>:%>%{A%}ст%{I%}к GER-INFL ;                ! Dir/LR
+
+! Forms with two {A}s should be generated
+%<ger_ppot%>:%>%{A%}%{A%}р GER-INFL ;
+%<neg%>%<ger_ppot%>:%>%{A%}%{A%}ст%{I%}к GER-INFL ;
 
 
 ! Verbal Adjectives
