@@ -2,8 +2,13 @@
 !!   M O R P H O L O G I C A L · T R A N S D U C E R · F O R · K Y R G Y Z   !!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-Multichar_Symbols
- 
+! See http://wiki.apertium.org/wiki/Turkic_lexicon
+
+!=================!
+ Multichar_Symbols
+!=================!
+
+! Part of speech categories = First-level tags
 %<n%>       ! Noun
 %<np%>      ! Proper noun
 %<adj%>     ! Adjective
@@ -22,9 +27,7 @@ Multichar_Symbols
 %<cnjsub%>  ! Subordinating conjunction
 %<cop%>     ! Copula
 
-%<iv%>      ! Intransitive 
-%<tv%>      ! Transitive
-
+! Cases
 %<nom%>     ! Nominative
 %<acc%>     ! Accusative
 %<dat%>     ! Dative
@@ -32,39 +35,12 @@ Multichar_Symbols
 %<loc%>     ! Locative
 %<abl%>     ! Ablative
 
+! "Syntactic" tags. Attributive use of non-adjectives etc.
 %<subst%>   ! substantive use of non-nouns
 %<attr%>    ! attributive use of non-adjectives
 %<advl%>    ! adverbial use of non adverbs
 
-%<m%>       ! Masculine
-%<f%>       ! Feminine
-%<mf%>      ! Masculine or feminine 
-
-%<pers%>    ! Personal 
-%<dem%>     ! Demonstrative
-%<ind%>     ! Indefinite
-%<qnt%>     ! Quantifier
-%<itg%>     ! Interrogative
-%<ref%>     ! Reflexive
-%<recip%>   ! Reciprocal
-%<coll%>    ! Collective (?)
-
-%<cmpd%>    ! Compound
-
-%<sg%>      ! Singular
-%<pl%>      ! Plural
-
-%<p1%>      ! First person
-%<p2%>      ! Second person
-%<p3%>      ! Third person
-
-%<px1sg%>   ! Possessive, first person singular
-%<px2sg%>   ! Possessive, second person singular
-%<px3sp%>   ! Possessive, third person singular/plural
-%<px1pl%>   ! Possessive, first person plural
-%<px2pl%>   ! Possessive, second person plural
-%<px%>      ! General possessive -ныкы
-
+! Proper noun types
 %<ant%>     ! Anthroponym (name of person)
 %<cog%>     ! Cognomen (second, or family name)
 %<pat%>     ! Patronym
@@ -72,10 +48,43 @@ Multichar_Symbols
 %<al%>      ! Other
 %<org%>     ! Organisation name
 
-%<frm%>     ! Formal
 
+!! gender of anthroponyms and cognoms
+%<m%>       ! Masculine
+%<f%>       ! Feminine
+%<mf%>      ! Masculine or feminine 
+
+!! Pronoun&Determiner types
+%<pers%>    ! Personal 
+%<dem%>     ! Demonstrative
+%<ind%>     ! Indefinite
+%<qnt%>     ! Quantifier
+%<itg%>     ! Interrogative
+%<ref%>     ! Reflexive
+%<recip%>   ! Reciprocal
 %<dem%>     ! Demonstrative
 %<neg%>     ! Negative
+
+
+%<cmpd%>    ! Compound
+
+! Number
+%<sg%>      ! Singular
+%<pl%>      ! Plural
+
+! Person
+%<p1%>      ! First person
+%<p2%>      ! Second person
+%<p3%>      ! Third person
+%<frm%>     ! Formal
+
+! Possessives
+%<px1sg%>   ! Possessive, first person singular
+%<px2sg%>   ! Possessive, second person singular
+%<px3sp%>   ! Possessive, third person singular/plural
+%<px1pl%>   ! Possessive, first person plural
+%<px2pl%>   ! Possessive, second person plural
+! %<px%>      ! General possessive -ныкы  ! CHANGED to %<ger%>%<subst%>
 
 %<qst%>     ! Question modal word and "what about" focus particle
 !%<mod_foc%> ! "what about ..." question particle
@@ -88,18 +97,32 @@ Multichar_Symbols
 %<pst%>     ! Positive level of comparison
 %<comp%>    ! Comparative level of comparison 
 %<sup%>     ! Superlative level of comparison 
-%<ord%>     ! Ordinal
 %<sim%>     ! Similative
 %<attr%>    ! -KI suffix, adjectivaliser
 
+
+! Numeral types
+%<ord%>     ! Ordinal
+%<coll%>    ! Collective (?)
+
+! Verbal features
+
+!! Derivation
 %<pass%>    ! Passive
 %<caus%>    ! Causative
 %<coop%>    ! Cooperative
-%<evid%>    ! Evidential
 
-%<asif%>          ! a verbal affix adding "as if ..." to the meaning
-%<pcond%>         ! conditional something "would X"
+!! Mood
+%<opt%>     ! Optative, -мAк>чI
+%<imp%>     ! imperative
 
+!! Transitivity
+%<iv%>      ! Intransitive 
+%<tv%>      ! Transitive
+
+!! Non-Finite verb forms
+
+!!! Participles
 %<prc_plan%>  ! was: purposive
 %<prc_past%>
 %<prc_cond%>
@@ -112,6 +135,7 @@ Multichar_Symbols
 %<prc_pcond%> ! "would have" etc.
 %<prc_fplan%> ! planning to
 
+!!! Verbal adverbs ! Глагольные наречия
 %<gna_perf%>
 ! %<gna_prp%>
 %<gna_cond%>
@@ -119,6 +143,7 @@ Multichar_Symbols
 %<gna_until%>
 %<gna_after%> ! was: gna_prp
 
+!!! Gerunds (verbal nouns)
 %<ger_fut%>
 %<ger_past%>
 %<ger_perf%>
@@ -129,7 +154,8 @@ Multichar_Symbols
 %<ger_notyet%>    ! Not-yet gerund, -E элек
 %<ger_ppot%>      ! Perfective(?) potential gerund
 
-%<gpr_fut%>       ! verbal adjectives = глагольное прилагательное
+!!! Verbal adjectives ! Глагольные причастия
+%<gpr_fut%>
 %<gpr_pot2%>
 %<gpr_perf%>
 %<gpr_past%>
@@ -139,11 +165,9 @@ Multichar_Symbols
 %<gpr_hab%>
 %<gpr_notyet%>  ! Not-yet verbal adjective, -E элек
 
-%<imp%>     ! imperative
-
+!! Tense / finite forms
 %<aor%>     ! Aorist, -E
 ! %<cond%>    ! Conditional, -сA
-%<opt%>     ! Optative, -мAк>чI
 %<past%>    ! Past tense
 %<pih%>     ! Past habitual
 %<pot%>     ! Potential, -чUдAй
@@ -155,7 +179,12 @@ Multichar_Symbols
 ! %<plist%>   ! Listing participle
 ! %<inf%>     ! Verbal noun, -үү
 ! %<inf2%>    ! Verbal noun, -иш
+%<asif%>    ! a verbal affix adding "as if ..." to the meaning
+%<pcond%>   ! conditional something "would X"
+%<evid%>    ! Evidential
 
+
+! Punctuation
 %<sent%>    ! Sentence marker
 %<guio%>    ! Hyphen
 %<cm%>      ! Comma
@@ -165,6 +194,9 @@ Multichar_Symbols
 %<quot%>    ! Quote marker 
 %<rpar%>    ! Parenthetical marker (right hand side) 
 %<lpar%>    ! Parenthetical marker (left hand side) 
+
+
+! Archiphonemes and escaped symbols
 
 %{E%}       ! Realised as 'а', 'е', 'о', 'ө', 'й' 
 %{A%}       ! Realised as 'а', 'е', 'о', 'ө' 
