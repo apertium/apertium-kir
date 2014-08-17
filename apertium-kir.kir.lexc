@@ -5192,46 +5192,47 @@ LEXICON Nouns
 мораль:мораль N-INFL ; 
 морфема:морфема N-INFL ; ! "morpheme"
 морфология:морфология N-INFL ; ! "morphology"
-моряк:деңизчи N-INFL ; ! "" Dir/LR
-моряк:моряк N-INFL ; ! "" 
+!моряк:деңизчи N-INFL ; ! "" Dir/LR
+деңизчи:деңизчи N-INFL ; ! "seaman"
+моряк:моряк N-INFL ; ! "seaman (same as деңизчи)"  ! Dir/LR
 мотив:мотив N-INFL ; 
 мотиватсия:мотиватсия N-INFL ;
 мотор:мотор N-INFL ; 
 мотоцикл:мотоцикл N-INFL ; 
 моюн% сунуу:моюн% сунуу N-INFL ;
-моюн:моюн N-INFL ; 
+моюн:моюн N-INFL ; ! "neck"
 моюнтурук:моюнтурук N-INFL ; 
-мрамор:мрамор N-INFL ; 
-мугалим:мугалим N-INFL ; 
+мрамор:мрамор N-INFL ; ! "marble (rock)"
+мугалим:мугалим N-INFL ; ! "teacher"
 мугалимдик:мугалимдик N-INFL ; ! "teacherhood"
 мударис:мударис N-INFL ; 
-муз:муз N-INFL ; 
-музей:музей N-INFL ;
-музоо:музоо N-INFL ; 
+муз:муз N-INFL ; ! "ice"
+музей:музей N-INFL ; ! "museum"
+музоо:музоо N-INFL ; ! "calf (animal)"
 музыка:музыка N-INFL ; 
 музыкант:музыкант N-INFL ;
 муктаж:муктаж N-INFL ; ! "" 
 муктаждык:муктаждык N-INFL ; 
-мумия:мумия N-INFL ; 
+мумия:мумия N-INFL ; ! "mummy"
 мунаажат:мунаажат N-INFL ; ! "" 
 мунаажат:мунажат N-INFL ; ! "" Dir/LR
 мунай:мунай N-INFL ; ! ""
-мунара:мунара N-INFL ;
+мунара:мунара N-INFL ; ! "tower"
 мунафык:мунафык N-INFL ; ! "" 
 мурас:мирас N-INFL ; ! "" Dir/LR
 мурас:мурас N-INFL ; 
 мураскор:мураскор N-INFL ; ! "" 
-мураскор:мурасчы N-INFL ; ! "" Dir/LR
+мурасчы:мурасчы N-INFL ; ! " (same as мураскор)" Dir/LR
 мурун:мур%{y%}н N-INFL ; ! "nose" ! FIXME: make work properly
 мурун:мурун N-INFL ; ! Dir/LR "nose" 
-мурут:мурут N-INFL ; 
+мурут:мурут N-INFL ; ! "mustache"
 мурч:мурч N-INFL ; ! "pepper" 
 мусапыр:мусапыр N-INFL ; 
 муссон:муссон N-INFL ; ! "monsoon"
-мусулман:мусулман N-INFL ;
+мусулман:мусулман N-INFL ; ! "muslim"
 мутация:мутация N-INFL ; ! "mutation"
-муун:муун N-INFL ; 
-муң:муң N-INFL ; 
+муун:муун N-INFL ; ! "joint, generation"
+муң:муң N-INFL ; ! "sorry"
 мыйзам% тышы:мыйзам% тышы N-INFL ;
 мыйзам% чыгарма:мыйзам% чыгарма N-INFL ;
 мыйзам:мыйзам N-INFL ;
@@ -7269,6 +7270,8 @@ LEXICON Nouns
 күнөөкөр:күнөөкөр N-INFL ; ! "sinner"
 төлөм:төлөм N-INFL ; ! "payment"
 чок:чок N-INFL ; ! "embers"
+салмак:салмак N-INFL ; ! "weight"
+саан:саан N-INFL ; ! "milking (e.g., саан уй = milk cow, саан токтоду = milking is over)"
 
 
 ! Abbreviations
@@ -16805,7 +16808,7 @@ LEXICON Verbs
 барымтала:барымтала V-INFL-TV ;
 рамкеле:рамкеле V-INFL-TV ;
 реформала:реформала V-INFL-TV ;
-саа:саа V-INFL-TV ;
+саа:саа V-INFL-TV ; ! "milk"
 сыдыр:сыдыр V-INFL-TV ;
 сый:сый V-INFL-IV ; ! "вмещаться"
 сыйдыр:сыйдыр V-INFL-TV ;
@@ -16873,6 +16876,7 @@ LEXICON Verbs
 алсыра:алсыра V-INFL-IV ; ! "get weak, lose strength"
 куру:куру V-INFL-IV ; ! "disappear"
 рамкала:рамкала V-INFL-TV ; ! "to frame / put in a frame ?"
+жыл:жыл V-INFL-IV ; ! "to move"
 
 
 LEXICON Abbreviations
