@@ -1802,6 +1802,8 @@ LEXICON Determiners
 кайсы:кайсыл DET-DEM ; ! "which?" ! FIXME: need morph to fix  ! Dir/LR
 кайсы:кайсы DET-DEM ; ! "which?" ! FIXME: need morph to fix
 
+канча:канча PRON-ITG ; ! "how many / how much"
+
 кайсы% бир:кайсы% бир DET-IND ;
 кандайдыр% бир:кандайдыр% бир DET-IND ; ! "some kind of"
 башка:башка DET-IND ;    ! FIXME: Hmmmm
