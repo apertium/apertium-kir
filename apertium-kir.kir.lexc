@@ -1116,15 +1116,14 @@ CASES ; ! WAS: CASES-ETC
 
 LEXICON PRON-REFL
 
-%<prn%>%<ref%>%<p1%>%<sg%>:%>%{I%}м PRON-REF-ADV ;
-%<prn%>%<ref%>%<p2%>%<sg%>:%>%{I%}ң PRON-REF-ADV ;
-%<prn%>%<ref%>%<p3%>%<sg%>:%>%{s%}%{I%}%{n%} PRON-REF-ADV ;
-%<prn%>%<ref%>%<p1%>%<pl%>:%>%{I%}б%{I%}з PRON-REF-ADV ;
-%<prn%>%<ref%>%<p2%>%<pl%>:%>%{I%}ң%{A%}р PRON-REF-ADV ;
-%<prn%>%<ref%>%<p3%>%<pl%>:%>%{L%}%{A%}р PRON-REF-ADV ; 
+%<prn%>%<ref%>%<px1sg%>:%>%{I%}м PRON-REF-ADV ;
+%<prn%>%<ref%>%<px2sg%>:%>%{I%}ң PRON-REF-ADV ;
+%<prn%>%<ref%>%<px3sp%>:%>%{s%}%{I%}%{n%} PRON-REF-ADV ;
+%<prn%>%<ref%>%<px1pl%>:%>%{I%}б%{I%}з PRON-REF-ADV ;
+%<prn%>%<ref%>%<px2pl%>:%>%{I%}ң%{A%}р PRON-REF-ADV ;
 
-%<prn%>%<ref%>%<p2%>%<sg%>%<frm%>:%>%{I%}ң%{I%}з PRON-REF-ADV ;
-%<prn%>%<ref%>%<p2%>%<pl%>%<frm%>:%>%{I%}ң%{I%}зд%{A%}р PRON-REF-ADV ;
+%<prn%>%<ref%>%<px2sg%>%<frm%>:%>%{I%}ң%{I%}з PRON-REF-ADV ;
+%<prn%>%<ref%>%<px2pl%>%<frm%>:%>%{I%}ң%{I%}зд%{A%}р PRON-REF-ADV ;
 
 ! WAS:
 !%<prn%>%<ref%>: POSSESSION ;
@@ -3643,7 +3642,7 @@ LEXICON Nouns
 дүрбү:дүрбү N-INFL ; 
 дүрбөлөң:дүрбөлөң N-INFL ; ! "" 
 дүң:дүң N-INFL ;
-дөбөт:дөбөт N-INFL ; ! "" 
+дөбөт:дөбөт N-INFL ; ! "sheep dog" 
 дөң:дөң N-INFL ; ! "" 
 дөө:дөө N-INFL ; 
 евалютсия:евалютсия N-INFL ; 
@@ -7207,6 +7206,7 @@ LEXICON Nouns
 көрүнүш:көрүнүш N-INFL ; ! "sight"
 айыптоо% сөзү:айыптоо% сөз N-INFL-3PX-COMPOUND ; ! ""  FIXME: MT-only?
 балапан:балапан N-INFL ; ! "chick"
+урпак:урпак N-INFL ; ! "[bran] siftings (отруби); descendant"
 
 
 ! Abbreviations
@@ -14157,6 +14157,7 @@ LEXICON Adjectives
 чыдамдуу:чыдамдуу A2 ; ! "" 
 шашылыш:шашылыш A2 ; ! "FIXME not sure about this" 
 ылайык:ылайык A2 ; ! "appropriate" 
+ылайык:ылайыксыз A4 ; ! ""
 ынтымактуу:ынтымактуу A2 ; ! "" 
 ээн:ээн A2 ; ! "" 
 үмүттүү:үмүттүү A2 ; ! "" 
