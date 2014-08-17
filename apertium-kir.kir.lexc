@@ -185,6 +185,7 @@
 
 
 ! Punctuation
+%<percent%> ! Percent
 %<sent%>    ! Sentence marker
 %<guio%>    ! Hyphen
 %<cm%>      ! Comma
