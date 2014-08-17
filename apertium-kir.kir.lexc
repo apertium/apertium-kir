@@ -7342,7 +7342,7 @@ LEXICON Nouns
 моңгол:моңгол N1 ;  ! "Mongol"
 моңгол:монгол N1 ;  ! "Mongol"    ! Dir/LR
 кыргыз:кыргыз N1 ; ! "Kyrgyz"
-түрк:түрк A3 ; ! "Turkish"
+түрк:түрк N1 ; ! "Turkish"
 ! кыргызча ADJ ; ! This should be automatically generated
 орус:орус N1 ; ! "Russian"
 булгар:булгар N1 ; ! "Bulgarian"
