@@ -7272,6 +7272,8 @@ LEXICON Nouns
 чок:чок N-INFL ; ! "embers"
 салмак:салмак N-INFL ; ! "weight"
 саан:саан N-INFL ; ! "milking (e.g., саан уй = milk cow, саан токтоду = milking is over)"
+ууру:ууру N-INFL ; ! "thief"
+ящур:ящур N-INFL ; ! "see шарп" ! Dir/LR
 
 
 ! Abbreviations
@@ -14767,7 +14769,7 @@ LEXICON Adjectives
 укмуштай:укмуштай ADJ ;
 улуттар% аралык ADJ ;
 ургаачы:ургаачы ADJ ;
-ууру:ууру ADJ ;
+! ууру:ууру ADJ ; ! moved to Nouns
 учтуу:учтуу ADJ ;
 ушак:ушак A1 ; 
 уятуу:уятуу ADJ ;
@@ -16304,8 +16306,8 @@ LEXICON Verbs
 алдан:алдан V-INFL-IV ;
 алдыр:алдыр V-INFL-TV ;
 арала:арала V-INFL-TV ;
-ары:ары V-INFL-TV ; ! "ары- III уставать, утомляться; изнуряться, худеть;"
-арыт:арыт V-INFL-TV ;
+ары:ары V-INFL-IV ; ! "ары- III уставать, утомляться; изнуряться, худеть;"
+арыт:арыт V-INFL-TV ; ! FIXME: productive
 заалимдик% кыл:заалимдик% кыл V-INFL-IV ;
 түгөт:түгөт V-INFL-TV ;
 бурул:бурул V-INFL-TV ;
