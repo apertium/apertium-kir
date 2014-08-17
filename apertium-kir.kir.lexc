@@ -67,6 +67,7 @@ Multichar_Symbols
 
 %<ant%>     ! Anthroponym (name of person)
 %<cog%>     ! Cognomen (second, or family name)
+%<pat%>     ! Patronym
 %<top%>     ! Toponym
 %<al%>      ! Other
 %<org%>     ! Organisation name
