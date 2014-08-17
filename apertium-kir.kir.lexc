@@ -723,6 +723,13 @@ NUM-COMMON ;
 %<num%>%<ord%>:%>%{I%}нч%{I%} # ;             ! FIXME: base form, <det> reading
 %<num%>%<ord%>%<subst%>:%>%{I%}нч%{I%} SUBST-COMMON ; ! Added <subst>
 
+LEXICON NUM-ITG
+
+%<num%>%<itg%>: # ;
+%<num%>%<itg%>%<subst%>: N-INFL-COMMON-NONOM ;
+%<num%>%<itg%>%<ord%>:%>%{I%}нч%{I%} N-INFL-COMMON-NONOM ;
+
+
 LEXICON NP-AL-PL
 
 %<np%>%<al%>: POSSESSION ;
@@ -2069,6 +2076,9 @@ XVIII:XVIII NUM-ROMAN ; ! ""
 XX:XX NUM-ROMAN ; ! ""
 XXI:XXI NUM-ROMAN ; ! ""
 XIX:XIX NUM-ROMAN ; ! ""
+
+нече:нече NUM-ITG ;
+канча:канча NUM-ITG ;
 
 
 LEXICON Nouns
