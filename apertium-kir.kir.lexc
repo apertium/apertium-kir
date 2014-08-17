@@ -1823,6 +1823,7 @@ LEXICON Postpositions
 карамагында:карамагында POST ;
 карамагындагы:карамагындагы POST ;
 бирге:бирге POST ;
+ары:ары POST ; ! "away from" + abl
 
 LEXICON Determiners
 
@@ -7285,6 +7286,7 @@ LEXICON Nouns
 болочок:болочок N-INFL ; ! "future"
 көк:көк N-INFL ; ! "sky, heaven"
 багуу:багуу N-INFL ; ! "care" ! Use/MT
+өлүк:өлүк N-INFL ; ! "corpse"
 
 
 ! Abbreviations
@@ -13611,7 +13613,7 @@ LEXICON Adjectives
 автономиялуу:автономиялуу A4 ; ! "" 
 автономиялуу:автономиялык A4 ; ! "" Dir/LR
 авторитардык:авторитардык A4 ; ! "" 
-авторитардык:өкүмчүл A4 ; ! "" Dir/LR
+өкүмчүл:өкүмчүл A4 ; ! "" was LR, CHECK meaning
 агротехникалык:агротехникалык A4 ; ! "" 
 адабий:адабий A4 ; ! "literary" 
 адаттагы:адаттагы A4 ; ! "" 
@@ -15416,6 +15418,7 @@ LEXICON Adverbs
 ! эмди ADV-WITH-KI-ABL ; ! "next/soon-to-be"
 эмдигиче:эмдигиче ADV ; ! "until now"
 
+!! The following delete ы/у/и/ү before adding KI
 ары:ары ADV-ABL ; ! "further away"           ! Dir/LR
 ары:ары ADV-WITH-ABL-REG ; ! "further away"
 ары:ар ADV-KI ; ! "further away"
