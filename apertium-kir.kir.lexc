@@ -15024,7 +15024,7 @@ LEXICON Adjectives
 жашыруун:жашыруун A6 ; ! "secret; secretly (seems to be used adverbially, might also be comparable, see 2 examples provided by google"
 аруу:аруу A3 ; ! "pure"
 атайын:атайын ADJ ; ! Use/MT
-тентек:тентек ADJ ; ! "naughty, poorly behaved"
+тентек:тентек A1 ; ! "naughty, poorly behaved" ! FIXME: CHECK A1
 
 
 LEXICON Adverbs
@@ -16798,7 +16798,8 @@ LEXICON Verbs
 күчөт:күчөт V-INFL-IV ; ! "наращивать"
 көзөмөлдө:көзөмөлдө V-INFL-TV ; ! "наблюдать,контролировать,проверять"
 менчиктештир:менчиктештир V-INFL-TV ; ! "to privatizate"
-абайла:абайла V-INFL-TV ; ! "cautious,attentive,beware"
+абайла:абайла V-INFL-TV ; ! "beware"
+абайла:абайла V-INFL-IV ; ! "be cautious,attentive"
 ая:ая V-INFL-TV ;
 баррикадала:баррикадала V-INFL-TV ;
 барымтала:барымтала V-INFL-TV ;
