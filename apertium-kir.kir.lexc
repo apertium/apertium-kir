@@ -1026,45 +1026,66 @@ LEXICON PRON-DEM-BUL
 
 бул%<prn%>%<dem%>%<pl%>:бу%>л%{A%}р CASES ;
 
-LEXICON PRON-DEM-OSOL
+LEXICON PRON-DEM-L
 
 %<prn%>%<dem%>%<nom%>:л PRED ;
 %<prn%>%<dem%>%<nom%>: PRED ;  ! Dir/LR
-%<prn%>%<dem%>%<gen%>:нун CLIT-NONPRED ;
-%<prn%>%<dem%>%<acc%>:ну CLIT-NONPRED ;
-%<prn%>%<dem%>%<dat%>:го CLIT-NONPRED ;
-%<prn%>%<dem%>%<loc%>:ндо PRED ;
-%<prn%>%<dem%>%<abl%>:ндон PRED ;
-%<prn%>%<dem%>%<sim%>:ндой CASES ;
+%<prn%>%<dem%>%<gen%>:н%{I%}н CLIT-NONPRED ;
+%<prn%>%<dem%>%<acc%>:н%{I%} CLIT-NONPRED ;
+%<prn%>%<dem%>%<dat%>:г%{A%} CLIT-NONPRED ;
+%<prn%>%<dem%>%<loc%>:нд%{A%} PRED ;
+%<prn%>%<dem%>%<abl%>:нд%{A%}н PRED ;
+%<prn%>%<dem%>%<sim%>:нд%{A%}й CASES ;
 
-%<prn%>%<dem%>%<adv%>:ндой PRED ;
+%<prn%>%<dem%>%<adv%>:нд%{A%}й PRED ;
 
 %<prn%>%<dem%>:н DAGI ;
-%<prn%>%<dem%>%<reason%>%<abl%>:ндуктан PRED ;  ! FIXME: need better name
+%<prn%>%<dem%>%<reason%>%<abl%>:нд%{I%}кт%{A%}н PRED ;  ! FIXME: need better name
 
-%<prn%>%<dem%>:ну POSSESSION-ENDINGS ;
+%<prn%>%<dem%>:н%{I%} POSSESSION-ENDINGS ;
 
 %<prn%>%<dem%>%<pl%>:%>%{L%}%{A%}р CASES ;
 
-LEXICON PRON-DEM-USUL
 
-%<prn%>%<dem%>%<nom%>:л PRED ;
-%<prn%>%<dem%>%<nom%>: PRED ;  ! Dir/LR
-%<prn%>%<dem%>%<gen%>:нун CLIT-NONPRED ;
-%<prn%>%<dem%>%<acc%>:ну CLIT-NONPRED ;
-%<prn%>%<dem%>%<dat%>:га CLIT-NONPRED ;
-%<prn%>%<dem%>%<loc%>:нда PRED ;
-%<prn%>%<dem%>%<abl%>:ндан PRED ;
-%<prn%>%<dem%>%<sim%>:ндай CASES ;
-
-%<prn%>%<dem%>%<adv%>:ндай SUBST-COMMON ;
-
-%<prn%>%<dem%>:н DAGI ;
-%<prn%>%<dem%>%<reason%>%<abl%>:ндуктан PRED ;  ! FIXME: need better name
-
-%<prn%>%<dem%>:ну POSSESSION-ENDINGS ;
-
-%<prn%>%<dem%>%<pl%>:%>%{L%}%{A%}р CASES ;
+!LEXICON PRON-DEM-OSOL
+!
+!%<prn%>%<dem%>%<nom%>:л PRED ;
+!%<prn%>%<dem%>%<nom%>: PRED ;  ! Dir/LR
+!%<prn%>%<dem%>%<gen%>:нун CLIT-NONPRED ;
+!%<prn%>%<dem%>%<acc%>:ну CLIT-NONPRED ;
+!%<prn%>%<dem%>%<dat%>:го CLIT-NONPRED ;
+!%<prn%>%<dem%>%<loc%>:ндо PRED ;
+!%<prn%>%<dem%>%<abl%>:ндон PRED ;
+!%<prn%>%<dem%>%<sim%>:ндой CASES ;
+!
+!%<prn%>%<dem%>%<adv%>:ндой PRED ;
+!
+!%<prn%>%<dem%>:н DAGI ;
+!%<prn%>%<dem%>%<reason%>%<abl%>:ндуктан PRED ;  ! FIXME: need better name
+!
+!%<prn%>%<dem%>:ну POSSESSION-ENDINGS ;
+!
+!%<prn%>%<dem%>%<pl%>:%>%{L%}%{A%}р CASES ;
+!
+!LEXICON PRON-DEM-USUL
+!
+!%<prn%>%<dem%>%<nom%>:л PRED ;
+!%<prn%>%<dem%>%<nom%>: PRED ;  ! Dir/LR
+!%<prn%>%<dem%>%<gen%>:нун CLIT-NONPRED ;
+!%<prn%>%<dem%>%<acc%>:ну CLIT-NONPRED ;
+!%<prn%>%<dem%>%<dat%>:га CLIT-NONPRED ;
+!%<prn%>%<dem%>%<loc%>:нда PRED ;
+!%<prn%>%<dem%>%<abl%>:ндан PRED ;
+!%<prn%>%<dem%>%<sim%>:ндай CASES ;
+!
+!%<prn%>%<dem%>%<adv%>:ндай SUBST-COMMON ;
+!
+!%<prn%>%<dem%>:н DAGI ;
+!%<prn%>%<dem%>%<reason%>%<abl%>:ндуктан PRED ;  ! FIXME: need better name
+!
+!%<prn%>%<dem%>:ну POSSESSION-ENDINGS ;
+!
+!%<prn%>%<dem%>%<pl%>:%>%{L%}%{A%}р CASES ;
 
 
 LEXICON PRON-DEM-AL
@@ -1244,7 +1265,7 @@ LEXICON PRON-COLL   ! "Collective"(?) pronoun-like numbers
 
 %<num%>%<coll%>%<advl%>: # ;
 %<num%>%<coll%>%<subst%>%<nom%>: # ;
-%<num%>%<coll%>: SUBST-NONOM ;
+%<num%>%<coll%>%<subst%>: SUBST-NONOM ;
 
 ! OLD STUFF:
 !%<num%>%<coll%>%<advl%>:%-%{A%}у # ; ! FIXME: оо/өө
@@ -1982,8 +2003,8 @@ LEXICON Pronouns
 алар%<prn%>%<pers%>%<p3%>%<pl%>%<adv%>:алардыкыча CLIT ; 
 
 PRON-DEM-BUL ; ! "this" 
-ошол:ошо PRON-DEM-OSOL ; ! "that"
-ушул:ушу PRON-DEM-USUL ; ! "this"
+ошол:ошо PRON-DEM-L ; ! "that"
+ушул:ушу PRON-DEM-L ; ! "this"
 ал:а PRON-DEM-AL ; ! "that"
 тигил:тиги PRON-DEM-TIGIL ; ! "that (yonder)
 ! мына:мына PRON-DEM-MINA ; ! "" "FIXME how this shoulbe done?"
@@ -13891,7 +13912,7 @@ LEXICON Adjectives
 руханий:руханий A4 ; ! "soul" 
 рухий:рухий A4 ; ! "" 
 саздуу:саздуу A4 ; ! "" ! "comp form used very few" 
-салтанаттуу:салтанаттуу A4 ; ! "FIXME CHECK this" 
+салтанаттуу:салтанаттуу A2 ; ! "FIXME CHECK this" ! found comparative fand px3sp forms in google
 салыштырмалуу:салыштырмалуу A4 ; ! "" 
 сатирикалык:сатирикалык A4 ; ! "" 
 саясий:саясий A4 ; ! "political" 
@@ -17099,7 +17120,8 @@ LEXICON Interjections
 бирок:бирок INTERJ ;
 маселен:маселен INTERJ ;
 мисалы:мисалы INTERJ ;
-дурус:дурус INTERJ ;
+дурус:дурус INTERJ ; ! FIXME: check
+туура:туура INTERJ ;
 кана:кана INTERJ ;
 кош:кош INTERJ ;
 Кудай%-ай:Кудай%-ай INTERJ ;
