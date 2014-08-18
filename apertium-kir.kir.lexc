@@ -15501,14 +15501,14 @@ LEXICON Adverbs
 эртең% менен:эртең% менен ADV-ABL-REG ; ! "morning      ! Dir/LR
 
 кечээ:кечээ ADV-WITH-IRREGULAR-KI ;
-кечээ:кече ADV-WITH-IRREGULAR-KI ;
-кечээ:кечөө ADV-WITH-IRREGULAR-KI ;
-кечээ:кече%>ки IRREGULAR-KI ;
-кечээ:кечөө%>кү IRREGULAR-KI ;
-кечээ:кечээ%>ки IRREGULAR-KI ;
+кечээ:кече ADV-WITH-IRREGULAR-KI ;  ! Dir/LR
+кечээ:кечөө ADV-WITH-IRREGULAR-KI ; ! Dir/LR
+кечээ:кече%>ки IRREGULAR-KI ;       ! Dir/LR
+кечээ:кечөө%>кү IRREGULAR-KI ;      ! Dir/LR
+кечээ:кечээ%>ки IRREGULAR-KI ;      ! Dir/LR
 кечээ:кечээ%>ги IRREGULAR-KI ;
-кечээ:кече%>ги IRREGULAR-KI ;
-кечээ:кечөө%>гү IRREGULAR-KI ;
+кечээ:кече%>ги IRREGULAR-KI ;       ! Dir/LR
+кечээ:кечөө%>гү IRREGULAR-KI ;      ! Dir/LR
 
 !!! FIXME: these are all valid variant forms based on the same adverb
 !кечеки ADJ-COMMON ; ! "yesterday's"
