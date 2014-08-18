@@ -886,6 +886,11 @@ LEXICON ADV-KI
 
 %<adv%>: KI ;
 
+LEXICON IRREGULAR-KI
+
+%<adv%>%<attr%>: ATTR ;
+%<adv%>%<subst%>: SUBST-COMMON ;
+
 LEXICON ADV-WITH-KI-ABL
 
 ADV ;
@@ -906,6 +911,11 @@ LEXICON ADV-WITH-ABL-REG
 
 ADV ;
 ADV-ABL-REG ;
+
+LEXICON ADV-WITH-IRREGULAR-KI
+
+ADV-ABL ;           ! Dir/LR
+ADV-WITH-ABL-REG ;
 
 LEXICON ADV-ABL
 
@@ -14337,7 +14347,7 @@ LEXICON Adjectives
 терең:терең A1 ; ! "" 
 тик:тик A1 ; ! "" 
 тунук:тунук A1 ; ! "" 
-туура:туура A1 ; ! "" 
+туура:туура A1 ; ! "correct"
 тыгыз:тыгыз A1 ; ! "" 
 тың:тың A1 ; ! "" 
 түз:түз A1 ; ! "" 
@@ -15430,35 +15440,41 @@ LEXICON Adverbs
 эмдигиче:эмдигиче ADV ; ! "until now"
 
 !! The following delete ы/у/и/ү before adding KI
-ары:ары ADV-ABL ; ! "further away"           ! Dir/LR
-ары:ары ADV-WITH-ABL-REG ; ! "further away"
+ары:ары ADV-WITH-IRREGULAR-KI ; ! "further away"
 ары:ар ADV-KI ; ! "further away"
-нары:нары ADV-ABL ; ! "futher away"           ! Dir/LR
-нары:нары ADV-WITH-ABL-REG ; ! "futher away"
+нары:нары ADV-WITH-IRREGULAR-KI ; ! "further away"
 нары:нар ADV-KI ; ! "futher away"
-бери:бери ADV-ABL ; ! "nearer"                ! Dir/LR
-бери:бери ADV-WITH-ABL-REG ; ! "nearer"
+бери:бери ADV-WITH-IRREGULAR-KI ; ! "nearer"
 бери:бер ADV-KI ; ! "nearer"
-жогору:жогору ADV-ABL ; ! "high"              ! Dir/LR
-жогору:жогору ADV-WITH-ABL-REG ; ! "high"
+жогору:жогору ADV-WITH-IRREGULAR-KI ; ! "high"
 жогору:жогор ADV-KI ; ! "high"
 
 эртең% менен:эртең% менен ADV-WITH-KI-ABL ; ! "morning
 эртең% менен:эртең% менен ADV-ABL-REG ; ! "morning      ! Dir/LR
 
-!! FIXME: these are all valid variant forms based on the same adverb
-кечеки ADJ-COMMON ; ! "yesterday's"
-кечөөкү ADJ-COMMON ; ! "yesterday's"
-кечээки ADJ-COMMON ; ! "yesterday's"
-кечеги ADJ-COMMON ; ! "yesterday's"
-кечөөгү ADJ-COMMON ; ! "yesterday's"
-кечээги ADJ-COMMON ; ! "yesterday's"
-кече:кече ADV ; ! "yesterday"
-кечөө:кечөө ADV ; ! "yesterday"
-кечээ:кечээ ADV ; ! "yesterday"
-! кече N-INFL ; ! "yesterday"   ! NOT NOUNS!
-! кечөө N-INFL ; ! "yesterday"  ! NOT NOUNS!
-! кечээ N-INFL ; ! "yesterday"  ! NOT NOUNS!
+кечээ:кечээ ADV-WITH-IRREGULAR-KI ;
+кечээ:кече ADV-WITH-IRREGULAR-KI ;
+кечээ:кечөө ADV-WITH-IRREGULAR-KI ;
+кечээ:кече%>ки IRREGULAR-KI ;
+кечээ:кечөө%>кү IRREGULAR-KI ;
+кечээ:кечээ%>ки IRREGULAR-KI ;
+кечээ:кечээ%>ги IRREGULAR-KI ;
+кечээ:кече%>ги IRREGULAR-KI ;
+кечээ:кечөө%>гү IRREGULAR-KI ;
+
+!!! FIXME: these are all valid variant forms based on the same adverb
+!кечеки ADJ-COMMON ; ! "yesterday's"
+!кечөөкү ADJ-COMMON ; ! "yesterday's"
+!кечээки ADJ-COMMON ; ! "yesterday's"
+!кечеги ADJ-COMMON ; ! "yesterday's"
+!кечөөгү ADJ-COMMON ; ! "yesterday's"
+!кечээги ADJ-COMMON ; ! "yesterday's"
+!кече:кече ADV ; ! "yesterday"
+!кечөө:кечөө ADV ; ! "yesterday"
+!кечээ:кечээ ADV ; ! "yesterday"
+!! кече N-INFL ; ! "yesterday"   ! NOT NOUNS!
+!! кечөө N-INFL ; ! "yesterday"  ! NOT NOUNS!
+!! кечээ N-INFL ; ! "yesterday"  ! NOT NOUNS!
 
 ! кийин ADV-WITH-KI ; ! "later"
 ! мурда ADV-WITH-KI ; ! "long ago"
@@ -15683,7 +15699,7 @@ LEXICON Verbs
 олтур:олтургуз V-INFL-IV-IRREG-CAUS ; ! "sit"  ! Dir/LR
 аракет% кыл:аракет% кыл V-INFL-IV ; ! "try"
 арна:арна V-INFL-TV ; 
-аякта:аякта V-INFL-TV ; 
+аякта:аякта V-INFL-TV ; ! "complete"
 башта:башта V-INFL-TV ; 
 без:без V-INFL-IV ; 
 билдир:билдир V-INFL-TV ; 
