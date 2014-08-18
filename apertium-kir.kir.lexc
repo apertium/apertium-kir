@@ -152,7 +152,8 @@
 %<ger%>
 %<ger_abs%>       ! "abstract" gerund -- abs means absolutive
 %<ger_notyet%>    ! Not-yet gerund, -E элек
-%<ger_ppot%>      ! Perfective(?) potential gerund
+%<ger_ppot%>      ! Perfective(?) potential gerund  (~the ability to do the denoted action)
+
 
 !!! Verbal adjectives ! Глагольные причастия
 %<gpr_fut%>
@@ -163,7 +164,8 @@
 %<gpr_pot%>
 %<gpr_impf%>
 %<gpr_hab%>
-%<gpr_notyet%>  ! Not-yet verbal adjective, -E элек
+%<gpr_notyet%>    ! Not-yet verbal adjective, -E элек
+%<gpr_ppot%>      ! Perfective(?) potential verbal adjective
 
 !! Tense / finite forms
 %<aor%>     ! Aorist, -E
@@ -1014,7 +1016,9 @@ LEXICON PRON-DEM-BUL
 бул%<prn%>%<dem%>%<dat%>:буга CLIT-NONPRED ;
 бул%<prn%>%<dem%>%<loc%>:мында PRED ;
 бул%<prn%>%<dem%>%<abl%>:мындан PRED ;
-бул%<prn%>%<dem%>%<sim%>:мындай PRED ;  
+бул%<prn%>%<dem%>%<sim%>:мындай CASES ;  
+
+бул%<prn%>%<dem%>%<adv%>:мындай PRED ;  
 
 бул%<prn%>%<dem%>:мын DAGI ;
 
@@ -1031,7 +1035,9 @@ LEXICON PRON-DEM-OSOL
 %<prn%>%<dem%>%<dat%>:го CLIT-NONPRED ;
 %<prn%>%<dem%>%<loc%>:ндо PRED ;
 %<prn%>%<dem%>%<abl%>:ндон PRED ;
-%<prn%>%<dem%>%<sim%>:ндой PRED ;
+%<prn%>%<dem%>%<sim%>:ндой CASES ;
+
+%<prn%>%<dem%>%<adv%>:ндой PRED ;
 
 %<prn%>%<dem%>:н DAGI ;
 %<prn%>%<dem%>%<reason%>%<abl%>:ндуктан PRED ;  ! FIXME: need better name
@@ -1049,7 +1055,9 @@ LEXICON PRON-DEM-USUL
 %<prn%>%<dem%>%<dat%>:га CLIT-NONPRED ;
 %<prn%>%<dem%>%<loc%>:нда PRED ;
 %<prn%>%<dem%>%<abl%>:ндан PRED ;
-%<prn%>%<dem%>%<sim%>:ндай SUBST-COMMON ;
+%<prn%>%<dem%>%<sim%>:ндай CASES ;
+
+%<prn%>%<dem%>%<adv%>:ндай SUBST-COMMON ;
 
 %<prn%>%<dem%>:н DAGI ;
 %<prn%>%<dem%>%<reason%>%<abl%>:ндуктан PRED ;  ! FIXME: need better name
@@ -1067,7 +1075,9 @@ LEXICON PRON-DEM-AL
 %<prn%>%<dem%>%<dat%>:га CLIT-NONPRED ;
 %<prn%>%<dem%>%<loc%>:нда PRED ;
 %<prn%>%<dem%>%<abl%>:ндан PRED ;
-%<prn%>%<dem%>%<sim%>:ндай PRED ;
+%<prn%>%<dem%>%<sim%>:ндай CASES ;
+
+%<prn%>%<dem%>%<adv%>:ндай PRED ;
 
 %<prn%>%<dem%>:н DAGI ;
 %<prn%>%<dem%>%<reason%>%<abl%>:ндыктан PRED ;  ! FIXME: need better name
@@ -1085,7 +1095,9 @@ LEXICON PRON-DEM-TIGIL
 %<prn%>%<dem%>%<dat%>:ге CLIT-NONPRED ;
 %<prn%>%<dem%>%<loc%>:нде PRED ;
 %<prn%>%<dem%>%<abl%>:нден PRED ;
-%<prn%>%<dem%>%<sim%>:нндей PRED ;
+%<prn%>%<dem%>%<sim%>:нндей CASES ;
+
+%<prn%>%<dem%>%<adv%>:нндей PRED ;
 
 ! LEXICON PRON-DEM-MINA
 
@@ -1440,15 +1452,15 @@ LEXICON V-INFL-NON-FINITE-IRREG
 %<neg%>%<ger_fut%>:%>%{B%}%{A%}%>%с GER-INFL ;              !
 %<neg%>%<ger_fut%>:%>%{B%}%{A%}%>%{A%}с GER-INFL ;          ! Dir/LR
 
-! Affirmative forms with л{I}к may exist?
+!! Affirmative forms with л{I}к may exist?
 %<ger_ppot%>:%>%{A%}р%>л%{I%}к GER-INFL ;                     ! Dir/LR
 %<ger_ppot%>:%>%{A%}%{A%}р%>л%{I%}к GER-INFL ;                ! Dir/LR
 
-! Forms with only one {A} should be analysed
+!! Forms with only one {A} should be analysed
 %<ger_ppot%>:%>%{A%}р GER-INFL ;                              ! Dir/LR
 %<neg%>%<ger_ppot%>:%>%{A%}ст%{I%}к GER-INFL ;                ! Dir/LR
 
-! Forms with two {A}s should be generated
+!! Forms with two {A}s should be generated
 %<ger_ppot%>:%>%{A%}%{A%}р GER-INFL ;
 %<neg%>%<ger_ppot%>:%>%{A%}%{A%}ст%{I%}к GER-INFL ;
 
@@ -1459,6 +1471,17 @@ LEXICON V-INFL-NON-FINITE-IRREG
 %<neg%>%<gpr_fut%>:%>%{B%}%{A%}%>%с V-ADJ ;                  !
 %<neg%>%<gpr_fut%>:%>%{B%}%{A%}%>%{A%}с V-ADJ ;              ! Dir/LR
 %<neg%>%<gpr_pot2%>:%>%{G%}%{I%}с V-ADJ ;
+
+!! Forms with only one {A} should be analysed
+%<gpr_ppot%>:%>%{A%}р GER-INFL ;                              ! Dir/LR
+%<neg%>%<gpr_ppot%>:%>%{A%}ст%{I%}к GER-INFL ;                ! Dir/LR
+
+!! Forms with two {A}s should be generated
+%<gpr_ppot%>:%>%{A%}%{A%}р GER-INFL ;
+%<neg%>%<gpr_ppot%>:%>%{A%}%{A%}ст%{I%}к GER-INFL ;
+
+
+
 
 LEXICON IMP
 !!! Stuff that can come after imperative forms !!!
@@ -1885,6 +1908,10 @@ LEXICON Determiners
 бүткүл:бүткүл DET-QNT ; ! "" 
 бүт:бүт DET-QNT ; ! "" 
 каалаганча:каалаганча DET-QNT ; ! "as much as you want"
+жетерлик:жетерлик DET-QNT ; ! "enough"
+жетерлик:жетишерлик DET-QNT ; ! "enough"   ! Dir/LR
+жетерлик:жетээрлик DET-QNT ; ! "enough"    ! Dir/LR
+жетерлик:жетишээрлик DET-QNT ; ! "enough"  ! Dir/LR
 
 кайсы:кайсы PRON-ITG ;  ! FIXME: why ITG if next is DEM?
 кайсы:кайсыл DET-DEM ; ! "which?" ! FIXME: need morph to fix  ! Dir/LR
@@ -13924,7 +13951,7 @@ LEXICON Adjectives
 турмуштук:турмуштук A4 ; ! "" 
 туташ:туташ A4 ; ! "" 
 түшкү:түшкү A4 ; ! "" 
-түшүмдүү:түшүмдүү A4 ; ! "FIXME check this it has comp form түшүмдүүрөөк" 
+түшүмдүү:түшүмдүү A2 ; ! "FIXME check this it has comp form түшүмдүүрөөк" ! a few examples found from google; was A2, now A4 - JNW 2014-08-17
 улуттар% ортосундагы:улуттар% ортосундагы A4 ; ! "" 
 улуттар% ортосундагы:улуттардын% ортосундагы A4 ; ! "" Dir/LR
 улуттук:улуттук A4 ; ! "" 
@@ -14143,7 +14170,7 @@ LEXICON Adjectives
 титиреген:титиреген A3 ; ! "" 
 токойлуу:токойлуу A3 ; ! "" ! "FIXME subst version used very few" 
 толтура:толтура A3 ; ! "" 
-толук:толук A3 ; ! "" 
+толук:толук A1 ; ! "full, fully" 
 тууган:тууган A3 ; ! "" 
 туулган:туулган A3 ; ! "native" 
 туюк:туюк A3 ; ! "" 
