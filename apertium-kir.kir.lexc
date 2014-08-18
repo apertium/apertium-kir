@@ -649,11 +649,13 @@ LEXICON NP-COG-F
 
 LEXICON NP-ANT-M
 
-%<np%>%<ant%>%<m%>: POSSESSION ;
+%<np%>%<ant%>%<m%>: NP-COMMON ;
+%<np%>%<ant%>%<m%>%<pl%>:%>%{L%}%{A%}р NP-COMMON ;
 
 LEXICON NP-ANT-F
 
-%<np%>%<ant%>%<f%>: POSSESSION ;
+%<np%>%<ant%>%<f%>: NP-COMMON ;
+%<np%>%<ant%>%<f%>%<pl%>:%>%{L%}%{A%}р NP-COMMON ;
 
 LEXICON NP-ANT-MF
 
