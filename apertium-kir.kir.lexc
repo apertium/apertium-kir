@@ -544,10 +544,19 @@ LEXICON N-INFL-COMMON
 
 POSSESSION ;
 
-!LEXICON N-INFL-COMMON
-!
-!!%<n%>:%>%{L%}%{U%}%{U%} ADJ ;  ! Any noun can be made into an adjective like this, though it's basically derivation
-!! %<attr%>:%>%{L%}%{U%}%{U%} ATTR ;
+LEXICON PLURAL  !! ADDED FMT 2014-08-18
+
+%<pl%>:%>%{L%}%{A%}р CASES ; !! ADDED FMT 2014-08-18
+%<pl%>:%>%{L%}%{A%}р POSSESSION ; !! ADDED FMT 2014-08-18
+%<pl%>:%>%{L%}%{A%}р ABESSIVE-SUFFIX ; !! ADDED FMT 2014-08-18
+
+LEXICON FULL-NOMINAL-INFLECTION !! ADDED FMT 2014-08-18
+
+PLURAL ; !! ADDED FMT 2014-08-18
+CASES ; !! ADDED FMT 2014-08-18
+POSSESSION ; !! ADDED FMT 2014-08-18
+ABESSIVE-SUFFIX ; !! ADDED FMT 2014-08-18
+LI-SUFFIX ; !! ADDED FMT 2014-08-18
 
 LEXICON N-INFL-SG  ! nouns with no/irregular plural
 
@@ -608,7 +617,8 @@ ABESSIVE-SUFFIX ;
 
 
 LEXICON NP-COMMON
-N-INFL-COMMON ;
+! N-INFL-COMMON ;
+FULL-NOMINAL-INFLECTION ; 
 
 LEXICON NP-COG-COMMON
 
@@ -682,11 +692,8 @@ LEXICON NP-TOP
 
 %<np%>%<top%>: NP-COMMON ;
 %<np%>%<top%>%<attr%>: # ;
-! :%>%{L%}%{I%}%{K%} A4 ;
-! %<n%>:%>%{L%}%{I%}%{K%} SUBST-COMMON ;
 
-
-! %<np%>%<top%>:%>%{L%}%{I%}к ADJ-COMMON ;
+! %<adj%>%<top%>:%>%{L%}%{I%}к ADJ-COMMON ; ! FIXME: do these tags make sense?
 
 LEXICON NP-TOP-COMPOUND
 
