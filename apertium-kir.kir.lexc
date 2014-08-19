@@ -1026,6 +1026,7 @@ LEXICON PRON-DEM-BUL
 бул%<prn%>%<dem%>%<loc%>:мында PRED ;
 бул%<prn%>%<dem%>%<abl%>:мындан PRED ;
 бул%<prn%>%<dem%>%<sim%>:мындай CASES ;  
+бул%<prn%>%<dem%>%<sim%>%<pl%>:мындайлар CASES ;
 
 бул%<prn%>%<dem%>%<adv%>:мындай PRED ;  
 
