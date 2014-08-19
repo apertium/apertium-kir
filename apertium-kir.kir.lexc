@@ -947,7 +947,7 @@ LEXICON ADV
 
 LEXICON ADVITG
 
-%<adv%>%<itg%>: # ;
+%<adv%>%<itg%>: CLITICS-INCL-COP ;
 
 LEXICON POST
 
@@ -1310,6 +1310,14 @@ CLIT-QST ;
 CLIT-MODASS ;
 CLIT-GANA-ETC ;
 
+LEXICON CLITICS-INCL-COP         ! Can appear only after nominals
+                                 ! (and only after some cases).
+CLITICS-NO-COP ;
+CLIT-COP ;
+
+LEXICON CLIT-COP
+
+V-PERS-COP ;
 
 LEXICON PRED
 V-PERS-COP ;
