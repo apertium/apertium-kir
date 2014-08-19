@@ -13864,9 +13864,9 @@ LEXICON Adjectives
 музейдик:музейдик A4 ; ! "" 
 музыкалык:музыкалык A4 ; ! "" 
 муниципиалдык:муниципиалдык A4 ; ! "" 
-мыйзамдуу:закондуу A4 ; ! "" Dir/LR
-мыйзамдуу:мыйзамдуу A4 ; ! "" 
-мүмкүн:мүмкүн A4 ; ! "" 
+закондуу:закондуу A4 ; ! "legal (see мыйзамдуу)"
+мыйзамдуу:мыйзамдуу A2 ; ! "legal" -раак and -су forms found through google
+мүмкүн:мүмкүн A6 ; ! "possible"  ! A6 not A4 because мүмкүн can be used as adv ("possibly") and as noun, though can't be comparative in Kyrgyz (?) -JNW
 нормативдик:нормативдик A4 ; ! "" 
 облустук:облустук A4 ; ! "oblast [e.g., hospital]" 
 ойноок:ойноок A4 ; ! "" 
@@ -14182,7 +14182,7 @@ LEXICON Adjectives
 нурдуу:нурдуу A3 ; ! "" ! "FIXME not sure about this A3 version used very few" 
 орток:орток A3 ; ! "" 
 отурукташкан:отурукташкан A3 ; ! "" 
-пайдалуу:пайдалуу A3 ; ! "" 
+пайдалуу:пайдалуу A2 ; ! "useful" A2 not A3 because it has comparative forms
 президенттик:президенттик A3 ; ! "presidential" 
 райондук:райондук A3 ; ! "regional" 
 соо:соо A3 ; ! "" 
@@ -14262,7 +14262,7 @@ LEXICON Adjectives
 жөнөкөй:жөнөкөй A2 ; ! "" 
 кедей:кедей A2 ; ! "" 
 кежир:кежир A2 ; ! "" 
-кең:кең A2 ; ! "" 
+кең:кең A1 ; ! "wide, widely" 
 кичинекей:кичинекей A2 ; ! "FIXME comp. form used very few" 
 коюу:койуу A2 ; ! "" Dir/LR
 коюу:коюу A2 ; ! "" 
