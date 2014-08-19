@@ -1199,9 +1199,10 @@ NIKI ;
 
 LEXICON PRON-ITG
 
-!%<prn%>%<itg%>: CASES  ;
-%<prn%>%<itg%>: POSSESSION ;
-%<prn%>%<itg%>%<pl%>:%>%{L%}%{A%}р POSSESSION ;
+!!%<prn%>%<itg%>: CASES  ;
+!%<prn%>%<itg%>: POSSESSION ;
+!%<prn%>%<itg%>%<pl%>:%>%{L%}%{A%}р POSSESSION ;
+%<prn%>%<itg%>: FULL-NOMINAL-INFLECTION ;
 
 LEXICON PRON-REF-ADV
 
