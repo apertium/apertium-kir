@@ -14273,7 +14273,7 @@ LEXICON Adjectives
 кудуреттүү:кудуреттүү A2 ; ! "" 
 кызгылтым:кызгылт A2 ; ! "" Dir/LR
 кызгылтым:кызгылтым A2 ; ! "" ! "not sure about this" 
-кызыл:кызыл A2 ; ! "" 
+кызыл:кызыл A2 ; ! "red" 
 кырдуу:кырдуу A2 ; ! "" 
 кычкыл:кычкыл A2 ; ! "" 
 күчсүз:күчсүз A2 ; ! "" 
@@ -14371,7 +14371,7 @@ LEXICON Adjectives
 ийри:ийри A1 ; ! "" 
 ири:ири A1 ; ! "" 
 ичке:ичке A1 ; ! "" 
-кара:кара A1 ; ! "" 
+кара:кара A1 ; ! "black" 
 катуу:катуу A1 ; ! "" 
 кенен:кенен A1 ; ! "" 
 керектүү:керектүү A1 ; ! "" 
@@ -14476,7 +14476,6 @@ LEXICON Adjectives
 ! залим:залим ADJ ; ! "FIXME check this adj залым/залим noun moving to A3 section" 
 ! ийри:ийри ADJ ; ! "removing duplicate" 
 ! ири:ири A1 ;
-! кара:кара A1 ; 
 ! каржылык:каржылык ADJ ; ! "финансовый" ! "moved to A3 section" 
 ! картаң:картаң A1 ; ! "old(person)" ! "moved to A3 section" 
 ! катышкан:катышкан ADJ ; ! "" ! "moved to A3 section" 
