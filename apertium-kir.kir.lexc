@@ -562,11 +562,19 @@ LEXICON N-INFL-SG  ! nouns with no/irregular plural
 
 !%<n%>: N-INFL-COMMON ;
 !%<n%>%<attr%>:%>%{L%}%{U%}%{U%} ATTR ;
+
 %<n%>%<attr%>: ATTR ;
 %<n%>: POSSESSION ;
+%<n%>: CASES ;
+%<n%>: ABESSIVE-SUFFIX ;
+%<n%>: LI-SUFFIX ;
 
 LEXICON N-INFL-PL  ! for irregular plurals
+
 %<n%>%<pl%>: POSSESSION ;
+%<n%>%<pl%>: CASES ;
+%<n%>%<pl%>: ABESSIVE-SUFFIX ;
+%<n%>%<pl%>: LI-SUFFIX ;
 
 LEXICON N1  ! FIXME
 
