@@ -84,7 +84,7 @@
 %<px3sp%>   ! Possessive, third person singular/plural
 %<px1pl%>   ! Possessive, first person plural
 %<px2pl%>   ! Possessive, second person plural
-! %<px%>      ! General possessive -ныкы  ! CHANGED to %<ger%>%<subst%>
+%<px%>      ! General possessive -ныкы  ! CHANGED to %<ger%>%<subst%>
 
 %<qst%>     ! Question modal word and "what about" focus particle
 !%<mod_foc%> ! "what about ..." question particle
@@ -574,9 +574,12 @@ N-INFL ;
 
 LEXICON N-INFL      ! Nouns that have a LUU attributive form
 
+%<n%>%<attr%>: # ;
+%<n%>: FULL-NOMINAL-INFLECTION ;
+
+!%<n%>: SUBST-COMMON ;
+!%<n%>%<attr%>: ATTR ;
 !%<n%>%<attr%>:%>%{L%}%{U%}%{U%} ATTR ;
-%<n%>%<attr%>: ATTR ;
-%<n%>: SUBST-COMMON ;
 
 LEXICON N-INFL-KI   ! Nouns that have a KI attributive form
 
@@ -1722,6 +1725,7 @@ LEXICON Miscellaneous
 бекен%<qst%>:бекен # ; ! Dir/LR
 го%<mod_ass%>:%~го # ; ! Dir/RL
 го%<mod_ass%>:го # ; ! Dir/LR
+чы%<qst%>:чы # ; 
 
 LEXICON Postadverbs
 
