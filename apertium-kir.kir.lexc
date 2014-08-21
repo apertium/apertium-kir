@@ -13811,7 +13811,7 @@ LEXICON Adjectives
 жашырын:жашырын A4 ; ! "" 
 жылтыраган:жылтыраган A4 ;  ! "" 
 заманбап:заманбап A3 ; ! "" FIXME: was A4; CHECK
-зор:зор A4 ; ! "" 
+зор:зор A2 ; ! "" ! A2 not A4: comp and subst forms found in google
 идеологиялык:идеологиялык A4 ; ! "" 
 илимий:илимий A1 ; ! "scientific" 
 иммиграциялык:иммиграциялык A4 ; ! "" 
@@ -14143,7 +14143,6 @@ LEXICON Adjectives
 борбордук:борбордук A3 ; ! "central" 
 бузук:бузук A3 ; ! "" 
 бүткүл% россиялык:бүткүл% россиялык A3 ; ! "" 
-дайыр:дайын A3 ; ! "ready" 
 даяр:даяр A3 ; ! "ready" 
 диний:диний A3 ; ! "religious" ! "subst form used very few" 
 дүлөй:дүлөй A3 ; ! "" 
@@ -14557,7 +14556,6 @@ LEXICON Adjectives
 ! төмөн:төмөн A1 ;
 ! узун:узун A1 ; 
 ! улук:улук ADJ ; ! "this is actually noun" 
-! улуттук:улуттук ADJ ; ! "removing duplicate" 
 ! улуу:улуу A1 ; 
 ! улуу:улуу ADJ ; ! "remove duplicate" 
 ! ушундай:ушундай ADJ ;
