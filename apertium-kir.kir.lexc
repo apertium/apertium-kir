@@ -1038,6 +1038,7 @@ LEXICON PRON-DEM-BUL
 бул%<prn%>%<dem%>%<abl%>:мындан PRED ;
 бул%<prn%>%<dem%>%<sim%>:мындай CASES ;  
 бул%<prn%>%<dem%>%<sim%>%<pl%>:мындайлар CASES ;
+бул%<prn%>%<dem%>%<qnt%>:мынча CLITICS-NO-COP ;         !
 
 бул%<prn%>%<dem%>%<adv%>:мындай PRED ;  
 
@@ -1057,6 +1058,7 @@ LEXICON PRON-DEM-L
 %<prn%>%<dem%>%<loc%>:нд%{A%} PRED ;
 %<prn%>%<dem%>%<abl%>:нд%{A%}н PRED ;
 %<prn%>%<dem%>%<sim%>:нд%{A%}й CASES ;
+%<prn%>%<dem%>%<qnt%>:нч%{A%} CLITICS-NO-COP ;
 
 %<prn%>%<dem%>%<adv%>:нд%{A%}й PRED ;
 
@@ -1118,6 +1120,7 @@ LEXICON PRON-DEM-AL
 %<prn%>%<dem%>%<loc%>:нда PRED ;
 %<prn%>%<dem%>%<abl%>:ндан PRED ;
 %<prn%>%<dem%>%<sim%>:ндай CASES ;
+%<prn%>%<dem%>%<qnt%>:нч%{A%} CLITICS-NO-COP ;
 
 %<prn%>%<dem%>%<adv%>:ндай PRED ;
 
@@ -1137,9 +1140,10 @@ LEXICON PRON-DEM-TIGIL
 %<prn%>%<dem%>%<dat%>:ге CLIT-NONPRED ;
 %<prn%>%<dem%>%<loc%>:нде PRED ;
 %<prn%>%<dem%>%<abl%>:нден PRED ;
-%<prn%>%<dem%>%<sim%>:нндей CASES ;
+%<prn%>%<dem%>%<sim%>:ндей CASES ;
+%<prn%>%<dem%>%<qnt%>:нч%{A%} CLITICS-NO-COP ;
 
-%<prn%>%<dem%>%<adv%>:нндей PRED ;
+%<prn%>%<dem%>%<adv%>:ндей PRED ;
 
 ! LEXICON PRON-DEM-MINA
 
