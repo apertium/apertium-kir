@@ -14191,7 +14191,7 @@ LEXICON Adjectives
 кенже:кенже A3 ; ! "" 
 кесиптик:кесиптик A3 ; ! "" ! "not sure about this" 
 кетик:кетик A3 ; ! "" 
-кийинки:кийинки A3 ; ! "" 
+кийинки:кийинки A3 ; ! "next" 
 кор:кор A3 ; ! "" 
 кош:кош A3 ; ! "" 
 кошумча:кошумча A3 ; ! "" 
@@ -15154,6 +15154,7 @@ LEXICON Adjectives
 атайын:атайын ADJ ; ! Use/MT
 тентек:тентек A1 ; ! "naughty, poorly behaved" ! FIXME: CHECK A1
 күтүүсүз:күтүүсүз A4 ; ! "unexpected"
+бир% түрдүү:бир% түрдүү A6 ; ! ""
 
 
 LEXICON Adverbs
