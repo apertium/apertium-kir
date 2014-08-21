@@ -1975,6 +1975,8 @@ LEXICON Determiners
 
 канча:канча PRON-ITG ; ! "how many / how much"
 
+кандай:кандай PRON-ITG ;  ! FIXME: why ITG if next is DEM?
+
 кайсы% бир:кайсы% бир DET-IND ;
 кандайдыр% бир:кандайдыр% бир DET-IND ; ! "some kind of"
 башка:башка DET-IND ;    ! FIXME: Hmmmm
@@ -2120,22 +2122,22 @@ LEXICON Numerals
 миң:миң NUM ; ! "one thousand"
 миллион:миллион NUM ; ! "one million"
 миллиард:миллиард NUM ; ! "one billion"
-ноль:ноль NUM ;
-он% бир:он% бир NUM ;
-он% эки:он% эки NUM ;
-он% үч:он% үч NUM ;
-он% төрт:он% төрт NUM ;
-он% беш:он% беш NUM ;
-он% алты:он% алты NUM ;
-он% жети:он% жети NUM ;
-он% сегиз:он% сегиз NUM ;
-он% тогуз:он% тогуз NUM ;
-онтогуз:онтогуз NUM ;
-триллион:триллион NUM ;
+ноль:ноль NUM ; ! "zero"
+он% бир:он% бир NUM ; ! "eleven"
+он% эки:он% эки NUM ; ! "twelve"
+он% үч:он% үч NUM ; ! "thirteen"
+он% төрт:он% төрт NUM ; ! "forteen"
+он% беш:он% беш NUM ; ! "fifteen"
+он% алты:он% алты NUM ; ! "sixteen"
+он% жети:он% жети NUM ; ! "seventeen"
+он% сегиз:он% сегиз NUM ; ! "eighteen"
+он% тогуз:он% тогуз NUM ; ! "nineteen"
+онтогуз:онтогуз NUM ; ! "nineteen"
+триллион:триллион NUM ; ! "trillion"
 жыйырма% беш:жыйырма% беш NUM ;
 бир% жарым:бир% жарым NUM ;
-он% миң:он% миң NUM ;
-сан% жеткис:сан% жеткис NUM ;
+он% миң:он% миң NUM ; ! "ten thousand"
+сан% жеткис:сан% жеткис NUM ; ! "infinity"
 
 бир:бирөө PRON-COLL ;
 эки:экөө PRON-COLL ;
@@ -2605,7 +2607,6 @@ LEXICON Nouns
 ! штаб:штаб N-INFL ; ! "removing duplicate" 
 ! шылтоо:шылтоо N-INFL ; ! "removing duplicate" 
 ! ыйгарымдуу% елчи:ыйгарымдуу% елчи N-INFL ;
-! ыйык:ыйык N-INFL ; ! "removing duplicate" 
 ! ыйык:ыйык N-INFL ; ! "should be adj see A1 section" 
 ! ыкма:ыкма N-INFL ; ! "removing duplicate" 
 ! ыктымал:ыктымал N-INFL ; ! "removing duplicate" 
@@ -2613,7 +2614,6 @@ LEXICON Nouns
 ! ылайык:ылайык N-INFL ; ! "should be adj see A2 section" ыктуу:ыктуу N-INFL ;
 ! ылдамдык:ылдамдык N-INFL ; ! "removing duplicate" 
 ! ыр:ыр N-INFL ; ! "removing duplicate" 
-! ыраазы:ыраазы N-INFL ; ! "removing duplicate" 
 ! ыраазы:ыраазы N-INFL ; ! "should be adj see A3 section" 
 ! ыраазычылык:ыраазычылык N-INFL ; ! "removing duplicate" 
 ! экология:экология N-INFL ; 
@@ -14005,7 +14005,7 @@ LEXICON Adjectives
 тропиктик:тропиктик A4 ; ! "" 
 туристтик:туристтик A4 ; ! "" 
 турмуштук:турмуштук A4 ; ! "" 
-туташ:туташ A4 ; ! "" 
+туташ:туташ A3 ; ! "" ! A3 not A4 - subst forms found in google; 
 түшкү:түшкү A4 ; ! "" 
 түшүмдүү:түшүмдүү A2 ; ! "FIXME check this it has comp form түшүмдүүрөөк" ! a few examples found from google; was A2, now A4 - JNW 2014-08-17
 улуттар% ортосундагы:улуттар% ортосундагы A4 ; ! "" 
@@ -14248,7 +14248,7 @@ LEXICON Adjectives
 чытырман:чытырман A3 ; ! "FIXME subst version used very few" 
 шаардык:шаардык A3 ; ! "" 
 ыктымал:ыктымал A3 ; ! "" 
-ыраазы:ыраазы A3 ; ! "" 
+ыраазы:ыраазы A3 ; ! "pleased,satisfied" 
 ысымдуу:ысымдуу A3 ; ! "" 
 эзелки:эзелки A3 ; ! "" 
 эмгек% сиңирген:эмгек% сиңирген A3 ; ! "" 
@@ -14338,7 +14338,7 @@ LEXICON Adjectives
 тыртык:тыртык A2 ; ! "" 
 түрдүү:түрдүү A2 ; ! "" 
 чукул:чукул A2 ; ! "" 
-чыдамдуу:чыдамдуу A2 ; ! "" 
+чыдамдуу:чыдамдуу A2 ; ! "patient, steadfast" 
 шашылыш:шашылыш A2 ; ! "FIXME not sure about this" 
 ылайык:ылайык A2 ; ! "appropriate" 
 ылайыксыз:ылайыксыз A4 ; ! ""
@@ -14450,7 +14450,7 @@ LEXICON Adjectives
 ! ===============================
 
 кеңири:кеңири A5 ; ! "" 
-мол:мол A5 ; ! "" 
+мол:мол A6 ; ! "plentiful" ! A6 not A5 because no comparative forms, but advl and occasional subst uses
 рационалдуу:рационалдуу A5 ; ! "" 
 системалуу:системалуу A5 ; ! "" ! "comp form used very few" 
 тартыш:тартыш A5 ; ! "" 
@@ -15468,7 +15468,7 @@ LEXICON Adverbs
 кечинде:кечинде ADV ; ! ""   ! Use/MT
 бар% болгону:бар% болгону ADV ; ! "" 
 аз% гана:аз% гана ADV ; ! "" 
-жаңы% эле:жаңы% эле ADV ; ! "" 
+!жаңы% эле:жаңы% эле ADV ; ! ""  ! moved to ki section
 жалпысынан:жалпысынан ADV ; ! "" 
 негиздеп:негиздеп ADV ; ! "" 
 бычылган:бычылган ADJ ; ! "" ! "shoul be A3" 
@@ -15507,8 +15507,10 @@ LEXICON Adverbs
 жол:жол ADV-WITH-KI-ABL ; ! "-time"
 мурда:мурда ADV-WITH-KI-ABL ; ! "long-ago"
 соң:соң ADV-WITH-KI-ABL ; ! "" 
-кеч:кеч ADV-WITH-KI-ABL ; ! "" 
-күндүз:күндүз ADV-WITH-KI-ABL ; ! "" 
+кеч:кеч ADV-WITH-KI-ABL ; ! "late" 
+күндүз:күндүз ADV-WITH-KI-ABL ; ! "daytime / during the day" 
+
+жаңы% эле:жаңы% эле ADV-WITH-KI ; ! "just now" 
 
 илгери:илгери ADV ; ! "ancient" 
 илгери:илгер ADV-ABL ; ! "ancient"
@@ -15518,7 +15520,6 @@ LEXICON Adverbs
 эми:эм ADV-KI ; ! "next/soon-to-be"
 эми:эмди ADV-WITH-KI ; ! dialectal form    ! Dir/LR
 эми:эмди ADV-ABL-REG ; ! dialectal form    ! Dir/LR
-! эмди ADV-WITH-KI-ABL ; ! "next/soon-to-be"
 эмдигиче:эмдигиче ADV ; ! "until now"
 
 !! The following delete ы/у/и/ү before adding KI
@@ -15534,38 +15535,19 @@ LEXICON Adverbs
 эртең% менен:эртең% менен ADV-WITH-KI-ABL ; ! "morning
 эртең% менен:эртең% менен ADV-ABL-REG ; ! "morning      ! Dir/LR
 
+!! There are a lot of acccepted ways of spelling/saying кечээ,
+!! and a number of attributive forms (кечээги).
+!! The first set is probably the "most correct"
 кечээ:кечээ ADV-WITH-IRREGULAR-KI ;
 кечээ:кече ADV-WITH-IRREGULAR-KI ;  ! Dir/LR
 кечээ:кечөө ADV-WITH-IRREGULAR-KI ; ! Dir/LR
+кечээ:кечээ%>ги IRREGULAR-KI ;
 кечээ:кече%>ки IRREGULAR-KI ;       ! Dir/LR
 кечээ:кечөө%>кү IRREGULAR-KI ;      ! Dir/LR
 кечээ:кечээ%>ки IRREGULAR-KI ;      ! Dir/LR
-кечээ:кечээ%>ги IRREGULAR-KI ;
 кечээ:кече%>ги IRREGULAR-KI ;       ! Dir/LR
 кечээ:кечөө%>гү IRREGULAR-KI ;      ! Dir/LR
 
-!!! FIXME: these are all valid variant forms based on the same adverb
-!кечеки ADJ-COMMON ; ! "yesterday's"
-!кечөөкү ADJ-COMMON ; ! "yesterday's"
-!кечээки ADJ-COMMON ; ! "yesterday's"
-!кечеги ADJ-COMMON ; ! "yesterday's"
-!кечөөгү ADJ-COMMON ; ! "yesterday's"
-!кечээги ADJ-COMMON ; ! "yesterday's"
-!кече:кече ADV ; ! "yesterday"
-!кечөө:кечөө ADV ; ! "yesterday"
-!кечээ:кечээ ADV ; ! "yesterday"
-!! кече N-INFL ; ! "yesterday"   ! NOT NOUNS!
-!! кечөө N-INFL ; ! "yesterday"  ! NOT NOUNS!
-!! кечээ N-INFL ; ! "yesterday"  ! NOT NOUNS!
-
-! кийин ADV-WITH-KI ; ! "later"
-! мурда ADV-WITH-KI ; ! "long ago"
-! азыр ADV-WITH-KI ; 
-! бүгүн ADV-WITH-KI ; ! from pending list
-! жыл ADV-WITH-KI ; ! what?
-! күн ADV-WITH-KI ; ! ??
-! ай ADV-WITH-KI ; ! ??
-! заман ADV-WITH-KI ; ! ??
 
 
 LEXICON Copula
