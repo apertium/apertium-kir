@@ -14032,7 +14032,7 @@ LEXICON Adjectives
 чалгындуу:чалгындуу A4 ; ! "" 
 чарасыз:чарасыз A4 ; ! "" 
 чектеш:чектеш A4 ; ! "" 
-чөптүү:чөптүү A4 ; ! "" ! "FIXME check this it has comp form чөптүүрөөк" 
+чөптүү:чөптүү A2 ; ! "" ! "FIXME check this it has comp form чөптүүрөөк"  ! prob not A4 but A2
 шордуу:шордуу A4 ; ! "" 
 эволюциялык:эволюциялык A4 ; ! "" 
 экватордук:экватордук A4 ; ! "" 
@@ -14271,7 +14271,7 @@ LEXICON Adjectives
 агыш:акчыл A2 ; ! "" Dir/LR
 айыптуу:айыптуу A2 ; ! "guilty" 
 күнөөлүү:күнөөлүү A2 ; ! "guilty" FIXME: check A2
-алыс:алыс A2 ; ! "" 
+алыс:алыс A1 ; ! "far, distant" A1 not A2 becacuse ADV forms, e.g. алыс кетти
 арык:арык A2 ; ! "" 
 ачуу:ачуу A2 ; ! "" 
 баалуу:баалуу A2 ; ! "" 
