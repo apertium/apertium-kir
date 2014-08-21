@@ -1027,6 +1027,12 @@ LEXICON DET-REF
 
 %<det%>%<ref%>: # ;
 
+
+LEXICON PRON-DEM-PL
+
+%<pl%>:%>%{L%}%{A%}р GEN-POS ; ! was CASES-ETC
+%<pl%>%<px3sp%>:%>%{L%}%{A%}р%{I%}%{n%} CASES ;
+
 LEXICON PRON-DEM-BUL
 
 бул%<prn%>%<dem%>%<nom%>:бул PRED ;
@@ -1046,7 +1052,7 @@ LEXICON PRON-DEM-BUL
 
 бул%<prn%>%<dem%>:муну POSSESSION-ENDINGS ;
 
-бул%<prn%>%<dem%>%<pl%>:бу%>л%{A%}р CASES ;
+бул%<prn%>%<dem%>:бу PRON-DEM-PL ;
 
 LEXICON PRON-DEM-L
 
@@ -1067,7 +1073,7 @@ LEXICON PRON-DEM-L
 
 %<prn%>%<dem%>:н%{I%} POSSESSION-ENDINGS ;
 
-%<prn%>%<dem%>%<pl%>:%>%{L%}%{A%}р CASES ;
+%<prn%>%<dem%>: PRON-DEM-PL ;
 
 
 !LEXICON PRON-DEM-OSOL
@@ -1129,7 +1135,7 @@ LEXICON PRON-DEM-AL
 
 %<prn%>%<dem%>:ны POSSESSION-ENDINGS ;
 
-%<prn%>%<dem%>%<pl%>:%>%{L%}%{A%}р POSSESSION ;
+%<prn%>%<dem%>: PRON-DEM-PL ;
 
 LEXICON PRON-DEM-TIGIL
 
@@ -1145,6 +1151,12 @@ LEXICON PRON-DEM-TIGIL
 
 %<prn%>%<dem%>%<adv%>:ндей PRED ;
 
+%<prn%>%<dem%>:н DAGI ;
+
+%<prn%>%<dem%>:ни POSSESSION-ENDINGS ;
+
+%<prn%>%<dem%>: PRON-DEM-PL ;
+
 ! LEXICON PRON-DEM-MINA
 
 ! %<prn%>%<dem%>%<nom%>:мына PRED ;
@@ -1155,12 +1167,6 @@ LEXICON PRON-DEM-TIGIL
 ! %<prn%>%<dem%>%<abl%>:мындан PRED ;
 ! %<prn%>%<dem%>%<sim%>:мындай PRED ; ! "FIXME how this should be done?"
 
-
-%<prn%>%<dem%>:н DAGI ;
-
-%<prn%>%<dem%>:ни POSSESSION-ENDINGS ;
-
-%<prn%>%<dem%>%<pl%>:%>%{L%}%{A%}р POSSESSION ;
 
 LEXICON PRON-PERS-EN
 
@@ -2466,7 +2472,6 @@ LEXICON Nouns
 ! сапат:сапат N-INFL ; ! "removing duplicate" 
 ! саякат:саякат N-INFL ; ! "removing duplicate" 
 ! саясат:саясат N-INFL ; ! "removing duplicate" 
-! саясий:саясий N-INFL ; ! "removing duplicate" 
 ! саясий:саясий N-INFL ; ! "should be adj see A4 section" 
 ! себеп:себеп N-INFL ; ! "removing duplicate" 
 ! себептүү:себептүү N-INFL ; ! "removing duplicate" 
@@ -14130,7 +14135,7 @@ LEXICON Adjectives
 башкы:башкы A3 ; ! "" 
 баштапкы:баштапкы A3 ; ! "" 
 белгилүү:белгилүү A3 ; ! "" 
-белгисиз:белгисиз A3 ; ! "" 
+белгисиз:белгисиз A3 ; ! "unknown"
 берки:берки A3 ; ! "" 
 бирдей:бирдей A3 ; ! "" 
 бириккен:бириккен A3 ; ! "" 
@@ -14138,6 +14143,7 @@ LEXICON Adjectives
 борбордук:борбордук A3 ; ! "central" 
 бузук:бузук A3 ; ! "" 
 бүткүл% россиялык:бүткүл% россиялык A3 ; ! "" 
+дайыр:дайын A3 ; ! "ready" 
 даяр:даяр A3 ; ! "ready" 
 диний:диний A3 ; ! "religious" ! "subst form used very few" 
 дүлөй:дүлөй A3 ; ! "" 
@@ -14484,7 +14490,6 @@ LEXICON Adjectives
 ! бүт:бүт ADJ ; ! "this is not adj should be pronoun(from kyrgyz morphology), moved to DET-QNT section" 
 ! бүткүл:бүткүл ADJ ; ! "this is not adj should be pronoun(from kyrgyz morphology), but here defined as determiner see DET-QNT section" 
 ! бүтүндөй ADJ ;  ! composite form
-! даяр:даяр ADJ ; ! "removing duplicate" 
 ! демократ:демократ ADJ ; ! "this is noun not adj" 
 ! жабык:жабык A1 ; ! "FIXME is it A1?" 
 ! жакшы:жакшы A1 ; 
