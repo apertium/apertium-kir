@@ -1049,6 +1049,7 @@ LEXICON PRON-DEM-BUL
 бул%<prn%>%<dem%>%<adv%>:мындай PRED ;  
 
 бул%<prn%>%<dem%>:мын DAGI ;
+бул%<prn%>%<dem%>:му NIKI ;
 
 бул%<prn%>%<dem%>:муну POSSESSION-ENDINGS ;
 
@@ -1069,6 +1070,7 @@ LEXICON PRON-DEM-L
 %<prn%>%<dem%>%<adv%>:нд%{A%}й PRED ;
 
 %<prn%>%<dem%>:н DAGI ;
+%<prn%>%<dem%>: NIKI ;
 %<prn%>%<dem%>%<reason%>%<abl%>:нд%{I%}кт%{A%}н PRED ;  ! FIXME: need better name
 
 %<prn%>%<dem%>:н%{I%} POSSESSION-ENDINGS ;
@@ -1131,6 +1133,7 @@ LEXICON PRON-DEM-AL
 %<prn%>%<dem%>%<adv%>:ндай PRED ;
 
 %<prn%>%<dem%>:н DAGI ;
+%<prn%>%<dem%>: NIKI ;
 %<prn%>%<dem%>%<reason%>%<abl%>:ндыктан PRED ;  ! FIXME: need better name
 
 %<prn%>%<dem%>:ны POSSESSION-ENDINGS ;
@@ -1152,6 +1155,7 @@ LEXICON PRON-DEM-TIGIL
 %<prn%>%<dem%>%<adv%>:ндей PRED ;
 
 %<prn%>%<dem%>:н DAGI ;
+%<prn%>%<dem%>: NIKI ;
 
 %<prn%>%<dem%>:ни POSSESSION-ENDINGS ;
 
@@ -2599,7 +2603,6 @@ LEXICON Nouns
 ! чыгым:чыгым N-INFL ; ! "removing duplicate" 
 ! чыдамдуу:чыдамдуу N-INFL ; ! "should be adj see A2 section" 
 ! чындык:чындык N-INFL ; ! "removing duplicate" 
-! чыныгы:чыныгы N-INFL ; ! "removing duplicate" 
 ! чыныгы:чыныгы N-INFL ; ! "should be adj see A3 section" 
 ! шайлоо:шайлоо N-INFL ; ! "removing duplicate" 
 ! шарап:шарап N-INFL ; ! "removing duplicate" 
@@ -14250,7 +14253,7 @@ LEXICON Adjectives
 чечүүчү:чечүүчү A3 ; ! "A3 version used very few" 
 чыгаан:чыгаан A3 ; ! "" 
 чынчыл:чынчыл A3 ; ! "honest" 
-чыныгы:чыныгы A3 ; ! "" 
+чыныгы:чыныгы A2 ; ! "true" A2 not A3: comp forms found in google
 чытырман:чытырман A3 ; ! "FIXME subst version used very few" 
 шаардык:шаардык A3 ; ! "" 
 ыктымал:ыктымал A3 ; ! "" 
