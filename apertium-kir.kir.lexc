@@ -7391,7 +7391,7 @@ LEXICON Nouns
 көч:көч N-INFL ; ! "nomadic movement"
 айырбаш:айырбаш N-INFL ; ! "exchange"
 туура:туура N-INFL ; ! "width"
-көлдөлөң N-INFL ; ! "a stitched mat"
+көлдөлөң:көлдөлөң N-INFL ; ! "a stitched mat"
 соот:соот N-INFL ; ! "armour"
 соот:зоот N-INFL ; ! "armour" ! Dir/LR
 кийин:кийин N-INFL ; ! "" ! Use/MT
@@ -13826,7 +13826,7 @@ LEXICON Adjectives
 интенсивдүү:интенсивдүү A4 ; ! "" 
 ипичке:ипичке A4 ; ! "" 
 ич:ич A4 ; ! "" 
-кадимки:кадимки A4 ; ! "" 
+кадимки:кадимки A3 ; ! "usual/normal" A3 not A4; subst forms
 кайырдуу:кайырдуу A2 ; ! "" A2 not A4: subst and comp forms in google
 камсыз:камсыз A4 ; ! "" 
 катардуу:катардуу A4 ; ! "" 
@@ -15156,6 +15156,8 @@ LEXICON Adjectives
 тентек:тентек A1 ; ! "naughty, poorly behaved" ! FIXME: CHECK A1
 күтүүсүз:күтүүсүз A4 ; ! "unexpected"
 бир% түрдүү:бир% түрдүү A6 ; ! ""
+көлдөлөң:көлдөлөң A1 ; ! "diagonal" ! FIXME: CHECK A1
+көөнө:көөнө A2 ; ! "old" ! FIXME: CHECK A2 (seems to have comp forms, cf. google)
 
 
 LEXICON Adverbs
