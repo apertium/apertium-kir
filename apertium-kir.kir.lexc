@@ -2339,7 +2339,6 @@ LEXICON Nouns
 ! кимдир% бирөөсү N-INFL ;  ! BAD: Pronoun
 ! кимдир% бирөөсү N-INFL ;  ! BAD: pronoun
 ! киреше:киреше N-INFL ; ! "removing duplicate" 
-! кичинекей:кичинекей N-INFL ; ! "should be adj see A2 section" 
 ! киши:киши N-INFL ; ! "removing duplicate" 
 ! класс:класс N-INFL ; ! "removing duplicate" 
 ! колдоо:колдоо N-INFL ; ! "removing duplicate" 
@@ -2398,8 +2397,6 @@ LEXICON Nouns
 ! ля:ля N-INFL ; ! "removing duplicate" 
 ! маалымат:маалымат N-INFL ; ! "removing duplicate" 
 ! маани:маани N-INFL ; ! "removing duplicate" 
-! маданий    ! FIXME: ADJ, no?
-! маданий:маданий N-INFL ; ! "should be adj see A4 section" 
 ! маек:маек N-INFL ; ! "removing duplicate"
 ! майдан:майдан N-INFL ; ! "removing duplicate" 
 ! максат:максат N-INFL ; ! "removing duplicate" 
@@ -4926,7 +4923,7 @@ LEXICON Nouns
 күн:күн N-INFL ; ! "sun"
 күн:күн N-INFL ; ! "sun" (see күн N-INFL-KI for "day")
 күндүз:күндүз N-INFL ; 
-күндүк% жумуш:күндүк% жумуш N-INFL ; ! "" 
+күндүк% жумуш:күндүк% жумуш N-INFL ; ! "everyday work" ! Use/MT
 күндөлүк:күндөлүк N-INFL ; 
 күндөм:күндөм N-INFL ;
 күнү:күнү N-INFL ;
@@ -13791,9 +13788,9 @@ LEXICON Adjectives
 гуманитардык:гуманитардык A4 ; ! "" 
 дедуктивдик:дедуктивдик A4 ; ! "" 
 дедуктивдик:дедуктивдүү A4 ; ! "" Dir/LR
-демографиялык:демографиялык A4 ; ! "" 
+демографиялык:демографиялык A4 ; ! "demographic" 
 диалектикалык:диалектикалык A4 ; ! "" 
-динамикалык:динамикалуу A4 ; ! "" Dir/LR
+динамикалык:динамикалуу A4 ; ! "" Dir/LR ! FIXME: wtf
 динамикалык:динамикалык A4 ; ! "" 
 дипломатиялык:дипломатиялык A4 ; ! "" 
 дипломатиялык:дипломаттык A4 ; ! "" Dir/LR
@@ -13816,7 +13813,7 @@ LEXICON Adjectives
 жылтыраган:жылтыраган A4 ;  ! "" 
 заманбап:заманбап A3 ; ! "" FIXME: was A4; CHECK
 зор:зор A2 ; ! "" ! A2 not A4: comp and subst forms found in google
-идеологиялык:идеологиялык A4 ; ! "" 
+идеологиялык:идеологиялык A4 ; ! "ideological" 
 илимий:илимий A1 ; ! "scientific" 
 иммиграциялык:иммиграциялык A4 ; ! "" 
 индукциялык:индукциялык A4 ; ! "" 
@@ -13832,9 +13829,9 @@ LEXICON Adjectives
 катардуу:катардуу A4 ; ! "" 
 киши% тийбеген:киши% тийбеген A4 ; ! "" 
 кишиче:кишиче A4 ; ! "" 
-классикалык:классикалык A4 ; ! "" 
-климаттык:климаттык A4 ; ! "" 
-клиникалык:клиникалык A4 ; ! "" 
+классикалык:классикалык A4 ; ! "classic, classical" 
+климаттык:климаттык A4 ; ! "climatic" 
+клиникалык:клиникалык A4 ; ! "clinical" 
 коллективдик:коллективдик A4 ; ! "" 
 коллективдик:коллективдүү A4 ; ! "" Dir/LR
 коммерциялык:коммерциялык A4 ; ! "" 
@@ -13856,7 +13853,7 @@ LEXICON Adjectives
 кызматтык:кызматтык A4 ; ! "" 
 кыймылсыз:кыймылсыз A4 ; ! "unmovable" 
 кылымдык:кылымдык A4 ; ! "" 
-күндүк:күндүк A4 ; ! "" 
+күндүк:күндүк A4 ; ! "every-day" 
 күндөлүк:күндөлүк A4 ; ! "" 
 күндөлүк:күнүмдүк A4 ; ! "" Dir/LR
 көлөмдүү:көлөмдүү A4 ; ! "" 
@@ -13864,10 +13861,10 @@ LEXICON Adjectives
 лингвистикалык:лингвистикалык A4 ; ! "" 
 лирикалык:лирикалык A4 ; ! "" 
 литологиялык:литологиялык A4 ; ! "" 
-логикалык:логикалык A4 ; ! "" 
+логикалык:логикалык A4 ; ! "logical" 
 маалым:маалым A4 ; ! "" ! "FIXME check the category of this adj." 
-маалыматтык:маалыматтык A4 ; ! "" 
-маданий:маданий A4 ; ! "" 
+маалыматтык:маалыматтык A4 ; ! "informational" 
+маданий:маданий A4 ; ! "cultural" 
 мажбур:мажбур A4 ; ! "" 
 майда%-чүйдөсүнө% чейин:майда%-чүйдөсү% менен A4 ; ! "" Dir/LR
 майда%-чүйдөсүнө% чейин:майда%-чүйдөсүнө% чейин A4 ; ! "" 
@@ -13885,7 +13882,7 @@ LEXICON Adjectives
 металлургиялык:металлургиялык A4 ; ! "" 
 метаморфтук:метаморфтук A4 ; ! "" 
 методикалык:методикалык A4 ; ! "" 
-механикалык:механикалык A4 ; ! "" 
+механикалык:механикалык A4 ; ! "mechanical" 
 минералдуу:минералдуу A4 ; ! "" 
 минералдык:минералдык A4 ; ! "" 
 мифологиялык:мифологиялык A4 ; ! "" 
@@ -14184,8 +14181,8 @@ LEXICON Adjectives
 кайгылуу:кайгылуу A3 ; ! "" 
 камтылган:камтылган A3 ; ! "" 
 караштуу:караштуу A3 ; ! "" 
-каржылык:каржылык A3 ; ! "" 
-картаң:картаң A3 ; ! "old(person)" 
+каржылык:каржылык A3 ; ! "financial" 
+картаң:картаң A2 ; ! "old(person)"  ! A2 not A3: comp forms found in google
 катышкан:катышкан A3 ; ! "" 
 квалификациялуу:квалификациялуу A3 ; ! "" 
 келечек:келечек A3 ; ! "" 
@@ -14510,11 +14507,9 @@ LEXICON Adjectives
 ! ийри:ийри ADJ ; ! "removing duplicate" 
 ! ири:ири A1 ;
 ! каржылык:каржылык ADJ ; ! "финансовый" ! "moved to A3 section" 
-! картаң:картаң A1 ; ! "old(person)" ! "moved to A3 section" 
 ! катышкан:катышкан ADJ ; ! "" ! "moved to A3 section" 
 ! качкын:качкын ADJ ; ! "this is noun no adj form" 
 ! кеч:кеч A1 ; 
-! кичинекей:кичинекей ADJ ; ! "removed dulicate"
 ! коюу:коюу ADJ ; ! "removing duplicte"
 ! кургак:кургак A1 ; 
 ! кыз:кыз ADJ ; ! "" ! "don't know the adj form for this" 
@@ -14526,11 +14521,9 @@ LEXICON Adjectives
 ! көркөм:көркөм ADJ ; ! "fine" (as in "fine arts") "removing duplicate"
 ! көчмөн:көчмөн ADJ ; ! "removing duplicate" 
 ! маалым:маалым ADJ ; ! "removing duplicate" 
-! маданий:маданий A1 ; ! "removing suplicate"
 ! майда:майда ADJ ; ! "fine (i.e., small pieces)"
 ! майда:майда ADJ ; ! "removing duplicate" 
 ! медициналык:медициналык ADJ ; ! "" ! "removing duplicate" 
-! механикалык:механикалык ADJ ; ! "" ! "removing duplicate" 
 ! мурунку:мурунку A1 ; ! "FIXME is it A1?" ! "moved to A3 section" 
 ! начар:начар A1 ; ! "bad" (in quality)
 ! оор ADJ ;  FIXME: duplicate
