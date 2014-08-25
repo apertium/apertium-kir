@@ -7397,6 +7397,7 @@ LEXICON Nouns
 багуу:багуу N-INFL ; ! "care" ! Use/MT
 өлүк:өлүк N-INFL ; ! "corpse"
 байкуш:байкуш N-INFL ; ! "poor thing"
+традициялуулук:традициялуулук N-INFL ; ! "traditionalness"
 
 
 ! Abbreviations
@@ -13950,14 +13951,14 @@ LEXICON Adjectives
 республикалык:республикалык A4 ; ! "republic [e.g., hospital]" 
 рецессивдүү:рецессивдүү A4 ; ! "" 
 романтикалык:романтикалык A4 ; ! "" 
-руханий:руханий A4 ; ! "soul" 
-рухий:рухий A4 ; ! "" 
+руханий:руханий A3 ; ! "soul"  ! Probably A3 not A4: some subst in google?
+рухий:рухий A3 ; ! "" ! Probably A3 not A4: some subst in google
 саздуу:саздуу A4 ; ! "" ! "comp form used very few" 
 салтанаттуу:салтанаттуу A2 ; ! "FIXME CHECK this" ! found comparative fand px3sp forms in google
 салыштырмалуу:салыштырмалуу A4 ; ! "" 
 сатирикалык:сатирикалык A4 ; ! "" 
 саясий:саясий A4 ; ! "political" 
-символикалык:символикалык A4 ; ! "" 
+символикалык:символикалык A4 ; ! "symbolic" 
 синтаксистик:синтаксистик A4 ; ! "" 
 синтетикалык:синтетикалык A4 ; ! "" 
 системалашкан:системалашкан A4 ; ! "" 
@@ -14004,9 +14005,10 @@ LEXICON Adjectives
 топтоло:топтоло A4 ; ! "" 
 топурактуу:топурактуу A4 ; ! "NOTE: maybe this kind of asj should be generated" 
 трагедиялык:трагедиялуу A4 ; ! "" Dir/LR
-трагедиялык:трагедиялык A4 ; ! "" 
-традициялык:традициялуу A4 ; ! "" Dir/LR
-традициялык:традициялык A4 ; ! "" 
+трагедиялык:трагедиялык A4 ; ! "tragic" 
+!традициялык:традициялуу A4 ; ! "" Dir/LR ! FIXME: HRM
+традициялуу:традициялуу A3 ; ! "" hmmm FIXME: CHECK
+традициялык:традициялык A4 ; ! "traditional" 
 транзиттик:транзиттик A4 ; ! "" 
 тропиктик:тропиктик A4 ; ! "" 
 туристтик:туристтик A4 ; ! "" 
@@ -14022,7 +14024,7 @@ LEXICON Adjectives
 фашисттик:фашисттик A4 ; ! "" 
 федералдык:федералдык A4 ; ! "" 
 федеративдик:федеративдик A4 ; ! "" 
-феодалдык:феодалдык A4 ; ! "" 
+феодалдык:феодалдык A4 ; ! "feudal" 
 физикалык:физикалык A4 ; ! "" 
 физиологиялык:физиологиялык A4 ; ! "" 
 философиялык:философиялык A4 ; ! "" 
@@ -14073,7 +14075,7 @@ LEXICON Adjectives
 үстөм:үстөм A3 ; ! "превосходящий,господствующий"  ! A3 not A4 - subst forms found in google
 өздүк:өздүк A4 ; ! "" 
 өзүнчө:өзүнчө A4 ; ! "" 
-өкмөттүк:өкмөттүк A4 ; ! "" 
+өкмөттүк:өкмөттүк A4 ; ! "governmental" 
 өлө% турган:өлө% турган A4 ; ! "" ! "FIXME not sure about this" 
 өмүрлүк:өмүрдүк A4 ; ! "" Dir/LR
 өмүрлүк:өмүрлүк A4 ; ! "" 
@@ -14217,7 +14219,7 @@ LEXICON Adjectives
 отурукташкан:отурукташкан A3 ; ! "" 
 пайдалуу:пайдалуу A2 ; ! "useful" A2 not A3 because it has comparative forms
 президенттик:президенттик A3 ; ! "presidential" 
-райондук:райондук A3 ; ! "regional" 
+райондук:райондук A3 ; ! "district-level/regional" 
 соо:соо A2 ; ! "sober, healthy" ! A2 not A3, comp forms found in google
 сыяктуу:сыяктуу A3 ; ! "FIXME check this" 
 таандык:таандык A3 ; ! "" 
@@ -14328,7 +14330,7 @@ LEXICON Adjectives
 сапаттуу:сапаттуу A2 ; ! "" 
 сапаттуу:сапаттык A2 ; ! "" Dir/LR
 сары:сары A2 ; ! "" 
-сулуу:сулуу A2 ; ! "beautiful" 
+сулуу:сулуу A1 ; ! "beautiful" A1 not A2: advl reading, e.g. сулуу кийинген
 сүйкүмдүү:сүйкүмдүү A2 ; ! "" 
 сүйүктүү:сүйүктүү A2 ; ! "" 
 такыбаа:такыба A2 ; ! "" 
@@ -14535,7 +14537,6 @@ LEXICON Adjectives
 ! оңой:оңой A1 ;
 ! пайдалуу:пайдалуу A1 ; ! "moved to A3 section" 
 ! пенсионер:пенсионер ADJ ; ! "there is no such adj form пенсионердик maybe correct form see A4 section" 
-! рухий:рухий ADJ ; ! "removing duplicate" 
 ! сабырдуу:сабырдуу A1 ; ! "" ! "moved to A2 section" 
 ! сак:сак A1 ; 
 ! сейрек:сейрек ADJ ; ! "removing duplicte"
