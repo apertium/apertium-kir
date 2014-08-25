@@ -17180,10 +17180,13 @@ LEXICON Punctuation
 /%<sent%>:/ # ;
 
 
+LEXICON DIGITLEX ! Copy from kaz
+
+%<num%>: # ; ! Copy from kaz
+
 !==============!
  LEXICON Digits ! Use/Circ
 !==============!
-
 
 %0:%0 NUM ;  ! Use/Circ
 №:№ DIGITLEX ;  ! Use/Circ
