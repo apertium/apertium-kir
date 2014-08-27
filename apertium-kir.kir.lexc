@@ -2832,8 +2832,8 @@ LEXICON Nouns
 аапат:аапат N-INFL ; 
 аар:аар N-INFL ; 
 аары:аары N-INFL ; 
-аба% жолу:аба% жол N-INFL-3PX-COMPOUND ;
-аба% майданы:аба% майданы N-INFL ;
+аба% жолу:аба% жол N-INFL-3PX-COMPOUND ; ! "airline"
+аба% майданы:аба% майдан N-INFL-3PX-COMPOUND ;
 аба% ырайы:аба% ырай N-INFL-3PX-COMPOUND ; ! "weather"   ! FIXME: is ырай<px3>, so takes cases after <px3>
 аба:аба N-INFL ; ! "air" 
 абаа:абаа N-INFL ; 
