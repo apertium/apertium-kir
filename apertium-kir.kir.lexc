@@ -226,6 +226,7 @@
 %{л%}
 %{з%}       ! Archiphoneme for nasals and voiced obstruents numerals/abbreviation
 %{т%}       ! Archiphoneme for voiceless consonants numerals/abbreviation
+%{і%}       ! used for и in words like факт/фактилери
 
 
 %>          ! Morpheme boundary
@@ -579,6 +580,12 @@ LEXICON N-INFL-PL  ! for irregular plurals
 LEXICON N1  ! FIXME
 
 N-INFL ; 
+
+LEXICON N6
+
+:%{і%} N1 ; 
+N1 ;  ! Dir/LR     ! We want to analyse forms without %{і%}, since they're used
+                   ! but "properly" we want to generate forms with %{і%}
 
 LEXICON N-INFL      ! Nouns that have a LUU attributive form
 
@@ -1228,6 +1235,20 @@ LEXICON PRON-ITG
 !%<prn%>%<itg%>: POSSESSION ;
 !%<prn%>%<itg%>%<pl%>:%>%{L%}%{A%}р POSSESSION ;
 %<prn%>%<itg%>: FULL-NOMINAL-INFLECTION ;
+
+LEXICON PRON-ITG-QANDAY
+
+! Might be not complete (қандайларығыз? and possessive stuff in general)
+
+%<prn%>%<itg%>%<sim%>: CLITICS-NO-COP ;
+! ^ FIXME Similative form of demonstrative pronouns should receive an alternati-
+! ve continuation with CLIT too. Consider e,g.: "Ең жақсы Интернет қандай?" Here
+! it shouldn't receive <nom> tag I think /IS/
+%<prn%>%<itg%>%<sim%>: CASES ;
+%<prn%>%<itg%>%<sim%>%<px3sp%>:ы%{n%} CASES ;
+%<prn%>%<itg%>%<sim%>%<pl%>:лар CASES ;
+%<prn%>%<itg%>%<sim%>%<pl%>%<px3sp%>:лар%>ы%{n%} CASES ;
+
 
 LEXICON PRON-REF-ADV
 
@@ -1985,7 +2006,7 @@ LEXICON Determiners
 
 канча:канча PRON-ITG ; ! "how many / how much"
 
-кандай:кандай PRON-ITG ;  ! FIXME: why ITG if next is DEM?
+кандай:кандай PRON-ITG-QANDAY ;  ! FIXME: why ITG if next is DEM?
 
 кайсы% бир:кайсы% бир DET-IND ;
 кандайдыр% бир:кандайдыр% бир DET-IND ; ! "some kind of"
@@ -2590,9 +2611,6 @@ LEXICON Nouns
 ! чейинки:чейинки N-INFL ; 
 ! чейрек:чейрек N-INFL ; ! "removing duplicate" 
 ! чек:чек N-INFL ; ! "removing duplicate" 
-! чексиз:чексиз N-INFL ; ! "removing duplicate" 
-! чексиз:чексиз N-INFL ; ! "should be adj see A3 section" 
-! чет% өлкөлүк:чет% өлкөлүк N-INFL ; ! "removing duplicate" 
 ! чечим:чечим N-INFL ; ! "removing duplicate" 
 ! чогулуш:чогулуш N-INFL ; ! "removing duplicate" 
 ! чогуу:чогуу N-INFL ;
@@ -2928,6 +2946,7 @@ LEXICON Nouns
 аксакал:аксакал N-INFL ; ! "elder"
 аксакал:ак%-сакал N-INFL ; ! "elder" ! Dir/LR
 аксессуар:аксессуар N-INFL ; 
+акт:акт N6 ; ! ""
 акталышы% керек% болгон% киши:акталышы% керек% болгон% киши N-INFL ;
 актер:актер N-INFL ; 
 актив:актив N-INFL ; 
@@ -6678,7 +6697,7 @@ LEXICON Nouns
 фаворит:фаворит N-INFL ;
 фаза:фаза N-INFL ; 
 факел:факел N-INFL ;
-факт:факт N-INFL ;
+факт:факт N6 ;
 фактор:фактор N-INFL ; 
 факультет:факультет N-INFL ; 
 фамилия:фамилия N-INFL ; 
@@ -6882,7 +6901,6 @@ LEXICON Nouns
 чеп:чеп N-INFL ;
 чеп:чеп N-INFL ; 
 чет% өлкө:чет% өлкө N-INFL ; ! Use/MT
-чет% өлкөлүк:чет% өлкөлүк N-INFL ;
 чет:чет N-INFL ;
 четверг:четверг N-INFL ;
 четтик:четтик N-INFL ; 
@@ -7402,7 +7420,7 @@ LEXICON Nouns
 
 ! Abbreviations
 ! =============
-ДНК:ДНК N1-ABBR ; ! "DNA"
+ДНК:ДНК%{а%} N1-ABBR ; ! "DNA"
 
 
 
@@ -8124,6 +8142,7 @@ Tеңир NP-TOP ; ! ""
 Ленинград:Ленинград NP-TOP ; ! ""
 Москва:Москва NP-TOP ; ! "Moscow"
 Омск:Омск NP-TOP ; ! ""
+Омск:Омск%{і%} NP-TOP ; ! "" ! Dir/LR
 Оренбург:Оренбург NP-TOP ; ! ""
 Петербург:Петербург NP-TOP ; ! ""
 Санкт%-Петербург:Санкт%-Петербург NP-TOP ; ! ""
@@ -13987,6 +14006,7 @@ LEXICON Adjectives
 тарбиялык:тарбиялык A4 ; ! "" 
 тармактык:тармактык A4 ; ! "" 
 тарыхый:тарыхый A4 ; ! "historical" 
+тарыхый:тарыхый A3 ; ! "historical" ! Use/MT it doesn't seem to have subst forms in Kyrgyz, but in Kazakh there are some occasionally
 таңкы:таңкы A4 ; ! "" 
 тектоникалык:тектоникалык A4 ; ! "" 
 телескоптук:телескоптук A4 ; ! "" 
@@ -14115,7 +14135,7 @@ LEXICON Adjectives
 азыркы:азыркы A3 ; ! "" 
 айласыз:айласыз A3 ; ! "" 
 айлык:айлык A3 ; ! "" 
-аймактык:аймактык A3 ; ! "" 
+аймактык:аймактык A3 ; ! "~regional" 
 айрым:айрым A3 ; ! "" 
 айылдык:айылдык A3 ; ! "" 
 акыркы:акыркы A3 ; ! "previous" 
@@ -14249,7 +14269,8 @@ LEXICON Adjectives
 чексиз:чексиз A3 ; ! "" 
 чектелген:чектелген A3 ; ! "" 
 чектен% тышкары:чектен% тышкары A3 ; ! "" 
-чет% элдик:чет% элдик A3 ; ! "" 
+чет% элдик:чет% элдик A3 ; ! "foreign" 
+чет% өлкөлүк:чет% өлкөлүк A3 ; ! "foreign"
 чечүүчү:чечүүчү A3 ; ! "A3 version used very few" 
 чыгаан:чыгаан A3 ; ! "" 
 чынчыл:чынчыл A3 ; ! "honest" 
@@ -14432,7 +14453,7 @@ LEXICON Adjectives
 таасирдүү:таасирдүү A1 ; ! "" ! "not sure about this" 
 табигый:табигый A1 ; ! "natural" 
 таза:таза A1 ; ! "clean" 
-так:так A1 ; ! "" 
+так:так A1 ; ! "accurate" 
 татаал:татаал A1 ; ! "" 
 таттуу:таттуу A1 ; ! "" 
 тез:тез A1 ; ! "" 
@@ -15152,6 +15173,7 @@ LEXICON Adjectives
 бир% түрдүү:бир% түрдүү A6 ; ! ""
 көлдөлөң:көлдөлөң A1 ; ! "diagonal" ! FIXME: CHECK A1
 көөнө:көөнө A2 ; ! "old" ! FIXME: CHECK A2 (seems to have comp forms, cf. google)
+накта:накта A3 ; ! "real"
 
 
 LEXICON Adverbs
