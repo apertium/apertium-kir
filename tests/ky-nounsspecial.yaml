@@ -1,8 +1,8 @@
 Config:
   hfst:
-    App: hfst-optimised-lookup
-    Gen: ../tr-ky.autogen.hfst
-    Morph: ../ky-tr.automorf.hfst
+    App: hfst-lookup
+    Gen: ../kir.autogen.hfst
+    Morph: ../kir.automorf.hfst
 
 Tests:
 
@@ -18,4 +18,33 @@ Tests:
     орун<n><px1sg><nom> : ордум
     орун<n><px1sg><loc> : ордумда
     орун<n><pl><nom> : орундар
-    орун<n><px3sg><abl> : ордунан
+    орун<n><px3sp><abl> : ордунан
+
+  "[twol] Nouns with certain clusters analysed normally":
+    факт<n><nom> : факт
+    акт<n><abl> : акттан
+    акт<n><gen> : акттын
+    акт<n><pl><nom> : акттар
+    акт<n><px3sp><gen> : актынын
+    акт<n><px3sp><loc> : актында
+    Омск<np><nom> : Омск
+    Омск<np><abl> : Омсктон
+    Омск<np><gen> : Омсктун
+    Омск<np><pl><nom> : Омсктор
+    Омск<np><px3sp><gen> : Омскунун
+    Омск<np><px3sp><loc> : Омскунда
+
+
+  "[twol] Nouns with certain clusters generated with extra и":
+    факт<n><abl> : фактиден
+    факт<n><gen> : фактинин
+    факт<n><pl><nom> : фактилер
+    факт<n><px3sp><gen> : фактисинин
+    факт<n><px3sp><loc> : фактисинде
+    Омск<np><top><nom> : Омск
+    Омск<np><top><abl> : Омскиден
+    Омск<np><top><gen> : Омскинин
+    Омск<np><top><pl><nom> : Омскилер
+    Омск<np><top><px3sp><gen> : Омскисинин
+    Омск<np><top><px3sp><loc> : Омскисинде
+
