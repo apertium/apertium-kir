@@ -27,12 +27,12 @@ Tests:
     акт<n><pl><nom> : акттар
     акт<n><px3sp><gen> : актынын
     акт<n><px3sp><loc> : актында
-    Омск<np><nom> : Омск
-    Омск<np><abl> : Омсктон
-    Омск<np><gen> : Омсктун
-    Омск<np><pl><nom> : Омсктор
-    Омск<np><px3sp><gen> : Омскунун
-    Омск<np><px3sp><loc> : Омскунда
+    Омск<np><top><nom> : Омск
+    Омск<np><top><abl> : Омсктон
+    Омск<np><top><gen> : Омсктун
+    Омск<np><top><pl><nom> : Омсктор
+    Омск<np><top><px3sp><gen> : Омскунун
+    Омск<np><top><px3sp><loc> : Омскунда
 
 
   "[twol] Nouns with certain clusters generated with extra и":
@@ -41,10 +41,10 @@ Tests:
     факт<n><pl><nom> : фактилер
     факт<n><px3sp><gen> : фактисинин
     факт<n><px3sp><loc> : фактисинде
-    Омск<np><top><nom> : Омск
-    Омск<np><top><abl> : Омскиден
-    Омск<np><top><gen> : Омскинин
-    Омск<np><top><pl><nom> : Омскилер
-    Омск<np><top><px3sp><gen> : Омскисинин
-    Омск<np><top><px3sp><loc> : Омскисинде
+    Минск<np><top><nom> : Минск
+    Минск<np><top><abl> : Минскиден
+    Минск<np><top><gen> : Минскинин
+    Минск<np><top><pl><nom> : Минскилер
+    Минск<np><top><px3sp><gen> : Минскисинин
+    Минск<np><top><px3sp><loc> : Минскисинде
 

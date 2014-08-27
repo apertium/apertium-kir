@@ -715,6 +715,129 @@ LEXICON NP-TOP
 
 ! %<adj%>%<top%>:%>%{L%}%{I%}к ADJ-COMMON ; ! FIXME: do these tags make sense?
 
+LEXICON NP-TOP-CLUSTER
+
+:%{і%} NP-TOP ; 
+NP-TOP ;  ! Dir/LR ! We want to analyse forms without %{і%}, since they're used
+                   ! but "properly" we want to generate forms with %{і%}
+
+LEXICON N-INFL      ! Nouns that have a LUU attributive form
+
+%<n%>%<attr%>: # ;
+%<n%>: FULL-NOMINAL-INFLECTION ;
+
+!%<n%>: SUBST-COMMON ;
+!%<n%>%<attr%>: ATTR ;
+!%<n%>%<attr%>:%>%{L%}%{U%}%{U%} ATTR ;
+
+LEXICON N-INFL-KI   ! Nouns that have a KI attributive form
+
+%<n%>: KI ;
+%<n%>: SUBST-COMMON ;
+
+! LEXICON N-INFL-NO-ATTR  ! Used for nouns that have irregular <attr> forms
+! 
+! %<n%>: SUBST-COMMON ;
+! 
+! LEXICON N-INFL-JUST-KI  ! Used for nouns that have irregular KI forms
+! 
+! %<n%>: KI ;
+
+LEXICON N-INFL-NKI
+
+%<n%>:%{I%}н KI ; ! Dir/LR
+%<n%>:%{I%}ң KI ; 
+%<n%>: SUBST-COMMON ;
+
+LEXICON N-COMPOUND-PX-COMMON
+
+:%>%{s%}%{I%}%{n%} GEN-POS ;
+POSSESSION-ENDINGS ;  ! for stuff like "биздин аба ырайыбыз" and even "анын аба ырайы",
+                      ! which should have a <px3sp> analysis
+
+
+LEXICON N-INFL-3PX-COMPOUND
+
+%<n%>: N-COMPOUND-PX-COMMON ;
+%<n%>%<pl%>:%>%{L%}%{A%}р%>%{s%}%{I%}%{n%} GEN-POS ;
+
+LEXICON GER-INFL
+
+POSSESSION ;
+%<pl%>:%>%{L%}%{A%}р POSSESSION ;
+ABESSIVE-SUFFIX ;
+
+
+LEXICON NP-COMMON
+! N-INFL-COMMON ;
+FULL-NOMINAL-INFLECTION ; 
+
+LEXICON NP-COG-COMMON
+
+%<attr%>: # ;
+NP-COMMON ;
+
+LEXICON NP-COG-IN
+
+%<np%>%<cog%>%<m%>: NP-COG-COMMON ; ! FIXME
+%<np%>%<cog%>%<f%>:а NP-COG-COMMON ; ! FIXME
+
+LEXICON NP-COG-OB
+
+%<np%>%<cog%>%<m%>: NP-COG-COMMON ; ! FIXME
+%<np%>%<cog%>%<f%>:а NP-COG-COMMON ; ! FIXME
+
+LEXICON NP-COG-MF
+
+%<np%>%<cog%>%<mf%>: NP-COG-COMMON ;
+
+LEXICON NP-COG-M
+
+%<np%>%<cog%>%<m%>: NP-COG-COMMON ;
+
+LEXICON NP-COG-F
+
+%<np%>%<cog%>%<f%>: NP-COG-COMMON ;
+
+LEXICON NP-ANT-M
+
+%<np%>%<ant%>%<m%>: NP-COMMON ;
+%<np%>%<ant%>%<m%>%<pl%>:%>%{L%}%{A%}р NP-COMMON ;
+
+LEXICON NP-ANT-F
+
+%<np%>%<ant%>%<f%>: NP-COMMON ;
+%<np%>%<ant%>%<f%>%<pl%>:%>%{L%}%{A%}р NP-COMMON ;
+
+LEXICON NP-ANT-MF
+
+NP-ANT-M ; 
+NP-ANT-F ; 
+
+LEXICON NP-PAT-VICH
+
+! For patronyms ending with -вич
+! Their feminine equivalets end with -вна /I.S./
+
+%<np%>%<pat%>%<m%>:вич NP-COMMON ;
+
+%<np%>%<pat%>%<f%>:вна NP-COMMON ;
+
+LEXICON NP-ORG
+
+%<np%>%<org%>: POSSESSION ;
+%<np%>%<org%>%<attr%>: # ;
+
+LEXICON NP-ORG-COMPOUND
+
+%<np%>%<org%>: N-COMPOUND-PX-COMMON ;
+
+LEXICON ADV-LANG
+
+N-INFL ;
+ADV ;
+
+
 LEXICON NP-TOP-COMPOUND
 
 ! FIXME:
@@ -3040,7 +3163,7 @@ LEXICON Nouns
 антик:антик N-INFL ;
 антиквариат:антиквариат N-INFL ; 
 антология:антология N-INFL ; 
-антракт:антракт N-INFL ; 
+антракт:антракт N6 ; 
 антрополог:антрополог N-INFL ; 
 антрополог:антрополог N-INFL ; ! "anthropologist"
 антропология:антропология N-INFL ;
@@ -3733,7 +3856,7 @@ LEXICON Nouns
 диагноз:диагноз N-INFL ;
 диагональ:диагональ N-INFL ; 
 диаграмма:диаграмма N-INFL ; 
-диалект:диалект N-INFL ; 
+диалект:диалект N6 ; 
 диалог:диалог N-INFL ; 
 диаметр:диаметр N-INFL ; 
 диапазон:диапазон N-INFL ; 
@@ -4208,7 +4331,7 @@ LEXICON Nouns
 интеграл:интеграл N-INFL ; 
 интеграция:интеграция N-INFL ;
 интеграция:интеграция N-INFL ; 
-интеллект:интеллект N-INFL ; 
+интеллект:интеллект N6 ; 
 интеллигенция:интеллигенция N-INFL ;
 интервью:интервью N-INFL ; ! "" 
 интернат:интернат N-INFL ;
@@ -4705,7 +4828,7 @@ LEXICON Nouns
 контейнер:контейнер N-INFL ;
 контекст:контекст N-INFL ;
 континент:континент N-INFL ; 
-контракт:контракт N-INFL ; 
+контракт:контракт N6 ; 
 контробандист:контробандист N-INFL ;
 контроль:контроль N-INFL ; 
 конус:конус N-INFL ; 
@@ -5474,7 +5597,7 @@ LEXICON Nouns
 образ:образ N-INFL ; ! "" 
 обсерватория:обсерватория N-INFL ; 
 обструкция:обструкция N-INFL ; 
-объект:объект N-INFL ; 
+объект:объект N6 ; 
 объективизм:объективизм N-INFL ; 
 ой%-пикир:ой% пикир N-INFL ; ! Dir/LR
 ой%-пикир:ой%-пикир N-INFL ; 
@@ -5598,7 +5721,7 @@ LEXICON Nouns
 пайча:пайча N-INFL ; 
 пайыз:пайыз N-INFL ; ! "percent"
 пакет:пакет N-INFL ; 
-пакт:пакт N-INFL ; 
+пакт:пакт N6 ; 
 пал:пал N-INFL ; 
 палас:палас N-INFL ; 
 палеограф:палеограф N-INFL ; 
@@ -5766,7 +5889,7 @@ LEXICON Nouns
 прогресс:прогресс N-INFL ;
 продукция:продукция N-INFL ;
 продукция:продукция N-INFL ; 
-проект:проект N-INFL ; 
+проект:проект N6 ; 
 проза:проза N-INFL ; 
 прокуратура:прокуратура N-INFL ; 
 прокурор:прокурор N-INFL ; 
@@ -5799,7 +5922,7 @@ LEXICON Nouns
 пудинг:пудинг N-INFL ; 
 пудра:пудра N-INFL ; 
 пул:пул N-INFL ;
-пункт:пункт N-INFL ; 
+пункт:пункт N6 ; 
 пуржина:пуржина N-INFL ;
 пучок:пучок N-INFL ; 
 пырылдак:пырылдак N-INFL ; 
@@ -5872,7 +5995,7 @@ LEXICON Nouns
 реформа:реформа N-INFL ; 
 рецензия:рецензия N-INFL ; 
 ринг:ринг N-INFL ; 
-риск:риск N-INFL ; 
+риск:риск N6 ; 
 ритм:ритм N-INFL ; 
 ритуал:ритуал N-INFL ;
 робот:робот N-INFL ; 
@@ -6104,7 +6227,7 @@ LEXICON Nouns
 структура:структура N-INFL ; 
 студент% кыз:студент% кыз N-INFL ; ! "" 
 студент:студент N-INFL ;  ! "student"
-субъект:субъект N-INFL ; 
+субъект:субъект N6 ; 
 субъективизм:субъективизм N-INFL ; 
 суд:суд N-INFL ; ! "" 
 судак:судак N-INFL ; ! "балыктын бир түрү" 
@@ -7813,7 +7936,7 @@ Tеңир NP-TOP ; ! ""
 Мезопотамия:Мезопотамия NP-TOP ; ! ""
 Мексика:Мексика NP-TOP ; ! ""
 Мехико:Мехико NP-TOP ; ! ""
-Минск:Минск NP-TOP ; ! ""
+Минск:Минск NP-TOP-CLUSTER ; ! ""
 Моаб:Моаб NP-TOP ; ! ""
 Мьянма:Мьянма NP-TOP ; ! ""
 Моголстан:Моголстан NP-TOP ; ! ""
@@ -7974,13 +8097,13 @@ Tеңир NP-TOP ; ! ""
 Гаванна:Гаванна NP-TOP ; 
 Газиантеп:Газиантеп NP-TOP ;
 Гамман:Гамман NP-TOP ;
-Гданьск:Гданьск NP-TOP ;
+Гданьск:Гданьск NP-TOP-CLUSTER ;
 Гуйчжоу:Гуйчжоу NP-TOP ; ! "провинция на юго-западе Китая"
 Дакар:Дакар NP-TOP ; 
 Дакка:Дакка NP-TOP ;
-Дамаск:Дамаск NP-TOP ;
+Дамаск:Дамаск NP-TOP-CLUSTER ;
 Джакарта:Джакарта NP-TOP ;
-Донецк:Донецк NP-TOP ;
+Донецк:Донецк NP-TOP-CLUSTER ;
 Доха:Доха NP-TOP ; 
 Дублин:Дублин NP-TOP ;
 Душанбе:Душанбе NP-TOP ;
@@ -8079,16 +8202,16 @@ Tеңир NP-TOP ; ! ""
 Макат:Макат NP-TOP ; ! ""
 Маңгыстау:Маңгыстау NP-TOP ; ! ""
 Медеу:Медеу NP-TOP ; ! "Medew"
-Уральск:Уральск NP-TOP ; ! "Uralsk"
+Уральск:Уральск NP-TOP-CLUSTER ; ! "Uralsk"
 Өскемен:Өскемен NP-TOP ; ! "Ust-Kamenogorsk"
-Өскемен:Усть-Каменогорск NP-TOP ; ! "Ust-Kamenogorsk" ! Dir/LR
+Өскемен:Усть%-Каменогорск NP-TOP-CLUSTER ; ! "Ust-Kamenogorsk" ! Dir/LR
 Павлодар:Павлодар NP-TOP ; ! ""
 Петропавл:Петропавл NP-TOP ; ! ""
 Сарыагаш:Сарыагаш NP-TOP ; ! ""
 Сарыарка:Сарыарка NP-TOP ; ! ""
 Сарышыганак:Сарышыганак NP-TOP ; ! ""
 Семей:Семей NP-TOP ; ! "Semipalatinsk"
-Семей:Семипалатинск NP-TOP ; ! "Semipalatinsk"  ! Dir/LR
+Семей:Семипалатинск NP-TOP-CLUSTER ; ! "Semipalatinsk"  ! Dir/LR
 Талдыкорган:Талдыкорган NP-TOP ; ! ""
 Тараз:Тараз NP-TOP ; ! ""
 Түркистан:Туркистан NP-TOP ; ! "Turkistan" Dir/LR
@@ -8141,17 +8264,16 @@ Tеңир NP-TOP ; ! ""
 Дагестан:Дагестан NP-TOP ; ! ""
 Ленинград:Ленинград NP-TOP ; ! ""
 Москва:Москва NP-TOP ; ! "Moscow"
-Омск:Омск NP-TOP ; ! ""
-Омск:Омск%{і%} NP-TOP ; ! "" ! Dir/LR
+Омск:Омск NP-TOP-CLUSTER ; ! ""
 Оренбург:Оренбург NP-TOP ; ! ""
 Петербург:Петербург NP-TOP ; ! ""
 Санкт%-Петербург:Санкт%-Петербург NP-TOP ; ! ""
 Сталинград:Сталинград NP-TOP ; ! ""
-Тобольск:Тобольск NP-TOP ; ! ""
+Тобольск:Тобольск NP-TOP-CLUSTER ; ! ""
 Тобол:Тобол NP-TOP ; ! ""
 Уфа:Уфа NP-TOP ; ! ""
 
-Ханты%-Мансийск:Ханты%-Мансийск NP-TOP ; ! ""
+Ханты%-Мансийск:Ханты%-Мансийск NP-TOP-CLUSTER ; ! ""
 
 ! Other toponyms
 !---------------

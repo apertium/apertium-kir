@@ -61,7 +61,7 @@ LabialCns = б п м
             Б П М ;
 
 UnvoicedNonSonCns = К П С Т Ф Х Ц Ч Ш Щ  
-	                к п с т ф х ц ч ш щ ;
+	                 к п с т ф х ц ч ш щ ;
 
 VoicedCns = Б В Г Д Ж З Л М Н Ң Й Р
             б в г д ж з л м н ң й р ;
@@ -137,7 +137,7 @@ Rules
 
 "Devoicing of stops etc. across morpheme boundary after voiceless consonants" !!"Katkalan harmony in consonants"
 Cx:Cy <=>  [ :UnvoicedNonSonCns ]/[ [ :0 - [ %{n%}:0 | Abstract:0 ] ] | %-: | %>: ] _ ;
-           [ %{т%}:0 ]/[ %>: | %- ] _ ;
+           [ %{т%}:0 ]/[ %>: | %-: ] _ ;
                            except
                                    ! avoid conflict with "Causative stuff"
                                    [ :SurVow | :р | :н ] %>: _ %{I%}: р: ;
@@ -194,7 +194,7 @@ Cx:Cy <=>  [ :UnvoicedNonSonCns ]/[ [ :0 - [ %{n%}:0 | Abstract:0 ] ] | %-: | %>
 !!!!!!!!!!!!   Vowel harmony !!!!!!!!!!!!!
 
 "Vowel harmony for archiphoneme {A}"
-%{A%}:Vy  <=> [ :LastVowel :Cns* :Cns ]/[ :0 - [ Abstract:0 ] | %>: | %-: ] _ ;
+%{A%}:Vy  <=> [ :LastVowel :Cns* :Cns ]/[ [ :0 - [ Abstract:0 ] ] | %>: | %-: ] _ ;
                                  [ %{A%}:LastVowel ] _ ;
                  except
                                                      _ ( %>: ) %{U%}: ;
@@ -240,15 +240,15 @@ Cx:Cy <=>  [ :UnvoicedNonSonCns ]/[ [ :0 - [ %{n%}:0 | Abstract:0 ] ] | %-: | %>
                     _ %{A%}: ;
 
 "Vowel harmony for archiphoneme {I}"
-%{I%}:Vy <=> [ :LastVowel :Cns* :Cns ]/[ %>: | %-: | [ :0 - Abstract: ] ] _ ;
+%{I%}:Vy <=> [ :LastVowel :Cns* :Cns ]/[ %>: | %-: | [ :0 - Abstract:0 ] ] _ ;
               except
                         [ :LowVow м: ]/[ :0 | %>: ] _ п/[ :0 | %>: ] ;
                                 %{n%}:/[ :0 | %>: ] _ ;     ! Avoid conflict with {n} stuff
                                     й:/[ :0 | %>: ] _ ;     ! Avoid conflict w y-vowels
                      [ %{e%}: :Cns* ]/[ %>: | %-: ] _ ;     ! Avoid conflict with irregular vowel harmony
                                                     _ р:0 ; ! Avoid conflict w causative
-  where  Vy  in  (  и  ү  и  и  ү  ы  ы  у  у  ы  у  у )
-  LastVowel  in  (  и  ү  е  э  ө  я  а  ё  о  ы  ю  у )
+  where  Vy  in  (  и  ү  и  и  ү  ы  ы  у  у  ы  у  у  и  ү  ү  ы  у  ы  у )
+  LastVowel  in  (  и  ү  е  э  ө  я  а  ё  о  ы  ю  у  И  Ү  Ө  А  О  Ы  У )
            matched ;
 
 "Irregular vowel harmony for archiphoneme {I}"
