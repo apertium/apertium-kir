@@ -1538,7 +1538,7 @@ LEXICON V-PERS-COP-SUF-NOSG3
 
 LEXICON V-PERS-COP ! P_3
 
-%+э%<cop%>: V-PERS-COP-SUF-NOSG3 ; ! Dir/RL
+! %+э%<cop%>: V-PERS-COP-SUF-NOSG3 ; ! Dir/RL
 %+э%<cop%>%<aor%>: V-PERS-COP-SUF ; 
 !%+э%<cop%>%<neg%>:% эмес V-PERS-COP-SUF ; 
 !%+э%<cop%>%<evid%>:% экен V-PERS-COP-SUF ; 
@@ -14285,7 +14285,7 @@ LEXICON Adjectives
 бар:бар A3 ; ! "" 
 башкы:башкы A3 ; ! "" 
 баштапкы:баштапкы A3 ; ! "" 
-белгилүү:белгилүү A3 ; ! "" 
+белгилүү:белгилүү A2 ; ! "well-known, famous" ! probably A2 not A3: comparative forms found in google
 белгисиз:белгисиз A3 ; ! "unknown"
 берки:берки A3 ; ! "" 
 бирдей:бирдей A3 ; ! "" 
