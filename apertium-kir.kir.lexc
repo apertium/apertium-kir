@@ -14430,7 +14430,7 @@ LEXICON Adjectives
 айыптуу:айыптуу A2 ; ! "guilty" 
 күнөөлүү:күнөөлүү A2 ; ! "guilty" FIXME: check A2
 алыс:алыс A1 ; ! "far, distant" A1 not A2 becacuse ADV forms, e.g. алыс кетти
-арык:арык A2 ; ! "" 
+арык:арык A2 ; ! "skinny, thin" 
 ачуу:ачуу A2 ; ! "bitter, strong-flavoured" 
 баалуу:баалуу A2 ; ! "" 
 байланыштуу:байланыштуу A2 ; ! "" 
@@ -14687,7 +14687,6 @@ LEXICON Adjectives
 ! пенсионер:пенсионер ADJ ; ! "there is no such adj form пенсионердик maybe correct form see A4 section" 
 ! сабырдуу:сабырдуу A1 ; ! "" ! "moved to A2 section" 
 ! сак:сак A1 ; 
-! сейрек:сейрек ADJ ; ! "removing duplicte"
 ! суук:суук A1 ; 
 ! табигый:табигый A1 ; ! "natural"
 ! так:так A1 ;
@@ -15213,7 +15212,8 @@ LEXICON Adjectives
 ритимдүү:ритимдүү ADJ ;
 салафан:салафан ADJ ;
 саяакатчы:саяакатчы ADJ ;
-сейрек:сейрек ADJ ;
+! сейрек:сейрек ADJ ; ! probably just ADV
+сейрек:сейрек A1 ; ! "rarely" - subst, advl, comp forms, but no straight adj form (???)
 сокур:сокур ADJ ;
 супер:супер ADJ ;
 сыйлуу:сыйлуу ADJ ;
@@ -15301,6 +15301,7 @@ LEXICON Adjectives
 көлдөлөң:көлдөлөң A1 ; ! "diagonal" ! FIXME: CHECK A1
 көөнө:көөнө A2 ; ! "old" ! FIXME: CHECK A2 (seems to have comp forms, cf. google)
 накта:накта A3 ; ! "real"
+сейрек% кездешүүчү:сейрек% кездешүүчү A4 ; ! "rare" ! Use/MT ! FIXME: CHECK A4
 
 
 LEXICON Adverbs
