@@ -2506,7 +2506,6 @@ LEXICON Nouns
 ! коркунучтуу:коркунучтуу N-INFL ; ! "should be adj see A1 section" 
 ! кошумча:кошумча N-INFL ; ! "removing duplicate" 
 ! кошумча:кошумча N-INFL ; ! "should be adj see A3 section" 
-! коюу:коюу N-INFL ; ! "should be adj see A2 section" 
 ! коңшу:коңшу N-INFL ; ! "" ! "should be adj see A3 section" 
 ! кран
 ! критерий:критерий N-INFL ; ! "removing duplicate" 
@@ -14149,9 +14148,9 @@ LEXICON Adjectives
 техникалуу:техникалуу A4 ; ! "" 
 техникалык:техникалык A4 ; ! "technical" 
 технологиялык:технологиялык A4 ; ! "" 
-толо:толо A4 ; ! "" 
+толо:толо A4 ; ! "full (of)" 
 тоолуу:тоолуу A4 ; ! "" 
-топтоло:топтоло A4 ; ! "" 
+топтоло:топтоло A4 ; ! "real full (of)" 
 топурактуу:топурактуу A4 ; ! "NOTE: maybe this kind of asj should be generated" 
 трагедиялык:трагедиялуу A4 ; ! "" Dir/LR
 трагедиялык:трагедиялык A4 ; ! "tragic" 
@@ -14449,8 +14448,8 @@ LEXICON Adjectives
 кежир:кежир A2 ; ! "" 
 кең:кең A1 ; ! "wide, widely" 
 кичинекей:кичинекей A2 ; ! "FIXME comp. form used very few" 
-коюу:койуу A2 ; ! "" Dir/LR
-коюу:коюу A2 ; ! "" 
+коюу:койуу A2 ; ! "thick (of liquids)" Dir/LR alternate spelling
+коюу:коюу A2 ; ! "thick (of liquids)" 
 кубанычтуу:кубанычтуу A2 ; ! "not sure about this" 
 кубаттуу:кубаттуу A2 ; ! "" 
 кудуреттүү:кудуреттүү A2 ; ! "" 
@@ -14662,7 +14661,6 @@ LEXICON Adjectives
 ! катышкан:катышкан ADJ ; ! "" ! "moved to A3 section" 
 ! качкын:качкын ADJ ; ! "this is noun no adj form" 
 ! кеч:кеч A1 ; 
-! коюу:коюу ADJ ; ! "removing duplicte"
 ! кургак:кургак A1 ; 
 ! кыз:кыз ADJ ; ! "" ! "don't know the adj form for this" 
 ! кыйын:кыйын A1 ; 
@@ -15704,21 +15702,6 @@ LEXICON Adverbs
 кечээ:кече%>ги IRREGULAR-KI ;       ! Dir/LR
 кечээ:кечөө%>гү IRREGULAR-KI ;      ! Dir/LR
 
-
-
-LEXICON Copula
-
-э%<cop%>%<neg%>:эмес V-PERS-COP-SUF ; 
-э%<cop%>%<evid%>:экен V-PERS-COP-SUF ; 
-э%<cop%>%<neg%>%<evid%>:эмес% экен V-PERS-COP-SUF ; 
-э%<cop%>%<ger_past%>:экен POSSESSION ;
-э%<cop%>%<ger_perf%>:экен%>%{L%}%{I%}к POSSESSION ;
-э%<cop%>%<ifi%>:эле V-PERS-PAST ;
-э%<cop%>%<past%>:экен V-PERS-COP-SUF ;
-
-э%<cop%>%<aor%>%<p3%>%<sg%>: # ; ! Dir/RL ! to generate nothing if attached to an unknown form
-э%<cop%>%<aor%>%<p3%>%<pl%>: # ; ! Dir/RL
-
 ! Languages
 ! =========
 
@@ -15760,6 +15743,24 @@ LEXICON Copula
 шведче:шведче ADV-LANG ; ! ""
 якутча:якутча ADV-LANG ; ! ""
 еврейче:еврейче ADV-LANG ; ! "Jewish/Jew"
+
+
+
+LEXICON Copula
+
+э%<cop%>%<ger_past%>:экен POSSESSION ;
+э%<cop%>%<ger_perf%>:экен%>%{L%}%{I%}к POSSESSION ;
+
+э%<cop%>%<aor%>%<evid%>:экен V-PERS-COP-SUF ; 
+э%<cop%>%<neg%>%<aor%>%<evid%>:эмес% экен V-PERS-COP-SUF ; 
+э%<cop%>%<ifi%>:эле V-PERS-PAST ;
+
+э%<cop%>%<neg%>%<aor%>:эмес V-PERS-COP-SUF ; 
+
+э%<cop%>%<aor%>: V-PERS-COP-SUF ; ! Dir/RL ! for below reason?
+э%<cop%>%<aor%>%<p3%>%<sg%>: # ; ! Dir/RL ! to generate nothing if attached to an unknown form
+э%<cop%>%<aor%>%<p3%>%<pl%>: # ; ! Dir/RL
+
 
 LEXICON Verbs
 
