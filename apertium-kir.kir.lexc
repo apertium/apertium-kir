@@ -464,6 +464,7 @@ CASES-DEFAULT ;
 LEXICON NIKI
 
 %<gen%>%<subst%>:%>%{N%}%{I%}к%{I%}%{n%} CASES ;
+%<gen%>%<subst%>%<pl%>:%>%{N%}%{I%}к%{I%}%{n%}%>%{L%}%{A%}р CASES ;
 %<px%>:%>%{N%}%{I%}к%{I%}%{n%} CASES ; ! Dir/RL
 %<px%>:%>%{N%}%{I%}к%{I%}%{n%} CLITICS-NO-COP ; ! Dir/RL ! FMT: in -kaz this is what the gerunds get.
 
