@@ -84,6 +84,7 @@
 %<px3sp%>   ! Possessive, third person singular/plural
 %<px1pl%>   ! Possessive, first person plural
 %<px2pl%>   ! Possessive, second person plural
+%<px3pl%>   ! Possessive, third person plural (for reflexive)
 %<px%>      ! General possessive -ныкы  ! CHANGED to %<ger%>%<subst%>
 
 %<qst%>     ! Question modal word and "what about" focus particle
@@ -1397,6 +1398,7 @@ LEXICON PRON-REFL
 %<prn%>%<ref%>%<px3sp%>:%>%{s%}%{I%}%{n%} PRON-REF-ADV ;
 %<prn%>%<ref%>%<px1pl%>:%>%{I%}б%{I%}з PRON-REF-ADV ;
 %<prn%>%<ref%>%<px2pl%>:%>%{I%}ң%{A%}р PRON-REF-ADV ;
+%<prn%>%<ref%>%<px3pl%>:%{L%}%{A%}р%>%{s%}%{I%}%{n%} PRON-REF-ADV ;
 
 %<prn%>%<ref%>%<px2sg%>%<frm%>:%>%{I%}ң%{I%}з PRON-REF-ADV ;
 %<prn%>%<ref%>%<px2pl%>%<frm%>:%>%{I%}ң%{I%}зд%{A%}р PRON-REF-ADV ;
