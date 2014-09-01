@@ -282,7 +282,7 @@ LEXICON CASE-NONOM
 
 %<gen%>:%>%{N%}%{I%}н CLIT-NONPRED ;
 %<dat%>:%>%{G%}%{A%} CLIT-NONPRED ;
-%<acc%>:%>%{N%}%{I%} CLIT-NONPRED ;
+%<acc%>:%>%{N%}%{I%} CLITICS-NO-COP ;
 
 %<abl%>:%>%{D%}%{A%}н PRED ;
 %<loc%>:%>%{D%}%{A%} PRED ;
@@ -430,7 +430,7 @@ LEXICON CASES-DEFAULT
 %<nom%>: PRED ;                 ! -     -      -
 %<gen%>:%>%{N%}%{I%}н CLIT-NONPRED ;      ! -нын, -нин, -дын, -дин, -тын, -тин, -нун, -нүн, -дун, -дүн, -тун, -түн
 %<dat%>:%>%{G%}%{A%} CLIT-NONPRED ;       ! -га, -ка, -ге, -ке, -го, -ко, -гө, -кө
-%<acc%>:%>%{N%}%{I%} CLIT-NONPRED ;       ! -ны, -ни, -ды, -ди, -ты, -ти, -ну, -нү, -ду, -дү, -ту, -тү
+%<acc%>:%>%{N%}%{I%} CLITICS-NO-COP ;       ! -ны, -ни, -ды, -ди, -ты, -ти, -ну, -нү, -ду, -дү, -ту, -тү
 %<loc%>:%>%{D%}%{A%} PRED ;  ! -да, -де, -та, -те, -до, -дө, -то, -тө
 %<sim%>:%>%{D%}%{A%}й PRED ;  ! -дай, -дей, -дөй, -дой, -тай, -тей, -төй, той
 
@@ -1170,7 +1170,7 @@ LEXICON PRON-DEM-BUL
 бул%<prn%>%<dem%>%<nom%>:бул PRED ;
 бул%<prn%>%<dem%>%<nom%>:бу PRED ;   ! Dir/LR
 бул%<prn%>%<dem%>%<gen%>:мунун CLIT-NONPRED ;
-бул%<prn%>%<dem%>%<acc%>:муну CLIT-NONPRED ;
+бул%<prn%>%<dem%>%<acc%>:муну CLITICS-NO-COP ;
 бул%<prn%>%<dem%>%<dat%>:буга CLIT-NONPRED ;
 бул%<prn%>%<dem%>%<loc%>:мында PRED ;
 бул%<prn%>%<dem%>%<abl%>:мындан PRED ;
@@ -1192,7 +1192,7 @@ LEXICON PRON-DEM-L
 %<prn%>%<dem%>%<nom%>:л PRED ;
 %<prn%>%<dem%>%<nom%>: PRED ;  ! Dir/LR
 %<prn%>%<dem%>%<gen%>:н%{I%}н CLIT-NONPRED ;
-%<prn%>%<dem%>%<acc%>:н%{I%} CLIT-NONPRED ;
+%<prn%>%<dem%>%<acc%>:н%{I%} CLITICS-NO-COP ;
 %<prn%>%<dem%>%<dat%>:г%{A%} CLIT-NONPRED ;
 %<prn%>%<dem%>%<loc%>:нд%{A%} PRED ;
 %<prn%>%<dem%>%<abl%>:нд%{A%}н PRED ;
@@ -1255,7 +1255,7 @@ LEXICON PRON-DEM-AL
 
 %<prn%>%<dem%>%<nom%>:л PRED ;
 %<prn%>%<dem%>%<gen%>:нын CLIT-NONPRED ;
-%<prn%>%<dem%>%<acc%>:ны CLIT-NONPRED ;
+%<prn%>%<dem%>%<acc%>:ны CLITICS-NO-COP ;
 %<prn%>%<dem%>%<dat%>:га CLIT-NONPRED ;
 %<prn%>%<dem%>%<loc%>:нда PRED ;
 %<prn%>%<dem%>%<abl%>:ндан PRED ;
@@ -1277,7 +1277,7 @@ LEXICON PRON-DEM-TIGIL
 %<prn%>%<dem%>%<nom%>:л PRED ;
 %<prn%>%<dem%>%<nom%>: PRED ;   ! Dir/LR
 %<prn%>%<dem%>%<gen%>:нин CLIT-NONPRED ;
-%<prn%>%<dem%>%<acc%>:ни CLIT-NONPRED ;
+%<prn%>%<dem%>%<acc%>:ни CLITICS-NO-COP ;
 %<prn%>%<dem%>%<dat%>:ге CLIT-NONPRED ;
 %<prn%>%<dem%>%<loc%>:нде PRED ;
 %<prn%>%<dem%>%<abl%>:нден PRED ;
@@ -1308,7 +1308,7 @@ LEXICON PRON-PERS-EN
 
 %<nom%>:ен PRED ;
 %<gen%>:енин CLIT-NONPRED ;
-%<acc%>:ени CLIT-NONPRED ;
+%<acc%>:ени CLITICS-NO-COP ;
 %<dat%>:ага CLIT-NONPRED ;
 %<dat%>:аңа CLIT-NONPRED ;   ! Dir/LR
 %<dat%>:аа CLIT-NONPRED ;    ! Dir/LR
@@ -1322,7 +1322,7 @@ LEXICON PRON-PERS-IZ
 
 %<nom%>: PRED ;
 %<gen%>:дин CLIT-NONPRED ;
-%<acc%>:ди CLIT-NONPRED ;
+%<acc%>:ди CLITICS-NO-COP ;
 %<dat%>:ге CLIT-NONPRED ;
 %<loc%>:де PRED ;
 %<abl%>:ден PRED ;
@@ -1334,7 +1334,7 @@ LEXICON PRON-PERS-AL
 
 %<nom%>:л PRED ;
 %<gen%>:нын CLIT-NONPRED ;
-%<acc%>:ны CLIT-NONPRED ;
+%<acc%>:ны CLITICS-NO-COP ;
 %<dat%>:га CLIT-NONPRED ;
 %<loc%>:нда PRED ;
 %<abl%>:ндан PRED ;
@@ -1346,7 +1346,7 @@ LEXICON PRON-PERS-PLURALS
 
 %<nom%>: PRED ;
 %<gen%>:%>д%{I%}н CLIT-NONPRED ;
-%<acc%>:%>д%{I%} CLIT-NONPRED ;
+%<acc%>:%>д%{I%} CLITICS-NO-COP ;
 %<dat%>:%>г%{A%} CLIT-NONPRED ;
 %<loc%>:%>д%{A%} PRED ;
 %<abl%>:%>д%{A%}н PRED ;
