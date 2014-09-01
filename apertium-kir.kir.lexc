@@ -7651,12 +7651,12 @@ LEXICON Nouns
 !үст N-INFL-NO-ATTR ; ! "top"
 !орто N-INFL-NO-ATTR ; ! "middle/center"
 
-аст:ас%{т%} N-INFL-NKI ; ! "bottom; underneath, below"
-аст:аст N-INFL-NKI ; ! "bottom", "lower"
 алд:алд N-INFL-NKI ; ! "front/forward", "forward"
+арт:арт N-INFL-NKI ; ! "back, behind", "rear"
+аст:аст N-INFL-NKI ; ! "bottom", "lower"
+аст:ас%{т%} N-INFL-NKI ; ! "bottom; underneath, below"
 үст:үст N-INFL-NKI ; ! "top", "upper"
 орто:орто N-INFL-NKI ; ! "middle/center", "central"
-арт:арт N-INFL-NKI ; ! "back, behind", "rear"
 
 ! баш N-KI ; ! "principle"
 ! башкы:башкы ADJ ; ! "principle"  ! we're going to just let this be a fixed form, since баштуу is the ATTR form of баш ! "moved to A3" 
