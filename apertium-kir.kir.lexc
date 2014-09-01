@@ -2596,7 +2596,6 @@ LEXICON Nouns
 ! оң:оң N-INFL ; ! "should be adj see A1 section" 
 ! оңой:оңой N-INFL ; ! "should be adj see A1 section" 
 ! пайда% болуу:пайда% болуу N-INFL ; ! "removing duplicate" 
-! пайда:пайда N-INFL ; ! "removing duplicate" 
 ! партия:партия N-INFL ; ! "removing duplicate" 
 ! пенсионер:пенсионер N-INFL ; ! "removing duplicate" 
 ! пикир:пикир N-INFL ; ! "removing duplicate" 
@@ -5720,11 +5719,11 @@ LEXICON Nouns
 пайгамбар:пайгамбар N-INFL ; ! "prophet"
 пайгамбардык:пайгамбардык N-INFL ; ! "prophecy"
 пайда% болуу:пайда% болуу N-INFL ;
-пайда:пайда N-INFL ; 
-пайдалануу:пайдалануу N-INFL ;
+пайда:пайда N-INFL ; ! "use (benefit)"
+пайдалануу:пайдалануу N-INFL ; ! "use (you get out of something)"
 пайча:пайча N-INFL ; 
 пайыз:пайыз N-INFL ; ! "percent"
-пакет:пакет N-INFL ; 
+пакет:пакет N-INFL ; ! "bag"
 пакт:пакт N6 ; 
 пал:пал N-INFL ; 
 палас:палас N-INFL ; 
@@ -14059,7 +14058,7 @@ LEXICON Adjectives
 ортопедиялык:ортопедиялык A4 ; ! "" 
 орфографиялык:орфографиялык A4 ; ! "" 
 оюнкарак:оюнкарак A4 ; ! "" 
-пайдасыз:пайдасыз A4 ;  ! "" 
+пайдасыз:пайдасыз A4 ;  ! "useless" 
 пайыздык:пайыздык A4 ; ! "" 
 пакиза:пакиза A4 ; ! "" 
 парафиндүү:парафиндүү A4 ; ! "" 
