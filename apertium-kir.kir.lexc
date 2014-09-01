@@ -2509,7 +2509,6 @@ LEXICON Nouns
 ! коңшу:коңшу N-INFL ; ! "" ! "should be adj see A3 section" 
 ! кран
 ! критерий:критерий N-INFL ; ! "removing duplicate" 
-! кубанычтуу:кубанычтуу N-INFL ; ! "should be adj see A2 section" 
 ! кубат:кубат N-INFL ; ! "removing duplicate" 
 ! курал N-INFL ;
 ! куралдар N-INFL ;
@@ -14265,7 +14264,7 @@ LEXICON Adjectives
 аймактык:аймактык A3 ; ! "~regional" 
 айрым:айрым A3 ; ! "" 
 айылдык:айылдык A3 ; ! "" 
-акыркы:акыркы A3 ; ! "previous" 
+акыркы:акыркы A3 ; ! "previous" ! Use/MT see акыры
 алгачкы:алгачкы A3 ; ! "" 
 алдыңкы:алдыңкы A3 ; ! "" 
 анча%-мынча:анча%-мынча A3 ; ! "" 
@@ -14449,7 +14448,7 @@ LEXICON Adjectives
 кичинекей:кичинекей A2 ; ! "FIXME comp. form used very few" 
 коюу:койуу A2 ; ! "thick (of liquids)" Dir/LR alternate spelling
 коюу:коюу A2 ; ! "thick (of liquids)" 
-кубанычтуу:кубанычтуу A2 ; ! "not sure about this" 
+кубанычтуу:кубанычтуу A2 ; ! "glad" FIXME: CHECK A2
 кубаттуу:кубаттуу A2 ; ! "" 
 кудуреттүү:кудуреттүү A2 ; ! "" 
 кызгылтым:кызгылт A2 ; ! "" Dir/LR
@@ -15666,15 +15665,9 @@ LEXICON Adverbs
 
 жаңы% эле:жаңы% эле ADV-WITH-KI ; ! "just now" 
 
-илгери:илгери ADV ; ! "ancient" 
-илгери:илгер ADV-ABL ; ! "ancient"
-илгери:илгер ADV-KI ; ! "ancient"
+эртең% менен:эртең% менен ADV-WITH-KI-ABL ; ! "morning
+эртең% менен:эртең% менен ADV-ABL-REG ; ! "morning      ! Dir/LR
 
-эми:эми ADV-WITH-ABL ;
-эми:эм ADV-KI ; ! "next/soon-to-be"
-эми:эмди ADV-WITH-KI ; ! dialectal form    ! Dir/LR
-эми:эмди ADV-ABL-REG ; ! dialectal form    ! Dir/LR
-эмдигиче:эмдигиче ADV ; ! "until now"
 
 !! The following delete ы/у/и/ү before adding KI
 ары:ары ADV-WITH-IRREGULAR-KI ; ! "further away"
@@ -15685,9 +15678,20 @@ LEXICON Adverbs
 бери:бер ADV-KI ; ! "nearer"
 жогору:жогору ADV-WITH-IRREGULAR-KI ; ! "high"
 жогору:жогор ADV-KI ; ! "high"
+акыры:акыры ADV-WITH-IRREGULAR-KI ; ! "at last"
+акыры:акыр ADV-KI ; ! "previous; last"
 
-эртең% менен:эртең% менен ADV-WITH-KI-ABL ; ! "morning
-эртең% менен:эртең% менен ADV-ABL-REG ; ! "morning      ! Dir/LR
+илгери:илгери ADV ; ! "ancient" 
+илгери:илгер ADV-ABL ; ! "ancient"
+илгери:илгер ADV-KI ; ! "ancient"
+
+эми:эми ADV-WITH-ABL ;
+эми:эм ADV-KI ; ! "next/soon-to-be"
+эми:эмди ADV-WITH-KI ; ! dialectal form    ! Dir/LR
+эми:эмди ADV-ABL-REG ; ! dialectal form    ! Dir/LR
+эмдигиче:эмдигиче ADV ; ! "until now"
+
+
 
 !! There are a lot of acccepted ways of spelling/saying кечээ,
 !! and a number of attributive forms (кечээги).
@@ -17143,6 +17147,7 @@ LEXICON Verbs
 куру:куру V-INFL-IV ; ! "disappear"
 рамкала:рамкала V-INFL-TV ; ! "to frame / put in a frame ?"
 жыл:жыл V-INFL-IV ; ! "to move"
+мез% бол:мез% бол V-INFL-IV ; ! "be astounded"
 
 
 LEXICON Abbreviations
