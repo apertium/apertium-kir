@@ -1764,34 +1764,50 @@ LEXICON V-INFL-NON-FINITE-REG
 
 LEXICON V-INFL-FINITE
 
-! Finite forms
-%<aor%>:%>%{E%} V-PERS-PRES ;                                 !
-%<fut%>:%>%{A%}р V-PERS-COP-SUF ;                                 !
-%<fut%>:%>%{A%}%{A%}р V-PERS-COP-SUF ;                            ! Dir/LR
-%<ifi%>:%>%{D%}%{I%} V-PERS-PAST ;                            ! 
-%<past%>:%>%{G%}%{A%}н V-PERS-COP-SUF ;                           ! 
-%<past%>%<evid%>:%>%{G%}%{A%}н% экен V-PERS-COP-SUF ; ! evidential general past
-%<ifi%>%<evid%>:%>%{I%}пт%{I%}р V-PERS-COP-SUF ;      ! evidential recent past
-!%<cond%>:%>с%{A%} V-PERS-PAST ;                               ! not a finite form
-!%<opt%>:%>м%{A%}к%>ч%{I%} V-PERS-COP-SUF ;                        !   
-%<pih%>:%>ч%{U%} V-PERS-COP-SUF ;                                 ! 
-%<pot%>:%>ч%{U%}%>д%{A%}й V-PERS-COP-SUF ;                        ! 
-%<pcond%>:%>м%{A%}к V-PERS-COP-SUF ;                              ! 
-%<notyet%>:%>{E%}% элек V-PERS-COP-SUF ;                          ! 
+! Regular finite forms
+V-FINITE-REGULAR_NEGATIVE ;
+%<neg%>:%>%{B%}%{A%} V-FINITE-REGULAR_NEGATIVE ;
 
-!%<neg%>%<fut%>:%>%{B%}%{A%}%>%{A%}р V-PERS-COP ;              !
-!%<neg%>%<fut%>:%>%{B%}%{A%}%>%{A%}%{A%}р V-PERS-COP ;         ! Dir/LR
-!%<neg%>%<ifi%>:%>%{B%}%{A%}%>%{D%}%{I%} V-PERS-PAST ;         ! 
-%<neg%>%<fut%>:%>%{B%}%{A%}%>%с V-PERS-COP-SUF ;              !
-%<neg%>%<fut%>:%>%{B%}%{A%}%>%{A%}с V-PERS-COP-SUF ;         ! Dir/LR
-%<neg%>%<ifi%>:%>%{G%}%{A%}н% жок V-PERS-COP-SUF ;         !
+! Irregular finite forms
+V-FINITE-IRREGULAR_NEGATIVE ;
+
+
+LEXICON V-FINITE-REGULAR_NEGATIVE
+%<aor%>:%>%{E%} V-PERS-PRES ;                                     !
+%<aor%>%<evid%>:%>%{E%}%>т% экен V-PERS-COP-SUF ;                 !
+
+%<ifi%>%<evid%>:%>%{I%}пт%{I%}р V-PERS-COP-SUF ;                  ! evidential recent past
+
+%<pih%>:%>ч%{U%} V-PERS-COP-SUF ;                                 ! 
+
+
+LEXICON V-FINITE-IRREGULAR_NEGATIVE
+
+%<fut%>:%>%{A%}р V-PERS-COP-SUF ;                                 ! 
+%<fut%>:%>%{A%}%{A%}р V-PERS-COP-SUF ;                            ! Dir/LR
+%<neg%>%<fut%>:%>%{B%}%{A%}%>%с V-PERS-COP-SUF ;                  !
+%<neg%>%<fut%>:%>%{B%}%{A%}%>%{A%}с V-PERS-COP-SUF ;              ! Dir/LR
+
+%<ifi%>:%>%{D%}%{I%} V-PERS-PAST ;                                !
+%<neg%>%<ifi%>:%>%{G%}%{A%}н% жок V-PERS-COP-SUF ;                !
+!%<neg%>%<ifi%>:%>%{B%}%{A%}%>%{D%}%{I%} V-PERS-PAST ;             ! FIXME: what to do about this
+
+%<past%>:%>%{G%}%{A%}н V-PERS-COP-SUF ;                           ! 
+%<neg%>%<past%>:%>%{G%}%{A%}н% эмес V-PERS-COP-SUF ;              ! 
+
+%<past%>%<evid%>:%>%{G%}%{A%}н% экен V-PERS-COP-SUF ;             ! evidential general past
 %<neg%>%<past%>%<evid%>:%>%{G%}%{A%}н% жок% экен V-PERS-COP-SUF ; ! evidential general past
-%<neg%>%<ifi%>%<evid%>:%>%{B%}%{A%}%>%{I%}пт%{I%}р V-PERS-COP-SUF ;      ! evidential recent past
-%<neg%>%<aor%>:%>%{B%}%{A%}%>%{E%} V-PERS-PRES ;              !
-!%<neg%>%<cond%>:%>%{B%}%{A%}%>с%{A%} V-PERS-PAST ;            ! not a finite form
-%<neg%>%<past%>:%>%{G%}%{A%}н% эмес V-PERS-COP-SUF ;        ! 
-%<neg%>%<pcond%>:%>м%{A%}к% эмес V-PERS-COP-SUF ;           ! 
-%<neg%>%<pih%>:%>%{B%}%{A%}%>ч%{U%} V-PERS-COP-SUF ;              ! 
+
+%<pcond%>:%>м%{A%}к V-PERS-COP-SUF ;                              ! 
+%<neg%>%<pcond%>:%>м%{A%}к% эмес V-PERS-COP-SUF ;                 ! 
+
+!%<opt%>:%>м%{A%}к%>ч%{I%} V-PERS-COP-SUF ;                        !   
+
+! Things without negative forms
+%<pot%>:%>ч%{U%}%>д%{A%}й V-PERS-COP-SUF ;                        ! 
+%<notyet%>:%>%{E%}% элек V-PERS-COP-SUF ;                         ! 
+
+
 
 LEXICON V-INFL-ASIF
 
