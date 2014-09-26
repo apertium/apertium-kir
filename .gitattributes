@@ -57,6 +57,7 @@ tests/ky-causpass.yaml -text
 tests/ky-jnw.yaml -text
 tests/ky-nouns.yaml -text
 tests/ky-nounsspecial.yaml -text
+tests/ky-numbers.yaml -text
 tests/ky-pronouns.yaml -text
 tests/ky-verbs.pairtest -text
 tests/ky-verbs.yaml -text
