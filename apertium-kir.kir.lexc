@@ -2246,6 +2246,7 @@ PRON-DEM-BUL ; ! "this"
 баары:баар PRON-IND-POSS ; ! "everyone"
 бир% нерсе:бир% нерсе PRON-IND ; ! "something"
 бир% деме:бир% деме PRON-IND ; ! ""
+бир% топ:бир% топ PRON-IND ; ! "" 
 бирөө:бирөө PRON-IND ; ! "someone"
 кээ:кээ PRON-IND ; 
 
@@ -3011,8 +3012,8 @@ LEXICON Nouns
 азайтуу:азайтуу N-INFL ;
 азан:азан N-INFL ; 
 азап:азап N-INFL ; 
-азат:азат N-INFL ; 
-азат:азат N-INFL ;  
+! азат:азат N-INFL ; ! "should be adj see A1 section" 
+! азат:азат N-INFL ; ! "removing duplicate"
 азаттык:азаттык N-INFL ; 
 азаюу:азаюу N-INFL ; ! Use/MT
 азгыруучулук:азгыруучулук N-INFL ; ! "" 
@@ -3113,11 +3114,11 @@ LEXICON Nouns
 акын:акын N-INFL ; 
 акыр:акыр N-INFL ; ! "~stall in a stable"
 акырет:акырет N-INFL ; 
-акырын:акырын N-INFL ; 
+! акырын:акырын N-INFL ; ! "see A1 section"
 акырында:акырында N-INFL ;
 ал%-жай:ал%-жай N-INFL ; ! FIXME: check
 ал:ал N-INFL ; 
-ала:ала N-INFL ; ! FIXME: adj or n?
+! ала:ала N-INFL ; ! FIXME: adj or n? ! "see A3 section" 
 алаамат:алаамат N-INFL ; 
 алака:алака N-INFL ; 
 алакан:алакан N-INFL ; ! "palm (of hand)"
@@ -3559,7 +3560,7 @@ LEXICON Nouns
 боз:боз N-INFL ; 
 бозо:бозо N-INFL ; 
 бой:бой N-INFL ; 
-бойдок:бойдок N-INFL ; 
+! бойдок:бойдок N-INFL ; ! "see A3 section" 
 бойек:бойек N-INFL ; 
 бок:бок N-INFL ; 
 бокс:бокс N-INFL ;
@@ -3650,7 +3651,7 @@ LEXICON Nouns
 бөлөк:бөлөк N-INFL ; 
 бөрк:бөрк N-INFL ; 
 бөрү:бөрү N-INFL ; 
-бөтөн:бөтөн N-INFL ;
+! бөтөн:бөтөн N-INFL ; ! "see A3 section" 
 бөтөнчө:бөтөнчө N-INFL ;
 вагон:вагон N-INFL ; 
 ваза:ваза N-INFL ; 
@@ -3847,7 +3848,7 @@ LEXICON Nouns
 демография:демография N-INFL ; 
 демократ:демократ N-INFL ;
 демократия:демократия N-INFL ; 
-демократиялык:демократиялык N-INFL ;
+! демократиялык:демократиялык N-INFL ; ! "see A3 section" 
 демөөрчү:демөөрчү N-INFL ;
 ден% соолук:ден% соолук N-INFL ;
 ден:ден N-INFL ;
@@ -3992,7 +3993,7 @@ LEXICON Nouns
 жабуу:жабуу N-INFL ;
 жабырлануучу:жабырлануучу N-INFL ; ! "потерпевший" 
 жагдай:жагдай N-INFL ;
-жагымдуу:жагымдуу N-INFL ;
+! жагымдуу:жагымдуу N-INFL ; ! "see A1 section" 
 жагынан:жагынан N-INFL ;
 жаза:жаза N-INFL ; 
 жаздык:жаздык N-INFL ; ! "" 
@@ -4034,6 +4035,7 @@ LEXICON Nouns
 жанына% кол% салуу:жанына% кол% салуу N-INFL ;
 жапа% чеккен:жапа% чеккен N-INFL ;
 жапа:жапа N-INFL ; 
+жапалак:жапалак N-INFL ; ! "owl" 
 жар:жар N-INFL ;
 жара:жара N-INFL ;
 жараан:жараан N-INFL ;
@@ -8155,7 +8157,7 @@ Tеңир NP-TOP ; ! ""
 Шотландия:Шотландия NP-TOP ;
 Шри%-Ланка:Шри%-Ланка NP-TOP ; ! ""
 Ислам:Ислам NP-TOP ;
-Албан:Албан NP-TOP ;
+! Албан:Албан NP-TOP ; ! "removing duplicate" 
 Исраил:Исраил NP-TOP ;
 Иран:Иран NP-TOP ;
 Мостар:Мостар NP-TOP ;
@@ -13879,6 +13881,7 @@ LEXICON Adjectives
 ! =============
 
 абсолюттук:абсолюттук A4 ; ! "" 
+албан:албан A4 ; ! "" 
 авиациялык:авиациялык A4 ; ! "" 
 автобиографиялык:автобиографиялык A4 ; ! "" 
 автономиялуу:автономиялуу A4 ; ! "autonomous" 
@@ -13888,12 +13891,14 @@ LEXICON Adjectives
 агротехникалык:агротехникалык A4 ; ! "" 
 адабий:адабий A4 ; ! "literary" 
 адаттагы:адаттагы A4 ; ! "" 
+адеми:адеми A4 ; ! "" 
 ажырагыс:ажырагыс A4 ; ! "" 
 азалуу:азалуу A4 ; ! "" 
 айдалуучу:айдалуучу A4 ; ! "" 
 айлуу:айлуу A4 ; ! "" 
 айран:айран A4 ; ! "" 
 академиялык:академиялык A4 ; ! "" 
+акварель:акварель A4 ; ! "" 
 актёрдук:актердук A4 ; ! "" Dir/LR
 актёрдук:актерлук A4 ; ! "" Dir/LR
 актёрдук:актёрдук A4 ; ! "" 
@@ -13901,24 +13906,31 @@ LEXICON Adjectives
 акустикалык:акустикалык A4 ; ! "" 
 акционердик:акционердик A4 ; ! "" 
 аналитикалык:аналитикалык A4 ; ! "" 
+антиколониялык:антиколониялык A4 ; ! "" 
 антропогендик:антропогендик A4 ; ! "" 
 антропологиялык:антропологиялык A4 ; ! "anthropological" 
 апелляциялык:апелляциялык A4 ; ! "" 
+ардантуучу:ардантуучу A4 ; ! "" 
 арктикалык:арктикалык A4 ; ! "" 
 артиллериялык:артиллериялык A4 ; ! "" 
 археологиялык:археологиялык A4 ; ! "" 
 архитектуралык:архитектуралык A4 ; ! "architectural" 
+арылтылган:арылтылган A4 ; ! "" 
 аскердик:аскердик A3 ; ! "military" ! A3, not A4 - found subst forms in google
 астрономиялык:астрономиялык A4 ; ! "astronomical" 
 атмосфералык:атмосфералык A4 ; ! "atmospherical" 
 атомдук:атомдук A4 ; ! "" 
 базардык:базардык A4 ; ! "" 
+бала:бала A4 ; ! "" 
 балакеттүү:балакеттүү A4 ; ! "" 
 банктык:банктык A4 ; ! "" 
 баткактуу:баткактуу A4 ; ! "" 
 баягы:баягы A4 ; ! "" 
 биологиялык:биологиялык A4 ; ! "biological" 
 биохимиялык:биохимиялык A4 ; ! "biochemical" 
+биоэнергетикалык:биоэнергетикалык A4 ; ! "" 
+бир% тектүү:бир% тектүү A4 ; ! "" 
+бир% өңчөй:бир% өңчөй A4 ; ! "" 
 бирдиктүү:бирдиктүү A4 ; ! "" 
 бириктешкен:бириктешкен A4 ; ! "" ! "maybe A3 CHECK THIS" 
 бопбош:бопбош A4 ; ! "" 
@@ -13927,7 +13939,9 @@ LEXICON Adjectives
 бюджеттик:бюджеттик A4 ; ! "" 
 бүркөк:бүркөк A4 ; ! "" 
 бүркөк:бүркөө A4 ; ! "" Dir/LR
+вертикалдуу:вертикалдуу A4 ; ! "" 
 генетикалык:генетикалык A4 ; ! "" 
+гениалдуу:гениалдуу A4 ; ! "" 
 географиялык:географиялык A4 ; ! "" 
 геодезиялык:геодезиялык A4 ; ! "" 
 геологиялык:геологиялык A4 ; ! "" 
@@ -13947,16 +13961,21 @@ LEXICON Adjectives
 гумандуу:гумандуу A4 ; ! "" 
 гуманисттик:гуманисттик A4 ; ! ""
 гуманитардык:гуманитардык A4 ; ! "humanitarian" 
+даярдыктуу:даярдыктуу A4 ; ! "" 
 дедуктивдик:дедуктивдик A4 ; ! "" 
 дедуктивдик:дедуктивдүү A4 ; ! "" Dir/LR
+дезинсекциялык:дезинсекциялык A4 ; ! "" 
 демографиялык:демографиялык A4 ; ! "demographic" 
 диалектикалык:диалектикалык A4 ; ! "" 
+дидактикалык:дидактикалык A4 ; ! "" 
 динамикалык:динамикалуу A4 ; ! "" Dir/LR ! FIXME: wtf
 динамикалык:динамикалык A4 ; ! "" 
 дипломатиялык:дипломатиялык A4 ; ! "" 
 дипломатиялык:дипломаттык A4 ; ! "" Dir/LR
+диссертациялык:диссертациялык A4 ; ! "" 
 диэлектрикалык:диэлектрикалык A4 ; ! "" 
 доктордук:доктордук A4 ; ! "" 
+документалдуу:документалдуу A4 ; ! "documentary" 
 доллардык:доллардык A4 ; ! "" 
 доллардык:долларлык A4 ; ! "" Dir/LR
 доминанттык:доминанттык A4 ; ! "" 
@@ -13968,6 +13987,10 @@ LEXICON Adjectives
 ! жазгы:жазгы A3 ; ! "spring-time" A3 not A4: can be subst
 ! жайкы:жайкы A3 ; ! "summer-time" A3 not A4: can be subst
 жалпы% улуттук:жалпы% улуттук A4 ; ! "" 
+жамгырдуу:жамгырдуу A4 ; ! "" 
+жантык:жантык A4 ; ! "" 
+жарандык:жарандык A4 ; ! "" 
+жарнамалык:жарнамалык A4 ; ! "" 
 жарылгыч:жарылгыч A4 ; ! "" ! "maybe A3" 
 жашырын:жашыруун A4 ; ! "" Dir/LR
 жашырын:жашырын A4 ; ! "" 
@@ -14011,6 +14034,8 @@ LEXICON Adjectives
 корпоративдик:корпоративдик A4 ; ! "" 
 кристаллдык:кристаллдык A4 ; ! "" 
 куралдуу:куралдуу A4 ; ! "" 
+күлгүн:гүлгүн A4 ; ! "" Dir/LR
+күлгүн:күлгүн A4 ; ! ""
 кызматтык:кызматтык A4 ; ! "" 
 кыймылсыз:кыймылсыз A4 ; ! "unmovable" 
 кылымдык:кылымдык A4 ; ! "" 
@@ -14059,7 +14084,6 @@ LEXICON Adjectives
 муниципиалдык:муниципиалдык A4 ; ! "" 
 закондуу:закондуу A4 ; ! "legal (see мыйзамдуу)"
 мыйзамдуу:мыйзамдуу A2 ; ! "legal" -раак and -су forms found through google
-мүмкүн:мүмкүн A6 ; ! "possible"  ! A6 not A4 because мүмкүн can be used as adv ("possibly") and as noun, though can't be comparative in Kyrgyz (?) -JNW
 нормативдик:нормативдик A4 ; ! "" 
 облустук:облустук A4 ; ! "oblast [e.g., hospital]" 
 ойноок:ойноок A4 ; ! "" 
@@ -14206,7 +14230,6 @@ LEXICON Adjectives
 шордуу:шордуу A4 ; ! "" 
 эволюциялык:эволюциялык A4 ; ! "" 
 экватордук:экватордук A4 ; ! "" 
-эки% жактуу:эки% жактуу A4 ; ! "" 
 экологиялык:экологиялык A4 ; ! "" 
 экономикалык:экономикалык A4 ; ! "" 
 экс:экс A4 ; ! "" 
@@ -14241,7 +14264,9 @@ LEXICON Adjectives
 өлө% турган:өлө% турган A4 ; ! "" ! "FIXME not sure about this" 
 өмүрлүк:өмүрдүк A4 ; ! "" Dir/LR
 өмүрлүк:өмүрлүк A4 ; ! "" 
-өндүрүштүк:өндүрүштүк A4 ; ! "" 
+өндүрүштүк:өндүрүштүк A4 ; ! ""
+бир% жактуу:бир% жактуу A4 ; ! "" 
+эки% жактуу:эки% жактуу A4 ; ! "" 
 
 ! A3 adj., adj.subst
 ! ==================
@@ -14274,20 +14299,31 @@ LEXICON Adjectives
 ! -----
 
 адал:адал A3 ; ! "" 
+автократ:автократ A3 ; ! "" 
+ажайып:ажайып A3 ; ! "" 
 азыркы:азыркы A3 ; ! "" 
+айланган:айланган A3 ; ! "" 
 айласыз:айласыз A3 ; ! "" 
 айлык:айлык A3 ; ! "" 
 аймактык:аймактык A3 ; ! "~regional" 
+айнытма:айнытма A3 ; ! "" 
 айрым:айрым A3 ; ! "" 
 айылдык:айылдык A3 ; ! "" 
 акыркы:акыркы A3 ; ! "previous" ! Use/MT see акыры
+ала:ала A3 ; ! "" 
 алгачкы:алгачкы A3 ; ! "" 
+алдамчы:алдамчы A3 ; ! "" 
 алдыңкы:алдыңкы A3 ; ! "" 
+алыскы:алыскы A3 ; ! "" 
 анча%-мынча:анча%-мынча A3 ; ! "" 
 аппак:аппак A3 ; ! "" 
+апталык:апталык A3 ; ! "<subst> form used very few" 
 араз:араз A3 ; ! "" 
 аракетчил:аракетчил A3 ; ! "" 
+аралашкан:аралашкан A3 ; ! "" 
 ардактуу:ардактуу A3 ; ! "" 
+арналган:арналган A3 ; ! "" 
+арсыз:арсыз A3 ; ! "" 
 арткы:арткы A3 ; ! "" 
 аскерий:аскерий A3 ; ! "" 
 астыңкы:астыңкы A3 ; ! "" 
@@ -14295,30 +14331,45 @@ LEXICON Adjectives
 ата% мекендик:ата% мекендик A3 ; ! ""
 атактуу:атактуу A3 ; ! "" 
 аттуу:аттуу A3 ; ! "named" 
+атчан:атчан A3 ; ! "" 
+ахлактуу:ахлактуу A3 ; ! "" 
 ачуулуу:ачуулуу A3 ; ! "" 
 бар:бар A3 ; ! "" 
 башкы:башкы A3 ; ! "" 
 баштапкы:баштапкы A3 ; ! "" 
+бекер:бекер A3 ; ! "" 
 белгилүү:белгилүү A2 ; ! "well-known, famous" ! probably A2 not A3: comparative forms found in google
 белгисиз:белгисиз A3 ; ! "unknown"
 берки:берки A3 ; ! "" 
 бирдей:бирдей A3 ; ! "" 
 бириккен:бириккен A3 ; ! "" 
+бойдок:бойдок A3 ; ! "" 
 болбогон:болбогон A3 ; ! "" 
 борбордук:борбордук A3 ; ! "central" 
+бөтөн:бөтөн A3 ; ! "" 
+булганган:булганган A3 ; ! "" 
 бузук:бузук A3 ; ! "" 
+бүдөмүк:бүдөмүк A3 ; ! "" 
 бүткүл% россиялык:бүткүл% россиялык A3 ; ! "" 
+бырыш:бырыш A3 ; ! "wrinkled" 
+бырышкан:бырышкан A3 ; ! "" 
+дастан% сыяктуу:дастан% сыяктуу A3 ; ! "" 
 даяр:даяр A3 ; ! "ready" 
+демократ:демократ A3 ; ! "democrat, e.g. democrat ministers" 
+демократиялык:демократиялык A3 ; ! "" 
+демөөрчүлүк:демөөрчүлүк A3 ; ! "sponsoring" 
 диний:диний A3 ; ! "religious" ! "subst form used very few" 
 дудук:дудук A3 ; ! "mute"
 дүлөй:дүлөй A3 ; ! "deaf" 
 европалык:европалык A3 ; ! "" 
 жазма:жазма A3 ; ! "" 
-жалгыз:жалгыз A6 ; ! "" 
+жакшылык% билбес:жакшылык% билбес A3 ; ! "" 
 жардамчы:жардамчы A3 ; ! "" 
 жарым:жарым A3 ; ! "" 
 жашар:жашар A3 ; ! "" 
 жеке:жеке A3 ; ! "" 
+джентлимен:джентлимен A3 ; ! "" 
+джентлимен:жентлмен A3 ; ! "" Dir/LR
 жергиликтүү:жергиликтүү A3 ; ! "local" 
 жогорку:жогорку A3 ; ! "high" (as in жогорку кеңеш "high council")
 жогоруда% айтылган:жогоруда% айтылган A3 ; ! "" 
@@ -14440,17 +14491,23 @@ LEXICON Adjectives
 ! ===============================
 
 агыш:агыш A2 ; ! "" 
-агыш:акчыл A2 ; ! "" Dir/LR
+агыш:акчыл A2 ; ! "" Dir/LR 
+адепсиз:адепсиз A2 ; ! "" 
 айыптуу:айыптуу A2 ; ! "guilty" 
+ак:ак A2 ; ! "white" 
+аңкоо:аңкоо A2 ; ! "" 
 күнөөлүү:күнөөлүү A2 ; ! "guilty" FIXME: check A2
 алыс:алыс A1 ; ! "far, distant" A1 not A2 becacuse ADV forms, e.g. алыс кетти
 арык:арык A2 ; ! "skinny, thin" 
 ачуу:ачуу A2 ; ! "bitter, strong-flavoured" 
 баалуу:баалуу A2 ; ! "" 
 байланыштуу:байланыштуу A2 ; ! "" 
+бактылуу:бактылуу A2 ; ! "happy" 
 бактысыз:бактысыз A2 ; ! "" 
 бекем:бекем A2 ; ! "" 
+билимдүү:билимдүү A2 ; ! "" 
 бойлуу:бойлуу A2 ; ! "" 
+жайпак:жайпак A2 ; ! "no <subts> form" 
 жапайы:жапайы A2 ; ! "" 
 жашыл:жашыл A2 ; ! "" 
 жеткиликтүү:жеткиликтүү A2 ; ! "" 
@@ -14536,24 +14593,42 @@ LEXICON Adjectives
 ! ====================================================
 
 адилеттүү:адилеттүү A1 ; ! "" 
+адил:адил A1 ; ! "" 
+айкын:айкын A1 ; ! "clear" 
+айрыкча:айрыкча A1 ; ! "especially" ! "FIXME no <comp>, <subst> form" 
+акырын:акырын A1 ; ! "" 
 аз:аз A1 ; ! "" 
+азат:азат A1 ; ! "free" ! "FIXME not sure about .comp form" 
 активдүү:активдүү A1 ; ! "" 
+алсыз:алсыз A1 ; ! "" 
+аман:аман A1 ; ! "not sure about category" 
 анык:анык A1 ; ! "" 
+артык:артык A1 ; ! "" 
 ачык:ачык A1 ; ! "" 
+ашык:ашык A1 ; ! "" 
 ашыкча:ашыкча A1 ; ! "" 
 бай:бай A1 ; ! "" 
 байыркы:байыркы A1 ; ! "ancient" 
+бачым:бачым A1 ; ! "quick" ! "no <subst> form" 
 башка:башка A1 ; ! "" 
 бек:бек A1 ; ! "" 
 бийик:бийик A1 ; ! "high" 
 боз:боз A1 ; ! "grey"
 бош:бош A1 ; ! "" 
+бүтүн:бүтүн A1 ; ! "" 
+дурус:дурус A1 ; ! "" 
 жабык:жабык A1 ; ! "" 
+жагымдуу:жагымдуу A1 ; ! "" 
+жайлуу:жайлуу A1 ; ! "" 
 жакшы:жакшы A1 ; ! "" 
 жакын:жакын A1 ; ! "" 
+жалаң:жалаң A1 ; ! "no <comp> form" 
 жалпак:жалпак A1 ; ! "" 
 жалпы:жалпы A1 ; ! "" 
 жаман:жаман A1 ; ! "bad" 
+жандуу:жандуу A1 ; ! "" 
+жапыз:жапыз A1 ; ! "" 
+жарды:жарды A1 ; ! "" 
 жасалма:жасалма A1 ; ! "artificial" 
 жаш:жаш A2 ; ! "young" ! Probably A2 not A1: no advl use
 жаңы:жаңы A1 ; ! "" 
@@ -14617,16 +14692,47 @@ LEXICON Adjectives
 эски:эски A1 ; ! "" 
 өзгөчө:өзгөчө A1 ; ! "" 
 
+! not sure where exactly an adjective belongs
+! ====================================================
+астерлик:астерлик A1 ; ! "FIXME couldn't find this adj from dictionaries" 
+ашкере% чектен% чыккан A1 ; ! "" 
+барболгон:барболгон A1 ; ! "" 
+барокко:барокко A1 ; ! "" 
+бир% кыйла:бир% кыйла A1 ; ! "FIXME is it A1?" 
+бөлүңөн:бөлүңөн A1 ; ! "FIXME no such adj" 
+гриль:гриль A1 ; ! "" 
+дайым:дайым A1 ; ! "FIXME  not ADV?" 
+дайыма:дайыма A1 ; ! "FIXME not ADV?" 
+далай:далай A1 ; ! "FIXME not ADV?" 
+дэм:дэм A1 ; ! "FIXME could not find this ADJ from dictionaries" 
+дөмбөйтүүчү:дөмбөйтүүчү A1 ; ! "FIXME could not find this ADJ from dictionaries" 
+еклектик:еклектик A1 ; ! "FIXME could not find this ADJ from dictionaries" 
+жактоочу:жактоочу A1 ; ! "" 
+жалындатуучу:жалындатуучу A1 ; ! "" 
+
 
 ! A5 adj, adj.(comp)
 ! ===============================
-
 кеңири:кеңири A5 ; ! "" 
-мол:мол A6 ; ! "plentiful" ! A6 not A5 because no comparative forms, but advl and occasional subst uses
 рационалдуу:рационалдуу A5 ; ! "" 
 системалуу:системалуу A5 ; ! "" ! "comp form used very few" 
 тартыш:тартыш A5 ; ! "" 
 ишеничтүү:ишеничтүү A5 ; ! "" 
+аянычтуу:аянычтуу A5 ; ! "miserable" 
+бас:бас A5 ; ! "" 
+басымдуу:басымдуу A5 ; ! "" 
+
+
+! A6 adj
+! without comparative reading
+! ===============================
+бир% түрдүү:бир% түрдүү A6 ; ! "" 
+жашыруун:жашыруун A6 ; ! "secret; secretly (seems to be used adverbially, might also be comparable, see 2 examples provided by google" 
+жалгыз:жалгыз A6 ; ! "" 
+мол:мол A6 ; ! "plentiful" ! A6 not A5 because no comparative forms, but advl and occasional subst uses 
+мүмкүн:мүмкүн A6 ; ! "possible"  ! A6 not A4 because мүмкүн can be used as adv ("possibly") and as noun, though can't be comparative in Kyrgyz (?) -JNW 
+жарты:жарты A6 ; ! "" 
+
 
 ! FIXME: TO SORT
 ! ================================
@@ -14743,104 +14849,104 @@ LEXICON Adjectives
 !конституциялык:конституциялык ADJ ; ! ""  ! already exists
 !орто ADJ ;
 !эң ADJ ; ! "most"
-автократ:автократ ADJ ;
-адеми:адеми A1 ; ! "" 
-адепсиз:адепсиз ADJ ;
-адил:адил A1 ; ! "" 
-ажайып:ажайып A1 ; ! "FIXME is it A1?" 
-азат:азат A1 ; ! "free" 
-айкын:айкын A1 ; ! "clear" 
-айланган:айланган ADJ ;
-айнытма:айнытма ADJ ;
-айрыкча:айрыкча A1 ; ! "especially"
-ак:ак A1 ; ! "white" 
-акварель:акварель ADJ ;
-акырын:акырын A1 ;
-ала:ала A1 ;
-албан:албан A1 ; ! "" 
-алдамчы:алдамчы ADJ ;
-алсыз:алсыз A1 ;
-алыскы:алыскы ADJ ;
-аман:аман A1 ;
-антиколониялык:антиколониялык ADJ ; ! "" 
-апталык:апталык ADJ ; ! ""
-аралашкан:аралашкан ADJ ;
-ардантуучу:ардантуучу ADJ ;
-арналган:арналган ADJ ;
-арсыз:арсыз ADJ ;
-артык:артык A1 ;
-арылтылган:арылтылган ADJ ;
-астерлик:астерлик ADJ ; ! "FIXME couldn't find this adj from dictionaries" 
-астыртан:астыртан A1 ; ! "FIXME is it A1?" 
-атчан:атчан ADJ ; ! "on horseback"
-ахлактуу:ахлактуу ADJ ;
-ашкере% чектен% чыккан ADJ ;
-ашык:ашык A1 ;
-аянычтуу:аянычтуу ADJ ;
-аңкоо:аңкоо ADJ ;
-бактылуу:бактылуу ADJ ; ! "happy"
-бала:бала ADJ ;
-барболгон:барболгон ADJ ;
-барокко:барокко ADJ ;
-бас:бас ADJ ;
-басымдуу:басымдуу A1 ; 
-бачым:бачым ADJ ;
-бекер:бекер A1 ; ! "FIXME is it A1?" 
-билимдүү:билимдүү A1 ;
-биоэнергетикалык:биоэнергетикалык ADJ ; ! ""
-бир% жактуу:бир% жактуу A1 ; ! "FIXME is it A1?" 
-бир% кыйла:бир% кыйла A1 ; ! "FIXME is it A1?" 
-бир% тектүү ADJ ;
-бир% топ:бир% топ A1 ; ! "FIXME is it A1?" 
-бир% өңчөй:бир% өңчөй A1 ; ! "FIXME is it A1?" 
-бойдок:бойдок ADJ ;
+! автократ:автократ ADJ ; ! "moved to A3 section" 
+! адеми:адеми A1 ; ! "" ! "moved to A4 section" 
+! адепсиз:адепсиз ADJ ; ! "moved to A2 section" 
+! адил:адил A1 ; ! "" ! "moved to A1 section" 
+! ажайып:ажайып A1 ; ! "FIXME is it A1?" ! "moved to A3 section" 
+! азат:азат A1 ; ! "free" ! "moved to A1 section" 
+! айкын:айкын A1 ; ! "clear" ! "moved to A1 section" 
+! айланган:айланган ADJ ; ! "moved A3 section" 
+! айнытма:айнытма ADJ ; ! "moved to A3 section" 
+! айрыкча:айрыкча A1 ; ! "especially" ! "moved to A3 section" 
+! ак:ак A1 ; ! "white" ! "moved to A2 section" 
+! акварель:акварель ADJ ; ! "moved to A4 section" 
+! акырын:акырын A1 ; ! "moved to A1 section" 
+! ала:ала A1 ; ! "moved to A3 section" 
+! албан:албан A1 ; ! "moved to A4 section" 
+! алдамчы:алдамчы ADJ ; ! "moved to A3 section" 
+! алсыз:алсыз A1 ; ! "moved to A1 section" 
+! алыскы:алыскы ADJ ; ! "moved to A3 section" 
+! аман:аман A1 ;
+! антиколониялык:антиколониялык ADJ ; ! "moved to A4 section" 
+! апталык:апталык ADJ ; ! "moved to A3 section" 
+! аралашкан:аралашкан ADJ ; ! "moved to A3 section" 
+! ардантуучу:ардантуучу ADJ ; ! "moved to A4 section" 
+! арналган:арналган ADJ ; ! "moved to A3 section" 
+! арсыз:арсыз ADJ ; ! "moved to A3 section" 
+! артык:артык A1 ; ! "moved to A3 section" 
+! арылтылган:арылтылган ADJ ; ! "moved to A4 section" 
+! астерлик:астерлик ADJ ; ! "FIXME couldn't find this adj from dictionaries" ! "moved to A1 not sure section" 
+! астыртан:астыртан A1 ; ! "FIXME is it A1?" ! "moved to ADV section" 
+! атчан:атчан ADJ ; ! "on horseback" ! "moved to A3 section" 
+! ахлактуу:ахлактуу ADJ ; ! "moved to A3 section" 
+! ашкере% чектен% чыккан ADJ ; ! "moved to A1 not sure section" 
+! ашык:ашык A1 ; ! "moved to A1 section"
+! аянычтуу:аянычтуу ADJ ; ! "moved to A5 section"
+! аңкоо:аңкоо ADJ ; ! "moved to A2 section" 
+! бактылуу:бактылуу ADJ ; ! "happy" ! "moved to A2 section" 
+! бала:бала ADJ ; ! "moved to A4 section" 
+! барболгон:барболгон ADJ ; ! "moved to A1 not sure section" 
+! барокко:барокко ADJ ; ! "moved to A1 not sure section" 
+! бас:бас ADJ ; ! "moved to A5 section" 
+! басымдуу:басымдуу A1 ; ! "moved to A5 section" 
+! бачым:бачым ADJ ; ! "moved to A1 section" 
+! бекер:бекер A1 ; ! "FIXME is it A1?" ! "moved to A3 section" 
+! билимдүү:билимдүү A1 ; ! "moved to A2 section" 
+! биоэнергетикалык:биоэнергетикалык ADJ ; ! "moved to A4 section" 
+! бир% жактуу:бир% жактуу A1 ; ! "FIXME is it A1?" ! "moved to A4 section" 
+! бир% кыйла:бир% кыйла A1 ; ! "FIXME is it A1?" ! "moved to A1 not sure section" 
+! бир% тектүү ADJ ; ! "moved to A4 section" 
+! бир% топ:бир% топ A1 ; ! "FIXME is it A1?" ! "moved to PRON-IND section" 
+! бир% өңчөй:бир% өңчөй A1 ; ! "FIXME is it A1?" ! "moved to a4 section" 
+! бойдок:бойдок ADJ ; ! "moved to A3 section" 
 ! болочок:болочок ADJ ; ! moved to Nouns
-булганган:булганган ADJ ;
-бырыш:бырыш ADJ ; ! "wrinkled"
-бүдөмүк:бүдөмүк ADJ ;
-бүтүн:бүтүн A1 ; ! "" FIXME: check
-бөлүңөн:бөлүңөн ADJ ;
-бөтөн:бөтөн A1 ; ! "" 
-вертикалдуу:вертикалдуу ADJ ;
-гениалдуу:гениалдуу A1 ; 
-гриль:гриль ADJ ;
-гүлгүн:гүлгүн ADJ ;
-дайым:дайым A1 ; ! "" 
-дайыма:дайыма A1 ; ! "FIXME not ADV?" 
-далай:далай A1 ;
-дастан% сыяктуу ADJ ;
-даярдыктуу:даярдыктуу ADJ ;
-дезинсекциялык:дезинсекциялык ADJ ; ! ""
-демократ:демократ ADJ ; ! "democrat, e.g. democrat ministers"
-демократиялык:демократиялык ADJ ; ! "FIXME ADJ -> ?"
-демөөрчүлүк:демөөрчүлүк ADJ ; ! "sponsoring [e.g., organisation]"
-джентлимен:джентлимен ADJ ;
-дидактикалык:дидактикалык ADJ ; ! ""
-диссертациялык:диссертациялык ADJ ; ! ""
-документалдуу:документалдуу ADJ ; ! "documentary"
-дурус:дурус A1 ; ! "" 
-дэм:дэм ADJ ;
-дөмбөйтүүчү:дөмбөйтүүчү ADJ ;
-еврей:еврей ADJ ;
-еклектик:еклектик ADJ ;
-жагымдуу:жагымдуу ADJ ;
-жайлуу:жайлуу A1 ; ! "" 
-жайпак:жайпак ADJ ;
-жактоочу:жактоочу ADJ ;
-жакшылык% билбес ADJ ;
-жалаң:жалаң ADJ ;
-жалындатуучу:жалындатуучу ADJ ;
-жамгырдуу:жамгырдуу ADJ ;
-жандуу:жандуу A1 ; 
-жантык:жантык ADJ ;
-жапалак:жапалак ADJ ; ! ""
-жапыз:жапыз A1 ; ! "" 
-жапырт:жапырт ADJ ;
-жарандык:жарандык ADJ ; ! "FIXME should be A4" "alternative translation see граждандык"
-жарды:жарды A1 ; ! "" 
-жарнамалык:жарнамалык ADJ ; ! ""
-жарты:жарты A1 ; 
-жартылай:жартылай ADJ ;
+! булганган:булганган ADJ ; ! "moved to A3 section" 
+! бырыш:бырыш ADJ ; ! "wrinkled" ! "moved to A3 section" 
+! бүдөмүк:бүдөмүк ADJ ; ! "moved to A3 section" 
+! бүтүн:бүтүн A1 ; ! "" FIXME: check ! "moved to A1 section" 
+! бөлүңөн:бөлүңөн ADJ ; ! "FIXME no such adj" ! "moved to A1 not sure section" 
+! бөтөн:бөтөн A1 ; ! "" ! "moved to A3 section" 
+! вертикалдуу:вертикалдуу ADJ ; ! "moved to A4 section" 
+! гениалдуу:гениалдуу A1 ; ! "moved to A4 section" 
+! гриль:гриль ADJ ; ! "moved to A1 not sure section" 
+! гүлгүн:гүлгүн ADJ ; ! "moved to A4 section" 
+! дайым:дайым A1 ; ! "FIXME  not ADV?" ! "moved to A1 not sure section" 
+! дайыма:дайыма A1 ; ! "FIXME not ADV?" ! "moved to A1 not sure section" 
+! далай:далай A1 ; ! "FIXME not ADV?" ! "moved to A1 not sure section" 
+! дастан% сыяктуу ADJ ; ! "moved to A3 section" 
+! даярдыктуу:даярдыктуу ADJ ; ! "moved to A4 section" 
+! дезинсекциялык:дезинсекциялык ADJ ; ! "" ! "moved to A4 section" 
+! демократ:демократ ADJ ; ! "democrat, e.g. democrat ministers" ! "moved to A3 section" 
+! демократиялык:демократиялык ADJ ; ! "FIXME ADJ -> ?" ! "moved to A3 section" 
+! демөөрчүлүк:демөөрчүлүк ADJ ; ! "sponsoring [e.g., organisation]" ! "moved to A3 section" 
+! джентлимен:джентлимен ADJ ; ! "moved to A3 section" 
+! дидактикалык:дидактикалык ADJ ; ! "" ! "moved to A4 section" 
+! диссертациялык:диссертациялык ADJ ; ! "moved to A4 section" 
+! документалдуу:документалдуу ADJ ; ! "documentary" ! "moved to A4 section" 
+! дурус:дурус A1 ; ! "" ! "moved to A1 section" 
+! дэм:дэм ADJ ; ! "FIXME could not find this ADJ from dictionaries" ! "moved to A1 not sure section" 
+! дөмбөйтүүчү:дөмбөйтүүчү ADJ ; ! "FIXME could not find this ADJ from dictionaries" ! "moved to A1 not sure section" 
+! еврей:еврей ADJ ; "defined in N1 section as noun" 
+! еклектик:еклектик ADJ ; ! "FIXME could not find this ADJ from dictionaries" ! "moved to A1 not sure section" 
+! жагымдуу:жагымдуу ADJ ; ! "moved to A1 section" 
+! жайлуу:жайлуу A1 ; ! "" ! "moved to A1 section" 
+! жайпак:жайпак ADJ ; ! "moved to A2 section" 
+! жактоочу:жактоочу ADJ ; ! "moved to A1 not sure section" 
+! жакшылык% билбес ADJ ; ! "moved to A3 section" 
+! жалаң:жалаң ADJ ; ! "moved to A1 section" 
+! жалындатуучу:жалындатуучу ADJ ; ! "moved to A1 not sure section" 
+! жамгырдуу:жамгырдуу ADJ ; ! "moved to A4 section" 
+! жандуу:жандуу A1 ; ! "moved to A1 section" 
+! жантык:жантык ADJ ; ! "moved to A4 section" 
+! жапалак:жапалак ADJ ; ! "owl" ! "should be N-INFL" 
+! жапыз:жапыз A1 ; ! "" ! "moved to A1 section" 
+! жапырт:жапырт ADJ ; ! "moved to ADV section" 
+! жарандык:жарандык ADJ ; ! "FIXME should be A4" "alternative translation see граждандык" ! "moved to A4 section" 
+! жарды:жарды A1 ; ! "" ! "moved to A1 section" 
+! жарнамалык:жарнамалык ADJ ; ! "moved to A4 section" 
+! жарты:жарты A1 ; ! "moved to A6 section" 
+жартылай:жартылай ADJ ; ! "" 
 жарык:жарык A1 ;
 жарылган:жарылган ADJ ;
 жат:жат ADJ ;
@@ -15117,7 +15223,7 @@ LEXICON Adjectives
 аркы:аркы ADJ ;
 ахлактык:ахлактык ADJ ;
 ачулуу:ачулуу ADJ ;
-ашык:ашык ADJ ;
+! ашык:ашык ADJ ; ! "removing duplicate" 
 баатыр:баатыр ADJ ;
 башаламан:башаламан ADJ ;
 билинбеген:билинбеген ADJ ;
@@ -15133,13 +15239,13 @@ LEXICON Adjectives
 душман:душман ADJ ;
 експресс:експресс ADJ ;
 естетикалык:естетикалык ADJ ;
-жагымдуу:жагымдуу ADJ ;
+! жагымдуу:жагымдуу ADJ ;  "removing duplicate" 
 жай:жай ADJ ;
 жалган:жалган ADJ ;
 жапжаңы:жапжаңы ADJ ;
 жарашчудай:жарашчудай ADJ ;
 жарашыктуу:жарашыктуу A1 ;
-жартылай:жартылай ADJ ;
+! жартылай:жартылай ADJ ; ! "removing duplicate" 
 жашык:жашык ADJ ;
 жетилген:жетилген ADJ ;
 жеңүүчү:жеңүүчү ADJ ;
@@ -15305,13 +15411,11 @@ LEXICON Adjectives
 глобалдуу:глобалдуу A2 ; ! "global" ! FIXME: was MT-only, why?
 ! автономдуу N-INFL ; ! FIXME: regular ADJ form
 эскирген:эскирген ADJ ; ! Use/MT ! FIXME
-эң% чоң:эң% чоң ADJ ; ! Use/MT ! FIXME
-жашыруун:жашыруун A6 ; ! "secret; secretly (seems to be used adverbially, might also be comparable, see 2 examples provided by google"
+эң% чоң:эң% чоң ADJ ; ! Use/MT ! FIXME 
 аруу:аруу A3 ; ! "pure"
 атайын:атайын ADJ ; ! Use/MT
 тентек:тентек A1 ; ! "naughty, poorly behaved" ! FIXME: CHECK A1
 күтүүсүз:күтүүсүз A4 ; ! "unexpected"
-бир% түрдүү:бир% түрдүү A6 ; ! ""
 көлдөлөң:көлдөлөң A1 ; ! "diagonal" ! FIXME: CHECK A1
 көөнө:көөнө A2 ; ! "old" ! FIXME: CHECK A2 (seems to have comp forms, cf. google)
 накта:накта A3 ; ! "real"
@@ -15333,7 +15437,7 @@ LEXICON Adverbs
 өтө:өтө ADV ; ! "very"
 мисалы:мисалы ADV ; ! "for example"
 улам:улам ADV ; ! "???"
-айрыкча:айрыкча ADV ;
+! айрыкча:айрыкча ADV ; ! "see A1 section" 
 кыйла:кыйла ADV ;
 барган% сайын:барган% сайын ADV ; ! see bidix
 адегенде:адегенде ADV ;
@@ -15601,7 +15705,7 @@ LEXICON Adverbs
 ошончо:ошончо ADV ; ! "" 
 ошончолук:ошончолук ADV ; ! "" 
 ошончолукту:ошончолукту ADV ; ! "" 
-акырын:акырын ADV ; ! "" 
+! акырын:акырын ADV ; ! "see A1 section" 
 акчалай:акчалай ADV ; ! "" 
 алга:алга ADV ; ! "" 
 эчак:эчак ADV ; ! "" 
@@ -15642,6 +15746,8 @@ LEXICON Adverbs
 негиздеп:негиздеп ADV ; ! "" 
 бычылган:бычылган ADJ ; ! "" ! "shoul be A3" 
 адаттан% тышкары:адаттан% тышкары ADV ; ! "" 
+астыртан:астыртан ADV ; ! "" 
+жапырт:жапырт ADV ; ! "" 
 
 !!! JNW Adverbs
 башкача:башкача ADV ; ! "differently"
@@ -16799,7 +16905,7 @@ LEXICON Verbs
 үндө:үндө V-INFL-IV ;
 маани% бер:маани% бер V-INFL-IV ;
 карман:карман V-INFL-IV ;
-бас:бас V-INFL-TV ;
+! бас:бас V-INFL-TV ; ! "removing duplicate" 
 шишеле:шишеле V-INFL-TV ;
 жонго% көтөр:жонго% көтөр V-INFL-TV ;
 сыйры:сыйры V-INFL-TV ;
