@@ -4058,8 +4058,8 @@ LEXICON Nouns
 жармашкан:жармашкан N-INFL ; 
 жарнама:жарнама N-INFL ; 
 жаруун% козголоң:жаруун% козголоң N-INFL ;
-жарык:жарык N-INFL ;
-жарык:жарык N-INFL ; 
+! жарык:жарык N-INFL ; ! "see A1 section" 
+! жарык:жарык N-INFL ; ! "removing duplicate" 
 жарылыш:жарылыш N-INFL ; ! "" 
 жарым% арал:жарым% арал N-INFL ;
 жарыш:жарыш N-INFL ;
@@ -4095,7 +4095,7 @@ LEXICON Nouns
 жек% көрүү:жек% көрүү N-INFL ;
 жеке% менчик% ээси:жеке% менчик% ээси N-INFL ; ! "собственник" 
 жеке% менчик:жеке% менчик N-INFL ;
-жекече:жекече N-INFL ;
+! жекече:жекече N-INFL ; ! "see A3 section" 
 жектүү:жектүү N-INFL ;
 жекшемби:жекшемби N-INFL ; ! "Sunday"
 жел:жел N-INFL ; ! "wind" 
@@ -13994,6 +13994,9 @@ LEXICON Adjectives
 жарылгыч:жарылгыч A4 ; ! "" ! "maybe A3" 
 жашырын:жашыруун A4 ; ! "" Dir/LR
 жашырын:жашырын A4 ; ! "" 
+жеңилдетүүчү:жеңилдетүүчү A4 ; ! "" 
+жийиркеничтүү:жийиркеничтүү A4 ; ! "" 
+жолсуз:жолсуз A4 ; ! "" 
 жылтыраган:жылтыраган A4 ;  ! "" 
 заманбап:заманбап A3 ; ! "" FIXME: was A4; CHECK
 зор:зор A2 ; ! "" ! A2 not A4: comp and subst forms found in google
@@ -14365,14 +14368,19 @@ LEXICON Adjectives
 жазма:жазма A3 ; ! "" 
 жакшылык% билбес:жакшылык% билбес A3 ; ! "" 
 жардамчы:жардамчы A3 ; ! "" 
+жарылган:жарылган A3 ; ! "" 
 жарым:жарым A3 ; ! "" 
 жашар:жашар A3 ; ! "" 
 жеке:жеке A3 ; ! "" 
+жекече:жекече A3 ; ! "" 
+жетим:жетим A3 ; ! "" 
+жетим:жэтим A3 ; ! "" Dir/LR
 джентлимен:джентлимен A3 ; ! "" 
 джентлимен:жентлмен A3 ; ! "" Dir/LR
 жергиликтүү:жергиликтүү A3 ; ! "local" 
 жогорку:жогорку A3 ; ! "high" (as in жогорку кеңеш "high council")
 жогоруда% айтылган:жогоруда% айтылган A3 ; ! "" 
+жумшартуучу:жумшартуучу A3 ; ! "" 
 жылаңач:жылаңач A3 ; ! "" 
 жылдык:жылдык A3 ; ! "" 
 жылкы:жылкы A3 ; ! "" 
@@ -14509,6 +14517,7 @@ LEXICON Adjectives
 бойлуу:бойлуу A2 ; ! "" 
 жайпак:жайпак A2 ; ! "no <subts> form" 
 жапайы:жапайы A2 ; ! "" 
+жат:жат A2 ; ! "" 
 жашыл:жашыл A2 ; ! "" 
 жеткиликтүү:жеткиликтүү A2 ; ! "" 
 жок:жок A2 ; ! "" 
@@ -14629,6 +14638,7 @@ LEXICON Adjectives
 жандуу:жандуу A1 ; ! "" 
 жапыз:жапыз A1 ; ! "" 
 жарды:жарды A1 ; ! "" 
+жарык:жарык A1 ; ! "" 
 жасалма:жасалма A1 ; ! "artificial" 
 жаш:жаш A2 ; ! "young" ! Probably A2 not A1: no advl use
 жаңы:жаңы A1 ; ! "" 
@@ -14636,8 +14646,11 @@ LEXICON Adjectives
 жетиштүү:жетиштүү A1 ; ! "" 
 жеңил:жеңил A1 ; ! "" 
 жогору:жогору A1 ; ! "high" 
+жоон:жоон A1 ; ! "" 
 жооптуу:жооптуу A1 ; ! "" 
-жумшак:жумшак A1 ; ! "soft"
+жумшак:жумшак A1 ; ! "soft" 
+жупуну:жупуну A1 ; ! "" 
+жылуу:жылуу A1 ; ! "" 
 зарыл:зарыл A1 ; ! "mandatory" 
 ийри:ийри A1 ; ! "" 
 ири:ири A1 ; ! "" 
@@ -14709,6 +14722,11 @@ LEXICON Adjectives
 еклектик:еклектик A1 ; ! "FIXME could not find this ADJ from dictionaries" 
 жактоочу:жактоочу A1 ; ! "" 
 жалындатуучу:жалындатуучу A1 ; ! "" 
+жатып% окуган A1 ; ! "" 
+жаңылтуучу:жаңылтуучу A1 ; ! "FIXME could not find this ADJ from dictionaries" 
+жинди% кылуучу A1 ; ! "" 
+жолдон% буруу A1 ; ! "" 
+жүзү% жок A1 ; ! "" 
 
 
 ! A5 adj, adj.(comp)
@@ -14732,6 +14750,7 @@ LEXICON Adjectives
 мол:мол A6 ; ! "plentiful" ! A6 not A5 because no comparative forms, but advl and occasional subst uses 
 мүмкүн:мүмкүн A6 ; ! "possible"  ! A6 not A4 because мүмкүн can be used as adv ("possibly") and as noun, though can't be comparative in Kyrgyz (?) -JNW 
 жарты:жарты A6 ; ! "" 
+жийиркенич:жийиркенич A6 ; ! "FIXME not sure about the category" 
 
 
 ! FIXME: TO SORT
@@ -14945,28 +14964,28 @@ LEXICON Adjectives
 ! жарандык:жарандык ADJ ; ! "FIXME should be A4" "alternative translation see граждандык" ! "moved to A4 section" 
 ! жарды:жарды A1 ; ! "" ! "moved to A1 section" 
 ! жарнамалык:жарнамалык ADJ ; ! "moved to A4 section" 
-! жарты:жарты A1 ; ! "moved to A6 section" 
-жартылай:жартылай ADJ ; ! "" 
-жарык:жарык A1 ;
-жарылган:жарылган ADJ ;
-жат:жат ADJ ;
-жатып% окуган ADJ ;
-жаңылтуучу:жаңылтуучу ADJ ;
-жекече:жекече ADJ ;
-жеңилдетүүчү:жеңилдетүүчү ADJ ;
-жийиркенич:жийиркенич ADJ ;
-жийиркеничтүү:жийиркеничтүү A1 ; ! "" 
-жинди% кылуучу ADJ ;
-жолдон% буруу ADJ ;
-жолсуз:жолсуз ADJ ;
-жоон:жоон A1 ; ! "" 
-жука:жука A1 ; ! "" 
-жумшартуучу:жумшартуучу ADJ ;
-жупуну:жупуну ADJ ;
-жылуу:жылуу A1 ;
-жыш:жыш A1 ; ! "" 
-жэтим:жэтим ADJ ;
-жүзү% жок ADJ ;
+! жарты:жарты A1 ; ! "moved to A6 section" s
+! жартылай:жартылай ADJ ; ! "" ! "see ADV version" 
+! жарык:жарык A1 ; ! "moved to A1 section" 
+! жарылган:жарылган ADJ ; ! "moved to A3 section" 
+! жат:жат ADJ ; ! "moved to A2 section" 
+! жатып% окуган ADJ ; ! "moved to A1 not sure section" 
+! жаңылтуучу:жаңылтуучу ADJ ; ! "moved to A1 not sure section" 
+! жекече:жекече ADJ ; ! "moved to A3 section" 
+! жеңилдетүүчү:жеңилдетүүчү ADJ ; ! "moved to A4 section" 
+! жийиркенич:жийиркенич ADJ ; ! "moved to A6 section" 
+! жийиркеничтүү:жийиркеничтүү A1 ; ! "moved to A4 section" 
+! жинди% кылуучу ADJ ; ! "moved to A1 not sure section" 
+! жолдон% буруу ADJ ; ! "moved to A1 not sure section" 
+! жолсуз:жолсуз ADJ ; ! "moved to A4 section" 
+! жоон:жоон A1 ; ! "moved to A1 section" 
+! жука:жука A1 ; ! "moved to A1 section" 
+! жумшартуучу:жумшартуучу ADJ ; ! "moved to A3 section" 
+! жупуну:жупуну ADJ ; ! "moved to A1 section" 
+! жылуу:жылуу A1 ; ! "moved to A1 section" 
+! жыш:жыш A1 ; ! "" ! "moved to A1 section" 
+! жэтим:жэтим ADJ ; ! "moved to A3 section" 
+! жүзү% жок ADJ ; ! "moved to A1 not sure section" 
 запас:запас ADJ ;
 зөөкүр:зөөкүр ADJ ;
 идеалист:идеалист ADJ ;
@@ -15653,7 +15672,7 @@ LEXICON Adverbs
 ачык% эле:ачык% эле ADV ;
 өлөөрчө:өлөөрчө ADV ;
 жараша:жараша ADV ;
-жийиркенич:жийиркенич ADV ;
+! жийиркенич:жийиркенич ADV ; ! "see A6 section" 
 сөзмө%-сөз:сөзмө%-сөз ADV ;
 кана:кана ADV ;
 имиш:имиш ADV ;
