@@ -8,6 +8,7 @@ LANG1=kir
 BASENAME=apertium-$(LANG1)
 
 TARGETS_COMMON = $(LANG1).automorf.hfst $(LANG1).autogen.hfst \
+	$(LANG1).autopgen.bin \
 	$(LANG1).automorf.bin $(LANG1).autogen.bin \
 	$(LANG1).automorf.att.gz $(LANG1).autogen.att.gz \
         $(LANG1).rlx.bin
@@ -78,6 +79,13 @@ debug: .deps/$(LANG1).LR-debug.hfst .deps/$(LANG1).lexc.hfst
 	hfst-fst2fst -O -i $< -o $@
 
 ###############################################################################
+## Postgeneration
+###############################################################################
+
+$(LANG1).autopgen.bin: $(BASENAME).post-$(LANG1).dix
+	lt-comp lr $< $@
+
+###############################################################################
 ## Disambiguation rules
 ###############################################################################
 
@@ -120,6 +128,7 @@ $(LANG1).zhfst: .deps/acceptor.default.hfst .deps/errmodel.default.hfst
 EXTRA_DIST=$(BASENAME).$(LANG1).lexc \
 	   $(BASENAME).$(LANG1).twol \
 	   $(BASENAME).$(LANG1).rlx  \
+	   $(BASENAME).post-$(LANG1).dix  \
 	   modes.xml
 
 ###############################################################################
