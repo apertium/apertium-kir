@@ -1,0 +1,49 @@
+Config:
+  hfst:
+    App: hfst-lookup
+    Gen: ../kir.autogen.hfst
+    Morph: ../kir.automorf.hfst
+
+Tests:
+
+  "[twol] infinitives":
+    кой<v><tv><ger><nom> : коюу
+    кал<v><iv><ger><nom> : калуу
+    кел<v><iv><ger><nom> : келүү
+
+  "[twol] +луу forms":
+    кой<n>+луу<post> : койлуу
+    эчки<n>+луу<post> : эчкилүү
+
+  "[twol] number forms":
+    бир<num><coll><advl> : бирөө
+    бир<num><coll><acc> : бирөөнү
+    эки<num><coll><advl> : экөө
+    эки<num><coll><acc> : экөөнү
+    үч<num><coll><advl> : үчөө
+    үч<num><coll><acc> : үчөөнү
+    төрт<num><coll><advl> : төртөө
+    төрт<num><coll><acc> : төртөөнү
+    беш<num><coll><advl> : бешөө
+    беш<num><coll><acc> : бешөөнү
+    алты<num><coll><advl> : алтоо
+    алты<num><coll><acc> : алтоону
+    жети<num><coll><advl> : жетөө
+    жети<num><coll><acc> : жетөөнү
+
+  "[twol] numeral forms":
+    1<num><coll><advl> : 1-өө
+    1<num><coll><acc> : 1-өөнү
+    2<num><coll><advl> : 2-өө
+    2<num><coll><acc> : 2-өөнү
+    3<num><coll><advl> : 3-өө
+    3<num><coll><acc> : 3-өөнү
+    4<num><coll><advl> : 4-өө
+    4<num><coll><acc> : 4-өөнү
+    5<num><coll><advl> : 5-өө
+    5<num><coll><acc> : 5-өөнү
+    6<num><coll><advl> : 6-оо
+    6<num><coll><acc> : 6-оону
+    7<num><coll><advl> : 7-өө
+    7<num><coll><acc> : 7-өөнү
+

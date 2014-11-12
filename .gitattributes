@@ -59,6 +59,7 @@ tests/ky-nouns.yaml -text
 tests/ky-nounsspecial.yaml -text
 tests/ky-numbers.yaml -text
 tests/ky-pronouns.yaml -text
+tests/ky-uu.yaml -text
 tests/ky-verbs.pairtest -text
 tests/ky-verbs.yaml -text
 tests/ky-verbs2.yaml -text
