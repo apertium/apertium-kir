@@ -328,9 +328,11 @@ LEXICON NUM-DIGIT
 %<num%>%<ord%>%<subst%>:%-ч%{I%} SUBST-NONOM ; ! Dir/LR
 
 ! See PRON-COLL
-!%<num%>%<coll%>%<advl%>:%-%{A%}у # ; ! FIXME: оо/өө
-!%<num%>%<coll%>%<nom%>:%-%{A%}у # ; ! FIXME: оо/өө
-!%<num%>%<coll%>:%-%{A%}у SUBST-NONOM ;
+!These are for numerals
+!!  Defaults to subst reading; advl is secondary
+%<num%>%<coll%>%<advl%>:%-%{A%}%{U%} # ; ! FIXME: оо/өө
+%<num%>%<coll%>%<nom%>:%-%{A%}%{U%} # ; ! FIXME: оо/өө
+%<num%>%<coll%>:%-%{A%}%>%{U%} SUBST-NONOM ;
 
 %<num%>%<percent%>:%% # ;
 %<num%>%<percent%>%<subst%>%<nom%>:%% # ;
@@ -1447,10 +1449,11 @@ LEXICON PRON-RECIP
 %<prn%>%<recip%>: POSSESSION ;
 
 LEXICON PRON-COLL   ! "Collective"(?) pronoun-like numbers
+!!  Defaults to subst reading; advl is secondary
 
 %<num%>%<coll%>%<advl%>: # ;
-%<num%>%<coll%>%<subst%>%<nom%>: # ;
-%<num%>%<coll%>%<subst%>: SUBST-NONOM ;
+%<num%>%<coll%>%<nom%>: # ;
+%<num%>%<coll%>: SUBST-NONOM ;
 
 ! OLD STUFF:
 !%<num%>%<coll%>%<advl%>:%-%{A%}у # ; ! FIXME: оо/өө
@@ -7433,7 +7436,7 @@ LEXICON Nouns
 үндүк:үндүк N-INFL ; 
 үнөм:үнөм N-INFL ;
 үркүү:үркүү N-INFL ; 
-үрп% адат:үрп% адат N-INFL ; 
+үрп% адат:үрп% адат N-INFL ; ! FIXME
 үрп%-адат:үрп%-адат N-INFL ; 
 үрүн:үрүн N-INFL ;
 үстөл:стол N-INFL ; ! "table" Dir/LR
