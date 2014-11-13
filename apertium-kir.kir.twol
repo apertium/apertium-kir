@@ -362,7 +362,7 @@ Cx:Cy <=>  [ :UnvoicedNonSonCns ]/[ [ :0 - [ %{n%}:0 | Abstract:0 ] ] | %-: | %>
                matched ;
 
 "Deletion of й before yoticised vowels when not earlier in a stem"
-й:0 <=> _ %>: [ :YotVow ]/[ :0 ] ;
+й:0 <=> _ (%>:) [ :YotVow ]/[ :0 ] ;
 
 
 
