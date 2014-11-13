@@ -16016,7 +16016,7 @@ LEXICON Verbs
 ! чыгар V-INFL-TV ; ! ""  ! Irregular transitive
 жарат:жарат V-INFL-TV ;
 аарчы:аарчы V-INFL-IV ;  ! ""
-аарчы:аарчы V-INFL-TV ;  ! ""
+аарчы:аарчы V-INFL-TV ;  ! "to wipe; peel"
 айлан:айлан V-INFL-IV-NO-CAUS ; ! "turn around"
 айлан:айлант V-INFL-IV-IRREG-CAUS ; ! Dir/LR 
 айлан:айландыр V-INFL-IV-IRREG-CAUS ; ! 
@@ -16319,8 +16319,9 @@ LEXICON Verbs
 шайла:шайла V-INFL-TV ; 
 шиши:шиши V-INFL-IV ; 
 шүкүр% кыл:шүкүр% кыл V-INFL-TV ; 
-ыйла:ыйла V-INFL-IV ; 
-эсте:эсте V-INFL-TV ; 
+ыйла:ыйла V-INFL-IV ; ! "cry"
+эсте:эсте V-INFL-TV ; ! "remember"
+эсте:эсте V-INFL-IV ; ! "yawn"
 эш:эш V-INFL-TV ; 
 ээрчи:ээрчи V-INFL-TV ; 
 ! алдан V-INFL-TV ;  ! FIXME: VI, right?
@@ -16875,7 +16876,7 @@ LEXICON Verbs
 току:току V-INFL-TV ;
 тий:тий V-INFL-IV ;
 капта:капта V-INFL-IV ;
-алда:алда V-INFL-TV ;
+алда:алда V-INFL-TV ; ! "deceive, trick"
 жолдо:жолдо V-INFL-IV ;
 арзанда:арзанда V-INFL-TV ;
 жулмала:жулмала V-INFL-TV ;

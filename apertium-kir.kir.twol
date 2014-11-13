@@ -397,7 +397,7 @@ Cx:Cy <=>  [ :UnvoicedNonSonCns ]/[ [ :0 - [ %{n%}:0 | Abstract:0 ] ] | %-: | %>
 !!!!!!!!!!!!   {U} stuff (harmony, etc)  !!!!!!!!!!!!!
 
 "Vowel harmony for archiphoneme {U} after consonant"
-%{U%}:Vy <=> [ :LastVowel :Cns* :Cns ]/[ :0 | %>: ] _ ;
+%{U%}:Vy <=> [ :LastVowel :Cns* :Cns ]/[ [ :0 - %{U%}: ] | %>: ] _ ;
 !%{U%}:Vy <=> [ :LastVowel :Cns* :Cns %{U%}:* ]/[ [ :0 - %{U%}: ] | %>: ] _ ;
                             except
                                     й:/[ :0 | %>: ] _ ;     ! Avoid conflict w y-vowels
@@ -411,6 +411,7 @@ Cx:Cy <=>  [ :UnvoicedNonSonCns ]/[ [ :0 - [ %{n%}:0 | Abstract:0 ] ] | %-: | %>
 %{U%}:Vy <=> [ :LastVowel (%{U%}:0) ]/[ %>: | [ :0 - [ Abstract: | %{U%}: ] ] ] _ ;
          except
              [ й:/[ :0 | %>: ] ] _ ; ! avoid conflict with y-vowels
+       [ :Vow - %{A%}: ] ( %>: ) _ %{U%}: ;
          where Vy         in (   ү     ө     о     о     у     у   )
                LastVowel  in (   ү     ө     ё     о     ю     у   )
                matched ; 
@@ -420,7 +421,7 @@ Cx:Cy <=>  [ :UnvoicedNonSonCns ]/[ [ :0 - [ %{n%}:0 | Abstract:0 ] ] | %-: | %>
         ! [ - %{A%}: ] so that it applies in e.g. 1-өөсү
 
 "Assimilate {A} archiphoneme before {U} in e.g. negative infinitive"
-%{A%}:Vy <=> [ :LastVowel Cns* :Cns ]/[ %>: | [ :0 - Abstract: ] ] _ ( %>: ) [ %{U%}: - :YotVow ] ;
+%{A%}:Vy <=> [ :LastVowel :Cns* :Cns ]/[ %>: | [ :0 - Abstract: ] ] _ ( %>: ) [ %{U%}: - :YotVow ] ;
                except
                         [ %{e%}:0/:Cns :Cns* ]/%>: _ ;     ! Avoid conflict with irregular vowel harmony
   where  Vy  in  (  ө  ө  ө  ө  ө  о  о  о  о  о  о  о )
@@ -428,7 +429,18 @@ Cx:Cy <=>  [ :UnvoicedNonSonCns ]/[ [ :0 - [ %{n%}:0 | Abstract:0 ] ] | %-: | %>
            matched;
 
 "Assimilate vowel before {U} in infinitive"
-Vx:Vy <=> _ [ %{U%}: - :YotVow ]/[ :0 | %>: ] ;
+Vx:Vy <=> _ [ %{U%}:0 - :YotVow ]/[ [ :0 - %{U%}: ] | %>: ] ;
+       where Vx in (  и     е     э     я     а     ы  )
+             Vy in (  ү     ө     ө     ё     о     у  )
+             matched;
+
+
+!!!!!!!!!!!!!!  MISC !!!!!!!!!!!!!!!!
+
+"Passive {l} becomes n after verb stem ending in /l/"
+%{l%}:н <=> [ л :SurVow ]/[ :0 | %>: ] _ ;
+"{l%}:н <=> [ л :SurVow ]/[ :0 | %>: ] _ ;
+" [ %{U%}: - :YotVow ]/[ :0 | %>: ] ;
        where Vx in (  и     е     э     я     а     ы  )
              Vy in (  ү     ө     ө     ё     о     у  ) 
              matched;
