@@ -439,17 +439,6 @@ Vx:Vy <=> _ [ %{U%}:0 - :YotVow ]/[ [ :0 - %{U%}: ] | %>: ] ;
 
 "Passive {l} becomes n after verb stem ending in /l/"
 %{l%}:н <=> [ л :SurVow ]/[ :0 | %>: ] _ ;
-"{l%}:н <=> [ л :SurVow ]/[ :0 | %>: ] _ ;
-" [ %{U%}: - :YotVow ]/[ :0 | %>: ] ;
-       where Vx in (  и     е     э     я     а     ы  )
-             Vy in (  ү     ө     ө     ё     о     у  ) 
-             matched;
-
-
-!!!!!!!!!!!!!!  MISC !!!!!!!!!!!!!!!!
-
-"Passive {l} becomes n after verb stem ending in /l/"
-%{l%}:н <=> [ л :SurVow ]/[ :0 | %>: ] _ ;
 
 
 !!!!!!!!!!!!!  Possessive case stuff !!!!!!!!!!!!!!!
