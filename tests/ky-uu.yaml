@@ -11,6 +11,14 @@ Tests:
     кал<v><iv><ger><nom> : калуу
     кел<v><iv><ger><nom> : келүү
 
+  "[twol] infinitives with low vowels":
+    аарчы<v><tv><ger><nom> : аарчуу
+    ээри<v><iv><ger><nom> : ээрүү
+
+  "[twol] infinitives with high vowels":
+    алда<v><tv><ger><nom> : алдоо
+    эсте<v><tv><ger><nom> : эстөө
+
   "[twol] +луу forms":
     кой<n>+луу<post> : койлуу
     эчки<n>+луу<post> : эчкилүү
