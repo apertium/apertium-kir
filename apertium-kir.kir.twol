@@ -214,15 +214,33 @@ Cx:Cy <=>  [ :UnvoicedNonSonCns ]/[ [ :0 - [ %{n%}:0 | Abstract:0 ] ] | %-: | %>
 
 "Abstract vowel harmony for {А} after {а} or {у}"
 %{A%}:а  <=> [ [ %{а%}:0 | %{у%}:0 ] AbstractCns:0* :Cns* ]/[ [ :0 - Abstract: ] | %>: | %-: ] _ ;
+         except
+             _ ( %>: ) [ %{U%}: - :YotVow ] ;
+
 
 "Abstract vowel harmony for {А} after {э}"
 %{A%}:е  <=> [ %{э%}:0 AbstractCns:0* :Cns* ]/[ [ :0 - Abstract: ] | %>: | %-: ] _ ;
+         except
+             _ ( %>: ) [ %{U%}: - :YotVow ] ;
+
 
 "Abstract vowel harmony for {А} after {ү}"
 %{A%}:ө  <=> [ %{ү%}:0 AbstractCns:0* :Cns* ]/[ [ :0 - Abstract: ] | %>: | %-: ] _ ;
+         except
+             _ ( %>: ) [ %{U%}: - :YotVow ] ;
+
+"Abstract vowel harmony for {А} before {U} after {ү} and {э}"
+%{A%}:ө  <=> [ %{ү%}:0 AbstractCns:0* :Cns* ]/[ [ :0 - Abstract: ] | %>: | %-: ] _ ( %>: ) [ %{U%}: - :YotVow ] ;
+             [ %{э%}:0 AbstractCns:0* :Cns* ]/[ [ :0 - Abstract: ] | %>: | %-: ] _ ( %>: ) [ %{U%}: - :YotVow ] ;
 
 "Abstract vowel harmony for {А} after {о}"
 %{A%}:о  <=> [ %{о%}:0 AbstractCns:0* :Cns* ]/[ [ :0 - Abstract: ] | %>: | %-: ] _ ;
+         except
+             _ ( %>: ) [ %{U%}: - :YotVow ] ;
+
+"Abstract vowel harmony for {A} before {U} after {o} and {a}"
+%{A%}:о  <=> [ %{о%}:0 AbstractCns:0* :Cns* ]/[ [ :0 - Abstract: ] | %>: | %-: ] _ ( %>: ) [ %{U%}: - :YotVow ] ;
+             [ %{а%}:0 AbstractCns:0* :Cns* ]/[ [ :0 - Abstract: ] | %>: | %-: ] _ ( %>: ) [ %{U%}: - :YotVow ] ;
 
 
 "Vowel harmony for {A} so that AA becomes ээ"  ! and not ее
@@ -380,6 +398,7 @@ Cx:Cy <=>  [ :UnvoicedNonSonCns ]/[ [ :0 - [ %{n%}:0 | Abstract:0 ] ] | %-: | %>
 
 "Vowel harmony for archiphoneme {U} after consonant"
 %{U%}:Vy <=> [ :LastVowel :Cns* :Cns ]/[ :0 | %>: ] _ ;
+!%{U%}:Vy <=> [ :LastVowel :Cns* :Cns %{U%}:* ]/[ [ :0 - %{U%}: ] | %>: ] _ ;
                             except
                                     й:/[ :0 | %>: ] _ ;     ! Avoid conflict w y-vowels
   where Vy   in  ( ү  ү  ү  ү  ү  у  у  у  у  у  у  у )
@@ -388,13 +407,17 @@ Cx:Cy <=>  [ :UnvoicedNonSonCns ]/[ [ :0 - [ %{n%}:0 | Abstract:0 ] ] | %-: | %>
 
 
 "Vowel harmony for archiphoneme {U} after vowel"
-%{U%}:Vy <=> :LastVowel ( %>: [ :0 - й:0 ] ) _ ;
+!! WAS: %{U%}:Vy <=> :LastVowel ( %>: [ :0 - й:0 ] ) _ ;
+%{U%}:Vy <=> [ :LastVowel (%{U%}:0) ]/[ %>: | [ :0 - [ Abstract: | %{U%}: ] ] ] _ ;
+         except
+             [ й:/[ :0 | %>: ] ] _ ; ! avoid conflict with y-vowels
          where Vy         in (   ү     ө     о     о     у     у   )
                LastVowel  in (   ү     ө     ё     о     ю     у   )
                matched ; 
 
 "{U} deletion after vowel final stem"
-%{U%}:0 <=> Vow %>: _ %{U%}: ; 
+%{U%}:0 <=> [ :Vow - %{A%}: ] ( %>: ) _ %{U%}: ; 
+        ! [ - %{A%}: ] so that it applies in e.g. 1-өөсү
 
 "Assimilate {A} archiphoneme before {U} in e.g. negative infinitive"
 %{A%}:Vy <=> [ :LastVowel Cns* :Cns ]/[ %>: | [ :0 - Abstract: ] ] _ ( %>: ) [ %{U%}: - :YotVow ] ;
