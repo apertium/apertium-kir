@@ -423,6 +423,13 @@ LEXICON DIGITLEX
 8:8   LOOP ;
 9:9   LOOP ;
 
+
+!! merged from secondary DIGITLEX lexicon;
+!! CHECK: may not belong here!
+%<num%>: # ; ! Copy from kaz
+
+
+
 !==============================================================================!
 !          N U M E R A L     L E X I C O N     E N D S     H E R E
 !==============================================================================!
@@ -17471,10 +17478,6 @@ LEXICON Punctuation
 \%<sent%>:\ # ;
 /%<sent%>:/ # ;
 
-
-LEXICON DIGITLEX ! Copy from kaz
-
-%<num%>: # ; ! Copy from kaz
 
 !==============!
  LEXICON Digits ! Use/Circ
