@@ -637,67 +637,6 @@ POSSESSION ;
 %<pl%>:%>%{L%}%{A%}р POSSESSION ;
 ABESSIVE-SUFFIX ;
 
-
-LEXICON NP-COMMON
-! N-INFL-COMMON ;
-FULL-NOMINAL-INFLECTION ; 
-
-LEXICON NP-COG-COMMON
-
-%<attr%>: # ;
-NP-COMMON ;
-
-LEXICON NP-COG-IN
-
-%<np%>%<cog%>%<m%>: NP-COG-COMMON ; ! FIXME
-%<np%>%<cog%>%<f%>:а NP-COG-COMMON ; ! FIXME
-
-LEXICON NP-COG-OB
-
-%<np%>%<cog%>%<m%>: NP-COG-COMMON ; ! FIXME
-%<np%>%<cog%>%<f%>:а NP-COG-COMMON ; ! FIXME
-
-LEXICON NP-COG-MF
-
-%<np%>%<cog%>%<mf%>: NP-COG-COMMON ;
-
-LEXICON NP-COG-M
-
-%<np%>%<cog%>%<m%>: NP-COG-COMMON ;
-
-LEXICON NP-COG-F
-
-%<np%>%<cog%>%<f%>: NP-COG-COMMON ;
-
-LEXICON NP-ANT-M
-
-%<np%>%<ant%>%<m%>: NP-COMMON ;
-%<np%>%<ant%>%<m%>%<pl%>:%>%{L%}%{A%}р NP-COMMON ;
-
-LEXICON NP-ANT-F
-
-%<np%>%<ant%>%<f%>: NP-COMMON ;
-%<np%>%<ant%>%<f%>%<pl%>:%>%{L%}%{A%}р NP-COMMON ;
-
-LEXICON NP-ANT-MF
-
-NP-ANT-M ; 
-NP-ANT-F ; 
-
-LEXICON NP-PAT-VICH
-
-! For patronyms ending with -вич
-! Their feminine equivalets end with -вна /I.S./
-
-%<np%>%<pat%>%<m%>:вич NP-COMMON ;
-
-%<np%>%<pat%>%<f%>:вна NP-COMMON ;
-
-LEXICON NP-ORG
-
-%<np%>%<org%>: POSSESSION ;
-%<np%>%<org%>%<attr%>: # ;
-
 LEXICON NP-ORG-COMPOUND
 
 %<np%>%<org%>: N-COMPOUND-PX-COMMON ;
@@ -725,53 +664,6 @@ LEXICON NP-TOP-CLUSTER
 NP-TOP ;  ! Dir/LR ! We want to analyse forms without %{і%}, since they're used
                    ! but "properly" we want to generate forms with %{і%}
 
-LEXICON N-INFL      ! Nouns that have a LUU attributive form
-
-%<n%>%<attr%>: # ;
-%<n%>: FULL-NOMINAL-INFLECTION ;
-
-!%<n%>: SUBST-COMMON ;
-!%<n%>%<attr%>: ATTR ;
-!%<n%>%<attr%>:%>%{L%}%{U%}%{U%} ATTR ;
-
-LEXICON N-INFL-KI   ! Nouns that have a KI attributive form
-
-%<n%>: KI ;
-%<n%>: SUBST-COMMON ;
-
-! LEXICON N-INFL-NO-ATTR  ! Used for nouns that have irregular <attr> forms
-! 
-! %<n%>: SUBST-COMMON ;
-! 
-! LEXICON N-INFL-JUST-KI  ! Used for nouns that have irregular KI forms
-! 
-! %<n%>: KI ;
-
-LEXICON N-INFL-NKI
-
-%<n%>:%{I%}н KI ; ! Dir/LR
-%<n%>:%{I%}ң KI ; 
-%<n%>: SUBST-COMMON ;
-
-LEXICON N-COMPOUND-PX-COMMON
-
-:%>%{s%}%{I%}%{n%} GEN-POS ;
-POSSESSION-ENDINGS ;  ! for stuff like "биздин аба ырайыбыз" and even "анын аба ырайы",
-                      ! which should have a <px3sp> analysis
-
-
-LEXICON N-INFL-3PX-COMPOUND
-
-%<n%>: N-COMPOUND-PX-COMMON ;
-%<n%>%<pl%>:%>%{L%}%{A%}р%>%{s%}%{I%}%{n%} GEN-POS ;
-
-LEXICON GER-INFL
-
-POSSESSION ;
-%<pl%>:%>%{L%}%{A%}р POSSESSION ;
-ABESSIVE-SUFFIX ;
-
-
 LEXICON NP-COMMON
 ! N-INFL-COMMON ;
 FULL-NOMINAL-INFLECTION ; 
@@ -831,15 +723,6 @@ LEXICON NP-ORG
 
 %<np%>%<org%>: POSSESSION ;
 %<np%>%<org%>%<attr%>: # ;
-
-LEXICON NP-ORG-COMPOUND
-
-%<np%>%<org%>: N-COMPOUND-PX-COMMON ;
-
-LEXICON ADV-LANG
-
-N-INFL ;
-ADV ;
 
 
 LEXICON NP-TOP-COMPOUND
