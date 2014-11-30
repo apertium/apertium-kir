@@ -2253,7 +2253,6 @@ LEXICON Nouns
 ! даана:даана N-INFL ; ! "removing duplicate" 
 ! далил:далил N-INFL ; ! "removing duplicate" 
 ! дан:дан N-INFL ; ! "removing duplicate" 
-! дарак:дарак N-INFL ; ! "removing duplicate"
 ! дарыгер:дарыгер N-INFL ; ! "removing duplicate" 
 ! дарылоо:дарылоо N-INFL ; ! "removing duplicate" 
 ! дарыя:дарыя N-INFL ; ! "removing duplicate" 
@@ -2354,7 +2353,6 @@ LEXICON Nouns
 ! кабарчы:кабарчы N-INFL ; ! "removing duplicate" 
 ! кагаз:кагаз N-INFL ; ! "removing duplicate" 
 ! кагылыш:кагылыш N-INFL ; ! "removing duplicate" 
-! каз:каз N-INFL ; ! "removing duplicate" 
 ! казак:казак N-INFL ; ! "removing defined in nations" 
 ! казына:казына N-INFL ; ! "removing duplicate" 
 ! кайгы:кайгы N-INFL ; ! "removing duplicate" 
@@ -3101,7 +3099,7 @@ LEXICON Nouns
 аппендицит:аппендицит N-INFL ; 
 апрель:апрель N-INFL ;
 апта% аягы:апта% аягы N-INFL ;
-апта:апта N-INFL ; 
+апта:апта N-INFL ; ! "week" (dialectal)
 ар:ар N-INFL ;
 ар:ар N-INFL ; 
 ара:ара N-INFL ; 
@@ -3408,7 +3406,7 @@ LEXICON Nouns
 бекитүү:бекитүү N-INFL ;
 бел:бел N-INFL ; ! "waist" 
 белгилөө:белгилөө N-INFL ;
-белек:белек N-INFL ;
+белек:белек N-INFL ; ! "gift/present"
 бензин:бензин N-INFL ;
 бентонит:бентонит N-INFL ; 
 берене:берене N-INFL ;
@@ -3478,7 +3476,7 @@ LEXICON Nouns
 боор:боор N-INFL ; ! "liver"
 боордош:боордош N-INFL ; ! "" 
 бор:бор N-INFL ;
-борбор:борбор N-INFL ; ! "capital"
+борбор:борбор N-INFL ; ! "capital (dial); center"
 бороон:бороон N-INFL ; ! "storm/blizzard"
 бочка:бочка N-INFL ; ! "barrel"
 бошотуу:бошотуу N-INFL ;
@@ -3587,7 +3585,7 @@ LEXICON Nouns
 визит:визит N-INFL ; 
 вилайет:вилайет N-INFL ; ! "" 
 вилаят:вилаят N-INFL ; 
-вилка:вилка N-INFL ; 
+вилка:вилка N-INFL ; ! "fork"
 вилла:вилла N-INFL ; 
 виолончель:виолончель N-INFL ; 
 вираж:вираж N-INFL ; 
@@ -4044,9 +4042,9 @@ LEXICON Nouns
 жол:жол N-INFL ; ! "way"
 жолборс:жолборс N-INFL ;
 жолдомо:жолдомо N-INFL ; ! "" 
-жолдош:жолдош N-INFL ; 
-жолу:жолу N-INFL ; 
-жомок:жомок N-INFL ;
+жолдош:жолдош N-INFL ; ! "comrade; husband"
+жолу:жолу N-INFL ; ! FIXME: CHECK
+жомок:жомок N-INFL ; ! "fairy tale"
 жон:жон N-INFL ;
 жоо:жоо N-INFL ; ! "" 
 жоогазын:жоогазын N-INFL ; ! "" 
@@ -4068,7 +4066,8 @@ LEXICON Nouns
 жубай:жубай N-INFL ;
 жубалдыз:жубалдыз N-INFL ; 
 жубатуу:жубатуу N-INFL ; ! "consolation" 
-жума:жума N-INFL ; ! "Friday" 
+жудурук:жудурук N-INFL ; ! "fist (dialectal)"
+жума:жума N-INFL ; ! "Friday; week" 
 жумуртка:жумуртка N-INFL ; 
 жумуруят:жумуруят N-INFL ; 
 жумуш:жумуш N-INFL ; 
@@ -4325,7 +4324,7 @@ LEXICON Nouns
 кадыр:кадыр N-INFL ;
 кадырдоо:кадырдоо N-INFL ; ! "" 
 кадырдоо:кадырлоо N-INFL ; ! "" Dir/LR
-каз:каз N-INFL ; ! "" 
+каз:каз N-INFL ; ! "goose" 
 каза:каза N-INFL ;
 казан:казан N-INFL ; ! "" 
 казарма:казарма N-INFL ;
@@ -4878,6 +4877,7 @@ LEXICON Nouns
 кутурган:кутурган N-INFL ; 
 куугун:куугун N-INFL ; ! "" 
 куулук:куулук N-INFL ;
+куур:куур N-INFL ; ! "belt"
 куурай:куурай N-INFL ; 
 кучак:кучак N-INFL ; ! "" 
 куш:куш N-INFL ; 
@@ -5357,25 +5357,26 @@ LEXICON Nouns
 моюн:моюн N-INFL ; ! "neck"
 моюнтурук:моюнтурук N-INFL ; 
 мрамор:мрамор N-INFL ; ! "marble (rock)"
-мугалим:мугалим N-INFL ; ! "teacher"
 мугалимдик:мугалимдик N-INFL ; ! "teacherhood"
+мугалим:мугалим N-INFL ; ! "teacher"
 мударис:мударис N-INFL ; 
-муз:муз N-INFL ; ! "ice"
 музей:музей N-INFL ; ! "museum"
+муз:муз N-INFL ; ! "ice"
 музоо:музоо N-INFL ; ! "calf (animal)"
 музыка:музыка N-INFL ; 
 музыкант:музыкант N-INFL ;
-муктаж:муктаж N-INFL ; ! "" 
 муктаждык:муктаждык N-INFL ; 
+муктаж:муктаж N-INFL ; ! "" 
 мумия:мумия N-INFL ; ! "mummy"
 мунаажат:мунаажат N-INFL ; ! "" 
 мунаажат:мунажат N-INFL ; ! "" Dir/LR
 мунай:мунай N-INFL ; ! ""
 мунара:мунара N-INFL ; ! "tower"
 мунафык:мунафык N-INFL ; ! "" 
+муң:муң N-INFL ; ! "sorry"
+мураскор:мураскор N-INFL ; ! "" 
 мурас:мирас N-INFL ; ! "" Dir/LR
 мурас:мурас N-INFL ; 
-мураскор:мураскор N-INFL ; ! "" 
 мурасчы:мурасчы N-INFL ; ! " (same as мураскор)" Dir/LR
 мурун:мур%{y%}н N-INFL ; ! "nose" ! FIXME: make work properly
 мурун:мурун N-INFL ; ! Dir/LR "nose" 
@@ -5386,7 +5387,7 @@ LEXICON Nouns
 мусулман:мусулман N-INFL ; ! "muslim"
 мутация:мутация N-INFL ; ! "mutation"
 муун:муун N-INFL ; ! "joint, generation"
-муң:муң N-INFL ; ! "sorry"
+муштум:муштум N-INFL ; ! "fist"
 мыйзам% тышы:мыйзам% тышы N-INFL ;
 мыйзам% чыгарма:мыйзам% чыгарма N-INFL ;
 мыйзам:мыйзам N-INFL ;
@@ -5422,9 +5423,10 @@ LEXICON Nouns
 мүшкүл:мүшкүл N-INFL ; 
 мүшөк:мүшөк N-INFL ; 
 мөмө:мөмө N-INFL ; ! "fruit"
-мөрөй:мөрөй N-INFL ;
+мөңгү:мөңгү N-INFL ; ! "glacier"
 мөөнөт:мөөнөт N-INFL ;
 мөөр:мөөр N-INFL ; 
+мөрөй:мөрөй N-INFL ;
 наалы:наалы N-INFL ; 
 наам:наам N-INFL ; ! "reputation/good name"
 нааразылык:нааразылык N-INFL ; 
@@ -6269,7 +6271,7 @@ LEXICON Nouns
 тамаки:тамаки N-INFL ;
 таман:таман N-INFL ; 
 тамаша:тамаша N-INFL ; 
-тамга:тамга N-INFL ; 
+тамга:тамга N-INFL ; ! "letter (of the alphabet)"
 тамеки:тамеки N-INFL ;
 тампон:тампон N-INFL ; 
 тамчы:тамчы N-INFL ; 
@@ -6470,6 +6472,7 @@ LEXICON Nouns
 тоос:тоос N-INFL ; 
 тоош:тоош N-INFL ; 
 топ:топ N-INFL ; ! "ball; group"
+топчу:топчу N-INFL ; ! "button"
 топаз:топаз N-INFL ; 
 тополоң:тополоң N-INFL ; ! "" 
 топурак:топурак N-INFL ;
@@ -6908,7 +6911,7 @@ LEXICON Nouns
 чач% тарач:чач% тарач N-INFL ; 
 чач:чач N-INFL ;
 чаян:чаян N-INFL ; 
-чаң:чаң N-INFL ; ! "" 
+чаң:чаң N-INFL ; ! "dust" 
 чебер:чебер N-INFL ; ! ""
 чейрек:чейрек N-INFL ; 
 чек% ара:чек% ара N-INFL ;
@@ -6987,7 +6990,7 @@ LEXICON Nouns
 чөйрө:чөйрө N-INFL ; 
 чөккөн:чөккөн N-INFL ;
 чөл:чөл N-INFL ; 
-чөнтөк:чөнтөк N-INFL ;
+чөнтөк:чөнтөк N-INFL ; ! "pocket"
 чөнөк:чөнөк N-INFL ; ! "грядка" 
 чөп:чөп N-INFL ; 
 шаар% чети:шаар% чети N-INFL ;
@@ -7064,7 +7067,7 @@ LEXICON Nouns
 штраф:штраф N-INFL ; ! "" 
 шумдук:шумдук N-INFL ; ! "" 
 шумкар:шумкар N-INFL ; ! "" 
-шуру:шуру N-INFL ; 
+шуру:шуру N-INFL ; ! "bead"
 шуулдоо:шуулдоо N-INFL ; ! "" 
 шыбыр:шыбыр N-INFL ; ! "" 
 шыктандырыш:шыктандырыш N-INFL ;
@@ -7191,7 +7194,7 @@ LEXICON Nouns
 эмгек% акы:эмгек% акы N-INFL ; ! "" 
 эмгек:эмгек N-INFL ; 
 эмгектештик:эмгектештик N-INFL ; ! "" 
-эмерек:эмерек N-INFL ; 
+эмерек:эмерек N-INFL ; ! "furniture"
 эмигрант:эмигрант N-INFL ;
 эмир:эмир N-INFL ; 
 эмчек:эмчек N-INFL ; 
@@ -14657,7 +14660,7 @@ LEXICON Adjectives
 табигый:табигый A1 ; ! "natural" 
 таза:таза A1 ; ! "clean" 
 так:так A1 ; ! "accurate" 
-татаал:татаал A1 ; ! "" 
+татаал:татаал A1 ; ! "complicated" 
 таттуу:таттуу A1 ; ! "" 
 тез:тез A1 ; ! "" 
 терең:терең A1 ; ! "" 
@@ -16500,7 +16503,7 @@ LEXICON Verbs
 !отур V-INFL-IV ;
 өлчө:өлчө V-INFL-TV ;
 өлчө:өлчө V-INFL-IV ;
-ишен:ишен V-INFL-TV ;
+ишен:ишен V-INFL-TV ; ! "believe"
 сурамжыла:сурамжыла V-INFL-TV ;
 көп% иште:көп% иште V-INFL-IV ;   ! "work a lot"   ! Use/Trmorph
 алек% бол:алек% бол V-INFL-TV ;
@@ -16834,7 +16837,7 @@ LEXICON Verbs
 аныкта:аныкта V-INFL-IV ;
 сандар% менен% белгиле:сандар% менен% белгиле V-INFL-IV ;
 ой:ой V-INFL-IV ;
-шаш:шаш V-INFL-IV ;
+шаш:шаш V-INFL-IV ; ! "hurry"
 иликте:иликте V-INFL-IV ;
 кайра% чык:кайра% чык V-INFL-IV ;
 гарантияла:гарантияла V-INFL-IV ;
@@ -17288,6 +17291,7 @@ LEXICON Verbs
 мез% бол:мез% бол V-INFL-IV ; ! "be astounded"
 жек% көр:жек% көр V-INFL-TV ; ! "hate"
 козго:козго V-INFL-TV ; ! ""
+каз:каз V-INFL-TV ; ! "dig"
 
 
 LEXICON Abbreviations
