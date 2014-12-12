@@ -331,8 +331,10 @@ LEXICON NUM-DIGIT
 !These are for numerals
 !!  Defaults to subst reading; advl is secondary
 %<num%>%<coll%>%<advl%>:%-%{A%}%{U%} # ; ! FIXME: оо/өө
-%<num%>%<coll%>%<nom%>:%-%{A%}%{U%} # ; ! FIXME: оо/өө
-%<num%>%<coll%>:%-%{A%}%>%{U%} SUBST-NONOM ;
+!! though apertium-kaz hasn't been updated to reflect this
+!! so let's just include <subst> for now...
+%<num%>%<coll%>%<subst%>%<nom%>:%-%{A%}%{U%} # ; ! FIXME: оо/өө
+%<num%>%<coll%>%<subst%>:%-%{A%}%>%{U%} SUBST-NONOM ;
 
 %<num%>%<percent%>:%% # ;
 %<num%>%<percent%>%<subst%>%<nom%>:%% # ;
@@ -1342,8 +1344,10 @@ LEXICON PRON-COLL   ! "Collective"(?) pronoun-like numbers
 !!  Defaults to subst reading; advl is secondary
 
 %<num%>%<coll%>%<advl%>: # ;
-%<num%>%<coll%>%<nom%>: # ;
-%<num%>%<coll%>: SUBST-NONOM ;
+!! though apertium-kaz hasn't been updated to reflect this
+!! so let's just make these <subst>
+%<num%>%<coll%>%<subst%>%<nom%>: # ;
+%<num%>%<coll%>%<subst%>: SUBST-NONOM ;
 
 ! OLD STUFF:
 !%<num%>%<coll%>%<advl%>:%-%{A%}у # ; ! FIXME: оо/өө
@@ -13937,7 +13941,7 @@ LEXICON Adjectives
 концерттик:концерттик A4 ; ! "" 
 коомдук:коомдук A4 ; ! "societal" < коом "society" + лук noun>ADJ 
 коомчулуктуу:коомчулуктуу A4 ; ! "" 
-коңур:коңур A4 ; ! "dark brown" 
+коңур:коңур A2 ; ! "dark brown" ! Probably A2 -JNW
 коркутуучу:коркутуучу A4 ; ! "" 
 корпоративдик:корпоративдик A4 ; ! "" 
 көшөгөлүү:көшөгөлүү A4 ; ! "" 
@@ -15437,6 +15441,7 @@ LEXICON Adjectives
 көөнө:көөнө A2 ; ! "old" ! FIXME: CHECK A2 (seems to have comp forms, cf. google)
 накта:накта A3 ; ! "real"
 сейрек% кездешүүчү:сейрек% кездешүүчү A4 ; ! "rare" ! Use/MT ! FIXME: CHECK A4
+жука:жука A1 ; ! "thin"
 
 
 LEXICON Adverbs
@@ -15454,7 +15459,7 @@ LEXICON Adverbs
 өтө:өтө ADV ; ! "very"
 мисалы:мисалы ADV ; ! "for example"
 улам:улам ADV ; ! "???"
-! айрыкча:айрыкча ADV ; ! "see A1 section" 
+айрыкча:айрыкча ADV ; ! "see A1 section" ! Actually, I'm pretty sure this is an adverb: "especially", much the same uses as in English.  It may also be A1, but not sure..  -JNW
 кыйла:кыйла ADV ;
 барган% сайын:барган% сайын ADV ; ! see bidix
 адегенде:адегенде ADV ;
