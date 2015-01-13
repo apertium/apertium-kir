@@ -14301,7 +14301,7 @@ LEXICON Adjectives
 айрым:айрым A3 ; ! "" 
 айылдык:айылдык A3 ; ! "" 
 акыркы:акыркы A3 ; ! "previous" ! Use/MT see акыры
-ала:ала A3 ; ! "" 
+ала:ала A3 ; ! "speckled/mottled" 
 алгачкы:алгачкы A3 ; ! "" 
 алдамчы:алдамчы A3 ; ! "" 
 алдыңкы:алдыңкы A3 ; ! "" 
@@ -14730,7 +14730,7 @@ LEXICON Adjectives
 ийри:ийри A1 ; ! "" 
 ири:ири A1 ; ! "" 
 ичке:ичке A1 ; ! "" 
-ичке:ничке A1 ; ! "" Dir/LR
+ичке:ничке A1 ; ! "" Dir/LR (dialectal)
 ишенимдүү:ишенимдүү A1 ; ! "" 
 капалуу:капалуу A1 ; ! "" 
 кара:кара A1 ; ! "black" 
@@ -17455,6 +17455,7 @@ LEXICON Verbs
 жек% көр:жек% көр V-INFL-TV ; ! "hate"
 козго:козго V-INFL-TV ; ! ""
 каз:каз V-INFL-TV ; ! "dig"
+жөнөт:жөнөт V-INFL-TV ; ! "send" (technically CAUS of жөнө)
 
 
 LEXICON Abbreviations
