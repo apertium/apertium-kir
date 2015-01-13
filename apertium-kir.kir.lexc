@@ -2024,18 +2024,19 @@ LEXICON Determiners
 
 каалаган:каалаган DET-IND ; ! "any"
 
-ар% бир:ар% бир DET-QNT ; ! ""
-ар% түрдүү:ар% түрдүү DET-QNT ; ! ""
+ар% бир:ар% бир DET-QNT ; ! "each"
+ар% түрдүү:ар% түрдүү DET-QNT ; ! "all kinds of"
 эч% бир:эч% бир DET-IND ; ! "no"
-эч% кандай:эч% кандай DET-IND ; ! ""
+эч% кандай:эч% кандай DET-IND ; ! "no kind of"
 кээ% бир:кээ% бир DET-QNT ; ! "some"
 бир% нече:бир% нече DET-QNT ; ! "some, several"
 көптөгөн:көптөгөн DET-QNT ; ! "many"
 канча:канча DET-QNT ; ! "how many"  ! FIXME: not <itg> somehow?
 канчалык:канчалык DET-QNT ; ! "how many"  ! FIXME: this is really an adverb
 бүтүн:бүтүн DET-QNT ; ! "entire"
-бүткүл:бүткүл DET-QNT ; ! "" 
-бүт:бүт DET-QNT ; ! "" 
+бүткүл:бүткүл DET-QNT ; ! "whole/all?" 
+бүт:бүт DET-QNT ; ! "all"
+бир% топ:бир% топ DET-QNT ; ! "a bunch of"
 каалаганча:каалаганча DET-QNT ; ! "as much as you want"
 жетерлик:жетерлик DET-QNT ; ! "enough"
 жетерлик:жетишерлик DET-QNT ; ! "enough"   ! Dir/LR
@@ -2145,7 +2146,6 @@ PRON-DEM-BUL ; ! "this"
 баары:баар PRON-IND-POSS ; ! "everyone"
 бир% нерсе:бир% нерсе PRON-IND ; ! "something"
 бир% деме:бир% деме PRON-IND ; ! ""
-бир% топ:бир% топ PRON-IND ; ! "" 
 бирөө:бирөө PRON-IND ; ! "someone"
 кээ:кээ PRON-IND ; 
 
@@ -14505,7 +14505,7 @@ LEXICON Adjectives
 тырмактай:тырмактай A3 ; ! "" 
 тыш:тыш A3 ; ! "" 
 түбөлүк:түбөлүк A3 ; ! "" 
-убактылуу:убактылуу A3 ; ! "" 
+убактылуу:убактылуу A6 ; ! "for the time" 
 укмуш:укмуш A3 ; ! "" 
 ургаачы:ургаачы A3 ; ! "" 
 фарфор:фарфор A3 ; ! "" 
