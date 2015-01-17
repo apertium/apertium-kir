@@ -86,7 +86,7 @@
 %<px1pl%>   ! Possessive, first person plural
 %<px2pl%>   ! Possessive, second person plural
 %<px3pl%>   ! Possessive, third person plural (for reflexive)
-%<px%>      ! General possessive -ныкы  ! CHANGED to %<ger%>%<subst%>
+!%<px%>      ! General possessive -ныкы  ! CHANGED to %<ger%>%<subst%>
 
 %<qst%>     ! Question modal word and "what about" focus particle
 !%<mod_foc%> ! "what about ..." question particle
