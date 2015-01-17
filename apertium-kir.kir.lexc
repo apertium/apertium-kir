@@ -730,7 +730,16 @@ LEXICON NP-PAT-VICH
 
 LEXICON NP-ORG
 
-%<np%>%<org%>: POSSESSION ;
+%<np%>%<org%>: N-INFL-COMMON ;
+%<np%>%<org%>%<attr%>: # ;
+
+LEXICON NP-ORG-LAT
+
+%<np%>%<org%>%<nom%>: # ;
+%<np%>%<org%>: N-INFL-COMMON-NONOM ; ! Dir/LR
+%<np%>%<org%>:%- N-INFL-COMMON-NONOM ;
+! This one doesn't work right because of twol:
+!%<np%>%<org%>:%' N-INFL-COMMON-NONOM ; ! Dir/LR
 %<np%>%<org%>%<attr%>: # ;
 
 
@@ -1954,7 +1963,7 @@ LEXICON Postpositions
 караганда:караганда POST ; 
 дагы:дагы POST ; ! FIXME: not POST
 ! керек:керек POST ; ! FIXME: not POST
-дайым:дайым POST ; ! FIXME: not POST
+! дайым:дайым POST ; ! FIXME: not POST
 соң:соң POST ;
 тышкары:тышкары POST ; ! "aside from, besides" +abl  ! FIXME: account for тышкарысы
 бери:бери POST ; ! "since" +abl
@@ -3697,7 +3706,7 @@ LEXICON Nouns
 дабыл:дабыл N-INFL ;
 дабылчы:дабылчы N-INFL ; ! "барабанщик, играющий на дабыле" 
 дагы:дагы N-INFL ;
-дайыма:дайыма N-INFL ; 
+! дайыма:дайыма N-INFL ; ! ADV
 дайын:дайын N-INFL ;
 дайындоо:дайындоо N-INFL ;
 дал% кэлүү:дал% кэлүү N-INFL ; 
@@ -8301,11 +8310,11 @@ Wrigley:Wrigley NP-ORG ; ! ""
 Нью%-Йорк% таймс:Нью%-Йорк% таймс NP-ORG ; ! ""
 Нью%-Йорк% таймс:Нью%-Йорк% Таймс NP-ORG ; ! "" Dir/LR
 Юроуп:Юроуп NP-ORG ; ! ""
-Google:Google NP-ORG ; ! ""
-Twitter:Twitter NP-ORG ; ! ""
-YouTube:YouTube NP-ORG ; ! ""
-ABC:ABC%{э%} NP-ORG ; ! ""
-Getty% Images:Getty% Images%{э%}%{з%} NP-ORG ; ! ""
+Google:Google%{у%}%{л%} NP-ORG-LAT ; ! ""
+Twitter:Twitter NP-ORG-LAT ; ! ""
+YouTube:YouTube NP-ORG-LAT ; ! ""
+ABC:ABC%{э%} NP-ORG-LAT ; ! ""
+Getty% Images:Getty% Images%{э%}%{з%} NP-ORG-LAT ; ! ""
 Рейтер:Рейтер NP-ORG ; ! "Reuters"
 
 ! ЕБ:ЕБ NP-ORG-COMPOUND ; ! "European Union"
@@ -14833,8 +14842,8 @@ LEXICON Adjectives
 бир% кыйла:бир% кыйла A1 ; ! "FIXME is it A1?" 
 бөлүңөн:бөлүңөн A1 ; ! "FIXME no such adj" 
 гриль:гриль A1 ; ! "" 
-дайым:дайым A1 ; ! "FIXME  not ADV?" 
-дайыма:дайыма A1 ; ! "FIXME not ADV?" 
+! дайым:дайым A1 ; ! "FIXME  not ADV?" 
+! дайыма:дайыма A1 ; ! "FIXME not ADV?" 
 далай:далай A1 ; ! "FIXME not ADV?" 
 дэм:дэм A1 ; ! "FIXME could not find this ADJ from dictionaries" 
 дөмбөйтүүчү:дөмбөйтүүчү A1 ; ! "FIXME could not find this ADJ from dictionaries" 
@@ -15665,7 +15674,7 @@ LEXICON Adverbs
 болгону:болгону ADV ; ! FIXME: huh?
 дагы% эле:дагы% эле ADV ; ! maybe this should be seen as compositional
 эми:эми ADV ; 
-дайыма:дайыма ADV ; 
+дайыма:дайыма ADV ; ! "always"
 толугу% менен:толугу% менен ADV ; 
 андай:андай ADV ; ! FIXME: adjective / adverb
 анча:анча ADV ; ! FIXME: adverb really
@@ -15739,7 +15748,7 @@ LEXICON Adverbs
 бардыгын:бардыгын ADV ; ! FIXME: compositional
 тилеке% каршы:тилеке% каршы ADV ; ! "unfortunately"
 ! кечээ ADV ;  ! moved elsewhere
-дайыма:дайыма ADV ; ! "always"
+! дайыма:дайыма ADV ; ! "always" ! DUP
 анда%-санда:анда%-санда ADV ; ! "occasionally"
 !мына ADV ; 
 күндөрдөн% бери:күндөрдөн% бери ADV ;  ! FIXME: compositional
@@ -15796,7 +15805,7 @@ LEXICON Adverbs
 жайында:жайында ADV ;
 капысынан:капысынан ADV ;
 көчүрмө% аркылуу:көчүрмө% аркылуу ADV ;
-дайыма:дайыма ADV ;
+! дайыма:дайыма ADV ; ! DUP
 шексиз:шексиз ADV ; ! FIXME: compositional
 болоор%-бобос:болоор%-бобос ADV ; ! FIXME: spelling
 болор%-болбос:болор%-болбос ADV ; ! FIXME: spelling
@@ -15940,6 +15949,7 @@ LEXICON Adverbs
 бүтүндөй:бүтүндөй ADV ; ! "nearly all" ! Use/MT
 эптеп%-септеп:эптеп%-септеп ADV ; ! "somehow, barely, eventually, with difficulty" FIXME: gloss
 жөн% эле:жөн% эле ADV ; ! "simply, just"
+дайым:дайым ADV ; ! "always" (see дайыма)
 
 
 !! FIXME: productive {K}{I} forms
