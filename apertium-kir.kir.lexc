@@ -440,21 +440,21 @@ LEXICON DIGITLEX
 
 
 LEXICON CASES-DEFAULT
-%<nom%>: PRED ;                 ! -     -      -
-%<gen%>:%>%{N%}%{I%}н CLIT-NONPRED ;      ! -нын, -нин, -дын, -дин, -тын, -тин, -нун, -нүн, -дун, -дүн, -тун, -түн
-%<dat%>:%>%{G%}%{A%} CLIT-NONPRED ;       ! -га, -ка, -ге, -ке, -го, -ко, -гө, -кө
-%<acc%>:%>%{N%}%{I%} CLITICS-NO-COP ;       ! -ны, -ни, -ды, -ди, -ты, -ти, -ну, -нү, -ду, -дү, -ту, -тү
-%<loc%>:%>%{D%}%{A%} PRED ;  ! -да, -де, -та, -те, -до, -дө, -то, -тө
+%<nom%>: CLITICS-INCL-COP ;              ! -     -      -
+%<gen%>:%>%{N%}%{I%}н CLITICS-NO-COP ;   ! -нын, -нин, -дын, -дин, -тын, -тин, -нун, -нүн, -дун, -дүн, -тун, -түн
+%<dat%>:%>%{G%}%{A%} CLITICS-NO-COP ;    ! -га, -ка, -ге, -ке, -го, -ко, -гө, -кө
+%<acc%>:%>%{N%}%{I%} CLITICS-NO-COP ;    ! -ны, -ни, -ды, -ди, -ты, -ти, -ну, -нү, -ду, -дү, -ту, -тү
+%<loc%>:%>%{D%}%{A%} CLITICS-INCL-COP ;  ! -да, -де, -та, -те, -до, -дө, -то, -тө
 %<sim%>:%>%{D%}%{A%}й PRED ;  ! -дай, -дей, -дөй, -дой, -тай, -тей, -төй, той
 
 LEXICON CASES
 CASES-DEFAULT ;
-%<abl%>:%>%{D%}%{A%}н PRED ; ! -DA and -DAn can be predicates
+%<abl%>:%>%{D%}%{A%}н CLITICS-INCL-COP ; ! -DA and -DAn can be predicates
 
 LEXICON CASES-PX12SG
 CASES-DEFAULT ;
-%<abl%>:%>%{D%}%{A%}н PRED ;      ! Dir/LR 
-%<abl%>:%>%{A%}н PRED ;      
+%<abl%>:%>%{D%}%{A%}н CLITICS-INCL-COP ; ! Dir/LR 
+%<abl%>:%>%{A%}н CLITICS-INCL-COP ;
 
 
 !LEXICON CASES-SINGULAR-PRONOUNS
