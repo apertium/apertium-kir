@@ -13803,7 +13803,7 @@ LEXICON Adjectives
 агротехникалык:агротехникалык A4 ; ! "" 
 адабий:адабий A4 ; ! "literary" 
 адаттагы:адаттагы A4 ; ! "" 
-адеми:адеми A4 ; ! "beautiful"
+адеми:адеми A3 ; ! "beautiful" ! appears to at least have subst readings, hence A3, not A4 -JNW
 административдик:административдик A4 ; ! "administrative"
 ажырагыс:ажырагыс A4 ; ! "" 
 азалуу:азалуу A4 ; ! "" 
@@ -14906,7 +14906,7 @@ LEXICON Adjectives
 аянычтуу:аянычтуу A5 ; ! "miserable" 
 бас:бас A5 ; ! "" 
 басымдуу:басымдуу A5 ; ! "" 
-кирешелүү:кирешелүү A5 ; ! "" 
+кирешелүү:кирешелүү A1 ; ! "profitable" ! seems to be A1, not A5 -JNW
 ным:ным A5 ; ! "FIXME check this" 
 оюк:оюк A5 ; ! "FIXME check this, also оюк defined as noun" 
 узунча:узунча A5 ; ! "" 
