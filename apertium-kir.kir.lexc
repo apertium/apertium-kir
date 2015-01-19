@@ -13805,7 +13805,7 @@ LEXICON Adjectives
 адаттагы:адаттагы A4 ; ! "" 
 адеми:адеми A3 ; ! "beautiful" ! appears to at least have subst readings, hence A3, not A4 -JNW
 административдик:административдик A4 ; ! "administrative"
-ажырагыс:ажырагыс A4 ; ! "" 
+ажырагыс:ажырагыс A4 ; ! "indivisible" 
 азалуу:азалуу A4 ; ! "" 
 айдалуучу:айдалуучу A4 ; ! ""
 айлуу:айлуу A4 ; ! "moonlit (~)" 
@@ -14161,7 +14161,7 @@ LEXICON Adjectives
 традициялык:традициялык A4 ; ! "traditional" 
 транзиттик:транзиттик A4 ; ! "" 
 тропиктик:тропиктик A4 ; ! "" 
-туңгуч:туңгуч A4 ; ! "" 
+туңгуч:туңгуч A4 ; ! "first" 
 туристтик:туристтик A4 ; ! "" 
 турмуштук:турмуштук A4 ; ! "" 
 туташ:туташ A3 ; ! "" ! A3 not A4 - subst forms found in google; 
@@ -14339,7 +14339,7 @@ LEXICON Adjectives
 бар:бар A3 ; ! "" 
 башкы:башкы A3 ; ! "" 
 баштапкы:баштапкы A3 ; ! "" 
-бекер:бекер A3 ; ! "free; for nothing" 
+бекер:бекер A6 ; ! "free; for nothing" ! has advl reading, so A6, not A3 -JNW
 белгилүү:белгилүү A2 ; ! "well-known, famous" ! probably A2 not A3: comparative forms found in google
 белгисиз:белгисиз A3 ; ! "unknown"
 берки:берки A3 ; ! "" 
@@ -14448,7 +14448,7 @@ LEXICON Adjectives
 көз% каранды:көз% каранды A3 ; ! "" 
 көнүмүш:көнүмүш A3 ; ! "" 
 көчмөн:көчмөн A3 ; ! "" 
-кымбаттуу:кымбаттуу A3 ; ! "" 
+кымбаттуу:кымбаттуу A3 ; ! "dear" 
 кымындай:кымындай A3 ; ! "" 
 мамлекеттик:мамлекеттик A3 ; ! "" 
 мекендик:мекендик A3 ; ! usually in "ата мекендик [e.g. согуш]" = "the fatherland [e.g. war]" 
@@ -14814,7 +14814,7 @@ LEXICON Adjectives
 тыгыз:тыгыз A1 ; ! "" 
 тынч:тынч A1 ; ! "quiet, silent, still, peaceful" 
 тың:тың A1 ; ! "" 
-түз:түз A1 ; ! "" 
+түз:түз A1 ; ! "straight" 
 түнт:түнт A1 ; ! "FIXME check this, not sure" 
 төмөн:төмөн A1 ; ! "" 
 узак:узак A1 ; ! "" 
@@ -15479,7 +15479,7 @@ LEXICON Adjectives
 кызыл-кырман ADJ ;
 кызыл-көк ADJ ;
 кыймылдуу:кыймылдуу ADJ ;
-кымбат:кымбат A1 ;
+кымбат:кымбат A2 ; ! "expensive" ! probably A2, not A1
 кынтыксыз:кынтыксыз ADJ ;
 күлкүнүчтүү:күлкүнүчтүү ADJ ;
 күнөөсуз:күнөөсуз ADJ ;
@@ -15797,7 +15797,8 @@ LEXICON Adverbs
 ! күнкү ADV ; ! eh?
 ! жалгыз% гана:жалгыз% гана ADV ; ! PRODUCTIVE
 пайдасыз:пайдасыз ADV ;
-араң%-араң:араң%-араң ADV ;
+араң%-араң:араң%-араң ADV ; ! "barely"
+араң:араң ADV ; ! "barely"
 анда:анда ADV ;
 жакшынакай:жакшынакай ADV ;
 айдагы:айдагы ADV ;
@@ -15937,7 +15938,7 @@ LEXICON Adverbs
 негиздеп:негиздеп ADV ; ! "" 
 бычылган:бычылган ADJ ; ! "" ! "shoul be A3" 
 адаттан% тышкары:адаттан% тышкары ADV ; ! "" 
-астыртан:астыртан ADV ; ! "" 
+астыртан:астыртан ADV ; ! "secretly" 
 жапырт:жапырт ADV ; ! "" 
 
 !!! JNW Adverbs
