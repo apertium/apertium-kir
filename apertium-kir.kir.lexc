@@ -7465,6 +7465,7 @@ LEXICON Nouns
 традициялуулук:традициялуулук N-INFL ; ! "traditionalness"
 окшоштук:окшоштук N-INFL ; ! "similarity"
 сом:сом N-INFL ; ! "som (Kyrgyzstani (KGS) or Uzbekistani)" 
+сырткы% түр:сырткы% түр N-INFL ; ! "appearance" ! ֻUse/MT
 
 ! Abbreviations
 ! =============
@@ -15953,6 +15954,8 @@ LEXICON Adverbs
 эптеп%-септеп:эптеп%-септеп ADV ; ! "somehow, barely, eventually, with difficulty" FIXME: gloss
 жөн% эле:жөн% эле ADV ; ! "simply, just"
 дайым:дайым ADV ; ! "always" (see дайыма)
+ыкылас% коюп:ыкылас% коюп ADV ; ! "carefully" ! Use/MT
+көбүрөөк% ыкылас% коюп:көбүрөөк% ыкылас% коюп ADV ; ! "more carefully" ! Use/MT
 
 
 !! FIXME: productive {K}{I} forms
