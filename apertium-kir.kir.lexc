@@ -659,8 +659,10 @@ ADV ;
 
 LEXICON NP-TOP-ASSR
 
-%<np%>%<top%>: POSSESSION ;
 %<np%>%<top%>%<attr%>: # ;
+
+%<np%>%<top%>: POSSESSION ; ! Dir/LR
+%<np%>%<top%>:%- POSSESSION ;
 
 LEXICON NP-TOP
 
@@ -5689,9 +5691,10 @@ LEXICON Nouns
 патент:патент N-INFL ; 
 патология:патология N-INFL ; 
 патриарх:патриарх N-INFL ; 
+патриот:патриот N-INFL ; ! "patriot"
 пахта% уругу:пахта% уругу N-INFL ; 
-пахта:пакта N-INFL ; ! "" 
-пахта:пахта N-INFL ; 
+пахта:пакта N-INFL ; ! "cotton"  ! Dir/LR
+пахта:пахта N-INFL ; ! "cotton"
 пашазаада:пашазаада N-INFL ; 
 педагог:педагог N-INFL ; 
 педагогика:педагогика N-INFL ; 
@@ -7207,7 +7210,8 @@ LEXICON Nouns
 эмблема:эмблема N-INFL ; 
 эмбрион:эмбрион N-INFL ; 
 эмгек% акы:эмгек% акы N-INFL ; ! "" 
-эмгек:эмгек N-INFL ; 
+эмгек:эмгек N-INFL ; ! "labour,work"
+эмгекчи:эмгекчи N-INFL ; ! "labourer,worker"
 эмгектештик:эмгектештик N-INFL ; ! "" 
 эмерек:эмерек N-INFL ; ! "furniture"
 эмигрант:эмигрант N-INFL ;
@@ -7692,6 +7696,7 @@ LEXICON ProperNouns
 Кыргыз% ССР:Кыргыз% ССР%{э%}%{й%} NP-TOP-ASSR ;
 Кыргыз% АССР:Кыргыз% АССР%{э%}%{й%} NP-TOP-ASSR ;
 Туркестан% АССР:Туркестан% АССР%{э%}%{й%} NP-TOP-ASSR ; ! ""
+Казак% ССР:Казак% ССР%{э%}%{й%} NP-TOP-ASSR ; ! ""
 Казак% АССР:Казак% АССР%{э%}%{й%} NP-TOP-ASSR ; ! ""
 Өзбек% ССР:Өзбек% ССР%{э%}%{й%} NP-TOP-ASSR ; ! ""
 Украина% ССР:Украина% ССР%{э%}%{й%} NP-TOP-ASSR ; ! ""
@@ -7878,8 +7883,10 @@ Tеңир NP-TOP ; ! ""
 Татарстан:Татарстан NP-TOP ; ! "Tatarstan"
 Финландия:Финландия NP-TOP ; ! ""
 Франкфурт:Франкфурт NP-TOP ; ! ""
-Франция:Франция NP-TOP ; ! ""
+Франция:Франция NP-TOP ; ! "France"
+Ханой:Ханой NP-TOP ; ! "Hanoy"
 Хелсинки:Хелсинки NP-TOP ; ! ""
+Хо% Чи% Мин:Хо% Чи% Мин NP-TOP ; ! "Ho Chi Minh (city)"
 Хорватия:Хорватия NP-TOP ; ! ""
 Чад:Чад NP-TOP ; ! ""
 Черногория:Черногория NP-TOP ; ! ""
@@ -8050,7 +8057,6 @@ Tеңир NP-TOP ; ! ""
 Югослав:Югослав NP-TOP ;
 Адриятика:Адриятика NP-TOP ;
 Курдистан:Курдистан NP-TOP ;
-Франция:Франция NP-TOP ;
 ЛАХЕЙ:ЛАХЕЙ NP-TOP ;
 Виена:Виена NP-TOP ;
 Венгрия:Венгрия NP-TOP ;
@@ -16270,7 +16276,7 @@ LEXICON Verbs
 кий:кийгиз V-INFL-IV-IRREG-CAUS ; ! "dress"
 кийин:кийин V-INFL-TV ; ! "wear"
 ! гэр V-INFL-TV ;  ! actually кер
-даярда:даярда V-INFL-TV ; 
+даярда:даярда V-INFL-TV ; ! "prepare"
 элесте:элесте V-INFL-IV ; ! "imagine"
 жай:жай V-INFL-TV ; ! "hang out to dry", "spread out"
 жан:жан V-INFL-IV ; 
