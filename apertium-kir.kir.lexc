@@ -4904,8 +4904,6 @@ LEXICON Nouns
 кызамык:кызамык N-INFL ; 
 кызгылт%-күрөң:кызгылт%-күрөң N-INFL ;
 кызмат:кызмат N-INFL ; 
-кызматкер:кызматкер N-INFL ;
-кызматкер:кызматкер N-INFL ; 
 кызматкер:кызматкер N-INFL ; ! "служащий"
 кызматташ:кызматташ N-INFL ; ! "" 
 кызматташтык:кызматташтык N-INFL ;
@@ -16145,6 +16143,9 @@ LEXICON Verbs
 акса:акса V-INFL-IV ; ! "limp"
 ал:ал V-INFL-TV ; ! "take"
 ал:ал V-INFL-IV ; ! "take"
+алып% бар:алып% бар V-INFL-TV ; ! "take (somewhere)"
+алып% кел:алып% кел V-INFL-TV ; ! "bring"
+алып% кет:алып% кет V-INFL-TV ; ! "take away"
 ас:ас V-INFL-TV ; ! "hang"
 ат:ат V-INFL-TV ; ! "shoot"
 айыпта:айыпта V-INFL-TV ;
@@ -16324,7 +16325,7 @@ LEXICON Verbs
 кубала:кубала V-INFL-TV ; 
 кула:кула V-INFL-IV ; ! "fall over"
 кулат:кулат V-INFL-TV ; ! "make fall over"
-кура:кура V-INFL-TV ; 
+кура:кура V-INFL-TV ; ! "consist of multiple elements"
 ! кургат V-INFL-TV ;  ! productive
 кучакта:кучакта V-INFL-TV ; 
 кый:кый V-INFL-TV ; 
@@ -16393,7 +16394,6 @@ LEXICON Verbs
 терде:терде V-INFL-IV ; ! "sweat"
 теш:теш V-INFL-TV ; ! "put a hole in"
 тиз:тиз V-INFL-TV ; 
-алып% кел:алып% кел V-INFL-TV ;
 тик:тик V-INFL-TV ; 
 той:той V-INFL-IV ; 
 токто:токто V-INFL-IV ; ! "stop" 
@@ -16418,7 +16418,7 @@ LEXICON Verbs
 төлө:төлө V-INFL-TV ; 
 узат:узат V-INFL-TV ; 
 уза:уза V-INFL-TV ; 
-ээри:ээри V-INFL-IV ; ! "melt"
+эри:ээри V-INFL-IV ; ! "melt" ! Dir/RL
 эри:эри V-INFL-IV ; ! "melt"
 ушала:ушала V-INFL-TV ; 
 чак:чак V-INFL-TV ; 
@@ -16504,10 +16504,10 @@ LEXICON Verbs
 күт:күт V-INFL-TV ; ! "wait for"
 камсыз% кыл:камсыз% кыл V-INFL-TV ;
 кол% кой:кол% кой V-INFL-TV ;
-кабылда:кабылда V-INFL-TV ;
+кабылда:кабылда V-INFL-TV ; ! "accept"
 бекит:бекит V-INFL-TV ;
 иш% жүзүнө% ашыр:иш% жүзүнө% ашыр V-INFL-IV ; ! FIXME: complex verb
-колдо:колдо V-INFL-TV ;
+колдо:колдо V-INFL-TV ; ! "support (not physically)"
 жуун:жуун V-INFL-IV ;  ! FIXME: productive
 ! жарыяла:жарыяла V-INFL-TV ; ! "removing duplicate" 
 кабарла:кабарла V-INFL-TV ;
@@ -16546,7 +16546,7 @@ LEXICON Verbs
 тезде:тезде V-INFL-IV ;
 ынан:ынан V-INFL-TV ;
 баш% ий:баш% ий V-INFL-TV ;
-ташта:ташта V-INFL-TV ;
+ташта:ташта V-INFL-TV ;  ! "throw; get rid of"
 жарала:жарала V-INFL-TV ;
 талаш:талаш V-INFL-TV ;
 тартыш:тартыш V-INFL-TV ;
@@ -16556,7 +16556,7 @@ LEXICON Verbs
 сын% пикир% айт:сын% пикир% айт V-INFL-TV ;
 жогот:жогот V-INFL-TV ;
 жеңил:жеңил V-INFL-TV ;
-өнүк:өнүк V-INFL-TV ;
+өнүк:өнүк V-INFL-IV ; ! "develop"
 кайтала:кайтала V-INFL-TV ;
 азай:азай V-INFL-IV ;
 туурала:туурала V-INFL-TV ;
@@ -16633,7 +16633,6 @@ LEXICON Verbs
 кийлигиш:кийлигиш V-INFL-IV ;
 аралаш:аралаш V-INFL-IV ;
 чатыш:чатыш V-INFL-TV ;
-алып% бар:алып% бар V-INFL-TV ;
 сыз:сыз V-INFL-IV ; 
 чий:чий V-INFL-IV ;
 эт:эт V-INFL-IV ;
@@ -16701,7 +16700,7 @@ LEXICON Verbs
 чачыра:чачыра V-INFL-IV ;
 !жет V-INFL-TV ;
 кокустан% учура:кокустан% учура V-INFL-TV ;
-тирке:тирке V-INFL-TV ;
+тирке:тирке V-INFL-TV ; ! "attach/register"
 тирке:тирке V-INFL-TV ;
 мүнөздө:мүнөздө V-INFL-TV ;
 тире:тире V-INFL-TV ;
@@ -16785,7 +16784,6 @@ LEXICON Verbs
 маалыматтан:маалыматтан V-INFL-IV ;
 маалымда:маалымда V-INFL-TV ; ! "to inform"
 термелт:термелт V-INFL-TV ;
-планда:планда V-INFL-IV ;
 тая:тая V-INFL-TV ;
 таян:таян V-INFL-TV ;
 сыйгалан:сыйгалан V-INFL-TV ;
@@ -16866,7 +16864,6 @@ LEXICON Verbs
 ысы:ысы V-INFL-IV ; ! "to be hot"
 үшү:үшү V-INFL-IV ; ! "to be cold"
 тордо:тордо V-INFL-TV ;
-эри:эри V-INFL-IV ;
 сүйрөп% бар:сүйрөп% бар V-INFL-TV ;
 алоолон:алоолон V-INFL-IV ;
 чекит% кой:чекит% кой V-INFL-IV ;
@@ -17381,6 +17378,7 @@ LEXICON Verbs
 керекте:керекте V-INFL-TV ; 
 жетекте:жетекте V-INFL-TV ; ! "direct"
 кызмат% өтө:кызмат% өтө V-INFL-IV ; ! "work"
+кызмат% көрсөт:кызмат% көрсөт V-INFL-IV ; ! "work"
 кадырла:кадырла V-INFL-TV ; ! ?"respect"
 суйлө:суйлө V-INFL-TV ;
 тыңша:тыңша V-INFL-TV ; ! "listen carefully/closely"
@@ -17480,6 +17478,11 @@ LEXICON Verbs
 козго:козго V-INFL-TV ; ! ""
 каз:каз V-INFL-TV ; ! "dig"
 жөнөт:жөнөт V-INFL-TV ; ! "send" (technically CAUS of жөнө)
+гүлдө:гүлдө V-INFL-IV ; ! "flower(?)"
+өмүр% сүр:өмүр% сүр V-INFL-IV ; ! "spend one's life"
+иретте:иретте V-INFL-TV ; ! "put in order"
+бөлө:бөлө V-INFL-TV ; ! "пеленать"
+өңдө:өңдө V-INFL-TV ; ! "выделывать овчину (для шуб), очищая мездру"
 
 
 LEXICON Abbreviations
