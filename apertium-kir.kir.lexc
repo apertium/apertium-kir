@@ -4792,7 +4792,7 @@ LEXICON Nouns
 короо:короо N-INFL ; ! ""
 корпорация:корпорация N-INFL ; 
 корпус% адмирал:корпус% адмирал N-INFL ;
-корпус:корпус N-INFL ;
+корпус:корпус N-INFL ; ! ""
 коррупция:коррупция N-INFL ; ! ""
 корук:корук N-INFL ; 
 корукчу:корукчу N-INFL ;
@@ -16352,6 +16352,7 @@ LEXICON Verbs
 
 көч:көч V-INFL-IV-NO-CAUS ; ! "move"
 көч:көчүр V-INFL-IV-IRREG-CAUS ; ! "make move"
+көчүр:көчүр V-INFL-TV ; ! "make move, copy" ! Use/MT
 
 көр:көр V-INFL-TV-NOPASS ; ! "see"
 көр:көрүн V-INFL-TV-PASS ; ! "be seen"
@@ -17494,6 +17495,7 @@ LEXICON Verbs
 иретте:иретте V-INFL-TV ; ! "put in order"
 бөлө:бөлө V-INFL-TV ; ! "пеленать"
 өңдө:өңдө V-INFL-TV ; ! "выделывать овчину (для шуб), очищая мездру"
+күчөй:күчөй V-INFL-IV ; ! "get stronger/worse"
 
 
 LEXICON Abbreviations
