@@ -753,8 +753,14 @@ LEXICON NP-TOP-COMPOUND
 !%<np%>%<top%>%<nom%>: # ;
 !%<np%>%<top%>: N-COMPOUND-PX-COMMON ;
 !%<np%>%<top%>%<attr%>: # ;
-%<np%>%<top%>: NP-COMMON ;
-%<np%>%<top%>%<attr%>: # ;
+
+!probably bad:
+!%<np%>%<top%>: NP-COMMON ;
+!%<np%>%<top%>%<attr%>: # ;
+
+%<np%>%<top%>: N-COMPOUND-PX-COMMON ;
+%<np%>%<top%>%<attr%>:%>%{s%}%{I%}%{n%} # ;
+
 
 LEXICON NP-TOP-ACR
 
@@ -4694,7 +4700,7 @@ LEXICON Nouns
 коллектив:коллектив N-INFL ; ! "" 
 коллективизм:коллективизм N-INFL ; 
 коллекция:коллекция N-INFL ; 
-колония:колония N-INFL ; 
+колония:колония N-INFL ; ! "colony"
 колонна:колонна N-INFL ; 
 колтук:колтук N-INFL ; 
 колхоз:колхоз N-INFL ; 
@@ -5533,11 +5539,11 @@ LEXICON Nouns
 округ:округ N-INFL ; 
 октава:октава N-INFL ; 
 октябрь:октябрь N-INFL ;
-окумуштуу:окумуштуу N-INFL ;
+окумуштуу:окумуштуу N-INFL ; ! "scholar / academic"
 окурман:окурман N-INFL ; ! "" 
 окутуу:окутуу N-INFL ;
 окутуучу:окутуучу N-INFL ;
-окуу:окуу N-INFL ;
+окуу:окуу N-INFL ; ! "study"
 окуучу:окуучу N-INFL ;
 окуя:окуя N-INFL ;
 олжо:олжо N-INFL ; ! "" 
@@ -5842,6 +5848,7 @@ LEXICON Nouns
 пудра:пудра N-INFL ; 
 пул:пул N-INFL ;
 пункт:пункт N6 ; 
+калк% отурукташкан% пункт:калк% отурукташкан% пункт N6 ; ! "populated settlement"
 пуржина:пуржина N-INFL ;
 пучок:пучок N-INFL ; 
 пырылдак:пырылдак N-INFL ; 
@@ -6070,7 +6077,7 @@ LEXICON Nouns
 смокинг:смокинг N-INFL ; 
 собол:собол N-INFL ; ! "" 
 совет:совет N-INFL ; ! "Soviet"
-совхоз:совхоз N-INFL ; 
+совхоз:совхоз N-INFL ; ! "sovkhoz"
 согончок:согончок N-INFL ; ! "" 
 согуш:согуш N-INFL ; 
 сода:сода N-INFL ; 
@@ -6647,7 +6654,7 @@ LEXICON Nouns
 төрөт:төрөт N-INFL ; 
 төш:төш N-INFL ; 
 төшөк:төшөк N-INFL ; 
-төңкөрүш:төңкөрүш N-INFL ; ! "" 
+төңкөрүш:төңкөрүш N-INFL ; ! "revolution" 
 төө% буурчак:төө% буурчак N-INFL ; 
 төө% куш:төө% куш N-INFL ; 
 төө:төө N-INFL ; ! "camel" 
@@ -7689,7 +7696,7 @@ LEXICON ProperNouns
 Девир:Девир NP-TOP ; ! ""
 Пекин:Пекин NP-TOP ; ! ""
 Сараево:Сараево NP-TOP ; ! "Sarajevo"
-Америка% Кошмо% Штаттары:Америка% Кошмо% Штаттары NP-TOP-COMPOUND ; ! "United States of America"
+Америка% Кошмо% Штаттары:Америка% Кошмо% Штаттар NP-TOP-COMPOUND ; ! "United States of America"
 
 Кыргыз% ССР:Кыргыз% ССР%{э%}%{й%} NP-TOP-ASSR ;
 Кыргыз% АССР:Кыргыз% АССР%{э%}%{й%} NP-TOP-ASSR ;
@@ -8098,6 +8105,7 @@ Tеңир NP-TOP ; ! ""
 Тажикстан:Тажикстан NP-TOP ; ! "Tajikistan"
 Далянь:Далянь NP-TOP ; ! ""
 Мармара:Мармара NP-TOP ; ! "Marmara"
+Сайгон:Сайгон NP-TOP ; ! "Saigon"
 
 ! Cities/towns/regions of Kazakhstan
 !-----------------------------------
@@ -8258,6 +8266,7 @@ Tеңир NP-TOP ; ! ""
 Сион:Сион NP-TOP ; ! ""
 Бетен:Бетен NP-TOP ; ! ""
 Карачыганак:Карачыганак NP-TOP ; ! ""
+Советтер% Союзу:Советтер% Союз NP-TOP-COMPOUND ; ! "Soviet Union"
 
 
 ! Organizations
@@ -15617,6 +15626,8 @@ LEXICON Adjectives
 накта:накта A3 ; ! "real"
 сейрек% кездешүүчү:сейрек% кездешүүчү A4 ; ! "rare" ! Use/MT ! FIXME: CHECK A4
 жука:жука A1 ; ! "thin"
+төңкөрүштүк:төңкөрүштүк A4 ; ! "revoluionary"
+төңкөрүшчүл:төңкөрүшчүл A4 ; ! "revoluionary"
 
 
 LEXICON Adverbs
@@ -16906,7 +16917,7 @@ LEXICON Verbs
 бурул:бурул V-INFL-TV ;
 кубала:кубала V-INFL-IV ;
 карама-каршы% чык:карама-каршы% чык V-INFL-IV ;
-бириктир:бириктир V-INFL-TV ;
+бириктир:бириктир V-INFL-TV ; ! Use/MT  CAUS of бирик IV
 жылаңачта:жылаңачта V-INFL-TV ;
 көкүрөк% менен% түрт:көкүрөк% менен% түрт V-INFL-TV ;
 төшө:төшө V-INFL-TV ;
