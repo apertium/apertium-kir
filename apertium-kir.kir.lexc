@@ -4391,6 +4391,7 @@ LEXICON Nouns
 какао:какао N-INFL ; 
 какач:какач N-INFL ; 
 кактус:кактус N-INFL ; 
+кал:кал N-INFL ; ! "birthmark"
 калаа:калаа N-INFL ; ! "city"
 калай:калай N-INFL ; 
 калбыр:калбыр N-INFL ; 
@@ -4857,9 +4858,9 @@ LEXICON Nouns
 кудурет:кудрет N-INFL ; ! "" Dir/LR
 кудурет:кудурет N-INFL ; ! "" 
 кузен:кузен N-INFL ;
-куйрук:куйрук N-INFL ; 
-кул:кул N-INFL ; 
-кулак:кулак N-INFL ; 
+куйрук:куйрук N-INFL ; ! "tail"
+кул:кул N-INFL ; ! "slave"
+кулак:кулак N-INFL ; ! "ear"
 кулактандыруу:кулактандыруу N-INFL ; 
 кулан:кулан N-INFL ; ! "" 
 кулач:кулач N-INFL ; 
@@ -4868,14 +4869,15 @@ LEXICON Nouns
 кулун:кулун N-INFL ; 
 кулчулук:кулчулук N-INFL ; 
 культура:культура N-INFL ;
-кум:кум N-INFL ; 
-кумар:кумар N-INFL ; 
+кум:кум N-INFL ; ! "sand"
+кумар:кумар N-INFL ; ! "addiction(?)"
 кумурска:кумурска N-INFL ;
-кунажын:кунажын N-INFL ; ! "" 
+кунажын:кунажын N-INFL ; ! "3yo(?) cow"
 кунан:кунан N-INFL ; ! "" 
 кундуз:кундуз N-INFL ; ! "" 
 купе:купе N-INFL ;
 купон:купон N-INFL ; 
+кур:кур N-INFL ; ! "belt"
 курал%-жарак% склад:курал%-жарак% склад N-INFL ;
 курал%-жарак:курал%-жарак N-INFL ; ! "" 
 курал:курал N-INFL ; 
@@ -4914,7 +4916,7 @@ LEXICON Nouns
 куур:куур N-INFL ; ! "belt"
 куурай:куурай N-INFL ; 
 кучак:кучак N-INFL ; ! "" 
-куш:куш N-INFL ; 
+куш:куш N-INFL ; ! "bird (large)"
 кыбыла:кыбыла N-INFL ; 
 кыз% бала:кыз% бала N-INFL ; ! "" 
 кыз:кыз N-INFL ; ! "girl"
@@ -4954,10 +4956,10 @@ LEXICON Nouns
 кымыз:кымыз N-INFL ; 
 кын:кын N-INFL ; 
 кыпчак:кыпчак N-INFL ;
+кыр:кыр N-INFL ; ! "edge"
 кыргын:кыргын N-INFL ;
 кырдаал:кырдаал N-INFL ;
 кырсык:кырсык N-INFL ;
-кырсык:кырсык N-INFL ; 
 кыртыш:кыртыш N-INFL ; ! "" 
 кыруу:кыруу N-INFL ;
 кыскыч:кыскыч N-INFL ; ! "" 
@@ -4967,10 +4969,10 @@ LEXICON Nouns
 кытык:кытык N-INFL ; 
 кычкач:кычкач N-INFL ; 
 кычкылдык:кычкылдык N-INFL ; ! "" 
-кыштак:кыштак N-INFL ; 
-кыштоо:кыштоо N-INFL ; 
+кыштак:кыштак N-INFL ; ! "winter pasture / village"
+кыштоо:кыштоо N-INFL ; ! "winter pasture"
 кыюу:кыюу N-INFL ; 
-кыял:кыял N-INFL ; 
+кыял:кыял N-INFL ; ! "fantasy"
 кыямат:кыямат N-INFL ; 
 кыянаттык:кыянаттык N-INFL ;
 кыянаттык:кыянаттык N-INFL ; 
@@ -5055,8 +5057,9 @@ LEXICON Nouns
 көпчүлүк:көпчүлүк N-INFL ; 
 көпүрө:көпүрө N-INFL ; 
 көпөлөк:көпөлөк N-INFL ; ! "butterfly"
+көр:көр N-INFL ; ! "grave"
 көргөзмө:көргөзмө N-INFL ;
-көрк:көрк N-INFL ; 
+көрк:көрк N-INFL ; ! "~elegance"
 көркөм% өнөр:көркөм% өнөр N-INFL ;
 көркөмдүк:көркөмдүк N-INFL ; ! "" 
 көрсөткүч:көрсөткүч N-INFL ; 
@@ -14770,7 +14773,7 @@ LEXICON Adjectives
 жетиштүү:жетиштүү A1 ; ! "" 
 жеңил:жеңил A1 ; ! "" 
 жогору:жогору A1 ; ! "high" 
-жоон:жоон A1 ; ! "" 
+жоон:жоон A1 ; ! "wide"
 жооптуу:жооптуу A1 ; ! "" 
 жумшак:жумшак A1 ; ! "soft" 
 жупуну:жупуну A1 ; ! "" 
@@ -16441,6 +16444,7 @@ LEXICON Verbs
 азгыр:азгыр V-INFL-TV ;
 акырында:акырында V-INFL-IV ;
 күй:күй V-INFL-IV ; 
+күйүн:күйүн V-INFL-IV ; ! "root for (with үчүн)"
 күнөөлө:күнөөлө V-INFL-TV ; 
 көбөйт:көбөйт V-INFL-TV ; 
 
@@ -16565,12 +16569,13 @@ LEXICON Verbs
 уч:уч V-INFL-IV ;
 өп:өп V-INFL-TV ; ! "to kiss"
 катыш:катыш V-INFL-IV ;
-кат:кат V-INFL-IV-NO-CAUS ; ! "to get hard"
-кат:катыр V-INFL-IV-IRREG-CAUS ; ! "to make hard"
+кат:кат V-INFL-IV-NO-CAUS ; ! "get hard"
+кат:катыр V-INFL-IV-IRREG-CAUS ; ! "make hard"
 сарсанаа% тарт:сарсанаа% тарт V-INFL-TV ;
-ээле:ээле V-INFL-TV ; ! "to occupy"
-корот:корот V-INFL-TV ; ! "to waste"
-сок:сок V-INFL-TV ; ! "to hit, fight"
+ээле:ээле V-INFL-TV ; ! "occupy"
+кор:кор V-INFL-TV ; ! "protect"
+корот:корот V-INFL-TV ; ! "waste"
+сок:сок V-INFL-TV ; ! "hit, fight"
 
 
 тый:тый V-INFL-IV ;
@@ -16740,6 +16745,7 @@ LEXICON Verbs
 аралаш:аралаш V-INFL-IV ;
 чатыш:чатыш V-INFL-TV ;
 сыз:сыз V-INFL-IV ; 
+сыз:сыз V-INFL-TV ; ! "~trace"
 чий:чий V-INFL-IV ;
 эт:эт V-INFL-IV ;
 тык:тык V-INFL-TV ;
@@ -17590,6 +17596,7 @@ LEXICON Verbs
 бөлө:бөлө V-INFL-TV ; ! "пеленать"
 өңдө:өңдө V-INFL-TV ; ! "выделывать овчину (для шуб), очищая мездру"
 күчөй:күчөй V-INFL-IV ; ! "get stronger/worse"
+чыч:чыч V-INFL-IV ; ! "poop"
 
 
 LEXICON Abbreviations
