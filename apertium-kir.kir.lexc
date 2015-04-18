@@ -1383,14 +1383,18 @@ LEXICON PRON-COLL   ! "Collective"(?) pronoun-like numbers
 !%<num%>%<coll%>:%-%{A%}у SUBST-NONOM ;
 
 
-LEXICON CLIT-QST
+LEXICON CLIT-QST-NO-BI
 
-V-CLIT-BI ;
 %+беле%<qst%>:% беле # ;
 %+бекен%<qst%>:% бекен # ;
 !%+чы%<mod_foc%>:%>ч%{I%} # ;
 %+чы%<qst%>:%>ч%{I%} # ;
 # ;
+
+LEXICON CLIT-QST
+
+V-CLIT-BI ;
+CLIT-QST-NO-BI ;
 
 LEXICON CLIT-MODASS
 
@@ -1436,7 +1440,7 @@ LEXICON V-CLIT-BI
 
 LEXICON V-CLIT-OTHER
 
-CLIT-QST ;
+CLIT-QST-NO-BI ;
 CLIT-MODASS ;
 %+да%<mod_tru%>:% да # ;
 %+дыр%<mod_ind%>:%>%{D%}%{I%}р # ;   ! FIXME: twol size acts like this is causative
