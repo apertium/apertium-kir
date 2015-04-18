@@ -453,7 +453,8 @@ Vx:Vy <=> _ [ %{U%}:0 - :YotVow ]/[ [ :0 - %{U%}: ] | %>: ] ;
 %{D%}:0 <=> %{n%}: %>: _ %{A%}: :н ;
 
 "Deletion of dative {G} after px1sg, px2sg"
-%{G%}:0 <=>  %{I%}: :NasalCns %>: _ %{A%}: .#. ;
+%{G%}:0 <=> %{I%}: :NasalCns %>: _ %{A%}: .#. ;
+            %{I%}: :NasalCns %>: _ %{A%}: + ;
 
 !!!! Causative stuff !!!!
 !! Most of this is to convert {D}{I}р to т after a vowel (or dental sonorant) stem
