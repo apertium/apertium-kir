@@ -20,12 +20,6 @@ Tests:
     орун<n><pl><nom> : орундар
     орун<n><px3sp><abl> : ордунан
 
-  "[twol] Nouns with epenthetic vowels and й":
-    моюн<n><px3sp><dat> : мойнуна
-
-  "[twol] Nouns with epenthetic vowels and desonorisation":
-    мурун<n><px3sp><dat> : мурдуна
-
   "[twol] Nouns with certain clusters analysed normally":
     факт<n><nom> : факт
     акт<n><abl> : акттан
