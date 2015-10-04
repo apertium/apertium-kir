@@ -15681,7 +15681,6 @@ LEXICON Adverbs
 барган% сайын:барган% сайын ADV ; ! see bidix
 адегенде:адегенде ADV ;
 эртең:эртең ADV ; ! "tomorrow"
-эми:эми ADV ; ! "now"
 бат:бат ADV ; ! "fast"
 эң:эң ADV ; ! "most"
 эң:ең ADV ; ! Dir/LR "most"
@@ -15723,7 +15722,6 @@ LEXICON Adverbs
 азырынча:азырынча ADV ; ! "for now"
 болгону:болгону ADV ; ! FIXME: huh?
 дагы% эле:дагы% эле ADV ; ! maybe this should be seen as compositional
-эми:эми ADV ; 
 дайыма:дайыма ADV ; ! "always"
 толугу% менен:толугу% менен ADV ; 
 андай:андай ADV ; ! FIXME: adjective / adverb
