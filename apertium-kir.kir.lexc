@@ -1740,7 +1740,7 @@ LEXICON V-FINITE-IRREGULAR_NEGATIVE
 
 LEXICON V-INFL-ASIF
 
-%<prt_perf%>:%>%{I%}п # ;
+%<prc_perf%>:%>%{I%}п # ;
 %<ifi%>:%>%{D%}%{I%} V-PERS-PAST ;
 %<ger_past%>%<sim%>:%>%{G%}%{A%}н%>%{D%}%{A%}й PRED ; 
 %<aor%>:%>%{E%} V-PERS-PRES ;
@@ -16206,8 +16206,8 @@ LEXICON Copula
 
 LEXICON Verbs
 
-кел%<v%>%<iv%>%<prt_impf%>%+жат%<vaux%>:келат V-INFL-COMMON ;  ! Dir/LR
-бар%<v%>%<iv%>%<prt_impf%>%+жат%<vaux%>:барат V-INFL-COMMON ;  ! Dir/LR
+кел%<v%>%<iv%>%<prc_impf%>%+жат%<vaux%>:келат V-INFL-COMMON ;  ! Dir/LR
+бар%<v%>%<iv%>%<prc_impf%>%+жат%<vaux%>:барат V-INFL-COMMON ;  ! Dir/LR
 
 жат:жат VAUX-INFL ; ! 
 жат:ат VAUX-INFL ; ! Dir/LR
