@@ -135,7 +135,7 @@
 ! %<prc_prp%>   ! purposive
 %<prc_real%>  ! realis
 %<prc_pcond%> ! "would have" etc.
-%<prc_fplan%> ! planning to
+!%<prc_fplan%> ! planning to
 
 !!! Verbal adverbs ! Глагольные наречия
 %<gna_perf%>
@@ -155,6 +155,7 @@
 %<ger_abs%>       ! "abstract" gerund -- abs means absolutive
 %<ger_notyet%>    ! Not-yet gerund, -E элек
 %<ger_ppot%>      ! Perfective(?) potential gerund  (~the ability to do the denoted action)
+%<ger_hab%>       ! habitual gerund: -мАй
 
 
 !!! Verbal adjectives ! Глагольные причастия
@@ -1645,7 +1646,10 @@ LEXICON V-INFL-NON-FINITE-REG
 %<prc_cond%>:%>с%{A%} V-PERS-COND ;
 %<prc_pcond%>:%>м%{A%}к # ;    ! in -мАк эле- etc.
 %<prc_past%>:%>%{G%}%{A%}н # ; ! 
-%<prc_fplan%>:%>м%{A%}й CLITICS-NO-COP ;    !  бармай болдум - I decided to go
+!%<prc_fplan%>:%>м%{A%}й CLITICS-NO-COP ;    !  бармай болдум - I decided to go
+%<ger_hab%>%<nom%>:%>м%{A%}й CLITICS-NO-COP ;   ! this is actually not a participle: it takes copula verbs and can be a subject:
+                                                !  бармай болдум - I decided to go, бармай мага жакпайт - I don't like going all the time
+                                                ! but it only has the nominal unpossessed form
 
 ! Verbal adverbs
 ! %<gna_prp%>:%>%{G%}%{A%}н%{I%} # ;  ! rare IS
