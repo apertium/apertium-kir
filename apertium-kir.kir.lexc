@@ -15664,6 +15664,7 @@ LEXICON Adjectives
 төңкөрүштүк:төңкөрүштүк A4 ; ! "revoluionary"
 төңкөрүшчүл:төңкөрүшчүл A4 ; ! "revoluionary"
 жугуштуу:жугуштуу A1 ; ! "transmitable (disease)" FIXME: CHECK A1
+башкача:башкача A1 ; ! "different" ! appers to be A1, with cmp and subst forms in google - JNW
 
 
 LEXICON Adverbs
@@ -15993,7 +15994,7 @@ LEXICON Adverbs
 жапырт:жапырт ADV ; ! "" 
 
 !!! JNW Adverbs
-башкача:башкача ADV ; ! "differently"
+!башкача:башкача ADV ; ! "differently"
 күн% сайын% эртең% менен:күн% сайын% эртең% менен ADV ; ! "every morning" ! Use/MT
 тирүү% кезинде:тирүү% кезинде ADV ; ! "while alive"
 ушуга% чейин ADV ; ! "until now" ! Use/MT
