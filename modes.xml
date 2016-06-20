@@ -11,7 +11,7 @@
     </pipeline>
   </mode>
 
-  <mode name="kir-morph">
+  <mode name="kir-morph" install="yes">
     <pipeline>
       <program name="hfst-proc -w">
         <file name="kir.automorf.hfst"/>
@@ -28,7 +28,7 @@
   </mode>
 
 
-  <mode name="kir-gener">
+  <mode name="kir-gener" install="yes">
     <pipeline>
       <program name="hfst-proc -g">
         <file name="kir.autogen.hfst"/>
@@ -36,7 +36,7 @@
     </pipeline>
   </mode>
 
-  <mode name="kir-disam">
+  <mode name="kir-disam" install="yes">
     <pipeline>
       <program name="hfst-proc -w">
         <file name="kir.automorf.hfst"/>
@@ -46,5 +46,14 @@
       </program>
     </pipeline>
   </mode>
+
+	<mode name="kir-tokenise">
+		<pipeline>
+			<program name="hfst-proc">
+				<file name=".deps/acceptor.default.hfst"/>
+			</program>
+		</pipeline>
+	</mode>
+
 
 </modes>
