@@ -772,10 +772,10 @@ LEXICON NP-TOP-COMPOUND
 %<np%>%<top%>%<attr%>:%>%{s%}%{I%}%{n%} # ;
 
 
-LEXICON NP-TOP-ACR
-
-%<np%>%<top%>: POSSESSION ;
-%<np%>%<top%>%<attr%>: # ;
+!! LEXICON NP-TOP-ACR
+!! 
+!! %<np%>%<top%>: POSSESSION ;
+!! %<np%>%<top%>%<attr%>: # ;
 
 LEXICON NAT
 ! Nationalities
@@ -1039,19 +1039,6 @@ LEXICON CC
 LEXICON POSTADV
 
 %<postadv%>: # ;
-
-LEXICON PART 
-
-%<part%>: # ;
-%<part%>: POSSESSION ;
-
-LEXICON PART-PERS-COP
-
-%<part%>: V-PERS-COP ;
-
-! LEXICON PART-PERS-PAST 
-! 
-! %<part%>: V-PERS-PAST ;
 
 LEXICON ABBR
 
@@ -1455,16 +1442,16 @@ LEXICON V-CLIT
 V-CLIT-OTHER ;
 V-CLIT-BI ;
 
-LEXICON V-PERS-COP-SUF-NOSG3
-
-%<p1%>%<sg%>:%>м%{I%}н V-CLIT ; 
-%<p2%>%<sg%>:%>с%{I%}ң V-CLIT ; 
-%<p2%>%<frm%>%<sg%>:%>с%{I%}з V-CLIT ; 
-%<p3%>%<sg%>: V-CLIT ;  ! Dir/RL  ! P3 forms are null and look stupid
-%<p1%>%<pl%>:%>%{B%}%{I%}з V-CLIT ; 
-%<p2%>%<pl%>:%>с%{I%}ң%{A%}р V-CLIT ;  
-%<p2%>%<frm%>%<pl%>:%>с%{I%}зд%{A%}р V-CLIT ;  
-%<p3%>%<pl%>: V-CLIT ; ! ! Dir/RL  ! P3 forms are null and look stupid
+!! LEXICON V-PERS-COP-SUF-NOSG3
+!! 
+!! %<p1%>%<sg%>:%>м%{I%}н V-CLIT ; 
+!! %<p2%>%<sg%>:%>с%{I%}ң V-CLIT ; 
+!! %<p2%>%<frm%>%<sg%>:%>с%{I%}з V-CLIT ; 
+!! %<p3%>%<sg%>: V-CLIT ;  ! Dir/RL  ! P3 forms are null and look stupid
+!! %<p1%>%<pl%>:%>%{B%}%{I%}з V-CLIT ; 
+!! %<p2%>%<pl%>:%>с%{I%}ң%{A%}р V-CLIT ;  
+!! %<p2%>%<frm%>%<pl%>:%>с%{I%}зд%{A%}р V-CLIT ;  
+!! %<p3%>%<pl%>: V-CLIT ; ! ! Dir/RL  ! P3 forms are null and look stupid
 
 LEXICON V-PERS-COP ! P_3
 
