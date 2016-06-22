@@ -4534,8 +4534,7 @@ LEXICON Nouns
 кассация:кассация N-INFL ;
 кастык:кастык N-INFL ; ! "" 
 касырет:касырет N-INFL ; ! "" 
-кат:кат N-INFL ;
-кат:кат N-INFL ; ! "mail"
+кат:кат N-INFL ; ! "letter, message"
 ката:ката N-INFL ; 
 каталог:каталог N-INFL ; 
 каталык:каталык N-INFL ; ! "" 
@@ -16295,7 +16294,8 @@ LEXICON Verbs
 ич:ич V-INFL-TV ; ! "drink"
 кара:кара V-INFL-IV ; 
 кара:кара V-INFL-TV ; ! "" 
-кат:кат V-INFL-TV ; 
+кат:кат V-INFL-TV ; ! "hide"
+кат:кат V-INFL-IV ; ! "get hard"
 
 зыян% кел:зыян% кел V-INFL-IV-NO-CAUS ; ! "for harm to come"
 зыян% кел:зыян% келтир V-INFL-IV-IRREG-CAUS ; ! "to cause harm"
@@ -16729,6 +16729,7 @@ LEXICON Verbs
 камты:камты V-INFL-TV ;
 ур:ур V-INFL-TV ; ! "to strike"
 уруш:уруш V-INFL-TV ; ! "to yell at"
+уруш:уруш V-INFL-IV ; ! "to fight/argue" ! PRODUCTIVE COOP ! Use/MT
 изилде:изилде V-INFL-TV ; ! "to research/investigate"
 түшүн:түшүн V-INFL-TV-NO-CAUS ; ! "understand"
 түшүн:түшүндүр V-INFL-TV-IRREG-CAUS ; ! "understand"
@@ -16759,7 +16760,7 @@ LEXICON Verbs
 сыз:сыз V-INFL-TV ; ! "~trace"
 чий:чий V-INFL-IV ;
 эт:эт V-INFL-IV ;
-тык:тык V-INFL-TV ;
+тык:тык V-INFL-TV ; ! "stuff something somewhere"
 !сал V-INFL-TV ;
 жашыр:жашыр V-INFL-TV ;
 жашырын:жашырын V-INFL-IV ;
@@ -17046,7 +17047,9 @@ LEXICON Verbs
 талап% ал:талап% ал V-INFL-IV ;
 тык:тык V-INFL-IV ;
 айла% жүргүз:айла% жүргүз V-INFL-IV ;
-унчукпа:унчукпа V-INFL-IV ;
+унчукпа:унчукпа V-INFL-IV ; ! FIXME: productive
+унчук:унчук V-INFL-IV ;
+сөз% айт:сөз% айт V-INFL-IV ;
 салам% бер:салам% бер V-INFL-IV ;
 сапыр:сапыр V-INFL-TV ;
 тырмала:тырмала V-INFL-TV ;
@@ -17479,7 +17482,7 @@ LEXICON Verbs
 жооп% бер:жооп% бер V-INFL-IV ;
 ! чал:чал V-INFL-TV ; ! "removing duplicate"
 чартылда:чартылда V-INFL-IV ;
-чап:чап V-INFL-IV ;
+чап:чап V-INFL-TV ;
 ашыра% баала:ашыра% баала V-INFL-TV ;
 бүтүндө:бүтүндө V-INFL-TV ;
 жасалгала:жасалгала V-INFL-TV ;
@@ -17538,10 +17541,10 @@ LEXICON Verbs
 тала:тала V-INFL-TV ;
 талыт:талыт V-INFL-TV ;
 талпын:талпын V-INFL-IV ;
-тааныт:тааныт V-INFL-TV ;
+тааныт:тааныт V-INFL-TV ; ! FIXME: PRODUCTIVE CAUS
 тара:тара V-INFL-TV ; ! "расчесывать"
 тарал:тарал V-INFL-IV ;
-тарат:тарат V-INFL-TV ;
+тарат:тарат V-INFL-TV ; ! FIXME: PRODUCTIVE CAUS
 тырма:тырма V-INFL-TV ;
 туудур:туудур V-INFL-TV ;
 батыр:батыр V-INFL-TV ; 
