@@ -17119,7 +17119,7 @@ LEXICON Verbs
 тегерен:тегерен V-INFL-IV ;
 току:току V-INFL-TV ;
 тий:тий V-INFL-IV-NO-CAUS ; ! "touch"
-тий:тийгиз V-INFL-IV-IRREG-CAUSE ; ! "make touch"
+тий:тийгиз V-INFL-IV-IRREG-CAUS ; ! "make touch"
 капта:капта V-INFL-IV ;
 алда:алда V-INFL-TV ; ! "deceive, trick"
 жолдо:жолдо V-INFL-IV ;
