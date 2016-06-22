@@ -14585,7 +14585,7 @@ LEXICON Adjectives
 чынчыл:чынчыл A3 ; ! "honest" 
 чыныгы:чыныгы A2 ; ! "true" A2 not A3: comp forms found in google
 чытырман:чытырман A3 ; ! "FIXME subst version used very few" 
-шаардык:шаардык A3 ; ! "" 
+шаардык:шаардык A3 ; ! "city-level, urban"
 шылдың:шылдың A3 ; ! "" 
 ыкластуу:ыкластуу A3 ; ! "" 
 ыкластуу:ыкыластуу A3 ; ! "" DIR/LR
@@ -15665,6 +15665,7 @@ LEXICON Adjectives
 төңкөрүшчүл:төңкөрүшчүл A4 ; ! "revoluionary"
 жугуштуу:жугуштуу A1 ; ! "transmitable (disease)" FIXME: CHECK A1
 башкача:башкача A1 ; ! "different" ! appers to be A1, with cmp and subst forms in google - JNW
+кылмыштык:кылмыштык A4 ; ! "criminal"
 
 
 LEXICON Adverbs
@@ -16276,7 +16277,7 @@ LEXICON Verbs
 бас:бас V-INFL-TV ; ! "push"
 белгиле:белгиле V-INFL-TV ;
 бер:бер V-INFL-TV ; ! "give"
-бил:бил V-INFL-IV ; ! "know"
+бил:бил V-INFL-IV ; ! "know" ! FIXME: CHECK
 бил:бил V-INFL-TV ; ! "know"
 бүт:бүт V-INFL-IV-NO-CAUS ; ! "to finish"
 бүт:бүтүр V-INFL-IV-IRREG-CAUS ; ! "to finish"
@@ -16373,7 +16374,7 @@ LEXICON Verbs
 аякта:аякта V-INFL-TV ; ! "complete"
 башта:башта V-INFL-TV ; 
 без:без V-INFL-IV ; 
-билдир:билдир V-INFL-TV ; 
+! билдир:билдир V-INFL-TV ; ! CAUS
 ! билин V-INFL-IV ;  ! productive
 боё:боё V-INFL-TV ; 
 була:була V-INFL-TV ; 
@@ -17112,7 +17113,8 @@ LEXICON Verbs
 чулга:чулга V-INFL-TV ;
 тегерен:тегерен V-INFL-IV ;
 току:току V-INFL-TV ;
-тий:тий V-INFL-IV ;
+тий:тий V-INFL-IV-NO-CAUS ; ! "touch"
+тий:тийгиз V-INFL-IV-IRREG-CAUSE ; ! "make touch"
 капта:капта V-INFL-IV ;
 алда:алда V-INFL-TV ; ! "deceive, trick"
 жолдо:жолдо V-INFL-IV ;
