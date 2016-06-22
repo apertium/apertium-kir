@@ -14673,7 +14673,7 @@ LEXICON Adjectives
 окшош:окшош A2 ; ! "" 
 олуттуу:олуттуу A2 ; ! "" 
 орточо:орточо A2 ; ! "средний" 
-өзгө:өзгө A2 ; ! "" 
+өзгө:өзгө A2 ; ! ""  ! FIXME: CHECK
 өзүмчүл:өзүмчүл A2 ; ! "" 
 өр:өр A2 ; ! "" 
 өткүр:өткүр A2 ; ! "" 
@@ -16379,8 +16379,9 @@ LEXICON Verbs
 боё:боё V-INFL-TV ; 
 була:була V-INFL-TV ; 
 бур:бур V-INFL-IV ; 
-бур:бур V-INFL-TV ;  ! in bidix
-буйру:буйру V-INFL-IV ; 
+бур:бур V-INFL-TV ;  ! in bidix ! "twist, turn"
+буйру:буйру V-INFL-TV ; 
+буйру:буюр V-INFL-TV ; ! Dir/LR
 ! бырыштыр V-INFL-TV ;  regular
 бырыш:бырыш V-INFL-IV ; 
 быч:быч V-INFL-TV ; 
@@ -17334,7 +17335,7 @@ LEXICON Verbs
 кечиктир:кечиктир V-INFL-TV ;
 көңүл% ач:көңүл% ач V-INFL-IV ;
 өткөрүлүп% бер:өткөрүлүп% бер V-INFL-TV ;
-чал:чал V-INFL-TV ;
+! чал:чал V-INFL-TV ; ! "removing duplicate"
 зыңылда:зыңылда V-INFL-IV ;
 чумку:чумку V-INFL-IV ;
 түрүн% көбөйт:түрүн% көбөйт V-INFL-TV ;
@@ -17476,7 +17477,7 @@ LEXICON Verbs
 каршы% чык:каршы% чык V-INFL-IV ;
 жупташтыр:жупташтыр V-INFL-TV ;
 жооп% бер:жооп% бер V-INFL-IV ;
-чал:чал V-INFL-TV ;
+! чал:чал V-INFL-TV ; ! "removing duplicate"
 чартылда:чартылда V-INFL-IV ;
 чап:чап V-INFL-IV ;
 ашыра% баала:ашыра% баала V-INFL-TV ;
