@@ -17101,7 +17101,7 @@ LEXICON Verbs
 тоголот:тоголот V-INFL-TV ;
 табын:табын V-INFL-IV ;
 мактан:мактан V-INFL-IV ;
-кайно:кайно V-INFL-TV ;
+!кайно:кайно V-INFL-TV ;  ! wat
 чулга:чулга V-INFL-TV ;
 тегерен:тегерен V-INFL-IV ;
 току:току V-INFL-TV ; ! "weave; crochet; etc."
@@ -17600,6 +17600,7 @@ LEXICON Verbs
 өңдө:өңдө V-INFL-TV ; ! "выделывать овчину (для шуб), очищая мездру"
 күчөй:күчөй V-INFL-IV ; ! "get stronger/worse"
 чыч:чыч V-INFL-IV ; ! "poop"
+эмде:эмде V-INFL-TV ; ! "heal"
 
 
 LEXICON Abbreviations
