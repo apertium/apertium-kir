@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <modes>
 
-  <mode name="kir-twol">
+  <mode name="kir-twol" install="yes">
     <pipeline>
       <program name="hfst-strings2fst -S"/>
       <program name="hfst-compose-intersect">
@@ -19,7 +19,7 @@
     </pipeline>
   </mode>
 
-  <mode name="kir-lexc">
+  <mode name="kir-lexc" install="yes">
     <pipeline>
       <program name="hfst-proc -g">
         <file name=".deps/kir.lexc.hfst"/>
@@ -47,7 +47,7 @@
     </pipeline>
   </mode>
 
-	<mode name="kir-tokenise">
+	<mode name="kir-tokenise" install="yes">
 		<pipeline>
 			<program name="hfst-proc">
 				<file name=".deps/acceptor.default.hfst"/>
