@@ -1957,7 +1957,7 @@ LEXICON Conjunctions
 LEXICON Postpositions
 
 менен:менен POST ; ! "with"
-менен:м%-н CC ; ! "with" ! Dir/LR
+менен:м%-н POST ; ! "with" ! Dir/LR
 дейре:дейре POST ; ! "up to, until"
 чейин:чейин POST ; ! "up to, until"
 кийин:кийин POST ; ! "with"
