@@ -149,10 +149,9 @@
 %<ger_fut%>
 %<ger_past%>
 %<ger_perf%>
-%<ger_past_abs%>  ! "abstract" gerund
 %<ger_pres%>
 %<ger%>
-%<ger_abs%>       ! "abstract" gerund -- abs means absolutive
+%<ger_abst%>      ! "abstract" gerund 
 %<ger_notyet%>    ! Not-yet gerund, -E элек
 %<ger_ppot%>      ! Perfective(?) potential gerund  (~the ability to do the denoted action)
 %<ger_hab%>       ! habitual gerund: -мАй
@@ -1648,7 +1647,7 @@ LEXICON V-INFL-NON-FINITE-REG
 %<ger_perf%>:%>%{G%}%{A%}н%>%{L%}%{I%}к GER-INFL ; !
 %<ger_pres%>:%>%{I%}ш GER-INFL ;    ! <coop> IS only
 %<ger%>:%>%{U%}%{U%} GER-INFL ;     ! <coop> IS only
-%<ger_abs%>:%>%{U%}%{U%}%>ч%{I%}%>%{L%}%{I%}к GER-INFL ;     ! <coop> IS only
+%<ger_abst%>:%>%{U%}%{U%}%>ч%{I%}%>%{L%}%{I%}к GER-INFL ;     ! <coop> IS only
 %<ger_notyet%>:%>{E%}% элек GER-INFL ;
 
 ! Verbal adjectives 
