@@ -2174,6 +2174,8 @@ PRON-DEM-BUL ; ! "this"
 бирөө:бирөө PRON-IND ; ! "someone"
 кээ:кээ PRON-IND ; 
 
+көбү:көбү PRON-QNT ; ! "most"
+
 ! FIXME: THESE ARE DET!!!
 кээ% бир:кээ% бир PRON-QNT ; ! "some"
 бир% нече:бир% нече PRON-QNT ; ! "some, several"
