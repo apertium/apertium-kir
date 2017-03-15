@@ -200,7 +200,6 @@
 %<rpar%>    ! Parenthetical marker (right hand side) 
 %<lpar%>    ! Parenthetical marker (left hand side) 
 
-
 ! Archiphonemes and escaped symbols
 
 %{E%}       ! Realised as 'а', 'е', 'о', 'ө', 'й' 
@@ -229,6 +228,8 @@
 %{з%}       ! Archiphoneme for nasals and voiced obstruents numerals/abbreviation
 %{т%}       ! Archiphoneme for voiceless consonants numerals/abbreviation
 %{і%}       ! used for и in words like факт/фактилери
+%{redC%}
+%{redV%}
 
 
 %>          ! Morpheme boundary
@@ -246,6 +247,10 @@
 %[%-coop%]
 
 %[%+p3pl%]
+
+%[%+red%]
+%[%-red%]
+
 
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -265,6 +270,7 @@ Numerals ;
 Nouns ;
 ProperNouns ;
 Adjectives ;
+! AdjectivePrefixes ;
 Adverbs ;
 Verbs ;
 Punctuation ;
@@ -830,6 +836,8 @@ LEXICON A1
 %<adj%>: PRED ;                                       !# жақсы адам
 %<adj%>%<comp%>:%>%{I%}р%{A%}%{A%}к PRED ;            !# жақсырақ іс
 %<adj%>%<comp%>:%>%{I%}р%{A%}к PRED ;                 ! Dir/LR
+
+%<adj%>%<sup%>:%[%+red%] PRED ;
 
 %<adj%>%<subst%>: SUBST ;                             !# жақсыны таптым
 %<adj%>%<comp%>%<subst%>:%>%{I%}р%{A%}%{A%}к SUBST ;  !# жақсырақты таптым
@@ -13820,6 +13828,11 @@ Aйталы:Aйталы NP-ANT-M ; ! "Aytğalıy" (Arabic)
 Албом:Албом NP-COG-MF ; ! "Albom"
 Рен:Рен NP-COG-MF ; ! "Rehn"
 Чжинин:Чжинин NP-COG-MF ; ! ""
+
+
+!LEXICON AdjectivePrefixes
+!
+!:%{redC%}%{redV%}п%[%-red%] Adjectives ;
 
 
 LEXICON Adjectives
