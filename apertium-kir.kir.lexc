@@ -270,7 +270,7 @@ Numerals ;
 Nouns ;
 ProperNouns ;
 Adjectives ;
-! AdjectivePrefixes ;
+AdjectivePrefixes ;
 Adverbs ;
 Verbs ;
 Punctuation ;
@@ -837,7 +837,7 @@ LEXICON A1
 %<adj%>%<comp%>:%>%{I%}р%{A%}%{A%}к PRED ;            !# жақсырақ іс
 %<adj%>%<comp%>:%>%{I%}р%{A%}к PRED ;                 ! Dir/LR
 
-%<adj%>%<sup%>:%[%+red%] PRED ;
+%<adj%>%<sup%>%[%+red%]: PRED ;
 
 %<adj%>%<subst%>: SUBST ;                             !# жақсыны таптым
 %<adj%>%<comp%>%<subst%>:%>%{I%}р%{A%}%{A%}к SUBST ;  !# жақсырақты таптым
@@ -13830,9 +13830,9 @@ Aйталы:Aйталы NP-ANT-M ; ! "Aytğalıy" (Arabic)
 Чжинин:Чжинин NP-COG-MF ; ! ""
 
 
-!LEXICON AdjectivePrefixes
-!
-!:%{redC%}%{redV%}п%[%-red%] Adjectives ;
+LEXICON AdjectivePrefixes
+
+%[%-red%]:%{redC%}%{redV%}п%> Adjectives ;
 
 
 LEXICON Adjectives
