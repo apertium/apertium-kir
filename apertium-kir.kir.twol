@@ -54,6 +54,10 @@ BackLowRndVow = О о Ё ё %{о%} ;
 LowVow = Е е Э э Ө ө А а Я я О о Ё ё ;
 HighVow = И и Ү ү Ы ы У у Ю ю %{у%} ;
 YotVow = Я я Е е Ё ё Ю ю ;
+RealVow = І Ү Е Ө Ә А О Ы Ұ
+          і ү е ө ә а о ы ұ ;
+AmbigVow = И У
+           и у ;
 
 NasalCns = м н ң
            М Н Ң ;
@@ -478,3 +482,23 @@ Vx:Vy <=> _ [ %{U%}:0 - :YotVow ]/[ [ :0 - %{U%}: ] | %>: ] ;
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 !@ а л >:0 {I}:ы {l}:н >:0 {G}:г {A}:а н
+
+!!!!!!!!!!!!!! Reduplication !!!!!!!!!!!!!!
+
+"Reduplicated consonant"
+%{redC%}:Cy <=> _ [ :Vow :п :Cy ]/[ :0 | %- ]* ;
+            where Cy in Cns ;
+
+! TODO: deal with reduplication of yot combinations
+
+"Reduplicated vowel"
+%{redV%}:Vx <=> _ [ :Cns* :Vx ]/[ :0 | %- ]* ;
+            where Vx in RealVow ;
+
+! for Kazakh
+!"Reduplicated ambiguous vowel
+!%{redV%}:Vx <=> _ :0* :Cx :Vy ;
+!            where Cx in ( к г қ ғ к г қ ғ )
+!                  Vy in ( и и и и у у у у )
+!                  Vx in ( і і ы ы ү ү ұ ұ )
+!            matched ;
