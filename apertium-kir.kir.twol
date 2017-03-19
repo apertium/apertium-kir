@@ -54,10 +54,12 @@ BackLowRndVow = О о Ё ё %{о%} ;
 LowVow = Е е Э э Ө ө А а Я я О о Ё ё ;
 HighVow = И и Ү ү Ы ы У у Ю ю %{у%} ;
 YotVow = Я я Е е Ё ё Ю ю ;
-RealVow = І Ү Е Ө Ә А О Ы Ұ
-          і ү е ө ә а о ы ұ ;
-AmbigVow = И У
-           и у ;
+
+!! For Kazakh:
+!RealVow = І Ү Е Ө Ә А О Ы Ұ
+!          і ү е ө ә а о ы ұ ;
+!AmbigVow = И У
+!           и у ;
 
 NasalCns = м н ң
            М Н Ң ;
@@ -493,7 +495,7 @@ Vx:Vy <=> _ [ %{U%}:0 - :YotVow ]/[ [ :0 - %{U%}: ] | %>: ] ;
 
 "Reduplicated vowel"
 %{redV%}:Vx <=> _ [ :Cns* :Vx ]/[ :0 | %- ]* ;
-            where Vx in RealVow ;
+            where Vx in Vow ;
 
 ! for Kazakh
 !"Reduplicated ambiguous vowel
