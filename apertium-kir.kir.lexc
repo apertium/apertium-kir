@@ -855,6 +855,8 @@ LEXICON A2                 ! (derived/not fully lexicalised) adjectives without 
 %<adj%>%<comp%>:%>%{I%}р%{A%}%{A%}к PRED ;            !# татыктуураак ага караганда
 %<adj%>%<comp%>:%>%{I%}р%{A%}к PRED ;                 ! Dir/LR
 
+%<adj%>%<sup%>%[%+red%]: PRED ;
+
 %<adj%>%<subst%>: SUBST ;                             !# чыныгы наамга татыктууну издейли
 %<adj%>%<comp%>%<subst%>:%>%{I%}р%{A%}%{A%}к SUBST ;  !# "пайгамбардын биринчи ордун басуучулук милдетине барынан татыктуураагы Абу Бакр (р.а.) экендигин билдиришет."
 %<adj%>%<comp%>%<subst%>:%>%{I%}р%{A%}к SUBST ;       ! Dir/LR
@@ -885,6 +887,7 @@ LEXICON A5                 ! adjectives with comparative reading only;
 %<adj%>%<comp%>:%>%{I%}р%{A%}%{A%}к PRED ;            !# продукция үчүн кеңирирээк рыноктор ачылат
 %<adj%>%<comp%>:%>%{I%}р%{A%}к PRED ;                 ! Dir/LR
 
+%<adj%>%<sup%>%[%+red%]: PRED ;
 
 LEXICON A6                 ! (derived/not fully lexicalised) adjectives without comparative reading,
                            ! no comparison levels at all.
@@ -13833,6 +13836,7 @@ Aйталы:Aйталы NP-ANT-M ; ! "Aytğalıy" (Arabic)
 LEXICON AdjectivePrefixes
 
 %[%-red%]:%{redC%}%{redV%}п%> Adjectives ;
+%[%-red%]:%{redC%}%{redV%}п%-%> Adjectives ; ! Dir/LR
 
 
 LEXICON Adjectives
