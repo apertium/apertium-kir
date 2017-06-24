@@ -41,8 +41,8 @@ SET  Sing = (*) - (pl) ;
 
 SET  Acc-Or-Nom = Acc | Nom ;
 
-SET  Not-Part = (*) - (Part) ;
-SET  Not-Sent = (*) - (Sent) ;
+SET  Not-Part = (*) - Part ;
+SET  Not-Sent = (*) - Sent ;
 SET  Tv-Or-Iv = Tv | Iv ;
 SET  PartIrre-Or-Aor = PartIrre | Aor ;
 SET  Vb-Sg-Or-Pl = Vb-Pl | Vb-Sg ;
