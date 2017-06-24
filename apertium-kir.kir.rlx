@@ -110,6 +110,10 @@ REMOVE Px3pl IF
 REMOVE Verb IF
 	(-1 Det);
 
+
+# Some rules for participle forms that are followed by copulas
+# E.g., түшкөн эле
+
 REMOVE Ger IF
 	(0 PrcCop)
 	(1 Cop) ;
