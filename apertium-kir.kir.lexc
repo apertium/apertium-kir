@@ -127,6 +127,8 @@
 !!! Participles
 %<prc_plan%>  ! was: purposive
 %<prc_past%>
+%<prc_fut%>
+%<prc_hab%>   ! habitual prc (with copulas): -май
 %<prc_cond%>
 %<prc_perf%>
 %<prc_impf%>
@@ -250,6 +252,9 @@
 
 %[%+red%]
 %[%-red%]
+
+%[%+qst%]
+%[%-qst%]
 
 
 
@@ -1434,6 +1439,7 @@ LEXICON V-CLIT-BI
 !! Modal/discourse particles
 !!!!! %+бы%<qst%>:%>%{B%}%{I%} V-PERS-COP ; ! CHECK  !! CAUSING LOOPS!
 %+бы%<qst%>:%>%{B%}%{I%} # ;
+%+бы%<qst%>%[+qst%]: # ;
 !!!!! %+чы%<qst%>:%>ч%{I%} # ;
 
 LEXICON V-CLIT-OTHER
@@ -1639,14 +1645,21 @@ LEXICON V-INFL-NON-FINITE-REG
 ! %<prc_prp%>:%>%{G%}%{A%}н%{I%} # ;  ! rare IS
 ! - changed to prc_plan 2014-08-16 JNW
 %<prc_impf%>:%>%{E%} # ;   ! rare IS
-%<prc_irre%>:%>%{E%}т # ;
 %<prc_cond%>:%>с%{A%} V-PERS-COND ;
-%<prc_pcond%>:%>м%{A%}к # ;    ! in -мАк эле- etc.
-%<prc_past%>:%>%{G%}%{A%}н # ; ! 
+
+! Participles used with copulas
+%<prc_past%>:%>%{G%}%{A%}н # ; ! used with <cop><ifi> or бол<v><iv> forms for different tense/aspect
 !%<prc_fplan%>:%>м%{A%}й CLITICS-NO-COP ;    !  бармай болдум - I decided to go
-%<ger_hab%>%<nom%>:%>м%{A%}й CLITICS-NO-COP ;   ! this is actually not a participle: it takes copula verbs and can be a subject:
+!%<ger_hab%>%<nom%>:%>м%{A%}й CLITICS-NO-COP ;   ! this is actually not a participle: it takes copula verbs and can be a subject:
+%<prc_hab%>:%>м%{A%}й # ;   ! used with copulas
                                                 !  бармай болдум - I decided to go, бармай мага жакпайт - I don't like going all the time
                                                 ! but it only has the nominal unpossessed form
+%<prc_fut%>:%>%{A%}%{A%}р # ;  ! used with copulas
+%<prc_fut%>:%>%{A%}р # ;       ! Dir/LR
+%<prc_irre%>:%>%{E%}т # ;
+%<prc_pcond%>:%>м%{A%}к # ;    ! in -мАк эле- etc.
+
+
 
 ! Verbal adverbs
 ! %<gna_prp%>:%>%{G%}%{A%}н%{I%} # ;  ! rare IS
@@ -1659,7 +1672,7 @@ LEXICON V-INFL-NON-FINITE-REG
 %<ger_pres%>:%>%{I%}ш GER-INFL ;    ! <coop> IS only
 %<ger%>:%>%{U%}%{U%} GER-INFL ;     ! <coop> IS only
 %<ger_abst%>:%>%{U%}%{U%}%>ч%{I%}%>%{L%}%{I%}к GER-INFL ;     ! <coop> IS only
-%<ger_notyet%>:%>{E%}% элек GER-INFL ;
+%<ger_notyet%>:%>%{E%}% элек GER-INFL ;
 
 ! Verbal adjectives 
 %<gpr_past%>:%>%{G%}%{A%}н V-ADJ ;  ! <pl> IS okay
@@ -1667,7 +1680,7 @@ LEXICON V-INFL-NON-FINITE-REG
 %<gpr_hab%>:%>ч%{U%} V-ADJ ;  ! <pl> IS okay
 !%<vadj_impf%>:%>%{E%}% турган V-ADJ ;       ! Done already by <prt_impf> тур<vaux><vadj_past>
 %<gpr_pot%>:%>%{U%}%{U%}%>ч%{U%} V-ADJ ;
-%<gpr_notyet%>:%>{E%}% элек V-ADJ ;
+%<gpr_notyet%>:%>%{E%}% элек V-ADJ ;
 
 !  Imperatives
 
@@ -1819,9 +1832,9 @@ LEXICON VAUX-INFL
 
 %<vaux%>: V-INFL-COMMON ;
 
-LEXICON VAUX-ELE
-
-%<vaux%>: V-PERS-COND ;
+!LEXICON VAUX-ELE
+!
+!%<vaux%>: V-PERS-COND ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!                  L E X I C O N    E N T R I E S                         !!!
@@ -16205,9 +16218,11 @@ LEXICON Copula
 э%<cop%>%<ger_perf%>:экен%>%{L%}%{I%}к POSSESSION ;
 
 э%<cop%>%<aor%>%<evid%>:экен V-PERS-COP-SUF ; 
+э%<cop%>%<aor%>%<evid%>%[%-qst%]:бекен V-PERS-COP-SUF ; 
 э%<cop%>%<neg%>%<aor%>%<evid%>:эмес% экен V-PERS-COP-SUF ; 
 
 э%<cop%>%<ifi%>:эле V-PERS-PAST ;
+э%<cop%>%<ifi%>%[%-qst%]:беле V-PERS-PAST ;
 
 э%<cop%>%<neg%>%<aor%>:эмес V-PERS-COP-SUF ; 
 
@@ -16239,8 +16254,9 @@ LEXICON Verbs
 жазда:жазда VAUX-INFL ; !
 кел:кел VAUX-INFL ; !
 
-эле:эле VAUX-ELE ; !  
-эле%<qst%>:беле VAUX-ELE ; ! CHECK: is this the right way to do this?
+!эле:эле VAUX-ELE ; !  
+!эле%<qst%>:беле VAUX-ELE ; ! CHECK: is this the right way to do this?
+! see copula stuff above
 
 өс:өс V-INFL-IV ;
 танда:танда V-INFL-TV ;

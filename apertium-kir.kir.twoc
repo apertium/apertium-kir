@@ -10,7 +10,8 @@ Alphabet
  %<v%>
 
  %[%+p3pl%]:0  %[%-p3pl%]:0
- %[%+red%]:0 %[%-red%]:0 ;
+ %[%+red%]:0 %[%-red%]:0
+ %[%+qst%]:0 %[%-qst%]:0 ;
 
 Sets 
 
@@ -33,14 +34,14 @@ Rules
 Fx:0 /<= _ ;
    except
        _ :* Fy:0 ;
-   where Fx in ( %[%-red%] )
-         Fy in ( %[%+red%] )
+   where Fx in ( %[%-red%] %[%-qst%] )
+         Fy in ( %[%+red%] %[%+qst%] )
    matched ;
 
 "Remove paths without matching prefix feature"
 Fx:0 /<= _ ;
    except
        Fy:0 :* _ ;
-   where Fy in ( %[%-red%] )
-         Fx in ( %[%+red%] )
-matched ;
+   where Fy in ( %[%-red%] %[%-qst%] )
+         Fx in ( %[%+red%] %[%+qst%] )
+   matched ;
