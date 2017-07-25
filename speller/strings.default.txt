@@ -2,3 +2,18 @@
 # a separate file), followed by TAB and the weight for the edit operation:
 #øø:öö	0.2
 #ää:ææ	0.2
+
+у:ү	0.1
+е:ё	0.1
+о:ө	0.1
+н:ң	0.1
+
+йу:ю	0.3
+йо:ё	0.3
+йа:я	0.3
+йе:е	0.1
+
+ю:йу	0.3
+ё:йо	0.3
+я:йа	0.3
+е:йе	0.1
