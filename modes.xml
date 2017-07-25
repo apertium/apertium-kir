@@ -71,6 +71,14 @@
     </pipeline>
   </mode>
 
+	<mode name="kir-spell" install="yes">
+		<pipeline>
+			<program name="hfst-ospell -S -n 10">
+				<file name="kir.zhfst"/>
+			</program>
+		</pipeline>
+	</mode>
+
 	<mode name="kir-tokenise" install="yes">
 		<pipeline>
 			<program name="hfst-proc">
@@ -78,6 +86,7 @@
 			</program>
 		</pipeline>
 	</mode>
+
 
 
 </modes>
