@@ -548,7 +548,7 @@ LEXICON ABESSIVE-SUFFIX
 
 %+сыз%<post%>:%>с%{I%}з CLITICS-NO-COP ;
 
-LEXICON LI-SUFFIX
+LEXICON LUU-SUFFIX
 
 %+луу%<post%>:%>%{L%}%{U%}%{U%} CLITICS-NO-COP ;
 
@@ -559,7 +559,7 @@ LEXICON SUBST-COMMON
 
 POSSESSION ;
 ABESSIVE-SUFFIX ; 
-LI-SUFFIX ; 
+LUU-SUFFIX ; 
 
 LEXICON N1-ABBR
 
@@ -583,7 +583,7 @@ PLURAL ; !! ADDED FMT 2014-08-18
 CASES ; !! ADDED FMT 2014-08-18
 POSSESSION ; !! ADDED FMT 2014-08-18
 ABESSIVE-SUFFIX ; !! ADDED FMT 2014-08-18
-LI-SUFFIX ; !! ADDED FMT 2014-08-18
+LUU-SUFFIX ; !! ADDED FMT 2014-08-18
 
 LEXICON N-INFL-SG  ! nouns with no/irregular plural
 
@@ -594,14 +594,14 @@ LEXICON N-INFL-SG  ! nouns with no/irregular plural
 %<n%>: POSSESSION ;
 %<n%>: CASES ;
 %<n%>: ABESSIVE-SUFFIX ;
-%<n%>: LI-SUFFIX ;
+%<n%>: LUU-SUFFIX ;
 
 LEXICON N-INFL-PL  ! for irregular plurals
 
 %<n%>%<pl%>: POSSESSION ;
 %<n%>%<pl%>: CASES ;
 %<n%>%<pl%>: ABESSIVE-SUFFIX ;
-%<n%>%<pl%>: LI-SUFFIX ;
+%<n%>%<pl%>: LUU-SUFFIX ;
 
 LEXICON N1  ! FIXME
 
