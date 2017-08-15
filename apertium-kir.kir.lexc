@@ -2800,6 +2800,9 @@ LEXICON Nouns
 ! жекече:жекече N-INFL ; ! "see A3 section" 
 ! ишенимдүү:ишенимдүү N-INFL ; ! "see A1 section" 
 !моряк:деңизчи N-INFL ; ! "" Dir/LR
+! дайыма:дайыма N-INFL ; ! ADV
+! тор:тор N-INFL ; ! "net" ! "removing duplicate" 
+! эрте:эрте N-INFL ; ! CHECK ! "removing duplicate" 
 аалам:аалам N-INFL ; ! "universe"
 аалат:аалат N-INFL ; 
 аалим:аалим N-INFL ; ! FIXME: check
@@ -3015,6 +3018,8 @@ LEXICON Nouns
 айып:айып N-INFL ; 
 айыпкер:айыпкер N-INFL ; 
 айыпсыз:айыпсыз N-INFL ;
+айыптоо% сөзү:айыптоо% сөз N-INFL-3PX-COMPOUND ; ! ""  FIXME: MT-only?
+айырбаш:айырбаш N-INFL ; ! "exchange"
 айырма:айырма N-INFL ; 
 ак% күп:ак% күп N-INFL ; 
 ак% пеилдүүлүк:ак% пеилдүүлүк N-INFL ;
@@ -3099,6 +3104,7 @@ LEXICON Nouns
 алуу:алуу N-INFL ;
 алуучу:алуучу N-INFL ;
 алфавит:алфавит N-INFL ; ! "alphabet"
+алып% баруучу:алып% баруучу N-INFL ; ! "MC, host"
 алып%-сатар:алып%-сатар N-INFL ; ! "" 
 алыстык:алыстык N-INFL ;
 альбом:альбом N-INFL ;
@@ -3131,6 +3137,7 @@ LEXICON Nouns
 анонс:анонс N-INFL ; 
 ансамбль:ансамбль N-INFL ; 
 ант:ант N-INFL ; 
+антена:антена N-INFL ; ! "antenna"
 антенна:антенна N-INFL ; 
 антибиотик:антибиотик N-INFL ; 
 антик:антик N-INFL ;
@@ -3158,7 +3165,6 @@ LEXICON Nouns
 ар:ар N-INFL ;
 ар:ар N-INFL ; 
 ара:ара N-INFL ; 
-араб:араб N-INFL ;
 араба:араба N-INFL ; 
 араздык:араздык N-INFL ; ! "" 
 арак:арак N-INFL ; 
@@ -3233,40 +3239,37 @@ LEXICON Nouns
 астрономия:астрономия N-INFL ; 
 асты:асты N-INFL ;  ! FIXME: probably not
 асуу:асуу N-INFL ; 
-асфальт:асфальт N-INFL ; 
+асфальт:асфальт N-INFL ; ! "asphalt"
 асылдык:асылдык N-INFL ; 
-ат:ат N-INFL ; 
+ат:ат N-INFL ; ! "name; horse"
 ата% журт:ата% журт N-INFL ; 
 ата% мекен:ата% мекен N-INFL ; 
 ата%-баба:ата%-баба N-INFL ;
-ата-журт N-INFL ;
-ата-эне N-INFL ;
-ата:ата N-INFL ; 
+ата%-журт:ата%-журт N-INFL ; ! "fatherland"
+ата%-эне:ата%-эне N-INFL ; ! "parent"
+ата:ата N-INFL ; ! "father"
 атаандаш:атаандаш N-INFL ;
 атаандаштык:атаандаштык N-INFL ; ! "" 
-атак% даңк:атак% даңк N-INFL ; 
-атак:атак N-INFL ; 
+атак% даңк:атак% даңк N-INFL ; ! "fame"
+атак:атак N-INFL ; ! "fame"
 аталык:аталык N-INFL ; ! ""
-аталыш:аталыш N-INFL ;
+аталыш:аталыш N-INFL ; ! "name"
 атан:атан N-INFL ; 
-атеизм:атеизм N-INFL ; 
-атеист:атеист N-INFL ; 
+атеизм:атеизм N-INFL ; ! "atheism"
+атеист:атеист N-INFL ; ! "atheist"
 ателье:ателье N-INFL ; 
 аткаминер:аткаминер N-INFL ; ! "" 
-аткаруу:аткаруу N-INFL ; 
-атлас:атлас N-INFL ; 
-атлет:атлет N-INFL ;
-атлет:атлет N-INFL ; 
+аткаруу:аткаруу N-INFL ; ! Der/Ger
+атлас:атлас N-INFL ; ! "atlas"
+атлет:атлет N-INFL ; ! "athlete"
 атлетизм:атлетизм N-INFL ;
 атлетика:атлетика N-INFL ; 
-атмосфера:атмосфера N-INFL ;
-атмосфера:атмосфера N-INFL ; 
-атом:атом N-INFL ;
-атом:атом N-INFL ; 
+атмосфера:атмосфера N-INFL ; ! "atmosphere"
+атом:атом N-INFL ; ! "atom"
 атташе:атташе N-INFL ;
 аттракцион:аттракцион N-INFL ; 
 аттуу:аттуу N-INFL ; ! "" 
-атыр:атыр N-INFL ; 
+атыр:атыр N-INFL ; ! "perfume(?)"
 атырылуу:атырылуу N-INFL ; 
 аудитория:аудитория N-INFL ; 
 аферист:аферист N-INFL ; 
@@ -3315,6 +3318,7 @@ LEXICON Nouns
 баба:баба N-INFL ; 
 багалек:багалек N-INFL ; 
 баглама:баглама N-INFL ;
+багуу:багуу N-INFL ; ! "care" ! Use/MT
 багыт:багыт N-INFL ;
 багытоо:багытоо N-INFL ;
 багыш:багыш N-INFL ;
@@ -3333,6 +3337,7 @@ LEXICON Nouns
 байкоо:байкоо N-INFL ;
 байкот:байкот N-INFL ;
 байкуш% киши:байкуш% киши N-INFL ;
+байкуш:байкуш N-INFL ; ! "poor thing"
 байланыш% түйүнү:байланыш% түйүнү N-INFL ;
 байланыш:байланыш N-INFL ; 
 байланыштуулук:байланыштуулук N-INFL ;
@@ -3342,8 +3347,8 @@ LEXICON Nouns
 байрак:байрак N-INFL ; ! "flag"
 байтакты:байтакты N-INFL ; 
 байтал:байтал N-INFL ; 
-бак:бак N-INFL ; 
-бака:бака N-INFL ; 
+бак:бак N-INFL ; ! "tank"
+бака:бака N-INFL ; ! "frog"
 бактерия:бактерия N-INFL ; 
 бактысыздык:бактысыздык N-INFL ; ! "" 
 бактыяр:бактыяр N-INFL ; 
@@ -3360,6 +3365,7 @@ LEXICON Nouns
 балакет:балакет N-INFL ; 
 балалык:балалык N-INFL ; ! ""
 баланс:баланс N-INFL ; 
+балапан:балапан N-INFL ; ! "chick"
 балбан:балбан N-INFL ; ! "" 
 балдыз:балдыз N-INFL ; 
 балет:балет N-INFL ;
@@ -3434,6 +3440,7 @@ LEXICON Nouns
 башкауучу:башкауучу N-INFL ;
 башкы% епископ:башкы% епископ N-INFL ; ! FIXME: compositional *and* misspelled
 башкы% роль:башкы% роль N-INFL ; ! FIXME: compositional
+башкы% эпископ:башкы% эпископ N-INFL ; ! Use/MT
 башмак:башмак N-INFL ; 
 башмыйзам:башмыйзам N-INFL ;
 башталгыч% мектеп:башталгыч% мектеп N-INFL ;
@@ -3452,7 +3459,7 @@ LEXICON Nouns
 бейил:бейил N-INFL ; ! "" 
 бейил:пейил N-INFL ; ! "" Dir/LR
 бейиш:бейиш N-INFL ;
-бейт:бейт N-INFL ; 
+бейт:бейт N-INFL ; ! FIXME: CHECK бейит?
 бейшемби:бейшемби N-INFL ;
 бейшемби:бейшемби N-INFL ; ! "Thursday"
 бекемдеме:бекемдеме N-INFL ;
@@ -3460,6 +3467,7 @@ LEXICON Nouns
 бекзаада:бекзаада N-INFL ; 
 бекитүү:бекитүү N-INFL ;
 бел:бел N-INFL ; ! "waist" 
+белги:белги N-INFL ; ! "sign, symbol"
 белгилөө:белгилөө N-INFL ;
 белек:белек N-INFL ; ! "gift/present"
 бензин:бензин N-INFL ;
@@ -3474,55 +3482,54 @@ LEXICON Nouns
 бетон:бетон N-INFL ; 
 бетпак:бетпак N-INFL ; 
 бечера:бечера N-INFL ;
-беш:беш N-INFL ; ! FIXME: check
-бешик:бешик N-INFL ; 
+беш:беш N-INFL ; ! "stength"
 бешик:бешик N-INFL ; ! "cradle"
 бешмант:бешмант N-INFL ; ! "легкая приталенная одежда на подкладке до колен" 
 бидет:бидет N-INFL ;
-бизнес:бизнес N-INFL ; 
-бизнесмен:бизнесмен N-INFL ; 
+бизнес:бизнес N-INFL ; ! "business"
+бизнесмен:бизнесмен N-INFL ; ! "businessman"
 бий:бий N-INFL ; ! "dance"
-бийиктик:бийиктик N-INFL ; 
-бийлик:бийлик N-INFL ; 
+бийиктик:бийиктик N-INFL ; ! "height"
+бийлик:бийлик N-INFL ; ! "wealth"
 билдирме:билдирме N-INFL ;
 билдирүү:билдирүү N-INFL ; 
-билек:билек N-INFL ; 
 билек:билек N-INFL ; ! "wrist"
 билерик:билерик N-INFL ; ! "bracelet" 
 билерман:билерман N-INFL ; 
-билет:билет N-INFL ;
-билим% берүү:билим% берүү N-INFL ;
+билет:билет N-INFL ; ! "ticket"
+билим% берүү:билим% берүү N-INFL ; ! "education"
 билим:билим N-INFL ; ! "knowledge"
-биография:биография N-INFL ; 
-биология:биология N-INFL ; 
+биография:биография N-INFL ; ! "biography"
+биология:биология N-INFL ; ! "biology"
 бир% добуш:бир% добуш N-INFL ;
 бир% максаттуу:бир% максаттуу N-INFL ;
 бир% тууган:бир% тууган N-INFL ; 
 биргелешкен:биргелешкен N-INFL ;
-бирдик:бирдик N-INFL ; 
+бирдик:бирдик N-INFL ; ! "unit"
 биржа:биржа N-INFL ; 
 биригүү:биригүү N-INFL ; 
 бирикме:бирикме N-INFL ; 
 биринчилик:биринчилик N-INFL ;
 бирнерсе:бирнерсе N-INFL ;
-бит:бит N-INFL ; 
+бит:бит N-INFL ; ! "louse"
 битон:битон N-INFL ; 
-блог:блог N-INFL ; 
+блог:блог N-INFL ; ! "blog"
 блок:блок N-INFL ;
 бодо% мал:бодо% мал N-INFL ; 
 божомол:божомол N-INFL ;
-боз:боз N-INFL ; 
+боз:боз N-INFL ; ! FIXME: not adj?
 бозо:бозо N-INFL ; 
 бой:бой N-INFL ; 
 бойек:бойек N-INFL ; 
 бок:бок N-INFL ; 
-бокс:бокс N-INFL ;
-боксер:боксер N-INFL ;
-болжол% менен:болжол% менен N-INFL ;
-болжол:болжол N-INFL ;
-болжолдуу:болжолдуу N-INFL ;
+бокс:бокс N-INFL ; ! "boxing"
+боксер:боксер N-INFL ; ! "boxer"
+болжол% менен:болжол% менен N-INFL ; ! FIXME: CHECK: not N
+болжол:болжол N-INFL ; ! "estimate"
+болжолдуу:болжолдуу N-INFL ; ! FIXME: CHECK: not N
 боло% турган:боло% турган N-INFL ;
-болот:болот N-INFL ;
+болот:болот N-INFL ; ! "steel"
+болочок:болочок N-INFL ; ! "future"
 болуш:болуш N-INFL ; ! "волость в дореволюционном периоде" 
 бомба:бомба N-INFL ; ! "bomb"
 бомбалоо:бомбалоо N-INFL ; ! "bombing"
@@ -3545,6 +3552,7 @@ LEXICON Nouns
 брошюра:брошюра N-INFL ; 
 бугу:бугу N-INFL ; ! "buck"
 буддизм:буддизм N-INFL ; 
+буддист:буддист N-INFL ; ! "buddhist"
 бузуку:бузуку N-INFL ;
 бузукулук:бузукулук N-INFL ; ! "" 
 бузуу:бузуу N-INFL ; 
@@ -3555,6 +3563,7 @@ LEXICON Nouns
 булак:булак N-INFL ; ! "spring, source"
 буламык:буламык N-INFL ; 
 булганыч:булганыч N-INFL ; 
+булочка:булочка N-INFL ; ! "roll (food)"
 булут:булут N-INFL ; ! "cloud"
 булуң:булуң N-INFL ;
 булчуң:булчуң N-INFL ; ! "muscle"
@@ -3570,6 +3579,7 @@ LEXICON Nouns
 буудай:буудай N-INFL ; ! "wheat"
 буура:буура N-INFL ; ! "male camel" 
 буурчак:буурчак N-INFL ; ! "pea"
+буюм:буюм N-INFL ; ! "thing"
 бысмылда:бысмылда N-INFL ; 
 бычак:бычак N-INFL ; 
 бычым:бычым N-INFL ; 
@@ -3748,7 +3758,6 @@ LEXICON Nouns
 дабыл:дабыл N-INFL ;
 дабылчы:дабылчы N-INFL ; ! "барабанщик, играющий на дабыле" 
 дагы:дагы N-INFL ;
-! дайыма:дайыма N-INFL ; ! ADV
 дайын:дайын N-INFL ;
 дайындоо:дайындоо N-INFL ;
 дал% кэлүү:дал% кэлүү N-INFL ; 
@@ -3909,6 +3918,7 @@ LEXICON Nouns
 дэм:дэм N-INFL ; 
 дүйнө% жүзү:дүйнө% жүзү N-INFL ; ! "" 
 дүйнө:дүйнө N-INFL ;  ! "world" (?)
+дүйнөнүн% төрт% бурчу:дүйнөнүн% төрт% бурч N-INFL-3PX-COMPOUND ; ! "the four corners of the world"   ! Use/MT
 дүйшөмбү:дүйшөмбү N-INFL ; ! "Monday"
 дүкөн:дүкөн N-INFL ; 
 дүкөнчө:дүкөнчө N-INFL ; 
@@ -3967,6 +3977,7 @@ LEXICON Nouns
 жаманык:жаманык N-INFL ;
 жамбаш:жамбаш N-INFL ; ! "hips" 
 жамгыр:жамгыр N-INFL ; ! "rain"
+жан% сакчы:жан% сакчы N-INFL ; ! "body guard" ! Use/MT
 жан:жан N-INFL ; ! "jan"
 жаназа:жаназа N-INFL ; 
 жангак:жангак N-INFL ; 
@@ -4050,6 +4061,7 @@ LEXICON Nouns
 жер% алды:жер% алд N-INFL-3PX-COMPOUND ;
 жер% титирөө:жер% титирөө N-INFL ; 
 жер:жер N-INFL ; ! "land" 
+жерге% берүү:жерге% берүү N-INFL ; ! "funeral/burial" ! Use/MT
 жердеш:жердеш N-INFL ;
 жесир:жесир N-INFL ;
 жескемпир:жескемпир N-INFL ; 
@@ -4093,12 +4105,14 @@ LEXICON Nouns
 жокей:жокей N-INFL ; 
 жокко% чыгаруу:жокко% чыгаруу N-INFL ; 
 жоктук:жоктук N-INFL ;
+жол% багыты:жол% багыты N-INFL ; ! "güzergah" ! Use/MT
 жол% көрсөткүч:жол% көрсөткүч N-INFL ;
 жол:жол N-INFL ; ! "way"
 жолборс:жолборс N-INFL ;
 жолдомо:жолдомо N-INFL ; ! "" 
 жолдош:жолдош N-INFL ; ! "comrade; husband"
 жолу:жолу N-INFL ; ! FIXME: CHECK
+жолугушуу:жолугушуу N-INFL ; ! "meeting" ! Use/MT
 жомок:жомок N-INFL ; ! "fairy tale"
 жон:жон N-INFL ;
 жоо:жоо N-INFL ; ! "" 
@@ -4152,6 +4166,7 @@ LEXICON Nouns
 жылкы% үйүрү:жылкы% үйүрү N-INFL ; 
 жылкы:жылкы N-INFL ;
 жылкычы:жылкычы N-INFL ; ! "" 
+жылмаюу:жылмаюу N-INFL ; ! "smile"
 жылуулук:жылуулук N-INFL ;
 жылчык:жылчык N-INFL ; ! "" 
 жыныс:жыныс N-INFL ; 
@@ -4221,6 +4236,7 @@ LEXICON Nouns
 зоология:зоология N-INFL ; 
 зооспора:зооспора N-INFL ; 
 зоотехника:зоотехника N-INFL ; 
+зордук:зордук N-INFL ; ! "rape"
 зордуктоо:зордуктоо N-INFL ;
 зулум:зулум N-INFL ; 
 зулумдук:зулумдук N-INFL ; 
@@ -4424,6 +4440,7 @@ LEXICON Nouns
 калемпир:калемпир N-INFL ; 
 календарь:календарь N-INFL ;
 калий:калий N-INFL ;
+калк% отурукташкан% пункт:калк% отурукташкан% пункт N-INFL ; ! "populated settlement"
 калк:калк N-INFL ; ! "people/nation"
 калория:калория N-INFL ; 
 калп:калп N-INFL ; ! "falsehood/lie"
@@ -4587,6 +4604,7 @@ LEXICON Nouns
 квота:квота N-INFL ;
 кебек:кебек N-INFL ; 
 кебете:кебете N-INFL ; 
+кедерги:кедерги N-INFL ; ! "hinderance"
 кез:кез N-INFL ;
 кездеме:кездеме N-INFL ; ! "fabric"
 кезек:кезек N-INFL ; 
@@ -4647,6 +4665,7 @@ LEXICON Nouns
 кечирим:кечирим N-INFL ; 
 кечит:кечит N-INFL ; 
 кечүү:кечүү N-INFL ; 
+кеңдик:кеңдик N-INFL ; ! "width"
 кеңейүү:кеңейүү N-INFL ; ! FIXME: hmmm
 кеңеш:кеңеш N-INFL ; 
 кеңешме:кеңешме N-INFL ;
@@ -4732,6 +4751,7 @@ LEXICON Nouns
 коллектив:коллектив N-INFL ; ! "" 
 коллективизм:коллективизм N-INFL ; 
 коллекция:коллекция N-INFL ; 
+коло:коло N-INFL ; ! "bronze"
 колония:колония N-INFL ; ! "colony"
 колонна:колонна N-INFL ; 
 колтук:колтук N-INFL ; 
@@ -4743,12 +4763,14 @@ LEXICON Nouns
 комбинат:комбинат N-INFL ; 
 комбинация:комбинация N-INFL ; 
 комедия:комедия N-INFL ; 
+коминтерн:коминтерн N1 ; ! ""
 комиссар:комиссар N-INFL ; 
 комиссия:комиссия N-INFL ; 
 комитет:комитет N-INFL ;
 комитет:комитет N-INFL ;  ! "committee"
 коммент:коммент N-INFL ; 
 комментарий:комментарий N-INFL ; 
+коммуна:коммуна N-INFL ; ! ""
 коммунизм:коммунизм N-INFL ;
 коммуникация:коммуникация N-INFL ; 
 коммунист:коммунист N-INFL ;
@@ -4845,6 +4867,7 @@ LEXICON Nouns
 кошомат:кошомат N-INFL ; ! "" 
 коштошуу:коштошуу N-INFL ;
 кошумча% акы:кошумча% акы N-INFL ;
+кошумча:кошумча N-INFL ; ! "addition, extension(?)" ! Use/MT ! FIXME: or check whether <adj><subst> is right -JNW 
 кошуна:кошуна N-INFL ; ! "neighbour, see коңшу"
 кошуун:кошуун N-INFL ; ! "" 
 коэффициент:коэффициент N-INFL ; 
@@ -4961,6 +4984,7 @@ LEXICON Nouns
 кыйноо:кыйноо N-INFL ; 
 кыйноо:кыйноо N-INFL ; ! "hardship"
 кыйратыш:кыйратыш N-INFL ;
+кыйындык:кыйындык N-INFL ; ! "difficulty, hardship"
 кыйынчылык:кыйынчылык N-INFL ; 
 кыйытма:кыйытма N-INFL ;
 кык:кый N-INFL ; ! "" Dir/LR
@@ -5028,6 +5052,7 @@ LEXICON Nouns
 күндөм:күндөм N-INFL ;
 күнү:күнү N-INFL ;
 күнөө:күнөө N-INFL ; 
+күнөөкөр:күнөөкөр N-INFL ; ! "sinner"
 күнөөлнгөн:күнөөлнгөн N-INFL ;
 күнөөлү:күнөөлү N-INFL ;
 күрмө:күрмө N-INFL ; ! "" 
@@ -5057,9 +5082,11 @@ LEXICON Nouns
 көзөмөл:көзөмөл N-INFL ;
 көзөмөлдөө:көзөмөлдөө N-INFL ;
 көйнөк:көйнөк N-INFL ; 
+көк:көк N-INFL ; ! "sky, heaven"
 көкүл:көкүл N-INFL ; 
 көкүрөк:көкүрөк N-INFL ;
 көл:көл N-INFL ; 
+көлдөлөң:көлдөлөң N-INFL ; ! "a stitched mat"
 көлмө:көлмө N-INFL ;
 көлөкө:көлөкө N-INFL ; 
 көлөм:көлөм N-INFL ; 
@@ -5070,6 +5097,7 @@ LEXICON Nouns
 көмөкчү:көмөкчү N-INFL ; ! "" 
 көмөлдүрүк:көмөлдүрүк N-INFL ; 
 көндүрүү:көндүрүү N-INFL ; 
+көнүгүү:көнүгүү N-INFL ; ! "exercise"
 көнүмүш% боюнча:көнүмүш% боюнча N-INFL ;
 көнүмүш:көнүмүш N-INFL ; 
 көп% кабат:көп% кабат N-INFL ; 
@@ -5087,12 +5115,14 @@ LEXICON Nouns
 көрсөтүү:көрсөтүү N-INFL ; 
 көрүк:көрүк N-INFL ; 
 көрүнүм:көрүнүм N-INFL ;
+көрүнүш:көрүнүш N-INFL ; ! "sight"
 көрүү:көрүү N-INFL ; ! "" 
 көрүүчү:көрүүчү N-INFL ;
 көрөгөчтүк:көрөгөчтүк N-INFL ;
 көсөм:көсөм N-INFL ; ! "" 
 көт:көт N-INFL ; 
 көтөрүлмө:көтөрүлмө N-INFL ;
+көч:көч N-INFL ; ! "nomadic movement"
 көчкү:көчкү N-INFL ;
 көчүк:көчүк N-INFL ; 
 көчүрмө:көчүрмө N-INFL ;
@@ -5176,6 +5206,7 @@ LEXICON Nouns
 маалыматтар% негизи:маалыматтар% негизи N-INFL ;
 маалымдама:маалымдама N-INFL ; ! "reference book, directory" 
 маалымдоо:маалымдоо N-INFL ;
+маанай:маанай N-INFL ; ! "mood"
 маани:маани N-INFL ; 
 маанилүүлүк:маанилүүлүк N-INFL ; ! "" 
 маанисиз:маанисиз N-INFL ; 
@@ -5185,10 +5216,12 @@ LEXICON Nouns
 магнит:магнит N-INFL ; 
 мадам:мадам N-INFL ; 
 маданият:маданият N-INFL ;
+маек% алуу N-INFL ; ! "interview (as an event)" ! Use/MT
 маек:маек N-INFL ;  ! "interview"
 мажилис:мажилис N-INFL ; 
 мазак:мазак N-INFL ; ! "" 
 мазар:мазар N-INFL ;
+мазмун:мазмун N-INFL ; ! "contents"
 мазмуун:мазмуун N-INFL ; 
 май:май N-INFL ;
 майда%-чүйдө:майда%-чүйдө N-INFL ; ! ""
@@ -5282,6 +5315,7 @@ LEXICON Nouns
 маңдай:маңдай N-INFL ; ! "forehead"
 маңыз:маңыз N-INFL ;
 мебель:мебель N-INFL ; 
+медайым:медайым N-INFL ; ! "nurse"
 медал:медал N-INFL ; ! FIXME: check
 медаль:медаль N-INFL ; 
 медальон:медальон N-INFL ; 
@@ -5412,26 +5446,25 @@ LEXICON Nouns
 моюн:моюн N-INFL ; ! "neck"
 моюнтурук:моюнтурук N-INFL ; 
 мрамор:мрамор N-INFL ; ! "marble (rock)"
-мугалимдик:мугалимдик N-INFL ; ! "teacherhood"
 мугалим:мугалим N-INFL ; ! "teacher"
+мугалимдик:мугалимдик N-INFL ; ! "teacherhood"
 мударис:мударис N-INFL ; 
-музей:музей N-INFL ; ! "museum"
 муз:муз N-INFL ; ! "ice"
+музей:музей N-INFL ; ! "museum"
 музоо:музоо N-INFL ; ! "calf (animal)"
 музыка:музыка N-INFL ; 
 музыкант:музыкант N-INFL ;
-муктаждык:муктаждык N-INFL ; 
 муктаж:муктаж N-INFL ; ! "" 
+муктаждык:муктаждык N-INFL ; 
 мумия:мумия N-INFL ; ! "mummy"
 мунаажат:мунаажат N-INFL ; ! "" 
 мунаажат:мунажат N-INFL ; ! "" Dir/LR
 мунай:мунай N-INFL ; ! ""
 мунара:мунара N-INFL ; ! "tower"
 мунафык:мунафык N-INFL ; ! "" 
-муң:муң N-INFL ; ! "sorry"
-мураскор:мураскор N-INFL ; ! "" 
 мурас:мирас N-INFL ; ! "" Dir/LR
 мурас:мурас N-INFL ; 
+мураскор:мураскор N-INFL ; ! "" 
 мурасчы:мурасчы N-INFL ; ! " (same as мураскор)" Dir/LR
 мурун:мур%{y%}н N-INFL ; ! "nose" ! FIXME: make work properly
 мурун:мурун N-INFL ; ! Dir/LR "nose" 
@@ -5443,6 +5476,7 @@ LEXICON Nouns
 мутация:мутация N-INFL ; ! "mutation"
 муун:муун N-INFL ; ! "joint, generation"
 муштум:муштум N-INFL ; ! "fist"
+муң:муң N-INFL ; ! "sorry"
 мыйзам% тышы:мыйзам% тышы N-INFL ;
 мыйзам% чыгарма:мыйзам% чыгарма N-INFL ;
 мыйзам:мыйзам N-INFL ;
@@ -5478,10 +5512,10 @@ LEXICON Nouns
 мүшкүл:мүшкүл N-INFL ; 
 мүшөк:мүшөк N-INFL ; 
 мөмө:мөмө N-INFL ; ! "fruit"
+мөрөй:мөрөй N-INFL ;
 мөңгү:мөңгү N-INFL ; ! "glacier"
 мөөнөт:мөөнөт N-INFL ;
 мөөр:мөөр N-INFL ; 
-мөрөй:мөрөй N-INFL ;
 наалы:наалы N-INFL ; 
 наам:наам N-INFL ; ! "reputation/good name"
 нааразылык:нааразылык N-INFL ; 
@@ -5492,6 +5526,7 @@ LEXICON Nouns
 намыс:намыс N-INFL ; 
 нан:нан N-INFL ;
 напас:напас N-INFL ; 
+наристе% кези:наристе% кез N-INFL-3PX-COMPOUND ; ! "baby-hood" ! Use/MT
 наристе:наристе N-INFL ; 
 нарк:нарк N-INFL ;
 наркоз:наркоз N-INFL ; 
@@ -5501,6 +5536,7 @@ LEXICON Nouns
 насип:насип N-INFL ; 
 насыйкат:насыйкат N-INFL ; 
 насыя:насыя N-INFL ; ! "" 
+насыя:насыя N-INFL ; ! "credit"
 насыят:насаат N-INFL ; ! "" Dir/LR
 насыят:насият N-INFL ; ! "" Dir/LR
 насыят:насыят N-INFL ; ! "" 
@@ -5580,6 +5616,7 @@ LEXICON Nouns
 окуу:окуу N-INFL ; ! "study"
 окуучу:окуучу N-INFL ;
 окуя:окуя N-INFL ;
+окшоштук:окшоштук N-INFL ; ! "similarity"
 олжо:олжо N-INFL ; ! "" 
 олигархия:олигархия N-INFL ; 
 олигоцен:олигоцен N-INFL ; 
@@ -5809,6 +5846,7 @@ LEXICON Nouns
 помещик:помещик N-INFL ; ! "" 
 помидор:помидор N-INFL ; 
 понедельник:понедельник N-INFL ;
+пончик:пончик N-INFL ; ! "scone/doughnut/etc."
 поп:поп N-INFL ;
 популист:популист N-INFL ;
 порт:порт N-INFL ;
@@ -5882,7 +5920,6 @@ LEXICON Nouns
 пудра:пудра N-INFL ; 
 пул:пул N-INFL ;
 пункт:пункт N6 ; 
-калк% отурукташкан% пункт:калк% отурукташкан% пункт N-INFL ; ! "populated settlement"
 пуржина:пуржина N-INFL ;
 пучок:пучок N-INFL ; 
 пырылдак:пырылдак N-INFL ; 
@@ -5906,6 +5943,8 @@ LEXICON Nouns
 рамазан:рамазан N-INFL ; 
 рапорт:рапорт N-INFL ; 
 расмий% жазуу:расмий% жазуу N-INFL ;
+рахат:рахат N-INFL ; ! "pleasure"
+рахат:ырахат N-INFL ; ! "pleasure" ! Dir/LR
 рационализм:рационализм N-INFL ; 
 рационалист:рационалист N-INFL ; 
 реабилитация:реабилитация N-INFL ;
@@ -5975,6 +6014,7 @@ LEXICON Nouns
 рух:рух N-INFL ; 
 руханият:руханият N-INFL ; 
 ручка:ручка N-INFL ; ! "pen"
+саан:саан N-INFL ; ! "milking (e.g., саан уй = milk cow, саан токтоду = milking is over)"
 саар:саар N-INFL ;
 саат:саат N-INFL ; ! "watch"
 сабак:сабак N-INFL ; 
@@ -5993,6 +6033,7 @@ LEXICON Nouns
 салам:салам N-INFL ; ! "" 
 саламаттык:саламаттык N-INFL ; ! "" 
 салкын:салкын N-INFL ; ! ""  ! FIXME: CHECK
+салмак:салмак N-INFL ; ! "weight"
 салон:салон N-INFL ; 
 салт:салт N-INFL ; ! "a tradition"
 салтанат:салтанат N-INFL ;
@@ -6124,12 +6165,15 @@ LEXICON Nouns
 солдат:солдат N-INFL ; 
 солист:солист N-INFL ; 
 соло:соло N-INFL ; 
+сом:сом N-INFL ; ! "som (Kyrgyzstani (KGS) or Uzbekistani)" 
 сонсуз:сонсуз N-INFL ; 
 соода%-сатык:соода%-сатык N-INFL ;
 соода:соода N-INFL ; 
 соодага% байланыштуу:соодага% байланыштуу N-INFL ;
 соодалашуу:соодалашуу N-INFL ;
 сооп:сооп N-INFL ; 
+соот:зоот N-INFL ; ! "armour" ! Dir/LR
+соот:соот N-INFL ; ! "armour"
 сопрано:сопрано N-INFL ; 
 сормо% саз:сормо% саз N-INFL ; 
 сорпо:сорпо N-INFL ; 
@@ -6244,51 +6288,52 @@ LEXICON Nouns
 сыра:сыра N-INFL ; ! "beer"
 сырга:сырга N-INFL ; ! "earring" 
 сырга:сөйкө N-INFL ; ! "" Dir/LR
+сырткы% түр:сырткы% түр N-INFL ; ! "appearance" ! ֻUse/MT
 сытркары:сытркары N-INFL ; 
 сыя:сыя N-INFL ; ! "ink" 
 сэр:сэр N-INFL ; 
 сюжет:сюжет N-INFL ; 
-сюрприз:сюрприз N-INFL ;
+сюрприз:сюрприз N-INFL ; ! "surprise"
 сүйлөшүү:сүйлөшүү N-INFL ; ! "" 
 сүйлөө:сүйлөө N-INFL ;
 сүйүнүч:сүйүнүч N-INFL ;
-сүйүү:сүйүү N-INFL ; ! "" 
-сүлгү:сүлгү N-INFL ; 
+сүйүү:сүйүү N-INFL ; ! "love" ! Der/Ger
+сүлгү:сүлгү N-INFL ; ! "towel"
 сүлүк:сүлүк N-INFL ; 
 сүннөт:сүннөт N-INFL ; ! "" 
 сүргүн:сүргүн N-INFL ;
-сүрөт:сүрөт N-INFL ;
+сүрөт:сүрөт N-INFL ; ! "picture"
 сүрөтчү:сүрөтчү N-INFL ;
-сүт:сүт N-INFL ; 
-сөз:сөз N-INFL ; 
-сөздүк:сөздүк N-INFL ;
-сөксөөл:сөксөөл N-INFL ; ! "saxaul" 
+сүт:сүт N-INFL ; ! "milk"
+сөз:сөз N-INFL ; ! "word"
+сөздүк:сөздүк N-INFL ; ! "dictionary"
+сөксөөл:сөксөөл N-INFL ; ! "saxaul"
 сөңгөк:сөңгөк N-INFL ; ! "ствол дерева" 
-сөөк:сөөк N-INFL ; 
-сөөлжан:сөөлжан N-INFL ; 
-сөөм:сөөм N-INFL ; ! "" 
+сөөк:сөөк N-INFL ; ! "bone"
+сөөлжан:сөөлжан N-INFL ; ! "earthworm"
+сөөм:сөөм N-INFL ; ! "span"
 таажы:таажы N-INFL ; ! "crown"
 таала:таала N-INFL ;
 таалим:таалим N-INFL ; 
 таануу:таануу N-INFL ;
 таанытма:таанытма N-INFL ;
 таарынган:таарынган N-INFL ; 
-таасир:таасир N-INFL ; ! "" 
+таасир:таасир N-INFL ; ! "influence, effect" 
 таба:таба N-INFL ; ! "" 
-табак:табак N-INFL ; 
+табак:табак N-INFL ; ! "tabacco"
 табель:табель N-INFL ; 
 таберик:таберик N-INFL ; 
 табийгый:табийгый N-INFL ; 
-табият:табийгат N-INFL ; ! "" Dir/LR
-табият:табият N-INFL ; ! "" 
-таблетка:таблетка N-INFL ; 
+табият:табийгат N-INFL ; ! "nature, environment" Dir/LR
+табият:табият N-INFL ; ! "nature, environment" 
+таблетка:таблетка N-INFL ; ! "pill; doughnut tire"
 таблица:таблица N-INFL ; 
 табуретка:табуретка N-INFL ; 
 табылга:табылга N-INFL ;
 табып:табып N-INFL ; 
 табыт:табыт N-INFL ; 
-табышмак:табышмак N-INFL ; ! "" 
-тагдыр:тагдыр N-INFL ; 
+табышмак:табышмак N-INFL ; ! "riddle"
+тагдыр:тагдыр N-INFL ; ! "fate"
 таеже:таеже N-INFL ; 
 тажоо:тажоо N-INFL ;
 тажрыйба:тажрыйба N-INFL ; 
@@ -6305,7 +6350,7 @@ LEXICON Nouns
 така:така N-INFL ; 
 такилип:такилип N-INFL ; 
 такси:такси N-INFL ; 
-такта:такта N-INFL ; ! "" 
+такта:такта N-INFL ; ! "board"
 тактика:тактика N-INFL ; 
 тактооч:тактооч N-INFL ; ! "" 
 такты:такты N-INFL ; 
@@ -6329,32 +6374,31 @@ LEXICON Nouns
 таман:таман N-INFL ; 
 тамаша:тамаша N-INFL ; 
 тамга:тамга N-INFL ; ! "letter (of the alphabet)"
-тамеки:тамеки N-INFL ;
+тамеки:тамеки N-INFL ; ! "cigarette"
 тампон:тампон N-INFL ; 
 тамчы:тамчы N-INFL ; 
-тамызгы:тамызгы N-INFL ; ! "" 
-тамыр:тамыр N-INFL ; 
+тамызгы:тамызгы N-INFL ; ! ""
+тамыр:тамыр N-INFL ; ! "root"
 танапис:танапис N-INFL ; 
-танго:танго N-INFL ; 
-тандоо:тандоо N-INFL ;
-танк:танк N-INFL ; 
+танго:танго N-INFL ; ! "tango"
+тандоо:тандоо N-INFL ; ! "selection" ! Der/Ger
+танк:танк N-INFL ; ! "tank"
 танкер:танкер N-INFL ; 
-тануу:тануу N-INFL ;
 тануу:тануу N-INFL ; 
 танытылган% нерсе:танытылган% нерсе N-INFL ;
 тап:тап N-INFL ;
 тапшырма:тапшырма N-INFL ; ! "" 
-тарак:тарак N-INFL ; 
+тарак:тарак N-INFL ; ! "comb"
 таралыш:таралыш N-INFL ;
 таранчы:таранчы N-INFL ; ! "" 
 тарап:тарап N-INFL ; 
 тарапкер:тарапкер N-INFL ; 
-тарбия:тарбия N-INFL ; 
+тарбия:тарбия N-INFL ; ! "upbringing"
 тарелка:тарелка N-INFL ; ! "" 
 тариз:тариз N-INFL ; 
 тариф:тариф N-INFL ;
 тармак:тармак N-INFL ; 
-тартип:тартип N-INFL ; 
+тартип:тартип N-INFL ; ! "order, discipline"
 тартулуу% күчү:тартулуу% күчү N-INFL ; ! "gravitational force"
 тартулуу:тартулуу N-INFL ; 
 тартуу:тартуу N-INFL ;
@@ -6364,37 +6408,36 @@ LEXICON Nouns
 тартыныч:тартыныч N-INFL ;
 тартыш:тартыш N-INFL ;
 тартыштык:тартыштык N-INFL ; ! "" 
-тарых:тарых N-INFL ; 
-тарыхчы:тарыхчы N-INFL ;
+тарых:тарых N-INFL ; ! "history"
+тарыхчы:тарыхчы N-INFL ; ! "historian"
 таскак:таскак N-INFL ; ! "рысь (аллюр - бег лошади)" 
-тасма:тасма N-INFL ;
+тасма:тасма N-INFL ; ! "ribbon,film"
 татмин:татмин N-INFL ;
 тахометр:тахометр N-INFL ; 
-таш:таш N-INFL ; ! "" 
-ташкын:ташкын N-INFL ; 
-таштанды:таштанды N-INFL ;
+таш% бака:таш% бака N-INFL ; ! "turtle"
+таш:таш N-INFL ; ! "rock, stone"
+ташкын:ташкын N-INFL ; ! "overflow(?)"
 таштанды:таштанды N-INFL ; 
 таштоо:таштоо N-INFL ;
 ташуучулук:ташуучулук N-INFL ;
 ташым:ташым N-INFL ;
 ташыма:ташыма N-INFL ;
-таяк:таяк N-INFL ; 
+таяк:таяк N-INFL ; ! "stick"
 таяке:таяке N-INFL ; 
 таянган:таянган N-INFL ;
 таяныч:таяныч N-INFL ; 
 таң% калуу:таң% калуу N-INFL ;
 таң% эртең:таң% эртең N-INFL ; ! "" 
 таң:таң N-INFL ; ! "dawn"
-театр:театр N-INFL ; 
-тездик:тездик N-INFL ; ! "" 
+театр:театр N-INFL ; ! "theatre"
+тездик:тездик N-INFL ; ! "speed(?)"
 тек:тек N-INFL ;
 текст:текст N-INFL ;
 текстиль:текстиль N-INFL ; 
 тектоника:тектоника N-INFL ; 
 текче:текче N-INFL ;
-текшерүү:текшерүү N-INFL ;
-текшерүүчү:текшерүүчү N-INFL ;
-текшерүүчү:текшерүүчү N-INFL ; 
+текшерүү:текшерүү N-INFL ; ! "checking" ! Der/Ger
+текшерүүчү:текшерүүчү N-INFL ; ! "checker"
 телевидение:телевидение N-INFL ; ! "" 
 телеграф:телеграф N-INFL ; 
 телеканал:телеканал N-INFL ; ! "" 
@@ -6402,60 +6445,59 @@ LEXICON Nouns
 телекоммуникация:телекоммуникация N-INFL ; 
 телекөрсөтүү:телекөрсөтүү N-INFL ; 
 телеобъектив:телеобъектив N-INFL ; 
-телепатия:телепатия N-INFL ; 
-телескоп:телескоп N-INFL ; 
-телефон:телефон N-INFL ; 
+телепатия:телепатия N-INFL ; ! "telepathy"
+телескоп:телескоп N-INFL ; ! "telescope"
+телефон:телефон N-INFL ; ! "telephone"
 телефотография:телефотография N-INFL ; 
-тема:тема N-INFL ; 
-темене:темене N-INFL ; 
-темир% жол:темир% жол N-INFL ; 
-темир:темир N-INFL ; 
+тема:тема N-INFL ; ! "topic"
+темене:темене N-INFL ; ! "needle"
+темир% жол:темир% жол N-INFL ; ! "railroad"
+темир:темир N-INFL ; ! "iron"
 темп:темп N-INFL ; 
 температура:температура N-INFL ; ! "temperature"
 тен:тен N-INFL ; 
 тендер:тендер N-INFL ;
-теннис:теннис N-INFL ; 
+теннис:теннис N-INFL ; ! "tennis"
 тенор:тенор N-INFL ; 
 теократия:теократия N-INFL ; 
 теолог:теолог N-INFL ; 
 теология:теология N-INFL ; 
-теорема:теорема N-INFL ; 
-теория:теория N-INFL ; 
+теорема:теорема N-INFL ; ! "theorem"
+теория:теория N-INFL ; ! "theory"
 тепе%-теңдик:тепе%-теңдик N-INFL ; ! "" 
 тепе%-теңдик:тепе%-теңдик N-INFL ; ! "" 
 тепши:тепши N-INFL ; 
 тер:тер N-INFL ; ! "sweat"
-теракт:теракт N-INFL ; ! "" 
+теракт:теракт N-INFL ; ! "act of terrorism"
 тергеме% ат:тергеме% ат N-INFL ; ! "" 
 тергөө:тергөө N-INFL ;
-терезе:терезе N-INFL ; 
-терек:терек N-INFL ; 
-тереңдик:тереңдик N-INFL ; ! "" 
-тери:тери N-INFL ; 
+терезе:терезе N-INFL ; ! "window"
+терек:терек N-INFL ; ! "poplar"
+тереңдик:тереңдик N-INFL ; ! "depth" 
+тери:тери N-INFL ; ! "skin"
 термин:термин N-INFL ; ! "term"
-терминал:терминал N-INFL ; 
-терминология:терминология N-INFL ; 
-термодинамика:термодинамика N-INFL ; 
-термос:термос N-INFL ; 
-термостат:термостат N-INFL ; 
-термохимия:термохимия N-INFL ; 
+терминал:терминал N-INFL ; ! "terminal"
+терминология:терминология N-INFL ; ! "terminology"
+термодинамика:термодинамика N-INFL ; ! "thermodynamics"
+термос:термос N-INFL ; ! "thermos"
+термостат:термостат N-INFL ; ! "thermostat"
+термохимия:термохимия N-INFL ; ! "thermochemistry"
 термоэлектр:термоэлектр N-INFL ;
-территория:территория N-INFL ;
-террор:террор N-INFL ; 
-терроризм:терроризм N-INFL ;
-террорист:террорист N-INFL ;
-терс:терс N-INFL ;
-терс:терс N-INFL ; 
-тескери:тескери N-INFL ;
+территория:территория N-INFL ; ! "territory"
+террор:террор N-INFL ; ! "terror"
+терроризм:терроризм N-INFL ; ! "terrorism"
+террорист:террорист N-INFL ; ! "terrorist"
+терс:терс N-INFL ; ! FIXME: CHECK is noun or adjective?
+тескери:тескери N-INFL ; ! FIXME: CHECK POS
 теспе:теспе N-INFL ; 
 тест:тест N-INFL ; 
-тетик:тетик N-INFL ;
+тетик:тетик N-INFL ; ! "part,element"
 тетири:тетири N-INFL ;
 техник:техник N-INFL ; 
 техника:техника N-INFL ; 
 техникум:техникум N-INFL ; 
 технология:технология N-INFL ; 
-тешик:тешик N-INFL ; ! "" 
+тешик:тешик N-INFL ; ! "hole"
 тең% салмактуулук:тең% салмактуулук N-INFL ; 
 тең:тең N-INFL ; ! FIXME: should be adj
 теңге:тенге N-INFL ; ! "" Dir/LR
@@ -6465,7 +6507,6 @@ LEXICON Nouns
 теңир:теңир N-INFL ; 
 теңтуш:теңтуш N-INFL ;
 теңтуштук:теңтуштук N-INFL ; 
-тиги% дүйнө:тиги% дүйнө N-INFL ; 
 тиги% дүйнө:тиги% дүйнө N-INFL ; ! FIXME: What???
 тигүүчү:тигүүчү N-INFL ; ! "" 
 тиеше:тиеше N-INFL ;
@@ -6474,23 +6515,21 @@ LEXICON Nouns
 тизе:тизе N-INFL ; 
 тизме:тизме N-INFL ;
 тик% жар:тик% жар N-INFL ;
-тик% учак:тик% учак N-INFL ; 
 тик% учак:тик% учак N-INFL ; ! "helicopter"
 тикен:тикен N-INFL ; 
 тикенек:тикенек N-INFL ;
 тил:тил N-INFL ; 
 тилек:тилек N-INFL ; ! "wish"
-тилим:тилим N-INFL ;
+тилим:тилим N-INFL ; ! "slice"
 тилке:тилке N-INFL ;
 тилмеч:тилмеч N-INFL ; 
 тимьян:тимьян N-INFL ; ! "" 
-тип:тип N-INFL ;
 тип:тип N-INFL ; 
 типография:типография N-INFL ; 
 тир:тир N-INFL ; 
 тирада:тирада N-INFL ; 
 тираж:тираж N-INFL ; 
-тирек:тирек N-INFL ; 
+тирек:тирек N-INFL ; ! "prop, support"
 тирилик:тирилик N-INFL ; 
 тиричилик:тиричилик N-INFL ; 
 тироксин:тироксин N-INFL ; 
@@ -6498,66 +6537,65 @@ LEXICON Nouns
 тиски:тиски N-INFL ; ! "" 
 титан:титан N-INFL ; 
 титирөө:титирөө N-INFL ;
-титул:титул N-INFL ; 
+титул:титул N-INFL ; ! "title"
 тиш:тиш N-INFL ; 
 тобокелдик:тобокелдик N-INFL ; ! "" 
-товар:товар N-INFL ;
+товар:товар N-INFL ; ! "merchandise"
 тоголок% арыз:тоголок% арыз N-INFL ; 
-тогуз:тогуз N-INFL ;
 тозок:тозок N-INFL ; 
 той:той N-INFL ; 
 тойгузуу:тойгузуу N-INFL ;
-ток:ток N-INFL ; 
-токой:токой N-INFL ; 
+ток:ток N-INFL ; ! "electricity"
+токой:токой N-INFL ; ! "forest,woods"
 токтом:токтом N-INFL ;
 токтоо:токтоо N-INFL ; 
 токтоолук:токтоолук N-INFL ; ! "" 
 токум:токум N-INFL ; ! "saddle cloth"
-токуу:токуу N-INFL ; 
+токуу:токуу N-INFL ; ! "crocheting,knitting" ! Der/Ger
 толкун:толкун N-INFL ;
-том:том N-INFL ; 
-томат:томат N-INFL ; 
-тон:тон N-INFL ; 
+том:том N-INFL ; ! "volume"
+томат:томат N-INFL ; ! "tomato paste"
+тон:тон N-INFL ; ! "fur coat"
 тонна:тонна N-INFL ; 
 тоннаж:тоннаж N-INFL ; 
 тоноо:тоноо N-INFL ;
-тоо:тоо N-INFL ; ! "" 
-тообо:тобо N-INFL ; ! "" 
-тообо:тообо N-INFL ; ! "" 
-тоок:тоок N-INFL ; 
+тоо:тоо N-INFL ; ! "mountain"
+тообо:тобо N-INFL ; ! ""
+тообо:тообо N-INFL ; ! ""
+тоок:тоок N-INFL ; ! "chicken"
 тоолуу% коргон:тоолуу% коргон N-INFL ;
 тоос:тоос N-INFL ; 
 тоош:тоош N-INFL ; 
 топ:топ N-INFL ; ! "ball; group"
-топчу:топчу N-INFL ; ! "button"
-топаз:топаз N-INFL ; 
+топаз:топаз N-INFL ; ! FIXME: CHECK
+топоз:топоз N-INFL ; ! "yak"
 тополоң:тополоң N-INFL ; ! "" 
 топурак:топурак N-INFL ;
+топчу:топчу N-INFL ; ! "button"
 тор:тор N-INFL ; ! "net" 
-! тор:тор N-INFL ; ! "net" ! "removing duplicate" 
 торгой:торгой N-INFL ; ! "lark" 
 торопой:торопой N-INFL ; ! "" 
 торпедо:торпедо N-INFL ; 
-торпок:торпок N-INFL ;
-торт:торт N-INFL ;
-торт:торт N-INFL ; 
+торпок:торпок N-INFL ; ! "calf"
+торт:торт N-INFL ; ! "cake"
 торф:торф N-INFL ; 
-тоскоол:тоскоол N-INFL ;
-тоскоолдук:тоскоолдук N-INFL ; 
-тост:тост N-INFL ; 
-тотем:тотем N-INFL ; 
-тотемизм:тотемизм N-INFL ; 
+тоскоол:тоскоол N-INFL ; ! "obstacle"
+тоскоолдук:тоскоолдук N-INFL ; ! "hinderance"
+тост:тост N-INFL ; ! "toast"
+тотем:тотем N-INFL ; ! "totem"
+тотемизм:тотемизм N-INFL ; ! "totemism"
 тоют:тоют N-INFL ; 
-трагедия:трагедия N-INFL ; 
-трактор:трактор N-INFL ; 
-трамвай:трамвай N-INFL ; 
+трагедия:трагедия N-INFL ; ! "tragedy"
+традициялуулук:традициялуулук N-INFL ; ! "traditionalness"
+трактор:трактор N-INFL ; ! "tractor"
+трамвай:трамвай N-INFL ; ! "tram"
 трамплин:трамплин N-INFL ; 
-транзит:транзит N-INFL ; 
-транс:транс N-INFL ;
-транскрипция:транскрипция N-INFL ; 
-транспарант:транспарант N-INFL ; 
-транспорт:транспорт N-INFL ; 
-трансформатор:трансформатор N-INFL ; 
+транзит:транзит N-INFL ; ! "transit"
+транс:транс N-INFL ; ! "trance"
+транскрипция:транскрипция N-INFL ; ! "transcription"
+транспарант:транспарант N-INFL ;
+транспорт:транспорт N-INFL ; ! "transport"
+трансформатор:трансформатор N-INFL ; ! "transformer"
 трафик:трафик N-INFL ;
 тренд:тренд N-INFL ;
 тренер:тренер N-INFL ; ! "" 
@@ -6569,7 +6607,7 @@ LEXICON Nouns
 тритон:тритон N-INFL ; 
 тройка:тройка N-INFL ;
 тропика:тропика N-INFL ; 
-труба:труба N-INFL ; ! "" 
+труба:труба N-INFL ; ! "pipe"
 туалет:туалет N-INFL ; 
 тубаса% жөндөм:тубаса% жөндөм N-INFL ;
 туберкулез:туберкулез N-INFL ; 
@@ -6577,24 +6615,26 @@ LEXICON Nouns
 тузак:тузак N-INFL ; 
 тукум:тукум N-INFL ; ! "seed, egg, progeny"
 тукумдаш:тукумдаш N-INFL ; ! "" 
-тулга:тулга N-INFL ; ! "" 
+тулга:тулга N-INFL ; ! "cooking stand" 
 тулку:тулку N-INFL ; 
-тулпар:тулпар N-INFL ; ! "" 
-тумак:тумак N-INFL ; 
+тулпар:тулпар N-INFL ; ! "steed"
+тумак:тумак N-INFL ; ! "fur hat"
 туман:туман N-INFL ; ! "" 
-тумар:тумар N-INFL ; 
+тумар:тумар N-INFL ; ! "charm"
 тумоо:тумоо N-INFL ;
 тумшук% кап:тумшук% кап N-INFL ; ! "" 
 тунма:тунма N-INFL ; ! "" 
-туннель:туннель N-INFL ; 
-тур:тур N-INFL ;
+туннель:тоннель N-INFL ; ! "tunnel" ! Dir/LR
+туннель:туннель N-INFL ; ! "tunnel"
+тур:тур N-INFL ; ! "tour"
 турак% жай:турак% жай N-INFL ; ! "" 
+турак:турак N-INFL ; ! "~habitation"
 турбина:турбина N-INFL ; 
 тургун:тургун N-INFL ; ! "resident"
-туризм:туризм N-INFL ; 
-турист:турист N-INFL ; 
-турмуш:турмуш N-INFL ;
-турна:турна N-INFL ; 
+туризм:туризм N-INFL ; ! "tourism"
+турист:турист N-INFL ; ! "tourist"
+турмуш:турмуш N-INFL ; ! "life"
+турна:турна N-INFL ; ! "crane"
 турнабай:турнабай N-INFL ; 
 турне:турне N-INFL ;
 турникет:турникет N-INFL ; 
@@ -6604,12 +6644,11 @@ LEXICON Nouns
 тутам:тутам N-INFL ;
 туткун:туткун N-INFL ; 
 туу:туу N-INFL ; ! "banner/flag"
-тууган:тууган N-INFL ;  ! "relative"
+тууган:тууган N-INFL ; ! "relative" ! Der/Ger
 туулган% жер:туулган% жер N-INFL ; 
 туум:туум N-INFL ;
-туура% келбеген:туура% келбеген N-INFL ; 
-туура% эмес:туура% эмес N-INFL ; 
-тууракелбестик:тууракелбестик N-INFL ; 
+туура:туура N-INFL ; ! "width"
+тууракелбестик:тууракелбестик N-INFL ; ! "falseness"
 тууралык:тууралык N-INFL ; ! "" 
 туурам:туурам N-INFL ; 
 туш:туш N-INFL ; 
@@ -6619,9 +6658,9 @@ LEXICON Nouns
 туңкуюк:туңкуюк N-INFL ;
 тыбыш:тыбыш N-INFL ; ! "speech sound"
 тыгыздык:тыгыздык N-INFL ; ! "" 
-тыйуу:тыйуу N-INFL ;
-тыйын% чычкан:тыйын% чычкан N-INFL ; ! "" 
-тыйын:тыйын N-INFL ; ! "" 
+тыйуу:тыйуу N-INFL ; ! "prohibition"
+тыйын% чычкан:тыйын% чычкан N-INFL ; ! "mouse"
+тыйын:тыйын N-INFL ; ! "coin"
 тынчтык% күч:тынчтык% күч N-INFL ;
 тынчтык% сактоо% ишмердик:тынчтык% сактоо% ишмердик N-INFL ; ! "" 
 тынчтык:тынчтык N-INFL ; 
@@ -6637,36 +6676,37 @@ LEXICON Nouns
 тээк:тээк N-INFL ; ! "" 
 тюльпан:тюльпан N-INFL ; ! "" 
 түбөлүктүк:түбөлүктүк N-INFL ; ! "" 
-түгөй:түгөй N-INFL ;
-түгөй:түгөй N-INFL ; 
+түгөй:түгөй N-INFL ; ! "pair, match"
 түгөлдөмө:түгөлдөмө N-INFL ;
 түгөлү:түгөлү N-INFL ;
 түздүк:түздүк N-INFL ; ! "равнина" 
 түзмө:түзмө N-INFL ;
-түзүлүш:түзүлүш N-INFL ;
+түзүлүш:түзүлүш N-INFL ; ! "shape(?)"
 түйүнчөк:түйүнчөк N-INFL ; 
-түк:түк N-INFL ; ! "" 
+түк:түк N-INFL ; ! "bail of hay"
 түкүрүк:түкүрүк N-INFL ; 
-түлкү:түлкү N-INFL ; 
+түлкү:түлкү N-INFL ; ! "fox"
 түлүк:түлүк N-INFL ; ! "" 
-түн:түн N-INFL ; 
+түн:түн N-INFL ; ! "night"
 түндүк:түндүк N-INFL ; ! "smoke-hole for yurt"
-түнөк:түнөк N-INFL ; ! "" 
+түнөк:түнөк N-INFL ; ! ""
+түп% нуска:түп% нуска N-INFL ; ! "original"
+түп% нуска:түпнуска N-INFL ; ! "original" ! Dir/LR
 түп:түп N-INFL ; 
-түпнуска:түпнуска N-INFL ; 
 түпсүз:түпсүз N-INFL ; ! "" 
 түр:түр N-INFL ; 
-түркмөн:түркмөн N-INFL ; ! "Turkmen"
-түркология:түркология N-INFL ;
-түрмө:түрмө N-INFL ;
+түркология:түркология N-INFL ; ! "turkology"
+түрмө:түрмө N-INFL ; ! "jailcell"
 түрмөө:түрмөө N-INFL ;
 түрп:түрп N-INFL ; 
 түрткү:түрткү N-INFL ; ! "" 
-түс:түс N-INFL ; ! "" 
-түтүк:түтүк N-INFL ; 
-түтүн:түтүн N-INFL ; 
+түс:түс N-INFL ; ! "colour"
+түтүк:түтүк N-INFL ; ! "pipe"
+түтүн:түтүн N-INFL ; ! "smoke"
 түш:түш N-INFL ;
+түшкү% тамак:түшкү% тамак N-INFL ; ! "lunch"
 түштүк:түштүк N-INFL ;
+түшүм:түшүм N-INFL ; ! "harvest"
 түшүмдүүлүк:түшүмдүүлүк N-INFL ; ! "" 
 түшүнбөстүк:түшүнбөстүк N-INFL ;
 түшүндүрмө:түшүндүрмө N-INFL ;
@@ -6675,60 +6715,57 @@ LEXICON Nouns
 төбө:дөбө N-INFL ; ! "" Dir/LR
 төбө:төбө N-INFL ; ! "" 
 төл:төл N-INFL ; 
+төлөм:төлөм N-INFL ; ! "payment"
 төлөө:төлөө N-INFL ;
-төр:төр N-INFL ; ! "" 
+төр:төр N-INFL ; ! "seat of honour"
 төрага:төр% ага N-INFL ; ! "" Dir/LR
 төрага:төрага N-INFL ; ! "" 
-төрагалык:төр% агалык N-INFL ; ! "" Dir/LR
+төрагалык:төр% агалык N-INFL ; ! "" Dir/LR ! FIXME: CHECK: not ADJ?
 төрагалык:төрагалык N-INFL ; ! "" 
 төрайым:төрайым N-INFL ; ! "" 
-төрт:төрт N-INFL ;
 төрттөн% бири:төрттөн% бири N-INFL ; 
 төрө:төрө N-INFL ; ! "" 
 төрөт:төрөт N-INFL ; 
-төш:төш N-INFL ; 
-төшөк:төшөк N-INFL ; 
+төш:төш N-INFL ; ! "chest"
+төшөк:төшөк N-INFL ; ! "bedding"
 төңкөрүш:төңкөрүш N-INFL ; ! "revolution" 
 төө% буурчак:төө% буурчак N-INFL ; 
-төө% куш:төө% куш N-INFL ; 
+төө% куш:төө% куш N-INFL ; ! "ostrich"
 төө:төө N-INFL ; ! "camel" 
-убада:убада N-INFL ; 
-убайым:убайым N-INFL ; ! "" 
+убада:убада N-INFL ; ! "promise"
+убайым:убайым N-INFL ; ! ""
 убак:убак N-INFL ;
-убакыт:убакыт N-INFL ; 
-убал:убал N-INFL ;
+убакыт:убакыт N-INFL ; ! "time"
+убал:убал N-INFL ; ! "condition"
 убара:убара N-INFL ; ! "" 
 углеводород:углеводород N-INFL ; ! "" 
-узундук:узундук N-INFL ;
-уй:уй N-INFL ; 
-уйгур:уйгур N-INFL ;
-уйку:уйку N-INFL ; 
+узундук:узундук N-INFL ; ! "length"
+уй:уй N-INFL ; ! "cow"
+уйку:уйку N-INFL ; ! "slumber"
 указ:указ N-INFL ; 
 укмуштуу:укмуштуу N-INFL ;
-укук% коргоочу:укук% коргоочу N-INFL ; ! "" 
-укук:укук N-INFL ; 
+укук% коргоочу:укук% коргоочу N-INFL ; ! "defender of rights"
+укук:укук N-INFL ; ! "rights"
 укукий:укукий N-INFL ; ! FIXME: CHECK: not ADJ?
 укуктарынан% ажыратуу:укуктарынан% ажыратуу N-INFL ;
 укуктуулук:укуктуулук N-INFL ; ! "" ! FIXME: CHECK: not ADJ?
 укурук:укурук N-INFL ; ! "lasso pole"
-улак:улак N-INFL ; ! "" 
+улак:улак N-INFL ; ! "kid (goat)"
 улама:улама N-INFL ; ! "улем, богослов" 
 уламыш:уламыш N-INFL ; ! "" 
 улан:улан N-INFL ; 
 уланды:уланды N-INFL ; 
 улануу:улануу N-INFL ;
 улук:улук N-INFL ; ! "" 
-улут:улут N-INFL ; 
+улут:улут N-INFL ; ! "nation"
 улутчул:улутчул N-INFL ; 
 улутчулдук:улутчулдук N-INFL ; 
 ультиматум:ультиматум N-INFL ; 
 ультрафиолет:ультрафиолет N-INFL ; 
-ун:ун N-INFL ; 
-унаа:унаа N-INFL ;
-унаа:унаа N-INFL ; 
-унаа:унаа N-INFL ; ! "" 
+ун:ун N-INFL ; ! "flour"
+унаа:унаа N-INFL ; ! "vehicle"
 универсал:универсал N-INFL ; 
-университет:университет N-INFL ; 
+университет:университет N-INFL ; ! "university"
 униформа:униформа N-INFL ; 
 упай:упай N-INFL ; ! "" 
 ураган:ураган N-INFL ; 
@@ -6739,12 +6776,12 @@ LEXICON Nouns
 урмат:урмат N-INFL ; 
 уролог:уролог N-INFL ; 
 урология:урология N-INFL ; 
-урру:урру N-INFL ; 
+урпак:урпак N-INFL ; ! "[bran] siftings (отруби); descendant"
+урру:урру N-INFL ; ! FIXME: CHECK
 урук:урук N-INFL ; 
-уруксаат:уруксаат N-INFL ;
-уруксаат:уруксаат N-INFL ; 
-уруксат:уруксат N-INFL ; 
-уруу:уруу N-INFL ; 
+уруксаат:уруксаат N-INFL ; ! FIXME: CHECK
+уруксат:уруксат N-INFL ; ! "permission"
+уруу:уруу N-INFL ; ! "~tribe"
 уруш:уруш N-INFL ;
 уста:уста N-INFL ; 
 устав:устав N-INFL ;
@@ -6756,12 +6793,10 @@ LEXICON Nouns
 утопист:утопист N-INFL ; 
 утопия:утопия N-INFL ; 
 утуу:утуу N-INFL ;
-утюк:утюк N-INFL ; ! "iron (for ironing)"
 уу:уу N-INFL ; ! "poison"
-уул:уул N-INFL ; 
+уул:уул N-INFL ; ! "son"
+ууру:ууру N-INFL ; ! "thief"
 ууч:ууч N-INFL ; 
-уч:уч N-INFL ;
-уч:уч N-INFL ; ! "the tip of" 
 уч:уч N-INFL ; ! "tip, point"
 учак:учак N-INFL ; 
 учкуч:учкуч N-INFL ; 
@@ -6770,17 +6805,17 @@ LEXICON Nouns
 учурашуу:учурашуу N-INFL ; 
 ушак:ушак N-INFL ; 
 уюм:уюм N-INFL ;
-уютку:уютку N-INFL ; ! "" 
+уютку:уютку N-INFL ; ! "fermenting agent"
 уюум:уюум N-INFL ;
 уюшкан:уюшкан N-INFL ;
 уюштуруу:уюштуруу N-INFL ;
 уюштуруучу:уюштуруучу N-INFL ;
-уя:уя N-INFL ;
-уят:уят N-INFL ; 
+уя:уя N-INFL ; ! "nest, den"
+уят:уят N-INFL ; ! "shame"
 фабрика%-завод:фабрика%-завод N-INFL ; 
-фабрика:фабрика N-INFL ; 
+фабрика:фабрика N-INFL ; ! "factory"
 фаворит:фаворит N-INFL ;
-фаза:фаза N-INFL ; 
+фаза:фаза N-INFL ; ! "phase"
 факел:факел N-INFL ;
 факт:факт N6 ;
 фактор:фактор N-INFL ; 
@@ -6821,7 +6856,6 @@ LEXICON Nouns
 фигура:фигура N-INFL ; 
 физика:физика N-INFL ; 
 физиолог:физиолог N-INFL ; 
-физиология:физиология N-INFL ; 
 физиология:физиология N-INFL ; ! "physiology"
 физиономия:физиономия N-INFL ; 
 физиотерапия:физиотерапия N-INFL ; 
@@ -6829,12 +6863,12 @@ LEXICON Nouns
 филармония:филармония N-INFL ; 
 филасофия:филасофия N-INFL ; 
 филиал:филиал N-INFL ;
-филолог:филолог N-INFL ; 
-филология:филология N-INFL ; 
-философ:философ N-INFL ; 
+филолог:филолог N-INFL ; ! "philologist"
+филология:филология N-INFL ; ! "philology"
+философ:философ N-INFL ; ! "philosopher"
 философия:философия N-INFL ; ! "philosophy"
-фильм:фильм N-INFL ; 
-фильтр:фильтр N-INFL ; 
+фильм:фильм N-INFL ; ! "film"
+фильтр:фильтр N-INFL ; ! "filter"
 финал:финал N-INFL ; 
 финалист:финалист N-INFL ; 
 финанс:финанс N-INFL ;
@@ -6878,11 +6912,10 @@ LEXICON Nouns
 фронт:фронт N-INFL ; 
 фронтовик:фронтовик N-INFL ; ! "" 
 фумигация:фумигация N-INFL ;
-функция:функция N-INFL ;
 функция:функция N-INFL ; 
-фунт:фунт N-INFL ; 
+фунт:фунт N-INFL ; ! "pound"
 фут:фут N-INFL ; 
-футбол:футбол N-INFL ; 
+футбол:футбол N-INFL ; ! "football (soccer)"
 хадис:хадис N-INFL ; 
 хазар:хазар N-INFL ;
 халва:халва N-INFL ; 
@@ -6910,8 +6943,8 @@ LEXICON Nouns
 хорда:хорда N-INFL ; 
 храм:храм N-INFL ; 
 хрестоматия:хрестоматия N-INFL ; 
-христиан:христиан N-INFL ; 
-християн:християн N-INFL ;
+христиан:христиан N-INFL ; ! FIXME: CHECK
+християн:християн N-INFL ; ! FIXME: CHECK
 хромосома:хромосома N-INFL ; 
 хронология:хронология N-INFL ; 
 хронометр:хронометр N-INFL ; 
@@ -6943,7 +6976,6 @@ LEXICON Nouns
 чак:чак N-INFL ; 
 чака:чака N-INFL ; ! "bucket"
 чакыруу:чакыруу N-INFL ;
-чакыруу:чакыруу N-INFL ; 
 чакырык:чакырык N-INFL ;
 чакырым:чакырым N-INFL ; ! "invitation" ?
 чалап:чалап N-INFL ; 
@@ -6970,8 +7002,8 @@ LEXICON Nouns
 чаян:чаян N-INFL ; 
 чаң:чаң N-INFL ; ! "dust" 
 чебер:чебер N-INFL ; ! ""
-чейрек:чейрек N-INFL ; 
-чек% ара:чек% ара N-INFL ;
+чейрек:чейрек N-INFL ; ! "quarter"
+чек% ара:чек% ара N-INFL ; ! "border"
 чек% арачы:чек% арачы N-INFL;  ! "" 
 чек:чек N-INFL ; 
 чекара% сырты:чекара% сырты N-INFL ;
@@ -6985,7 +7017,7 @@ LEXICON Nouns
 чемпиондук:чемпиондук N-INFL ;
 чеп:чеп N-INFL ;
 чеп:чеп N-INFL ; 
-чет% өлкө:чет% өлкө N-INFL ; ! Use/MT
+чет% өлкө:чет% өлкө N-INFL ; ! "foreign country"
 чет:чет N-INFL ;
 четверг:четверг N-INFL ;
 четтик:четтик N-INFL ; 
@@ -7004,8 +7036,8 @@ LEXICON Nouns
 чиркөө:чиркөө N-INFL ;
 чобур:чобур N-INFL ; ! "" 
 чогулуш:чогулуш N-INFL ; 
-чоку:чоку N-INFL ;
-чоку:чоку N-INFL ; 
+чок:чок N-INFL ; ! "embers"
+чоку:чоку N-INFL ; ! "apex: top of head, peak"
 чолок:чолок N-INFL ;
 чорго:чорго N-INFL ; 
 чот% кара:чот% кара N-INFL ; 
@@ -7024,51 +7056,50 @@ LEXICON Nouns
 чыгармачылык:чыгармачылык N-INFL ;
 чыгаруу:чыгаруу N-INFL ;
 чыгаша:чыгаша N-INFL ;
-чыгуу:чыгуу N-INFL ;
 чыгуу:чыгуу N-INFL ; 
 чыгым:чыгым N-INFL ; 
-чыгыш:чыгыш N-INFL ; 
-чыдам:чыдам N-INFL ; 
+чыгыш:чыгыш N-INFL ; ! "exit, east"
+чыдам:чыдам N-INFL ; ! "patience"
 чыйыр:чыйыр N-INFL ;
 чыканак:чыканак N-INFL ; 
 чыккынчылык:чыккынчылык N-INFL ; ! "" 
-чымын:чымын N-INFL ; ! "" 
-чын% жүрөктөн:чын% жүрөктөн N-INFL ;
+чымчык:чымчык N-INFL ; ! "bird"
+чымын:чымын N-INFL ; ! "fly"
+чын% жүрөктөн:чын% жүрөктөн N-INFL ; ! FIXME: ADV not N
 чын:чын N-INFL ; 
 чындык:чындык N-INFL ; 
 чынжыр:чынжыр N-INFL ; 
-чыны:чыны N-INFL ; 
+чыны:чыны N-INFL ; ! "tea bowl"
 чыпка:чыпка N-INFL ; 
-чырак:чырак N-INFL ; 
-чычкан:чычкан N-INFL ; 
+чырак:чырак N-INFL ; ! "lantern"
+чычкан:чычкан N-INFL ; ! "mouse"
 чыңалуу:чыңалуу N-INFL ; 
-чүкө:чүкө N-INFL ;
-чөйрө:чөйрө N-INFL ;
+чүкө:чүкө N-INFL ; ! "astragalus (ankle bone)"
 чөйрө:чөйрө N-INFL ; 
 чөккөн:чөккөн N-INFL ;
-чөл:чөл N-INFL ; 
+чөл:чөл N-INFL ; ! "desert"
 чөнтөк:чөнтөк N-INFL ; ! "pocket"
 чөнөк:чөнөк N-INFL ; ! "грядка" 
-чөп:чөп N-INFL ; 
+чөп:чөп N-INFL ; ! "grass"
 шаар% чети:шаар% чети N-INFL ;
 шаар:шаар N-INFL ; ! "city"
 шаарча:шаарча N-INFL ; ! "town"
 шабдалы:шабдаалы N-INFL ; ! "" Dir/LR
 шабдалы:шабдалы N-INFL ; ! "peach" 
 шайкештик:шайкештик N-INFL ; 
-шайлоо:шайлоо N-INFL ;
-шайлоочу:шайлоочу N-INFL ;
+шайлоо:шайлоо N-INFL ; ! "election"
+шайлоочу:шайлоочу N-INFL ; ! "voter"
 шайман:шайман N-INFL ; 
 шайтан% араба:шайтан% араба N-INFL ; 
-шайтан:шайтан N-INFL ; 
+шайтан:шайтан N-INFL ; ! "daemon"
 шак:шак N-INFL ; 
 шакал:шакал N-INFL ; 
-шакек:шакек N-INFL ; 
+шакек:шакек N-INFL ; ! "ring"
 шакирт:шакирт N-INFL ; 
 шалаакылык:шалаакылык N-INFL ; 
 шалбар:шалбар N-INFL ; 
 шалгам:шалгам N-INFL ; 
-шам:шам N-INFL ; 
+шам:шам N-INFL ; ! "light, lamp"
 шамал:шамал N-INFL ;
 шаман:шаман N-INFL ; 
 шаманизм:шаманизм N-INFL ; 
@@ -7077,7 +7108,7 @@ LEXICON Nouns
 шантаж:шантаж N-INFL ; 
 шар:шар N-INFL ; 
 шарап:шарап N-INFL ; 
-шарият:шариат N-INFL ; ! "" Dir/LR
+шарият:шариат N-INFL ; ! "" Dir/LR ! Err/Orth
 шарият:шарият N-INFL ; ! "" 
 шарк:шарк N-INFL ; 
 шарп:шарп N-INFL ; ! "ящур" 
@@ -7090,10 +7121,10 @@ LEXICON Nouns
 шейшемби:шейшемби N-INFL ; ! "Tuesday"
 шейшеп:шейшеп N-INFL ; 
 шек% саноо:шек% саноо N-INFL ;
-шек:шек N-INFL ;
+шек:шек N-INFL ; ! "doubt"
 шекер:шекер N-INFL ; ! "sugar"
 шекил:шекил N-INFL ; 
-шектүү:шектүү N-INFL ;
+шектүү:шектүү N-INFL ; ! FIXME: not ADJ?
 шербет:шербет N-INFL ; 
 шерик:шерик N-INFL ; 
 шериктеш:шериктеш N-INFL ;
@@ -7108,9 +7139,9 @@ LEXICON Nouns
 шифон:шифон N-INFL ; 
 шифр:шифр N-INFL ; 
 шишик:шишик N-INFL ;
-шкаф:шкаф N-INFL ; 
+шкаф:шкаф N-INFL ; ! "shelf"
 шляпа:шляпа N-INFL ; 
-шок:шок N-INFL ; 
+шок:шок N-INFL ; ! "shock"
 шоколад:шоколад N-INFL ; 
 шоола:шоола N-INFL ; ! "" 
 шор:шор N-INFL ; ! "" 
@@ -7120,19 +7151,19 @@ LEXICON Nouns
 штаб:штаб N-INFL ;
 штамп:штамп N-INFL ; ! "" 
 штанга:штанга N-INFL ; 
-штат:штат N-INFL ; 
-штраф:штраф N-INFL ; ! "" 
-шумдук:шумдук N-INFL ; ! "" 
-шумкар:шумкар N-INFL ; ! "" 
+штат:штат N-INFL ; ! "state"
+штраф:штраф N-INFL ; ! "fine"
+шумдук:шумдук N-INFL ; ! ""
+шумкар:шумкар N-INFL ; ! ""
 шуру:шуру N-INFL ; ! "bead"
 шуулдоо:шуулдоо N-INFL ; ! "" 
 шыбыр:шыбыр N-INFL ; ! "" 
 шыктандырыш:шыктандырыш N-INFL ;
 шылдың:шылдың N-INFL ; 
 шылтоо:шылтоо N-INFL ; 
-шым:шым N-INFL ; ! "" 
+шым:шым N-INFL ; ! "pants"
 шып:шып N-INFL ;
-шыпыргы:шыпыргы N-INFL ; 
+шыпыргы:шыпыргы N-INFL ; ! "broom"
 шыңгырак:шыңгырак N-INFL ; 
 шүгүр:шүгүр N-INFL ; ! "" 
 шүгүр:шүкүр N-INFL ; ! "" Dir/LR
@@ -7142,10 +7173,11 @@ LEXICON Nouns
 шүгүрчүлүк:шүкүрчүлүк N-INFL ; ! "" Dir/LR
 ыза:ыза N-INFL ; ! "" 
 ызы%-чуу:ызы%-чуу N-INFL ; ! "" 
-ый:ый N-INFL ; 
+ый:ый N-INFL ; ! "lament song"
+ыйгарымдуу% элчи:ыйгарымдуу% элчи N-INFL ; ! Use/MT
 ыйман:ыйман N-INFL ; ! "" 
 ыйман:ыман N-INFL ; ! "" Dir/LR
-ыйык:ыйык N-INFL ; ! "saint" ! Use/MT
+ыйык:ыйык N-INFL ; ! "saint" ! Use/MT ! FIXME: not Adj?
 ыклас:ыклас N-INFL ; ! "" 
 ыклас:ыкылас N-INFL ; ! "" 
 ыкма:ыкма N-INFL ;
@@ -7153,7 +7185,7 @@ LEXICON Nouns
 ыктымалдуу:ыктымалдуу N-INFL ;
 ыктымалдык:ыктымалдык N-INFL ;
 ыктытма:ыктытма N-INFL ; 
-ыктытуу:ыктытуу N-INFL ; ! "hiccup" 
+ыктытуу:ыктытуу N-INFL ; ! "hiccup" ! FIXME: not ыткытуу ??
 ыктыяж:ыктыяж N-INFL ;
 ыктыяж:ыктыяж N-INFL ; 
 ылаачын:ылаачын N-INFL ;
@@ -7176,13 +7208,13 @@ LEXICON Nouns
 ыракмат:ыракмат N-INFL ; ! "" 
 ырастоо:ырастоо N-INFL ; 
 ыраң:ыраң N-INFL ; 
-ырчы:ырчы N-INFL ;
+ырчы:ырчы N-INFL ; ! "singer"
 ырыс:ырыс N-INFL ; ! "" 
 ырыскы:ырыскы N-INFL ; 
 ысрап:ысрап N-INFL ; 
 ысыка% байланыштуу:ысыка% байланыштуу N-INFL ;
-ысым:ысым N-INFL ; 
-ысырап:ысрап N-INFL ; ! "" Dir/LR
+ысым:ысым N-INFL ; ! "name"
+ысырап:ысрап N-INFL ; ! "" Dir/LR ! Err/Orth
 ысырап:ысырап N-INFL ; ! "" 
 ычкыр:ычкыр N-INFL ; 
 ышкырык:ышкырык N-INFL ; 
@@ -7199,10 +7231,12 @@ LEXICON Nouns
 эгоист:эгоист N-INFL ; 
 эже:эже N-INFL ; ! ""
 эжей:эжей N-INFL ; ! "" 
-эжей:эжеке N-INFL ; ! "" Dir/LR
+эжей:эжеке N-INFL ; ! "" Dir/LR ! FIXME: CHECK
+эжеке:эжеке N-INFL ; ! ""
 эзүү:эзүү N-INFL ;
 экватор:экватор N-INFL ; 
 экзотика:экзотика N-INFL ; 
+экинчи% күнү:экинчи% күнү N-INFL-3PX-COMPOUND ; ! "Tuesday"
 экипаж:экипаж N-INFL ; 
 эклиптика:эклиптика N-INFL ; 
 экмек:экмек N-INFL ; 
@@ -7211,17 +7245,16 @@ LEXICON Nouns
 экологиялык:экологиялык N-INFL ;
 экономика:экономика N-INFL ; 
 экономист:экономист N-INFL ; 
-экперт:экперт N-INFL ; 
-экран:экран N-INFL ; 
+экперт:экперт N-INFL ; ! FIXME: CHECK
+экран:экран N-INFL ; ! "screen"
 экскаватор:экскаватор N-INFL ; 
 экскурсия:экскурсия N-INFL ; 
 экспедиция:экспедиция N-INFL ; 
 эксперимент:эксперимент N-INFL ; 
-эксперт:эксперт N-INFL ; ! "" 
+эксперт:эксперт N-INFL ; ! "expert" 
 экспертиза:экспертиза N-INFL ; 
 экспозиция:экспозиция N-INFL ; 
-экспорт:экспорт N-INFL ;
-экспорт:экспорт N-INFL ; 
+экспорт:экспорт N-INFL ; ! "export"
 экстра:экстра N-INFL ; 
 эл% өкүлдүк:эл% өкүлдүк N-INFL ;
 эл% өкүлү:эл% өкүлү N-INFL ;
@@ -7250,8 +7283,8 @@ LEXICON Nouns
 эмбрион:эмбрион N-INFL ; 
 эмгек% акы:эмгек% акы N-INFL ; ! "" 
 эмгек:эмгек N-INFL ; ! "labour,work"
-эмгекчи:эмгекчи N-INFL ; ! "labourer,worker"
 эмгектештик:эмгектештик N-INFL ; ! "" 
+эмгекчи:эмгекчи N-INFL ; ! "labourer,worker"
 эмерек:эмерек N-INFL ; ! "furniture"
 эмигрант:эмигрант N-INFL ;
 эмир:эмир N-INFL ; 
@@ -7286,10 +7319,9 @@ LEXICON Nouns
 эркиндик:эркиндик N-INFL ;
 эрмен:эрмен N-INFL ; ! "" 
 эрте:эрте N-INFL ;
-! эрте:эрте N-INFL ; ! CHECK ! "removing duplicate" 
+эртең% мененки% тамак:эртең% мененки% тамак N-INFL ; ! "breakfast" ! Use/MT
 эртең:эртең N-INFL ; ! "shouldn't be adv?" 
-эс% алуу:эс% алуу N-INFL ;
-эс% алуу:эс% алуу N-INFL ; 
+эс% алуу:эс% алуу N-INFL ; ! Der/Ger
 эс% тутум:эс% тутум N-INFL ; 
 эс:эс N-INFL ;
 эс:эс N-INFL ; 
@@ -7309,13 +7341,13 @@ LEXICON Nouns
 этажерка:этажерка N-INFL ; 
 эталон:эталон N-INFL ; 
 этап:этап N-INFL ; ! "" 
-этек:этек N-INFL ; 
+этек:этек N-INFL ; ! "lower hem of skirt/pants"
 этибар:этибар N-INFL ; 
 этика:этика N-INFL ; 
 этикет:этикет N-INFL ; 
 этикетка:этикетка N-INFL ; ! "label"
 этил:этил N-INFL ; 
-этиш:этиш N-INFL ; 
+этиш:этиш N-INFL ; ! "verb"
 этият:этият N-INFL ; 
 этияттык:этияттык N-INFL ; 
 этникалык:этникалык N-INFL ;
@@ -7331,24 +7363,25 @@ LEXICON Nouns
 эшек:эшек N-INFL ; 
 эшик:эшик N-INFL ; 
 ээ% болгон:ээ% болгон N-INFL ;
-ээ:эге N-INFL ; ! Dir/LR dialectal form
-ээ:ээ N-INFL ; 
+ээ:эге N-INFL ; ! "owner" Dir/LR dialectal form
+ээ:ээ N-INFL ; ! "owner"
 ээгин:ээгин N-INFL ; 
 ээлик:ээлик N-INFL ;
 ээр:ээр N-INFL ; ! "saddle"
 эңсеген% жер:эңсеген% жер N-INFL ; ! "" 
 юань:юань N-INFL ; 
 юбилей:юбилей N-INFL ; 
-юбка:юбка N-INFL ; 
-юмор:юмор N-INFL ; 
-юрист:юрист N-INFL ; ! "" 
+юбка:юбка N-INFL ; ! "skirt"
+юмор:юмор N-INFL ; ! "humour"
+юрист:юрист N-INFL ; ! ""
 юстиция:юстиция N-INFL ;
-ягуар:ягуар N-INFL ; 
+ягуар:ягуар N-INFL ; ! "jaguar"
 ядро:ядро N-INFL ; ! "" 
 январ:январ N-INFL ;
 январь:январь N-INFL ;
 яхта% порту:яхта% порту N-INFL ;
 яхта:яхта N-INFL ;
+ящур:ящур N-INFL ; ! "see шарп" ! Dir/LR
 үгүт:үгүт N-INFL ; ! ""
 үгүттөөчү:үгүттөөчү N-INFL ; ! ""
 үзгүлтүк:үзгүлтүк N-INFL ;
@@ -7365,17 +7398,16 @@ LEXICON Nouns
 үйрөнчүк:үйрөнчүк N-INFL ; 
 үйрөнүу:үйрөнүу N-INFL ;
 үйрөнүү:үйрөнүү N-INFL ; 
-үйүр:үйүр N-INFL ;
-үлгү:үлгү N-INFL ; 
+үйүр:үйүр N-INFL ; ! "herd"
+үлгү:үлгү N-INFL ; ! "example, pattern"
 үлүл:үлүл N-INFL ; ! "snail" 
 үлүш:үлүш N-INFL ; 
 үмүт% кылынган:үмүт% кылынган N-INFL ;
-үмүт:үмүт N-INFL ;
+үмүт:үмүт N-INFL ; ! "hope"
 үмүткер:үмүткер N-INFL ; ! "" 
 үмүткер:үмүткөр N-INFL ; ! "" Dir/LR
-үн:үн N-INFL ;
-үн:үн N-INFL ; 
-үналгы:үналгы N-INFL ;
+үн:үн N-INFL ; ! "voice"
+үналгы:үналгы N-INFL ; ! "radio"
 үндүк:үндүк N-INFL ; 
 үнөм:үнөм N-INFL ;
 үркүү:үркүү N-INFL ; 
@@ -7385,10 +7417,11 @@ LEXICON Nouns
 үстөл:стол N-INFL ; ! "table" Dir/LR
 үстөл:үстөл N-INFL ; ! "table" 
 үстөмдүк:үстөмдүк N-INFL ;
+үтүк:утюк N-INFL ; ! "iron (for ironing)" ! Dir/LR ! Err/Orth
 үтүк:үтүк N-INFL ; ! "iron (for ironing)"
 үч:үч N-INFL ;
 үшүк:үшүк N-INFL ; ! "" 
-өгүз:өгүз N-INFL ; 
+өгүз:өгүз N-INFL ; ! "ox"
 өжөрлүк:өжөрлүк N-INFL ; 
 өзбек:өзбек N-INFL ;
 өзгөрүш:өзгөрүш N-INFL ;
@@ -7398,7 +7431,7 @@ LEXICON Nouns
 өзүмчүлдүк:өзүмчүлдүк N-INFL ; ! "egoism, selfishness"
 өзөк:өзөк N-INFL ;
 өзөн:өзөн N-INFL ; ! "" 
-өкмөт:өкмөт N-INFL ; 
+өкмөт:өкмөт N-INFL ; ! "local government"
 өкүл:өкүл N-INFL ;
 өкүлчүлүк:өкүлчүлүк N-INFL ;
 өкүм:өкүм N-INFL ; 
@@ -7408,12 +7441,13 @@ LEXICON Nouns
 өлкө:өлкө N-INFL ; ! "country, land"
 өлчөм:өлчөм N-INFL ; 
 өлчөө:өлчөө N-INFL ; 
+өлүк:өлүк N-INFL ; ! "corpse"
 өлүм:өлүм N-INFL ; ! "death"
-өмүр:өмүр N-INFL ;
+өмүр:өмүр N-INFL ; ! "life"
 өндүрүм:өндүрүм N-INFL ; ! "" 
 өндүрүмдүүлүк:өндүрүмдүүлүк N-INFL ;
 өндүрүш:өндүрүш N-INFL ;
-өнүгүү:өнүгүү N-INFL ;
+өнүгүү:өнүгүү N-INFL ; ! "development"
 өнөк:өнөк N-INFL ; 
 өнөктөштүк:өнөктөштүк N-INFL ; ! "partnership" 
 өнөр% жай:өнөр% жай N-INFL ;
@@ -7425,94 +7459,27 @@ LEXICON Nouns
 өркөч:өркөч N-INFL ; 
 өрнөк:өрнөк N-INFL ; 
 өрт% өчүргүч:өрт% өчүргүч N-INFL ; 
-өрт:өрт N-INFL ; 
-өрүк:өрүк N-INFL ; 
+өрт:өрт N-INFL ; ! "[destructive] fire"
+өрүк:өрүк N-INFL ; ! "apricot"
 өрүү:өрүү N-INFL ; 
 өрөөн:өрөөн N-INFL ; ! "valley (large)"
-өсүм:өсүм N-INFL ; ! "" 
+өсүм:өсүм N-INFL ; ! "growth(?)"
 өсүмдүк:өсүмдүк N-INFL ; ! "plant"
 өсүү:өсүү N-INFL ;
 өт:өт N-INFL ; 
-өткөн% жылы:өткөн% жылы N-INFL ; 
-өткөн:өткөн N-INFL ; ! Use/MT
+өткөн% жылы:өткөн% жылы N-INFL ; ! FIXME: not ADJ?  also, compositional
+өткөн:өткөн N-INFL ; ! Use/MT ! FIXME: CHECK
 өткөрүү:өткөрүү N-INFL ;
 өтмөк:өтмөк N-INFL ; 
 өтпөй% калуу:өтпөй% калуу N-INFL ;
 өтүк:өтүк N-INFL ; ! "boot"
 өтүлдүк:өтүлдүк N-INFL ; ! "assurance" 
 өтүнүч:өтүнүч N-INFL ; 
-өч% алуу:өч% алуу N-INFL ;
-өч:өч N-INFL ; 
-өчүргүч:өчүргүч N-INFL ; 
-өчүрүү:өчүрүү N-INFL ;
+өч% алуу:өч% алуу N-INFL ; ! "revenge taking"
+өч:өч N-INFL ; ! "revenge"
+өчүргүч:өчүргүч N-INFL ; ! "eraser"
+өчүрүү:өчүрүү N-INFL ; ! Der/Ger
 өң:өң N-INFL ; ! "colour" 
-
-!! JNW Nouns
-чымчык:чымчык N-INFL ; ! "bird"
-медайым:медайым N-INFL ; ! "nurse"
-алып% баруучу:алып% баруучу N-INFL ; ! "MC, host"
-көнүгүү:көнүгүү N-INFL ; ! "exercise"
-пончик:пончик N-INFL ; ! "scone/doughnut/etc."
-булочка:булочка N-INFL ; ! "roll (food)"
-рахат:рахат N-INFL ; ! "pleasure"
-рахат:ырахат N-INFL ; ! "pleasure" ! Dir/LR
-насыя:насыя N-INFL ; ! "credit"
-түшкү% тамак:түшкү% тамак N-INFL ; ! "lunch"
-эртең% мененки% тамак:эртең% мененки% тамак N-INFL ; ! "breakfast" ! FIXME: check
-дүйнөнүн% төрт% бурчу:дүйнөнүн% төрт% бурч N-INFL-3PX-COMPOUND ; ! "the four corners of the world"   ! Use/MT
-маек% алуу N-INFL ; ! "interview (as an event)" ! Use/MT
-экинчи% күнү:экинчи% күнү N-INFL-3PX-COMPOUND ; ! "Tuesday"
-жолугушуу:жолугушуу N-INFL ; ! "meeting" ! Use/MT
-жерге% берүү:жерге% берүү N-INFL ; ! "funeral/burial" ! Use/MT
-буддист:буддист N-INFL ; ! "buddhist"
-наристе% кези:наристе% кез N-INFL-3PX-COMPOUND ; ! "baby-hood" ! Use/MT
-маанай:маанай N-INFL ; ! "mood"
-кошумча:кошумча N-INFL ; ! "addition, extension(?)" ! Use/MT ! FIXME: or check whether <adj><subst> is right -JNW 
-ыйгарымдуу% элчи:ыйгарымдуу% элчи N-INFL ; ! Use/MT
-антена:антена N-INFL ; ! "antenna"
-кеңдик:кеңдик N-INFL ; ! "width"
-жол% багыты:жол% багыты N-INFL ; ! "güzergah" ! Use/MT
-жан% сакчы:жан% сакчы N-INFL ; ! "body guard" ! Use/MT
-башкы% эпископ:башкы% эпископ N-INFL ; ! Use/MT
-белги:белги N-INFL ; ! "sign, symbol"
-мазмун:мазмун N-INFL ; ! "contents"
-буюм:буюм N-INFL ; ! "thing"
-көрүнүш:көрүнүш N-INFL ; ! "sight"
-айыптоо% сөзү:айыптоо% сөз N-INFL-3PX-COMPOUND ; ! ""  FIXME: MT-only?
-балапан:балапан N-INFL ; ! "chick"
-урпак:урпак N-INFL ; ! "[bran] siftings (отруби); descendant"
-кедерги:кедерги N-INFL ; ! "hinderance"
-кыйындык:кыйындык N-INFL ; ! "difficulty, hardship"
-турак:турак N-INFL ; ! "~habitation"
-зордук:зордук N-INFL ; ! "rape"
-коло:коло N-INFL ; ! "bronze"
-күнөөкөр:күнөөкөр N-INFL ; ! "sinner"
-төлөм:төлөм N-INFL ; ! "payment"
-чок:чок N-INFL ; ! "embers"
-салмак:салмак N-INFL ; ! "weight"
-саан:саан N-INFL ; ! "milking (e.g., саан уй = milk cow, саан токтоду = milking is over)"
-ууру:ууру N-INFL ; ! "thief"
-ящур:ящур N-INFL ; ! "see шарп" ! Dir/LR
-көч:көч N-INFL ; ! "nomadic movement"
-айырбаш:айырбаш N-INFL ; ! "exchange"
-туура:туура N-INFL ; ! "width"
-көлдөлөң:көлдөлөң N-INFL ; ! "a stitched mat"
-соот:соот N-INFL ; ! "armour"
-соот:зоот N-INFL ; ! "armour" ! Dir/LR
-кийин:кийин N-INFL ; ! "" ! Use/MT
-болочок:болочок N-INFL ; ! "future"
-көк:көк N-INFL ; ! "sky, heaven"
-багуу:багуу N-INFL ; ! "care" ! Use/MT
-өлүк:өлүк N-INFL ; ! "corpse"
-байкуш:байкуш N-INFL ; ! "poor thing"
-традициялуулук:традициялуулук N-INFL ; ! "traditionalness"
-окшоштук:окшоштук N-INFL ; ! "similarity"
-сом:сом N-INFL ; ! "som (Kyrgyzstani (KGS) or Uzbekistani)" 
-сырткы% түр:сырткы% түр N-INFL ; ! "appearance" ! ֻUse/MT
-коминтерн:коминтерн N1 ; ! ""
-
-жылмаюу:жылмаюу N-INFL ; ! "smile"
-коммуна:коммуна N-INFL ; ! ""
 
 
 ! Abbreviations
@@ -7521,31 +7488,53 @@ LEXICON Nouns
 
 
 
-!!!!!! Nationalities  !!!!!!!
-англичан:англичан N1 ; ! "English"
+!!!!!! Nationalities !!!!!!!
+
+! кыргызча ADJ ; ! This should be automatically generated
 албан:албан N1 ; ! ""
-американ:американ N1 ; ! ""
 америкалык:америкалык N1 ; ! ""
+американ:американ N1 ; ! ""
+англичан:англичан N1 ; ! "English"
 араб:араб N1 ; ! "Arabean"
 арамей:арамей N1 ; ! ""
+арап:арап N1 ; ! "Arab"
 афган:афган N1 ; ! ""
-
-башкырт:башкырт N1 ; ! ""
+башкорт:башкорт N1 ; ! ""
+башкорт:башкырт N1 ; ! "" ! Dir/LR
 белорус:белорус N1 ; ! ""
 британ:британ N1 ; ! ""
+булгар:булгар N1 ; ! "Bulgarian"
 бурят:бурят N1 ; ! ""
 венгр:венгр N1 ; ! ""
 грек:грек N1 ; ! "Greek"
 грузин:грузин N1 ; ! ""
 гуарани:гуарани N1 ; ! ""
+дунган:дунган N1 ; ! "Dungan"
+дунган:дуңган N1 ; ! "Dungan"     ! Dir/LR
 еврей:еврей N1 ; ! "Jewish"
 итальян:итальян N1 ; ! ""
+казак:казак N-INFL ;  ! "Kazakh"
+калмак:калмак N1 ; ! "Kalmyk"
 карел:карел N1 ; ! ""
-күрд:күрд N1 ; ! ""
 кыпчак:кыпчак N1 ; ! ""
+кыргыз:кыргыз N1 ; ! "Kyrgyz"
+кытай:кытай N-INFL ; ! "Chinese"
+күрд:күрд N1 ; ! ""
+латын:латын N1 ; ! "Latin"
 мордва:мордва N1 ; ! ""
+моңгол:монгол N1 ; ! "Mongol" ! Dir/LR
+моңгол:моңгол N1 ; ! "Mongol"
+немис:немис N1 ; ! "German"
+орус:орус N1 ; ! "Russian"
+парсы:парсы N1 ; ! ""
 поляк:поляк N1 ; ! ""
+славян:славян N1 ; ! ""
+тажик:тажик N1 ; ! "Tajik"
 татар:татар N1 ; ! "Tatar"
+түрк:түрк N1 ; ! "Turkish"
+түркмөн:түркмөн N1 ; ! "Turkmen"
+уйгур:уйгур N1 ; ! ""
+уйгур:уйгур N1 ; ! "Uyghur"
 украин:украин N1 ; ! "Ukranian"
 урду:урду N1 ; ! ""
 француз:француз N1 ; ! "French"
@@ -7553,29 +7542,7 @@ LEXICON Nouns
 чуваш:чуваш N1 ; ! ""
 швед:швед N1 ; ! "" 
 якут:якут N1 ; ! ""
-славян:славян N1 ; ! ""
-казак:казак N-INFL ;  ! "Kazakh"
-моңгол:моңгол N1 ;  ! "Mongol"
-моңгол:монгол N1 ;  ! "Mongol"    ! Dir/LR
-кыргыз:кыргыз N1 ; ! "Kyrgyz"
-түрк:түрк N1 ; ! "Turkish"
-! кыргызча ADJ ; ! This should be automatically generated
-орус:орус N1 ; ! "Russian"
-булгар:булгар N1 ; ! "Bulgarian"
-арап:арап N1 ; ! "Arab"
 өзбек:өзбек N1 ; ! "Uzbek"
-тажик:тажик N1 ; ! "Tajik"
-калмак:калмак N1 ; ! "Kalmyk"
-кытай:кытай N-INFL ; ! "Chinese"
-латын:латын N1 ; ! "Latin"
-моңгол:монгол N1 ; ! "Mongol" Dir/LR
-моңгол:моңгол N1 ; ! "Mongol"
-немис:немис N1 ; ! "German"
-дунган:дунган N1 ; ! "Dungan"
-дунган:дуңган N1 ; ! "Dungan"     ! Dir/LR
-өзбек:өзбек N1 ; ! ""
-парсы:парсы N1 ; ! ""
-уйгур:уйгур N1 ; ! ""
 
 америка:америка NAT ; ! "American"
 ! америка:американдык NAT ; ! FIXME: this form works in addition to "америкалык"
