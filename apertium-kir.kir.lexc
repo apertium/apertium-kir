@@ -1480,14 +1480,19 @@ LEXICON V-PERS-COP ! P_3
 
 LEXICON V-PERS-COP-SUF 
 
+%<p3%>%<sg%>: V-CLIT ; 
+%<p3%>%<pl%>: V-CLIT ; 
+V-PERS-COP-SUF-NOP3 ;
+
+
+LEXICON V-PERS-COP-SUF-NOP3
+
 %<p1%>%<sg%>:%>м%{I%}н V-CLIT ; 
 %<p2%>%<sg%>:%>с%{I%}ң V-CLIT ; 
 %<p2%>%<frm%>%<sg%>:%>с%{I%}з V-CLIT ; 
-%<p3%>%<sg%>: V-CLIT ; 
 %<p1%>%<pl%>:%>%{B%}%{I%}з V-CLIT ; 
 %<p2%>%<pl%>:%>с%{I%}ң%{A%}р V-CLIT ;  
 %<p2%>%<frm%>%<pl%>:%>с%{I%}зд%{A%}р V-CLIT ;  
-%<p3%>%<pl%>: V-CLIT ; 
 
 LEXICON V-PERS-PAST ! P_4
 
@@ -1719,7 +1724,9 @@ LEXICON V-FINITE-REGULAR_NEGATIVE
 %<aor%>:%>%{E%} V-PERS-PRES ;                                     !
 %<aor%>%<evid%>:%>%{E%}%>т% экен V-PERS-COP-SUF ;                 !
 
-%<ifi%>%<evid%>:%>%{I%}пт%{I%}р V-PERS-COP-SUF ;                  ! evidential recent past
+! evidential recent past
+%<ifi%>%<evid%>:%>%{I%}пт%{I%}р V-PERS-COP-SUF ;                  
+%<ifi%>%<evid%>:%>%{I%}п V-PERS-COP-SUF-NOP3 ;                    ! Dir/LR
 
 %<pih%>:%>ч%{U%} V-PERS-COP-SUF ;                                 ! 
 
