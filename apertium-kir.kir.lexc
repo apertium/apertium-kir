@@ -6742,7 +6742,8 @@ LEXICON Nouns
 убада:убада N-INFL ; ! "promise"
 убайым:убайым N-INFL ; ! ""
 убак:убак N-INFL ;
-убакыт:убакыт N-INFL ; ! "time"
+убакыт:убакыт N-INFL ; ! "time" ! Dir/LR
+убакыт:убак%{y%}т N-INFL ; ! "time"
 убал:убал N-INFL ; ! "condition"
 убара:убара N-INFL ; ! "" 
 углеводород:углеводород N-INFL ; ! "" 
