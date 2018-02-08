@@ -16624,19 +16624,19 @@ LEXICON Verbs
 без:без V-INFL-IV ; 
 ! билдир:билдир V-INFL-TV ; ! CAUS
 ! билин V-INFL-IV ;  ! productive
-боё:боё V-INFL-TV ; 
+боё:боё V-INFL-TV ; ! "paint"
 була:була V-INFL-TV ; 
 бур:бур V-INFL-IV ; 
 бур:бур V-INFL-TV ;  ! in bidix ! "twist, turn"
-буйру:буйру V-INFL-TV ; 
+буйру:буйру V-INFL-TV ; ! "command, order"
 буйру:буюр V-INFL-TV ; ! Dir/LR
 ! бырыштыр V-INFL-TV ;  regular
-бырыш:бырыш V-INFL-IV ; 
-быч:быч V-INFL-TV ; 
+бырыш:бырыш V-INFL-IV ; ! "get wrinkled"
+быч:быч V-INFL-TV ; ! "cut off / castrate"
 быш:быш V-INFL-IV-NO-CAUS ; ! "cook" / "be cooked"
 быш:бышыр V-INFL-IV-IRREG-CAUS ; ! "cook"
 бүк:бүк V-INFL-TV ; 
-бүктө:бүктө V-INFL-TV ; 
+бүктө:бүктө V-INFL-TV ; ! "fold"
 бөл:бөл V-INFL-TV ; ! "divide"
 бөлүн:бөлүн V-INFL-TV ; ! ""
 кий:кий V-INFL-TV ; ! "put on"
@@ -16662,11 +16662,11 @@ LEXICON Verbs
 жыйынтыкта:жыйынтыкта V-INFL-TV ; 
 жык:жык V-INFL-TV ; 
 жырт:жырт V-INFL-TV ; 
-жытта:жытта V-INFL-TV ; 
-же:же V-INFL-TV ; 
+жытта:жытта V-INFL-TV ; ! "smell"
+же:же V-INFL-TV ; ! "eat"
 жең:жең V-INFL-TV ; 
 жең:жең V-INFL-IV ;
-жүктө:жүктө V-INFL-TV ; 
+жүктө:жүктө V-INFL-TV ; ! "load"
 илгериле:илгериле V-INFL-IV ; 
 ионда:ионда V-INFL-TV ; ! "ionise"
 кайна:кайна V-INFL-IV ; ! "boil"
@@ -16681,15 +16681,15 @@ LEXICON Verbs
 кеч:кеч V-INFL-TV ; 
 кир:кир V-INFL-IV-NO-CAUS ; ! "enter"
 кир:киргиз V-INFL-IV-IRREG-CAUS ; ! "put in, enter (e.g. data)"
-кир:кир V-INFL-TV ;
-кооздо:кооздо V-INFL-TV ; 
+кир:кир V-INFL-IV ; ! "enter" +DAT
+кооздо:кооздо V-INFL-TV ; ! "beautify"
 чыда:чыда V-INFL-TV ; ! "put up with"
 чыда:чыда V-INFL-IV ; ! "be patient"
 бийле:бийле V-INFL-IV ; ! "dance"
 
 кошомат% кыл:кошомат% кыл V-INFL-TV ; 
 коңурук% тарт:коңурук% тарт V-INFL-IV ; 
-кубала:кубала V-INFL-TV ; 
+кубала:кубала V-INFL-TV ; ! "chase"
 кула:кула V-INFL-IV ; ! "fall over"
 кулат:кулат V-INFL-TV ; ! "make fall over"
 кура:кура V-INFL-TV ; ! "consist of multiple elements"
@@ -16697,15 +16697,15 @@ LEXICON Verbs
 кучакта:кучакта V-INFL-TV ; 
 кый:кый V-INFL-TV ; 
 ! кыйна:кыйна V-INFL-TV ; 
-кырк:кырк V-INFL-TV ; 
-кыс:кыс V-INFL-TV ; 
-азайт:азайт V-INFL-TV ;
+кырк:кырк V-INFL-TV ; ! "shear / cut hair"
+кыс:кыс V-INFL-TV ; ! "squeeze"
+азайт:азайт V-INFL-TV ; ! "decrease [in quantity/amount]" ! Der/Caus
 азгыр:азгыр V-INFL-TV ;
 акырында:акырында V-INFL-IV ;
-күй:күй V-INFL-IV ; 
+күй:күй V-INFL-IV ; ! "burn"
 күйүн:күйүн V-INFL-IV ; ! "root for (with үчүн)"
 күнөөлө:күнөөлө V-INFL-TV ; 
-көбөйт:көбөйт V-INFL-TV ; 
+көбөйт:көбөйт V-INFL-TV ; ! "increase [in quantity/amount]" ! Der/Caus
 
 көч:көч V-INFL-IV-NO-CAUS ; ! "move"
 көч:көчүр V-INFL-IV-IRREG-CAUS ; ! "make move"
@@ -16723,7 +16723,7 @@ LEXICON Verbs
 оз:оз V-INFL-IV ; 
 ойно:ойно V-INFL-IV ; ! "play"
 ойно:ойно V-INFL-TV ; ! "play"
-окшо:окшо V-INFL-TV ; 
+окшо:окшо V-INFL-IV ; ! "be similar to" (with DAT)
 онто:онто V-INFL-IV ; 
 ор:ор V-INFL-TV ; 
 оро:оро V-INFL-TV ; 
@@ -16775,16 +16775,17 @@ LEXICON Verbs
 топто:топто V-INFL-TV ; 
 тосуп% ал:тосуп% ал V-INFL-TV ; 
 тоң:тоң V-INFL-IV ; ! "freeze"
-тут:тут V-INFL-TV ; 
-түгөн:түгөн V-INFL-IV ; 
+тут:тут V-INFL-TV ; ! "hold"
+түгөн:түгөн V-INFL-IV ; ! "run out"
+түгөт:түгөт V-INFL-TV ; ! "use the last of"
 түзүл:түзүл V-INFL-TV ; 
 түтө:түтө V-INFL-IV ; 
 түш:түш V-INFL-IV-NO-CAUS ; ! "fall"
 түш:түшүр V-INFL-IV-IRREG-CAUS ; ! "to make fall"
 шаш:шаш V-INFL-IV ; ! "hurry"
-төк:төк V-INFL-TV ; 
-төк:төк V-INFL-IV ; 
-төлө:төлө V-INFL-TV ; 
+төк:төк V-INFL-TV ; ! "spill"
+төк:төк V-INFL-IV ; ! "[for e.g. rain] to pour"
+төлө:төлө V-INFL-TV ; ! "pay" 
 узат:узат V-INFL-TV ; 
 уза:уза V-INFL-TV ; 
 эри:ээри V-INFL-IV ; ! "melt" ! Dir/RL
@@ -16792,10 +16793,10 @@ LEXICON Verbs
 ушала:ушала V-INFL-TV ; 
 чак:чак V-INFL-TV ; 
 чакыр:чакыр V-INFL-TV ; 
-чыкыр:чыкыр V-INFL-TV ;
+чакыр:чыкыр V-INFL-TV ; ! Dir/LR
 чал:чал V-INFL-TV ; 
 ! чалын V-INFL-IV ; ! Regular passive
-чарчат:чарчат V-INFL-TV ; 
+чарчат:чарчат V-INFL-TV ; ! Der/Caus
 чарча:чарча V-INFL-IV ;
 чач:чач V-INFL-TV ; 
 агыт:агыт V-INFL-TV ;
@@ -17274,7 +17275,6 @@ LEXICON Verbs
 ары:ары V-INFL-IV ; ! "ары- III уставать, утомляться; изнуряться, худеть;"
 арыт:арыт V-INFL-TV ; ! FIXME: productive
 заалимдик% кыл:заалимдик% кыл V-INFL-IV ;
-түгөт:түгөт V-INFL-TV ;
 бурул:бурул V-INFL-TV ;
 кубала:кубала V-INFL-IV ;
 карама-каршы% чык:карама-каршы% чык V-INFL-IV ;
@@ -17758,8 +17758,8 @@ LEXICON Verbs
 суйлө:суйлө V-INFL-TV ;
 тыңша:тыңша V-INFL-TV ; ! "listen carefully/closely"
 кубан:кубан V-INFL-IV ; ! "be happy"
-ыргыт:ыргыт V-INFL-TV ; ! "throw/chuck"
-жакшылап:жакшылап V-INFL-IV ; ! "do well"
+ыргыт:ыргыт V-INFL-TV ; ! "throw/chuck" ! Der/Caus
+жакшыла:жакшыла V-INFL-IV ; ! "do well"
 уурда:уурда V-INFL-TV ; ! "steal"
 айык:айык V-INFL-IV ; ! "heal"  ! айыктыр caus
 куй:куй V-INFL-TV ; ! "pour"
@@ -17789,10 +17789,10 @@ LEXICON Verbs
 тала:тала V-INFL-TV ;
 талыт:талыт V-INFL-TV ;
 талпын:талпын V-INFL-IV ;
-тааныт:тааныт V-INFL-TV ; ! FIXME: PRODUCTIVE CAUS
+тааныт:тааныт V-INFL-TV ; ! FIXME ! Der/Caus
 тара:тара V-INFL-TV ; ! "расчесывать"
 тарал:тарал V-INFL-IV ;
-тарат:тарат V-INFL-TV ; ! FIXME: PRODUCTIVE CAUS
+тарат:тарат V-INFL-TV ; ! FIXME ! Der/Caus
 тырма:тырма V-INFL-TV ;
 туудур:туудур V-INFL-TV ;
 батыр:батыр V-INFL-TV ; 
