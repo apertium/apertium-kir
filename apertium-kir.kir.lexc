@@ -1446,6 +1446,7 @@ LEXICON V-CLIT-OTHER
 
 CLIT-QST-NO-BI ;
 CLIT-MODASS ;
+CLIT-CHI ;
 %+да%<mod_tru%>:% да # ;
 %+дыр%<mod_ind%>:%>%{D%}%{I%}р # ;   ! FIXME: twol size acts like this is causative
 %+имиш%<mod_dub%>:% имиш # ;
@@ -1638,8 +1639,12 @@ LEXICON V-INFL-NON-FINITE-IRREG
 LEXICON IMP
 !!! Stuff that can come after imperative forms !!!
 
-%+чы%<emph%>:%>ч%{I%} # ;
+CLIT-CHI ;
 # ;
+
+LEXICON CLIT-CHI
+
+%+чы%<emph%>:%>ч%{I%} # ;
 
 
 LEXICON V-INFL-NON-FINITE-REG
@@ -3316,8 +3321,10 @@ LEXICON Nouns
 аёо:аёо N-INFL ; ! "" 
 аң:аң N-INFL ; 
 аң:аң N-INFL ; ! "beast"
-аңгеме:аңгеме N-INFL ; ! "" 
-аңчы:аңчы N-INFL ;
+аңгеме:аңгеме N-INFL ; ! "story"
+аңгеме:аңгиме N-INFL ; ! "story" ! Dir/LR
+аңчы:аңчы N-INFL ; ! "hunter"
+аңчылык:аңчылык N-INFL ; ! "hunting"
 баа:баа N-INFL ; 
 баалулук:баалулук N-INFL ;
 баардык% нерсе:баардык% нерсе N-INFL ;
@@ -3383,7 +3390,9 @@ LEXICON Nouns
 балта:балта N-INFL ; ! "axe"
 балтыркан:балтыркан N-INFL ; 
 балчык:балчык N-INFL ; 
-балык:балык N-INFL ; 
+балык:балык N-INFL ; ! "fish"
+балыкчы:балыкчы N-INFL ; ! "fisher"
+балыкчылык:балыкчылык N-INFL ; ! "fishing"
 баляа:баляа N-INFL ;
 бамбук:бамбук N-INFL ;
 бампер:бампер N-INFL ; 
@@ -4717,10 +4726,11 @@ LEXICON Nouns
 классик:классик N-INFL ; 
 классицизм:классицизм N-INFL ; 
 клетка:клетка N-INFL ; ! "cell (biol.)"
-климат:климат N-INFL ; 
-клиника:клиника N-INFL ; 
-клуб:клуб N-INFL ; 
+климат:климат N-INFL ; ! "climate"
+клиника:клиника N-INFL ; ! "clinic"
+клуб:клуб N-INFL ; ! "club"
 клёш:клёш N-INFL ; 
+князь:князь N-INFL ; ! "~knight"
 коалиция:коалиция N-INFL ; 
 кобальт:кобальт N-INFL ; 
 кобра:кобра N-INFL ; 
@@ -7233,7 +7243,8 @@ LEXICON Nouns
 эгемендик:эгемендик N-INFL ; ! CHECK
 эгемендүүлүк:эгемендүүлүк N-INFL ; ! "independence"
 эгер:эгер N-INFL ;
-эгин:эгин N-INFL ; ! "" 
+эгиз:эгиз N-INFL ; ! "twin"
+эгин:эгин N-INFL ; ! "grain" 
 эгинчи:эгинчи N-INFL ; ! "" 
 эгинчилик:эгинчилик N-INFL ; ! "" 
 эгоизм:эгоизм N-INFL ; 
@@ -15864,7 +15875,7 @@ LEXICON Adjectives
 чүнчүгөн:чүнчүгөн ADJ ;
 ырахаттуу:ырахаттуу ADJ ;
 ышкыбоз:ышкыбоз ADJ ;
-эгиз:эгиз ADJ ;
+! эгиз:эгиз ADJ ;
 элжиреме:элжиреме ADJ ;
 эпидемиялык:эпидемиялык ADJ ;
 эр% жеткен ADJ ;
