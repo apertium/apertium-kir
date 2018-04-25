@@ -2603,7 +2603,6 @@ LEXICON Nouns
 ! сентябрь:сентябрь N-INFL ; ! "removing duplicate" 
 ! си:си N-INFL ; ! "removing duplicate" 
 ! сигнал:сигнал N-INFL ; ! "removing duplicate" 
-! символ:символ N-INFL ; ! "removing duplicate" 
 ! согуш:согуш N-INFL ; ! "removing duplicate" 
 ! соода:соода N-INFL ; ! "removing duplicate" 
 ! сот:сот N-INFL ; ! "removing duplicate" 
@@ -5763,6 +5762,7 @@ LEXICON Nouns
 парашют:парашют N-INFL ; ! "parachute"
 парвана:парвана N-INFL ; 
 парз:парз N-INFL ; 
+парда:парда N-INFL ; ! "curtain"
 парк:парк N-INFL ; 
 парламент:парламент N-INFL ; 
 парламентаризм:парламентаризм N-INFL ; 
@@ -5798,6 +5798,7 @@ LEXICON Nouns
 пенсионер:пенсионер N-INFL ;
 пенсия:пенсия N-INFL ; ! "" 
 период:период N-INFL ; 
+пери:пери N-INFL ; ! "curtainy"
 периште:периште N-INFL ; ! "angel"
 персонал:персонал N-INFL ; 
 перспектива:перспектива N-INFL ; 
@@ -6139,7 +6140,7 @@ LEXICON Nouns
 сийдик:сийдик N-INFL ; ! "piss/urine"
 силикон:силикон N-INFL ; 
 силос:силос N-INFL ; ! "silo; grass stored in a silo"
-символ:символ N-INFL ; 
+символ:символ N-INFL ; ! "symbol"
 символдук:символдук N-INFL ;
 симпатия:симпатия N-INFL ; 
 симпозиум:симпозиум N-INFL ;
@@ -6164,6 +6165,7 @@ LEXICON Nouns
 скептицизм:скептицизм N-INFL ; 
 склад:склад N-INFL ; 
 склероз:склероз N-INFL ; 
+скульптура:скульптура N-INFL ; ! "sculpture"
 слайд:слайд N-INFL ; 
 слоган:слоган N-INFL ;
 смокинг:смокинг N-INFL ; 
@@ -17539,7 +17541,7 @@ LEXICON Verbs
 жакта:жакта V-INFL-TV ; ! FIXME: check transitivity (probably IV and TV)
 негизде:негизде V-INFL-TV ;
 кезде:кезде V-INFL-TV ;
-кездеш:кездеш V-INFL-TV ;
+кездеш:кездеш V-INFL-IV ;
 ыйгар:ыйгар V-INFL-TV ; ! "dedicate" (?)
 эскир:эскир V-INFL-IV ; ! "get old"
 картай:картай V-INFL-IV ; ! "get old" (person)
