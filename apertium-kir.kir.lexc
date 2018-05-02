@@ -5562,6 +5562,7 @@ LEXICON Nouns
 национализм:национализм N-INFL ; 
 националист:националист N-INFL ; 
 начальник:начальник N-INFL ; ! "boss" (Russian)
+начарлык:начарлык N-INFL ; ! "badness"
 невроз:невроз N-INFL ; 
 невролог:невролог N-INFL ; 
 неврология:неврология N-INFL ; 
@@ -15923,6 +15924,7 @@ LEXICON Adjectives
 жугуштуу:жугуштуу A1 ; ! "transmitable (disease)" FIXME: CHECK A1
 башкача:башкача A1 ; ! "different" ! appers to be A1, with cmp and subst forms in google - JNW
 кылмыштык:кылмыштык A4 ; ! "criminal"
+район% ортолук:район% ортолук A4 ; ! "inter-district" FIXME: CHECK A4
 
 
 LEXICON Adverbs
@@ -16257,7 +16259,8 @@ LEXICON Adverbs
 тирүү% кезинде:тирүү% кезинде ADV ; ! "while alive"
 ушуга% чейин ADV ; ! "until now" ! Use/MT
 атайын:атайын ADV ; ! "purposely"
-алдын% ала:алдын% ала ADV ; ! "beforehand, ahead of time" ! Use/MT
+алдын% ала:алдын% ала ADV ; ! "beforehand, ahead of time"
+алдын% ала:алдын%-ала ADV ; ! "beforehand, ahead of time" ! Dir/LR
 өтө% эле:өтө% эле ADV ; ! "extremely" ! Use/MT
 бүтүндөй:бүтүндөй ADV ; ! "nearly all" ! Use/MT
 эптеп%-септеп:эптеп%-септеп ADV ; ! "somehow, barely, eventually, with difficulty" FIXME: gloss
@@ -17875,6 +17878,9 @@ LEXICON Verbs
 чыч:чыч V-INFL-IV ; ! "poop"
 эмде:эмде V-INFL-TV ; ! "heal"
 бекемде:бекемде V-INFL-TV ; ! "strengthen"
+сай:сай V-INFL-TV ; ! "jab, poke, stab"
+чуку:чуку V-INFL-TV ; ! "pick (ear, nose)"
+специализациялаш:специализациялаш V-INFL-IV ; ! "specialise"
 
 
 LEXICON Abbreviations
