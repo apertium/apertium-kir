@@ -137,7 +137,7 @@
 ! %<prc_prp%>   ! purposive
 %<prc_real%>  ! realis
 %<prc_pcond%> ! "would have" etc.
-!%<prc_fplan%> ! planning to
+%<prc_fplan%> ! planning to
 
 !!! Verbal adverbs ! Глагольные наречия
 %<gna_perf%>
@@ -1668,6 +1668,7 @@ LEXICON V-INFL-NON-FINITE-REG
 %<prc_fut%>:%>%{A%}р # ;       ! Dir/LR
 %<prc_irre%>:%>%{E%}т # ;
 %<prc_pcond%>:%>м%{A%}к # ;    ! in -мАк эле- etc.
+%<prc_fplan%>:%>м%{A%}кч%{I%} # ;    ! in -мАкчы бол- etc.
 
 
 
@@ -5495,8 +5496,9 @@ LEXICON Nouns
 муң:муң N-INFL ; ! "sorry"
 мыйзам% тышы:мыйзам% тышы N-INFL ;
 мыйзам% чыгарма:мыйзам% чыгарма N-INFL ;
-мыйзам:мыйзам N-INFL ;
+мыйзам:мыйзам N-INFL ; ! "law"
 мыйзамдуулук:мыйзамдуулук N-INFL ; ! "" 
+мыйзамсыздык:мыйзамсыздык N-INFL ; ! "illegality"
 мыйык:мыйык N-INFL ; 
 мык:мык N-INFL ; ! "nail" 
 мыкаачы:мыкаачы N-INFL ;
