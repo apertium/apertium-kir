@@ -7746,7 +7746,7 @@ LEXICON ProperNouns
 Гаванна:Гаванна NP-TOP ; 
 Газа:Газа NP-TOP ; ! ""
 Газиантеп:Газиантеп NP-TOP ;
-Гаити:Гаити NP-TOP ; ! ""
+Гаити:Гаити NP-TOP ; ! "Haiti"
 Гайана:Гайана NP-TOP ; ! ""
 Гамбия:Гамбия NP-TOP ; ! ""
 Гамбург:Гамбург NP-TOP ; ! ""
@@ -16948,7 +16948,7 @@ LEXICON Verbs
 сат:сат V-INFL-TV ;
 ташы:ташы V-INFL-TV ;
 сын% пикир% айт:сын% пикир% айт V-INFL-TV ;
-жогот:жогот V-INFL-TV ;
+жогот:жогот V-INFL-TV ; ! "lose" ! Der/Caus - can be thought of as caus of жогол
 жеңил:жеңил V-INFL-TV ;
 өнүк:өнүк V-INFL-IV ; ! "develop"
 кайтала:кайтала V-INFL-TV ;
@@ -17089,7 +17089,6 @@ LEXICON Verbs
 сурамжыла:сурамжыла V-INFL-TV ;
 көп% иште:көп% иште V-INFL-IV ;   ! "work a lot"   ! Use/Trmorph
 алек% бол:алек% бол V-INFL-TV ;
-жогол:жогол V-INFL-TV ;
 адаш:адаш V-INFL-IV ; ! "err,be mistaken,loose one's way,get lost"
 сөз% кыл:сөз% кыл V-INFL-TV ;
 !тий V-INFL-TV ;
@@ -17194,7 +17193,7 @@ LEXICON Verbs
 есепте:есепте V-INFL-TV ;
 согуш:согуш V-INFL-IV ;
 туурала:туурала V-INFL-TV ;
-жогол:жогол V-INFL-IV ;
+жогол:жогол V-INFL-IV ; ! "be lost"
 салын:салын V-INFL-IV ;
 пайдалан:пайдалан V-INFL-TV ;
 ачылыш% жаса:ачылыш% жаса V-INFL-IV ;
