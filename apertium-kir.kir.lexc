@@ -4320,6 +4320,7 @@ LEXICON Nouns
 ини:ини N-INFL ; ! "younger brother"
 инициатива:инициатива N-INFL ; 
 инсан:инсан N-INFL ; 
+инспекция:инспекция N-INFL ; ! "inspection"
 институт:институт N-INFL ;
 интеграл:интеграл N-INFL ; 
 интеграция:интеграция N-INFL ;
@@ -5808,6 +5809,7 @@ LEXICON Nouns
 перспектива:перспектива N-INFL ; 
 пессимизм:пессимизм N-INFL ; 
 пессимист:пессимист N-INFL ;
+пестицид:пестицид N1 ; ! "pesticide"
 петроль:петроль N-INFL ; 
 печенье:печенье N-INFL ; 
 печка:печка N-INFL ; 
@@ -16788,7 +16790,8 @@ LEXICON Verbs
 токто:токто V-INFL-IV ; ! "stop" 
 токтот:токтот V-INFL-TV ; ! "stop"  ! Regular causative
 токтон:токтон V-INFL-IV ;
-тол:тол V-INFL-IV ; ! "be full"
+тол:тол V-INFL-IV-NO-CAUS ; ! "be full"
+тол:толтур V-INFL-IV-IRREG-CAUS ; ! "fill"
 толукта:толукта V-INFL-TV ; 
 төмөнсүн:төмөнсүн V-INFL-IV-NO-CAUS ; ! "to feel down" 
 төмөнсүн:төмөнсүнт V-INFL-IV-IRREG-CAUS ; ! "to make _ feel down"
