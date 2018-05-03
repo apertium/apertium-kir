@@ -2150,30 +2150,30 @@ LEXICON Determiners
 LEXICON Pronouns
 
 мен%<prn%>%<pers%>%<p1%>%<sg%>:м PRON-PERS-EN ; 
-мен%<prn%>%<pers%>%<p1%>%<sg%>%<adv%>:менимче CLIT ;
-мен%<prn%>%<pers%>%<p1%>%<sg%>%<adv%>:меникиче CLIT ; ! Dir/LR - different meaning than менимче!!
+мен%<prn%>%<pers%>%<p1%>%<sg%>%<advl%>:менимче CLIT ;
+мен%<prn%>%<pers%>%<p1%>%<sg%>%<advl%>:меникиче CLIT ; ! Dir/LR - different meaning than менимче!!
 
 сен%<prn%>%<pers%>%<p2%>%<sg%>:с PRON-PERS-EN ; 
-сен%<prn%>%<pers%>%<p2%>%<sg%>%<adv%>:сеникиче CLIT ;
+сен%<prn%>%<pers%>%<p2%>%<sg%>%<advl%>:сеникиче CLIT ;
 
 сиз%<prn%>%<pers%>%<p2%>%<sg%>%<frm%>:сиз PRON-PERS-IZ ; 
-сиз%<prn%>%<pers%>%<p2%>%<sg%>%<frm%>%<adv%>:сиздикиче CLIT ;
+сиз%<prn%>%<pers%>%<p2%>%<sg%>%<frm%>%<advl%>:сиздикиче CLIT ;
 
 ал%<prn%>%<pers%>%<p3%>%<sg%>:а PRON-PERS-AL ; 
-ал%<prn%>%<pers%>%<p3%>%<sg%>%<adv%>:аныкыча CLIT ; 
+ал%<prn%>%<pers%>%<p3%>%<sg%>%<advl%>:аныкыча CLIT ; 
 
 биз%<prn%>%<pers%>%<p1%>%<pl%>:биз PRON-PERS-IZ ; 
-биз%<prn%>%<pers%>%<p1%>%<pl%>%<adv%>:биздикиче CLIT ; 
-биз%<prn%>%<pers%>%<p1%>%<pl%>%<adv%>:бизче CLIT ; ! Dir/LR
+биз%<prn%>%<pers%>%<p1%>%<pl%>%<advl%>:биздикиче CLIT ; 
+биз%<prn%>%<pers%>%<p1%>%<pl%>%<advl%>:бизче CLIT ; ! Dir/LR
 
 силер%<prn%>%<pers%>%<p2%>%<pl%>:силер PRON-PERS-PLURALS ; 
-силер%<prn%>%<pers%>%<p2%>%<pl%>%<adv%>:силерче CLIT ; 
+силер%<prn%>%<pers%>%<p2%>%<pl%>%<advl%>:силерче CLIT ; 
 
 сиздер%<prn%>%<pers%>%<p2%>%<pl%>%<frm%>:сиздер PRON-PERS-PLURALS ; 
-сиздер%<prn%>%<pers%>%<p2%>%<pl%>%<frm%>%<adv%>:сиздерче CLIT ; 
+сиздер%<prn%>%<pers%>%<p2%>%<pl%>%<frm%>%<advl%>:сиздерче CLIT ; 
 
 алар%<prn%>%<pers%>%<p3%>%<pl%>:алар PRON-PERS-PLURALS ; 
-алар%<prn%>%<pers%>%<p3%>%<pl%>%<adv%>:алардыкыча CLIT ; 
+алар%<prn%>%<pers%>%<p3%>%<pl%>%<advl%>:алардыкыча CLIT ; 
 
 PRON-DEM-BUL ; ! "this" 
 ошол:ошо PRON-DEM-L ; ! "that"
@@ -2204,7 +2204,7 @@ PRON-DEM-BUL ; ! "this"
 кимдир% бирөө:кимдир% бирөө PRON-IND ; ! "someone" TODO: Check
 айрым:айрым PRON-IND ; ! "other"
 башка:башка PRON-IND ; ! "other"  ! FIXME: DET
-баары:баары PRON-IND ; ! "everyone"  !!! This is an alternate of below
+баары:баары PRON-IND ; ! "everyone"  !!! This is an alternate of below ! Dir/LR
 баары:баар PRON-IND-POSS ; ! "everyone"
 бир% нерсе:бир% нерсе PRON-IND ; ! "something"
 бир% деме:бир% деме PRON-IND ; ! ""
@@ -5024,7 +5024,7 @@ LEXICON Nouns
 кыртыш:кыртыш N-INFL ; ! "" 
 кыруу:кыруу N-INFL ;
 кыскыч:кыскыч N-INFL ; ! "" 
-кысым:кысым N-INFL ;
+кысым:кысым N-INFL ; ! "pressure"
 кысыр:кысыр N-INFL ; 
 кытыгы:кытыгы N-INFL ; 
 кытык:кытык N-INFL ; 
@@ -5490,6 +5490,7 @@ LEXICON Nouns
 мусапыр:мусапыр N-INFL ; 
 муссон:муссон N-INFL ; ! "monsoon"
 мусулман:мусулман N-INFL ; ! "muslim"
+мусулмандык:мусулмандык N1 ; ! "Islam"
 мутация:мутация N-INFL ; ! "mutation"
 муун:муун N-INFL ; ! "joint, generation"
 муштум:муштум N-INFL ; ! "fist"
@@ -14327,6 +14328,7 @@ LEXICON Adjectives
 муниципиалдык:муниципиалдык A4 ; ! "" 
 закондуу:закондуу A4 ; ! "legal (see мыйзамдуу)"
 мыйзамдуу:мыйзамдуу A2 ; ! "legal" -раак and -су forms found through google 
+мыйзамсыз:мыйзамсыз A6 ; ! "illegal" seems to be usable adverbially
 мээлүүн:мээлүүн A4 ; ! "FIXME maybe A3 мээлүүнгө was found from google" 
 нагыз:нагыз A4 ; ! "" 
 нормативдик:нормативдик A4 ; ! "" 
