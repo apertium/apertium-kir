@@ -17079,7 +17079,8 @@ LEXICON Verbs
 коңуш% кур:коңуш% кур V-INFL-IV ;
 жандан:жандан V-INFL-IV ;
 жөнө:жөнө V-INFL-IV ;
-корк:корк V-INFL-TV ;
+корк:корк V-INFL-IV-NO-CAUS ; ! "be scared"
+корк:коркут V-INFL-IV-IRREG-CAUS ;  ! "scare"  (in theory the phonology should do this)
 кирде:кирде V-INFL-IV ;
 булган:булган V-INFL-IV ;
 !отур V-INFL-IV ;
@@ -17270,7 +17271,6 @@ LEXICON Verbs
 эле:эле V-INFL-TV ;
 өзүңө% тарт:өзүңө% тарт V-INFL-IV ;
 көн:көн V-INFL-TV ;
-корк:корк V-INFL-IV ;
 көгөр:көгөр V-INFL-IV ;
 үз:үз V-INFL-TV ;
 сүйүнчүлө:сүйүнчүлө V-INFL-IV ;
