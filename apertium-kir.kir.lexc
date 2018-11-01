@@ -526,7 +526,7 @@ LEXICON POSSESSION-ENDINGS  ! P_2
 %<px3sp%>:%>%{s%}%{I%}%{n%} GEN-POS ;
 %<px1pl%>:%>%{I%}б%{I%}з GEN-POS ; 
 %<px2pl%>:%>%{I%}ң%{A%}р GEN-POS ; 
-%<px2pl%>%<frm%>:%{I%}ң%{I%}зд%{A%}р GEN-POS ;
+%<px2pl%>%<frm%>:%>%{I%}ң%{I%}зд%{A%}р GEN-POS ;
 
 LEXICON VOL-ENDINGS
 %<p1%>%<sg%>:%>%{I%}м # ;
@@ -535,7 +535,7 @@ LEXICON VOL-ENDINGS
 %<p3%>%<sg%>:%>%{s%}%{I%}%{n%} # ;
 %<p1%>%<pl%>:%>%{I%}б%{I%}з # ; 
 %<p2%>%<pl%>:%>%{I%}ң%{A%}р # ; 
-%<p2%>%<frm%>%<pl%>:%{I%}ң%{I%}зд%{A%}р # ;
+%<p2%>%<frm%>%<pl%>:%>%{I%}ң%{I%}зд%{A%}р # ;
 %<p3%>%<pl%>%[%+p3pl%]:%>%{s%}%{I%}%{n%} # ;
 
 LEXICON EXI
