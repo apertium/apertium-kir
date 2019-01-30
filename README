@@ -1,45 +1,96 @@
-==Installation==
+Kyrgyz
 
-You will first need to install:
+                            apertium-kir
+===============================================================================
 
-* lttoolbox
-* Apertium
-* HFST
-* VISLCG3
+This is an Apertium monolingual language package for Kyrgyz. What
+you can use this language package for:
 
-Then just run:
+* Morphological analysis of Kyrgyz
+* Morphological generation of Kyrgyz
+* Part-of-speech tagging of Kyrgyz
 
-$ ./autogen.sh 
+Requirements
+-------------------------------------------------------------------------------
 
-or 
+You will need the following software installed:
 
-$ ./autogen.sh --prefix=/path/to/your/prefix
+* lttoolbox (>= 3.3.0)
+* apertium (>= 3.3.0)
+* vislcg3 (>= 0.9.9.10297)
+* hfst (>= 3.8.2)
 
-and 
+If this does not make any sense, we recommend you look at: www.apertium.org.
 
-$ make
+Compiling
+-------------------------------------------------------------------------------
 
-You should be able to test the translator with:
+Given the requirements being installed, you should be able to just run:
 
-$ echo "Ahmet okula gitti." | apertium -d . tr-ky
-Ахмет мектепке кетти.
+    $ ./configure
+    $ make
 
-==Development==
+You can use `./autogen.sh` instead of `./configure` if you're compiling
+from source.
 
-You will need:
+If you're doing development, you don't have to install the data, you
+can use it directly from this directory.
 
- http://wiki.apertium.org/wiki/Trmorph
+If you are installing this language package as a prerequisite for an
+Apertium translation pair, then do (typically as root / with sudo):
 
-If you make updates to the bilingual dictionary, you will need to run
-the update script "update-trmorph.py" and recompile the local copy of
-TRmorph in the directory: morph-tr.
+    # make install
 
-The Constraint Grammar of Turkish, file apertium-tr-ky.tr-ky.rlx
-should be kept up to date with the version in the apertium-tr-az 
-language pair. That means that if you make any changes here, you should
-also make them there. And if there are any change made there, they
-should also be made here.
+You can give a `--prefix` to `./configure` to install as a non-root user,
+but make sure to use the same prefix when installing the translation
+pair and any other language packages.
 
-==Further reading==
+Testing
+-------------------------------------------------------------------------------
 
-* http://wiki.apertium.org/wiki/Turkish_and_Kyrgyz
+If you are in the source directory after running make, the following
+commands should work:
+
+* Morphological analysis:
+
+    $ echo "Бул кыргызча морфологиялык талдоо" | apertium -d . kir-morph
+    ^Бул/бул<det><dem>/бул<prn><dem><nom>/бул<prn><dem><nom>+э<cop><aor><p3><pl>/бул<prn><dem><nom>+э<cop><aor><p3><sg>$ ^кыргызча/кыргызча<adv>/кыргызча<n><attr>/кыргызча<n><nom>/кыргызча<n><nom>+э<cop><aor><p3><pl>/кыргызча<n><nom>+э<cop><aor><p3><sg>$ ^морфологиялык/морфологиялык<adj>/морфологиялык<adj>+э<cop><aor><p3><pl>/морфологиялык<adj>+э<cop><aor><p3><sg>$ ^талдоо/талда<v><tv><ger><nom>/талда<v><tv><ger><nom>+э<cop><aor><p3><pl>/талда<v><tv><ger><nom>+э<cop><aor><p3><sg>$^./.<sent>$
+
+* Tagging (analysis + disambiguation):
+
+    $ echo "Бул кыргызча морфологиялык талдоо" | apertium -d . kir-tagger
+    ^Бул/бул<det><dem>$ ^кыргызча/кыргызча<adv>$ ^морфологиялык/морфологиялык<adj>$ ^талдоо/талда<v><tv><ger><nom>$^./.<sent>$
+
+
+* Morphological generation:
+
+    $ echo "^бул<prn><dem><nom>$ ^кыргызча<adv>$ ^морфологиялык<adj>$ ^талда<v><tv><ger><nom>+э<cop><aor><p3><sg>$" | apertium -f none -d . kir-gener
+    бул кыргызча морфологиялык талдоо
+
+
+Files and data
+-------------------------------------------------------------------------------
+
+* `apertium-kir.kir.lexc`          - Morphotactic dictionary
+* `apertium-kir.kir.twol`          - Morphophonological rules
+* `apertium-kir.kir.rlx`           - Constraint Grammar disambiguation rules
+* `apertium-kir.post-kir.dix`      - Post-generator
+* `kir.prob`                       - Tagger model
+* `modes.xml`                      - Translation modes
+
+For more information
+-------------------------------------------------------------------------------
+
+* http://wiki.apertium.org/wiki/Installation
+* http://wiki.apertium.org/wiki/apertium-kir
+* http://wiki.apertium.org/wiki/Using_an_lttoolbox_dictionary
+
+Help and support
+-------------------------------------------------------------------------------
+
+If you need help using this language pair or data, you can contact:
+
+* Mailing list: apertium-stuff@lists.sourceforge.net
+* IRC: `#apertium` on `irc.freenode.net`
+
+See also the file AUTHORS included in this distribution.
