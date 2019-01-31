@@ -57,6 +57,8 @@ commands should work:
 
       $ echo "Бул кыргызча морфологиялык талдоо" | apertium -d . kir-tagger
       ^Бул/бул<det><dem>$ ^кыргызча/кыргызча<adv>$ ^морфологиялык/морфологиялык<adj>$ ^талдоо/талда<v><tv><ger><nom>$^./.<sent>$
+      # NOTE: Disambiguation needs some work.  The correct output should be:
+      # ^Бул/бул<prn><dem><nom>$ ^кыргызча/кыргызча<adv>$ ^морфологиялык/морфологиялык<adj>$ ^талдоо/талда<v><tv><ger><nom>+э<cop><aor><p3><sg>$
 
 
 * Morphological generation:
