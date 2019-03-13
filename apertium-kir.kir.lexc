@@ -2983,6 +2983,7 @@ LEXICON Nouns
 ажыратуу:ажыратуу N-INFL ;
 аза:аза N-INFL ; 
 азайтуу:азайтуу N-INFL ;
+азамат:азамат N-INFL ; ! "молодец"
 азан:азан N-INFL ; 
 азап:азап N-INFL ; 
 азаттык:азаттык N-INFL ; 
@@ -3260,6 +3261,7 @@ LEXICON Nouns
 ата%-журт:ата%-журт N-INFL ; ! "fatherland"
 ата%-эне:ата%-эне N-INFL ; ! "parent"
 ата:ата N-INFL ; ! "father"
+атаке:атаке N-INFL ; ! "father (dim)"
 атаандаш:атаандаш N-INFL ;
 атаандаштык:атаандаштык N-INFL ; ! "" 
 атак% даңк:атак% даңк N-INFL ; ! "fame"
@@ -3281,6 +3283,7 @@ LEXICON Nouns
 атташе:атташе N-INFL ;
 аттракцион:аттракцион N-INFL ; 
 аттуу:аттуу N-INFL ; ! "" 
+атуул:атуул N-INFL ; ! "citizen"
 атыр:атыр N-INFL ; ! "perfume(?)"
 атырылуу:атырылуу N-INFL ; 
 аудитория:аудитория N-INFL ; 
@@ -3742,6 +3745,7 @@ LEXICON Nouns
 горчица:горчица N-INFL ; ! "" 
 готика:готика N-INFL ; 
 градус:градус N-INFL ; ! "degree"
+граждан:граждан N-INFL ; ! "citizen"
 грамм:грамм N-INFL ; 
 грамматика:грамматика N-INFL ; 
 граммофон:граммофон N-INFL ; 
@@ -3984,7 +3988,8 @@ LEXICON Nouns
 жалбырак:жалбырак N-INFL ; ! "" 
 жалган:жалган N-INFL ;
 жалганчы:жалганчы N-INFL ; ! "" 
-жалкоо:жалкоо N-INFL ;
+жал:жал N-INFL ; ! "mane"
+жалкоо:жалкоо N-INFL ;  ! CHECK: ADJ
 жалын:жалын N-INFL ; ! "" 
 жалюзи:жалюзи N-INFL ; 
 жамаат:жамаат N-INFL ; 
@@ -4006,6 +4011,7 @@ LEXICON Nouns
 жапалак:жапалак N-INFL ; ! "owl" 
 жар:жар N-INFL ;
 жара:жара N-INFL ;
+жаран:жаран N-INFL ; ! "citizen"
 жараан:жараан N-INFL ;
 жарак:жарак N-INFL ; 
 жарака:жарака N-INFL ;
@@ -4400,8 +4406,9 @@ LEXICON Nouns
 кабинет:кабинет N-INFL ;
 кабык:кабык N-INFL ; 
 кабыл:кабыл N-INFL ; 
+кабылан:кабылан N-INFL ; ! "leopard/panther"
 кабылдама:кабылдама N-INFL ;
-кабыр:кабыр N-INFL ; 
+каб/pantherыр:кабыр N-INFL ; 
 кабырга:кабырга N-INFL ; 
 кагаз:кагаз N-INFL ; 
 кагылыш:кагылыш N-INFL ; ! "" 
@@ -7236,6 +7243,7 @@ LEXICON Nouns
 ырастоо:ырастоо N-INFL ; 
 ыраң:ыраң N-INFL ; 
 ырчы:ырчы N-INFL ; ! "singer"
+ырым:ырым N-INFL ; ! "custom"
 ырыс:ырыс N-INFL ; ! "" 
 ырыскы:ырыскы N-INFL ; 
 ысрап:ысрап N-INFL ; 
@@ -7257,10 +7265,10 @@ LEXICON Nouns
 эгинчилик:эгинчилик N-INFL ; ! "" 
 эгоизм:эгоизм N-INFL ; 
 эгоист:эгоист N-INFL ; 
-эже:эже N-INFL ; ! ""
+эже:эже N-INFL ; ! " older sister"
 эжей:эжей N-INFL ; ! "" 
 эжей:эжеке N-INFL ; ! "" Dir/LR ! FIXME: CHECK
-эжеке:эжеке N-INFL ; ! ""
+эжеке:эжеке N-INFL ; ! "older sister (dim)"
 эзүү:эзүү N-INFL ;
 экватор:экватор N-INFL ; 
 экзотика:экзотика N-INFL ; 
@@ -7321,7 +7329,8 @@ LEXICON Nouns
 эндогамия:эндогамия N-INFL ; 
 эндокрин:эндокрин N-INFL ; 
 эндокринология:эндокринология N-INFL ; 
-эне:эне N-INFL ; 
+эне:эне N-INFL ;     ! "mother"
+энеке:энеке N-INFL ; ! "mother (dim)"
 энергетика:энергетика N-INFL ; 
 энергия:энергия N-INFL ; 
 энтомология:энтомология N-INFL ; 
@@ -16270,6 +16279,7 @@ LEXICON Adverbs
 өтө% эле:өтө% эле ADV ; ! "extremely" ! Use/MT
 бүтүндөй:бүтүндөй ADV ; ! "nearly all" ! Use/MT
 эптеп%-септеп:эптеп%-септеп ADV ; ! "somehow, barely, eventually, with difficulty" FIXME: gloss
+эптеп:эптеп ADV ; ! "somehow, barely, eventually, with difficulty" FIXME: gloss
 жөн% эле:жөн% эле ADV ; ! "simply, just"
 дайым:дайым ADV ; ! "always" (see дайыма)
 ыкылас% коюп:ыкылас% коюп ADV ; ! "carefully" ! Use/MT
@@ -17890,6 +17900,7 @@ LEXICON Verbs
 
 талда:талда V-INFL-TV ; ! "analyse"
 синтезде:синтезде V-INFL-TV ; ! "synthesise; generate"
+жалдыра:жалдыра V-INFL-IV ; ! "be dumbfounded (?)"
 
 
 LEXICON Abbreviations
@@ -18062,6 +18073,7 @@ LEXICON Interjections
 иий:иий INTERJ ; ! ""
 аа:аа INTERJ ; ! ""
 эээ:эээ INTERJ ; ! ""
+кокуй:кокуй INTERJ ; ! ""
 
 LEXICON Punctuation
 
