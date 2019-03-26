@@ -65,8 +65,9 @@
       <program name="hfst-proc -w">
         <file name="kir.automorf.hfst"/>
       </program>
-      <program name="cg-proc -w">
-        <file name="kir.rlx.bin"/>
+      <program name="cg-conv -a -l" />
+      <program name="vislcg3 -g">
+        <file name="apertium-kir.kir.rlx"/>
       </program>
     </pipeline>
   </mode>
