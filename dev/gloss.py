@@ -29,6 +29,9 @@ def glossify(dix, cg, left_tur=True):
         m = re.match(analysis, line)
         if m:
             feats = m.group(2).strip().split(" ")
+            if "guio" in feats or "cm" in feats or "cm" in feats:
+                cg_out.append(line.strip("\n"))
+                continue
             glosses = []
             if left_tur:
                 entries = rightdic[m.group(1)]
@@ -38,7 +41,7 @@ def glossify(dix, cg, left_tur=True):
                 if set(entry[0]) <= set(feats):
                     glosses.append(entry[1])
             if len(glosses) > 0:
-                gloss = " #" + ", ".join(glosses)
+                gloss = " <" + ", ".join(sorted(glosses)) + ">"
                 line = line.strip("\n") + gloss
                 cg_out.append(line)
             else:
