@@ -7522,6 +7522,8 @@ LEXICON Nouns
 
 Вазир:Вазир N-INFL ; ! "vezir"
 Вазирлик:Вазирлик N-INFL ; ! "vezirlik"
+Мейдук:Мейдук N-INFL ; ! "alan"
+өндүрүү:өндүрүү N-INFL ; ! "üretim"
 
 
 ! Abbreviations
@@ -7976,6 +7978,7 @@ LEXICON ProperNouns
 Нью-Йорк:Нью-Йорк NP-TOP ;
 Оман:Оман NP-TOP ; ! ""
 Ооганстан:Ооганстан NP-TOP ; ! "Afghanistan"
+Афганстан:Афганстан NP-TOP ; ! "Afghanistan"
 Орусия:Орусия NP-TOP ; ! "Russia"
 Орхус:Орхус NP-TOP ; ! ""
 Осло:Осло NP-TOP ; ! ""
