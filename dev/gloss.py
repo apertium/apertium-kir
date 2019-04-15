@@ -41,7 +41,7 @@ def glossify(dix, cg, left_tur=True):
                 if set(entry[0]) <= set(feats):
                     glosses.append(entry[1])
             if len(glosses) > 0:
-                gloss = " <" + ", ".join(sorted(glosses)) + ">"
+                gloss = " " + " ".join(["<tur:" + w + ">" for w in sorted(glosses)])
                 line = line.strip("\n") + gloss
                 cg_out.append(line)
             else:
