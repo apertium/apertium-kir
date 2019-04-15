@@ -24,7 +24,7 @@ def glossify(dix, cg, left_tur=True):
         leftdic[left].append((leftfeats, right))
         rightdic[right].append((rightfeats, left))
     cg_out = []
-    analysis = re.compile('\t"(.*)"(.*)')
+    analysis = re.compile(';?\t"(.*)"(.*)')
     for line in open(cg):
         m = re.match(analysis, line)
         if m:
