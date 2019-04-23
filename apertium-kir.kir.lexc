@@ -3499,6 +3499,7 @@ LEXICON Nouns
 берүүчү:берүүчү N-INFL ;
 бет:бет N-INFL ; ! "page, face" 
 бета:бета N-INFL ;
+Бей:Бей N-INFL ; ! "bey"
 бетеге:бетеге N-INFL ; ! "Овсяница (лат. Festuca) — род травянистых растений семейства Злаки (Poaceae)." 
 бетер:бетер N-INFL ; ! FIXME
 бетон:бетон N-INFL ; 
@@ -6059,6 +6060,7 @@ LEXICON Nouns
 садага:садага N-INFL ; 
 сажда:сажда N-INFL ; ! "" 
 саз:саз N-INFL ; ! "swamp, marsh" 
+садразам:садразам N-INFL ; ! "sadrazam"
 сайт:сайт N-INFL ;
 сакал:сакал N-INFL ; 
 сакмал:сакмал N-INFL ; 
@@ -7521,6 +7523,11 @@ LEXICON Nouns
 өчүрүү:өчүрүү N-INFL ; ! Der/Ger
 өң:өң N-INFL ; ! "colour" 
 
+Вазир:Вазир N-INFL ; ! "vezir"
+Вазирлик:Вазирлик N-INFL ; ! "vezirlik"
+Мейдук:Мейдук N-INFL ; ! "alan"
+өндүрүү:өндүрүү N-INFL ; ! "üretim"
+
 
 ! Abbreviations
 ! =============
@@ -7649,6 +7656,7 @@ LEXICON ProperNouns
 ! Казакстан:Казакстан NP-TOP ; ! "removing duplicate" 
 ! Кыргызстан NP-TOP ; ! ""
 ! Кыргызстан:Кыргызстан NP-TOP ; ! "removing duplicate" 
+Ыстамбул:Ыстамбул NP-TOP ; ! "istanbul"
 АКШ:АКШ%{а%} NP-TOP ; ! "USA"
 Абиджан:Абиджан NP-TOP ; ! ""
 Абуджа:Абуджа NP-TOP ; ! ""
@@ -7973,6 +7981,7 @@ LEXICON ProperNouns
 Нью-Йорк:Нью-Йорк NP-TOP ;
 Оман:Оман NP-TOP ; ! ""
 Ооганстан:Ооганстан NP-TOP ; ! "Afghanistan"
+Афганстан:Афганстан NP-TOP ; ! "Afghanistan"
 Орусия:Орусия NP-TOP ; ! "Russia"
 Орхус:Орхус NP-TOP ; ! ""
 Осло:Осло NP-TOP ; ! ""
@@ -10668,6 +10677,7 @@ Aйталы:Aйталы NP-ANT-M ; ! "Aytğalıy" (Arabic)
 Орынгали:Орынгали NP-ANT-M ; ! "Orınğalıy" (Kazakh)
 Орынша:Орынша NP-ANT-F ; ! "Orınsha" (Kazakh)
 Оспан:Оспан NP-ANT-M ; ! "Osman"
+Осман:Осман NP-ANT-M ; ! "Osman"
 Оспан:Оспан NP-ANT-M ; ! "Ospan" (Arabic)
 Оспанали:Оспанали NP-ANT-M ; ! "Ospanäli" (Arabic)
 Оспанбай:Оспанбай NP-ANT-M ; ! "Ospanbay" (Arabic)
@@ -16517,7 +16527,7 @@ LEXICON Verbs
 !эле:эле VAUX-ELE ; !  
 !эле%<qst%>:беле VAUX-ELE ; ! CHECK: is this the right way to do this?
 ! see copula stuff above
-
+кылы:кылы V-INFL-IV ; !
 өс:өс V-INFL-IV ;
 танда:танда V-INFL-TV ;
 баала:баала V-INFL-TV ;
