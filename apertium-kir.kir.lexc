@@ -425,6 +425,13 @@ LEXICON LOOP
       LASTDIGIT-REST ;
       POWERS ;
 
+!! merged from secondary DIGITLEX lexicon;
+!! UPDATE: moved from DIGITLEX
+!! CHECK: may not belong here!
+%<num%>: # ; ! Copy from kaz
+
+
+
 LEXICON DIGITLEX
 
 %0:%0 LOOP ;
@@ -438,10 +445,6 @@ LEXICON DIGITLEX
 8:8   LOOP ;
 9:9   LOOP ;
 
-
-!! merged from secondary DIGITLEX lexicon;
-!! CHECK: may not belong here!
-%<num%>: # ; ! Copy from kaz
 
 
 
