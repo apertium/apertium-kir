@@ -15990,6 +15990,7 @@ LEXICON Adverbs
 ! көп:көп ADV ;  ! automatic
 ! жок ADV ; ! FIXME: adv?
 ар% дайым:ар% дайым ADV ;
+алдында:алдында ADV ;
 алда% кайда:алда% кайда ADV ; 
 ошентип:ошентип ADV ; ! FIXME: check
 ! төмөнкү ADV ;
@@ -16696,6 +16697,7 @@ LEXICON Verbs
 жаркыра:жаркыра V-INFL-IV ; 
 жар:жар V-INFL-TV ;
 жаша:жаша V-INFL-IV ; 
+жакшы% көр:жакшы% көр V-INFL-TV ; ! "to like"
 жибер:жибер V-INFL-TV ; ! "send"
 тан:тан V-INFL-IV ;
 тан:тан V-INFL-TV ;
