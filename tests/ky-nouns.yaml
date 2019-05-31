@@ -1,8 +1,8 @@
 Config:
   hfst:
     App: hfst-optimised-lookup
-    Gen: ../tr-ky.autogen.hfst
-    Morph: ../ky-tr.automorf.hfst
+    Gen: ../kir.autogen.hfst
+    Morph: ../kir.automorf.hfst
 
 Tests:
 
@@ -66,10 +66,10 @@ Tests:
     салт<n><pl><px2pl><frm><nom> : салттарыңыздар
 
   "[lexc] 3rd person singular noun possessive":
-    ат<n><px3sg><nom> : аты
-    салт<n><px3sg><nom> : салты
-    китеп<n><px3sg><nom> : китеби
-    тарап<n><px3sg><nom> : тарабы
+    ат<n><px3sp><nom> : аты
+    салт<n><px3sp><nom> : салты
+    китеп<n><px3sp><nom> : китеби
+    тарап<n><px3sp><nom> : тарабы
     ат<n><px3pl><nom> : аты
     салт<n><px3pl><nom> : салты
     китеп<n><px3pl><nom> : китеби
@@ -78,8 +78,8 @@ Tests:
   "[lexc] 3rd person noun possessive plural":
     ат<n><pl><px3pl><nom> : аттары
     салт<n><pl><px3pl><nom> : салттары
-    ат<n><pl><px3sg><nom> : аттары
-    салт<n><pl><px3sg><nom> : салттары
+    ат<n><pl><px3sp><nom> : аттары
+    салт<n><pl><px3sp><nom> : салттары
   
   "[lexc] Miscellaneous possessives": 
     ат<n><px1sg><nom> : атым
@@ -94,9 +94,9 @@ Tests:
     бала<n><px2pl><nom> : балаңар
     ат<n><px2pl><frm><nom> : атыңыздар
     бала<n><px2pl><frm><nom> : балаңыздар
-    ат<n><px3sg><nom> : аты
+    ат<n><px3sp><nom> : аты
     ат<n><px3pl><nom> : аты
-    бала<n><px3sg><nom> : баласы
+    бала<n><px3sp><nom> : баласы
     бала<n><px3pl><nom> : баласы
     эл<n><px><nom> : элдики
     мал<n><px><nom> : малдыкы
@@ -206,88 +206,88 @@ Tests:
     китеп<n><dat> : китепке
     аскер<n><dat> : аскерге
     кыз<n><dat> : кызга
-    алд<n><px3sg><dat> : алдына
+    алд<n><px3sp><dat> : алдына
 
   "[twol] {G} / г desonorisation into н after between {I} and {A}":
     апа<n><px1sg><px><dat> : апамдыкына
     апа<n><px2sg><px><dat> : апаңдыкына
-    апа<n><px3sg><px><dat> : апасыныкына
+    апа<n><px3sp><px><dat> : апасыныкына
     апа<n><px3pl><px><dat> : апасыныкына
     кыз<n><px1pl><px><dat> : кызыбыздыкына
     кыз<n><px2pl><px><dat> : кызыңардыкына
-    кыз<n><pl><px3sg><px><dat> : кыздарыныкына
+    кыз<n><pl><px3sp><px><dat> : кыздарыныкына
     кыз<n><pl><px3pl><px><dat> : кыздарыныкына
-    ата<n><pl><px3sg><px><dat> : аталарыныкына
+    ата<n><pl><px3sp><px><dat> : аталарыныкына
     ата<n><pl><px3pl><px><dat> : аталарыныкына
-    саат<n><pl><px3sg><px><dat> : сааттарыныкына
+    саат<n><pl><px3sp><px><dat> : сааттарыныкына
     саат<n><pl><px3pl><px><dat> : сааттарыныкына
-    мал<n><pl><px3sg><px><dat> : малдарыныкына
+    мал<n><pl><px3sp><px><dat> : малдарыныкына
     мал<n><pl><px3pl><px><dat> : малдарыныкына
 
   "[twol] {D} -> н in ablative": 
-    ата<n><px3sg><px><abl> : атасыныкынан
+    ата<n><px3sp><px><abl> : атасыныкынан
     ата<n><px3pl><px><abl> : атасыныкынан
 
   "[twol] н insertion between {I} and {D} in locative":
-    ата<n><px3sg><px><loc> : атасыныкында
+    ата<n><px3sp><px><loc> : атасыныкында
     ата<n><px3pl><px><loc> : атасыныкында
 
   "[twol] Voiceless non-coronal stop voicing before possessive >c{I}":
-    китеп<n><px3sg><nom> : китеби
+    китеп<n><px3sp><nom> : китеби
     китеп<n><px3pl><nom> : китеби
-    тарап<n><px3sg><nom> : тарабы
+    тарап<n><px3sp><nom> : тарабы
     тарап<n><px3pl><nom> : тарабы
     эмгек<n><px3pl><nom> : эмгеги
-    эмгек<n><px3sg><nom> : эмгеги
+    эмгек<n><px3sp><nom> : эмгеги
 
   "[freq] unrecognised nouns from top 150":
-    жыйнак<n><px3sg><nom> : жыйнагы
+    жыйнак<n><px3sp><nom> : жыйнагы
     жыйнак<n><px3pl><nom> : жыйнагы
     повесть<n><nom> : повесть
     повесть<n><pl><nom> : повесттер
-    союз<n><px3sg><gen> : союзунун
-    тарап<n><px3sg><abl> : тарабынан
-    тил<n><px3sg><loc> : тилинде
-    университет<n><px3sg><gen> : университетинин
+    союз<n><px3sp><gen> : союзунун
+    тарап<n><px3sp><abl> : тарабынан
+    тил<n><px3sp><loc> : тилинде
+    университет<n><px3sp><gen> : университетинин
     бала<n><pl><nom> : балдар
-    гезит<n><px3sg><loc> : гезитинде
+    гезит<n><px3sp><loc> : гезитинде
     жылдык<n><nom> : жылдык
-    гезит<n><px3sg><gen> : гезитинин
-    район<n><px3sg><gen> : районунун
-    эмгек<n><px3sg><nom> : эмгеги
-    эл<n><px3sg><gen> : элинин
-    китеп<n><px3sg><nom> : китеби
-    тил<n><px3sg><dat> : тилине
-    орунбасар<n><px3sg><nom> : орунбасары
+    гезит<n><px3sp><gen> : гезитинин
+    район<n><px3sp><gen> : районунун
+    эмгек<n><px3sp><nom> : эмгеги
+    эл<n><px3sp><gen> : элинин
+    китеп<n><px3sp><nom> : китеби
+    тил<n><px3sp><dat> : тилине
+    орунбасар<n><px3sp><nom> : орунбасары
 
   "[freq] unrecognised nouns from top 150":
-    союз<n><px3sg><gen> : союзунун
+    союз<n><px3sp><gen> : союзунун
     союз<n><px3pl><gen> : союзунун
-    уч<n><px3sg><gen> : учунун
+    уч<n><px3sp><gen> : учунун
     уч<n><px3pl><gen> : учунун
 
   "[twol] possessive + cases":
-    бала<n><px3sg><nom> : баласы
-    бала<n><px3sg><acc> : баласын
-    бала<n><px3sg><gen> : баласынын
-    бала<n><px3sg><loc> : баласында
-    бала<n><px3sg><abl> : баласынан
-    бала<n><px3sg><dat> : баласына
-    бала<n><px3sg><px><nom> : баласыныкы
-    ит<n><px3sg><nom> : ити
-    ит<n><px3sg><acc> : итин
-    ит<n><px3sg><gen> : итинин
-    ит<n><px3sg><loc> : итинде
-    ит<n><px3sg><abl> : итинен
-    ит<n><px3sg><dat> : итине
-    ит<n><px3sg><px><nom> : итиники
-    эже<n><px3sg><nom> : эжеси
-    эже<n><px3sg><acc> : эжесин
-    эже<n><px3sg><gen> : эжесинин
-    эже<n><px3sg><loc> : эжесинде
-    эже<n><px3sg><abl> : эжесинен
-    эже<n><px3sg><dat> : эжесине
-    эже<n><px3sg><px><nom> : эжесиники
+    бала<n><px3sp><nom> : баласы
+    бала<n><px3sp><acc> : баласын
+    бала<n><px3sp><gen> : баласынын
+    бала<n><px3sp><loc> : баласында
+    бала<n><px3sp><abl> : баласынан
+    бала<n><px3sp><dat> : баласына
+    бала<n><px3sp><px><nom> : баласыныкы
+    ит<n><px3sp><nom> : ити
+    ит<n><px3sp><acc> : итин
+    ит<n><px3sp><gen> : итинин
+    ит<n><px3sp><loc> : итинде
+    ит<n><px3sp><abl> : итинен
+    ит<n><px3sp><dat> : итине
+    ит<n><px3sp><px><nom> : итиники
+    эже<n><px3sp><nom> : эжеси
+    эже<n><px3sp><acc> : эжесин
+    эже<n><px3sp><gen> : эжесинин
+    эже<n><px3sp><loc> : эжесинде
+    эже<n><px3sp><abl> : эжесинен
+    эже<n><px3sp><dat> : эжесине
+    эже<n><px3sp><px><nom> : эжесиники
 
   "[twol] cases":
     бала<n><nom> : бала
