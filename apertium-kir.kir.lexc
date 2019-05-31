@@ -1553,7 +1553,7 @@ LEXICON V-PERS-PRES ! P_6
 %<p1%>%<pl%>:%>б%{I%}з V-CLIT ; 
 %<p2%>%<pl%>:%>с%{I%}ң%{A%}р V-CLIT ;  
 %<p2%>%<frm%>%<pl%>:%>с%{I%}зд%{A%}р V-CLIT ;  
-%<p3%>%<pl%>%[%+p3pl%]:%>т V-CLIT-OTHER ; 
+%<p3%>%<pl%>%[%+p3pl%]:%>т V-CLIT-OTHER ;
 %<p3%>%<pl%>:%> V-CLIT-BI ; 
 
 !LEXICON V-PERS-IMPER ! P_6
@@ -1563,7 +1563,7 @@ LEXICON V-INFL-COMMON
 
 V-INFL-COMMON-SECOND ;
 !¶@P.NEG.1@:%>%{I%}ш@P.NEG.1@ V-INFL-COMMON-SECOND ; ! Dir/LR
-%[%-coop%]:%>%{I%}ш V-INFL-COMMON-SECOND ;
+%[%-coop%]:%>%{I%}ш V-INFL-COMMON-SECOND ; ! Dir/LR
 %<coop%>:%>%{I%}ш V-INFL-COMMON-SECOND ;
 
 LEXICON V-INFL-COMMON-SECOND
