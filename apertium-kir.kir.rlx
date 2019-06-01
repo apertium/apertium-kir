@@ -56,6 +56,10 @@ SET  Np-Nom-Or-Gen = Nouns + Nom-Or-Gen ;
 SET  Np-Nom-Or-Gen-Sg = Np-Nom-Or-Gen + Sing ;
 SET  Px3-Sg-Or-Pl = Px3sg | Px3pl ;
 
+LIST Vb-Imp = (v imp) ;
+LIST N-Acc = (n acc) ;
+LIST Vb-Ifi-3 = (v ifi p3 sg) (v ifi p3 pl) ;
+
 SECTION
 
 # No vaux if participle doesn't precede
@@ -128,3 +132,14 @@ REMOVE Finite IF
 
 SELECT Cop IF
 	(-1 PrcCop) ;
+
+
+
+# бат
+REMOVE Vb-Imp IF
+	(1 Verb)
+
+# ambiguous n.acc/v.*.ifi forms, e.g. түштү, etc.
+SELECT Vb-Ifi-3 IF
+	(0 N-Acc)
+	(1C Sent) ;
