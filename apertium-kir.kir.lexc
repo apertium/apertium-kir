@@ -1878,7 +1878,7 @@ LEXICON Postadverbs
 гана:гана POSTADV ; ! "only"
 эле:эле POSTADV ; ! "only"
 деле:деле POSTADV ; ! "even"
-деле:дале POSTADV ; ! "even" ! FIXME: treat as separate word or as dialectal variant
+деле:дале POSTADV ; ! "even" ! Dir/LR
 дагы:дагы POSTADV ; ! "... дагы" = "and ... too"
 ашуун:ашуун POSTADV ; ! "more than"
 ашык:ашык POSTADV ; ! "more than"
