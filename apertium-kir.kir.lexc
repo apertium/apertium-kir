@@ -6801,6 +6801,7 @@ LEXICON Nouns
 улутчулдук:улутчулдук N-INFL ; 
 ультиматум:ультиматум N-INFL ; 
 ультрафиолет:ультрафиолет N-INFL ; 
+умтулуш:умтулуш N-INFL ; ! "aspiration"
 ун:ун N-INFL ; ! "flour"
 унаа:унаа N-INFL ; ! "vehicle"
 универсал:универсал N-INFL ; 
@@ -15000,7 +15001,8 @@ LEXICON Adjectives
 чыдамдуу:чыдамдуу A2 ; ! "patient, steadfast" 
 шашылыш:шашылыш A2 ; ! "FIXME not sure about this" 
 ылайык:ылайык A2 ; ! "appropriate" 
-ылайыксыз:ылайыксыз A4 ; ! ""
+ылайыктуу:ылайыктуу A2 ; ! "appropriate" 
+ылайыксыз:ылайыксыз A4 ; ! "inappropriate"
 ынтымактуу:ынтымактуу A2 ; ! "" 
 эптүү:эптүү A2 ; ! "" 
 эриктүү:эриктүү A2 ; ! "" 
@@ -17917,6 +17919,7 @@ LEXICON Verbs
 жалдыра:жалдыра V-INFL-IV ; ! "be dumbfounded (?)"
 жүзөгө% аш:жүзөгө% аш V-INFL-IV-NO-CAUS ; ! "be brought to life"
 жүзөгө% аш:жүзөгө% ашыр V-INFL-IV-IRREG-CAUS ; ! "bring to life"
+жардамдаш:жардамдаш V-INFL-IV ; ! "help one another"
 
 
 LEXICON Abbreviations
