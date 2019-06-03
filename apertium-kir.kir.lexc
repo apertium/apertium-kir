@@ -100,6 +100,7 @@
 %<comp%>    ! Comparative level of comparison 
 %<sup%>     ! Superlative level of comparison 
 %<sim%>     ! Similative
+%<equ%>     ! Equative
 %<attr%>    ! -KI suffix, adjectivaliser
 
 
@@ -459,7 +460,6 @@ LEXICON CASES-DEFAULT
 %<dat%>:%>%{G%}%{A%} CLITICS-NO-COP ;    ! -га, -ка, -ге, -ке, -го, -ко, -гө, -кө
 %<acc%>:%>%{N%}%{I%} CLITICS-NO-COP ;    ! -ны, -ни, -ды, -ди, -ты, -ти, -ну, -нү, -ду, -дү, -ту, -тү
 %<loc%>:%>%{D%}%{A%} CLITICS-INCL-COP ;  ! -да, -де, -та, -те, -до, -дө, -то, -тө
-%<sim%>:%>%{D%}%{A%}й PRED ;  ! -дай, -дей, -дөй, -дой, -тай, -тей, -төй, той
 
 LEXICON CASES
 CASES-DEFAULT ;
@@ -495,6 +495,14 @@ LEXICON NIKI
 ! %<px%>:%>%{N%}%{I%}к%{I%}%{n%} CASES ; ! Dir/RL
 ! %<px%>:%>%{N%}%{I%}к%{I%}%{n%} CLITICS-NO-COP ; ! Dir/RL ! FMT: in -kaz this is what the gerunds get.
 
+LEXICON DAY
+
+%<sim%>:%>%{D%}%{A%}й PRED ;  ! -дай, -дей, -дөй, -дой, -тай, -тей, -төй, той
+%<sim%>:%>%{D%}%{A%}й POSSESSION-ENDINGS ;
+%<sim%>:%>%{D%}%{A%}й CASES ;   ! FIXME: should these be sim.subst?
+%<sim%>:%>%{D%}%{A%}й PLURAL ;
+%<equ%>:%>ч%{A%} PRED ; ! -ча, -чо, -че, -чө
+
 LEXICON GEN-POS
 CASES ;
 !%<px%>:%>%{N%}%{I%}к%{I%}%{n%} CASES ; !CASES-SHORT-ACC ; 
@@ -504,6 +512,7 @@ CASES ;
 !!%<locattr%>:%>%{D%}%{A%}г%{I%} V-ADJ ; ! FIXME: when we go recursive, use this
 NIKI ;
 DAGI ;
+DAY ;
 
 LEXICON GEN-POS-PX12SG
 CASES-PX12SG ;
@@ -4655,7 +4664,7 @@ LEXICON Nouns
 кемпир:кемпир N-INFL ; ! "" 
 кемчилик:кемчилик N-INFL ; ! "" 
 кен:кен N-INFL ;
-кене:кене N-INFL ; 
+кене:кене N-INFL ; ! "tick"
 кенч:кенч N-INFL ; ! "" 
 кеп% кылуу:кеп% кылуу N-INFL ; 
 кеп:кеп N-INFL ;
@@ -17920,6 +17929,7 @@ LEXICON Verbs
 жүзөгө% аш:жүзөгө% аш V-INFL-IV-NO-CAUS ; ! "be brought to life"
 жүзөгө% аш:жүзөгө% ашыр V-INFL-IV-IRREG-CAUS ; ! "bring to life"
 жардамдаш:жардамдаш V-INFL-IV ; ! "help one another"
+кенел:кенел V-INFL-IV ; ! ""
 
 
 LEXICON Abbreviations
