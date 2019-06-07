@@ -137,7 +137,7 @@ SELECT Cop IF
 
 # бат
 REMOVE Vb-Imp IF
-	(1 Verb)
+	(1 Verb) ;
 
 # ambiguous n.acc/v.*.ifi forms, e.g. түштү, etc.
 SELECT Vb-Ifi-3 IF
