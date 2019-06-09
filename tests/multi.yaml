@@ -1,0 +1,38 @@
+Config:
+  hfst:
+    App: hfst-lookup
+    Gen: ../kir.autogen.hfst
+    Morph: ../kir.automorf.hfst
+
+Tests:
+
+  "[lexc] forms with Iш":
+    "көр<v><tv><aor><p3><sg>":
+      ↔ : көрөт
+    "көр<v><tv><aor><p3><pl>":
+      ← : көрүшөт
+      ↔ : көрөт
+    "көр<v><tv><coop><aor><p3><pl>":
+      ↔ : көрүшөт
+    "көр<v><tv><coop><prc_irre>":
+      ↔ : көрүшөт
+
+  "[lexc] forms with -(A)Aр":
+    "көр<v><tv><fut><p1><sg>":
+      ↔ : көрөрмүн
+      ← : көрөөрмүн
+
+  "[lexc] spelling variation of кечээ":
+    "кечээ<adv>":
+      ↔ : кечээ
+      ← :
+        - кече
+        - кечөө
+    "кечээ<adv><attr>":
+      ↔ : кечээги
+      ← :
+        - кечээки
+        - кечеги
+        - кечеки
+        - кечөөгү
+        - кечөөкү
