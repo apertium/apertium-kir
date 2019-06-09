@@ -2004,6 +2004,8 @@ LEXICON Conjunctions
 
 LEXICON Postpositions
 
+
+ылайык:ылайык POST ; ! "göre"
 менен:менен POST ; ! "with"
 менен:м%-н POST ; ! "with" ! Dir/LR
 дейре:дейре POST ; ! "up to, until"
@@ -2329,6 +2331,34 @@ XIX:XIX NUM-ROMAN ; ! ""
 
 
 LEXICON Nouns
+
+чарба:чарба N-INFL ; !
+куйма:куйма N-INFL ; !
+округуна:округуна N-INFL ; !
+состав:состав N-INFL ; !
+союз:союз N-INFL ; !
+АО:АО N-INFL ; !
+реестр:реестр N-INFL ; !
+куйма:куйма N-INFL ; !
+округ:округ N-INFL ; !
+кыргыз:кыргыз N-INFL ; !
+геоинформативдик:геоинформативдик N-INFL ; !
+америкалык:америкалык N-INFL ; !
+орден:орден N-INFL ; !
+жөн:жөн N-INFL ; !
+искусство:искусство N-INFL ; !
+сактоо:сактоо N-INFL ; !
+мэр:мэр N-INFL ; !
+ИА:ИА N-INFL ; !
+машина:машина N-INFL ; !
+кино:кино N-INFL ; !
+англис:англис N-INFL ; !
+республика:республика N-INFL ; !
+салыштырма:салыштырма N-INFL ; !
+француз:француз N-INFL ; !
+
+
+
 
 ! даана:даана N-INFL ; ! "removing duplicate" 
 ! далил:далил N-INFL ; ! "removing duplicate" 
@@ -7667,6 +7697,47 @@ LEXICON ProperNouns
 ! Казакстан:Казакстан NP-TOP ; ! "removing duplicate" 
 ! Кыргызстан NP-TOP ; ! ""
 ! Кыргызстан:Кыргызстан NP-TOP ; ! "removing duplicate" 
+Двина:Двина NP-TOP ; !
+Кемеров:Кемеров NP-TOP ; !
+Сузак:Сузак NP-TOP ; !
+Двинск:Двинск NP-TOP ; !
+Чаткал:Чаткал NP-TOP ; !
+Колорадо:Колорадо NP-TOP ; !
+Ямало:Ямало NP-TOP ; !
+Суусамыр:Суусамыр NP-TOP ; !
+Краснояр:Краснояр NP-TOP ; !
+Тюрингия:Тюрингия NP-TOP ; !
+Уса:Уса NP-TOP ; !
+Яха:Яха NP-TOP ; !
+Айова:Айова NP-TOP ; !
+Небраска:Небраска NP-TOP ; !
+Оклахома:Оклахома NP-TOP ; !
+Абад:Абад NP-TOP ; !
+Фрунзе:Фрунзе NP-TOP ; !
+кытай:кытай NP-TOP ; !
+Румын:Румын NP-TOP ; !
+Үскүп:Үскүп NP-TOP ; !
+КР:КР NP-TOP ; !
+Баренц:Баренц NP-TOP ; !
+Туркия:Туркия NP-TOP ; !
+Рейнланд:Рейнланд NP-TOP ; !
+Кентукки:Кентукки NP-TOP ; !
+Баварияжери:Баварияжери NP-TOP ; !
+Нү-Жерси:Нү-Жерси NP-TOP ; !
+Нью-Жерси:Нью-Жерси NP-TOP ; !
+Чүй:Чүй NP-TOP ; !
+Ардак:Ардак NP-TOP ; !
+Нү-Йорк:Нү-Йорк NP-TOP ; !
+Токтогул:Токтогул NP-TOP ; !
+Башкыртстан:Башкыртстан NP-TOP ; !
+Нарын:Нарын NP-TOP ; !
+Мэн:Мэн NP-TOP ; !
+СССР:СССР NP-TOP ; !
+РФ:РФ NP-TOP ; !
+Обь:Обь NP-TOP ; !
+Саксония:Саксония NP-TOP ; !
+
+
 Ыстамбул:Ыстамбул NP-TOP ; ! "istanbul"
 АКШ:АКШ%{а%} NP-TOP ; ! "USA"
 Абиджан:Абиджан NP-TOP ; ! ""
@@ -7997,8 +8068,7 @@ LEXICON ProperNouns
 Орхус:Орхус NP-TOP ; ! ""
 Осло:Осло NP-TOP ; ! ""
 Осмон:Осмон NP-TOP ; ! ""
-Ош:Ош NP-TOP ;
-Ош:Ош NP-TOP ;
+Ош:Ош NP-TOP ; !
 Пакистан:Пакистан NP-TOP ; ! "Pakistan"
 Палестина:Палестина NP-TOP ; ! ""
 Панама:Панама NP-TOP ; ! ""
@@ -8411,6 +8481,9 @@ Getty% Images:Getty% Images%{э%}%{з%} NP-ORG-LAT ; ! ""
 
 ! Other proper names (events etc)
 !================================
+ред:ред NP-AL ; !
+Пиррол:Пиррол NP-AL ; !
+Еврокөрүнүү:Еврокөрүнүү NP-AL ; !
 
 Expo:Expo NP-AL ; ! ""
 Global:Global NP-AL ; ! ""
@@ -10665,6 +10738,7 @@ Aйталы:Aйталы NP-ANT-M ; ! "Aytğalıy" (Arabic)
 Оразгелди:Оразгелди NP-ANT-M ; ! "Orazgeldi" (Kazakh)
 Оразгул:Оразгул NP-ANT-M ; ! "Orazğul" (Kazakh)
 Оразгүл:Оразгүл NP-ANT-F ; ! "Orazgül" (Persian)
+Орузбаева:Орузбаева NP-ANT-F ; !
 Оразмухамбет:Оразмухамбет NP-ANT-M ; ! "Orazmuxambet" (Kazakh)
 Орак:Орак NP-ANT-M ; ! "Oraq" (Old Turkic)
 Оракбай:Оракбай NP-ANT-M ; ! "Oraqbay" (Kazakh)
@@ -11474,6 +11548,11 @@ Aйталы:Aйталы NP-ANT-M ; ! "Aytğalıy" (Arabic)
 
 ! Masculine/feminine
 !-------------------
+Асанов:Асанов NP-COG-MF ; !
+Динкич:Динкич NP-COG-MF ; !
+Давинич:Давинич NP-COG-MF ; !
+Орозбаков:Орозбаков NP-COG-MF ; !
+
 
 Авраменко:Авраменко NP-COG-MF ; ! ""
 Бойнер:Бойнер NP-COG-MF ; ! "" 
@@ -14260,6 +14339,15 @@ LEXICON Adjectives
 идеологиялык:идеологиялык A4 ; ! "ideological" 
 акысыз:акысыз A1 ; ! "free"
 илимий:илимий A1 ; ! "scientific" 
+материалдык:материалдык A1 ; !
+мекендик:мекендик A1 ; !
+улук:улук A1 ; !
+укуктук:укуктук A1 ; !
+республикалык:республикалык A1 ; !
+эпос:эпос A1 ; !
+чыныгы:чыныгы A1 ; !
+түстүү:түстүү A1 ; !
+
 иммиграциялык:иммиграциялык A4 ; ! "" 
 индукциялык:индукциялык A4 ; ! "" 
 инновациялык:инновациялык A4 ; ! "" 
@@ -15034,6 +15122,15 @@ LEXICON Adjectives
 ! A1 adj.(comp), adj.(comp).advl, adj.(comp).subst,
 ! and when not sure where exactly an adjective belongs
 ! ====================================================
+кичи:кичи A1 ; !
+жеке:жеке A1 ; !
+чейинки:чейинки A1 ; !
+саясий:саясий A1 ; !
+тарыхый:тарыхый A1 ; !
+административдик:административдик A1 ; !
+Федеративтик:Федеративтик A1 ; !
+райондук:райондук A1 ; !
+кээ:кээ A1 ; !
 
 адилеттүү:адилеттүү A1 ; ! "" 
 адил:адил A1 ; ! "" 
@@ -15975,7 +16072,10 @@ LEXICON Adverbs
 кандайча:кандайча ADVITG ; ! "howso"
 канчалык:канчалык ADVITG ; ! ""
 кайда:кайда ADVITG ; ! "where"
+алгач:алгач ADV ; !
+барабар:барабар ADV ; !
 
+гана:гана ADV ; !
 ! бери ADV ; ! "since" +abl -- see bdix
 али:али ADV ; ! "still"
 дагы% эле:дагы% эле ADV ; ! "still"
@@ -15983,7 +16083,7 @@ LEXICON Adverbs
 мисалы:мисалы ADV ; ! "for example"
 улам:улам ADV ; ! "???"
 айрыкча:айрыкча ADV ; ! "see A1 section" ! Actually, I'm pretty sure this is an adverb: "especially", much the same uses as in English.  It may also be A1, but not sure..  -JNW
-кыйла:кыйла ADV ;
+кыйла:кыйла ADV ; !
 барган% сайын:барган% сайын ADV ; ! see bidix
 адегенде:адегенде ADV ;
 эртең:эртең ADV ; ! "tomorrow"
@@ -16539,6 +16639,12 @@ LEXICON Verbs
 !эле:эле VAUX-ELE ; !  
 !эле%<qst%>:беле VAUX-ELE ; ! CHECK: is this the right way to do this?
 ! see copula stuff above
+атал:атал V-INFL-IV ; !
+негиздел:негиздел V-INFL-IV ; !
+жүргүзүл:жүргүзүл V-INFL-IV ; !
+өсөт:өсөт V-INFL-IV ; !
+көч:көч V-INFL-IV ; !
+
 кылы:кылы V-INFL-IV ; !
 өс:өс V-INFL-IV ;
 танда:танда V-INFL-TV ;
@@ -16571,7 +16677,7 @@ LEXICON Verbs
 ас:ас V-INFL-TV ; ! "hang"
 ат:ат V-INFL-TV ; ! "shoot"
 айыпта:айыпта V-INFL-TV ;
-ата:ата V-INFL-TV ;
+ата:ата V-INFL-TV ; !
 атта:атта V-INFL-TV ; 
 ач:ач V-INFL-TV ; ! "open"
 аш:аш V-INFL-IV-NO-CAUS ; ! "pass/exceed"
@@ -17583,21 +17689,21 @@ LEXICON Verbs
 айырмала:айырмала V-INFL-TV ; ! "distinguish"
 багытта:багытта V-INFL-TV ; ! FIXME: check transitivity (should be TV?)
 жакта:жакта V-INFL-TV ; ! FIXME: check transitivity (probably IV and TV)
-негизде:негизде V-INFL-TV ;
-кезде:кезде V-INFL-TV ;
-кездеш:кездеш V-INFL-IV ;
+негизде:негизде V-INFL-TV ; !
+кезде:кезде V-INFL-TV ; !
+кездеш:кездеш V-INFL-IV ; !
 ыйгар:ыйгар V-INFL-TV ; ! "dedicate" (?)
 эскир:эскир V-INFL-IV ; ! "get old"
 картай:картай V-INFL-IV ; ! "get old" (person)
 ырда:ырда V-INFL-IV ; ! "sing"
 ырда:ырда V-INFL-TV ; ! "sing"
 кадыр-баркын% кетир:кадыр-баркын% кетир V-INFL-TV ;
-бөл:бөл V-INFL-TV ;
-суран:суран V-INFL-IV ;
-үйүл:үйүл V-INFL-IV ;
-тажа:тажа V-INFL-IV ;
-үрпөй:үрпөй V-INFL-IV ;
-майдалан:майдалан V-INFL-TV ;
+бөл:бөл V-INFL-TV ; !
+суран:суран V-INFL-IV ; !
+үйүл:үйүл V-INFL-IV ; !
+тажа:тажа V-INFL-IV ; !
+үрпөй:үрпөй V-INFL-IV ; !
+майдалан:майдалан V-INFL-TV ; !
 ары-бери% учуп% тур:ары-бери% учуп% тур V-INFL-IV ;
 үчкө% чыгар:үчкө% чыгар V-INFL-TV ;
 тузда:тузда V-INFL-TV ;
