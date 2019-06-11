@@ -2333,7 +2333,7 @@ XIX:XIX NUM-ROMAN ; ! ""
 
 LEXICON Nouns
 темп:темп N-INFL ; !
-
+уз:уз N-INFL ; !
 эне:эне N-INFL ; !
 өзбек:өзбек N-INFL ; !
 жыйын:жыйын N-INFL ; !
@@ -7707,6 +7707,8 @@ LEXICON ProperNouns
 ! Казакстан:Казакстан NP-TOP ; ! "removing duplicate" 
 ! Кыргызстан NP-TOP ; ! ""
 ! Кыргызстан:Кыргызстан NP-TOP ; ! "removing duplicate" 
+Мезень:Мезень NP-TOP ; !
+Пфальц:Пфальц NP-TOP ; !
 Чулым:Чулым NP-TOP ; !
 Түркстан:Түркстан NP-TOP ; !
 Баден:Баден NP-TOP ; !
@@ -14377,6 +14379,7 @@ LEXICON Adjectives
 идеологиялык:идеологиялык A4 ; ! "ideological" 
 акысыз:акысыз A1 ; ! "free"
 илимий:илимий A1 ; ! "scientific" 
+сымал:сымал A1 ; !
 материалдык:материалдык A1 ; !
 мекендик:мекендик A1 ; !
 улук:улук A1 ; !
@@ -17056,6 +17059,7 @@ LEXICON Verbs
 кат:катыр V-INFL-IV-IRREG-CAUS ; ! "make hard"
 сарсанаа% тарт:сарсанаа% тарт V-INFL-TV ;
 ээле:ээле V-INFL-TV ; ! "occupy"
+ээле:ээле V-INFL-IV ; ! "occupy"
 кор:кор V-INFL-TV ; ! "protect"
 корот:корот V-INFL-TV ; ! "waste"
 сок:сок V-INFL-TV ; ! "hit, fight"
@@ -17749,6 +17753,7 @@ LEXICON Verbs
 багытта:багытта V-INFL-TV ; ! FIXME: check transitivity (should be TV?)
 жакта:жакта V-INFL-TV ; ! FIXME: check transitivity (probably IV and TV)
 негизде:негизде V-INFL-TV ; !
+негизде:негизде V-INFL-IV ; !
 кезде:кезде V-INFL-TV ; !
 кездеш:кездеш V-INFL-IV ; !
 ыйгар:ыйгар V-INFL-TV ; ! "dedicate" (?)
