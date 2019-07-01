@@ -18,6 +18,8 @@ LIST Vaux = vaux ;
 LIST Verb = v ;
 LIST Num = num ; 
 LIST Interj = ij ; 
+LIST Attr = attr ;
+LIST Subst = subst ;
 LIST Vb-or-Aux = v vaux ;
 LIST Part = prc_plan prt_cond prt_perf prt_impf prt_vol prt_irre prt_ala ;
 LIST PartIrre = prt_irre ;
@@ -46,6 +48,9 @@ LIST Nouns = n np pron ;
 SET  Sing = (*) - (pl) ;
 
 SET  Acc-Or-Nom = Acc | Nom ;
+
+SET NOMINAL-HEAD = Noun | Ger | Subst ; 
+SET PRE-N = Det | Num | Attr | Adj | Gen | ("-") ;
 
 SET  Not-Part = (*) - Part ;
 SET  Not-Prc = (*) - Prc ;
@@ -159,3 +164,7 @@ REMOVE Vb-Imp IF
 SELECT Vb-Ifi-3 IF
 	(0 N-Acc)
 	(1C Sent) ;
+
+
+REMOVE Attr IF (NOT 1 PRE-N) (NOT 1 NOMINAL-HEAD) (NOT 1/1 NOMINAL-HEAD) ; 
+    ## Bu araba 11,5 milyar a
