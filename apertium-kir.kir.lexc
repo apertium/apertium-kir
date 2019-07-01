@@ -16889,7 +16889,7 @@ LEXICON Verbs
 айт:айт V-INFL-TV ; ! "tell"
 акса:акса V-INFL-IV ; ! "limp"
 ал:ал V-INFL-TV ; ! "take"
-ал:ал V-INFL-IV ; ! "take"
+
 алып% бар:алып% бар V-INFL-TV ; ! "take (somewhere)"
 алып% кел:алып% кел V-INFL-TV ; ! "bring"
 алып% кет:алып% кет V-INFL-TV ; ! "take away"
@@ -17525,7 +17525,6 @@ LEXICON Verbs
 орун% бер:орун% бер V-INFL-TV ; ! ""
 жазыл:жазыл V-INFL-TV ; ! ""
 таштап% кет:таштап% кет V-INFL-IV ;
-ал:ал V-INFL-TV ;
 кайтарып% бер:кайтарып% бер V-INFL-TV ;
 добуш% ал:добуш% ал V-INFL-TV ;
 өкүн:өкүн V-INFL-IV ;
