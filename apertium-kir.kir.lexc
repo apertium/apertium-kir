@@ -1893,6 +1893,7 @@ LEXICON Postadverbs
 ашык:ашык POSTADV ; ! "more than"
 тең:тең POSTADV ; ! "~both" e.g., экөө тең
 болсо:болсо POSTADV ; ! "as for"
+эмес:эмес POSTADV ; ! "not"
 
 LEXICON Conjunctions 
 
@@ -1964,7 +1965,7 @@ LEXICON Conjunctions
 кандай% болсо% да:кандай% болсо% да CA ;
 кана% эмесе CC ;
 жалгыз% гана CC ;
-гана% эмес CC ;
+!гана% эмес CC ;  ! Use/MT
 ошентсе% да CC ;
 эмне:эмне CC ;
 ошондой:ошондой CA ;
@@ -2116,6 +2117,7 @@ LEXICON Determiners
 жетерлик:жетишерлик DET-QNT ; ! "enough"   ! Dir/LR
 жетерлик:жетээрлик DET-QNT ; ! "enough"    ! Dir/LR
 жетерлик:жетишээрлик DET-QNT ; ! "enough"  ! Dir/LR
+көп:көп DET-QNT ; ! "a lot of"
 
 кайсы:кайсы PRON-ITG ;  ! FIXME: why ITG if next is DEM?
 кайсы:кайсыл DET-DEM ; ! "which?" ! FIXME: need morph to fix  ! Dir/LR
@@ -7211,9 +7213,10 @@ LEXICON Nouns
 шылдың:шылдың N-INFL ; 
 шылтоо:шылтоо N-INFL ; 
 шым:шым N-INFL ; ! "pants"
+шыңгырак:шыңгырак N-INFL ; 
 шып:шып N-INFL ;
 шыпыргы:шыпыргы N-INFL ; ! "broom"
-шыңгырак:шыңгырак N-INFL ; 
+шырдак:шырдак N-INFL ; ! "shyrdaq (felt mat)"
 шүгүр:шүгүр N-INFL ; ! "" 
 шүгүр:шүкүр N-INFL ; ! "" Dir/LR
 шүгүрчүлүк:шүгүрдүк N-INFL ; ! "" Dir/LR
@@ -8075,6 +8078,8 @@ LEXICON ProperNouns
 Ташкент:Ташкент NP-TOP ;
 Тегеран:Тегеран NP-TOP ;
 Тегусигальпа:Тегусигальпа NP-TOP ;
+Теңир% Тоо:Теңир% Тоо NP-TOP ; ! "Tengir Too"
+Теңир% Тоо:Теңир%-Тоо NP-TOP ; ! "Tengir Too"  ! Dir/LR
 Тимор% Лешти:Тимор% Лешти NP-TOP ; ! ""
 Тирана:Тирана NP-TOP ;
 Токио:Токио NP-TOP ;
@@ -14572,7 +14577,8 @@ LEXICON Adjectives
 экс:экс A4 ; ! "" 
 экспозициялык:экспозициялык A4 ; ! "" 
 экстремисттик:экстремисттик A4 ; ! "" 
-эларалык:эларалык A4 ; ! "international" 
+эл% аралык:эларалык A4 ; ! "international"  ! Dir/LR
+эл% аралык:эл% аралык A4 ; ! "international"
 элдик:элдик A4 ; ! "" 
 электрдик:электрдик A4 ; ! "" 
 электрикалык:электрикалык A4 ; ! "" 
@@ -16309,6 +16315,7 @@ LEXICON Adverbs
 дайым:дайым ADV ; ! "always" (see дайыма)
 ыкылас% коюп:ыкылас% коюп ADV ; ! "carefully" ! Use/MT
 көбүрөөк% ыкылас% коюп:көбүрөөк% ыкылас% коюп ADV ; ! "more carefully" ! Use/MT
+көп:көп ADV ; ! "a lot"  ! Use/MT ! FIXME: CHECK
 
 
 !! FIXME: productive {K}{I} forms
