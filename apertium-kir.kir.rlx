@@ -168,3 +168,4 @@ SELECT Vb-Ifi-3 IF
 
 REMOVE Attr IF (NOT 1 PRE-N) (NOT 1 NOMINAL-HEAD) (NOT 1/1 NOMINAL-HEAD) ; 
     ## Bu araba 11,5 milyar a
+
