@@ -16,6 +16,10 @@ LIST Past = past ;
 LIST Vadj = vadj vadj_past ;
 LIST Vaux = vaux ;
 LIST Verb = v ;
+LIST Num = num ; 
+LIST Interj = ij ; 
+LIST Attr = attr ;
+LIST Subst = subst ;
 LIST Vb-or-Aux = v vaux ;
 LIST Part = prc_plan prt_cond prt_perf prt_impf prt_vol prt_irre prt_ala ;
 LIST PartIrre = prt_irre ;
@@ -44,6 +48,9 @@ LIST Nouns = n np pron ;
 SET  Sing = (*) - (pl) ;
 
 SET  Acc-Or-Nom = Acc | Nom ;
+
+SET NOMINAL-HEAD = Noun | Ger | Subst ; 
+SET PRE-N = Det | Num | Attr | Adj | Gen | ("-") ;
 
 SET  Not-Part = (*) - Part ;
 SET  Not-Prc = (*) - Prc ;
@@ -133,6 +140,20 @@ REMOVE Finite IF
 SELECT Cop IF
 	(-1 PrcCop) ;
 
+#If an adjective is right before a numeral + noun it is an adjective for sure
+
+SELECT Adj IF (1C Num) (2C Noun) ;
+
+## select Adj if inbetween nouns
+SELECT Adj IF (-1 Noun) (1 Noun) ; 
+ 
+## select Adj if before copula (idi, iken)
+SELECT Adj IF (1 Cop) ;
+
+
+#interjections
+REMOVE Interj IF (1 Verb) ;
+REMOVE Interj IF (NOT -1 BOS) (NOT 1 EOS) ;
 
 
 # бат
@@ -143,3 +164,7 @@ REMOVE Vb-Imp IF
 SELECT Vb-Ifi-3 IF
 	(0 N-Acc)
 	(1C Sent) ;
+
+
+REMOVE Attr IF (NOT 1 PRE-N) (NOT 1 NOMINAL-HEAD) (NOT 1/1 NOMINAL-HEAD) ; 
+    ## Bu araba 11,5 milyar a
