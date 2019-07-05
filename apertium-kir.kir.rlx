@@ -18,9 +18,10 @@ LIST Vaux = vaux ;
 LIST Verb = v ;
 LIST Num = num ; 
 LIST Interj = ij ; 
+LIST Attr = attr ;
+LIST Subst = subst ;
 LIST Vb-or-Aux = v vaux ;
-LIST Part = prc_plan prt_cond prt_perf prt_impf prt_vol prt_irre prt_ala ;
-LIST PartIrre = prt_irre ;
+LIST PrcIrre = prc_irre ;
 LIST Prc = prc_plan prc_past prc_hab prc_fut prc_cond prc_perf prc_impf prc_vol prc_irre prc_real prc_pcond ;
 LIST PrcCop = prc_past prc_hab prc_fut prc_irre pre_pcond ; # Prc forms that occur with copula 
 LIST Ger = ger ger_fut ger_past ;
@@ -47,11 +48,13 @@ SET  Sing = (*) - (pl) ;
 
 SET  Acc-Or-Nom = Acc | Nom ;
 
-SET  Not-Part = (*) - Part ;
+SET NOMINAL-HEAD = Noun | Ger | Subst ; 
+SET PRE-N = Det | Num | Attr | Adj | Gen | ("-") ;
+
 SET  Not-Prc = (*) - Prc ;
 SET  Not-Sent = (*) - Sent ;
 SET  Tv-Or-Iv = Tv | Iv ;
-SET  PartIrre-Or-Aor = PartIrre | Aor ;
+SET  PrcIrre-Or-Aor = PrcIrre | Aor ;
 SET  Vb-Sg-Or-Pl = Vb-Pl | Vb-Sg ;
 SET  Nom-Or-Gen = Nom OR Gen ;
 SET  Np-Nom-Or-Gen = Nouns + Nom-Or-Gen ;
@@ -102,9 +105,9 @@ REMOVE Iv IF
 	(0C Tv-Or-Iv)
 	(-1C Acc);
 
-# get rid of prt_irre if also can be aor if following word sent
-REMOVE PartIrre IF
-	(0C PartIrre-Or-Aor)
+# get rid of prc_irre if also can be aor if following word sent
+REMOVE PrcIrre IF
+	(0C PrcIrre-Or-Aor)
 	(1C Sent);
 
 # get rid of plural possessive reading if antecedant is sg
@@ -159,3 +162,8 @@ REMOVE Vb-Imp IF
 SELECT Vb-Ifi-3 IF
 	(0 N-Acc)
 	(1C Sent) ;
+
+
+REMOVE Attr IF (NOT 1 PRE-N) (NOT 1 NOMINAL-HEAD) (NOT 1/1 NOMINAL-HEAD) ; 
+    ## Bu araba 11,5 milyar a
+
