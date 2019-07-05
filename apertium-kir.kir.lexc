@@ -2205,8 +2205,9 @@ PRON-DEM-BUL ; ! "this"
 ! мына:мына PRON-DEM-MINA ; ! "" "FIXME how this shoulbe done?"
 
 эмне:эмне PRON-ITG ; ! "what?"
-кайсыны:кайсыны PRON-ITG ; ! "which one?"
+кайсы:кайсыны PRON-ITG ; ! "which one?"  ! FIXME: need to fix forms
 ким:ким PRON-ITG ; ! "who?"
+ким%<prn%>%<itg%>%<px3sp%>:кими%>%{s%}%{I%}%{n%} GEN-POS "weight: 0.8" ;
 ! кайда:кайда PRON-ITG ; ! "where?"  ! FIXME: doesn't take possession or cases!!!!  is <loc> of кай<det>!!
 
 өз:өз PRON-REFL ; ! "own/self"
@@ -2233,7 +2234,7 @@ PRON-DEM-BUL ; ! "this"
 кээ:кээ PRON-IND ; 
 
 көбү:көбү PRON-QNT ; ! "most"
-кимиси:кимиси PRON-QNT ; !
+!кимиси:кимиси PRON-QNT ; !
 ! FIXME: THESE ARE DET!!!
 кээ% бир:кээ% бир PRON-QNT ; ! "some"
 бир% нече:бир% нече PRON-QNT ; ! "some, several"
