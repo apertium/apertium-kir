@@ -16,6 +16,9 @@ LIST Past = past ;
 LIST Vadj = vadj vadj_past ;
 LIST Vaux = vaux ;
 LIST Verb = v ;
+LIST V = v ;
+LIST Vaux = vaux ;
+LIST Cop = cop ;
 LIST Num = num ; 
 LIST Interj = ij ; 
 LIST Attr = attr ;
@@ -37,6 +40,21 @@ LIST Aor = aor ;
 LIST Px3pl = px3pl ;
 LIST Px3sg = px3sg ;
 LIST Post = post ;
+
+LIST Sg = sg ;
+LIST Pl = pl ;
+
+LIST Nom = nom ;
+LIST Gen = gen ;
+LIST Dat = dat ;
+LIST Acc = acc ;
+LIST Abl = abl ;
+LIST Loc = loc ;
+LIST Ins = ins ;
+
+LIST P1 = p1 ;
+LIST P2 = p2 ;
+LIST P3 = p3 ;
 
 LIST Vb-Pl = (v pl) ;
 LIST Vb-Sg = (v sg) ;
@@ -167,3 +185,22 @@ SELECT Vb-Ifi-3 IF
 REMOVE Attr IF (NOT 1 PRE-N) (NOT 1 NOMINAL-HEAD) (NOT 1/1 NOMINAL-HEAD) ; 
     ## Bu araba 11,5 milyar a
 
+
+
+# Deciding about the number of a verb or copula in the 3 person
+# Basic idea is to remove plural reading if subject is not in plural,
+# but there a lot of corner cases, which lead to lots of mispredictions.
+# So let's just delete plural reading for now.
+#
+# Selecting plural reading might be a more productive approach.
+ REMOVE Pl IF
+        (0 V OR Vaux OR Cop)
+        (0 P3)
+;
+##
+
+# Thought that the above rule should cover copulas, seems that sometimes it doesn't
+  REMOVE SUB:1 Pl IF
+        (0/1 Cop)
+       (0/1 P3)
+;
