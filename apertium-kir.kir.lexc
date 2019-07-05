@@ -16978,10 +16978,10 @@ LEXICON Verbs
 ак:агыз V-INFL-IV-IRREG-CAUS ; ! "make flow"
 агыл:агыл V-INFL-IV ;
 
-отур:отур V-INFL-IV-NO-CAUS ; ! "sit"
-олтур:олтур V-INFL-IV-NO-CAUS ; ! "sit"              ! Dir/LR
-отур:отургуз V-INFL-IV-IRREG-CAUS ; ! "sit"
-олтур:олтургуз V-INFL-IV-IRREG-CAUS ; ! "sit"  ! Dir/LR
+отур:отур V-INFL-IV-NO-CAUS ;  ! "sit"
+отур:олтур V-INFL-IV-NO-CAUS ; ! "sit"        ! Dir/LR
+отур:отургуз V-INFL-IV-IRREG-CAUS ;  ! "sit"
+отур:олтургуз V-INFL-IV-IRREG-CAUS ; ! "sit"  ! Dir/LR
 аракет% кыл:аракет% кыл V-INFL-IV ; ! "try"
 арна:арна V-INFL-TV ; 
 аякта:аякта V-INFL-TV ; ! "complete"
@@ -17215,7 +17215,6 @@ LEXICON Verbs
 ишке% ашыр:ишке% ашыр V-INFL-IV ;
 !бүтүр V-INFL-IV ; ! Irregular causitive
 аткар:аткар V-INFL-TV ;
-кайры:кайры V-INFL-TV ;
 !секир V-INFL-TV ; ! HOW?!
 секир:секир V-INFL-IV ; 
 уюштур:уюштур V-INFL-TV ;
@@ -18237,6 +18236,8 @@ LEXICON Verbs
 жүзөгө% аш:жүзөгө% ашыр V-INFL-IV-IRREG-CAUS ; ! "bring to life"
 жардамдаш:жардамдаш V-INFL-IV ; ! "help one another"
 кенел:кенел V-INFL-IV ; ! ""
+кайыр:кай%{y%}р V-INFL-TV ; ! "turn back"
+кайыр:кайры V-INFL-TV ;  ! "turn back" ! Dir/LR
 
 
 LEXICON Abbreviations
