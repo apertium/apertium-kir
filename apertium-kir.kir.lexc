@@ -2206,7 +2206,7 @@ PRON-DEM-BUL ; ! "this"
 
 эмне:эмне PRON-ITG ; ! "what?"
 кайсы:кайсыны PRON-ITG ; ! "which one?"  ! FIXME: need to fix forms
-ким:ким PRON-ITG ; ! "who?"
+ким:ким PRON-ITG "weight: 1.0" ; ! "who?"
 ким%<prn%>%<itg%>%<px3sp%>:кими%>%{s%}%{I%}%{n%} GEN-POS "weight: 0.8" ;
 ! кайда:кайда PRON-ITG ; ! "where?"  ! FIXME: doesn't take possession or cases!!!!  is <loc> of кай<det>!!
 
