@@ -126,13 +126,13 @@ Rules
 
 !!!!!! рн stuff !!!!! 
 
-"Unepenthesis in рн stems"
+"Unepenthesis between stem-final consonants that can't be a coda cluster"
 %{y%}:0 <=> _ [ :Cns :SurVow ]/[ :0 | %>: | %-: ] ;
 
 ! FIXME: check
-"Harmony of epenthesised vowel in рн stems"
+"Harmony of epenthesised vowel between stem-final consonants that can't be a coda cluster"
 !%{y%}:Vy <=> [ :LastVowel :Cns* :Cns ]/[:0] _ [ :Cns \:SurVow ]/[ :0 | %>:] ;
-%{y%}:Vy <=> [ :LastVowel :Cns* :Cns ]/[:0] _ [ :Cns [ .#. | :Cns ] ]/[ :0 | %-: | %>:] ;
+%{y%}:Vy <=> [ :LastVowel :Cns* :Cns ]/[:0] _ [ :Cns [ .#. | :Cns ] ]/[ :0 | %-: | %>: ] ;
   where  Vy  in  (  и  ү  и  и  ү  ы  ы  у  у  ы  у  у )
   LastVowel  in  (  и  ү  е  э  ө  я  а  ё  о  ы  ю  у )
            matched ;
