@@ -2087,7 +2087,7 @@ LEXICON Determiners
 тиги:тигил DET-DEM-L ; ! "that (yonder)" ! Dir/LR
 тиги:тиги DET-DEM ; ! "that (yonder)"
 кай:кай DET-DEM ; ! "which"
-кай:кай PRON-ITG ; ! "which"
+
 алиги:алиги DET-DEM ; ! ""
 мына% бу:мына% бу DET-DEM ; ! ""
 тетиги:тетиги DET-DEM ; ! ""
@@ -2342,7 +2342,6 @@ LEXICON Nouns
 суюктук:суюктук N-INFL ; !
 топоним:топоним N-INFL ; !
 ишмердиг:ишмердиг N-INFL ; !
-орг:орг N-INFL ; !
 ибарат:ибарат N-INFL ; !
 иудей:иудей N-INFL ; !
 эврей:эврей N-INFL ; !
@@ -2355,7 +2354,7 @@ LEXICON Nouns
 Машаяк:Машаяк N-INFL ; !
 жышаан:жышаан N-INFL ; !
 буркан:буркан N-INFL ; !
-түмөн:түмөн N-INFL ; !
+түмөн:түмөн N-INFL ; ! "legion"
 чөкмө:чөкмө N-INFL ; !
 чалгындоо:чалгындоо N-INFL ; !
 сыңар:сыңар N-INFL ; !
@@ -16190,7 +16189,7 @@ LEXICON Adverbs
 кандайча:кандайча ADVITG ; ! "howso"
 канчалык:канчалык ADVITG ; ! ""
 кайда:кайда ADVITG ; ! "where"
-
+кайдан:кайдан ADVITG ; ! "where"
 барабар:барабар ADV ; !
 ирет:ирет ADV ; !
 тургай:тургай ADV ; !
