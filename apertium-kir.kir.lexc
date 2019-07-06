@@ -2393,12 +2393,10 @@ LEXICON Nouns
 кыргыз:кыргыз N-INFL ; !
 
 орден:орден N-INFL ; !
-жөн:жөн N-INFL ; !
 искусство:искусство N-INFL ; !
 сактоо:сактоо N-INFL ; ! Use/MT
 мэр:мэр N-INFL ; !
 ИА:ИА N-INFL ; !
-англис:англис N-INFL ; !
 салыштырма:салыштырма N-INFL ; !
 муниципалитет:муниципалитет N-INFL ; !
 райондоштуруу:райондоштуруу N-INFL ; !
@@ -6149,7 +6147,7 @@ LEXICON Nouns
 сайт:сайт N-INFL ;
 сакал:сакал N-INFL ; 
 сакмал:сакмал N-INFL ; 
-сактоо:сактоо N-INFL ;
+сактоо:сактоо N-INFL ; ! Use/MT
 сакчы:сакчы N-INFL ; ! CHECK
 салам:салам N-INFL ; ! "" 
 саламаттык:саламаттык N-INFL ; ! "" 
@@ -7769,7 +7767,8 @@ LEXICON ProperNouns
 Баден:Баден NP-TOP ; !
 Өзгөн:Өзгөн NP-TOP ; !
 Айдахо:Айдахо NP-TOP ; !
-Нү-Гэмпшир:Нү-Гэмпшир NP-TOP ; ! Dir/LR
+Нью-Хемпшир:Нү-Гэмпшир NP-TOP ; ! Dir/LR
+Нью-Хемпшир:Нью-Хемпшир NP-TOP ; ! 
 Коннектикут:Коннектикут NP-TOP ; !
 Померания:Померания NP-TOP ; !
 Франкония:Франкония NP-TOP ; !
@@ -7778,7 +7777,6 @@ LEXICON ProperNouns
 Сай:Сай NP-TOP ; !
 Томск:Томск NP-TOP ; !
 Орегон:Орегон NP-TOP ; !
-
 Миннесота:Миннесота NP-TOP ; !
 Печора:Печора NP-TOP ; !
 Двина:Двина NP-TOP ; !
@@ -7808,10 +7806,11 @@ LEXICON ProperNouns
 Рейнланд:Рейнланд NP-TOP ; !
 Кентукки:Кентукки NP-TOP ; !
 Баварияжери:Баварияжери NP-TOP ; !
-Нү-Жерси:Нү-Жерси NP-TOP ; ! Dir/LR
+Нью-Жерси:Нү-Жерси NP-TOP ; ! Dir/LR
 Нью-Жерси:Нью-Жерси NP-TOP ; ! 
 Ардак:Ардак NP-TOP ; !
-Нү-Йорк:Нү-Йорк NP-TOP ; ! Dir/LR
+Нью-Йорк:Нью-Йорк NP-TOP ; !
+Нью-Йорк:Нү-Йорк NP-TOP ; ! Dir/LR
 Токтогул:Токтогул NP-TOP ; !
 Башкыртстан:Башкыртстан NP-TOP ; !
 Нарын:Нарын NP-TOP ; !
@@ -14738,6 +14737,7 @@ LEXICON Adjectives
 фашисттик:фашисттик A4 ; ! "fascist" 
 федералдык:федералдык A4 ; ! "" 
 федеративдик:федеративдик A4 ; ! "" 
+федеративдик:Федеративтик A4 ; ! Dir/LR
 феодалдык:феодалдык A4 ; ! "feudal" 
 физикалык:физикалык A4 ; ! "" 
 физиологиялык:физиологиялык A4 ; ! "" 
@@ -15247,8 +15247,8 @@ LEXICON Adjectives
 кичи:кичи A1 ; !
 
 
-Федеративтик:Федеративтик A1 ; !
-кээ:кээ A1 ; !
+
+
 
 адилеттүү:адилеттүү A1 ; ! "" 
 адил:адил A1 ; ! "" 
@@ -16192,7 +16192,6 @@ LEXICON Adverbs
 кайда:кайда ADVITG ; ! "where"
 кайдан:кайдан ADVITG ; ! "where"
 барабар:барабар ADV ; !
-ирет:ирет ADV ; !
 тургай:тургай ADV ; !
 чындап:чындап ADV ; ! Use/MT
 кантип:кантип ADV ; !
@@ -16218,7 +16217,7 @@ LEXICON Adverbs
 жакында:жакында ADV ; ! "soon"
 бирге:бирге ADV ; ! "together"
 ! катуу:катуу ADV ; ! "fast/quickly (with verbs of motion), strongly" ! "removing duplicate see A1 section"
-ошондо:ошондо ADV ; !
+ошондо:ошондо ADV ; ! Use/MT
 
 эч% качан:эч% качан ADV ; ! Use/MT
 негизинде:негизинде ADV ; ! "basically, in general"
@@ -17130,7 +17129,6 @@ LEXICON Verbs
 кат:катыр V-INFL-IV-IRREG-CAUS ; ! "make hard"
 сарсанаа% тарт:сарсанаа% тарт V-INFL-TV ;
 ээле:ээле V-INFL-TV ; ! "occupy"
-ээле:ээле V-INFL-IV ; ! "occupy"
 кор:кор V-INFL-TV ; ! "protect"
 корот:корот V-INFL-TV ; ! "waste"
 сок:сок V-INFL-TV ; ! "hit, fight"
@@ -17820,7 +17818,7 @@ LEXICON Verbs
 багытта:багытта V-INFL-TV ; ! FIXME: check transitivity (should be TV?)
 жакта:жакта V-INFL-TV ; ! FIXME: check transitivity (probably IV and TV)
 негизде:негизде V-INFL-TV ; !
-негизде:негизде V-INFL-IV ; !
+
 кезде:кезде V-INFL-TV ; !
 кездеш:кездеш V-INFL-IV ; !
 ыйгар:ыйгар V-INFL-TV ; ! "dedicate" (?)
