@@ -204,3 +204,9 @@ REMOVE Attr IF (NOT 1 PRE-N) (NOT 1 NOMINAL-HEAD) (NOT 1/1 NOMINAL-HEAD) ;
         (0/1 Cop)
        (0/1 P3)
 ;
+
+
+REMOVE V IF
+       (0 V or Vaux)
+       (-1 Prc)
+;
