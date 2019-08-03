@@ -256,6 +256,7 @@ REMOVE Attr IF (NOT 1 PRE-N) (NOT 1 NOMINAL-HEAD) (NOT 1/1 NOMINAL-HEAD) ;
  "<өтө>" SELECT Adv IF (1 Adj) ;
 ## Бірақ кеше _өте_ суық еді!
 
+ "<бардык>" SELECT Det IF (1 Noun) ;
 
 REMOVE V IF
        (0 V or Vaux)
