@@ -25,14 +25,14 @@ LIST Verb = v ;
 LIST V = v ;
 LIST Vaux = vaux ;
 LIST Cop = cop ;
-LIST Num = num ; 
-LIST Interj = ij ; 
+LIST Num = num ;
+LIST Interj = ij ;
 LIST Attr = attr ;
 LIST Subst = subst ;
 LIST Vb-or-Aux = v vaux ;
 LIST PrcIrre = prc_irre ;
 LIST Prc = prc_plan prc_past prc_hab prc_fut prc_cond prc_perf prc_impf prc_vol prc_irre prc_real prc_pcond ;
-LIST PrcCop = prc_past prc_hab prc_fut prc_irre pre_pcond ; # Prc forms that occur with copula 
+LIST PrcCop = prc_past prc_hab prc_fut prc_irre pre_pcond ; # Prc forms that occur with copula
 LIST Ger = ger ger_fut ger_past ger_pres ;
 LIST Gpr = gpr_fut gpr_pot2 gpr_perf gpr_past gpr gpr_pot gpr_impf gpr_hab gpr_notyet gpr_ppot ;
 LIST Finite = past ifi fut aor ;
@@ -74,7 +74,7 @@ SET  Sing = (*) - (pl) ;
 
 SET  Acc-Or-Nom = Acc | Nom ;
 
-SET NOMINAL-HEAD = Noun | Ger | Subst ; 
+SET NOMINAL-HEAD = Noun | Ger | Subst ;
 SET PRE-N = Det | Num | Attr | Adj | Gen | ("-") ;
 
 SET  Not-Prc = (*) - Prc ;
@@ -175,8 +175,8 @@ SELECT Cop IF
 SELECT Adj IF (1C Num) (2C Noun) ;
 
 ## select Adj if inbetween nouns
-SELECT Adj IF (-1 Noun) (1 Noun) ; 
- 
+SELECT Adj IF (-1 Noun) (1 Noun) ;
+
 ## select Adj if before copula (idi, iken)
 SELECT Adj IF (1 Cop) ;
 
@@ -196,7 +196,7 @@ SELECT Vb-Ifi-3 IF
 	(1C Sent) ;
 
 
-REMOVE Attr IF (NOT 1 PRE-N) (NOT 1 NOMINAL-HEAD) (NOT 1/1 NOMINAL-HEAD) ; 
+REMOVE Attr IF (NOT 1 PRE-N) (NOT 1 NOMINAL-HEAD) (NOT 1/1 NOMINAL-HEAD) ;
     ## Bu araba 11,5 milyar a
 
 
@@ -236,7 +236,7 @@ REMOVE Ger-Acc IF
  SELECT SUB:1 Cop IF
         (1 MARK OR EOS)
         (NOT 0 FiniteVerb OR Vaux)
-		  (NOT -1* P2Pron) 
+        (NOT -1* P2Pron)
         (NOT 0 Interj) ## Дұрыс, оның мысығы бар.
         (NOT 0 FiniteVerb) ## 74 ... барлығы 53 ел [0]қатысты.
  ;
