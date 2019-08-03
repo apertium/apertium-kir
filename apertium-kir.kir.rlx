@@ -17,6 +17,9 @@ LIST Acc = acc ;
 LIST Gen = gen ;
 
 LIST Adj = adj ;
+LIST Adv = adv ;
+LIST Pron = prn ;
+LIST Pron-Pers = (prn pers) ;
 LIST Noun = n ;
 LIST Past = past ;
 LIST Vadj = vadj vadj_past ;
@@ -36,7 +39,9 @@ LIST PrcCop = prc_past prc_hab prc_fut prc_irre pre_pcond ; # Prc forms that occ
 LIST Ger = ger ger_fut ger_past ger_pres ;
 LIST Gpr = gpr_fut gpr_pot2 gpr_perf gpr_past gpr gpr_pot gpr_impf gpr_hab gpr_notyet gpr_ppot ;
 LIST Finite = past ifi fut aor ;
+LIST Gerund = ger ger_ppot ger_past ger_perf ger_impf ger_abs ;
 LIST FiniteVerb = pres aor past ifi ifi_evid fut fut_plan imp opt pih ;
+SET V-NotGerund = V - Gerund ;
 LIST Det = det ;
 LIST Cop = cop ;
 LIST Sent = sent ;
@@ -48,6 +53,7 @@ LIST Px3pl = px3pl ;
 LIST Px3sg = px3sg ;
 LIST Post = post ;
 LIST Coop = coop ;
+LIST IJ = ij ;
 
 LIST Sg = sg ;
 LIST Pl = pl ;
@@ -73,6 +79,16 @@ LIST Nouns = n np pron ;
 SET  Sing = (*) - (pl) ;
 
 SET  Acc-Or-Nom = Acc | Nom ;
+
+# "Syntactic" tags
+# ================
+
+LIST Advl = advl ;
+LIST Attr = attr ;
+LIST Subst = subst ;
+LIST N-LIKE = subst n np prn ; # Actually, see NOMINAL
+
+
 
 SET NOMINAL-HEAD = Noun | Ger | Subst ;
 SET PRE-N = Det | Num | Attr | Adj | Gen | ("-") ;
@@ -220,6 +236,19 @@ REMOVE Attr IF (NOT 1 PRE-N) (NOT 1 NOMINAL-HEAD) (NOT 1/1 NOMINAL-HEAD) ;
        (0/1 P3)
 ;
 
+# select adverbial reading of adjectives if any verbal form except gerund follows
+# FIXME CHECK it might be a gerund as well
+ SELECT Advl OR Adv IF
+         (1C V-NotGerund)
+         #(NOT 1C Participle)
+         (NOT 1 ("бол"))
+         (NOT 0 ("балама"))
+         (NOT 1 ("де"))
+;
+##
+# example: in 'балама үйретейін' the 'балама' shouldn't be treated as adj.advl (equivalent), it should be n.px1sq.dat (to my son)
+
+
 
 REMOVE V IF
        (0 V or Vaux)
@@ -231,6 +260,28 @@ REMOVE Ger-Acc IF
         (1 EOS OR MARK)
 ;
 
+
+ SELECT Pron IF
+        (0C Det OR Pron)
+        (1C Adv)
+;
+
+SELECT Pron IF
+        (0C Det OR Pron)
+        (1/1 Cop)
+        (2 EOS OR MARK)
+;
+# example: Бул оюн.
+
+# FIXME removes determiner even when there is a noun 1 to the right
+# FIXED JNW 2017-08-12
+REMOVE Det IF
+       (0 Det OR Pron)  # ADDED JNW 2017-08-11
+       (NOT 1 Noun OR Subst)
+       (NEGATE 1 Adj LINK 1 Noun OR Subst)
+;
+# 44 . Ол енді ол дыбысты анығырақ ести бастады.
+# (!) 34 . Ол Азаматтың қайда екенін білсе де айтқысы келген жоқ.
 
 # бар
  SELECT SUB:1 Cop IF
@@ -258,4 +309,16 @@ REMOVE Ger-Acc IF
 "<бар>" SELECT V IF (-1 Dat) ;
 "<бар>" SELECT SUB:1 Cop IF (-1 (px3sp)) ;
 
+ REMOVE IJ IF
+        (0 Adj)
+        (1 Noun)
+;
+#
+ SELECT Interj OR (cnjadv) IF
+        (-1 BOS)
+        (1 Cm)
+;
+## "Мысалы, ежелгі заманның өзінде Арал теңізі көп елдерге мәлім болған."
+
+# e.g., дұрыс! (<ij>) | дұрыс жерден (<adj>)
 
