@@ -248,6 +248,9 @@ REMOVE Attr IF (NOT 1 PRE-N) (NOT 1 NOMINAL-HEAD) (NOT 1/1 NOMINAL-HEAD) ;
 ##
 # example: in 'балама үйретейін' the 'балама' shouldn't be treated as adj.advl (equivalent), it should be n.px1sq.dat (to my son)
 
+ "<атам>" SELECT Vaux IF
+          (-1 Prc)
+ ;
 
 
 REMOVE V IF
@@ -321,4 +324,3 @@ REMOVE Det IF
 ## "Мысалы, ежелгі заманның өзінде Арал теңізі көп елдерге мәлім болған."
 
 # e.g., дұрыс! (<ij>) | дұрыс жерден (<adj>)
-
