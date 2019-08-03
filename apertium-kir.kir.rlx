@@ -3,6 +3,8 @@
 DELIMITERS = "<.>" "<!>" "<?>" ;
 SOFT-DELIMITERS = "<,>" ;
 
+SUBREADINGS = LTR ; # Alternate, left-to-right (main reading on the left)
+
 LIST BOS = (>>>) ; # Beginning of sentence
 LIST EOS = (<<<) ; # End of sentence
 
@@ -34,6 +36,7 @@ LIST PrcCop = prc_past prc_hab prc_fut prc_irre pre_pcond ; # Prc forms that occ
 LIST Ger = ger ger_fut ger_past ger_pres ;
 LIST Gpr = gpr_fut gpr_pot2 gpr_perf gpr_past gpr gpr_pot gpr_impf gpr_hab gpr_notyet gpr_ppot ;
 LIST Finite = past ifi fut aor ;
+LIST FiniteVerb = pres aor past ifi ifi_evid fut fut_plan imp opt pih ;
 LIST Det = det ;
 LIST Cop = cop ;
 LIST Sent = sent ;
@@ -91,6 +94,8 @@ LIST P3-Sg = (p3 sg) ;
 LIST Vb-Imp = (v imp) ;
 LIST N-Acc = (n acc) ;
 LIST Vb-Ifi-3 = (v ifi p3 sg) (v ifi p3 pl) ;
+
+LIST P2Pron = (prn pers p2) ;
 
 SECTION
 
@@ -225,3 +230,32 @@ REMOVE Ger-Acc IF
         (0 P3-Pl)
         (1 EOS OR MARK)
 ;
+
+
+# бар
+ SELECT SUB:1 Cop IF
+        (1 MARK OR EOS)
+        (NOT 0 FiniteVerb OR Vaux)
+		  (NOT -1* P2Pron) 
+        (NOT 0 Interj) ## Дұрыс, оның мысығы бар.
+        (NOT 0 FiniteVerb) ## 74 ... барлығы 53 ел [0]қатысты.
+ ;
+## Жоқ, Айгүлдің күшігі [0]жоқ, оның мысығы [0]бар.
+
+ SELECT SUB:1 Cop IF
+        (1 EOS)
+ ;
+
+ REMOVE SUB:1 Cop IF
+        (NOT 1 EOS OR MARK OR ("де"))
+;
+ REMOVE SUB:1 Cop IF
+        (-1 BOS OR MARK) ## Headings or enumerations
+        (NOT 1 EOS)
+;
+
+
+"<бар>" SELECT V IF (-1 Dat) ;
+"<бар>" SELECT SUB:1 Cop IF (-1 (px3sp)) ;
+
+
