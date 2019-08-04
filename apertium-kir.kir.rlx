@@ -111,6 +111,8 @@ SET  Np-Nom-Or-Gen = Nouns + Nom-Or-Gen ;
 SET  Np-Nom-Or-Gen-Sg = Np-Nom-Or-Gen + Sing ;
 SET  Px3-Sg-Or-Pl = Px3sg | Px3pl ;
 
+LIST Adj-Subst = (adj subst) ;
+
 SET Ger-Acc = Ger + (acc);
 LIST P3-Pl = (p3 pl) ;
 LIST P3-Sg = (p3 sg) ;
@@ -388,4 +390,10 @@ REMOVE CC IF (0 Post) (NOT 1 N-LIKE);
        (0 Noun OR Prop)
        (NOT 0 Loc)
        (1 (px3sp))
+ ;
+
+ REMOVE Adj-Subst IF
+        (0 Noun)
+        (0/1 Cop)
+        (1 MARK OR EOS)
  ;
