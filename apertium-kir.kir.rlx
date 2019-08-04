@@ -43,6 +43,8 @@ LIST Gerund = ger ger_ppot ger_past ger_perf ger_impf ger_abs ;
 LIST FiniteVerb = pres aor past ifi ifi_evid fut fut_plan imp opt pih ;
 SET V-NotGerund = V - Gerund ;
 LIST Det = det ;
+LIST CC = cnjcoo ;
+LIST CS = cnjsub ;
 LIST Cop = cop ;
 LIST Sent = sent ;
 LIST Pl = pl ;
@@ -273,6 +275,10 @@ REMOVE Attr IF (NOT 1 PRE-N) (NOT 1 NOMINAL-HEAD) (NOT 1/1 NOMINAL-HEAD) ;
  "<алар>" REMOVE Verb IF (NOT 1 EOS OR MARK) ;
  "<алар>" REMOVE Vaux IF (NOT 1 EOS OR MARK) ;
 
+ "<карай>" REMOVE Verb IF (NOT 1 Vaux);
+
+ "<бир>" SELECT Det IF (1 Noun) (-1 Adj) ;
+
 REMOVE V IF
        (0 V or Vaux)
        (-1 Prc)
@@ -355,5 +361,11 @@ SELECT V-IV IF
 		(0 ("бас"))
 		(NOT -1 NOMINAL)
 ;
+
+## [0]Азамат пен Айгүл бақшада.
+### : for "Алма мен Аян"-cnjcoo
+SELECT CC IF (-1 Noun)(0 CC)(1 Noun);
+
+REMOVE CC IF (0 Post) (NOT 1 Noun);
 
 
