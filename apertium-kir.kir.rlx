@@ -258,6 +258,10 @@ REMOVE Attr IF (NOT 1 PRE-N) (NOT 1 NOMINAL-HEAD) (NOT 1/1 NOMINAL-HEAD) ;
 
  "<бардык>" SELECT Det IF (1 Noun) ;
 
+ "<алдым>" SELECT Verb IF (1 EOS OR MARK) ;
+ "<алдың>" SELECT Verb IF (1 EOS OR MARK) ;
+ "<алды>" SELECT Verb IF (1 EOS OR MARK) ;
+
 REMOVE V IF
        (0 V or Vaux)
        (-1 Prc)
