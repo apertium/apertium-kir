@@ -75,6 +75,12 @@ LIST Vb-Sg = (v sg) ;
 LIST Nom-Pl = (nom pl) ;
 SET  Nom-Sg = (nom) - (pl) ;
 LIST Nouns = n np pron ;
+LIST Prop = np ;
+
+LIST V-IV = (v iv) ;
+LIST V-TV = (v tv) ;
+
+
 
 SET  Sing = (*) - (pl) ;
 
@@ -90,6 +96,7 @@ LIST N-LIKE = subst n np prn ; # Actually, see NOMINAL
 
 
 
+SET NOMINAL = Noun | Prop | Pron | Subst | Gerund ;
 SET NOMINAL-HEAD = Noun | Ger | Subst ;
 SET PRE-N = Det | Num | Attr | Adj | Gen | ("-") ;
 
@@ -337,3 +344,16 @@ REMOVE Det IF
 ## "Мысалы, ежелгі заманның өзінде Арал теңізі көп елдерге мәлім болған."
 
 # e.g., дұрыс! (<ij>) | дұрыс жерден (<adj>)
+
+
+SELECT V-TV IF
+	(0 ("бас"))
+	(-1* Acc BARRIER N-LIKE)
+;
+
+SELECT V-IV IF
+		(0 ("бас"))
+		(NOT -1 NOMINAL)
+;
+
+
