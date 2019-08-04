@@ -165,7 +165,9 @@ REMOVE Iv IF
 # get rid of prc_irre if also can be aor if following word sent
 REMOVE PrcIrre IF
 	(0C PrcIrre-Or-Aor)
-	(1C Sent);
+#	(1C Sent);
+   (1 EOS OR MARK)
+;
 
 # get rid of plural possessive reading if antecedant is sg
 REMOVE Px3pl IF
