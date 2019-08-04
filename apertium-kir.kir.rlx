@@ -30,7 +30,6 @@ LIST Vaux = vaux ;
 LIST Cop = cop ;
 LIST Num = num ;
 LIST Interj = ij ;
-LIST Attr = attr ;
 LIST Subst = subst ;
 LIST Vb-or-Aux = v vaux ;
 LIST PrcIrre = prc_irre ;
@@ -376,4 +375,14 @@ SELECT CC IF
 
 REMOVE CC IF (0 Post) (NOT 1 N-LIKE);
 
+ REMOVE Attr IF
+       (0 Noun OR Prop)
+       (NOT 0 Loc)
+       (NOT 1 Noun OR Prop)
+ ;
 
+ REMOVE Attr IF
+       (0 Noun OR Prop)
+       (NOT 0 Loc)
+       (1 (px3sp))
+ ;
