@@ -364,7 +364,7 @@ SELECT V-IV IF
 
 ## [0]Азамат пен Айгүл бақшада.
 ### : for "Алма мен Аян"-cnjcoo
-SELECT CC IF (-1 Noun)(0 CC)(1 Noun);
+SELECT CC IF (-1 NOMINAL)(0 CC)(1 NOMINAL);
 
 REMOVE CC IF (0 Post) (NOT 1 Noun);
 
