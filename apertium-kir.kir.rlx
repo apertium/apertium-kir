@@ -225,6 +225,7 @@ REMOVE Attr IF (NOT 1 PRE-N) (NOT 1 NOMINAL-HEAD) (NOT 1/1 NOMINAL-HEAD) ;
 # Selecting plural reading might be a more productive approach.
  REMOVE Pl IF
         (0 V OR Vaux OR Cop)
+        (NOT 0 Pron)
         (0 P3)
         ((0 P3-Sg) LINK (NOT 0 Coop))
 ;
@@ -261,6 +262,9 @@ REMOVE Attr IF (NOT 1 PRE-N) (NOT 1 NOMINAL-HEAD) (NOT 1/1 NOMINAL-HEAD) ;
  "<алдым>" SELECT Verb IF (1 EOS OR MARK) ;
  "<алдың>" SELECT Verb IF (1 EOS OR MARK) ;
  "<алды>" SELECT Verb IF (1 EOS OR MARK) ;
+
+ "<алар>" REMOVE Verb IF (NOT 1 EOS OR MARK) ;
+ "<алар>" REMOVE Vaux IF (NOT 1 EOS OR MARK) ;
 
 REMOVE V IF
        (0 V or Vaux)
