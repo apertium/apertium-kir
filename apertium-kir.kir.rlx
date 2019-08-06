@@ -397,3 +397,15 @@ REMOVE CC IF (0 Post) (NOT 1 N-LIKE);
         (0/1 Cop)
         (1 MARK OR EOS)
  ;
+
+
+
+
+
+SECTION
+
+ # If Nom and Attr are left, just go with Nom...
+ REMOVE Attr IF
+        (0 Noun OR Prop)
+        (0 Nom)
+ ;
