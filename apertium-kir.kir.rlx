@@ -408,4 +408,11 @@ SECTION
  REMOVE Attr IF
         (0 Noun OR Prop)
         (0 Nom)
+        (NOT 0 Loc)
+ ;
+
+
+ REMOVE Noun + Loc + Subst + Nom IF
+        (0 Loc + Attr)
+        (1 Noun)
  ;
