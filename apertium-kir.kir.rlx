@@ -14,6 +14,7 @@ SET MARK =  Cm | ("\\") | ("\;") | ("\(") ;
 
 LIST Nom = nom ;
 LIST Acc = acc ;
+LIST @acc-ind = acc-ind ;
 LIST Gen = gen ;
 
 LIST Adj = adj ;
@@ -417,4 +418,15 @@ SECTION
  REMOVE Noun + Loc + Subst + Nom IF
         (0 Loc + Attr)
         (1 Noun)
+ ;
+
+
+
+
+SECTION
+
+SUBSTITUTE Nom @acc-ind TARGET Noun IF
+    (0 Nom)
+    (-1* Nom BARRIER Sent)
+    (NOT 1 Verb)
  ;
