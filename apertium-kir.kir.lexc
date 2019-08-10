@@ -5556,6 +5556,7 @@ LEXICON Nouns
 мугалимдик:мугалимдик N-INFL ; ! "teacherhood"
 мударис:мударис N-INFL ; 
 муз:муз N-INFL ; ! "ice"
+муздаткыч:муздаткыч N-INFL ; ! "refrigerator"
 музей:музей N-INFL ; ! "museum"
 музоо:музоо N-INFL ; ! "calf (animal)"
 музыка:музыка N-INFL ; 
@@ -8529,6 +8530,7 @@ Wrigley:Wrigley NP-ORG ; ! ""
 Интерфакс:Интерфакс NP-ORG ; ! ""
 Казмырыш:Казмырыш NP-ORG ; ! ""
 Казпошта:Казпошта NP-ORG ; ! ""
+Кумтөр:Кумтөр NP-ORG ; ! ""
 Лукойл:Лукойл NP-ORG ; ! ""
 Нью%-Йорк% таймс:Нью%-Йорк% таймс NP-ORG ; ! "New York Times"
 Пентагон:Пентагон NP-ORG ; ! ""
@@ -16534,6 +16536,7 @@ LEXICON Adverbs
 ыкылас% коюп:ыкылас% коюп ADV ; ! "carefully" ! Use/MT
 көбүрөөк% ыкылас% коюп:көбүрөөк% ыкылас% коюп ADV ; ! "more carefully" ! Use/MT
 көп:көп ADV ; ! "a lot"  ! Use/MT ! FIXME: CHECK
+түнүчүндө:түнүчүндө ADV ; ! "at night"
 
 
 !! FIXME: productive {K}{I} forms
