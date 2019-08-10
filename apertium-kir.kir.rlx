@@ -3,6 +3,8 @@
 DELIMITERS = "<.>" "<!>" "<?>" ;
 SOFT-DELIMITERS = "<,>" ;
 
+SUBREADINGS = LTR ; # Alternate, left-to-right (main reading on the left)
+
 LIST BOS = (>>>) ; # Beginning of sentence
 LIST EOS = (<<<) ; # End of sentence
 
@@ -12,9 +14,13 @@ SET MARK =  Cm | ("\\") | ("\;") | ("\(") ;
 
 LIST Nom = nom ;
 LIST Acc = acc ;
+LIST @acc-ind = acc-ind ;
 LIST Gen = gen ;
 
 LIST Adj = adj ;
+LIST Adv = adv ;
+LIST Pron = prn ;
+LIST Pron-Pers = (prn pers) ;
 LIST Noun = n ;
 LIST Past = past ;
 LIST Vadj = vadj vadj_past ;
@@ -23,18 +29,22 @@ LIST Verb = v ;
 LIST V = v ;
 LIST Vaux = vaux ;
 LIST Cop = cop ;
-LIST Num = num ; 
-LIST Interj = ij ; 
-LIST Attr = attr ;
+LIST Num = num ;
+LIST Interj = ij ;
 LIST Subst = subst ;
 LIST Vb-or-Aux = v vaux ;
 LIST PrcIrre = prc_irre ;
 LIST Prc = prc_plan prc_past prc_hab prc_fut prc_cond prc_perf prc_impf prc_vol prc_irre prc_real prc_pcond ;
-LIST PrcCop = prc_past prc_hab prc_fut prc_irre pre_pcond ; # Prc forms that occur with copula 
+LIST PrcCop = prc_past prc_hab prc_fut prc_irre pre_pcond ; # Prc forms that occur with copula
 LIST Ger = ger ger_fut ger_past ger_pres ;
 LIST Gpr = gpr_fut gpr_pot2 gpr_perf gpr_past gpr gpr_pot gpr_impf gpr_hab gpr_notyet gpr_ppot ;
 LIST Finite = past ifi fut aor ;
+LIST Gerund = ger ger_ppot ger_past ger_perf ger_impf ger_abs ;
+LIST FiniteVerb = pres aor past ifi ifi_evid fut fut_plan imp opt pih ;
+SET V-NotGerund = V - Gerund ;
 LIST Det = det ;
+LIST CC = cnjcoo ;
+LIST CS = cnjsub ;
 LIST Cop = cop ;
 LIST Sent = sent ;
 LIST Pl = pl ;
@@ -45,6 +55,7 @@ LIST Px3pl = px3pl ;
 LIST Px3sg = px3sg ;
 LIST Post = post ;
 LIST Coop = coop ;
+LIST IJ = ij ;
 
 LIST Sg = sg ;
 LIST Pl = pl ;
@@ -66,12 +77,29 @@ LIST Vb-Sg = (v sg) ;
 LIST Nom-Pl = (nom pl) ;
 SET  Nom-Sg = (nom) - (pl) ;
 LIST Nouns = n np pron ;
+LIST Prop = np ;
+
+LIST V-IV = (v iv) ;
+LIST V-TV = (v tv) ;
+
+
 
 SET  Sing = (*) - (pl) ;
 
 SET  Acc-Or-Nom = Acc | Nom ;
 
-SET NOMINAL-HEAD = Noun | Ger | Subst ; 
+# "Syntactic" tags
+# ================
+
+LIST Advl = advl ;
+LIST Attr = attr ;
+LIST Subst = subst ;
+LIST N-LIKE = (adj subst) n np prn ; # Actually, see NOMINAL
+
+
+
+SET NOMINAL = Noun | Prop | Pron | Subst | Gerund ;
+SET NOMINAL-HEAD = Noun | Ger | Subst ;
 SET PRE-N = Det | Num | Attr | Adj | Gen | ("-") ;
 
 SET  Not-Prc = (*) - Prc ;
@@ -84,6 +112,8 @@ SET  Np-Nom-Or-Gen = Nouns + Nom-Or-Gen ;
 SET  Np-Nom-Or-Gen-Sg = Np-Nom-Or-Gen + Sing ;
 SET  Px3-Sg-Or-Pl = Px3sg | Px3pl ;
 
+LIST Adj-Subst = (adj subst) ;
+
 SET Ger-Acc = Ger + (acc);
 LIST P3-Pl = (p3 pl) ;
 LIST P3-Sg = (p3 sg) ;
@@ -91,6 +121,8 @@ LIST P3-Sg = (p3 sg) ;
 LIST Vb-Imp = (v imp) ;
 LIST N-Acc = (n acc) ;
 LIST Vb-Ifi-3 = (v ifi p3 sg) (v ifi p3 pl) ;
+
+LIST P2Pron = (prn pers p2) ;
 
 SECTION
 
@@ -135,7 +167,9 @@ REMOVE Iv IF
 # get rid of prc_irre if also can be aor if following word sent
 REMOVE PrcIrre IF
 	(0C PrcIrre-Or-Aor)
-	(1C Sent);
+#	(1C Sent);
+   (1 EOS OR MARK)
+;
 
 # get rid of plural possessive reading if antecedant is sg
 REMOVE Px3pl IF
@@ -170,8 +204,8 @@ SELECT Cop IF
 SELECT Adj IF (1C Num) (2C Noun) ;
 
 ## select Adj if inbetween nouns
-SELECT Adj IF (-1 Noun) (1 Noun) ; 
- 
+SELECT Adj IF (-1 Noun) (1 Noun) ;
+
 ## select Adj if before copula (idi, iken)
 SELECT Adj IF (1 Cop) ;
 
@@ -191,7 +225,7 @@ SELECT Vb-Ifi-3 IF
 	(1C Sent) ;
 
 
-REMOVE Attr IF (NOT 1 PRE-N) (NOT 1 NOMINAL-HEAD) (NOT 1/1 NOMINAL-HEAD) ; 
+REMOVE Attr IF (NOT 1 PRE-N) (NOT 1 NOMINAL-HEAD) (NOT 1/1 NOMINAL-HEAD) ;
     ## Bu araba 11,5 milyar a
 
 
@@ -204,6 +238,7 @@ REMOVE Attr IF (NOT 1 PRE-N) (NOT 1 NOMINAL-HEAD) (NOT 1/1 NOMINAL-HEAD) ;
 # Selecting plural reading might be a more productive approach.
  REMOVE Pl IF
         (0 V OR Vaux OR Cop)
+        (NOT 0 Pron)
         (0 P3)
         ((0 P3-Sg) LINK (NOT 0 Coop))
 ;
@@ -215,6 +250,45 @@ REMOVE Attr IF (NOT 1 PRE-N) (NOT 1 NOMINAL-HEAD) (NOT 1/1 NOMINAL-HEAD) ;
        (0/1 P3)
 ;
 
+# select adverbial reading of adjectives if any verbal form except gerund follows
+# FIXME CHECK it might be a gerund as well
+ SELECT Advl OR Adv IF
+         (1C V-NotGerund)
+         #(NOT 1C Participle)
+         (NOT 1 ("бол"))
+         (NOT 0 ("балама"))
+         (NOT 1 ("де"))
+;
+##
+# example: in 'балама үйретейін' the 'балама' shouldn't be treated as adj.advl (equivalent), it should be n.px1sq.dat (to my son)
+
+ "<атам>" SELECT Vaux IF
+          (-1 Prc)
+ ;
+
+#
+ "<өтө>" SELECT Adv IF (1 Adj) ;
+## Бірақ кеше _өте_ суық еді!
+
+ "<өтө>" REMOVE Prc IF (NOT 1 Vaux) ;
+
+ "<бардык>" SELECT Det IF (1 Noun) ;
+
+ "<алдым>" SELECT Verb IF (1 EOS OR MARK) ;
+ "<алдың>" SELECT Verb IF (1 EOS OR MARK) ;
+ "<алды>" SELECT Verb IF (1 EOS OR MARK) ;
+
+ "<алар>" REMOVE Verb IF (NOT 1 EOS OR MARK) ;
+ "<алар>" REMOVE Vaux IF (NOT 1 EOS OR MARK) ;
+
+ "<карай>" REMOVE Verb IF (NOT 1 Vaux);
+
+ "<бир>" SELECT Det IF (1 Noun) (-1 Adj) ;
+
+ "<бирге>" SELECT Adv IF (-1 ("<менен>"));
+
+# "<келишим>" SELECT Noun ;
+ SELECT Noun IF (0 ("келишим"i)) ;
 
 REMOVE V IF
        (0 V or Vaux)
@@ -225,3 +299,134 @@ REMOVE Ger-Acc IF
         (0 P3-Pl)
         (1 EOS OR MARK)
 ;
+
+
+ SELECT Pron IF
+        (0C Det OR Pron)
+        (1C Adv)
+;
+
+SELECT Pron IF
+        (0C Det OR Pron)
+        (1/1 Cop)
+        (2 EOS OR MARK)
+;
+# example: Бул оюн.
+
+# FIXME removes determiner even when there is a noun 1 to the right
+# FIXED JNW 2017-08-12
+REMOVE Det IF
+       (0 Det OR Pron)  # ADDED JNW 2017-08-11
+       (NOT 1 Noun OR Subst)
+       (NEGATE 1 Adj LINK 1 Noun OR Subst)
+;
+# 44 . Ол енді ол дыбысты анығырақ ести бастады.
+# (!) 34 . Ол Азаматтың қайда екенін білсе де айтқысы келген жоқ.
+
+# бар
+ SELECT SUB:1 Cop IF
+        (1 MARK OR EOS)
+        (NOT 0 FiniteVerb OR Vaux)
+        (NOT -1* P2Pron)
+        (NOT 0 Interj) ## Дұрыс, оның мысығы бар.
+        (NOT 0 FiniteVerb) ## 74 ... барлығы 53 ел [0]қатысты.
+ ;
+## Жоқ, Айгүлдің күшігі [0]жоқ, оның мысығы [0]бар.
+
+ SELECT SUB:1 Cop IF
+        (1 EOS)
+ ;
+
+ REMOVE SUB:1 Cop IF
+        (NOT 1 EOS OR MARK OR ("де"))
+;
+ REMOVE SUB:1 Cop IF
+        (-1 BOS OR MARK) ## Headings or enumerations
+        (NOT 1 EOS)
+;
+
+
+"<бар>" SELECT V IF (-1 Dat) ;
+"<бар>" SELECT SUB:1 Cop IF (-1 (px3sp)) ;
+
+ REMOVE IJ IF
+        (0 Adj)
+        (1 Noun)
+;
+#
+ SELECT Interj OR (cnjadv) IF
+        (-1 BOS)
+        (1 Cm)
+;
+## "Мысалы, ежелгі заманның өзінде Арал теңізі көп елдерге мәлім болған."
+
+# e.g., дұрыс! (<ij>) | дұрыс жерден (<adj>)
+
+
+SELECT V-TV IF
+	(0 ("бас"))
+	(-1* Acc BARRIER N-LIKE)
+;
+
+SELECT V-IV IF
+		(0 ("бас"))
+		(NOT -1 NOMINAL)
+;
+
+## [0]Азамат пен Айгүл бақшада.
+### : for "Алма мен Аян"-cnjcoo
+SELECT CC IF
+	(-1 N-LIKE)
+	(0 Post)
+	(1 N-LIKE)
+;
+
+REMOVE CC IF (0 Post) (NOT 1 N-LIKE);
+
+ REMOVE Attr IF
+       (0 Noun OR Prop)
+       (NOT 0 Loc)
+       (NOT 1 Noun OR Prop)
+ ;
+
+ REMOVE Attr IF
+       (0 Noun OR Prop)
+       (NOT 0 Loc)
+       (1 (px3sp))
+ ;
+
+ REMOVE Adj-Subst IF
+        (0 Noun)
+        (0/1 Cop)
+        (1 MARK OR EOS)
+ ;
+
+
+
+
+
+SECTION
+
+ # If Nom and Attr are left, just go with Nom...
+ REMOVE Attr IF
+        (0 Noun OR Prop)
+        (0 Nom)
+        (NOT 0 Loc)
+ ;
+
+
+ REMOVE Noun + Loc + Subst + Nom IF
+        (0 Loc + Attr)
+        (1 Noun)
+ ;
+
+
+
+
+SECTION
+
+SUBSTITUTE Nom @acc-ind TARGET Noun IF
+    (0 Nom)
+    (-1* Nom BARRIER Sent)
+    (NOT 1 Verb)
+ ;
