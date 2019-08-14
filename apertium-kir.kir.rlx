@@ -334,13 +334,13 @@ REMOVE Det IF
  ;
 ## Жоқ, Айгүлдің күшігі [0]жоқ, оның мысығы [0]бар.
 
-# SELECT SUB:1 Cop IF
-#        (1 MARK OR EOS)
+ SELECT SUB:1 Cop IF
+        (1 MARK OR EOS)
 #        (2*/1 Cop BARRIER EOS)
 #        (NOT 0 Interj) ## Дұрыс, оның мысығы бар.
-#        (NOT 0 FiniteVerb) ## 74 ... барлығы 53 ел [0]қатысты.
+        (NOT 0 FiniteVerb) ## 74 ... барлығы 53 ел [0]қатысты.
 #        (NOT 2 Noun)
-# ;
+ ;
 
  REMOVE SUB:1 Cop IF
         (NOT 1 EOS OR MARK OR ("де"))
