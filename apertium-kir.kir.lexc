@@ -2123,6 +2123,7 @@ LEXICON Determiners
 жетерлик:жетээрлик DET-QNT ; ! "enough"    ! Dir/LR
 жетерлик:жетишээрлик DET-QNT ; ! "enough"  ! Dir/LR
 көп:көп DET-QNT ; ! "a lot of"
+кандай:кандай DET-QNT ; ! "what kind of"
 
 кайсы:кайсы PRON-ITG ;  ! FIXME: why ITG if next is DEM?
 кайсы:кайсыл DET-DEM ; ! "which?" ! FIXME: need morph to fix  ! Dir/LR
