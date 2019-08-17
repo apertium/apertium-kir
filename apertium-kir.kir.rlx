@@ -290,6 +290,8 @@ REMOVE Attr IF (NOT 1 PRE-N) (NOT 1 NOMINAL-HEAD) (NOT 1/1 NOMINAL-HEAD) ;
 
  "<бирге>" SELECT Adv IF (-1 ("<менен>"));
 
+ "<кандай>" SELECT Det IF (1 Noun) ;
+
 # "<келишим>" SELECT Noun ;
  SELECT Noun IF (0 ("келишим"i)) ;
 
