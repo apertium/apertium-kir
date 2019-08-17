@@ -54,6 +54,7 @@ LIST Iv = iv ;
 LIST Aor = aor ;
 LIST Px3pl = px3pl ;
 LIST Px3sg = px3sg ;
+LIST Px3sp = px3sp ;
 LIST Post = post ;
 LIST Coop = coop ;
 LIST IJ = ij ;
@@ -112,6 +113,7 @@ SET  Nom-Or-Gen = Nom OR Gen ;
 SET  Np-Nom-Or-Gen = Nouns + Nom-Or-Gen ;
 SET  Np-Nom-Or-Gen-Sg = Np-Nom-Or-Gen + Sing ;
 SET  Px3-Sg-Or-Pl = Px3sg | Px3pl ;
+SET  Px3 = Px3sg | Px3pl | Px3sp ;
 
 LIST Adj-Subst = (adj subst) ;
 
@@ -444,4 +446,5 @@ SUBSTITUTE Nom @acc-ind TARGET Noun IF
     (0 Nom)
     (-1* Nom BARRIER Sent)
     (NOT 1 Verb)
+    (NEGATE 0 Px3 LINK -1 Nom) # Don't apply to N.nom N.px3 compounds
  ;
