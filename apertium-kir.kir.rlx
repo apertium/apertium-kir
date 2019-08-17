@@ -455,7 +455,7 @@ SECTION
 
 SUBSTITUTE Nom @acc-ind TARGET Noun IF
     (0 Nom)
-    (-1* Nom BARRIER Sent)
+    (-1C* Nom BARRIER Sent)    # C so that we don't get det n sequences always being marked acc-ind
     (NOT 1 Verb)
     (NEGATE 0 Px3 LINK -1 Nom) # Don't apply to N.nom N.px3 compounds
  ;
