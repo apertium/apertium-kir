@@ -167,6 +167,10 @@ REMOVE Iv IF
 	(0C Tv-Or-Iv)
 	(-1C Acc);
 
+# Сен канча саат күттүң?
+SELECT Iv IF
+   (NOT -1C* Acc BARRIER Sent);
+
 # get rid of prc_irre if also can be aor if following word sent
 REMOVE PrcIrre IF
 	(0C PrcIrre-Or-Aor)
@@ -291,6 +295,8 @@ REMOVE Attr IF (NOT 1 PRE-N) (NOT 1 NOMINAL-HEAD) (NOT 1/1 NOMINAL-HEAD) ;
  "<бирге>" SELECT Adv IF (-1 ("<менен>"));
 
  "<кандай>" SELECT Det IF (1 Noun) ;
+ "<канча>" SELECT Num IF (1 Noun) ;
+ "<канча>" REMOVE Subst IF (1 Noun) ;
 
 # "<келишим>" SELECT Noun ;
  SELECT Noun IF (0 ("келишим"i)) ;
