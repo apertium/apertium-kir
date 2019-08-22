@@ -178,6 +178,12 @@ REMOVE PrcIrre IF
    (1 EOS OR MARK)
 ;
 
+SELECT Aor IF
+	(0 PrcIrre-Or-Aor)
+	(NOT 1 Cop)
+	(NOT 1 ("<экен>"))
+;
+
 # get rid of plural possessive reading if antecedant is sg
 REMOVE Px3pl IF
 	(0C Px3-Sg-Or-Pl)
@@ -297,6 +303,8 @@ REMOVE Attr IF (NOT 1 PRE-N) (NOT 1 NOMINAL-HEAD) (NOT 1/1 NOMINAL-HEAD) ;
  "<кандай>" SELECT Det IF (1 Noun) ;
  "<канча>" SELECT Num IF (1 Noun) ;
  "<канча>" REMOVE Subst IF (1 Noun) ;
+
+ "<ат>" REMOVE Vaux ;
 
 # "<келишим>" SELECT Noun ;
  SELECT Noun IF (0 ("келишим"i)) ;
