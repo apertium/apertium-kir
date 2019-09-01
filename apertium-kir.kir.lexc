@@ -6231,10 +6231,11 @@ LEXICON Nouns
 сержант:сержант N-INFL ;
 сериал:сериал N-INFL ; 
 сертификат:сертификат N-INFL ; 
-сет:сет N-INFL ;
+сессия:сессия N-INFL ; ! "session"
+сет:сет N-INFL ; ! FIXME: check
 си:си N-INFL ; ! FIXME: check
 сианс:сианс N-INFL ;
-сигнал:сигнал N-INFL ;
+сигнал:сигнал N-INFL ; ! "signal"
 сийдик:сийдик N-INFL ; ! "piss/urine"
 силикон:силикон N-INFL ; 
 силос:силос N-INFL ; ! "silo; grass stored in a silo"
