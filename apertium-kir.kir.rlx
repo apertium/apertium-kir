@@ -169,7 +169,9 @@ REMOVE Iv IF
 
 # Сен канча саат күттүң?
 SELECT Iv IF
-   (NOT -1C* Acc BARRIER Sent);
+	(0C Tv)                      # e.g., бар is otherwise a problem
+   (NOT -1C* Acc BARRIER Sent)
+;
 
 # get rid of prc_irre if also can be aor if following word sent
 REMOVE PrcIrre IF
