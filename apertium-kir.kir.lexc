@@ -8059,6 +8059,7 @@ LEXICON ProperNouns
 Кызыр:Кызыр NP-TOP ; ! ""
 Кыргыз% АССР:Кыргыз% АССР%{э%}%{й%} NP-TOP-ASSR ;
 Кыргыз% ССР:Кыргыз% ССР%{э%}%{й%} NP-TOP-ASSR ;
+Кыргыз% Республикасы:Кыргыз% Республика NP-TOP-COMPOUND ; ! "Kyrgyz Republic"
 Кыргызстан:Кыргызстан NP-TOP ; ! "Kyrgyzstan"
 Кытай:Кытай NP-TOP ;
 Күрт:Күрт NP-TOP ;
