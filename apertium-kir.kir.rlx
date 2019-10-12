@@ -98,11 +98,13 @@ LIST Attr = attr ;
 LIST Subst = subst ;
 LIST N-LIKE = (adj subst) n np prn ; # Actually, see NOMINAL
 
+SET ADV-NOUNS = ("саат") | ("жыл") | ("күн") | ("ай") ;
 
 
 SET NOMINAL = Noun | Prop | Pron | Subst | Gerund ;
 SET NOMINAL-HEAD = Noun | Ger | Subst ;
 SET PRE-N = Det | Num | Attr | Adj | Gen | ("-") ;
+SET N-LIKE-NO-ADV = N-LIKE - ADV-NOUNS ;
 
 SET  Not-Prc = (*) - Prc ;
 SET  Not-Sent = (*) - Sent ;
@@ -409,9 +411,14 @@ SELECT V-IV IF
 		(NOT -1 NOMINAL)
 ;
 
+SELECT V-TV IF
+	(0 ("күт"))
+	(-1* Acc BARRIER N-LIKE-NO-ADV)
+;
+
 REMOVE V-TV IF
 	(0 ("күт"))
-	(NOT -1* Acc BARRIER N-LIKE)
+	(NOT -1* Acc BARRIER N-LIKE-NO-ADV)
 ;
 
 ## [0]Азамат пен Айгүл бақшада.
