@@ -409,6 +409,11 @@ SELECT V-IV IF
 		(NOT -1 NOMINAL)
 ;
 
+REMOVE V-TV IF
+	(0 ("күт"))
+	(NOT -1* Acc BARRIER N-LIKE)
+;
+
 ## [0]Азамат пен Айгүл бақшада.
 ### : for "Алма мен Аян"-cnjcoo
 SELECT CC IF
