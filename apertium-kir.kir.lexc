@@ -3680,6 +3680,7 @@ LEXICON Nouns
 буудай:буудай N-INFL ; ! "wheat"
 буура:буура N-INFL ; ! "male camel" 
 буурчак:буурчак N-INFL ; ! "pea"
+бухгалтер:бухгалтер N-INFL ; ! "accountant"
 буюм:буюм N-INFL ; ! "thing"
 бысмылда:бысмылда N-INFL ; 
 бычак:бычак N-INFL ; 
@@ -4283,11 +4284,12 @@ LEXICON Nouns
 жэкелик:жэкелик N-INFL ;
 жэр:жэр N-INFL ;
 жээк% бою:жээк% бою N-INFL ; ! "" 
-жээк:жээк N-INFL ;
-жээн:жээн N-INFL ; 
+жээк:жээк N-INFL ; ! "shore, coast, edge"
+жээн:жээн N-INFL ;
 жюри:жюри N-INFL ; 
 жүгөн:жүгөн N-INFL ;
-жүгөрү:жүгөрү N-INFL ;
+жүгөрү:жүгөрү N-INFL ; ! "corn"
+жүгүртүү:жүгүртүү N-INFL ; ! "circulation"
 жүз:жүз N-INFL ; ! "face"
 жүзбашы:жүзбашы N-INFL ; 
 жүзү% кара:жүзү% кара N-INFL ; 
@@ -16184,6 +16186,9 @@ LEXICON Adjectives
 район% ортолук:район% ортолук A4 ; ! "inter-district" FIXME: CHECK A4
 дамдуу:дамдуу A2 ; ! "tasty"
 сыйгалак:сыйгалак A1 ; ! "slippery"
+бөлөк:бөлөк A6 ; ! "separate"
+талашсыз:талашсыз A6 ; ! "indisputable"
+бухгалтердик:бухгалтердик A4 ; ! "accountant"
 
 
 LEXICON Adverbs
