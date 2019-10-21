@@ -1746,8 +1746,6 @@ LEXICON V-FINITE-REGULAR_NEGATIVE
 %<ifi%>%<evid%>:%>%{I%}пт%{I%}р V-PERS-COP-SUF ;                  
 %<ifi%>%<evid%>:%>%{I%}п V-PERS-COP-SUF-NOP3 ;                    ! Dir/LR
 
-%<pih%>:%>ч%{U%} V-PERS-COP-SUF ;                                 ! 
-
 
 LEXICON V-FINITE-IRREGULAR_NEGATIVE
 
@@ -1762,12 +1760,18 @@ LEXICON V-FINITE-IRREGULAR_NEGATIVE
 
 %<past%>:%>%{G%}%{A%}н V-PERS-COP-SUF ;                           ! 
 %<neg%>%<past%>:%>%{G%}%{A%}н% эмес V-PERS-COP-SUF ;              ! 
+%<neg%>%<past%>:%{B%}%{A%}%>%{G%}%{A%}н V-PERS-COP-SUF ;          ! Dir/LR
 
 %<past%>%<evid%>:%>%{G%}%{A%}н% экен V-PERS-COP-SUF ;             ! evidential general past
 %<neg%>%<past%>%<evid%>:%>%{G%}%{A%}н% жок% экен V-PERS-COP-SUF ; ! evidential general past
+! FIXME: do we need a {B}{A} form here that's Dir/LR ?
 
 %<pcond%>:%>м%{A%}к V-PERS-COP-SUF ;                              ! 
 %<neg%>%<pcond%>:%>м%{A%}к% эмес V-PERS-COP-SUF ;                 ! 
+
+%<pih%>:%>ч%{U%} V-PERS-COP-SUF ;                                 ! 
+%<neg%>%<pih%>:%>ч%{U%}% эмес V-PERS-COP-SUF ;                    ! 
+%<neg%>%<pih%>:%>%{B%}%{A%}%>ч%{U%} V-PERS-COP-SUF ;              ! Dir/LR
 
 !%<opt%>:%>м%{A%}к%>ч%{I%} V-PERS-COP-SUF ;                        !   
 
