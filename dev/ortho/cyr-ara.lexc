@@ -8,7 +8,7 @@ Multichar_Symbols
 
 LEXICON Root 
 
-:%{ء%} Alpha ; 
+Alpha ; 
 Punct ; 
 !Exceptions ;
 Digits ;
