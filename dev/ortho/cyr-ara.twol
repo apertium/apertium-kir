@@ -2,7 +2,7 @@
 Alphabet 
 
  !ء
- ئ ا ە ب پ ت ج چ خ د ر ز ژ س ش غ ف ق ك گ ڭ ل م ن ھ و ۇ ۆ ۋ ې ى ي  ٸ ٶ ٷ ٵ 
+ !ئ ا ە ب پ ت ج چ خ د ر ز ژ س ش غ ف ق ك گ ڭ ل م ن ھ و ۇ ۆ ۋ ې ى ي  ٸ ٶ ٷ ٵ 
  
  !% ء
 
@@ -43,14 +43,14 @@ Alphabet
  а:ا
  б:ب
  в:ۋ
- г:گ
+ г:گ г:ع
  д:د
  е:ە
  ж:ج
  з:ز
  и:ي
  й:ي
- к:ك
+ к:ك к:ق
  л:ل
  м:م
  н:ن
@@ -125,3 +125,10 @@ Rules
 
 "%{й%}:ي after vowels except е"
 %{й%}:0 <=> [ Vow: - [ э: | е: ] ] _ ;
+
+"к and г in the context of back vowels"
+Cx:Cy <=> backVow: _ ;
+          _ backVow: ;
+      where Cx in ( к г )
+            Cy in ( ق ع )
+      matched ;

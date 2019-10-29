@@ -1,4 +1,4 @@
-all: kir-ARA.autogen.hfst kir-MULTI.automorf.hfst
+all: kir-ARA.autogen.hfst kir-ARA.automorf.hfst kir-MULTI.automorf.hfst
 
 cyr-ara: cyr-ara.ohfst
 
@@ -17,12 +17,12 @@ kir-ARA.spellrelax.hfst: kir-ARA.spellrelax.twol
 # - Cyrillic-to-Arabic transcription transducer
 # - Kazakh Cyrillic generation transducer
 # оазис<n><px2sg><frm><gen>:ءوازيسىڭىزدىڭ
-kir-ARA.autogen.hfst: cyr-ara.hfst ../../.deps/kir.RL.hfst
-	hfst-compose -1 ../../.deps/kir.RL.hfst -2 $< -o $@
+kir-ARA.autogen.hfst: cyr-ara.hfst ../../.deps/kir.RL.hfst ../../.deps/kir.twoc.hfst
+	hfst-compose-intersect -1 ../../.deps/kir.RL.hfst -2 ../../.deps/kir.twoc.hfst | hfst-invert | hfst-compose -1 - -2 $< -o $@
 
 # Буддизм<n><dat>+шы<emph>:بۋدديزمگەشى
-kir-ARA.REVautomorf.hfst: cyr-ara.hfst ../../.deps/kir.LR.hfst
-	hfst-compose -1 ../../.deps/kir.LR.hfst -2 $< -o kir-ARA.REVautomorf.hfst
+kir-ARA.REVautomorf.hfst: cyr-ara.hfst ../../.deps/kir.LR.hfst ../../.deps/kir.twoc.hfst
+	hfst-compose-intersect -1 ../../.deps/kir.LR.hfst -2 ../../.deps/kir.twoc.hfst | hfst-invert | hfst-compose -1 - -2 $< -o $@
 
 # بۋدديزمگەشى:Буддизм<n><dat>+шы<emph>
 kir-ARA.automorf.hfst: kir-ARA.REVautomorf.hfst
@@ -40,7 +40,7 @@ kir-ARA.automorf.hfst: kir-ARA.REVautomorf.hfst
 #kir-MULTI.automorf.hfst: kir-ARA.REVautomorf.hfst ../../.deps/kir.LR.hfst ../../.deps/kir.LR.err.hfst kir-ARA.spellrelax.hfst
 #	hfst-union -1 ../../.deps/kir.LR.hfst -2 ../../.deps/kir.LR.err.hfst | hfst-union -1 - -2 kir-ARA.REVautomorf.hfst | hfst-compose-intersect -1 - -2 kir-ARA.spellrelax.hfst | hfst-invert | hfst-fst2fst -w -o $@
 kir-MULTI.automorf.hfst: kir-ARA.REVautomorf.hfst ../../.deps/kir.LR.hfst kir-ARA.spellrelax.hfst
-	hfst-union -1 ../../.deps/kir.LR.hfst -2 kir-ARA.REVautomorf.hfst | hfst-compose-intersect -1 - -2 kir-ARA.spellrelax.hfst | hfst-invert | hfst-fst2fst -w -o $@
+	hfst-invert ../../.deps/kir.LR.hfst | hfst-union -1 - -2 kir-ARA.REVautomorf.hfst | hfst-compose-intersect -1 - -2 kir-ARA.spellrelax.hfst | hfst-invert > $@ #| hfst-fst2fst -w -o $@
 
 kir-MULTI.automorf.hfstol: kir-MULTI.automorf.hfst
 	hfst-fst2fst -w -o $< $@
