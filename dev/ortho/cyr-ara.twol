@@ -123,7 +123,10 @@ Rules
 !і:ٸ <=> ء:0 _ \:frontLetter* %  ;
 
 "и as ئ at beginning of word in environments where there's nothing indicating frontness"
-и:ئ <=> .#. Cons:* _ \[ :frontLetter ]* ;
+!и:ئ <=> .#. Cons:* _ \[ :frontLetter ]* ;
+!и:ى <=> .#. Cons:* _ :* :frontLetter :* ;
+!и:ى <= .#. Cons:* _ :* :frontLetter :* ;
+и:ئ /<= .#. Cons:* _ :* :frontLetter :* ;
 
 
 "%{й%}:ي after vowels except е"
