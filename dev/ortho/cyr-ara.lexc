@@ -73,6 +73,8 @@ LEXICON Alpha
 М:м AlphaLoop "weight: 1.0" ; 
 н:н AlphaLoop "weight: 1.0" ; 
 Н:н AlphaLoop "weight: 1.0" ; 
+ң:ң AlphaLoop "weight: 1.0" ;
+Ң:ң AlphaLoop "weight: 1.0" ;
 п:п AlphaLoop "weight: 1.0" ; 
 П:п AlphaLoop "weight: 1.0" ; 
 р:р AlphaLoop "weight: 1.0" ; 
