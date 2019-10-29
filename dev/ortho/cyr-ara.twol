@@ -11,14 +11,14 @@ Alphabet
  А:ا
  Б:ب
  В:ۋ
- Г:گ
+ Г:گ Г:ع
  Д:د
  Е:ە
  Ж:ج
  З:ز
- И:ي
+ И:ى И:ئ
  Й:ي
- К:ك
+ К:ك К:ق
  Л:ل
  М:م
  Н:ن
@@ -48,7 +48,7 @@ Alphabet
  е:ە
  ж:ج
  з:ز
- и:ي
+ и:ى и:ئ
  й:ي
  к:ك к:ق
  л:ل
@@ -120,8 +120,8 @@ Rules
 !"і+dayekshe"
 !і:ٸ <=> ء:0 _ \:frontLetter* %  ;
 
-"и as ئ at beginning of word in ambiguous environments"
-и:ئ <=> Cons:* _ \[ :backLetter | :frontLetter ]* ;
+"и as ئ at beginning of word in environments where there's nothing indicating frontness"
+и:ئ <=> .#. Cons:* _ \[ :frontLetter ]* ;
 
 
 "%{й%}:ي after vowels except е"
