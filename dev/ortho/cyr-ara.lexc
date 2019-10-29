@@ -34,8 +34,8 @@ LEXICON Alpha
 э:э AlphaLoop "weight: 1.0" ; 
 Э:э AlphaLoop "weight: 1.0" ; 
 
-е:%{й%}э AlphaLoop "weight: 1.0" ;  ! {й} as ي only after vowels
-Е:%{й%}э AlphaLoop "weight: 1.0" ;  ! {й} as ي only after vowels
+е:%{й%}е AlphaLoop "weight: 1.0" ;  ! {й} as ي only after vowels
+Е:%{й%}е AlphaLoop "weight: 1.0" ;  ! {й} as ي only after vowels
 
 ю:йу AlphaLoop "weight: 1.0" ; 
 Ю:йу AlphaLoop "weight: 1.0" ; 

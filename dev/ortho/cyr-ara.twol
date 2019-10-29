@@ -81,6 +81,7 @@ Alphabet
 ! %;:%؛
 
  %{й%}:0
+ %{й%}:ي
  
  ;
 
@@ -124,7 +125,7 @@ Rules
 
 
 "%{й%}:ي after vowels except е"
-%{й%}:0 <=> [ Vow: - [ э: | е: ] ] _ ;
+%{й%}:ي <=> [ Vow: - [ э: | е: ] ] _ ;
 
 "к and г in the context of back vowels"
 Cx:Cy <=> backVow: _ ;
