@@ -42,6 +42,13 @@ kir-ARA.automorf.hfst: kir-ARA.REVautomorf.hfst
 kir-MULTI.automorf.hfst: kir-ARA.REVautomorf.hfst ../../.deps/kir.LR.hfst kir-ARA.spellrelax.hfst
 	hfst-invert ../../.deps/kir.LR.hfst | hfst-union -1 - -2 kir-ARA.REVautomorf.hfst | hfst-compose-intersect -1 - -2 kir-ARA.spellrelax.hfst | hfst-invert | hfst-fst2fst -w -o $@
 
+kir-MULTI.automorf.att.gz: kir-MULTI.automorf.hfst
+	hfst-fst2txt $< | gzip -9 -c -n > $@
+
+kir-MULTI.automorf.bin: kir-MULTI.automorf.att.gz
+	zcat < $< > kir-MULTI.automorf.att
+	lt-comp lr kir-MULTI.automorf.att $@
+
 kir-MULTI.automorf.hfstol: kir-MULTI.automorf.hfst
 	hfst-fst2fst -w -o $< $@
 
