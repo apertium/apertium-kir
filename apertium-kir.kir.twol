@@ -140,7 +140,7 @@ Rules
 ! FIXME: check
 "Harmony of epenthesised vowel between stem-final consonants that can't be a coda cluster after й"
 !%{y%}:Vy <=> [ :LastVowel :Cns* :Cns ]/[:0] _ [ :Cns \:SurVow ]/[ :0 | %>:] ;
-%{y%}:Vy <=> [ :LastVowel :Cns* й: ]/[:0] _ [ :Cns [ .#. | :Cns ] ]/[ :0 | %-: | %>: ] ;
+%{y%}:Vy <=> [ :LastVowel :Cns* й: ]/[ :0 - й: ] _ [ :Cns [ .#. | :Cns ] ]/[ :0 | %-: | %>: ] ;
   where  Vy  in  (  и  ү  и  и  ү  ы  ы  ю  ю  ы  ю  ю )
   LastVowel  in  (  и  ү  е  э  ө  я  а  ё  о  ы  ю  у )
            matched ;

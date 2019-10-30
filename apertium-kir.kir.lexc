@@ -220,7 +220,7 @@
 %{y%}       ! Realised as '' or '{I}'; only used in epenthesis for nouns
 %{e%}       ! Realised as ''; only used to make vowel harmony come out right for things that normally break vowel harmony
 %{K%}       ! Realised as 'к' or 'г'; only used in attributive -{K}{I}
-%{Й%}       ! Realised as 'й' or 'null'; й or first part of ю
+!%{Й%}       ! Realised as 'й' or 'null'; й or first part of ю
 
 %{а%}       ! Archiphoneme for back vowel numerals/abbreviation
 %{э%}       ! Archiphoneme for front vowel numerals/abbreviation
@@ -5559,7 +5559,7 @@ LEXICON Nouns
 мотор:мотор N-INFL ; 
 мотоцикл:мотоцикл N-INFL ; 
 моюн% сунуу:моюн% сунуу N-INFL ;
-моюн:мо%{Й%}%{y%}н N-INFL ; ! "neck"
+моюн:мой%{y%}н N-INFL ; ! "neck"
 моюн:моюн N-INFL ; ! "neck" ! Dir/LR
 моюнтурук:моюнтурук N-INFL ; 
 мрамор:мрамор N-INFL ; ! "marble (rock)"
