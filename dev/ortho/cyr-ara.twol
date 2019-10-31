@@ -135,6 +135,12 @@ Rules
 "к and г in the context of back vowels"
 Cx:Cy <=> backVow: _ ;
           _ backVow: ;
+      except
+          .#. а: _ (%{й%}:) е: ;  ! аке:اكە
+          .#. б: (%{й%}:) е: _ ;  ! Бегайым:بەگايىم
+          ! keep in mind if modifying this rule:
+          ! - байке:بايكە
+          ! - багелек:باعەلەك
       where Cx in ( к г )
             Cy in ( ق ع )
       matched ;
