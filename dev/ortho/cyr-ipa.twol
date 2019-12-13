@@ -14,7 +14,7 @@ Alphabet
  Г:ɡ Г:ɣ Г:ʁ Г:ɢ
  Д:d
  Е:e
- Ж:ʤ
+ Ж:ʤ Ж:ʒ
  З:z
  И:i
  Й:j
@@ -47,7 +47,7 @@ Alphabet
  г:ɡ г:ɣ г:ʁ г:ɢ
  д:d
  е:e
- ж:ʤ
+ ж:ʤ ж:ʒ
  з:z
  и:i
  й:j
@@ -114,12 +114,12 @@ Rules
 "%{й%}:j after vowels except е"
 %{й%}:j <=> [ Vow: - [ э: | е: ] ] _ ;
 
-"к and г in the context of back vowels"
+"к г ң in the context of back vowels"
 Cx:Cy <=> backVow:/%{ˈ%}: _ ;
           _ backVow:/%{ˈ%}: ;
       except
           .#. а:/%{ˈ%}: _ (%{й%}:) е:/%{ˈ%}: ;  ! аке:ɑˈke
-          .#. б:/%{ˈ%}: (%{й%}:) е:/%{ˈ%}: _ ;  ! Бегайым:beɣɑjɯm
+          .#. б:/%{ˈ%}: (%{й%}:) е:/%{ˈ%}: _ а:/%{ˈ%}: ;  ! Бегайым:beɣɑjɯm
           Nasal:/%{ˈ%}: _ ;
 !          .#. _ (Cons:*/%{ˈ%}:*) Vow: ; 
           ! keep in mind if modifying this rule:
@@ -143,8 +143,10 @@ Cx:Cy <=> .#. (%{ˈ%}:) _ Cons:/%{ˈ%}: ;
       matched ;
 
 "stress on last syllable"
-%{ˈ%}:ˈ <=> _ Cons: Vow:/%{ˈ%}: (Vow:/%{ˈ%}:) Cons:/%{ˈ%}:* .#. ;
-            .#. _ Vow:/%{ˈ%}: (Vow:/%{ˈ%}:) Cons:/%{ˈ%}:* .#. ;
+%{ˈ%}:ˈ <=>  _ Cons:/%{ˈ%}: Vow:/%{ˈ%}: (Vow:/%{ˈ%}:) Cons:*/%{ˈ%}: .#. ;
+            .#. _ Cons:*/%{ˈ%}: Vow:/%{ˈ%}: (Vow:/%{ˈ%}:) Cons:/%{ˈ%}:* .#. ;
+        except
+            .#. Cons:/%{ˈ%}: Cons:*/%{ˈ%}: _ ;
 
 "б as β"
 б:β <=> Vow:/%{ˈ%}: _ Vow:/%{ˈ%}: ;
@@ -158,14 +160,19 @@ Cx:Cy <=> .#. (%{ˈ%}:) _ Cons:/%{ˈ%}: ;
 
 "second of long vowel as ː"
 Vx:ː <=> Vy:/%{ˈ%}: _ ;
-     where Vx in ( ү э ө а о у )
-           Vy in ( ү э ө а о у ) ;
+     where Vy in ( ү э ө а о у )
+           Vx in ( ү э ө а о у )
+     matched ;
+
+"ж as ʒ only after д"
+ж:ʒ <=> д:/%{ˈ%}: _ ;
 
 ! remaining issues:
 !  - [x] грузин *ɢɾuˈzin / гладиатор *ɢɫɑdiɑtor / группа *ɢɾuppɑ
-!  - Чжин *ʧˈʤin / план *pˈɫɑn
-!  - джентльмен *dʤentlʲmen
+!  - [x] Чжин *ʧˈʤin / план *pˈɫɑn
+!  - [x] джентльмен *dʤentlʲmen
 !  - теңир *teɴiɾ
 !  - stress before {E}, {B}{I}
 !  - stress in Russian words
 !  - бекем *—
+!  - [x] поэзиянын *poːzijɑˈnɯn
