@@ -47,8 +47,8 @@ TARGETS_COMMON = $(LANG1).automorf.hfst $(LANG1).autogen.hfst \
 $(LANG1).autogen.hfst: .deps/$(LANG1).RL.hfst .deps/$(LANG1).twoc.hfst
 	hfst-compose-intersect -1 $< -2 .deps/$(LANG1).twoc.hfst | hfst-invert | hfst-fst2fst -w -o $@
 
-$(LANG1).automorf.hfst: .deps/$(LANG1).LR.hfst .deps/$(LANG1).twoc.hfst
-	hfst-compose-intersect -1 $< -2 .deps/$(LANG1).twoc.hfst | hfst-fst2fst -w -o $@
+$(LANG1).automorf.hfst: .deps/$(LANG1).LR.hfst .deps/$(LANG1).twoc.hfst dev/ortho/$(LANG1)-CYR.spellrelax.hfst
+	hfst-compose-intersect -1 $< -2 .deps/$(LANG1).twoc.hfst | hfst-invert | hfst-compose-intersect -1 - -2 dev/ortho/$(LANG1)-CYR.spellrelax.hfst | hfst-invert | hfst-fst2fst -w -o $@
 
 $(LANG1).autogen.att.gz: $(LANG1).autogen.hfst
 	hfst-fst2txt $< | gzip -9 -c -n > $@
@@ -121,6 +121,12 @@ $(LANG1).zhfst: .deps/acceptor.default.hfst .deps/errmodel.default.hfst
 .deps/acceptor.default.hfst: $(LANG1).autogen.hfst
 	cat $< | hfst-fst2fst -t | hfst-project  --project=lower | hfst-minimise |hfst-fst2fst  -f olw -o $@
 
+###############################################################################
+## Spell relax
+###############################################################################
+
+dev/ortho/$(LANG1)-CYR.spellrelax.hfst: dev/ortho/$(LANG1)-CYR.spellrelax.twol
+	hfst-twolc $< -o $@
 
 ###############################################################################
 ## Distribution
