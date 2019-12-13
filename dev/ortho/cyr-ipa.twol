@@ -112,7 +112,7 @@ backSound = q ʁ ɢ ɴ ɑ ɯ o u ;
 Rules 
 
 "%{й%}:j after vowels except е"
-%{й%}:j <=> [ Vow: - [ э: | е: ] ] _ ;
+%{й%}:j <=> [ Vow: - [ э: | е: ] ]/%{ˈ%}: _ ;
 
 "к г ң in the context of back vowels"
 Cx:Cy <=> backVow:/%{ˈ%}: _ ;
@@ -176,3 +176,4 @@ Vx:ː <=> Vy:/%{ˈ%}: _ ;
 !  - stress in Russian words
 !  - бекем *—
 !  - [x] поэзиянын *poːzijɑˈnɯn
+!  - [x] поезд *poezd
