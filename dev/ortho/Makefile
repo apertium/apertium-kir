@@ -53,7 +53,7 @@ kir-ARA.automorf.hfst: kir-ARA.REVautomorf.hfst
 #kir-MULTI.automorf.hfst: kir-ARA.REVautomorf.hfst ../../.deps/kir.LR.hfst ../../.deps/kir.LR.err.hfst kir-ARA.spellrelax.hfst
 #	hfst-union -1 ../../.deps/kir.LR.hfst -2 ../../.deps/kir.LR.err.hfst | hfst-union -1 - -2 kir-ARA.REVautomorf.hfst | hfst-compose-intersect -1 - -2 kir-ARA.spellrelax.hfst | hfst-invert | hfst-fst2fst -w -o $@
 kir-MULTI.automorf.hfst: kir-ARA.REVautomorf.hfst ../../.deps/kir.LR.hfst kir-ARA.spellrelax.hfst
-	hfst-invert ../../.deps/kir.LR.hfst | hfst-union -1 - -2 kir-ARA.REVautomorf.hfst | hfst-compose-intersect -1 - -2 kir-ARA.spellrelax.hfst | hfst-invert | hfst-fst2fst -w -o $@
+	hfst-fst2fst -t ../../kir.automorf.hfst | hfst-invert | hfst-union -1 - -2 kir-ARA.REVautomorf.hfst | hfst-compose-intersect -1 - -2 kir-ARA.spellrelax.hfst | hfst-invert | hfst-fst2fst -w -o $@
 
 kir-MULTI.automorf.att.gz: kir-MULTI.automorf.hfst
 	hfst-fst2txt $< | gzip -9 -c -n > $@
