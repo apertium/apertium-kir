@@ -1,0 +1,11 @@
+Alphabet
+
+ е:е е:e ! things that should be analysed as e
+ ё:ё ё:е ё:e ! things that should be analysed as ё
+
+;
+
+Rules
+
+"Unify apostrophe styles"
+a => _ ;
