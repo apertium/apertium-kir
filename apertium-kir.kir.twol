@@ -2,7 +2,7 @@ Alphabet
  А Б В Г Д Е Ё Ж З И И К Л М Н Ң О Ө П Р С Т У Ү Ф Х Ц Ч Ш Щ Ь Ы Ъ Э Ю Я
  а б в г д е ё ж з и й к л м н ң о ө п р с т у ү ф х ц ч ш щ ь ы ъ э ю я
  %0 1 2 3 4 5 6 7 8 9
- %{G%}:г %{D%}:д %{N%}:н %{L%}:л %{B%}:б %{P%}:п %{s%}:с %{n%}:н %{l%}:л
+ %{G%}:г %{D%}:д %{Д%}:д %{N%}:н %{L%}:л %{B%}:б %{P%}:п %{s%}:с %{n%}:н %{l%}:л
  %{A%}:а %{I%}:ы %{U%}:у %{E%}:а %{e%}:0 %{K%}:к %{y%}:0
  %{а%}:0 %{э%}:0 %{ү%}:0 %{у%}:0 %{о%}:0
  %{й%}:0 %{л%}:0 %{з%}:0 %{т%}:0
@@ -156,8 +156,8 @@ Cx:Cy <=>  [ :UnvoicedNonSonCns ]/[ [ :0 - [ %{n%}:0 | Abstract:0 ] ] | %-: | %>
                            except
                                    ! avoid conflict with "Causative stuff"
                                    [ :SurVow | :р | :н ] %>: _ %{I%}: р: ;
-        where Cx in ( %{B%}  %{G%}  %{D%}  %{L%}  %{N%} )
-              Cy in (   п      к      т      т      т)
+        where Cx in ( %{B%}  %{G%}  %{Д%}  %{D%}  %{L%}  %{N%} )
+              Cy in (   п      к      т      т      т      т   )
               matched;
 
 
@@ -303,25 +303,25 @@ Cx:Cy <=>  [ :UnvoicedNonSonCns ]/[ [ :0 - [ %{n%}:0 | Abstract:0 ] ] | %-: | %>
 "Abstract vowel harmony for {I} after {а}"
 %{I%}:ы  <=> [ %{а%}:0 AbstractCns:0* :Cns* ]/[ [ :0 - Abstract: ] | %>: | %-: ] _ ;
          except
-                                                                     %>: %{D%}:т _ р:0 ; ! Avoid conflict with deletion in Causative
+                                                                     %>: %{Д%}:т _ р:0 ; ! Avoid conflict with deletion in Causative
                                       %{n%}:н/[ [ :0 - Abstract: ] | %>: | %-: ] _ ; ! Avoid conflict with accusative deletion
 
 "Abstract vowel harmony for {I} after {э}"
 %{I%}:и  <=> [ %{э%}:0 AbstractCns:0* :Cns* ]/[ [ :0 - Abstract: ] | %>: | %-: ] _ ;
          except
-                                                                     %>: %{D%}:т _ р:0 ; ! Avoid conflict with deletion in Causative
+                                                                     %>: %{Д%}:т _ р:0 ; ! Avoid conflict with deletion in Causative
                                             %{n%}:н/[ [ :0 - Abstract: ] | %>: ] _ ; ! Avoid conflict with accusative deletion
 
 "Abstract vowel harmony for {I} after {о} and {у}"
 %{I%}:у  <=> [ [ %{о%}:0 | %{у%}:0 ] AbstractCns:0* :Cns* ]/[ [ :0 - Abstract: ] | %>: | %-: ] _ ;
          except
-                                                                     %>: %{D%}:т _ р:0 ; ! Avoid conflict with deletion in Causative
+                                                                     %>: %{Д%}:т _ р:0 ; ! Avoid conflict with deletion in Causative
                                             %{n%}:н/[ [ :0 - Abstract: ] | %>: ] _ ; ! Avoid conflict with accusative deletion
 
 "Abstract vowel harmony for {I} after {ү}"
 %{I%}:ү  <=> [ %{ү%}:0 AbstractCns:0* :Cns* ]/[ [ :0 - Abstract: ] | %>: | %-: ] _ ;
          except
-                                                                     %>: %{D%}:т _ р:0 ; ! Avoid conflict with deletion in Causative
+                                                                     %>: %{Д%}:т _ р:0 ; ! Avoid conflict with deletion in Causative
                                             %{n%}:н/[ [ :0 - Abstract: ] | %>: ] _ ; ! Avoid conflict with accusative deletion
 
 
@@ -472,19 +472,21 @@ Vx:Vy <=> _ [ %{U%}:0 - :YotVow ]/[ [ :0 - %{U%}: ] | %>: ] ;
             %{I%}: [ %{n%}: | м: | ң: ] %>: _ %{A%}: + ;
 
 !!!! Causative stuff !!!!
-!! Most of this is to convert {D}{I}р to т after a vowel (or dental sonorant) stem
+!! Most of this is to convert {Д}{I}р to т after a vowel (or dental sonorant) stem
 
-"Deletion of {I} after {D} and before р"
-%{I%}:0 <=> [ :SurVow | :р | :л | :н ] %>: %{D%}:т _ р:0 ;
+"Deletion of {I} after {Д} and before р in causative"
+%{I%}:0 <=> [ :SurVow | :р | :л | :н ] %>: %{Д%}:т _ р:0 ;
                  except
                          ! avoid conflict with irregular vowel harmony
                          [ %{e%}: :Cns :Cns* ]/[ %>: | %-: ] _ ;     ! Avoid conflict with irregular vowel harmony
 
-"Deletion of р after {D}{I}"
-р:0 <=> [ :SurVow | :р | :н ] %>: %{D%}:т %{I%}: _ ;
+"Deletion of р after {Д}{I} in causative"
+р:0 <=> [ :SurVow | :р | :н ] %>: %{Д%}:т %{I%}: _ ;
 
-"{D} to т in causative after vowel"
-%{D%}:т <=> [ :SurVow | :р | :н ] %>: _ %{I%}: р: ;
+"{Д} to т in causative after vowel"
+%{Д%}:т <=> [ :SurVow | :р | :н ] %>: _ %{I%}: р: ;
+        except
+            .#. :Cns* :SurVow* :SurVow %>: _ ;
 
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
