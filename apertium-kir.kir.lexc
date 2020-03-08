@@ -8573,6 +8573,8 @@ Getty% Images:Getty% Images%{э%}%{з%} NP-ORG-LAT ; ! ""
 ! ЕБ:ЕБ NP-ORG-COMPOUND ; ! "European Union"
 ӨИК NP-ORG ; ! "Өзбекстан Ислам Кыймылы - IMU=Islamic Movement of Uzbekistan"
 
+Голос% республики:Голос% республики NP-ORG ; ! name of a newspaper in Kazakhstan
+
 
 ! Other proper names (events etc)
 !================================
@@ -12132,6 +12134,7 @@ Aйталы:Aйталы NP-ANT-M ; ! "Aytğalıy" (Arabic)
 Байтазиев:Байтазиев NP-COG-OB; ! ""
 Байтереков:Байтереков NP-COG-OB ; ! ""
 Байтурсынов:Байтурсынов NP-COG-OB ; ! ""
+Байтурсынулы:Байтурсынулы NP-COG-M ; ! "" Kazakh family name
 Байшулаков:Байшулаков NP-COG-OB ; ! ""
 Байысов:Байысов NP-COG-OB ; ! ""
 Бакбергенов:Бакбергенов NP-COG-OB ; ! ""
@@ -17196,6 +17199,7 @@ LEXICON Verbs
 жуун:жуун V-INFL-IV ;  ! FIXME: productive
 ! жарыяла:жарыяла V-INFL-TV ; ! "removing duplicate" 
 кабарла:кабарла V-INFL-TV ;
+кабарла:кабарда V-INFL-TV ;  ! Dir/LR
 келиш:келиш V-INFL-IV ;
 түшүнүш:түшүнүш V-INFL-IV ;
 шерттеш:шерттеш V-INFL-IV ;
@@ -18176,6 +18180,7 @@ LEXICON Verbs
 сай:сай V-INFL-TV ; ! "jab, poke, stab"
 чуку:чуку V-INFL-TV ; ! "pick (ear, nose)"
 специализациялаш:специализациялаш V-INFL-IV ; ! "specialise"
+так:так V-INFL-TV ; ! "hang [something up somewhere / to something]"
 
 талда:талда V-INFL-TV ; ! "analyse"
 синтезде:синтезде V-INFL-TV ; ! "synthesise; generate"
