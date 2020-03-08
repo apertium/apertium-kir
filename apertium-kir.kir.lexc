@@ -6425,6 +6425,7 @@ LEXICON Nouns
 сюрприз:сюрприз N-INFL ; ! "surprise"
 сүйлөшүү:сүйлөшүү N-INFL ; ! "" 
 сүйлөө:сүйлөө N-INFL ;
+сүйлөм:сүйлөм N-INFL ; ! "sentence"
 сүйүнүч:сүйүнүч N-INFL ;
 сүйүү:сүйүү N-INFL ; ! "love" ! Der/Ger
 сүлгү:сүлгү N-INFL ; ! "towel"
@@ -14867,6 +14868,7 @@ LEXICON Adjectives
 украиндык:украиндык A3 ; ! "Ukranian" 
 ферганалык:ферганалык A3 ; ! "" 
 япониялык:япониялык A3 ; ! "Japanese"
+Улуу% Британия:Улуу% Британия A3 ; ! "British"
 
 ! Other
 ! -----
@@ -17350,6 +17352,7 @@ LEXICON Verbs
 кайтала:кайтала V-INFL-TV ;
 балала:балала V-INFL-TV ;
 айыр:айыр V-INFL-TV ;
+айыр:айры V-INFL-TV ; ! Dir/LR
 ажырат:ажырат V-INFL-TV ;
 кечик:кечик V-INFL-TV ; ! "to be late"
 жала:жала V-INFL-TV ; ! "to lick"
@@ -17710,7 +17713,6 @@ LEXICON Verbs
 аныкта:аныкта V-INFL-IV ;
 сандар% менен% белгиле:сандар% менен% белгиле V-INFL-IV ;
 ой:ой V-INFL-IV ;
-шаш:шаш V-INFL-IV ; ! "hurry"
 иликте:иликте V-INFL-IV ;
 кайра% чык:кайра% чык V-INFL-IV ;
 гарантияла:гарантияла V-INFL-IV ;
