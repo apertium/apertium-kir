@@ -16752,12 +16752,12 @@ LEXICON Copula
 
 э%<cop%>%<aor%>%<evid%>:экен V-PERS-COP-SUF ; 
 э%<cop%>%<aor%>%<evid%>%[%-qst%]:бекен V-PERS-COP-SUF ; 
-э%<cop%>%<neg%>%<aor%>%<evid%>:эмес% экен V-PERS-COP-SUF ; 
+э%<cop%>%<aor%>%<evid%>%<neg%>:эмес% экен V-PERS-COP-SUF ; 
 
 э%<cop%>%<ifi%>:эле V-PERS-PAST ;
 э%<cop%>%<ifi%>%[%-qst%]:беле V-PERS-PAST ;
 
-э%<cop%>%<neg%>%<aor%>:эмес V-PERS-COP-SUF ; 
+э%<cop%>%<aor%>%<neg%>:эмес V-PERS-COP-SUF ; 
 
 э%<cop%>%<aor%>: V-PERS-COP-SUF ; ! Dir/RL ! for below reason?
 э%<cop%>%<aor%>%<p3%>%<sg%>: # ; ! Dir/RL ! to generate nothing if attached to an unknown form
