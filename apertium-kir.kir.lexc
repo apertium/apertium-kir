@@ -3630,7 +3630,9 @@ LEXICON Nouns
 бойек:бойек N-INFL ; 
 бок:бок N-INFL ; 
 бокс:бокс N-INFL ; ! "boxing"
-боксер:боксер N-INFL ; ! "boxer"
+боксчу:боксчу N-INFL ; ! "boxer"
+боксёр:боксер N-INFL ; ! "boxer" ! Dir/LR
+боксёр:боксёр N-INFL ; ! "boxer"
 болжол% менен:болжол% менен N-INFL ; ! FIXME: CHECK: not N
 болжол:болжол N-INFL ; ! "estimate"
 болжолдуу:болжолдуу N-INFL ; ! FIXME: CHECK: not N
