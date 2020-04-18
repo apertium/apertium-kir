@@ -125,6 +125,7 @@ LIST P3-Sg = (p3 sg) ;
 
 LIST Vb-Imp = (v imp) ;
 LIST N-Acc = (n acc) ;
+LIST Subst-Acc = (n acc) (adj subst acc) ;
 LIST Vb-Ifi-3 = (v ifi p3 sg) (v ifi p3 pl) ;
 
 LIST P2Pron = (prn pers p2) ;
@@ -238,7 +239,7 @@ REMOVE Vb-Imp IF
 
 # ambiguous n.acc/v.*.ifi forms, e.g. түштү, etc.
 SELECT Vb-Ifi-3 IF
-	(0 N-Acc)
+	(0 Subst-Acc)
 	(1C Sent) ;
 
 
