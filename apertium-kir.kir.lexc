@@ -155,7 +155,7 @@
 %<ger_pres%>
 %<ger%>
 %<ger_abst%>      ! "abstract" gerund 
-%<ger_notyet%>    ! Not-yet gerund, -E элек
+%<ger_unac%>      ! Unaccomplished "not-yet" gerund, -E элек
 %<ger_ppot%>      ! Perfective(?) potential gerund  (~the ability to do the denoted action)
 %<ger_hab%>       ! habitual gerund: -мАй
 
@@ -169,7 +169,7 @@
 %<gpr_pot%>
 %<gpr_impf%>
 %<gpr_hab%>
-%<gpr_notyet%>    ! Not-yet verbal adjective, -E элек
+%<gpr_unac%>      ! Unaccomplished "not-yet" verbal adjective, -E элек
 %<gpr_ppot%>      ! Perfective(?) potential verbal adjective
 
 !! Tense / finite forms
@@ -180,7 +180,7 @@
 %<pot%>     ! Potential, -чUдAй
 %<ifi%>     ! Definite past 
 %<fut%>     ! Future tense, -AAр
-%<notyet%>  ! Not-yet tense, -E элек
+%<unac%>    ! Unaccomplished "not-yet" tense, -E элек
 ! %<pp%>      ! Past participle, -GAн
 ! %<pp2%>     ! Past participle, -GAнI
 ! %<plist%>   ! Listing participle
@@ -1697,7 +1697,7 @@ LEXICON V-INFL-NON-FINITE-REG
 %<ger_pres%>:%>%{I%}ш GER-INFL ;    ! <coop> IS only
 %<ger%>:%>%{U%}%{U%} GER-INFL ;     ! <coop> IS only
 %<ger_abst%>:%>%{U%}%{U%}%>ч%{I%}%>%{L%}%{I%}к GER-INFL ;     ! <coop> IS only
-%<ger_notyet%>:%>%{E%}% элек GER-INFL ;
+%<ger_unac%>:%>%{E%}% элек GER-INFL ;
 
 ! Verbal adjectives 
 %<gpr_past%>:%>%{G%}%{A%}н V-ADJ ;  ! <pl> IS okay
@@ -1705,7 +1705,7 @@ LEXICON V-INFL-NON-FINITE-REG
 %<gpr_hab%>:%>ч%{U%} V-ADJ ;  ! <pl> IS okay
 !%<vadj_impf%>:%>%{E%}% турган V-ADJ ;       ! Done already by <prt_impf> тур<vaux><vadj_past>
 %<gpr_pot%>:%>%{U%}%{U%}%>ч%{U%} V-ADJ ;
-%<gpr_notyet%>:%>%{E%}% элек V-ADJ ;
+%<gpr_unac%>:%>%{E%}% элек V-ADJ ;
 
 !  Imperatives
 
@@ -1779,7 +1779,7 @@ LEXICON V-FINITE-IRREGULAR_NEGATIVE
 
 ! Things without negative forms
 %<pot%>:%>ч%{U%}%>д%{A%}й V-PERS-COP-SUF ;                        ! 
-%<notyet%>:%>%{E%}% элек V-PERS-COP-SUF ;                         ! 
+%<unac%>:%>%{E%}% элек V-PERS-COP-SUF ;                           ! 
 
 
 
