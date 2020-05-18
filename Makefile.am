@@ -2,8 +2,6 @@
 ## Makefile for apertium-kir
 ###############################################################################
 
-RELEASE=1.0
-VERSION=1.0.0
 LANG1=kir
 BASENAME=apertium-$(LANG1)
 
@@ -89,8 +87,8 @@ $(LANG1).autopgen.bin: $(BASENAME).post-$(LANG1).dix
 ## Disambiguation rules
 ###############################################################################
 
-$(LANG1).rlx.bin: $(BASENAME).$(LANG1).rlx $(CGCOMP)
-	$(CGCOMP) $< $@
+$(LANG1).rlx.bin: $(BASENAME).$(LANG1).rlx
+	cg-comp $< $@
 
 ###############################################################################
 ## Spell checker
@@ -153,7 +151,7 @@ if HAVE_HFSTOSPELL
 EXTRA_TARGETS += $(LANG1).zhfst
 endif # HAVE_HFSTOSPELL
 
-apertium_kir_DATA=$(TARGETS_COMMON) $(EXTRA_TARGETS)
+apertium_kir_DATA=$(TARGETS_COMMON) $(EXTRA_TARGETS) $(LANG1).prob
 
 pkgconfigdir = $(prefix)/share/pkgconfig
 pkgconfig_DATA = $(BASENAME).pc
