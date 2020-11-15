@@ -2159,7 +2159,7 @@ LEXICON Determiners
 ушунчалык:ушунчалык DET-QNT ;
 бир% катар:бир% катар DET-QNT ;
 толук:толук DET-QNT ;
-толук:толук PRON-QNT ; ! "all" in e.g. толугу менен = entirely
+!толук:толук PRON-QNT ; ! "all" in e.g. толугу менен = entirely
 бир% бөлүк:бир% бөлүк DET-QNT ;
 бир% канча% даана:бир% канча% даана DET-QNT ;
 !берки DET-IND ;
