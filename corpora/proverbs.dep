@@ -1,0 +1,28 @@
+# sent_id = proverbs:1
+# text = Жип кессең - узун кес, кеп салсаң - кыска сал.
+# label = check
+"<Жип>"
+	"жип" n nom @obj #1->2
+"<кессең>"
+	"кес" v tv prc_cond p2 sg @acl #2->11
+"<->"
+	"-" guio @punct #3->2
+"<узун>"
+	"узун" adj advl @xcomp #4->5
+"<кес>"
+	"кес" v tv imp p2 sg @conj #5->8
+"<,>"
+	"," cm @punct #6->5
+"<кеп>"
+	"кеп" n nom @obj #7->8
+"<салсаң>"
+	"сал" v tv prc_cond p2 sg @acl #8->11
+"<->"
+	"-" guio @punct #9->8
+"<кыска>"
+	"кыска" adj advl @xcomp #10->11
+"<сал>"
+	"сал" v tv imp p2 sg @root #11->0
+"<.>"
+	"." sent @punct #12->11
+
