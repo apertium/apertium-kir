@@ -1,6 +1,8 @@
 Alphabet
  А Б В Г Д Е Ё Ж З И И К Л М Н Ң О Ө П Р С Т У Ү Ф Х Ц Ч Ш Щ Ь Ы Ъ Э Ю Я
  а б в г д е ё ж з и й к л м н ң о ө п р с т у ү ф х ц ч ш щ ь ы ъ э ю я
+ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+ a b c d e f g h i j k l m n o p q r s t u v w x y z
  %0 1 2 3 4 5 6 7 8 9
  %{G%}:г %{D%}:д %{Д%}:д %{N%}:н %{L%}:л %{B%}:б %{P%}:п %{s%}:с %{n%}:н %{l%}:л
  %{A%}:а %{I%}:ы %{U%}:у %{E%}:а %{e%}:0 %{K%}:к %{y%}:0
@@ -22,11 +24,16 @@ Sets
 
 Cns = Б В Г Д Ж З Й К Л М Н Ң П Р С Т Ф Х Ц Ч Ш Щ Ь Ъ 
       б в г д ж з й к л м н ң п р с т ф х ц ч ш щ ь ъ 
+      B C D F G H J K L M N P Q R S T V W X Y Z
+      b c d f g h j k l m n p q r s t v w x y z
       %{D%} %{G%} %{N%} %{L%} %{B%} %{s%} %{n%} %{l%} %{K%} ;
       !%{D%} %{G%} %{N%} %{L%} %{B%} %{P%} %{s%} %{n%} ;
 
 SurCns = Б В Г Д Ж З Й К Л М Н Ң П Р С Т Ф Х Ц Ч Ш Щ Ь Ъ 
-         б в г д ж з й к л м н ң п р с т ф х ц ч ш щ ь ъ ;
+         б в г д ж з й к л м н ң п р с т ф х ц ч ш щ ь ъ
+         B C D F G H J K L M N P Q R S T V W X Y Z
+         b c d f g h j k l m n p q r s t v w x y z
+       ;
 
 FromCns = SurCns Я я Ё ё Ю ю ;
 
@@ -44,15 +51,15 @@ Vow =     А Е Ё И О Ө У Ү Ы Э Ю Я
 SurVow = А Е Ё И О Ө У Ү Ы Э Ю Я
          а е ё и о ө у ү ы э ю я ; 
 
-FrontVow = И Ө Е Ү Э и ө ү э е %{э%} %{ү%} ;  ! I V L C M ;
-BackVow = А О У Ы а о у ы Я я Ю ю %{а%} %{у%} %{о%} ; ! X ;
-FrontUnrndVow = И Е Э и э е %{э%} ; 
-BackUnrndVow = А Ы а ы Я я ;
+FrontVow = И Ө Е Ү Э и ө ү э е %{э%} %{ү%} I i E e ;  ! I V L C M ;
+BackVow = А О У Ы а о у ы Я я Ю ю %{а%} %{у%} %{о%} A a O o U u ; ! X ;
+FrontUnrndVow = И Е Э и э е %{э%} I i E e ; 
+BackUnrndVow = А Ы а ы Я я A a ;
 FrontRndVow = Ө Ү ө ү %{ү%} ;
-BackRndVow =  О У о у Ю ю Ё ё %{о%} %{у%} ;
-BackLowRndVow = О о Ё ё %{о%} ;
-LowVow = Е е Э э Ө ө А а Я я О о Ё ё ;
-HighVow = И и Ү ү Ы ы У у Ю ю %{у%} ;
+BackRndVow =  О У о у Ю ю Ё ё %{о%} %{у%} O o U u ;
+BackLowRndVow = О о Ё ё %{о%} O o ;
+LowVow = Е е Э э Ө ө А а Я я О о Ё ё A a O o E e ;
+HighVow = И и Ү ү Ы ы У у Ю ю %{у%} I i U u ;
 YotVow = Я я Е е Ё ё Ю ю ;
 
 !! For Kazakh:
@@ -62,22 +69,40 @@ YotVow = Я я Е е Ё ё Ю ю ;
 !           и у ;
 
 NasalCns = м н ң
-           М Н Ң ;
+           М Н Ң
+           M N
+           m n
+         ;
 
 LabialCns = б п м
-            Б П М ;
+            Б П М
+            b p m
+            B P M
+          ;
 
 UnvoicedNonSonCns = К П С Т Ф Х Ц Ч Ш Щ  
-	                 к п с т ф х ц ч ш щ ;
+	                 к п с т ф х ц ч ш щ
+                    C F H K P Q S T X
+                    c f h k p q s t x
+                  ;
 
 VoicedCns = Б В Г Д Ж З Л М Н Ң Й Р
-            б в г д ж з л м н ң й р ;
+            б в г д ж з л м н ң й р
+            B D G J L M N R V W Y Z
+            b d g j l m n r v w y z
+          ;
 
 VoicedObs = Б В Г Д Ж З 
-            б в г д ж з ;
+            б в г д ж з
+            B D G J V Z
+            b d g j v z
+          ;
 
 VoicedLowSonCns = Б В Г Д Ж З Л М Н Ң
-                  б в г д ж з л м н ң ;
+                  б в г д ж з л м н ң
+                  B D G J L M N R V Z
+                  b d g j l m n r v z           
+                ;
 
 ! These three sets include the suffix border, and accounts for long-distance VH
 CnsFrontUnrndVowSB = Cns FrontUnrndVow %> ;
@@ -220,8 +245,8 @@ Cx:Cy <=>  [ :UnvoicedNonSonCns ]/[ [ :0 - [ %{n%}:0 | Abstract:0 ] ] | %-: | %>
 !                                              %{A%}: _ ; ! so that AA = ээ, not ее
         [ [ :и | :е | :э ] :Cns* :Cns ]/[ :0 | %>: ] _ %{A%}: ;
                                              %{A%}:э _ ; 
-        where LastVowel in (  и  ү  е  э  ө  я  а  ё  о  ы  ю  у  О )
-                     Vy in (  е  ө  е  е  ө  а  а  о  о  а  а  а  о )
+        where LastVowel in (  и  ү  е  э  ө  я  а  ё  о  ы  ю  у  О  A  a  E  e  I  i  O  o  U  u )
+                     Vy in (  е  ө  е  е  ө  а  а  о  о  а  а  а  о  а  а  е  е  е  е  о  о  а  а )
 !        where LastVowel in (  ү  ө  я  а  ё  о  ы  ю  у  )
 !                     Vy in (  ө  ө  а  а  о  о  а  а  а  )
 
@@ -280,8 +305,8 @@ Cx:Cy <=>  [ :UnvoicedNonSonCns ]/[ [ :0 - [ %{n%}:0 | Abstract:0 ] ] | %-: | %>
                                     й:/[ :0 | %>: ] _ ;     ! Avoid conflict w y-vowels
                      [ %{e%}: :Cns* ]/[ %>: | %-: ] _ ;     ! Avoid conflict with irregular vowel harmony
                                                     _ р:0 ; ! Avoid conflict w causative
-  where  Vy  in  (  и  ү  и  и  ү  ы  ы  у  у  ы  у  у  и  ү  ү  ы  у  ы  у )
-  LastVowel  in  (  и  ү  е  э  ө  я  а  ё  о  ы  ю  у  И  Ү  Ө  А  О  Ы  У )
+  where  Vy  in  (  и  ү  и  и  ү  ы  ы  у  у  ы  у  у  и  ү  ү  ы  у  ы  у  ы  ы  и  и  и  и  у  у  у  у )
+  LastVowel  in  (  и  ү  е  э  ө  я  а  ё  о  ы  ю  у  И  Ү  Ө  А  О  Ы  У  A  a  E  e  I  i  O  o  U  u )
            matched ;
 
 "Irregular vowel harmony for archiphoneme {I}"
