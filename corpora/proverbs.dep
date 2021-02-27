@@ -1,10 +1,11 @@
 # sent_id = proverbs:1
 # text = Жип кессең - узун кес, кеп салсаң - кыска сал.
+# text_en = If you cut a thread, cut it long; if you make a speech, make it short.
 # label = check
 "<Жип>"
 	"жип" n nom @obj #1->2
 "<кессең>"
-	"кес" v tv prc_cond p2 sg @acl #2->11
+	"кес" v tv gna_cond p2 sg @acl #2->11
 "<->"
 	"-" guio @punct #3->2
 "<узун>"
@@ -16,7 +17,7 @@
 "<кеп>"
 	"кеп" n nom @obj #7->8
 "<салсаң>"
-	"сал" v tv prc_cond p2 sg @acl #8->11
+	"сал" v tv gna_cond p2 sg @acl #8->11
 "<->"
 	"-" guio @punct #9->8
 "<кыска>"
