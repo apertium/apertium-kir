@@ -1,7 +1,8 @@
-# sent_id = proverbs:1
+# sent_id = proverbs:0
 # text = Жип кессең - узун кес, кеп салсаң - кыска сал.
 # text_en = If you cut a thread, cut it long; if you make a speech, make it short.
-# label = JNW_checked
+# label_text = JNW_checked
+# label_dep = JNW_checked
 "<Жип>"
 	"жип" n nom @obj #1->2
 "<кессең>"
@@ -27,3 +28,979 @@
 "<.>"
 	"." sent @punct #12->11
 
+# sent_id = proverbs:1
+# author:id = Сыргабековна&Сабыровна:329
+# text = Миң сөз айтканча, бир ишти бүтүр.
+# text_en = [Instead of saying] [a thousand] [words], finish one task.
+# label = JNW_checked
+# label_dep = to_check
+"<Миң>"
+	"миң" num @nummod #1->2
+"<сөз>"
+	"сөз" n nom @obj #2->3
+"<айтканча>"
+	"айт" v iv ger_past equ @advcl #3->7
+"<,>"
+	"," cm @punct #4->7
+"<бир>"
+	"бир" num @nummod #5->6
+"<ишти>"
+	"иш" n acc @obj #6->7
+"<бүтүр>"
+	"бүт" v iv caus imp p2 sg @root #7->0
+"<.>"
+	"." sent @punct #8->7
+
+# sent_id = proverbs:2
+# author:id = Сыргабековна&Сабыровна:363
+# text = Өрдөк жокто, чулдук бий.
+# text_en = Upon the absence of the/a duck, (the) sandpiper (is) ~king.
+# label = JNW_checked
+# label_dep = to_check
+"<Өрдөк>"
+	"өрдөк" n nom @nsubj #1->2
+"<жокто>"
+	"жок" adj subst loc @advcl #2->6
+"<,>"
+	"," cm @punct #3->6
+"<чулдук>"
+	"чулдук" n nom @nsubj #4->6
+"<бий>"
+	"бий" n acc-ind SUBSTITUTE:487 @obj #5->6
+		"э" cop aor p3 sg SELECT:362 @root #6->0
+"<.>"
+	"." sent @punct #7->6
+
+# sent_id = proverbs:3
+# author:id = Сыргабековна&Сабыровна:317
+# text = Күч атасын тааныбайт.
+# text_en = Strength [doesn't recognise] [its father].
+# label = JNW_checked
+# label_dep = to_check
+"<Күч>"
+	"күч" n nom @nsubj #1->3
+"<атасын>"
+	"ата" n px3sp acc @obj #2->3
+"<тааныбайт>"
+	"тааны" v tv neg aor p3 sg @root #3->0
+"<.>"
+	"." sent @punct #4->3
+
+# sent_id = proverbs:4
+# author:id = Сыргабековна&Сабыровна:94
+# text = Баштаган ишти таштаба.
+# text_en = [Don't ditch] [a task [that's been started]]
+# label = JNW_checked
+# label_dep = to_check
+"<Баштаган>"
+	"башта" v tv gpr_past @amod #1->2
+"<ишти>"
+	"иш" n acc @obj #2->3
+"<таштаба>"
+	"ташта" v tv neg imp p2 sg @root #3->0
+"<.>"
+	"." sent @punct #4->3
+
+# sent_id = proverbs:5
+# author:id = Сыргабековна&Сабыровна:106
+# text = Билим - адамдын канаты.
+# text_en = Knowledge is a person's wings.
+# label = JNW_checked
+# label_dep = to_check
+"<Билим>"
+	"билим" n nom @root #1->0
+"<->"
+	"-" guio #2->
+"<адамдын>"
+	"адам" n gen @nmod:poss #3->4
+"<канаты>"
+	"канат" n px3sp nom @nsubj #4->1
+"<.>"
+	"." sent @punct #5->1
+
+# sent_id = proverbs:6
+# author:id = Сыргабековна&Сабыровна:474
+# text = Эл оозунда элек жок.
+# text_en = In people’s mouths there is no filter.
+# label = JNW_checked
+# label_dep = to_check
+"<Эл>"
+	"эл" n nom @nmod:poss #1->2
+"<оозунда>"
+	"ооз" n px3sp loc @obl #2->4
+"<элек>"
+	"элек" n nom @nsubj #3->4
+"<жок>"
+	"жок" adj @root #4->0
+		"э." cop aor p3 sg @cop #5->4
+"<.>"
+	"." sent @punct #6->4
+
+# sent_id = proverbs:7
+# author:id = Сыргабековна&Сабыровна:133
+# text = Бөрү баласы ит болбойт. 
+# text_en = The child of a wolf will not become a dog.
+# label = JNW_checked
+# label_dep = to_check
+"<Бөрү>"
+	"бөрү" n nom @nsubj #1->4
+"<баласы>"
+	"бала" n px3sp nom @nmod:poss #2->1
+"<ит>"
+	"ит" n nom @obj #3->4
+"<болбойт>"
+	"бол." v iv neg aor p3 sg @root #4->0
+"<.>"
+	"." sent @punct #5->4
+
+# sent_id = proverbs:8
+# author:id = Сыргабековна&Сабыровна:473
+# text = Элин сүйбөс эр болбойт, жерин сүйбөс эл болбойт.
+# text_en = There is no man who doesn't love his nation, there is no nation that doesn't love its land.
+# label = JNW_checked
+# label_dep = to_check
+"<Элин>"
+	"эл" n px3sp acc @obj #1->4
+"<сүйбөс>"
+	"сүй" v tv neg gpr_fut @amod #2->3
+"<эр>"
+	"эр" n nom @nsubj #3->4
+"<болбойт>"
+	"бол," v iv neg aor p3 sg @conj #4->9
+"<,>"
+	"," cm @punct #5->9
+"<жэрин>"
+	"жэр" n px3sp acc @obj #6->9
+"<сүйбөс>"
+	"сүй" v tv neg gpr_fut @amod #7->8
+"<эл>"
+	"эл" n nom @nsubj #8->9
+"<болбойт>"
+	"бол." v iv neg aor p3 sg @root #9->0
+"<.>"
+	"." sent @punct #10->9
+
+# sent_id = proverbs:9
+# author:id = Сыргабековна&Сабыровна:461
+# text = Чындан ыйласа, сокур көздөн жаш чыгат.
+# text_en = If (one) cries from truth, a tear comes out of a blind eye.
+# label = JNW_checked
+# label_dep = to_check
+"<Чындан>"
+	"чын" n abl @obl #1->7
+"<ыйласа>"
+	"ыйла," v iv gna_cond p3 sg @advmod #2->7
+"<,>"
+	"," cm @punct #3->7
+"<сокур>"
+	"сокур" adj @amod #4->5
+"<көздөн>"
+	"көз" n abl @obl #5->6
+"<жаш>"
+	"жаш" n nom @nsubj #6->7
+"<чыгат>"
+	"чык." v iv aor p3 sg @root #7->0
+"<.>"
+	"." sent @punct #8->7
+
+# sent_id = proverbs:10
+# author:id = Сыргабековна&Сабыровна:293
+# text = Көйнөк тердебесе, талаа гүлдөбөйт.
+# text_en = If the shirt does not sweat, the field does not blossom.
+# label = JNW_checked
+# label_dep = to_check
+"<Көйнөк>"
+	"көйнөк" n nom @csubj #1->2
+"<тердебесе>"
+	"терде," v iv neg gna_cond p3 sg @advcl #2->5
+"<,>"
+	"," cm @punct #3->5
+"<талаа>"
+	"талаа" n nom @nsubj #4->5
+"<гүлдөбөйт>"
+	"гүлдө." v iv neg aor p3 sg @root #5->0
+"<.>"
+	"." sent @punct #6->5
+
+# sent_id = proverbs:11
+# author:id = Сыргабековна&Сабыровна:456
+# text = Чала молдо дин бузат.
+# text_en = A poser Mullah spoils religion.
+# label = JNW_checked
+# label_dep = to_check
+"<Чала>"
+	"чала" adj @amod #1->2
+"<молдо>"
+	"молдо" n nom @nsubj #2->4
+"<дин>"
+	"дин" n nom @obj #3->4
+"<бузат>"
+	"буз." v tv aor p3 sg @root #4->0
+"<.>"
+	"." sent @punct #5->4
+
+# sent_id = proverbs:12
+# author:id = Сыргабековна&Сабыровна:488
+# text = Эрте сепсең бир күнү, эрте оросуң бир жума.
+# text_en = If you sow one day early, you reap one week early.
+# label = JNW_checked
+# label_dep = to_check
+"<Эрте>"
+	"эрте" adv @advmod #1->2
+"<сепсең>"
+	"сеп" v tv gna_cond p2 sg @conj #2->7
+"<бир>"
+	"бир" num @nummod #3->4
+"<күнү>"
+	"күн," n px3sp nom @nmod:temp #4->2
+"<,>"
+	"," cm @punct #5->7
+"<эрте>"
+	"эрте" adv @advmod #6->7
+"<оросуң>"
+	"ор" v tv aor p2 sg @root #7->0
+"<бир>"
+	"бир" num @nummod #8->9
+"<жума>"
+	"жума." n nom @nummod:temp #9->7
+"<.>"
+	"." sent @punct #10->7
+
+# sent_id = proverbs:13
+# author:id = Сыргабековна&Сабыровна:290
+# text = Көз коркок, кол баатыр.
+# text_en = The eye is a coward, the hand is a hero.
+# label = JNW_checked
+# label_dep = to_check
+"<Көз>"
+	"көз" n nom @nsubj #1->2
+"<коркок>"
+	"коркок" adj @conj #2->6
+		"э," cop aor p3 sg @cop #3->2
+"<,>"
+	"," cm @punct #4->6
+"<кол>"
+	"кол" n nom @nsubj #5->6
+"<баатыр>"
+	"баатыр" adj @root #6->0
+		"э." cop aor p3 sg @cop #7->6
+"<.>"
+	"." sent @punct #8->6
+
+# sent_id = proverbs:14
+# author:id = Сыргабековна&Сабыровна:374
+# text = Пулуң болсо, кулуңмун.
+# text_en = If you have money, I am your slave.
+# label = JNW_checked
+# label_dep = to_check
+"<Пулуң>"
+	"пул" n px2sg nom @obj #1->2
+"<болсо>"
+	"болсо," v iv gna_cond p3 sg @advcl #2->4
+"<,>"
+	"," cm @punct #3->4
+"<кулуңмун>"
+	"кул" n px2sg nom @root #4->0
+		"э." cop aor p1 sg @cop #5->4
+"<.>"
+	"." sent @punct #6->4
+
+# sent_id = proverbs:15
+# author:id = Сыргабековна&Сабыровна:342
+# text = Оозу кыйшык болсо да, байдын уулу сүйлөсүн.
+# text_en = Even if his mouth is crooked, let the rich person's son speak.
+# label = JNW_checked
+# label_dep = to_check
+"<Оозу>"
+	"ооз" n px3sp nom @csubj #1->3
+"<кыйшык>"
+	"кыйшык" adj @amod #2->1
+"<болсо>"
+	"бол" v iv gna_cond p3 sg @advcl #3->8
+"<да>"
+	"да" cnjadv @advmod #4->3
+"<,>"
+	"," cm @punct #5->8
+"<байдын>"
+	"бай" adj subst gen @nmod:poss #6->7
+"<уулу>"
+	"уул" n px3sp nom @nsubj #7->8
+"<сүйлөсүн>"
+	"сүйлө" v tv opt p3 sg @root #8->0
+"<.>"
+	"." sent @punct #9->8
+
+# sent_id = proverbs:16
+# author:id = Сыргабековна&Сабыровна:84
+# text = Балалуу болбогон кубанганды билбеген.
+# text_en = Those who have had children have not known being happy.
+# label = JNW_checked
+# label_dep = to_check
+"<Балалуу>"
+	"бала" n @amod #1->3
+		"луу" post @case #2->1
+"<болбогон>"
+	"бол" v iv gpr_past subst nom @nsubj #3->5
+"<кубанганды>"
+	"кубан" v iv ger_past acc @obj #4->5
+"<билбеген>"
+	"бил." v tv neg past p3 sg @root #5->0
+"<.>"
+	"." sent @punct #6->5
+
+# sent_id = proverbs:17
+# author:id = Сыргабековна&Сабыровна:6
+# text = Адамдын көркү - чүпүрөк, жыгачтын көркү - жалбырак.
+# text_en = The elegance of a person is clothes, the elegance of a tree is leaves.
+# label = JNW_checked
+# label_dep = to_check
+"<Адам>"
+	"адам" n gen @nmod:poss #1->2
+"<көркү>"
+	"көрк" n px3sp nom @nsubj #2->3
+"<->"
+	"-" guio @conj #3->7
+"<чүпүрөк>"
+	"чүпүрөк," n nom @obj #4->3
+"<,>"
+	"," cm @punct #5->8
+"<жыгачтын>"
+	"жыгач" n gen @nmod:poss #6->7
+"<көркү>"
+	"көрк" n px3sp nom @nsubj #7->9
+"<->"
+	"-" guio @root #8->0
+"<жалбырак>"
+	"жалбырак" n nom @obj #9->8
+		"э." cop aor p3 sg @cop #10->9
+"<.>"
+	"." sent @punct #11->8
+
+# sent_id = proverbs:18
+# author:id = Сыргабековна&Сабыровна:298
+# text = Көп жашасаң, көптү көрөсүң.
+# text_en = If you live a lot (of time), you will see a lot.
+# label = JNW_checked
+# label_dep = to_check
+"<Көп>"
+	"көп" adv @advmod #1->2
+"<жашасаң>"
+	"жаша," v iv gna_cond p2 sg @advcl #2->5
+"<,>"
+	"," cm @punct #3->5
+"<көптү>"
+	"көп" adj subst acc @obj #4->5
+"<көрөсүң>"
+	"көр." v tv aor p2 sg @root #5->0
+"<.>"
+	"." sent @punct #6->5
+
+# sent_id = proverbs:19
+# author:id = Сыргабековна&Сабыровна:348
+# text = Оюндан от чыгат.
+# text_en = From playing comes fire.
+# label = JNW_checked
+# label_dep = to_check
+"<Оюндан>"
+	"оюн" n abl @obl #1->3
+"<от>"
+	"от" n nom @nsubj #2->3
+"<чыгат>"
+	"чык." v iv aor p3 sg @root #3->0
+"<.>"
+	"." sent @punct #4->3
+
+# sent_id = proverbs:20
+# author:id = Сыргабековна&Сабыровна:249
+# text = Кайра кирер эшигиңди катуу жаппа.
+# text_en = Don't close a door firmly that you might go back through. (="Don't burn bridges.")
+# label = JNW_checked
+# label_dep = to_check
+"<Кайра>"
+	"кайыр" v tv gna_impf @advmod #1->5
+"<кирер>"
+	"кир" v iv gpr_fut @amod #2->3
+"<эшигиңди>"
+	"эшик" n px2sg acc @obj #3->5
+"<катуу>"
+	"катуу" adv @advmod #4->5
+"<жаппа>"
+	"жап" v tv neg imp p2 sg @root #5->0
+"<.>"
+	"." sent @punct #6->5
+
+# sent_id = proverbs:21
+# author:id = Сыргабековна&Сабыровна:283
+# text = Колуң менен кылганды, мойнуң менен тартасың.
+# text_en = You pull with your neck what you make with your hands.
+# label = JNW_checked
+# label_dep = to_check
+"<Колуң>"
+	"кол" n px2sg nom @obl #1->3
+"<менен>"
+	"менен" post @cc #2->1
+"<кылганды>"
+	"кыл" v tv gpr_past subst acc @conj #3->7
+"<,>"
+	"," cm @punct #4->7
+"<мойнуң>"
+	"моюн" n px2sg nom @obl #5->7
+"<менен>"
+	"менен" post @cc #6->5
+"<тартасың>"
+	"тарт." v tv aor p2 sg @root #7->0
+"<.>"
+	"." sent @punct #8->7
+
+# sent_id = proverbs:22
+# author:id = Сыргабековна&Сабыровна:465
+# text = Шашкан шайтандын иши.
+# text_en = Hurrying is what a shaytan does. / Hurrying is the devil's work.
+# label = JNW_checked
+# label_dep = to_check
+"<Шашкан>"
+	"шаш" v iv ger_past nom @nsubj #1->3
+"<шайтандын>"
+	"шайтан" n gen @nmod:poss #2->3
+"<иши>"
+	"иш" n px3sp nom @root #3->0
+		"э." cop aor p3 sg @cop #4->3
+"<.>"
+	"." sent @punct #5->3
+
+# sent_id = proverbs:23
+# author:id = Сыргабековна&Сабыровна:313
+# text = Куру сөз курсак тойгузбайт.
+# text_en = A dry word does not fill a belly.
+# label = JNW_checked
+# label_dep = to_check
+"<Куру>"
+	"куру" adj @amod #1->2
+"<сөз>"
+	"сөз" n nom @nsubj #2->4
+"<курсак>"
+	"курсак" n nom @obj #3->3
+"<тойгузбайт>"
+	"той." v iv caus neg aor p3 sg @root #4->0
+"<.>"
+	"." sent @punct #5->4
+
+# sent_id = proverbs:24
+# author:id = Сыргабековна&Сабыровна:333
+# text = Мурунку көч кайда барса, кийинки көч да ошол жакка барат.
+# text_en = Where the former migration goes, the next migration will go there too.
+# label = JNW_checked
+# label_dep = to_check
+"<Мурунку>"
+	"мурун" adv attr @amod #1->2
+"<көч>"
+	"көч" n nom @csubj #2->4
+"<кайда>"
+	"кайда" adv itg @advmod #3->4
+"<барса>"
+	"бар," v iv gna_cond p3 sg @advcl #4->11
+"<,>"
+	"," cm @punct #5->11
+"<кийинки>"
+	"кийин" adv attr @amod #6->7
+"<көч да>"
+	"көч" n nom @nsubj #7->11
+		"да" postadv @advmod #8->11
+"<ошол>"
+	"ошол" det dem @det #9->10
+"<жакка>"
+	"жак" n dat @obl #10->11
+"<барат>"
+	"бар." v iv aor p3 sg @root #11->0
+"<.>"
+	"." sent @punct #12->11
+
+# sent_id = proverbs:25
+# author:id = Сыргабековна&Сабыровна:499
+# text = Эшекке төшөк жарашпайт.
+# text_en = A sleeping mat is not suitable for a donkey.
+# label = JNW_checked
+# label_dep = to_check
+"<Эшекке>"
+	"эшек" n dat @obl #1->3
+"<төшөк>"
+	"төшөк" n nom @nsubj #2->3
+"<жарашпайт>"
+	"жара." v tv coop neg aor p3 sg @root #3->0
+"<.>"
+	"." sent @punct #4->3
+
+# sent_id = proverbs:26
+# author:id = Сыргабековна&Сабыровна:275
+# text = Кетмен чаппай - нан жок, чеке терсиз - мал жок.
+# text_en = Without the hoe striking there's no bread, without a sweaty forehead there's no livestock.
+# label = JNW_checked
+# label_dep = to_check
+"<Кетмен>"
+	"кетмен" n nom @csubj #1->2
+"<чаппай>"
+	"чап" v tv neg gna_perf @advcl #2->5
+"<->"
+	"-" guio @punct #3->5
+"<нан>"
+	"нан" n nom @nsubj #4->5
+"<жок>"
+	"жок" adj @conj #5->13
+		"э," cop aor p3 sg @cop #6->5
+"<,>"
+	"," cm @punct #7->13
+"<чеке>"
+	"чеке" n nom @csubj #8->9
+"<терсиз>"
+	"тер" n @advcl #9->13
+		"сыз" post @case #10->9
+"<->"
+	"-" guio @punct #11->13
+"<мал>"
+	"мал" n nom @nsubj #12->13
+"<жок>"
+	"жок" adj @root #13->0
+		"э." cop aor p3 sg @cop #14->13
+"<.>"
+	"." sent @punct #15->13
+
+# sent_id = proverbs:27
+# author:id = Сыргабековна&Сабыровна:246
+# text = Иштесең көл болот, иштебесең чөл болот.
+# text_en = If you work there will be a lake, if you don't work there will be a desert.
+# label = JNW_checked
+# label_dep = to_check
+"<Иштесең>"
+	"иште" v tv gna_cond p2 sg @advcl #1->3
+"<көл>"
+	"көл" n nom @nsubj #2->3
+"<болот>"
+	"бол," v iv aor p3 sg @conj #3->7
+"<,>"
+	"," cm @punct #4->7
+"<иштебесең>"
+	"иште" v tv neg gna_cond p2 sg @advcl #5->7
+"<чөл>"
+	"чөл" n nom @nsubj #6->7
+"<болот>"
+	"бол." v iv aor p3 sg @root #7->0
+"<.>"
+	"." sent @punct #8->7
+
+# sent_id = proverbs:28
+# author:id = Сыргабековна&Сабыровна:5
+# text = Адамды кийиминен тааныбайт, ишинен тааныйт.
+# text_en = (One) doesn't know a person by his clothes, (one) knows (him) by his work.
+# label = JNW_checked
+# label_dep = to_check
+"<Адамды>"
+	"Адам" n nom @nsubj #1->3
+"<кийиминен>"
+	"кийим" n px3sp abl @obl #2->3
+"<тааныбайт>"
+	"тааны," v tv neg aor p3 sg @conj #3->6
+"<,>"
+	"," cm @punct #4->6
+"<ишинен>"
+	"иш" n px3sp abl @obl #5->6
+"<тааныйт>"
+	"тааны." v tv aor p3 sg @root #6->0
+"<.>"
+	"." sent @punct #7->6
+
+# sent_id = proverbs:29
+# author:id = Сыргабековна&Сабыровна:114
+# text = Бир ит көрүп үрөт, бир ит көрбөй үрөт.
+# text_en = One dog sees (something) and barks, one dog doesn't see (anything) and barks.
+# label = JNW_checked
+# label_dep = to_check
+"<Бир>"
+	"бир" num @nummod #1->2
+"<ит>"
+	"ит" n nom @csubj #2->3
+"<көрүп>"
+	"көр" v tv gna_perf @advcl #3->4
+"<үрөт>"
+	"үр," v iv aor p3 sg @conj #4->9
+"<,>"
+	"," cm @punct #5->9
+"<бир>"
+	"бир" num @nummod #6->7
+"<ит>"
+	"ит" n nom @csubj #7->8
+"<көрбөй>"
+	"көр" v tv neg gna_perf @advcl #8->9
+"<үрөт>"
+	"үр." v iv aor p3 sg @root #9->0
+"<.>"
+	"." sent @punct #10->9
+
+# sent_id = proverbs:30
+# author:id = Сыргабековна&Сабыровна:63
+# text = Ата-энеңди сыйласаң, өз балдарыңдан жакшылык көрөсүң.
+# text_en = If you respect your parents, you will see good things from your own children.
+# label = JNW_checked
+# label_dep = to_check
+"<Ата-энеңди>"
+	"ата-эне" n px2sg acc @obj #1->2
+"<сыйласаң>"
+	"сыйла," v tv gna_cond p2 sg @advcl #2->7
+"<,>"
+	"," cm @punct #3->7
+"<өз>"
+	"өз" det ref @det #4->5
+"<балдарыңдан>"
+	"бала" n pl px2sg abl @obl #5->7
+"<жакшылык>"
+	"жакшылык" n nom @obj #6->7
+"<көрөсүң>"
+	"көр." v tv aor p2 sg @root #7->0
+"<.>"
+	"." sent @punct #8->7
+
+# sent_id = proverbs:31
+# author:id = Сыргабековна&Сабыровна:189
+# text = Жамандын жолдошу көп, жанына пайдасы жок.
+# text_en = A bad person has lots of companions, but his/her ~soul has no use/benefit.
+# label = JNW_checked
+# label_dep = to_check
+"<Жамандын>"
+	"жаман" adj subst gen @obl #1->2
+"<жолдошу>"
+	"жолдош" n px3sp nom @nsubj #2->3
+"<көп>"
+	"көп" adj @parataxis #3->7
+		"э," cop @cop #4->3
+"<,>"
+	"," cm @punct #5->7
+"<жанына>"
+	"жан" n px3sp dat @obl #6->7
+"<пайдасы>"
+	"пайда" n px3sp nom @root #7->0
+"<.>"
+	"." sent @punct #8->7
+
+# sent_id = proverbs:32
+# author:id = Сыргабековна&Сабыровна:370
+# text = Өтө кызыл бат оңот, өтө ысык бат сууйт.
+# text_en = Very red quickly fades, very hot quickly cools.
+# label = JNW_checked
+# label_dep = to_check
+"<Өтө>"
+	"өтө" adv @advmod #1->2
+"<кызыл>"
+	"кызыл" adj @nsubj #2->4
+"<бат>"
+	"бат" adv @advmod #3->4
+"<оңот>"
+	"оң," v iv aor p3 sg @parataxis #4->9
+"<,>"
+	"," cm @punct #5->9
+"<өтө>"
+	"өтө" adv @advmod #6->7
+"<ысык>"
+	"ысык" adj @nsubj #7->8
+"<бат>"
+	"бат" adv @advmod #8->9
+"<сууйт>"
+	"суу." v iv aor p3 sg @root #9->0
+"<.>"
+	"." sent @punct #10->9
+
+# sent_id = proverbs:33
+# author:id = Сыргабековна&Сабыровна:197
+# text = Жан сакташ оңой, жан жыргатыш кыйын.
+# text_en = It's easy to save a life, but hard to please (a life).
+# label = JNW_checked
+# label_dep = to_check
+"<Жан>"
+	"жан" n nom @obj #1->2
+"<сакташ>"
+	"сакта" v tv ger_pres nom @parataxis #2->7
+"<оңой>"
+	"оңой" adj @amod #3->2
+		"э," cop aor p3 sg @cop #4->3
+"<,>"
+	"," cm @punct #5->7
+"<жан>"
+	"жан" n nom @obj #6->7
+"<жыргатыш>"
+	"жырга" v iv caus ger_pres nom @root #7->0
+"<кыйын>"
+	"кыйын" adj @amod #8->7
+		"э." cop aor p3 sg @cop #9->8
+"<.>"
+	"." sent @punct #10->7
+
+# sent_id = proverbs:34
+# author:id = Сыргабековна&Сабыровна:259
+# text = Канга - кан.
+# text_en = Blood for blood. 
+# label = JNW_checked
+# label_dep = to_check
+"<Канга>"
+	"кан" n dat @obl #1->2
+"<кан>"
+	"кан." n nom @root #2->0
+"<.>"
+	"." sent @punct #3->2
+
+# sent_id = proverbs:35
+# author:id = Сыргабековна&Сабыровна:138
+# text = Дарак бир жерден көгөрөт.
+# text_en = A tree becomes green in one place.  (i.e., when it's stable it thrives)
+# label = JNW_checked
+# label_dep = to_check
+"<Дарак>"
+	"дарак" n nom @nsubj #1->4
+"<бир>"
+	"бир" num @amod #2->3
+"<жерден>"
+	"жер" n abl @obl #3->4
+"<көгөрөт>"
+	"көгөр." v iv aor p3 sg @root #4->0
+"<.>"
+	"." sent @punct #5->4
+
+# sent_id = proverbs:36
+# author:id = Сыргабековна&Сабыровна:331
+# text = Миң чеченди бир дөөрүк жеңиптир.
+# text_en = One babbler beat a thousand orators.
+# label = JNW_checked
+# label_dep = to_check
+"<Миң>"
+	"миң" num @nummod #1->2
+"<чеченди>"
+	"чечен" n acc @obj #2->5
+"<бир>"
+	"бир" num @nummod #3->4
+"<дөөрүк>"
+	"дөөрүк" n nom @nsubj #4->5
+"<жеңиптир>"
+	"жең." v tv ifi evid p3 sg @root #5->0
+"<.>"
+	"." sent @punct #6->5
+
+# sent_id = proverbs:37
+# author:id = Сыргабековна&Сабыровна:372
+# text = Өтпөс өмүр, сынбас темир болбойт.
+# text_en = There is no unending life, no unbreakable iron(/steel).
+# label = JNW_checked
+# label_dep = to_check
+"<Өтпөс>"
+	"өт" v iv neg gpr_fut @amod #1->2
+"<өмүр>"
+	"өмүр," n nom @parataxis #2->6
+"<,>"
+	"," cm @punct #3->6
+"<сынбас>"
+	"сын" v iv neg gpr_fut @amod #4->5
+"<темир>"
+	"темир" n nom @nsubj #5->6
+"<болбойт>"
+	"бол." v iv neg aor p3 sg @root #6->0
+"<.>"
+	"." sent @punct #7->6
+
+# sent_id = proverbs:38
+# author:id = Сыргабековна&Сабыровна:239
+# text = Ийгиликтин эрте-кечи жок.
+# text_en = There is no "sooner or later" to fortune.
+# label = JNW_checked
+# label_dep = needs_dep
+"<Ийгиликтин>"
+	"ийгилик" n gen @obl #1->3
+"<эрте-кечи>"
+	"эрте-кеч" adj subst px3sp nom @nsubj #2->3
+"<жок>"
+	"жок" adj @root #3->0
+		"э." cop aor p3 pl @cop #4->3
+"<.>"
+	"." sent @punct #5->3
+
+# sent_id = proverbs:39
+# author:id = Сыргабековна&Сабыровна:256
+# text = Калп ырыс кесет, кайгы өмүр кесет.
+# text_en = A lie cuts happiness, grief cuts life.
+# label = JNW_checked
+# label_dep = to_check
+"<Калп>"
+	"калп" n nom @nsubj #1->3
+"<ырыс>"
+	"ырыс" n nom @obj #2->3
+"<кесет>"
+	"кес" v tv aor p3 sg @parataxis #3->7
+"<,>"
+	"," cm @punct #4->7
+"<кайгы>"
+	"кайгы" n acc-ind @nsubj #5->7
+"<өмүр>"
+	“өмур” n nom @obj #6->7
+"<кесет>"
+	"кес" v tv aor p3 sg @root #7->0
+"<.>"
+	"." sent @punct #8->7
+
+# sent_id = proverbs:40
+# author:id = Сыргабековна&Сабыровна:345
+# text = Ооруну жашырсаң, өлүм ашкере кылат.
+# text_en = If you hide sickness/pain, death will reveal itself.
+# label = JNW_checked
+# label_dep = to_check
+"<Ооруну>"
+	"оору" n acc @obj #1->2
+"<жашырсаң>"
+	"жашыр," v tv gna_cond p2 sg @advcl #2->6
+"<,>"
+	"," cm @punct #3->6
+"<өлүм>"
+	"өлүм" n nom @nsubj #4->6
+"<ашкере>"
+	"ашкере" adj @amod #5->4
+"<кылат>"
+	"кыл." v tv aor p3 sg @root #6->0
+"<.>"
+	"." sent @punct #7->6
+
+# sent_id = proverbs:41
+# author:id = Сыргабековна&Сабыровна:66
+# text = Ачуу - душман, акыл - дос, акылыңа акыл кош.
+# text_en = Wrath is an enemy, wisdom(/reason) is a friend; add wisdom to your wisdom.
+# label = JNW_checked
+# label_dep = to_check
+"<Ачуу>"
+	"ачуу" n nom @nsubj #1->3
+"<->"
+	"-" guio @punct #2->3
+"<душман>"
+	"душман" n nom @conj #3->8
+		"э," cop aor p3 sg @cop #4->3
+"<,>"
+	"," cm @punct #5->8
+"<акыл>"
+	"акыл" n nom @nsubj #6->8
+"<->"
+	"-" guio @punct #7->8
+"<дос>"
+	"дос" n @parataxis #8->13
+		"э," cop aor p3 sg @cop #9->8
+"<,>"
+	"," cm @punct #10->14
+"<акылыңа>"
+	"акыл" n px2sg dat @obl #11->12
+"<акыл>"
+	"акыл" n nom @nsubj #12->13
+"<кош>"
+	"кош." v tv imp p2 sg @root #13->0
+"<.>"
+	"." sent @punct #14->13
+
+# sent_id = proverbs:42
+# author:id = Сыргабековна&Сабыровна:413
+# text = Тамашада да чындыктын үлүшү бар.
+# text_en = Even in a joke is some element of truth.
+# label = JNW_checked
+# label_dep = to_check
+"<Тамашада>"
+	"тамаша" n loc @obl #1->5
+"<да>"
+	"да" postadv @advmod #2->5
+"<чындыктын>"
+	"чындык" n gen @nmod:poss #3->4
+"<үлүшү>"
+	"үлүш" n px3sp nom @nsubj #4->5
+"<бар>"
+	"бар" adj @root #5->0
+		"э." cop aor p3 sg @cop #6->5
+"<.>"
+	"." sent @punct #7->5
+
+# sent_id = proverbs:43
+# author:id = Сыргабековна&Сабыровна:178
+# text = Жалкоо - өзүнө өзү жоо.
+# text_en = A lazy person is an enemy to themself.
+# label = JNW_checked
+# label_dep = to_check
+"<Жалкоо>"
+	"жалкоо" n nom @nsubj #1->5
+"<->"
+	"-" guio @punct #2->5
+"<өзүнө>"
+	"өз" prn ref px3sp dat @obl #3->5
+"<өзү>"
+	"өз" prn ref px3sp nom @det #4->3
+"<жоо>"
+	"жоо" n nom @root #5->0
+		"э." cop aor p3 sg @cop #6->5
+"<.>"
+	"." sent @punct #7->5
+
+# sent_id = proverbs:44
+# author:id = Сыргабековна&Сабыровна:225
+# text = Жоо кеткен соң, кылычыңды ташка чап.
+# text_en = Once your enemy is gone, hit your sword on a rock.
+# label = JNW_checked
+# label_dep = to_check
+"<Жоо>"
+	"жоо" n nom @nsubj #1->3
+"<кеткен>"
+	"кет" v iv ger_past nom @amod #2->1
+"<соң>"
+	"соң," post @advcl #3->7
+"<,>"
+	"," cm @punct #4->7
+"<кылычыңды>"
+	"кылыч" n px2sg acc @obj #5->7
+"<ташка>"
+	"таш" n dat @obl #6->7
+"<чап>"
+	"чап." v tv imp p2 sg @root #7->0
+"<.>"
+	"." sent @punct #8->7
+
+
+# sent_id = proverbs:45
+# author:id = Сыргабековна&Сабыровна:305
+# text = Көп түкүрсө көл болот, көл толкуса сел болот.
+# text_en = If one spits a lot there will be a lake; if a lake gets waves there will be a flood.
+# label = JNW_checked
+# label_dep = to_check
+"<Көп>"
+	"көп" adv @advmod #1->2
+"<түкүрсө>"
+	"түкүр" v iv gna_cond p3 sg @advcl #2->4
+"<көл>"
+	"көл" n nom @nsubj #3->4
+"<болот>"
+	"бол," v iv aor p3 sg @parataxis #4->9
+"<,>"
+	"," cm @punct #5->9
+"<көл>"
+	"көл" n nom @csubj #6->7
+"<толкуса>"
+	"толку" v iv gna_cond p3 sg @advcl #7->9
+"<сел>"
+	"сел" n nom @nsubj #8->9
+"<болот>"
+	"бол." v iv aor p3 sg @root #9->0
+"<.>"
+	"." sent @punct #10->9
+
+# sent_id = proverbs:46
+# author:id = Сыргабековна&Сабыровна:13
+# text = Айды этек менен калкалай албасың.
+# text_en = You cannot shield the moon with the bottom hem of a shirt.
+# label = JNW_checked
+# label_dep = to_check
+"<Айды>"
+	"ай" n acc @obj #1->4
+"<этек>"
+	"этек" n nom @obl #2->4
+"<менен>"
+	"менен" post @case #3->2
+"<калкалай>"
+	"калкала" v tv prc_impf @root #4->0
+"<албасың>"
+	"ал." vaux neg aor p2 sg @aux #5->4
+"<.>"
+	"." sent @punct #6->4
