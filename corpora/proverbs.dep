@@ -12,7 +12,7 @@
 "<узун>"
 	"узун" adj advl @xcomp #4->5
 "<кес>"
-	"кес" v tv imp p2 sg @conj #5->8
+	"кес" v tv imp p2 sg @parataxis #5->8
 "<,>"
 	"," cm @punct #6->5
 "<кеп>"
@@ -166,7 +166,7 @@
 "<эр>"
 	"эр" n nom @nsubj #3->4
 "<болбойт>"
-	"бол," v iv neg aor p3 sg @conj #4->9
+	"бол," v iv neg aor p3 sg @parataxis #4->9
 "<,>"
 	"," cm @punct #5->9
 "<жэрин>"
@@ -248,7 +248,7 @@
 "<Эрте>"
 	"эрте" adv @advmod #1->2
 "<сепсең>"
-	"сеп" v tv gna_cond p2 sg @conj #2->7
+	"сеп" v tv gna_cond p2 sg @advcl #2->7
 "<бир>"
 	"бир" num @nummod #3->4
 "<күнү>"
@@ -275,7 +275,7 @@
 "<Көз>"
 	"көз" n nom @nsubj #1->2
 "<коркок>"
-	"коркок" adj @conj #2->6
+	"коркок" adj @parataxis #2->6
 		"э," cop aor p3 sg @cop #3->2
 "<,>"
 	"," cm @punct #4->6
@@ -359,7 +359,7 @@
 "<көркү>"
 	"көрк" n px3sp nom @nsubj #2->3
 "<->"
-	"-" guio @conj #3->7
+	"-" guio @parataxis #3->7
 "<чүпүрөк>"
 	"чүпүрөк," n nom @obj #4->3
 "<,>"
@@ -545,7 +545,7 @@
 "<нан>"
 	"нан" n nom @nsubj #4->5
 "<жок>"
-	"жок" adj @conj #5->13
+	"жок" adj @parataxis #5->13
 		"э," cop aor p3 sg @cop #6->5
 "<,>"
 	"," cm @punct #7->13
@@ -598,7 +598,7 @@
 "<кийиминен>"
 	"кийим" n px3sp abl @obl #2->3
 "<тааныбайт>"
-	"тааны," v tv neg aor p3 sg @conj #3->6
+	"тааны," v tv neg aor p3 sg @parataxis #3->6
 "<,>"
 	"," cm @punct #4->6
 "<ишинен>"
@@ -621,7 +621,7 @@
 "<көрүп>"
 	"көр" v tv gna_perf @advcl #3->4
 "<үрөт>"
-	"үр," v iv aor p3 sg @conj #4->9
+	"үр," v iv aor p3 sg @parataxis #4->9
 "<,>"
 	"," cm @punct #5->9
 "<бир>"
@@ -807,7 +807,7 @@
 # text = Ийгиликтин эрте-кечи жок.
 # text_en = There is no "sooner or later" to fortune.
 # label = JNW_checked
-# label_dep = needs_dep
+# label_dep = to_check
 "<Ийгиликтин>"
 	"ийгилик" n gen @obl #1->3
 "<эрте-кечи>"
