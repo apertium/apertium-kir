@@ -852,17 +852,15 @@
 "<Ооруну>"
 	"оору" n acc @obj #1->2
 "<жашырсаң>"
-	"жашыр" v tv gna_cond p2 sg @advcl #2->6
+	"жашыр" v tv gna_cond p2 sg @advcl #2->5
 "<,>"
-	"," cm @punct #3->6
+	"," cm @punct #3->5
 "<өлүм>"
-	"өлүм" n nom @nsubj #4->6
-"<ашкере>"
-	"ашкере" adj @amod #5->4
-"<кылат>"
-	"кыл" v tv aor p3 sg @root #6->0
+	"өлүм" n nom @nsubj #4->5
+"<ашкере кылат>"
+	"ашкере кыл" v tv aor p3 sg @root #5->0
 "<.>"
-	"." sent @punct #7->6
+	"." sent @punct #6->5
 
 # sent_id = proverbs:41
 # author = Сыргабековна&Сабыровна
@@ -1006,3 +1004,39 @@
 	"ал" vaux neg aor p2 sg @aux #5->4
 "<.>"
 	"." sent @punct #6->4
+
+# sent_id = proverbs:47
+# author = Сыргабековна&Сабыровна
+# source = Сыргабековна&Сабыровна:282
+# text = Колунда токочу бар бала сүйгүнчүктүү.
+# text[eng] = The child with a loaf (of bread) in their hand is darling.
+# labels = JNW_checked_cg tocheck_dep
+"<Колунда>"
+	"кол" n px3sp loc @obl #1->2
+"<токочу>"
+	"токоч" n px3sp nom @nmod:poss#2->4
+"<бар>"
+	"бар" adj @amod #3->4
+"<бала>"
+	"бала" n nom @nsubj #4->6
+"<сүйгүнчүктүү>"
+	"сүйгүнчүктүү" adj @root #5->0
+		"э" cop aor p3 sg @cop #6->5
+"<.>"
+	"." sent @punct #7->5
+
+# sent_id = proverbs:48
+# author = Сыргабековна&Сабыровна
+# source = Сыргабековна&Сабыровна:153
+# text = Жазмыштан озуш жок.
+# text[eng] = There is no getting ahead of destiny.
+# labels = JNW_checked_cg tocheck_dep
+"<Жазмыштан>"
+	"жазмыш" n abl @obl #1->2
+"<озуш>"
+	"оз" v iv ger_pres nom @nsubj #2->3
+"<жок>"
+	"жок" adj @root #3->0
+		"э" cop aor p3 sg @cop #4->3
+"<.>"
+	"." sent @punct #5->3
