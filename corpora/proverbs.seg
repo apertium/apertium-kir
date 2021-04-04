@@ -1,12 +1,14 @@
-# sent_id = proverbs:1
+# sent_id = proverbs:0
 # text = Жип кессең - узун кес, кеп салсаң - кыска сал.
-# label = 
+# text[eng] = If you cut a thread, cut it long; if you make a speech, make it short.
+# label_cg = JNW_checked
+# label_dep = JNW_checked
 ^Жип/Жип$
 ^кессең/кессең$
 ^-/-$
 ^узун/узун$
 ^кес/кес$
-^,/,<cm>$
+^,/,$
 ^кеп/кеп$
 ^салсаң/салсаң$
 ^-/-$
@@ -14,3 +16,737 @@
 ^сал/сал$
 ^./.$
 
+# sent_id = proverbs:1
+# author = Сыргабековна&Сабыровна
+# source = Сыргабековна&Сабыровна:329
+# text = Миң сөз айтканча, бир ишти бүтүр.
+# text[eng] = [Instead of saying] [a thousand] [words], finish one task.
+# labels = JNW_checked_cg JNW_initialcheck_dep
+^Миң/Миң$
+^сөз/сөз$
+^айтканча/айтканча$
+^,/,$
+^бир/бир$
+^ишти/ишти$
+^бүтүр/бүтүр$
+^./.$
+
+# sent_id = proverbs:2
+# author = Сыргабековна&Сабыровна
+# source = Сыргабековна&Сабыровна:363
+# text = Өрдөк жокто, чулдук бий.
+# text[eng] = Upon the absence of the/a duck, (the) sandpiper (is) ~king.
+# labels = JNW_checked_cg JNW_revised1time_dep
+^Өрдөк/Өрдөк$
+^жокто/жокто$
+^,/,$
+^чулдук/чулдук$
+^бий/бий>э$
+^./.$
+
+# sent_id = proverbs:3
+# author = Сыргабековна&Сабыровна
+# source = Сыргабековна&Сабыровна:317
+# text = Күч атасын тааныбайт.
+# text[eng] = Strength [doesn't recognise] [its father].
+# labels = JNW_checked_cg JNW_initialcheck_dep
+^Күч/Күч$
+^атасын/атасын$
+^тааныбайт/тааныбайт$
+^./.$
+
+# sent_id = proverbs:4
+# author = Сыргабековна&Сабыровна
+# source = Сыргабековна&Сабыровна:94
+# text = Баштаган ишти таштаба.
+# text[eng] = [Don't ditch] [a task [that's been started]]
+# labels = JNW_checked_cg JNW_initialcheck_dep
+^Баштаган/Баштаган$
+^ишти/ишти$
+^таштаба/таштаба$
+^./.$
+
+# sent_id = proverbs:5
+# author = Сыргабековна&Сабыровна
+# source = Сыргабековна&Сабыровна:106
+# text = Билим - адамдын канаты.
+# text[eng] = Knowledge is a person's wings.
+# labels = JNW_checked_cg JNW_revised1time_dep
+^Билим/Билим$
+^-/-$
+^адамдын/адамдын$
+^канаты/канаты>э$
+^./.$
+
+# sent_id = proverbs:6
+# author = Сыргабековна&Сабыровна
+# source = Сыргабековна&Сабыровна:474
+# text = Эл оозунда элек жок.
+# text[eng] = In people’s mouths there is no filter.
+# labels = JNW_checked_cg tocheck_dep
+^Эл/Эл$
+^оозунда/оозунда$
+^элек/элек$
+^жок/жок>э$
+^./.$
+
+# sent_id = proverbs:7
+# author = Сыргабековна&Сабыровна
+# source = Сыргабековна&Сабыровна:133
+# text = Бөрү баласы ит болбойт. 
+# text[eng] = The child of a wolf will not become a dog.
+# labels = JNW_checked_cg JNW_revised1time_dep
+^Бөрү/Бөрү$
+^баласы/баласы$
+^ит/ит$
+^болбойт/болбойт$
+^./.$
+
+# sent_id = proverbs:8
+# author = Сыргабековна&Сабыровна
+# source = Сыргабековна&Сабыровна:473
+# text = Элин сүйбөс эр болбойт, жерин сүйбөс эл болбойт.
+# text[eng] = There is no man who doesn't love his nation, there is no nation that doesn't love its land.
+# labels = JNW_checked_cg JNW_revised1time_dep
+^Элин/Элин$
+^сүйбөс/сүйбөс$
+^эр/эр$
+^болбойт/болбойт$
+^,/,$
+^жэрин/жэрин$
+^сүйбөс/сүйбөс$
+^эл/эл$
+^болбойт/болбойт$
+^./.$
+
+# sent_id = proverbs:9
+# author = Сыргабековна&Сабыровна
+# source = Сыргабековна&Сабыровна:461
+# text = Чындан ыйласа, сокур көздөн жаш чыгат.
+# text[eng] = If (one) cries from truth, a tear comes out of a blind eye.
+# labels = JNW_checked_cg JNW_revised1time_dep
+^Чындан/Чындан$
+^ыйласа/ыйласа$
+^,/,$
+^сокур/сокур$
+^көздөн/көздөн$
+^жаш/жаш$
+^чыгат/чыгат$
+^./.$
+
+# sent_id = proverbs:10
+# author = Сыргабековна&Сабыровна
+# source = Сыргабековна&Сабыровна:293
+# text = Көйнөк тердебесе, талаа гүлдөбөйт.
+# text[eng] = If the shirt does not sweat, the field does not blossom.
+# labels = JNW_checked_cg JNW_revised1time_dep
+^Көйнөк/Көйнөк$
+^тердебесе/тердебесе$
+^,/,$
+^талаа/талаа$
+^гүлдөбөйт/гүлдөбөйт$
+^./.$
+
+# sent_id = proverbs:11
+# author = Сыргабековна&Сабыровна
+# source = Сыргабековна&Сабыровна:456
+# text = Чала молдо дин бузат.
+# text[eng] = A poser Mullah spoils religion.
+# labels = JNW_checked_cg JNW_revised1time_dep
+^Чала/Чала$
+^молдо/молдо$
+^дин/дин$
+^бузат/бузат$
+^./.$
+
+# sent_id = proverbs:12
+# author = Сыргабековна&Сабыровна
+# source = Сыргабековна&Сабыровна:488
+# text = Эрте сепсең бир күнү, эрте оросуң бир жума.
+# text[eng] = If you sow one day early, you reap one week early.
+# labels = JNW_checked_cg JNW_revised1time_dep
+^Эрте/Эрте$
+^сепсең/сепсең$
+^бир/бир$
+^күнү/күнү$
+^,/,$
+^эрте/эрте$
+^оросуң/оросуң$
+^бир/бир$
+^жума/жума$
+^./.$
+
+# sent_id = proverbs:13
+# author = Сыргабековна&Сабыровна
+# source = Сыргабековна&Сабыровна:290
+# text = Көз коркок, кол баатыр.
+# text[eng] = The eye is a coward, the hand is a hero.
+# labels = JNW_checked_cg JNW_revised1time_dep
+^Көз/Көз$
+^коркок/коркок$
+^,/,$
+^кол/кол$
+^баатыр/баатыр$
+^./.$
+
+# sent_id = proverbs:14
+# author = Сыргабековна&Сабыровна
+# source = Сыргабековна&Сабыровна:374
+# text = Пулуң болсо, кулуңмун.
+# text[eng] = If you have money, I am your slave.
+# labels = JNW_checked_cg JNW_revised1time_dep
+^Пулуң/Пулуң$
+^болсо/болсо$
+^,/,$
+^кулуңмун/кулуңмун>э$
+^./.$
+
+# sent_id = proverbs:15
+# author = Сыргабековна&Сабыровна
+# source = Сыргабековна&Сабыровна:342
+# text = Оозу кыйшык болсо да, байдын уулу сүйлөсүн.
+# text[eng] = Even if his mouth is crooked, let the rich person's son speak.
+# labels = JNW_checked_cg JNW_revised1time_dep
+^Оозу/Оозу$
+^кыйшык/кыйшык$
+^болсо/болсо$
+^да/да$
+^,/,$
+^байдын/байдын$
+^уулу/уулу$
+^сүйлөсүн/сүйлөсүн$
+^./.$
+
+# sent_id = proverbs:16
+# author = Сыргабековна&Сабыровна
+# source = Сыргабековна&Сабыровна:84
+# text = Балалуу болбогон кубанганды билбеген.
+# text[eng] = Those who have had children have not known being happy.
+# labels = JNW_checked_cg JNW_revised1time_dep
+^Балалуу/Бала>луу$
+^болбогон/болбогон$
+^кубанганды/кубанганды$
+^билбеген/билбеген$
+^./.$
+
+# sent_id = proverbs:17
+# author = Сыргабековна&Сабыровна
+# source = Сыргабековна&Сабыровна:6
+# text = Адамдын көркү - чүпүрөк, жыгачтын көркү - жалбырак.
+# text[eng] = The elegance of a person is clothes, the elegance of a tree is leaves.
+# labels = JNW_checked_cg JNW_revised1time_dep
+^Адам/Адам$
+^көркү/көркү$
+^-/-$
+^чүпүрөк/чүпүрөк$
+^,/,$
+^жыгачтын/жыгачтын$
+^көркү/көркү$
+^-/-$
+^жалбырак/жалбырак>э$
+^./.$
+
+# sent_id = proverbs:18
+# author = Сыргабековна&Сабыровна
+# source = Сыргабековна&Сабыровна:298
+# text = Көп жашасаң, көптү көрөсүң.
+# text[eng] = If you live a lot (of time), you will see a lot.
+# labels = JNW_checked_cg JNW_initialcheck_dep
+^Көп/Көп$
+^жашасаң/жашасаң$
+^,/,$
+^көптү/көптү$
+^көрөсүң/көрөсүң$
+^./.$
+
+# sent_id = proverbs:19
+# author = Сыргабековна&Сабыровна
+# source = Сыргабековна&Сабыровна:348
+# text = Оюндан от чыгат.
+# text[eng] = From playing comes fire.
+# labels = JNW_checked_cg JNW_revised1time_dep
+^Оюндан/Оюндан$
+^от/от$
+^чыгат/чыгат$
+^./.$
+
+# sent_id = proverbs:20
+# author = Сыргабековна&Сабыровна
+# source = Сыргабековна&Сабыровна:249
+# text = Кайра кирер эшигиңди катуу жаппа.
+# text[eng] = Don't close a door firmly that you might go back through. (="Don't burn bridges.")
+# labels = JNW_checked_cg JNW_revised1time_dep
+^Кайра/Кайра$
+^кирер/кирер$
+^эшигиңди/эшигиңди$
+^катуу/катуу$
+^жаппа/жаппа$
+^./.$
+
+# sent_id = proverbs:21
+# author = Сыргабековна&Сабыровна
+# source = Сыргабековна&Сабыровна:283
+# text = Колуң менен кылганды, мойнуң менен тартасың.
+# text[eng] = You pull with your neck what you make with your hands.
+# labels = JNW_checked_cg JNW_revised1time_dep
+^Колуң/Колуң$
+^менен/менен$
+^кылганды/кылганды$
+^,/,$
+^мойнуң/мойнуң$
+^менен/менен$
+^тартасың/тартасың$
+^./.$
+
+# sent_id = proverbs:22
+# author = Сыргабековна&Сабыровна
+# source = Сыргабековна&Сабыровна:465
+# text = Шашкан шайтандын иши.
+# text[eng] = Hurrying is what a shaytan does. / Hurrying is the devil's work.
+# labels = JNW_checked_cg JNW_initialcheck_dep
+^Шашкан/Шашкан$
+^шайтандын/шайтандын$
+^иши/иши>э$
+^./.$
+
+# sent_id = proverbs:23
+# author = Сыргабековна&Сабыровна
+# source = Сыргабековна&Сабыровна:313
+# text = Куру сөз курсак тойгузбайт.
+# text[eng] = A dry word does not fill a belly.
+# labels = JNW_checked_cg JNW_revised1time_dep
+^Куру/Куру$
+^сөз/сөз$
+^курсак/курсак$
+^тойгузбайт/тойгузбайт$
+^./.$
+
+# sent_id = proverbs:24
+# author = Сыргабековна&Сабыровна
+# source = Сыргабековна&Сабыровна:333
+# text = Мурунку көч кайда барса, кийинки көч да ошол жакка барат.
+# text[eng] = Where the former migration goes, the next migration will go there too.
+# labels = JNW_checked_cg JNW_initialcheck_dep
+^Мурунку/Мурунку$
+^көч/көч$
+^кайда/кайда$
+^барса/барса$
+^,/,$
+^кийинки/кийинки$
+^көч да/көч>да$
+^ошол/ошол$
+^жакка/жакка$
+^барат/барат$
+^./.$
+
+# sent_id = proverbs:25
+# author = Сыргабековна&Сабыровна
+# source = Сыргабековна&Сабыровна:499
+# text = Эшекке төшөк жарашпайт.
+# text[eng] = A sleeping mat is not suitable for a donkey.
+# labels = JNW_checked_cg JNW_initialcheck_dep
+^Эшекке/Эшекке$
+^төшөк/төшөк$
+^жарашпайт/жарашпайт$
+^./.$
+
+# sent_id = proverbs:26
+# author = Сыргабековна&Сабыровна
+# source = Сыргабековна&Сабыровна:275
+# text = Кетмен чаппай - нан жок, чеке терсиз - мал жок.
+# text[eng] = Without the hoe striking there's no bread, without a sweaty forehead there's no livestock.
+# labels = JNW_checked_cg JNW_revised1time_dep
+^Кетмен/Кетмен$
+^чаппай/чаппай$
+^-/-$
+^нан/нан$
+^жок/жок>э$
+^,/,$
+^чеке/чеке$
+^терсиз/тер>сиз$
+^-/-$
+^мал/мал$
+^жок/жок>э$
+^./.$
+
+# sent_id = proverbs:27
+# author = Сыргабековна&Сабыровна
+# source = Сыргабековна&Сабыровна:246
+# text = Иштесең көл болот, иштебесең чөл болот.
+# text[eng] = If you work there will be a lake, if you don't work there will be a desert.
+# labels = JNW_checked_cg JNW_revised1time_dep
+^Иштесең/Иштесең$
+^көл/көл$
+^болот/болот$
+^,/,$
+^иштебесең/иштебесең$
+^чөл/чөл$
+^болот/болот$
+^./.$
+
+# sent_id = proverbs:28
+# author = Сыргабековна&Сабыровна
+# source = Сыргабековна&Сабыровна:5
+# text = Адамды кийиминен тааныбайт, ишинен тааныйт.
+# text[eng] = (One) doesn't know a person by his clothes, (one) knows (him) by his work.
+# labels = JNW_checked_cg tocheck_dep
+^Адамды/Адамды$
+^кийиминен/кийиминен$
+^тааныбайт/тааныбайт$
+^,/,$
+^ишинен/ишинен$
+^тааныйт/тааныйт$
+^./.$
+
+# sent_id = proverbs:29
+# author = Сыргабековна&Сабыровна
+# source = Сыргабековна&Сабыровна:114
+# text = Бир ит көрүп үрөт, бир ит көрбөй үрөт.
+# text[eng] = One dog sees (something) and barks, one dog doesn't see (anything) and barks.
+# labels = JNW_checked_cg JNW_revised1time_dep
+^Бир/Бир$
+^ит/ит$
+^көрүп/көрүп$
+^үрөт/үрөт$
+^,/,$
+^бир/бир$
+^ит/ит$
+^көрбөй/көрбөй$
+^үрөт/үрөт$
+^./.$
+
+# sent_id = proverbs:30
+# author = Сыргабековна&Сабыровна
+# source = Сыргабековна&Сабыровна:63
+# text = Ата-энеңди сыйласаң, өз балдарыңдан жакшылык көрөсүң.
+# text[eng] = If you respect your parents, you will see good things from your own children.
+# labels = JNW_checked_cg JNW_initialcheck_dep
+^Ата-энеңди/Ата-энеңди$
+^сыйласаң/сыйласаң$
+^,/,$
+^өз/өз$
+^балдарыңдан/балдарыңдан$
+^жакшылык/жакшылык$
+^көрөсүң/көрөсүң$
+^./.$
+
+# sent_id = proverbs:31
+# author = Сыргабековна&Сабыровна
+# source = Сыргабековна&Сабыровна:189
+# text = Жамандын жолдошу көп, жанына пайдасы жок.
+# text[eng] = A bad person has lots of companions, but his/her ~soul has no use/benefit.
+# labels = JNW_checked_cg JNW_revised1time_dep
+^Жамандын/Жамандын$
+^жолдошу/жолдошу$
+^көп/көп>э$
+^,/,$
+^жанына/жанына$
+^пайдасы/пайдасы$
+^жок/жок>э$
+^./.$
+
+# sent_id = proverbs:32
+# author = Сыргабековна&Сабыровна
+# source = Сыргабековна&Сабыровна:370
+# text = Өтө кызыл бат оңот, өтө ысык бат сууйт.
+# text[eng] = Very red quickly fades, very hot quickly cools.
+# labels = JNW_checked_cg JNW_revised1time_dep
+^Өтө/Өтө$
+^кызыл/кызыл$
+^бат/бат$
+^оңот/оңот$
+^,/,$
+^өтө/өтө$
+^ысык/ысык$
+^бат/бат$
+^сууйт/сууйт$
+^./.$
+
+# sent_id = proverbs:33
+# author = Сыргабековна&Сабыровна
+# source = Сыргабековна&Сабыровна:197
+# text = Жан сакташ оңой, жан жыргатыш кыйын.
+# text[eng] = It's easy to save a life, but hard to please (a life).
+# labels = JNW_checked_cg JNW_revised1time_dep
+^Жан/Жан$
+^сакташ/сакташ$
+^оңой/оңой>э$
+^,/,$
+^жан/жан$
+^жыргатыш/жыргатыш$
+^кыйын/кыйын>э$
+^./.$
+
+# sent_id = proverbs:34
+# author = Сыргабековна&Сабыровна
+# source = Сыргабековна&Сабыровна:259
+# text = Канга - кан.
+# text[eng] = Blood for blood. 
+# labels = JNW_checked_cg JNW_initialcheck_dep
+^Канга/Канга$
+^кан/кан$
+^./.$
+
+# sent_id = proverbs:35
+# author = Сыргабековна&Сабыровна
+# source = Сыргабековна&Сабыровна:138
+# text = Дарак бир жерден көгөрөт.
+# text[eng] = A tree becomes green in one place.  (i.e., when it's stable it thrives)
+# labels = JNW_checked_cg JNW_initialcheck_dep
+^Дарак/Дарак$
+^бир/бир$
+^жерден/жерден$
+^көгөрөт/көгөрөт$
+^./.$
+
+# sent_id = proverbs:36
+# author = Сыргабековна&Сабыровна
+# source = Сыргабековна&Сабыровна:331
+# text = Миң чеченди бир дөөрүк жеңиптир.
+# text[eng] = One babbler beat a thousand orators.
+# labels = JNW_checked_cg JNW_initialcheck_dep
+^Миң/Миң$
+^чеченди/чеченди$
+^бир/бир$
+^дөөрүк/дөөрүк$
+^жеңиптир/жеңиптир$
+^./.$
+
+# sent_id = proverbs:37
+# author = Сыргабековна&Сабыровна
+# source = Сыргабековна&Сабыровна:372
+# text = Өтпөс өмүр, сынбас темир болбойт.
+# text[eng] = There is no unending life, no unbreakable iron(/steel).
+# labels = JNW_checked_cg JNW_revised1time_dep
+^Өтпөс/Өтпөс$
+^өмүр/өмүр$
+^,/,$
+^сынбас/сынбас$
+^темир/темир$
+^болбойт/болбойт$
+^./.$
+
+# sent_id = proverbs:38
+# author = Сыргабековна&Сабыровна
+# source = Сыргабековна&Сабыровна:239
+# text = Ийгиликтин эрте-кечи жок.
+# text[eng] = There is no "sooner or later" to fortune.
+# labels = JNW_checked_cg JNW_revised1time_dep
+^Ийгиликтин/Ийгиликтин$
+^эрте-кечи/эрте-кечи$
+^жок/жок>э$
+^./.$
+
+# sent_id = proverbs:39
+# author = Сыргабековна&Сабыровна
+# source = Сыргабековна&Сабыровна:256
+# text = Калп ырыс кесет, кайгы өмүр кесет.
+# text[eng] = A lie cuts happiness, grief cuts life.
+# labels = JNW_checked_cg JNW_initialcheck_dep
+^Калп/Калп$
+^ырыс/ырыс$
+^кесет/кесет$
+^,/,$
+^кайгы/кайгы$
+^өмүр/өмүр$
+^кесет/кесет$
+^./.$
+
+# sent_id = proverbs:40
+# author = Сыргабековна&Сабыровна
+# source = Сыргабековна&Сабыровна:345
+# text = Ооруну жашырсаң, өлүм ашкере кылат.
+# text[eng] = If you hide sickness/pain, death will reveal itself.
+# labels = JNW_checked_cg tocheck_dep
+^Ооруну/Ооруну$
+^жашырсаң/жашырсаң$
+^,/,$
+^өлүм/өлүм$
+^ашкере кылат/ашкере кылат$
+^./.$
+
+# sent_id = proverbs:41
+# author = Сыргабековна&Сабыровна
+# source = Сыргабековна&Сабыровна:66
+# text = Ачуу - душман, акыл - дос, акылыңа акыл кош.
+# text[eng] = Wrath is an enemy, wisdom(/reason) is a friend; add wisdom to your wisdom.
+# labels = JNW_checked_cg JNW_revised1time_dep
+^Ачуу/Ачуу$
+^-/-$
+^душман/душман>э$
+^,/,$
+^акыл/акыл$
+^-/-$
+^дос/дос>э$
+^,/,$
+^акылыңа/акылыңа$
+^акыл/акыл$
+^кош/кош$
+^./.$
+
+# sent_id = proverbs:42
+# author = Сыргабековна&Сабыровна
+# source = Сыргабековна&Сабыровна:413
+# text = Тамашада да чындыктын үлүшү бар.
+# text[eng] = Even in a joke is some element of truth.
+# labels = JNW_checked_cg JNW_initialcheck_dep
+^Тамашада/Тамашада$
+^да/да$
+^чындыктын/чындыктын$
+^үлүшү/үлүшү$
+^бар/бар>э$
+^./.$
+
+# sent_id = proverbs:43
+# author = Сыргабековна&Сабыровна
+# source = Сыргабековна&Сабыровна:178
+# text = Жалкоо - өзүнө өзү жоо.
+# text[eng] = A lazy person is an enemy to themself.
+# labels = JNW_checked_cg tocheck_dep
+^Жалкоо/Жалкоо$
+^-/-$
+^өзүнө/өзүнө$
+^өзү/өзү$
+^жоо/жоо>э$
+^./.$
+
+# sent_id = proverbs:44
+# author = Сыргабековна&Сабыровна
+# source = Сыргабековна&Сабыровна:225
+# text = Жоо кеткен соң, кылычыңды ташка чап.
+# text[eng] = Once your enemy is gone, hit your sword on a rock.
+# labels = JNW_checked_cg JNW_revised1time_dep
+^Жоо/Жоо$
+^кеткен/кеткен$
+^соң/соң$
+^,/,$
+^кылычыңды/кылычыңды$
+^ташка/ташка$
+^чап/чап$
+^./.$
+
+# sent_id = proverbs:45
+# author = Сыргабековна&Сабыровна
+# source = Сыргабековна&Сабыровна:305
+# text = Көп түкүрсө көл болот, көл толкуса сел болот.
+# text[eng] = If one spits a lot there will be a lake; if a lake gets waves there will be a flood.
+# labels = JNW_checked_cg JNW_initialcheck_dep
+^Көп/Көп$
+^түкүрсө/түкүрсө$
+^көл/көл$
+^болот/болот$
+^,/,$
+^көл/көл$
+^толкуса/толкуса$
+^сел/сел$
+^болот/болот$
+^./.$
+
+# sent_id = proverbs:46
+# author = Сыргабековна&Сабыровна
+# source = Сыргабековна&Сабыровна:13
+# text = Айды этек менен калкалай албасың.
+# text[eng] = You cannot shield the moon with the bottom hem of a shirt.
+# labels = JNW_checked_cg JNW_initialcheck_dep
+^Айды/Айды$
+^этек/этек$
+^менен/менен$
+^калкалай/калкалай$
+^албасың/албасың$
+^./.$
+
+# sent_id = proverbs:47
+# author = Сыргабековна&Сабыровна
+# source = Сыргабековна&Сабыровна:282
+# text = Колунда токочу бар бала сүйгүнчүктүү.
+# text[eng] = The child with a loaf (of bread) in their hand is darling.
+# labels = JNW_checked_cg tocheck_dep
+^Колунда/Колунда$
+^токочу/токочу$
+^бар/бар$
+^бала/бала$
+^сүйгүнчүктүү/сүйгүнчүктүү>э$
+^./.$
+
+# sent_id = proverbs:48
+# author = Сыргабековна&Сабыровна
+# source = Сыргабековна&Сабыровна:153
+# text = Жазмыштан озуш жок.
+# text[eng] = There is no getting ahead of destiny.
+# labels = JNW_checked_cg tocheck_dep
+^Жазмыштан/Жазмыштан$
+^озуш/озуш$
+^жок/жок>э$
+^./.$
+
+# sent_id = proverbs:49
+# author = Сыргабековна&Сабыровна
+# source = Сыргабековна&Сабыровна:134
+# text = Бузулган элгe бучуктан молдо болот.
+# text[eng] = The mullah of a rotten people is from among the noseless/flat-nosed.
+# labels = JNW_checked_cg tocheck_dep
+^Бузулган/Бузулган$
+^элгe/элгe$
+^бучуктан/бучуктан$
+^молдо/молдо$
+^болот/болот$
+^./.$
+
+# sent_id = proverbs:50
+# author = Сыргабековна&Сабыровна
+# source = Сыргабековна&Сабыровна:53
+# text = Ар кимде бар бир кыял, ар кыялды ким тыяр.
+# text[eng] = Everyone has a personality, no one can stop any personality.
+# labels = JNW_checked_cg tocheck_dep
+^Ар кимде/Ар кимде$
+^бар/бар>э$
+^бир/бир$
+^кыял/кыял$
+^,/,$
+^ар/ар$
+^кыялды/кыялды$
+^ким/ким$
+^тыяр/тыяр$
+^./.$
+
+# sent_id = proverbs:51
+# author = Сыргабековна&Сабыровна
+# source = Сыргабековна&Сабыровна:52
+# text = Ар ким ич оорусун өзү билет.
+# text[eng] = Everyone knows their stomache ache themselves.
+# labels = JNW_checked_cg tocheck_dep
+^Ар ким/Ар ким$
+^ич/ич$
+^оорусун/оорусун$
+^өзү/өзү$
+^билет/билет$
+^./.$
+
+# sent_id = proverbs:52
+# author = Сыргабековна&Сабыровна
+# source = Сыргабековна&Сабыровна:117
+# text = Бирөө баары үчүн, баары бирөө үчүн.
+# text[eng] = One for all, all for one.
+# labels = JNW_checked_cg tocheck_dep
+^Бирөө/Бирөө$
+^баары/баары$
+^үчүн/үчүн$
+^,/,$
+^баары/баары$
+^бирөө/бирөө$
+^үчүн/үчүн$
+^./.$
+
+# sent_id = proverbs:52
+# author = Сыргабековна&Сабыровна
+# source = Сыргабековна&Сабыровна:4
+# text = Адам өлсө өлөт, үмүт өлбөйт
+# text[eng] = When a person dies, they die but hope doesn't die.
+# labels = JNW_checked_cg tocheck_dep
+^Адам/Адам$
+^өлсө/өлсө$
+^өлөт/өлөт$
+^,/,$
+^үмүт/үмүт$
+^өлбөйт/өлбөйт$
+^./.$
