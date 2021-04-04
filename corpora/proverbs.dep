@@ -57,7 +57,6 @@
 # text = Өрдөк жокто, чулдук бий.
 # text[eng] = Upon the absence of the/a duck, (the) sandpiper (is) ~king.
 # labels = JNW_checked_cg JNW_revised1time_dep
-
 "<Өрдөк>"
 	"өрдөк" n nom @nsubj #1->2
 "<жокто>"
@@ -117,6 +116,7 @@
 "<канаты>"
 	"канат" n px3sp nom @root #4->0
 		"э" cop aor p3 sg @cop #5->4
+"<.>"	
 	"." sent @punct #6->4
 
 # sent_id = proverbs:6
@@ -958,7 +958,6 @@
 "<.>"
 	"." sent @punct #8->7
 
-
 # sent_id = proverbs:45
 # author = Сыргабековна&Сабыровна
 # source = Сыргабековна&Сабыровна:305
@@ -1040,3 +1039,113 @@
 		"э" cop aor p3 sg @cop #4->3
 "<.>"
 	"." sent @punct #5->3
+
+# sent_id = proverbs:49
+# author = Сыргабековна&Сабыровна
+# source = Сыргабековна&Сабыровна:134
+# text = Бузулган элгe бучуктан молдо болот.
+# text[eng] = The mullah of a rotten people is from among the noseless/flat-nosed.
+# labels = JNW_checked_cg tocheck_dep
+"<Бузулган>"
+	"буз" v tv pass gpr_past @amod #1->2
+"<элгe>"
+	"эл" n dat @obl #2->5
+"<бучуктан>"
+	"бучук" adj subst abl @obl #3->4
+"<молдо>"
+	"молдо" n nom @nsubj #4->5
+"<болот>"
+	"бол" v iv aor p3 sg @root #5->0
+"<.>"
+	"." sent @punct #6->5
+
+# sent_id = proverbs:50
+# author = Сыргабековна&Сабыровна
+# source = Сыргабековна&Сабыровна:53
+# text = Ар кимде бар бир кыял, ар кыялды ким тыяр.
+# text[eng] = Everyone has a personality, no one can stop any personality.
+# labels = JNW_checked_cg tocheck_dep
+"<Ар кимде>"
+	"ар ким" prn ind loc @obl #1->2
+"<бар>"
+	"бар" adj @parataxis #2->10
+		"э" cop @cop #3->2
+"<бир>"
+	"бир" det ind @det #4->5
+"<кыял>"
+	"кыял" n nom @nsubj #5->2
+"<,>"
+	"," cm @punct #6->10
+"<ар>"
+	"ар" det ind @det #7->8
+"<кыялды>"
+	"кыял" n acc @obj #8->10
+"<ким>"
+	"ким" prn itg nom @nsubj #9->10
+"<тыяр>"
+	"тый" v iv gpr_fut @root #10->0
+"<.>"
+	"." sent @punct #11->10
+
+# sent_id = proverbs:51
+# author = Сыргабековна&Сабыровна
+# source = Сыргабековна&Сабыровна:52
+# text = Ар ким ич оорусун өзү билет.
+# text[eng] = Everyone knows their stomache ache themselves.
+# labels = JNW_checked_cg tocheck_dep
+"<Ар ким>"
+	"ар ким" prn ind nom @nsubj #1->5
+"<ич>"
+	"ич" n nom @nmod:poss #2->3
+"<оорусун>"
+	"оору" n px3sp acc @obj #3->5
+"<өзү>"
+	"өз" prn ref px3sg nom @nmod:poss #4->1
+"<билет>"
+	"бил" v tv aor p3 sg @root #5->0
+"<.>"
+	"." sent @punct #6->5
+
+# sent_id = proverbs:52
+# author = Сыргабековна&Сабыровна
+# source = Сыргабековна&Сабыровна:117
+# text = Бирөө баары үчүн, баары бирөө үчүн.
+# text[eng] = One for all, all for one.
+# labels = JNW_checked_cg tocheck_dep
+"<Бирөө>"
+	"бир" prn ind nom @nsubj #1->3
+"<баары>"
+	"баары" prn ind nom @obj #2->3
+"<үчүн>"
+	"үчүн" post @parataxis #3->7
+"<,>"
+	"," cm @punct #4->7
+"<баары>"
+	"баары" prn ind nom @nsubj #5->7
+"<бирөө>"
+	"бир" prn ind nom @obj #6->7
+"<үчүн>"
+	"үчүн" post @root #7->0
+"<.>"
+	"." sent @punct #8->7
+
+# sent_id = proverbs:52
+# author = Сыргабековна&Сабыровна
+# source = Сыргабековна&Сабыровна:4
+# text = Адам өлсө өлөт, үмүт өлбөйт
+# text[eng] = When a person dies, they die but hope doesn't die.
+# labels = JNW_checked_cg tocheck_dep
+"<Адам>"
+	"адам" n nom @nsubj #1->2
+"<өлсө>"
+	"өл" v iv prc_cond p3 sg @advcl #2->3
+"<өлөт>"
+	"өл" v iv aor p3 sg @parataxis #3->6
+"<,>"
+	"," cm @punct #4->6
+"<үмүт>"
+	"үмүт" n nom @nsubj #5->6
+"<өлбөйт>"
+	"өл" v iv neg aor p3 sg @root #6->0
+"<.>"
+	"." sent @punct #7->6
