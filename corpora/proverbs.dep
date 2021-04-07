@@ -12,7 +12,7 @@
 "<узун>"
 	"узун" adj advl @xcomp #4->5
 "<кес>"
-	"кес" v tv imp p2 sg @parataxis #5->8
+	"кес" v tv imp p2 sg @root #5->0
 "<,>"
 	"," cm @punct #6->5
 "<кеп>"
@@ -24,7 +24,7 @@
 "<кыска>"
 	"кыска" adj advl @xcomp #10->11
 "<сал>"
-	"сал" v tv imp p2 sg @root #11->0
+	"сал" v tv imp p2 sg @parataxis #11->5
 "<.>"
 	"." sent @punct #12->11
 
@@ -167,7 +167,7 @@
 "<эр>"
 	"эр" n nom @nsubj #3->4
 "<болбойт>"
-	"бол" v iv neg aor p3 sg @parataxis #4->9
+	"бол" v iv neg aor p3 sg @root #4->0
 "<,>"
 	"," cm @punct #5->9
 "<жэрин>"
@@ -177,7 +177,7 @@
 "<эл>"
 	"эл" n nom @nsubj #8->9
 "<болбойт>"
-	"бол" v iv neg aor p3 sg @root #9->0
+	"бол" v iv neg aor p3 sg @parataxis #9->4
 "<.>"
 	"." sent @punct #10->9
 
@@ -276,13 +276,13 @@
 "<Көз>"
 	"көз" n nom @nsubj #1->2
 "<коркок>"
-	"коркок" adj @parataxis #2->5
+	"коркок" adj @root #2->0
 "<,>"
 	"," cm @punct #3->5
 "<кол>"
 	"кол" n nom @nsubj #4->5
 "<баатыр>"
-	"баатыр" adj @root #5->0
+	"баатыр" adj @parataxis #5->2
 "<.>"
 	"." sent @punct #6->5
 
@@ -360,7 +360,7 @@
 "<->"
 	"-" guio @punct #3->7
 "<чүпүрөк>"
-	"чүпүрөк," n nom @parataxis #4->3
+	"чүпүрөк," n nom @root #4->0
 "<,>"
 	"," cm @punct #5->9
 "<жыгачтын>"
@@ -370,7 +370,7 @@
 "<->"
 	"-" guio @punct #8->9
 "<жалбырак>"
-	"жалбырак" n nom @root #9->0
+	"жалбырак" n nom @parataxis #9->4
 		"э" cop aor p3 sg @cop #10->9
 "<.>"
 	"." sent @punct #11->9
@@ -544,7 +544,7 @@
 "<нан>"
 	"нан" n nom @nsubj #4->5
 "<жок>"
-	"жок" adj @parataxis #5->13
+	"жок" adj @root #5->0
 		"э" cop aor p3 sg @cop #6->5
 "<,>"
 	"," cm @punct #7->13
@@ -558,7 +558,7 @@
 "<мал>"
 	"мал" n nom @nsubj #12->13
 "<жок>"
-	"жок" adj @root #13->0
+	"жок" adj @parataxis #13->5
 		"э" cop aor p3 sg @cop #14->13
 "<.>"
 	"." sent @punct #15->13
@@ -574,7 +574,7 @@
 "<көл>"
 	"көл" n nom @nsubj #2->3
 "<болот>"
-	"бол" v iv aor p3 sg @parataxis #3->7
+	"бол" v iv aor p3 sg @root #3->0
 "<,>"
 	"," cm @punct #4->7
 "<иштебесең>"
@@ -582,7 +582,7 @@
 "<чөл>"
 	"чөл" n nom @nsubj #6->7
 "<болот>"
-	"бол" v iv aor p3 sg @root #7->0
+	"бол" v iv aor p3 sg @parataxis #7->3
 "<.>"
 	"." sent @punct #8->7
 
@@ -597,13 +597,13 @@
 "<кийиминен>"
 	"кийим" n px3sp abl @obl #2->3
 "<тааныбайт>"
-	"тааны" v tv neg aor p3 sg @parataxis #3->6
+	"тааны" v tv neg aor p3 sg @root #3->0
 "<,>"
 	"," cm @punct #4->6
 "<ишинен>"
 	"иш" n px3sp abl @obl #5->6
 "<тааныйт>"
-	"тааны" v tv aor p3 sg @root #6->0
+	"тааны" v tv aor p3 sg @parataxis #6->3
 "<.>"
 	"." sent @punct #7->6
 
@@ -620,7 +620,7 @@
 "<көрүп>"
 	"көр" v tv gna_perf @advcl #3->4
 "<үрөт>"
-	"үр" v iv aor p3 sg @parataxis #4->9
+	"үр" v iv aor p3 sg @root #4->0
 "<,>"
 	"," cm @punct #5->9
 "<бир>"
@@ -630,7 +630,7 @@
 "<көрбөй>"
 	"көр" v tv neg gna_perf @advcl #8->9
 "<үрөт>"
-	"үр" v iv aor p3 sg @root #9->0
+	"үр" v iv aor p3 sg @parataxis #9->4
 "<.>"
 	"." sent @punct #10->9
 
@@ -668,7 +668,7 @@
 "<жолдошу>"
 	"жолдош" n px3sp nom @nmod:poss #2->3
 "<көп>"
-	"көп" adj @parataxis #3->8
+	"көп" adj @root #3->0
 		"э" cop @cop #4->3
 "<,>"
 	"," cm @punct #5->8
@@ -677,7 +677,7 @@
 "<пайдасы>"
 	"пайда" n px3sp nom @nmod:poss #7->8
 "<жок>"
-	"жок" adj @root #8->0
+	"жок" adj @parataxis #8->3
 		"э" cop aor p3 pl @cop #9->8
 "<.>"
 	"." sent @punct #10->8
@@ -695,7 +695,7 @@
 "<бат>"
 	"бат" adv @advmod #3->4
 "<оңот>"
-	"оң" v iv aor p3 sg @parataxis #4->9
+	"оң" v iv aor p3 sg @root #4->0
 "<,>"
 	"," cm @punct #5->9
 "<өтө>"
@@ -705,7 +705,7 @@
 "<бат>"
 	"бат" adv @advmod #8->9
 "<сууйт>"
-	"суу" v iv aor p3 sg @root #9->0
+	"суу" v iv aor p3 sg @parataxis #9->4
 "<.>"
 	"." sent @punct #10->9
 
@@ -720,7 +720,7 @@
 "<сакташ>"
 	"сакта" v tv ger_pres nom @nsubj #2->3
 "<оңой>"
-	"оңой" adj @parataxis #3->8
+	"оңой" adj @root #3->0
 		"э" cop aor p3 sg @cop #4->3
 "<,>"
 	"," cm @punct #5->7
@@ -729,7 +729,7 @@
 "<жыргатыш>"
 	"жырга" v iv caus ger_pres nom @nsubj #7->8
 "<кыйын>"
-	"кыйын" adj @root #8->0
+	"кыйын" adj @parataxis #8->3
 		"э" cop aor p3 sg @cop #9->8
 "<.>"
 	"." sent @punct #10->7
@@ -792,7 +792,7 @@
 "<Өтпөс>"
 	"өт" v iv neg gpr_fut @acl #1->2
 "<өмүр>"
-	"өмүр" n nom @parataxis #2->5
+	"өмүр" n nom @root #2->0
 "<,>"
 	"," cm @punct #3->6
 "<сынбас>"
@@ -800,7 +800,7 @@
 "<темир>"
 	"темир" n nom @nsubj #5->6
 "<болбойт>"
-	"бол" v iv neg aor p3 sg @root #6->0
+	"бол" v iv neg aor p3 sg @parataxis #6->2
 "<.>"
 	"." sent @punct #7->6
 
@@ -831,7 +831,7 @@
 "<ырыс>"
 	"ырыс" n nom @obj #2->3
 "<кесет>"
-	"кес" v tv aor p3 sg @parataxis #3->7
+	"кес" v tv aor p3 sg @root #3->0
 "<,>"
 	"," cm @punct #4->7
 "<кайгы>"
@@ -839,7 +839,7 @@
 "<өмүр>"
 	"өмур" n nom @obj #6->7
 "<кесет>"
-	"кес" v tv aor p3 sg @root #7->0
+	"кес" v tv aor p3 sg @parataxis #7->3
 "<.>"
 	"." sent @punct #8->7
 
@@ -971,7 +971,7 @@
 "<көл>"
 	"көл" n nom @nsubj #3->4
 "<болот>"
-	"бол" v iv aor p3 sg @parataxis #4->9
+	"бол" v iv aor p3 sg @root #4->0
 "<,>"
 	"," cm @punct #5->9
 "<көл>"
@@ -981,7 +981,7 @@
 "<сел>"
 	"сел" n nom @nsubj #8->9
 "<болот>"
-	"бол" v iv aor p3 sg @root #9->0
+	"бол" v iv aor p3 sg @parataxis #9->4
 "<.>"
 	"." sent @punct #10->9
 
@@ -1068,7 +1068,7 @@
 "<Ар кимде>"
 	"ар ким" prn ind loc @obl #1->2
 "<бар>"
-	"бар" adj @parataxis #2->10
+	"бар" adj @root #2->0
 		"э" cop @cop #3->2
 "<бир>"
 	"бир" det ind @det #4->5
@@ -1083,7 +1083,7 @@
 "<ким>"
 	"ким" prn itg nom @nsubj #9->10
 "<тыяр>"
-	"тый" v iv gpr_fut @root #10->0
+	"тый" v iv gpr_fut @parataxis #10->2
 "<.>"
 	"." sent @punct #11->10
 
@@ -1117,7 +1117,7 @@
 "<баары>"
 	"баары" prn ind nom @obj #2->3
 "<үчүн>"
-	"үчүн" post @parataxis #3->7
+	"үчүн" post @root #3->0
 "<,>"
 	"," cm @punct #4->7
 "<баары>"
@@ -1125,7 +1125,7 @@
 "<бирөө>"
 	"бир" prn ind nom @obj #6->7
 "<үчүн>"
-	"үчүн" post @root #7->0
+	"үчүн" post @parataxis #7->3
 "<.>"
 	"." sent @punct #8->7
 
@@ -1149,3 +1149,227 @@
 	"өл" v iv neg aor p3 sg @root #6->0
 "<.>"
 	"." sent @punct #7->6
+
+# sent_id = proverbs:54
+# author = Сыргабековна&Сабыровна
+# source = Сыргабековна&Сабыровна:351
+# text = Өз камын ойлогон өспөйт, эл камын ойлогон көктөйт.
+# text[eng] = The one who thinks about their own needs doesn't grow; the one who thinks about the nation's needs flourishes.
+# labels = JNW_checked_cg tocheck_dep
+"<Өз>"
+	"өз" det ref @det:poss #1->2
+"<камын>"
+	"кам" n px3sp acc @obj #2->3
+"<ойлогон>"
+	"ойло" v tv gpr_past subst nom @nsubj #3->4
+"<өспөйт>"
+	"өс" v iv neg aor p3 sg @root #4->0
+"<,>"
+	"," cm @punct #5->9
+"<эл>"
+	"эл" n nom @nmod:poss #6->7
+"<камын>"
+	"кам" n px3sp acc @obj #7->8
+"<ойлогон>"
+	"ойло" v tv gpr_past subst nom @nsubj #8->9
+"<көктөйт>"
+	"көктө" v tv aor p3 sg @parataxis #9->4
+"<.>"
+	"." sent @punct #10->9
+
+# sent_id = proverbs:55
+# author = Сыргабековна&Сабыровна
+# source = Сыргабековна&Сабыровна:126
+# text = Бир тамчы таш жарат, бир сөз баш жарат.
+# text[eng] = One drop cracks a stone, one word cracks a head.
+# labels = JNW_checked_cg tocheck_dep
+"<Бир>"
+	"бир" num @nummod #1->2
+"<тамчы>"
+	"тамчы" n nom @nsubj #2->4
+"<таш>"
+	"таш" n nom @obj #3->4
+"<жарат>"
+	"жар" v tv aor p3 sg @root #4->0
+"<,>"
+	"," cm @punct #5->9
+"<бир>"
+	"бир" num @nummod #6->7
+"<сөз>"
+	"сөз" n nom @nsubj #7->9
+"<баш>"
+	"баш" n nom @obj #8->9
+"<жарат>"
+	"жар" v tv caus aor p3 sg @parataxis #9->4
+"<.>"
+	"." sent @punct #10->9
+
+# sent_id = proverbs:56
+# author = Сыргабековна&Сабыровна
+# source = Сыргабековна&Сабыровна:337
+# text = Ойлогон ойду кыстаган турмуш жеңет.
+# text[eng] = Oppressive life beats a thought thought.
+# labels = JNW_checked_cg tocheck_dep
+"<Ойлогон>"
+	"ойло" v tv gpr_past @amod #1->2
+"<ойду>"
+	"ой" n acc @obj #2->5
+"<кыстаган>"
+	"кыс" v tv gpr_past @amod #3->4
+"<турмуш>"
+	"турмуш" n nom @nsubj #4->5
+"<жеңет>"
+	"жең" v tv aor p3 sg @root #5->0
+"<.>"
+	"." sent @punct #6->5
+
+# sent_id = proverbs:57
+# author = Сыргабековна&Сабыровна
+# source = Сыргабековна&Сабыровна:11
+# text = Азаматтын жакшысы азыраак сүйлөп, көп тыңшайт; аргымактын жакшысы азыраак оттоп, көп жуушайт.
+# text[eng] = A good ~achiever speaks less and listens a lot; a good argymaq (horse breed) grazes less, and rests a lot.
+# labels = JNW_checked_cg tocheck_dep
+"<Азаматтын>"
+	"азамат" n gen @nmod:poss #1->2
+"<жакшысы>"
+	"жакшы" adj subst px3sp nom @nsubj #2->4
+"<азыраак>"
+	"аз" adj comp advl @advmod #3->4
+"<сүйлөп>"
+	"сүйлө" v tv gna_perf @root #4->0
+"<,>"
+	"," cm @punct #5->7
+"<көп>"
+	"көп" adv @advmod #6->7
+"<тыңшайт>"
+	"тыңша" v tv aor p3 sg @conj #7->4
+"<;>"
+	";" sent @punct #8->12
+"<аргымактын>"
+	"аргымак" n gen @nmod:poss #9->10
+"<жакшысы>"
+	"жакшы" adj subst px3sp nom @nsubj #10->12
+"<азыраак>"
+	"аз" adj comp advl @advmod #11->12
+"<оттоп>"
+	"отто" v iv gna_perf @parataxis #12->4
+"<,>"
+	"," cm @punct #13->15
+"<көп>"
+	"көп" adj @advmod #14->15
+"<жуушайт>"
+	"жууша" v iv aor p3 sg @conj #15->12
+"<.>"
+	"." sent @punct #16->15
+
+# sent_id = proverbs:58
+# author = Сыргабековна&Сабыровна
+# source = Сыргабековна&Сабыровна:229
+# text = Жүгүргөн албайт, буйруган алат.
+# text[eng] = The one who runs [after something] doesn't get [it], the one who's meant to [get it] gets [it].
+# labels = JNW_checked_cg tocheck_dep
+"<Жүгүргөн>"
+	"жүгүр" v iv gpr_past nom @nsubj #1->2
+"<албайт>"
+	"ал" v tv neg aor p3 sg @root #2->0
+"<,>"
+	"," cm @punct #3->5
+"<буйруган>"
+	"буйру" v tv gpr_past nom @nsubj #4->5
+"<алат>"
+	"ал" v tv aor p3 sg @parataxis #5->2
+"<.>"
+	"." sent @punct #6->5
+
+# sent_id = proverbs:59
+# author = Сыргабековна&Сабыровна
+# source = Сыргабековна&Сабыровна:395
+# text = Сөзү көптүн иши аз.
+# text[eng] = The one who has a lot to say has little to do.
+# labels = JNW_checked_cg tocheck_dep
+"<Сөзү>"
+	"сөз" n px3sp nom @nmod #1->3
+"<көптүн>"
+	"көп" adj subst gen @nmod:poss #2->1
+"<иши>"
+	"иш" n px3sp nom @nsubj #3->4
+"<аз>"
+	"аз" adj @root #4->0
+		"э" cop aor p3 sg @cop #5->4
+"<.>"
+	"." sent @punct #6->4
+
+# sent_id = proverbs:60
+# author = Сыргабековна&Сабыровна
+# source = Сыргабековна&Сабыровна:83
+# text = Бакыт кетсе, намыяны кошо кетет.
+# text[eng] = When happiness leaves, it takes the wallet with it.
+# labels = JNW_checked_cg tocheck_dep
+"<Бакыт>"
+	"бакыт" n nom @nsubj #1->2
+"<кетсе>"
+	"кет" v iv gna_cond p3 sg @advcl #2->6
+"<,>"
+	"," cm @punct #3->6
+"<намыяны>"
+	"намыя" n acc @nsubj #4->6
+"<кошо>"
+	"кош" v tv gna_impf @advmod #5->6
+"<кетет>"
+	"кет" vaux aor p3 sg @root #6->0
+"<.>"
+	"." sent @punct #7->6
+
+# sent_id = proverbs:61
+# author = Сыргабековна&Сабыровна
+# source = Сыргабековна&Сабыровна:271
+# text = Кеңешип кескен бармак оорубайт.
+# text[eng] = A finger cut by getting advice doesn't hurt.
+# labels = JNW_checked_cg tocheck_dep
+"<Кеңешип>"
+	"кеңеш" v iv gna_perf @advmod #1->4
+"<кескен>"
+	"кес" v tv gpr_past @amod #2->3
+"<бармак>"
+	"бармак" n nom @nsubj #3->4
+"<оорубайт>"
+	"оору" v iv neg aor p3 sg @root #4->0
+"<.>"
+	"." sent @punct #5->4
+
+# sent_id = proverbs:62
+# author = Сыргабековна&Сабыровна
+# source = Сыргабековна&Сабыровна:165
+# text = Жакшы кеңеш - жарым ырыс.
+# text[eng] = Good advice is half of happiness.
+# labels = JNW_checked_cg tocheck_dep
+"<Жакшы>"
+	"жакшы" adj @amod #1->2
+"<кеңеш>"
+	"кеңеш" n nom @parataxis #2->5
+"<->"
+	"-" guio @punct #3->5
+"<жарым>"
+	"жарым" adj @amod #4->5
+"<ырыс>"
+	"ырыс" n nom @root #5->0
+		"э" cop aor p3 pl @cop #6->5
+"<.>"
+	"." sent @punct #7->5
+
+# sent_id = proverbs:63
+# author = Сыргабековна&Сабыровна
+# source = Сыргабековна&Сабыровна:79
+# text = Байлыкты сүйгөн намысты билбейт.
+# text[eng] = One who loves wealth doesn't know honour.
+# labels = JNW_checked_cg tocheck_dep
+"<Байлыкты>"
+	"байлык" n acc @nmod:poss #1->2
+"<сүйгөн>"
+	"сүй" v tv gpr_past subst nom @nsubj #2->4
+"<намысты>"
+	"намыс" n acc @obj #3->4
+"<билбейт>"
+	"бил" v tv neg aor p3 sg @root #4->0
+"<.>"
+	"." sent @punct #5->4
