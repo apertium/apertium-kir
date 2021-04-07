@@ -333,7 +333,7 @@
 ^барса/барса$
 ^,/,$
 ^кийинки/кийинки$
-^көч да/көч>да$
+^көч да/көч да$
 ^ошол/ошол$
 ^жакка/жакка$
 ^барат/барат$
@@ -749,4 +749,150 @@
 ^,/,$
 ^үмүт/үмүт$
 ^өлбөйт/өлбөйт$
+^./.$
+
+# sent_id = proverbs:54
+# author = Сыргабековна&Сабыровна
+# source = Сыргабековна&Сабыровна:351
+# text = Өз камын ойлогон өспөйт, эл камын ойлогон көктөйт.
+# text[eng] = The one who thinks about their own needs doesn't grow; the one who thinks about the nation's needs flourishes.
+# labels = JNW_checked_cg tocheck_dep
+^Өз/Өз$
+^камын/камын$
+^ойлогон/ойлогон$
+^өспөйт/өспөйт$
+^,/,$
+^эл/эл$
+^камын/камын$
+^ойлогон/ойлогон$
+^көктөйт/көктөйт$
+^./.$
+
+# sent_id = proverbs:55
+# author = Сыргабековна&Сабыровна
+# source = Сыргабековна&Сабыровна:126
+# text = Бир тамчы таш жарат, бир сөз баш жарат.
+# text[eng] = One drop cracks a stone, one word cracks a head.
+# labels = JNW_checked_cg tocheck_dep
+^Бир/Бир$
+^тамчы/тамчы$
+^таш/таш$
+^жарат/жарат$
+^,/,$
+^бир/бир$
+^сөз/сөз$
+^баш/баш$
+^жарат/жарат$
+^./.$
+
+# sent_id = proverbs:56
+# author = Сыргабековна&Сабыровна
+# source = Сыргабековна&Сабыровна:337
+# text = Ойлогон ойду кыстаган турмуш жеңет.
+# text[eng] = Oppressive life beats a thought thought.
+# labels = JNW_checked_cg tocheck_dep
+^Ойлогон/Ойлогон$
+^ойду/ойду$
+^кыстаган/кыстаган$
+^турмуш/турмуш$
+^жеңет/жеңет$
+^./.$
+
+# sent_id = proverbs:57
+# author = Сыргабековна&Сабыровна
+# source = Сыргабековна&Сабыровна:11
+# text = Азаматтын жакшысы азыраак сүйлөп, көп тыңшайт; аргымактын жакшысы азыраак оттоп, көп жуушайт.
+# text[eng] = A good ~achiever speaks less and listens a lot; a good argymaq (horse breed) grazes less, and rests a lot.
+# labels = JNW_checked_cg tocheck_dep
+^Азаматтын/Азаматтын$
+^жакшысы/жакшысы$
+^азыраак/азыраак$
+^сүйлөп/сүйлөп$
+^,/,$
+^көп/көп$
+^тыңшайт/тыңшайт$
+^;/;$
+^аргымактын/аргымактын$
+^жакшысы/жакшысы$
+^азыраак/азыраак$
+^оттоп/оттоп$
+^,/,$
+^көп/көп$
+^жуушайт/жуушайт$
+^./.$
+
+# sent_id = proverbs:58
+# author = Сыргабековна&Сабыровна
+# source = Сыргабековна&Сабыровна:229
+# text = Жүгүргөн албайт, буйруган алат.
+# text[eng] = The one who runs [after something] doesn't get [it], the one who's meant to [get it] gets [it].
+# labels = JNW_checked_cg tocheck_dep
+^Жүгүргөн/Жүгүргөн$
+^албайт/албайт$
+^,/,$
+^буйруган/буйруган$
+^алат/алат$
+^./.$
+
+# sent_id = proverbs:59
+# author = Сыргабековна&Сабыровна
+# source = Сыргабековна&Сабыровна:395
+# text = Сөзү көптүн иши аз.
+# text[eng] = The one who has a lot to say has little to do.
+# labels = JNW_checked_cg tocheck_dep
+^Сөзү/Сөзү$
+^көптүн/көптүн$
+^иши/иши$
+^аз/аз>э$
+^./.$
+
+# sent_id = proverbs:60
+# author = Сыргабековна&Сабыровна
+# source = Сыргабековна&Сабыровна:83
+# text = Бакыт кетсе, намыяны кошо кетет.
+# text[eng] = When happiness leaves, it takes the wallet with it.
+# labels = JNW_checked_cg tocheck_dep
+^Бакыт/Бакыт$
+^кетсе/кетсе$
+^,/,$
+^намыяны/намыяны$
+^кошо/кошо$
+^кетет/кетет$
+^./.$
+
+# sent_id = proverbs:61
+# author = Сыргабековна&Сабыровна
+# source = Сыргабековна&Сабыровна:271
+# text = Кеңешип кескен бармак оорубайт.
+# text[eng] = A finger cut by getting advice doesn't hurt.
+# labels = JNW_checked_cg tocheck_dep
+^Кеңешип/Кеңешип$
+^кескен/кескен$
+^бармак/бармак$
+^оорубайт/оорубайт$
+^./.$
+
+# sent_id = proverbs:62
+# author = Сыргабековна&Сабыровна
+# source = Сыргабековна&Сабыровна:165
+# text = Жакшы кеңеш - жарым ырыс.
+# text[eng] = Good advice is half of happiness.
+# labels = JNW_checked_cg tocheck_dep
+^Жакшы/Жакшы$
+^кеңеш/кеңеш$
+^-/-$
+^жарым/жарым$
+^ырыс/ырыс>э$
+^./.$
+
+# sent_id = proverbs:63
+# author = Сыргабековна&Сабыровна
+# source = Сыргабековна&Сабыровна:79
+# text = Байлыкты сүйгөн намысты билбейт.
+# text[eng] = One who loves wealth doesn't know honour.
+# labels = JNW_checked_cg tocheck_dep
+^Байлыкты/Байлыкты$
+^сүйгөн/сүйгөн$
+^намысты/намысты$
+^билбейт/билбейт$
 ^./.$
