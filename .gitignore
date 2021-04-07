@@ -2,6 +2,7 @@
 /*.gz
 /*.m4
 /*.pc
+/*.hfst
 /INSTALL
 /Makefile
 /Makefile.in
