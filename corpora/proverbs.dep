@@ -6,7 +6,7 @@
 "<Жип>"
 	"жип" n nom @obj #1->2
 "<кессең>"
-	"кес" v tv gna_cond p2 sg @acl #2->11
+	"кес" v tv gna_cond p2 sg @advcl #2->5
 "<->"
 	"-" guio @punct #3->2
 "<узун>"
@@ -18,7 +18,7 @@
 "<кеп>"
 	"кеп" n nom @obj #7->8
 "<салсаң>"
-	"сал" v tv gna_cond p2 sg @acl #8->11
+	"сал" v tv gna_cond p2 sg @advcl #8->11
 "<->"
 	"-" guio @punct #9->8
 "<кыска>"
@@ -190,7 +190,7 @@
 "<Чындан>"
 	"чын" n abl @obl #1->2
 "<ыйласа>"
-	"ыйла" v iv gna_cond p3 sg @advmod #2->7
+	"ыйла" v iv gna_cond p3 sg @advcl #2->7
 "<,>"
 	"," cm @punct #3->7
 "<сокур>"
