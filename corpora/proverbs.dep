@@ -1798,3 +1798,29 @@
 		"э" cop aor p3 sg @cop #7->6
 "<.>"
 	"." sent @punct #8->6
+
+# sent_id = proverbs:85
+# author = Сыргабековна&Сабыровна
+# source = Сыргабековна&Сабыровна:1
+# text = Мыйзам - буйлалаган төө, кайда бурса кете берген. 
+# text[eng] = The law is a camel with a nose peg, wherever you turn it it goes.
+# labels = JNW_checked_cg tocheck_dep
+"<Мыйзам>"
+	"мыйзам" n nom @nsubj #1->3
+"<буйлалаган>"
+	"буйлала" v tv gpr_past @amod #2->3
+"<төө>"
+	"төө" n nom @root #3->0
+		"э," cop aor p3 sg @cop #4->3
+"<,>"
+	"," cm @punct #5->8
+"<кайда>"
+	"кайда" adv itg @advmod #6->7
+"<бурса>"
+	"бур" v iv gna_cond p3 sg @advcl #7->8
+"<кете>"
+	"кет" vaux prc_impf @parataxis #8->3
+"<берген>"
+	"бер." vaux past p3 sg @aux #9->8
+"<.>"
+	"." sent @punct #10->8
