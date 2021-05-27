@@ -1,6 +1,6 @@
 AC_PREREQ(2.52)
 
-AC_INIT([Apertium Kyrgyz], [0.1.1], [apertium-stuff@lists.sourceforge.net], [apertium-kir], [http://wiki.apertium.org/wiki/Apertium-kir])
+AC_INIT([Apertium Kyrgyz], [0.1.1], [apertium-stuff@lists.sourceforge.net], [apertium-kir], [https://wiki.apertium.org/wiki/Apertium-kir])
 AM_INIT_AUTOMAKE
 AC_PROG_AWK
 
