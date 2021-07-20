@@ -1,0 +1,74 @@
+[2z5-FT5qCaoV#0] ^2-өө/2<num><coll><advl>/2<num><coll><subst><nom>/2<num><coll><subst><nom>+э<cop><aor><p3><pl>/2<num><coll><subst><nom>+э<cop><aor><p3><sg>$
+[/2z5-FT5qCaoV]
+[56uydKeLrX-A#0] ^бешөөнү/беш<num><coll><subst><acc>$
+[/56uydKeLrX-A]
+[955EzN91Qh4W#0] ^алтоону/алты<num><coll><subst><acc>$
+[/955EzN91Qh4W]
+[9U3uP2FM4YbM#0] ^5-өө/5<num><coll><advl>/5<num><coll><subst><nom>/5<num><coll><subst><nom>+э<cop><aor><p3><pl>/5<num><coll><subst><nom>+э<cop><aor><p3><sg>$
+[/9U3uP2FM4YbM]
+[9yCOLiqOSNDI#0] ^жетөө/жети<num><coll><advl>/жети<num><coll><subst><nom>/жети<num><coll><subst><nom>+э<cop><aor><p3><pl>/жети<num><coll><subst><nom>+э<cop><aor><p3><sg>$
+[/9yCOLiqOSNDI]
+[CIV37be6A96K#0] ^6-оону/6<num><coll><subst><acc>$
+[/CIV37be6A96K]
+[DHGhguYXYrfh#0] ^алдоо/алда<v><tv><ger><nom>/алда<v><tv><ger><nom>+э<cop><aor><p3><pl>/алда<v><tv><ger><nom>+э<cop><aor><p3><sg>$
+[/DHGhguYXYrfh]
+[Gnfxj6VIyqzv#0] ^аарчуу/аарчы<v><iv><ger><nom>/аарчы<v><iv><ger><nom>+э<cop><aor><p3><pl>/аарчы<v><iv><ger><nom>+э<cop><aor><p3><sg>/аарчы<v><tv><ger><nom>/аарчы<v><tv><ger><nom>+э<cop><aor><p3><pl>/аарчы<v><tv><ger><nom>+э<cop><aor><p3><sg>$
+[/Gnfxj6VIyqzv]
+[H54plR_-EXw_#0] ^жетөөнү/жети<num><coll><subst><acc>$
+[/H54plR_-EXw_]
+[HwDSGHnugFUr#0] ^калуу/кал<v><iv><ger><nom>/кал<v><iv><ger><nom>+э<cop><aor><p3><pl>/кал<v><iv><ger><nom>+э<cop><aor><p3><sg>/кал<vaux><ger><nom>/кал<vaux><ger><nom>+э<cop><aor><p3><pl>/кал<vaux><ger><nom>+э<cop><aor><p3><sg>$
+[/HwDSGHnugFUr]
+[ITpTimn5QrCO#0] ^6-оо/6<num><coll><advl>/6<num><coll><subst><nom>/6<num><coll><subst><nom>+э<cop><aor><p3><pl>/6<num><coll><subst><nom>+э<cop><aor><p3><sg>$
+[/ITpTimn5QrCO]
+[Ibnz5zlj2Ntl#0] ^келүү/кел<v><iv><ger><nom>/кел<v><iv><ger><nom>+э<cop><aor><p3><pl>/кел<v><iv><ger><nom>+э<cop><aor><p3><sg>/кел<vaux><ger><nom>/кел<vaux><ger><nom>+э<cop><aor><p3><pl>/кел<vaux><ger><nom>+э<cop><aor><p3><sg>$
+[/Ibnz5zlj2Ntl]
+[Js3zi07OI8Rl#0] ^бешөө/беш<num><coll><advl>/беш<num><coll><subst><nom>/беш<num><coll><subst><nom>+э<cop><aor><p3><pl>/беш<num><coll><subst><nom>+э<cop><aor><p3><sg>$
+[/Js3zi07OI8Rl]
+[LFj7ohXFGW-S#0] ^коюу/кой<v><tv><ger><nom>/кой<v><tv><ger><nom>+э<cop><aor><p3><pl>/кой<v><tv><ger><nom>+э<cop><aor><p3><sg>/коюу<adj>/коюу<adj>+э<cop><aor><p3><pl>/коюу<adj>+э<cop><aor><p3><sg>/коюу<adj><subst><nom>/коюу<adj><subst><nom>+э<cop><aor><p3><pl>/коюу<adj><subst><nom>+э<cop><aor><p3><sg>$
+[/LFj7ohXFGW-S]
+[MI7Hfxn7i27c#0] ^7-өөнү/7<num><coll><subst><acc>$
+[/MI7Hfxn7i27c]
+[ND7AuSsWK7Zw#0] ^4-өөнү/4<num><coll><subst><acc>$
+[/ND7AuSsWK7Zw]
+[QXZeszzefCE8#0] ^1-өө/1<num><coll><advl>/1<num><coll><subst><nom>/1<num><coll><subst><nom>+э<cop><aor><p3><pl>/1<num><coll><subst><nom>+э<cop><aor><p3><sg>$
+[/QXZeszzefCE8]
+[Qdsm9oV43hoL#0] ^эчкилүү/эчки<n>+луу<post>$
+[/Qdsm9oV43hoL]
+[S4tg2KvOegO8#0] ^2-өөнү/2<num><coll><subst><acc>$
+[/S4tg2KvOegO8]
+[Sno7uPc-3wSS#0] ^экөө/эки<num><coll><advl>/эки<num><coll><subst><nom>/эки<num><coll><subst><nom>+э<cop><aor><p3><pl>/эки<num><coll><subst><nom>+э<cop><aor><p3><sg>$
+[/Sno7uPc-3wSS]
+[Wi4FNUmVjgst#0] ^алтоо/алты<num><coll><advl>/алты<num><coll><subst><nom>/алты<num><coll><subst><nom>+э<cop><aor><p3><pl>/алты<num><coll><subst><nom>+э<cop><aor><p3><sg>$
+[/Wi4FNUmVjgst]
+[WtI0ctngbX5n#0] ^үчөөнү/үч<num><coll><subst><acc>$
+[/WtI0ctngbX5n]
+[YFEyAbfbVev1#0] ^төртөө/төрт<num><coll><advl>/төрт<num><coll><subst><nom>/төрт<num><coll><subst><nom>+э<cop><aor><p3><pl>/төрт<num><coll><subst><nom>+э<cop><aor><p3><sg>$
+[/YFEyAbfbVev1]
+[ZI73iD6f78di#0] ^4-өө/4<num><coll><advl>/4<num><coll><subst><nom>/4<num><coll><subst><nom>+э<cop><aor><p3><pl>/4<num><coll><subst><nom>+э<cop><aor><p3><sg>$
+[/ZI73iD6f78di]
+[c-TMDoH9WeYP#0] ^7-өө/7<num><coll><advl>/7<num><coll><subst><nom>/7<num><coll><subst><nom>+э<cop><aor><p3><pl>/7<num><coll><subst><nom>+э<cop><aor><p3><sg>$
+[/c-TMDoH9WeYP]
+[dOTIHHwKw16T#0] ^эстөө/эсте<v><iv><ger><nom>/эсте<v><iv><ger><nom>+э<cop><aor><p3><pl>/эсте<v><iv><ger><nom>+э<cop><aor><p3><sg>/эсте<v><tv><ger><nom>/эсте<v><tv><ger><nom>+э<cop><aor><p3><pl>/эсте<v><tv><ger><nom>+э<cop><aor><p3><sg>$
+[/dOTIHHwKw16T]
+[e84bDcAbLSl9#0] ^3-өөнү/3<num><coll><subst><acc>$
+[/e84bDcAbLSl9]
+[glBaWazAhvdY#0] ^койлуу/кой<n>+луу<post>$
+[/glBaWazAhvdY]
+[hAZO6XJhA7R_#0] ^үчөө/үч<num><coll><advl>/үч<num><coll><subst><nom>/үч<num><coll><subst><nom>+э<cop><aor><p3><pl>/үч<num><coll><subst><nom>+э<cop><aor><p3><sg>$
+[/hAZO6XJhA7R_]
+[hj7FchKra4UP#0] ^ээрүү/*ээрүү$
+[/hj7FchKra4UP]
+[hnQj16V97gK1#0] ^экөөнү/эки<num><coll><subst><acc>$
+[/hnQj16V97gK1]
+[lxxizVn-QzJU#0] ^төртөөнү/төрт<num><coll><subst><acc>$
+[/lxxizVn-QzJU]
+[m-c-SGTbtkHD#0] ^бирөөнү/бирөө<prn><ind><acc>/бир<num><coll><subst><acc>$
+[/m-c-SGTbtkHD]
+[olJQubt_tOKo#0] ^1-өөнү/1<num><coll><subst><acc>$
+[/olJQubt_tOKo]
+[pUJbMtjs3rz1#0] ^бирөө/бирөө<prn><ind><nom>/бирөө<prn><ind><nom>+э<cop><aor><p3><pl>/бирөө<prn><ind><nom>+э<cop><aor><p3><sg>/бир<num><coll><advl>/бир<num><coll><subst><nom>/бир<num><coll><subst><nom>+э<cop><aor><p3><pl>/бир<num><coll><subst><nom>+э<cop><aor><p3><sg>$
+[/pUJbMtjs3rz1]
+[rFxRgVvLpaAx#0] ^5-өөнү/5<num><coll><subst><acc>$
+[/rFxRgVvLpaAx]
+[tJU7lY4umeX_#0] ^3-өө/3<num><coll><advl>/3<num><coll><subst><nom>/3<num><coll><subst><nom>+э<cop><aor><p3><pl>/3<num><coll><subst><nom>+э<cop><aor><p3><sg>$
+[/tJU7lY4umeX_]

@@ -1,0 +1,15 @@
+[47DEQpj8HBSa#0] Rule "Vowel harmony for archiphoneme {U} after consonant  fails:
+#:0 и ш т е >:0 HERE ---> {U}:у {U}:у #:0 
+
+Rule "{U} deletion after vowel final stem" fails:
+#:0 и ш т е >:0 HERE ---> {U}:у {U}:у #:0 
+
+FAIL: и ш т е >:0 {U}:у {U}:у REJECTED
+
+Rule "Vowel harmony for archiphoneme {I}  fails:
+#:0 б о л >:0 HERE ---> {I}:ы п #:0 
+
+FAIL: б о л >:0 {I}:ы п REJECTED
+
+Test failed.
+[/47DEQpj8HBSa]

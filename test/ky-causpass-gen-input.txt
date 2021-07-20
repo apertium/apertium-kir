@@ -1,0 +1,52 @@
+# [lexc] Regular causative -{T}{I}р
+^бол<v><iv><caus><ger><nom>$
+^бас<v><iv><caus><ger><nom>$
+^жак<v><iv><caus><ger><nom>$
+^кач<v><iv><caus><ger><nom>$
+# [twol] Regular causative -т
+^эри<v><iv><caus><ger><nom>$
+^иште<v><iv><caus><past><p2><sg>$
+^иште<v><iv><caus><ger><nom>$
+^иште<v><iv><caus><ifi><p1><sg>$
+^токто<v><iv><caus><ifi><p1><sg>$
+^ачы<v><iv><caus><gpr_past>$
+^салкында<v><iv><caus><prc_perf>$
+# [twol] Regular causative -т after consonants
+^өзгөр<v><iv><caus><prc_perf>$
+^узар<v><iv><caus><prc_perf>$
+^эскир<v><iv><caus><prc_perf>$
+^кыскар<v><iv><caus><prc_perf>$
+^айлан<v><iv><caus><prc_perf>$
+^улан<v><iv><caus><prc_perf>$
+^чогул<v><iv><caus><prc_perf>$
+# [lexc] Irregular causatives
+^отур<v><iv><caus><ger><nom>$
+^быш<v><iv><caus><ger><nom>$
+^түш<v><iv><caus><ger><nom>$
+^бүт<v><iv><caus><ger><nom>$
+^кет<v><iv><caus><ger><nom>$
+^ак<v><iv><caus><ger><nom>$
+^чык<v><iv><caus><ger><nom>$
+^өч<v><iv><caus><ger><nom>$
+^кат<v><iv><caus><ger><nom>$
+^жет<v><iv><caus><ger><nom>$
+^өт<v><iv><caus><ger><nom>$
+# [twol] Passives
+^сез<v><tv><pass><ger><nom>$
+^жаз<v><tv><pass><prc_perf>$
+^көтөр<v><tv><pass><prc_perf>$
+^саба<v><tv><pass><prc_perf>$
+# [twol] Passives with verb stem in л
+^мал<v><tv><pass><ger><nom>$
+^жала<v><tv><pass><prc_perf>$
+^бомбала<v><tv><pass><prc_perf>$
+^тил<v><tv><pass><prc_perf>$
+^баала<v><tv><pass><prc_perf>$
+# [twol] Short causatives
+^саа<v><tv><caus><prc_perf>$
+^же<v><tv><caus><prc_perf>$
+^жуу<v><tv><caus><prc_perf>$
+# [twol] pass.caus
+^жаз<v><tv><pass><caus><prc_perf>$
+# [twol] caus.pass
+^кел<v><iv><caus><pass><prc_perf>$

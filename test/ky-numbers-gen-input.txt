@@ -1,0 +1,38 @@
+# [lexc] collective numerals
+^1<num><coll><subst><px3sp><nom>$
+^2<num><coll><subst><px3sp><nom>$
+^3<num><coll><subst><px3sp><nom>$
+^4<num><coll><subst><px3sp><nom>$
+^5<num><coll><subst><px3sp><nom>$
+^6<num><coll><subst><px3sp><nom>$
+^7<num><coll><subst><px3sp><nom>$
+^1<num><coll><subst><nom>$
+^2<num><coll><subst><nom>$
+^3<num><coll><subst><nom>$
+^4<num><coll><subst><nom>$
+^5<num><coll><subst><nom>$
+^6<num><coll><subst><nom>$
+^7<num><coll><subst><nom>$
+# [lexc] adverbial collective numerals
+^1<num><coll><advl>$
+^2<num><coll><advl>$
+^3<num><coll><advl>$
+^4<num><coll><advl>$
+^5<num><coll><advl>$
+^6<num><coll><advl>$
+^7<num><coll><advl>$
+^1<num><coll><subst><nom>$
+^2<num><coll><subst><nom>$
+^3<num><coll><subst><nom>$
+^4<num><coll><subst><nom>$
+^5<num><coll><subst><nom>$
+^6<num><coll><subst><nom>$
+^7<num><coll><subst><nom>$
+# [lexc] collective numbers
+^бир<num><coll><subst><px3sp><nom>$
+^эки<num><coll><subst><px3sp><nom>$
+^үч<num><coll><subst><px3sp><nom>$
+^төрт<num><coll><subst><px3sp><nom>$
+^беш<num><coll><subst><px3sp><nom>$
+^алты<num><coll><subst><px3sp><nom>$
+^жети<num><coll><subst><px3sp><nom>$

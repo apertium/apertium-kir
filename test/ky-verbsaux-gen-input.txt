@@ -1,0 +1,4 @@
+# [lexc] Forms of жат
+^бол<v><iv><prt_perf>+жат<aux><aor><p3><sg>$
+^бар<v><iv><prt_impf>+жат<aux><aor><p3><sg>$
+^кел<v><iv><prt_impf>+жат<aux><aor><p3><sg>$

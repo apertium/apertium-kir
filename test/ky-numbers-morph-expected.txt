@@ -1,0 +1,42 @@
+[-z2kVkmSQCLc#0] ^4-өөсү/4<num><coll><subst><px3sp><nom>/4<num><coll><subst><px3sp><nom>+э<cop><aor><p3><pl>/4<num><coll><subst><px3sp><nom>+э<cop><aor><p3><sg>$
+[/-z2kVkmSQCLc]
+[0pf88f-TfREk#0] ^5-өөсү/5<num><coll><subst><px3sp><nom>/5<num><coll><subst><px3sp><nom>+э<cop><aor><p3><pl>/5<num><coll><subst><px3sp><nom>+э<cop><aor><p3><sg>$
+[/0pf88f-TfREk]
+[1Su4qCx9-q7I#0] ^экөөсү/эки<num><coll><subst><px3sp><nom>/эки<num><coll><subst><px3sp><nom>+э<cop><aor><p3><pl>/эки<num><coll><subst><px3sp><nom>+э<cop><aor><p3><sg>$
+[/1Su4qCx9-q7I]
+[2z5-FT5qCaoV#0] ^2-өө/2<num><coll><advl>/2<num><coll><subst><nom>/2<num><coll><subst><nom>+э<cop><aor><p3><pl>/2<num><coll><subst><nom>+э<cop><aor><p3><sg>$
+[/2z5-FT5qCaoV]
+[9-EYCWee3Hm0#0] ^1-өөсү/1<num><coll><subst><px3sp><nom>/1<num><coll><subst><px3sp><nom>+э<cop><aor><p3><pl>/1<num><coll><subst><px3sp><nom>+э<cop><aor><p3><sg>$
+[/9-EYCWee3Hm0]
+[9U3uP2FM4YbM#0] ^5-өө/5<num><coll><advl>/5<num><coll><subst><nom>/5<num><coll><subst><nom>+э<cop><aor><p3><pl>/5<num><coll><subst><nom>+э<cop><aor><p3><sg>$
+[/9U3uP2FM4YbM]
+[DN7LoyXOoHPr#0] ^бешөөсү/беш<num><coll><subst><px3sp><nom>/беш<num><coll><subst><px3sp><nom>+э<cop><aor><p3><pl>/беш<num><coll><subst><px3sp><nom>+э<cop><aor><p3><sg>$
+[/DN7LoyXOoHPr]
+[ITpTimn5QrCO#0] ^6-оо/6<num><coll><advl>/6<num><coll><subst><nom>/6<num><coll><subst><nom>+э<cop><aor><p3><pl>/6<num><coll><subst><nom>+э<cop><aor><p3><sg>$
+[/ITpTimn5QrCO]
+[IhDofDulNDFS#0] ^6-оосу/6<num><coll><subst><px3sp><nom>/6<num><coll><subst><px3sp><nom>+э<cop><aor><p3><pl>/6<num><coll><subst><px3sp><nom>+э<cop><aor><p3><sg>$
+[/IhDofDulNDFS]
+[LvHGVmQEcTx5#0] ^7-өөсү/7<num><coll><subst><px3sp><nom>/7<num><coll><subst><px3sp><nom>+э<cop><aor><p3><pl>/7<num><coll><subst><px3sp><nom>+э<cop><aor><p3><sg>$
+[/LvHGVmQEcTx5]
+[QXZeszzefCE8#0] ^1-өө/1<num><coll><advl>/1<num><coll><subst><nom>/1<num><coll><subst><nom>+э<cop><aor><p3><pl>/1<num><coll><subst><nom>+э<cop><aor><p3><sg>$
+[/QXZeszzefCE8]
+[ZI73iD6f78di#0] ^4-өө/4<num><coll><advl>/4<num><coll><subst><nom>/4<num><coll><subst><nom>+э<cop><aor><p3><pl>/4<num><coll><subst><nom>+э<cop><aor><p3><sg>$
+[/ZI73iD6f78di]
+[ZLpl8hmQTPbo#0] ^3-өөсү/3<num><coll><subst><px3sp><nom>/3<num><coll><subst><px3sp><nom>+э<cop><aor><p3><pl>/3<num><coll><subst><px3sp><nom>+э<cop><aor><p3><sg>$
+[/ZLpl8hmQTPbo]
+[c-TMDoH9WeYP#0] ^7-өө/7<num><coll><advl>/7<num><coll><subst><nom>/7<num><coll><subst><nom>+э<cop><aor><p3><pl>/7<num><coll><subst><nom>+э<cop><aor><p3><sg>$
+[/c-TMDoH9WeYP]
+[dvgFNuDvrzBf#0] ^төртөөсү/төрт<num><coll><subst><px3sp><nom>/төрт<num><coll><subst><px3sp><nom>+э<cop><aor><p3><pl>/төрт<num><coll><subst><px3sp><nom>+э<cop><aor><p3><sg>$
+[/dvgFNuDvrzBf]
+[eW37LAsJ5XKe#0] ^алтоосу/алты<num><coll><subst><px3sp><nom>/алты<num><coll><subst><px3sp><nom>+э<cop><aor><p3><pl>/алты<num><coll><subst><px3sp><nom>+э<cop><aor><p3><sg>$
+[/eW37LAsJ5XKe]
+[hjU1yhgASyep#0] ^үчөөсү/үч<num><coll><subst><px3sp><nom>/үч<num><coll><subst><px3sp><nom>+э<cop><aor><p3><pl>/үч<num><coll><subst><px3sp><nom>+э<cop><aor><p3><sg>$
+[/hjU1yhgASyep]
+[mrkyOlVC14Z9#0] ^бирөөсү/бирөө<prn><ind><px3sp><nom>/бирөө<prn><ind><px3sp><nom>+э<cop><aor><p3><pl>/бирөө<prn><ind><px3sp><nom>+э<cop><aor><p3><sg>/бир<num><coll><subst><px3sp><nom>/бир<num><coll><subst><px3sp><nom>+э<cop><aor><p3><pl>/бир<num><coll><subst><px3sp><nom>+э<cop><aor><p3><sg>$
+[/mrkyOlVC14Z9]
+[tJU7lY4umeX_#0] ^3-өө/3<num><coll><advl>/3<num><coll><subst><nom>/3<num><coll><subst><nom>+э<cop><aor><p3><pl>/3<num><coll><subst><nom>+э<cop><aor><p3><sg>$
+[/tJU7lY4umeX_]
+[vkvkYvHzCS3N#0] ^2-өөсү/2<num><coll><subst><px3sp><nom>/2<num><coll><subst><px3sp><nom>+э<cop><aor><p3><pl>/2<num><coll><subst><px3sp><nom>+э<cop><aor><p3><sg>$
+[/vkvkYvHzCS3N]
+[xl7TEj0HXtZl#0] ^жетөөсү/жети<num><coll><subst><px3sp><nom>/жети<num><coll><subst><px3sp><nom>+э<cop><aor><p3><pl>/жети<num><coll><subst><px3sp><nom>+э<cop><aor><p3><sg>$
+[/xl7TEj0HXtZl]

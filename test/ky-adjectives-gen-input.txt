@@ -1,0 +1,14 @@
+# [lexc] normal adjectives
+^жаман<adj>$
+^мол<adj>$
+^жакшы<adj>$
+^көк<adj>$
+# [lexc] comparative adjectives
+^кызыл<adj><comp>$
+^таттуу<adj><comp>$
+^жакшы<adj><comp>$
+^кең<adj><comp>$
+^сары<adj><comp>$
+^тоголок<adj><comp>$
+^соо<adj><comp>$
+^өзгөчө<adj><comp>$

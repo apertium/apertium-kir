@@ -1,0 +1,14 @@
+# [lexc] forms with Iш
+^көр<v><tv><aor><p3><sg>$
+^көр<v><tv><aor><p3><pl>$
+^көр<v><tv><aor><p3><pl>$
+^көр<v><tv><coop><aor><p3><pl>$
+^көр<v><tv><coop><prc_irre>$
+# [lexc] forms with -(A)Aр
+^көр<v><tv><fut><p1><sg>$
+^көр<v><tv><fut><p1><sg>$
+# [lexc] spelling variation of кечээ
+^кечээ<adv>$
+^кечээ<adv>$
+^кечээ<adv><attr>$
+^кечээ<adv><attr>$

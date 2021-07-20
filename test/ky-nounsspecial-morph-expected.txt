@@ -1,0 +1,66 @@
+[-NrcVXysKupv#0] ^Минск/Минск<np><top><attr>/Минск<np><top><nom>/Минск<np><top><nom>+э<cop><aor><p3><pl>/Минск<np><top><nom>+э<cop><aor><p3><sg>$
+[/-NrcVXysKupv]
+[2Bo_xsuRBjnT#0] ^орун/орун<n><attr>/орун<n><nom>/орун<n><nom>+э<cop><aor><p3><pl>/орун<n><nom>+э<cop><aor><p3><sg>$
+[/2Bo_xsuRBjnT]
+[3p_qLLyn5v9l#0] ^фактиден/факт<n><abl>/факт<n><abl>+э<cop><aor><p3><pl>/факт<n><abl>+э<cop><aor><p3><sg>$
+[/3p_qLLyn5v9l]
+[4hQXFOTRGvjs#0] ^фактисинде/факт<n><px3sp><loc>/факт<n><px3sp><loc>+э<cop><aor><p3><pl>/факт<n><px3sp><loc>+э<cop><aor><p3><sg>$
+[/4hQXFOTRGvjs]
+[9wXpMbkEA52m#0] ^Омсктон/Омск<np><top><abl>/Омск<np><top><abl>+э<cop><aor><p3><pl>/Омск<np><top><abl>+э<cop><aor><p3><sg>$
+[/9wXpMbkEA52m]
+[AnQZFO2iu-oB#0] ^акттар/акт<n><pl><nom>/акт<n><pl><nom>+э<cop><aor><p3><pl>/акт<n><pl><nom>+э<cop><aor><p3><sg>$
+[/AnQZFO2iu-oB]
+[AyerhvqOAH0I#0] ^ордум/орун<n><px1sg><nom>/орун<n><px1sg><nom>+э<cop><aor><p3><pl>/орун<n><px1sg><nom>+э<cop><aor><p3><sg>/ор<v><tv><ifi><p1><sg>$
+[/AyerhvqOAH0I]
+[EN1WyAub8Awv#0] ^Минскилер/Минск<np><top><pl><nom>/Минск<np><top><pl><nom>+э<cop><aor><p3><pl>/Минск<np><top><pl><nom>+э<cop><aor><p3><sg>$
+[/EN1WyAub8Awv]
+[FM01GrGovZI7#0] ^фактисинин/факт<n><px3sp><gen>$
+[/FM01GrGovZI7]
+[G0xxkwt10fuu#0] ^бири-бир/бири-бири<prn><recip><nom>/бири-бири<prn><recip><nom>+э<cop><aor><p3><pl>/бири-бири<prn><recip><nom>+э<cop><aor><p3><sg>$
+[/G0xxkwt10fuu]
+[Gmc7JwmuYC8X#0] ^ордунан/орун<n><px3sp><abl>/орун<n><px3sp><abl>+э<cop><aor><p3><pl>/орун<n><px3sp><abl>+э<cop><aor><p3><sg>$
+[/Gmc7JwmuYC8X]
+[JyCh0jFmj967#0] ^акттан/акт<n><abl>/акт<n><abl>+э<cop><aor><p3><pl>/акт<n><abl>+э<cop><aor><p3><sg>$
+[/JyCh0jFmj967]
+[LBiMh6LQDMbD#0] ^Омск/Омск<np><top><attr>/Омск<np><top><nom>/Омск<np><top><nom>+э<cop><aor><p3><pl>/Омск<np><top><nom>+э<cop><aor><p3><sg>$
+[/LBiMh6LQDMbD]
+[NKJ0EFUY0v15#0] ^ордумда/орун<n><px1sg><loc>/орун<n><px1sg><loc>+э<cop><aor><p3><pl>/орун<n><px1sg><loc>+э<cop><aor><p3><sg>$
+[/NKJ0EFUY0v15]
+[OztHUNGZ5aAd#0] ^Омскунда/Омск<np><top><px3sp><loc>/Омск<np><top><px3sp><loc>+э<cop><aor><p3><pl>/Омск<np><top><px3sp><loc>+э<cop><aor><p3><sg>$
+[/OztHUNGZ5aAd]
+[Q8U6UUVfI9c-#0] ^Минскинин/Минск<np><top><gen>/Минск<np><top><px3sp><gen>$
+[/Q8U6UUVfI9c-]
+[Ux73v6UoMClg#0] ^Омсктун/Омск<np><top><gen>$
+[/Ux73v6UoMClg]
+[W3c65xkhzYjq#0] ^Минскисинин/Минск<np><top><px3sp><gen>$
+[/W3c65xkhzYjq]
+[WzXP5i-S7CNN#0] ^бири-биринин/бири-бири<prn><recip><px3sp><gen>$
+[/WzXP5i-S7CNN]
+[XxsrTyAFYxF-#0] ^бири-бирибизге/бири-бири<prn><recip><px1pl><dat>$
+[/XxsrTyAFYxF-]
+[ZNcOwlPcMlRj#0] ^актынын/акт<n><px3sp><gen>$
+[/ZNcOwlPcMlRj]
+[aUTQXhSuTgFU#0] ^Минскиден/Минск<np><top><abl>/Минск<np><top><abl>+э<cop><aor><p3><pl>/Минск<np><top><abl>+э<cop><aor><p3><sg>$
+[/aUTQXhSuTgFU]
+[c6nUDf5o4xAR#0] ^орундар/орун<n><pl><nom>/орун<n><pl><nom>+э<cop><aor><p3><pl>/орун<n><pl><nom>+э<cop><aor><p3><sg>$
+[/c6nUDf5o4xAR]
+[e_dtbnGizfno#0] ^бири-бири/бири-бири<prn><recip><px3sp><nom>/бири-бири<prn><recip><px3sp><nom>+э<cop><aor><p3><pl>/бири-бири<prn><recip><px3sp><nom>+э<cop><aor><p3><sg>$
+[/e_dtbnGizfno]
+[fLbjy8mTI3q5#0] ^Омсктор/Омск<np><top><pl><nom>/Омск<np><top><pl><nom>+э<cop><aor><p3><pl>/Омск<np><top><pl><nom>+э<cop><aor><p3><sg>$
+[/fLbjy8mTI3q5]
+[fru73jILqbvG#0] ^фактинин/факт<n><gen>$
+[/fru73jILqbvG]
+[kUtWD4EzPXMi#0] ^орунда/орун<n><loc>/орун<n><loc>+э<cop><aor><p3><pl>/орун<n><loc>+э<cop><aor><p3><sg>$
+[/kUtWD4EzPXMi]
+[nJ6JnC9vH7f4#0] ^акттын/акт<n><gen>$
+[/nJ6JnC9vH7f4]
+[nr5nex3csPE3#0] ^фактилер/факт<n><pl><nom>/факт<n><pl><nom>+э<cop><aor><p3><pl>/факт<n><pl><nom>+э<cop><aor><p3><sg>$
+[/nr5nex3csPE3]
+[pWzNH3_Ld2Gi#0] ^Омскунун/Омск<np><top><px3sp><gen>$
+[/pWzNH3_Ld2Gi]
+[pbJ6c0nY0KIC#0] ^факт/факт<n><attr>/факт<n><nom>/факт<n><nom>+э<cop><aor><p3><pl>/факт<n><nom>+э<cop><aor><p3><sg>$
+[/pbJ6c0nY0KIC]
+[qTcSaLZ82V8a#0] ^актында/акт<n><px3sp><loc>/акт<n><px3sp><loc>+э<cop><aor><p3><pl>/акт<n><px3sp><loc>+э<cop><aor><p3><sg>$
+[/qTcSaLZ82V8a]
+[wufOb5gmLN_r#0] ^Минскисинде/Минск<np><top><px3sp><loc>/Минск<np><top><px3sp><loc>+э<cop><aor><p3><pl>/Минск<np><top><px3sp><loc>+э<cop><aor><p3><sg>$
+[/wufOb5gmLN_r]

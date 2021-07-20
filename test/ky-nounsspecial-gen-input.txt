@@ -1,0 +1,37 @@
+# [lexc] Pronoun cases and stuff
+^бири-бир<prn><recip><nom>$
+^бири-бир<prn><recip><px3sg><nom>$
+^бири-бир<prn><recip><px3sg><gen>$
+^бири-бир<prn><recip><px1pl><dat>$
+# [twol] Nouns with epenthetic vowels
+^орун<n><nom>$
+^орун<n><loc>$
+^орун<n><px1sg><nom>$
+^орун<n><px1sg><loc>$
+^орун<n><pl><nom>$
+^орун<n><px3sp><abl>$
+# [twol] Nouns with certain clusters analysed normally
+^факт<n><nom>$
+^акт<n><abl>$
+^акт<n><gen>$
+^акт<n><pl><nom>$
+^акт<n><px3sp><gen>$
+^акт<n><px3sp><loc>$
+^Омск<np><top><nom>$
+^Омск<np><top><abl>$
+^Омск<np><top><gen>$
+^Омск<np><top><pl><nom>$
+^Омск<np><top><px3sp><gen>$
+^Омск<np><top><px3sp><loc>$
+# [twol] Nouns with certain clusters generated with extra и
+^факт<n><abl>$
+^факт<n><gen>$
+^факт<n><pl><nom>$
+^факт<n><px3sp><gen>$
+^факт<n><px3sp><loc>$
+^Минск<np><top><nom>$
+^Минск<np><top><abl>$
+^Минск<np><top><gen>$
+^Минск<np><top><pl><nom>$
+^Минск<np><top><px3sp><gen>$
+^Минск<np><top><px3sp><loc>$

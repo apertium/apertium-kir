@@ -1,0 +1,12 @@
+# [lexc] aorist forms
+болушат
+болот
+болот
+# [lexc] negative aorist forms
+болушкан жок
+болгон жок
+болгон жок
+# [lexc] ifi forms
+болушту
+болду
+болду

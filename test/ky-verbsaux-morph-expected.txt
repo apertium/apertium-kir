@@ -1,0 +1,6 @@
+[--Ap3i9Pau_r#0] ^келатат/кел<v><iv><prc_impf>+жат<vaux><aor><p3><pl>/кел<v><iv><prc_impf>+жат<vaux><aor><p3><sg>/кел<v><iv><prc_impf>+жат<vaux><prc_irre>$
+[/--Ap3i9Pau_r]
+[gw6_PDKVNx5P#0] ^болуп/бол<v><iv><gna_perf>/бол<v><iv><prc_perf>/бол<vaux><gna_perf>/бол<vaux><prc_perf>$ ^атат/ата<v><tv><caus><imp><p2><sg>/ат<v><tv><aor><p3><pl>/ат<v><tv><aor><p3><sg>/ат<v><tv><prc_irre>/жат<vaux><aor><p3><pl>/жат<vaux><aor><p3><sg>/жат<vaux><prc_irre>$
+[/gw6_PDKVNx5P]
+[lO9si2DYwNY5#0] ^баратат/бар<v><iv><prc_impf>+жат<vaux><aor><p3><pl>/бар<v><iv><prc_impf>+жат<vaux><aor><p3><sg>/бар<v><iv><prc_impf>+жат<vaux><prc_irre>$
+[/lO9si2DYwNY5]

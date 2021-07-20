@@ -1,0 +1,168 @@
+[-KqLbFJ3BpSY#0] ^сиздерге/сиздер<prn><pers><p2><pl><frm><dat>$
+[/-KqLbFJ3BpSY]
+[-strwFvpJ7kc#0] ^сени/сен<prn><pers><p2><sg><acc>$
+[/-strwFvpJ7kc]
+[0tFVsxzGtL8z#0] ^тигиге/тигил<prn><dem><dat>/тиги<prn><dem><dat>$
+[/0tFVsxzGtL8z]
+[19SW7R_yDkRM#0] ^менде/мен<prn><pers><p1><sg><loc>/мен<prn><pers><p1><sg><loc>+э<cop><aor><p3><pl>/мен<prn><pers><p1><sg><loc>+э<cop><aor><p3><sg>$
+[/19SW7R_yDkRM]
+[2dnjGAbOOvhU#0] ^бул/бул<det><dem>/бул<prn><dem><nom>/бул<prn><dem><nom>+э<cop><aor><p3><pl>/бул<prn><dem><nom>+э<cop><aor><p3><sg>$
+[/2dnjGAbOOvhU]
+[2sPwoZLpFHRu#0] ^бизди/биз<prn><pers><p1><pl><acc>$
+[/2sPwoZLpFHRu]
+[3akN2c836K0g#0] ^муну/бул<prn><dem><acc>$
+[/3akN2c836K0g]
+[3n2iE4_VJzWM#0] ^сиздерди/сиздер<prn><pers><p2><pl><frm><acc>$
+[/3n2iE4_VJzWM]
+[3oo4_NEVsZMq#0] ^ошону/ошол<prn><dem><acc>$
+[/3oo4_NEVsZMq]
+[3yc7zDfZF1SB#0] ^мени/мен<prn><pers><p1><sg><acc>$
+[/3yc7zDfZF1SB]
+[4CKcBskvzzHu#0] ^ошондон/ошол<prn><dem><abl>/ошол<prn><dem><abl>+э<cop><aor><p3><pl>/ошол<prn><dem><abl>+э<cop><aor><p3><sg>$
+[/4CKcBskvzzHu]
+[4g0JIIwmgUHk#0] ^мындан/бул<prn><dem><abl>/бул<prn><dem><abl>+э<cop><aor><p3><pl>/бул<prn><dem><abl>+э<cop><aor><p3><sg>$
+[/4g0JIIwmgUHk]
+[5OdknbIzyqU_#0] ^анын/ал<prn><dem><gen>/ал<prn><pers><p3><sg><gen>$
+[/5OdknbIzyqU_]
+[5Z2P3I9bEial#0] ^мунун/бул<prn><dem><gen>$
+[/5Z2P3I9bEial]
+[7gD7btzrCCLW#0] ^биз/биз<prn><pers><p1><pl><nom>/биз<prn><pers><p1><pl><nom>+э<cop><aor><p3><pl>/биз<prn><pers><p1><pl><nom>+э<cop><aor><p3><sg>$
+[/7gD7btzrCCLW]
+[7sFpHoAiscBF#0] ^бизден/биз<prn><pers><p1><pl><abl>/биз<prn><pers><p1><pl><abl>+э<cop><aor><p3><pl>/биз<prn><pers><p1><pl><abl>+э<cop><aor><p3><sg>$
+[/7sFpHoAiscBF]
+[81n523RH-gr9#0] ^аны/ал<prn><dem><acc>/ал<prn><pers><p3><sg><acc>/аны<n><attr>/аны<n><nom>/аны<n><nom>+э<cop><aor><p3><pl>/аны<n><nom>+э<cop><aor><p3><sg>$
+[/81n523RH-gr9]
+[9Eae6V9ECJ7a#0] ^сизден/сиз<prn><pers><p2><sg><frm><abl>/сиз<prn><pers><p2><sg><frm><abl>+э<cop><aor><p3><pl>/сиз<prn><pers><p2><sg><frm><abl>+э<cop><aor><p3><sg>$
+[/9Eae6V9ECJ7a]
+[AQZIoyGUYFbc#0] ^тигинин/тигил<prn><dem><gen>/тиги<prn><dem><gen>/тик<adj><subst><px3sp><gen>$
+[/AQZIoyGUYFbc]
+[AVySZMUFMiev#0] ^тигилерге/тигил<prn><dem><pl><dat>/тиги<prn><dem><pl><dat>/тик<v><tv><pass><ger_fut><dat>/тик<v><tv><pass><ger_ppot><dat>/тик<v><tv><pass><gpr_fut><subst><dat>/тик<v><tv><pass><gpr_ppot><dat>$
+[/AVySZMUFMiev]
+[BVRaEMMAGNqD#0] ^сенден/сен<prn><pers><p2><sg><abl>/сен<prn><pers><p2><sg><abl>+э<cop><aor><p3><pl>/сен<prn><pers><p2><sg><abl>+э<cop><aor><p3><sg>$
+[/BVRaEMMAGNqD]
+[CL3o4aYRHE3j#0] ^андан/ал<prn><dem><abl>/ал<prn><dem><abl>+э<cop><aor><p3><pl>/ал<prn><dem><abl>+э<cop><aor><p3><sg>/ал<prn><pers><p3><sg><abl>/ал<prn><pers><p3><sg><abl>+э<cop><aor><p3><pl>/ал<prn><pers><p3><sg><abl>+э<cop><aor><p3><sg>$
+[/CL3o4aYRHE3j]
+[C_vEZ1kIt1bd#0] ^ошолор/ошол<prn><dem><pl><nom>/ошол<prn><dem><pl><nom>+э<cop><aor><p3><pl>/ошол<prn><dem><pl><nom>+э<cop><aor><p3><sg>$
+[/C_vEZ1kIt1bd]
+[EN6U5k7-PPZU#0] ^алардан/алар<prn><pers><p3><pl><abl>/алар<prn><pers><p3><pl><abl>+э<cop><aor><p3><pl>/алар<prn><pers><p3><pl><abl>+э<cop><aor><p3><sg>/ал<prn><dem><pl><abl>/ал<prn><dem><pl><abl>+э<cop><aor><p3><pl>/ал<prn><dem><pl><abl>+э<cop><aor><p3><sg>/ал<v><tv><ger_fut><abl>/ал<v><tv><ger_fut><abl>+э<cop><aor><p3><pl>/ал<v><tv><ger_fut><abl>+э<cop><aor><p3><sg>/ал<v><tv><ger_ppot><abl>/ал<v><tv><ger_ppot><abl>+э<cop><aor><p3><pl>/ал<v><tv><ger_ppot><abl>+э<cop><aor><p3><sg>/ал<v><tv><gpr_fut><subst><abl>/ал<v><tv><gpr_fut><subst><abl>+э<cop><aor><p3><pl>/ал<v><tv><gpr_fut><subst><abl>+э<cop><aor><p3><sg>/ал<v><tv><gpr_ppot><abl>/ал<v><tv><gpr_ppot><abl>+э<cop><aor><p3><pl>/ал<v><tv><gpr_ppot><abl>+э<cop><aor><p3><sg>/ал<vaux><ger_fut><abl>/ал<vaux><ger_fut><abl>+э<cop><aor><p3><pl>/ал<vaux><ger_fut><abl>+э<cop><aor><p3><sg>/ал<vaux><ger_ppot><abl>/ал<vaux><ger_ppot><abl>+э<cop><aor><p3><pl>/ал<vaux><ger_ppot><abl>+э<cop><aor><p3><sg>/ал<vaux><gpr_fut><subst><abl>/ал<vaux><gpr_fut><subst><abl>+э<cop><aor><p3><pl>/ал<vaux><gpr_fut><subst><abl>+э<cop><aor><p3><sg>/ал<vaux><gpr_ppot><abl>/ал<vaux><gpr_ppot><abl>+э<cop><aor><p3><pl>/ал<vaux><gpr_ppot><abl>+э<cop><aor><p3><sg>$
+[/EN6U5k7-PPZU]
+[FvWAsZyDmEOP#0] ^тигилер/тигил<prn><dem><pl><nom>/тигил<prn><dem><pl><nom>+э<cop><aor><p3><pl>/тигил<prn><dem><pl><nom>+э<cop><aor><p3><sg>/тиги<prn><dem><pl><nom>/тиги<prn><dem><pl><nom>+э<cop><aor><p3><pl>/тиги<prn><dem><pl><nom>+э<cop><aor><p3><sg>/тик<v><tv><pass><fut><p3><pl>/тик<v><tv><pass><fut><p3><sg>/тик<v><tv><pass><ger_fut><nom>/тик<v><tv><pass><ger_fut><nom>+э<cop><aor><p3><pl>/тик<v><tv><pass><ger_fut><nom>+э<cop><aor><p3><sg>/тик<v><tv><pass><ger_ppot><nom>/тик<v><tv><pass><ger_ppot><nom>+э<cop><aor><p3><pl>/тик<v><tv><pass><ger_ppot><nom>+э<cop><aor><p3><sg>/тик<v><tv><pass><gpr_fut>/тик<v><tv><pass><gpr_fut><subst><nom>/тик<v><tv><pass><gpr_fut><subst><nom>+э<cop><aor><p3><pl>/тик<v><tv><pass><gpr_fut><subst><nom>+э<cop><aor><p3><sg>/тик<v><tv><pass><gpr_ppot><nom>/тик<v><tv><pass><gpr_ppot><nom>+э<cop><aor><p3><pl>/тик<v><tv><pass><gpr_ppot><nom>+э<cop><aor><p3><sg>/тик<v><tv><pass><prc_fut>$
+[/FvWAsZyDmEOP]
+[GjPMYBZLOTzZ#0] ^силерди/силер<prn><pers><p2><pl><acc>/си<n><pl><acc>$
+[/GjPMYBZLOTzZ]
+[INxkvxlvuSiV#0] ^бизге/биз<prn><pers><p1><pl><dat>$
+[/INxkvxlvuSiV]
+[Iq3X__BqSw3v#0] ^ага/ага<n><attr>/ага<n><nom>/ага<n><nom>+э<cop><aor><p3><pl>/ага<n><nom>+э<cop><aor><p3><sg>/ак<v><iv><prc_impf>/ал<prn><dem><dat>/ал<prn><pers><p3><sg><dat>$
+[/Iq3X__BqSw3v]
+[JfcADAAd6RdC#0] ^тигилердин/тигил<prn><dem><pl><gen>/тиги<prn><dem><pl><gen>/тик<v><tv><pass><ger_fut><gen>/тик<v><tv><pass><ger_ppot><gen>/тик<v><tv><pass><gpr_fut><subst><gen>/тик<v><tv><pass><gpr_ppot><gen>$
+[/JfcADAAd6RdC]
+[JseBDBtkFflk#0] ^сен/сен<prn><pers><p2><sg><nom>/сен<prn><pers><p2><sg><nom>+э<cop><aor><p3><pl>/сен<prn><pers><p2><sg><nom>+э<cop><aor><p3><sg>$
+[/JseBDBtkFflk]
+[JzymN4wLSE7e#0] ^алар/алар<prn><pers><p3><pl><nom>/алар<prn><pers><p3><pl><nom>+э<cop><aor><p3><pl>/алар<prn><pers><p3><pl><nom>+э<cop><aor><p3><sg>/ал<prn><dem><pl><nom>/ал<prn><dem><pl><nom>+э<cop><aor><p3><pl>/ал<prn><dem><pl><nom>+э<cop><aor><p3><sg>/ал<v><tv><fut><p3><pl>/ал<v><tv><fut><p3><sg>/ал<v><tv><ger_fut><nom>/ал<v><tv><ger_fut><nom>+э<cop><aor><p3><pl>/ал<v><tv><ger_fut><nom>+э<cop><aor><p3><sg>/ал<v><tv><ger_ppot><nom>/ал<v><tv><ger_ppot><nom>+э<cop><aor><p3><pl>/ал<v><tv><ger_ppot><nom>+э<cop><aor><p3><sg>/ал<v><tv><gpr_fut>/ал<v><tv><gpr_fut><subst><nom>/ал<v><tv><gpr_fut><subst><nom>+э<cop><aor><p3><pl>/ал<v><tv><gpr_fut><subst><nom>+э<cop><aor><p3><sg>/ал<v><tv><gpr_ppot><nom>/ал<v><tv><gpr_ppot><nom>+э<cop><aor><p3><pl>/ал<v><tv><gpr_ppot><nom>+э<cop><aor><p3><sg>/ал<v><tv><prc_fut>/ал<vaux><fut><p3><pl>/ал<vaux><fut><p3><sg>/ал<vaux><ger_fut><nom>/ал<vaux><ger_fut><nom>+э<cop><aor><p3><pl>/ал<vaux><ger_fut><nom>+э<cop><aor><p3><sg>/ал<vaux><ger_ppot><nom>/ал<vaux><ger_ppot><nom>+э<cop><aor><p3><pl>/ал<vaux><ger_ppot><nom>+э<cop><aor><p3><sg>/ал<vaux><gpr_fut>/ал<vaux><gpr_fut><subst><nom>/ал<vaux><gpr_fut><subst><nom>+э<cop><aor><p3><pl>/ал<vaux><gpr_fut><subst><nom>+э<cop><aor><p3><sg>/ал<vaux><gpr_ppot><nom>/ал<vaux><gpr_ppot><nom>+э<cop><aor><p3><pl>/ал<vaux><gpr_ppot><nom>+э<cop><aor><p3><sg>/ал<vaux><prc_fut>$
+[/JzymN4wLSE7e]
+[Khh-0ETJt0o6#0] ^силерден/силер<prn><pers><p2><pl><abl>/силер<prn><pers><p2><pl><abl>+э<cop><aor><p3><pl>/силер<prn><pers><p2><pl><abl>+э<cop><aor><p3><sg>/си<n><pl><abl>/си<n><pl><abl>+э<cop><aor><p3><pl>/си<n><pl><abl>+э<cop><aor><p3><sg>$
+[/Khh-0ETJt0o6]
+[MZjVJZKha5NC#0] ^булар/була<v><tv><fut><p3><pl>/була<v><tv><fut><p3><sg>/була<v><tv><ger_fut><nom>/була<v><tv><ger_fut><nom>+э<cop><aor><p3><pl>/була<v><tv><ger_fut><nom>+э<cop><aor><p3><sg>/була<v><tv><ger_ppot><nom>/була<v><tv><ger_ppot><nom>+э<cop><aor><p3><pl>/була<v><tv><ger_ppot><nom>+э<cop><aor><p3><sg>/була<v><tv><gpr_fut>/була<v><tv><gpr_fut><subst><nom>/була<v><tv><gpr_fut><subst><nom>+э<cop><aor><p3><pl>/була<v><tv><gpr_fut><subst><nom>+э<cop><aor><p3><sg>/була<v><tv><gpr_ppot><nom>/була<v><tv><gpr_ppot><nom>+э<cop><aor><p3><pl>/була<v><tv><gpr_ppot><nom>+э<cop><aor><p3><sg>/була<v><tv><prc_fut>/бул<prn><dem><pl><nom>/бул<prn><dem><pl><nom>+э<cop><aor><p3><pl>/бул<prn><dem><pl><nom>+э<cop><aor><p3><sg>$
+[/MZjVJZKha5NC]
+[NSLVPKrWgUMY#0] ^анда/ал<prn><dem><loc>/ал<prn><dem><loc>+э<cop><aor><p3><pl>/ал<prn><dem><loc>+э<cop><aor><p3><sg>/ал<prn><pers><p3><sg><loc>/ал<prn><pers><p3><sg><loc>+э<cop><aor><p3><pl>/ал<prn><pers><p3><sg><loc>+э<cop><aor><p3><sg>/анда<adv>/анда<cnjadv>/анда<ij>$
+[/NSLVPKrWgUMY]
+[O9tAnV1yk2B6#0] ^сиздин/сиз<prn><pers><p2><sg><frm><gen>$
+[/O9tAnV1yk2B6]
+[OLlJC21Th3UH#0] ^тигилерден/тигил<prn><dem><pl><abl>/тигил<prn><dem><pl><abl>+э<cop><aor><p3><pl>/тигил<prn><dem><pl><abl>+э<cop><aor><p3><sg>/тиги<prn><dem><pl><abl>/тиги<prn><dem><pl><abl>+э<cop><aor><p3><pl>/тиги<prn><dem><pl><abl>+э<cop><aor><p3><sg>/тик<v><tv><pass><ger_fut><abl>/тик<v><tv><pass><ger_fut><abl>+э<cop><aor><p3><pl>/тик<v><tv><pass><ger_fut><abl>+э<cop><aor><p3><sg>/тик<v><tv><pass><ger_ppot><abl>/тик<v><tv><pass><ger_ppot><abl>+э<cop><aor><p3><pl>/тик<v><tv><pass><ger_ppot><abl>+э<cop><aor><p3><sg>/тик<v><tv><pass><gpr_fut><subst><abl>/тик<v><tv><pass><gpr_fut><subst><abl>+э<cop><aor><p3><pl>/тик<v><tv><pass><gpr_fut><subst><abl>+э<cop><aor><p3><sg>/тик<v><tv><pass><gpr_ppot><abl>/тик<v><tv><pass><gpr_ppot><abl>+э<cop><aor><p3><pl>/тик<v><tv><pass><gpr_ppot><abl>+э<cop><aor><p3><sg>$
+[/OLlJC21Th3UH]
+[R3SUf3cj65Dx#0] ^аларга/алар<prn><pers><p3><pl><dat>/ал<prn><dem><pl><dat>/ал<v><tv><ger_fut><dat>/ал<v><tv><ger_ppot><dat>/ал<v><tv><gpr_fut><subst><dat>/ал<v><tv><gpr_ppot><dat>/ал<vaux><ger_fut><dat>/ал<vaux><ger_ppot><dat>/ал<vaux><gpr_fut><subst><dat>/ал<vaux><gpr_ppot><dat>$
+[/R3SUf3cj65Dx]
+[RUnivT7P6ckh#0] ^аларды/алар<prn><pers><p3><pl><acc>/ал<prn><dem><pl><acc>/ал<v><tv><ger_fut><acc>/ал<v><tv><ger_ppot><acc>/ал<v><tv><gpr_fut><subst><acc>/ал<v><tv><gpr_ppot><acc>/ал<vaux><ger_fut><acc>/ал<vaux><ger_ppot><acc>/ал<vaux><gpr_fut><subst><acc>/ал<vaux><gpr_ppot><acc>$
+[/RUnivT7P6ckh]
+[RVWbHJazhEYx#0] ^тигини/тигил<prn><dem><acc>/тиги<prn><dem><acc>$
+[/RVWbHJazhEYx]
+[TFmDSnuj9DDw#0] ^булардын/була<v><tv><ger_fut><gen>/була<v><tv><ger_ppot><gen>/була<v><tv><gpr_fut><subst><gen>/була<v><tv><gpr_ppot><gen>/бул<prn><dem><pl><gen>$
+[/TFmDSnuj9DDw]
+[VEvOKL8UiXUm#0] ^буларды/була<v><tv><ger_fut><acc>/була<v><tv><ger_ppot><acc>/була<v><tv><gpr_fut><subst><acc>/була<v><tv><gpr_ppot><acc>/бул<prn><dem><pl><acc>$
+[/VEvOKL8UiXUm]
+[X95ijxdYKKaT#0] ^менин/мен<prn><pers><p1><sg><gen>$
+[/X95ijxdYKKaT]
+[XQIbWDqt23HZ#0] ^алардын/алар<prn><pers><p3><pl><gen>/ал<prn><dem><pl><gen>/ал<v><tv><ger_fut><gen>/ал<v><tv><ger_ppot><gen>/ал<v><tv><gpr_fut><subst><gen>/ал<v><tv><gpr_ppot><gen>/ал<vaux><ger_fut><gen>/ал<vaux><ger_ppot><gen>/ал<vaux><gpr_fut><subst><gen>/ал<vaux><gpr_ppot><gen>$
+[/XQIbWDqt23HZ]
+[XhtfXbNPmFY6#0] ^биздин/биз<prn><pers><p1><pl><gen>$
+[/XhtfXbNPmFY6]
+[XmdYUpwDAUx4#0] ^сиздерден/сиздер<prn><pers><p2><pl><frm><abl>/сиздер<prn><pers><p2><pl><frm><abl>+э<cop><aor><p3><pl>/сиздер<prn><pers><p2><pl><frm><abl>+э<cop><aor><p3><sg>$
+[/XmdYUpwDAUx4]
+[Y2_Jek4ga4um#0] ^силердин/силер<prn><pers><p2><pl><gen>/си<n><pl><gen>$
+[/Y2_Jek4ga4um]
+[Y8Ui96GxouM2#0] ^силер/силер<prn><pers><p2><pl><nom>/силер<prn><pers><p2><pl><nom>+э<cop><aor><p3><pl>/силер<prn><pers><p2><pl><nom>+э<cop><aor><p3><sg>/си<n><pl><nom>/си<n><pl><nom>+э<cop><aor><p3><pl>/си<n><pl><nom>+э<cop><aor><p3><sg>$
+[/Y8Ui96GxouM2]
+[Z8iRcMC1uJGz#0] ^булардан/була<v><tv><ger_fut><abl>/була<v><tv><ger_fut><abl>+э<cop><aor><p3><pl>/була<v><tv><ger_fut><abl>+э<cop><aor><p3><sg>/була<v><tv><ger_ppot><abl>/була<v><tv><ger_ppot><abl>+э<cop><aor><p3><pl>/була<v><tv><ger_ppot><abl>+э<cop><aor><p3><sg>/була<v><tv><gpr_fut><subst><abl>/була<v><tv><gpr_fut><subst><abl>+э<cop><aor><p3><pl>/була<v><tv><gpr_fut><subst><abl>+э<cop><aor><p3><sg>/була<v><tv><gpr_ppot><abl>/була<v><tv><gpr_ppot><abl>+э<cop><aor><p3><pl>/була<v><tv><gpr_ppot><abl>+э<cop><aor><p3><sg>/бул<prn><dem><pl><abl>/бул<prn><dem><pl><abl>+э<cop><aor><p3><pl>/бул<prn><dem><pl><abl>+э<cop><aor><p3><sg>$
+[/Z8iRcMC1uJGz]
+[ZYVs6lqQZJ5R#0] ^сизге/сиз<prn><pers><p2><sg><frm><dat>$
+[/ZYVs6lqQZJ5R]
+[_OYn8CDbayv8#0] ^сиз/сиз<prn><pers><p2><sg><frm><nom>/сиз<prn><pers><p2><sg><frm><nom>+э<cop><aor><p3><pl>/сиз<prn><pers><p2><sg><frm><nom>+э<cop><aor><p3><sg>$
+[/_OYn8CDbayv8]
+[_qcX9nFJll6m#0] ^тигинден/тигил<prn><dem><abl>/тигил<prn><dem><abl>+э<cop><aor><p3><pl>/тигил<prn><dem><abl>+э<cop><aor><p3><sg>$
+[/_qcX9nFJll6m]
+[a4z2SlHUpQjF#0] ^ошондо/ошол<prn><dem><loc>/ошол<prn><dem><loc>+э<cop><aor><p3><pl>/ошол<prn><dem><loc>+э<cop><aor><p3><sg>/ошондо<adv>/ошондо<cnjadv>$
+[/a4z2SlHUpQjF]
+[aAKNswLI2c1W#0] ^мага/мен<prn><pers><p1><sg><dat>$
+[/aAKNswLI2c1W]
+[aUXa8fYAmsFT#0] ^менден/мен<prn><pers><p1><sg><abl>/мен<prn><pers><p1><sg><abl>+э<cop><aor><p3><pl>/мен<prn><pers><p1><sg><abl>+э<cop><aor><p3><sg>$
+[/aUXa8fYAmsFT]
+[eLf_MgudlhQm#0] ^буларга/була<v><tv><ger_fut><dat>/була<v><tv><ger_ppot><dat>/була<v><tv><gpr_fut><subst><dat>/була<v><tv><gpr_ppot><dat>/бул<prn><dem><pl><dat>$
+[/eLf_MgudlhQm]
+[i5w3JULBco26#0] ^сизде/сиз<prn><pers><p2><sg><frm><loc>/сиз<prn><pers><p2><sg><frm><loc>+э<cop><aor><p3><pl>/сиз<prn><pers><p2><sg><frm><loc>+э<cop><aor><p3><sg>$
+[/i5w3JULBco26]
+[i64NrllO8Q3P#0] ^сенин/сен<prn><pers><p2><sg><gen>$
+[/i64NrllO8Q3P]
+[j2gBSh6at6D_#0] ^мында/бул<prn><dem><loc>/бул<prn><dem><loc>+э<cop><aor><p3><pl>/бул<prn><dem><loc>+э<cop><aor><p3><sg>$
+[/j2gBSh6at6D_]
+[jJOmNmTLRW9Q#0] ^мен/мен<prn><pers><p1><sg><nom>/мен<prn><pers><p1><sg><nom>+э<cop><aor><p3><pl>/мен<prn><pers><p1><sg><nom>+э<cop><aor><p3><sg>$
+[/jJOmNmTLRW9Q]
+[m2ow-h_3SCMn#0] ^тигинде/тигил<prn><dem><loc>/тигил<prn><dem><loc>+э<cop><aor><p3><pl>/тигил<prn><dem><loc>+э<cop><aor><p3><sg>/тик<adj><subst><px3sp><loc>/тик<adj><subst><px3sp><loc>+э<cop><aor><p3><pl>/тик<adj><subst><px3sp><loc>+э<cop><aor><p3><sg>$
+[/m2ow-h_3SCMn]
+[mVgduVWlicGi#0] ^бизде/биз<prn><pers><p1><pl><loc>/биз<prn><pers><p1><pl><loc>+э<cop><aor><p3><pl>/биз<prn><pers><p1><pl><loc>+э<cop><aor><p3><sg>$
+[/mVgduVWlicGi]
+[p0C11tpyr7U5#0] ^ошонун/ошол<prn><dem><gen>$
+[/p0C11tpyr7U5]
+[puzKkpWIGMgi#0] ^сизди/сиз<prn><pers><p2><sg><frm><acc>$
+[/puzKkpWIGMgi]
+[qQawcUubhci4#0] ^ошолорго/ошол<prn><dem><pl><dat>$
+[/qQawcUubhci4]
+[rCjt_TFXHbVV#0] ^ошого/ошол<prn><dem><dat>$
+[/rCjt_TFXHbVV]
+[rUXl7NL_-e8K#0] ^сиздер/сиздер<prn><pers><p2><pl><frm><nom>/сиздер<prn><pers><p2><pl><frm><nom>+э<cop><aor><p3><pl>/сиздер<prn><pers><p2><pl><frm><nom>+э<cop><aor><p3><sg>$
+[/rUXl7NL_-e8K]
+[sPB7qxFTUuJZ#0] ^аларда/алар<prn><pers><p3><pl><loc>/алар<prn><pers><p3><pl><loc>+э<cop><aor><p3><pl>/алар<prn><pers><p3><pl><loc>+э<cop><aor><p3><sg>/ал<prn><dem><pl><loc>/ал<prn><dem><pl><loc>+э<cop><aor><p3><pl>/ал<prn><dem><pl><loc>+э<cop><aor><p3><sg>/ал<v><tv><ger_fut><loc>/ал<v><tv><ger_fut><loc>+э<cop><aor><p3><pl>/ал<v><tv><ger_fut><loc>+э<cop><aor><p3><sg>/ал<v><tv><ger_ppot><loc>/ал<v><tv><ger_ppot><loc>+э<cop><aor><p3><pl>/ал<v><tv><ger_ppot><loc>+э<cop><aor><p3><sg>/ал<v><tv><gpr_fut><subst><loc>/ал<v><tv><gpr_fut><subst><loc>+э<cop><aor><p3><pl>/ал<v><tv><gpr_fut><subst><loc>+э<cop><aor><p3><sg>/ал<v><tv><gpr_ppot><loc>/ал<v><tv><gpr_ppot><loc>+э<cop><aor><p3><pl>/ал<v><tv><gpr_ppot><loc>+э<cop><aor><p3><sg>/ал<vaux><ger_fut><loc>/ал<vaux><ger_fut><loc>+э<cop><aor><p3><pl>/ал<vaux><ger_fut><loc>+э<cop><aor><p3><sg>/ал<vaux><ger_ppot><loc>/ал<vaux><ger_ppot><loc>+э<cop><aor><p3><pl>/ал<vaux><ger_ppot><loc>+э<cop><aor><p3><sg>/ал<vaux><gpr_fut><subst><loc>/ал<vaux><gpr_fut><subst><loc>+э<cop><aor><p3><pl>/ал<vaux><gpr_fut><subst><loc>+э<cop><aor><p3><sg>/ал<vaux><gpr_ppot><loc>/ал<vaux><gpr_ppot><loc>+э<cop><aor><p3><pl>/ал<vaux><gpr_ppot><loc>+э<cop><aor><p3><sg>$
+[/sPB7qxFTUuJZ]
+[tALFbMoyAVSQ#0] ^тигил/тигил<prn><dem><nom>/тигил<prn><dem><nom>+э<cop><aor><p3><pl>/тигил<prn><dem><nom>+э<cop><aor><p3><sg>/тиги<det><dem>/тик<v><tv><pass><imp><p2><sg>$
+[/tALFbMoyAVSQ]
+[trbGpNaQR1cT#0] ^ошолордун/ошол<prn><dem><pl><gen>$
+[/trbGpNaQR1cT]
+[txqtEVwawbUN#0] ^тигилерде/тигил<prn><dem><pl><loc>/тигил<prn><dem><pl><loc>+э<cop><aor><p3><pl>/тигил<prn><dem><pl><loc>+э<cop><aor><p3><sg>/тиги<prn><dem><pl><loc>/тиги<prn><dem><pl><loc>+э<cop><aor><p3><pl>/тиги<prn><dem><pl><loc>+э<cop><aor><p3><sg>/тик<v><tv><pass><ger_fut><loc>/тик<v><tv><pass><ger_fut><loc>+э<cop><aor><p3><pl>/тик<v><tv><pass><ger_fut><loc>+э<cop><aor><p3><sg>/тик<v><tv><pass><ger_ppot><loc>/тик<v><tv><pass><ger_ppot><loc>+э<cop><aor><p3><pl>/тик<v><tv><pass><ger_ppot><loc>+э<cop><aor><p3><sg>/тик<v><tv><pass><gpr_fut><subst><loc>/тик<v><tv><pass><gpr_fut><subst><loc>+э<cop><aor><p3><pl>/тик<v><tv><pass><gpr_fut><subst><loc>+э<cop><aor><p3><sg>/тик<v><tv><pass><gpr_ppot><loc>/тик<v><tv><pass><gpr_ppot><loc>+э<cop><aor><p3><pl>/тик<v><tv><pass><gpr_ppot><loc>+э<cop><aor><p3><sg>$
+[/txqtEVwawbUN]
+[utWfaf1-vSvI#0] ^сиздерде/сиздер<prn><pers><p2><pl><frm><loc>/сиздер<prn><pers><p2><pl><frm><loc>+э<cop><aor><p3><pl>/сиздер<prn><pers><p2><pl><frm><loc>+э<cop><aor><p3><sg>$
+[/utWfaf1-vSvI]
+[vW8ecbDwebyt#0] ^тигилерди/тигил<prn><dem><pl><acc>/тиги<prn><dem><pl><acc>/тик<v><tv><pass><ger_fut><acc>/тик<v><tv><pass><ger_ppot><acc>/тик<v><tv><pass><gpr_fut><subst><acc>/тик<v><tv><pass><gpr_ppot><acc>$
+[/vW8ecbDwebyt]
+[vWLexi-YuO3a#0] ^ошол/ошол<det><dem>/ошол<prn><dem><nom>/ошол<prn><dem><nom>+э<cop><aor><p3><pl>/ошол<prn><dem><nom>+э<cop><aor><p3><sg>$
+[/vWLexi-YuO3a]
+[vWPzmNfTmGeY#0] ^сенде/сен<prn><pers><p2><sg><loc>/сен<prn><pers><p2><sg><loc>+э<cop><aor><p3><pl>/сен<prn><pers><p2><sg><loc>+э<cop><aor><p3><sg>$
+[/vWPzmNfTmGeY]
+[w99sNXSxpoVv#0] ^ошолордо/ошол<prn><dem><pl><loc>/ошол<prn><dem><pl><loc>+э<cop><aor><p3><pl>/ошол<prn><dem><pl><loc>+э<cop><aor><p3><sg>$
+[/w99sNXSxpoVv]
+[wEP_NZ52v8oq#0] ^силерде/силер<prn><pers><p2><pl><loc>/силер<prn><pers><p2><pl><loc>+э<cop><aor><p3><pl>/силер<prn><pers><p2><pl><loc>+э<cop><aor><p3><sg>/си<n><pl><loc>/си<n><pl><loc>+э<cop><aor><p3><pl>/си<n><pl><loc>+э<cop><aor><p3><sg>$
+[/wEP_NZ52v8oq]
+[wWiN8TvIhJjP#0] ^сага/сен<prn><pers><p2><sg><dat>$
+[/wWiN8TvIhJjP]
+[x5E8Z6MTcC12#0] ^ошолордон/ошол<prn><dem><pl><abl>/ошол<prn><dem><pl><abl>+э<cop><aor><p3><pl>/ошол<prn><dem><pl><abl>+э<cop><aor><p3><sg>$
+[/x5E8Z6MTcC12]
+[xNitcJ8y0Cp-#0] ^буларда/була<v><tv><ger_fut><loc>/була<v><tv><ger_fut><loc>+э<cop><aor><p3><pl>/була<v><tv><ger_fut><loc>+э<cop><aor><p3><sg>/була<v><tv><ger_ppot><loc>/була<v><tv><ger_ppot><loc>+э<cop><aor><p3><pl>/була<v><tv><ger_ppot><loc>+э<cop><aor><p3><sg>/була<v><tv><gpr_fut><subst><loc>/була<v><tv><gpr_fut><subst><loc>+э<cop><aor><p3><pl>/була<v><tv><gpr_fut><subst><loc>+э<cop><aor><p3><sg>/була<v><tv><gpr_ppot><loc>/була<v><tv><gpr_ppot><loc>+э<cop><aor><p3><pl>/була<v><tv><gpr_ppot><loc>+э<cop><aor><p3><sg>/бул<prn><dem><pl><loc>/бул<prn><dem><pl><loc>+э<cop><aor><p3><pl>/бул<prn><dem><pl><loc>+э<cop><aor><p3><sg>$
+[/xNitcJ8y0Cp-]
+[xZce0izEyHfO#0] ^ошолорду/ошол<prn><dem><pl><acc>$
+[/xZce0izEyHfO]
+[yJalGR6LT7Jh#0] ^сиздердин/сиздер<prn><pers><p2><pl><frm><gen>$
+[/yJalGR6LT7Jh]
+[yqo5cvy0ZK_v#0] ^буга/бул<prn><dem><dat>$
+[/yqo5cvy0ZK_v]
+[zlIyvZHGXVLN#0] ^силерге/силер<prn><pers><p2><pl><dat>/си<n><pl><dat>$
+[/zlIyvZHGXVLN]
+[zmACRRq9YBI5#0] ^ал/ал<det><dem>/ал<n><attr>/ал<n><nom>/ал<n><nom>+э<cop><aor><p3><pl>/ал<n><nom>+э<cop><aor><p3><sg>/ал<prn><dem><nom>/ал<prn><dem><nom>+э<cop><aor><p3><pl>/ал<prn><dem><nom>+э<cop><aor><p3><sg>/ал<prn><pers><p3><sg><nom>/ал<prn><pers><p3><sg><nom>+э<cop><aor><p3><pl>/ал<prn><pers><p3><sg><nom>+э<cop><aor><p3><sg>/ал<v><tv><imp><p2><sg>/ал<vaux><imp><p2><sg>$
+[/zmACRRq9YBI5]

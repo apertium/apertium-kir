@@ -1,0 +1,262 @@
+# [twol] Мягкий знак deletion before suffix
+^июль<n><dat>$
+# [twol] L desonorisation
+^адам<n><pl><nom>$
+^адам<n><pl><nom>+э<cop><p3><sg>$
+^адам<n><pl><nom>+э<cop><p3><pl>$
+# [twol] Double vowel harmony in suffix
+^дүйнө<n><rloc>$
+# [lexc] 1st person singular possessive
+^ат<n><px1sg><nom>$
+^ат<n><px1sg><nom>+э<cop><p3><sg>$
+^ат<n><px1sg><nom>+э<cop><p3><pl>$
+^салт<n><px1sg><nom>$
+^салт<n><px1sg><nom>+э<cop><p3><sg>$
+^салт<n><px1sg><nom>+э<cop><p3><pl>$
+# [lexc] 1st person plural noun singular possessive
+^ат<n><pl><px1sg><nom>$
+^ат<n><pl><px1sg><nom>+э<cop><p3><sg>$
+^ат<n><pl><px1sg><nom>+э<cop><p3><pl>$
+^салт<n><pl><px1sg><nom>$
+^салт<n><pl><px1sg><nom>+э<cop><p3><sg>$
+^салт<n><pl><px1sg><nom>+э<cop><p3><pl>$
+# [lexc] 1st person plural possessive
+^ат<n><px1pl><nom>$
+^салт<n><px1pl><nom>$
+# [lexc] 1st person plural noun plural possessive
+^ат<n><pl><px1pl><nom>$
+^салт<n><pl><px1pl><nom>$
+# [lexc] 2nd person singular possessive
+^ат<n><px2sg><nom>$
+^салт<n><px2sg><nom>$
+^ат<n><px2sg><frm><nom>$
+^салт<n><px2sg><frm><nom>$
+# [lexc] 2nd person plural noun singular possessive
+^ат<n><pl><px2sg><nom>$
+^салт<n><pl><px2sg><nom>$
+^ат<n><pl><px2sg><frm><nom>$
+^салт<n><pl><px2sg><frm><nom>$
+# [lexc] 2nd person plural possessive
+^ат<n><px2pl><nom>$
+^салт<n><px2pl><nom>$
+^ат<n><px2pl><frm><nom>$
+^салт<n><px2pl><frm><nom>$
+# [lexc] 2nd person plural noun plural possessive
+^ат<n><pl><px2pl><nom>$
+^салт<n><pl><px2pl><nom>$
+^ат<n><pl><px2pl><frm><nom>$
+^салт<n><pl><px2pl><frm><nom>$
+# [lexc] 3rd person singular noun possessive
+^ат<n><px3sp><nom>$
+^салт<n><px3sp><nom>$
+^китеп<n><px3sp><nom>$
+^тарап<n><px3sp><nom>$
+^ат<n><px3pl><nom>$
+^салт<n><px3pl><nom>$
+^китеп<n><px3pl><nom>$
+^тарап<n><px3pl><nom>$
+# [lexc] 3rd person noun possessive plural
+^ат<n><pl><px3pl><nom>$
+^салт<n><pl><px3pl><nom>$
+^ат<n><pl><px3sp><nom>$
+^салт<n><pl><px3sp><nom>$
+# [lexc] Miscellaneous possessives
+^ат<n><px1sg><nom>$
+^бала<n><px1sg><nom>$
+^ат<n><px1pl><nom>$
+^бала<n><px1pl><nom>$
+^ат<n><px2sg><nom>$
+^бала<n><px2sg><nom>$
+^ат<n><px2sg><frm><nom>$
+^бала<n><px2sg><frm><nom>$
+^ат<n><px2pl><nom>$
+^бала<n><px2pl><nom>$
+^ат<n><px2pl><frm><nom>$
+^бала<n><px2pl><frm><nom>$
+^ат<n><px3sp><nom>$
+^ат<n><px3pl><nom>$
+^бала<n><px3sp><nom>$
+^бала<n><px3pl><nom>$
+^эл<n><px><nom>$
+^мал<n><px><nom>$
+^бала<n><px2sg><px><nom>$
+^тоо<n><px><nom>$
+^төө<n><px><nom>$
+# [lexc] Singular genitive (-{N}{I}n)
+^кеме<n><gen>$
+^кол<n><gen>$
+^көз<n><gen>$
+^баш<n><gen>$
+^аба<n><gen>$
+^туз<n><gen>$
+^челек<n><gen>$
+# [lexc] Singular dative (-{G}{A})
+^кеме<n><dat>$
+^аба<n><dat>$
+^кол<n><dat>$
+^көз<n><dat>$
+^туз<n><dat>$
+^челек<n><dat>$
+^таш<n><dat>$
+^от<n><dat>$
+^терек<n><dat>$
+^жүрөк<n><dat>$
+^адам<n><dat>$
+# [lexc] Singular accusative (-{N}{I})
+^кеме<n><acc>$
+^ай<n><acc>$
+^тор<n><acc>$
+^кол<n><acc>$
+^көз<n><acc>$
+^баш<n><acc>$
+^таң<n><acc>$
+^туз<n><acc>$
+^челек<n><acc>$
+^парта<n><acc>$
+^кино<n><acc>$
+^терезе<n><acc>$
+^көчө<n><acc>$
+^кыз<n><acc>$
+^кулун<n><acc>$
+^жер<n><acc>$
+^бакыт<n><acc>$
+^куш<n><acc>$
+^китеп<n><acc>$
+^күрөк<n><acc>$
+# [lexc] Singular locative (-{D}{A})
+^кеме<n><loc>$
+^аба<n><loc>$
+^челек<n><loc>$
+^кол<n><loc>$
+^баш<n><loc>$
+^туз<n><loc>$
+^көз<n><loc>$
+# [lexc] Singular ablative (-{D}{A}n)
+^кеме<n><abl>$
+^аба<n><abl>$
+^челек<n><abl>$
+^кол<n><abl>$
+^баш<n><abl>$
+^туз<n><abl>$
+^көз<n><abl>$
+# [lexc] Plural suffix
+^кеме<n><pl><nom>$
+^ай<n><pl><nom>$
+^тор<n><pl><nom>$
+^кол<n><pl><nom>$
+^таң<n><pl><nom>$
+^көз<n><pl><nom>$
+^баш<n><pl><nom>$
+# [lexc] Relativised locative
+^дүйнө<n><rloc>$
+# [twol] p desonorization into b when Vow p Vow
+^мектеп<n><px1sg><nom>$
+^китеп<n><px1sg><nom>$
+^арип<n><px1sg><nom>$
+^арап<n><px1sg><nom>$
+^араб<n><px1sg><nom>$
+^азап<n><px1sg><nom>$
+^зайып<n><px1sg><nom>$
+# [twol] {G} / г deletion after uyan consonant
+^саат<n><px1sg><dat>$
+^үй<n><px1sg><dat>$
+^мектеп<n><px1sg><dat>$
+^короо<n><px1sg><dat>$
+^бала<n><px1sg><dat>$
+^бала<n><px2sg><dat>$
+^мектеп<n><px2sg><dat>$
+^китеп<n><px1sg><dat>$
+^китеп<n><px2sg><dat>$
+^эже<n><px1sg><dat>$
+^эже<n><px2sg><dat>$
+^бала<n><dat>$
+^китеп<n><dat>$
+^аскер<n><dat>$
+^кыз<n><dat>$
+^алд<n><px3sp><dat>$
+# [twol] {G} / г desonorisation into н after between {I} and {A}
+^апа<n><px1sg><px><dat>$
+^апа<n><px2sg><px><dat>$
+^апа<n><px3sp><px><dat>$
+^апа<n><px3pl><px><dat>$
+^кыз<n><px1pl><px><dat>$
+^кыз<n><px2pl><px><dat>$
+^кыз<n><pl><px3sp><px><dat>$
+^кыз<n><pl><px3pl><px><dat>$
+^ата<n><pl><px3sp><px><dat>$
+^ата<n><pl><px3pl><px><dat>$
+^саат<n><pl><px3sp><px><dat>$
+^саат<n><pl><px3pl><px><dat>$
+^мал<n><pl><px3sp><px><dat>$
+^мал<n><pl><px3pl><px><dat>$
+# [twol] {D} -> н in ablative
+^ата<n><px3sp><px><abl>$
+^ата<n><px3pl><px><abl>$
+# [twol] н insertion between {I} and {D} in locative
+^ата<n><px3sp><px><loc>$
+^ата<n><px3pl><px><loc>$
+# [twol] Voiceless non-coronal stop voicing before possessive >c{I}
+^китеп<n><px3sp><nom>$
+^китеп<n><px3pl><nom>$
+^тарап<n><px3sp><nom>$
+^тарап<n><px3pl><nom>$
+^эмгек<n><px3pl><nom>$
+^эмгек<n><px3sp><nom>$
+# [freq] unrecognised nouns from top 150
+^союз<n><px3sp><gen>$
+^союз<n><px3pl><gen>$
+^уч<n><px3sp><gen>$
+^уч<n><px3pl><gen>$
+# [twol] possessive + cases
+^бала<n><px3sp><nom>$
+^бала<n><px3sp><acc>$
+^бала<n><px3sp><gen>$
+^бала<n><px3sp><loc>$
+^бала<n><px3sp><abl>$
+^бала<n><px3sp><dat>$
+^бала<n><px3sp><px><nom>$
+^ит<n><px3sp><nom>$
+^ит<n><px3sp><acc>$
+^ит<n><px3sp><gen>$
+^ит<n><px3sp><loc>$
+^ит<n><px3sp><abl>$
+^ит<n><px3sp><dat>$
+^ит<n><px3sp><px><nom>$
+^эже<n><px3sp><nom>$
+^эже<n><px3sp><acc>$
+^эже<n><px3sp><gen>$
+^эже<n><px3sp><loc>$
+^эже<n><px3sp><abl>$
+^эже<n><px3sp><dat>$
+^эже<n><px3sp><px><nom>$
+# [twol] cases
+^бала<n><nom>$
+^бала<n><acc>$
+^бала<n><gen>$
+^бала<n><loc>$
+^бала<n><abl>$
+^бала<n><dat>$
+^бала<n><px><nom>$
+^ит<n><nom>$
+^ит<n><acc>$
+^ит<n><gen>$
+^ит<n><loc>$
+^ит<n><abl>$
+^ит<n><dat>$
+^ит<n><px><nom>$
+^ит<n><rloc>$
+^эже<n><nom>$
+^эже<n><acc>$
+^эже<n><gen>$
+^эже<n><loc>$
+^эже<n><abl>$
+^эже<n><dat>$
+^эже<n><px><nom>$
+^эже<n><rloc>$
+^төл<n><nom>$
+^төл<n><acc>$
+^төл<n><gen>$
+^төл<n><loc>$
+^төл<n><abl>$
+^төл<n><dat>$
+^төл<n><px><nom>$

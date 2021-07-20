@@ -1,0 +1,37 @@
+# [lexc] Pronoun cases and stuff
+бири-бир
+бири-бири
+бири-биринин
+бири-бирибизге
+# [twol] Nouns with epenthetic vowels
+орун
+орунда
+ордум
+ордумда
+орундар
+ордунан
+# [twol] Nouns with certain clusters analysed normally
+факт
+акттан
+акттын
+акттар
+актынын
+актында
+Омск
+Омсктон
+Омсктун
+Омсктор
+Омскунун
+Омскунда
+# [twol] Nouns with certain clusters generated with extra и
+фактиден
+фактинин
+фактилер
+фактисинин
+фактисинде
+Минск
+Минскиден
+Минскинин
+Минскилер
+Минскисинин
+Минскисинде

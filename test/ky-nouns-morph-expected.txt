@@ -1,0 +1,378 @@
+[0_SVGsJHaiiq#0] ^азабым/азап<n><px1sg><nom>/азап<n><px1sg><nom>+э<cop><aor><p3><pl>/азап<n><px1sg><nom>+э<cop><aor><p3><sg>$
+[/0_SVGsJHaiiq]
+[19j7goebLQer#0] ^салтыбыз/салт<n><px1pl><nom>/салт<n><px1pl><nom>+э<cop><aor><p3><pl>/салт<n><px1pl><nom>+э<cop><aor><p3><sg>$
+[/19j7goebLQer]
+[1OZjD7Zpyhp5#0] ^эжедеги/эже<n><loc><attr>/эже<n><loc><subst><nom>/эже<n><loc><subst><nom>+э<cop><aor><p3><pl>/эже<n><loc><subst><nom>+э<cop><aor><p3><sg>$
+[/1OZjD7Zpyhp5]
+[1p8iBffazut3#0] ^итине/ит<n><px3sp><dat>$
+[/1p8iBffazut3]
+[26sO6WHxYDkh#0] ^кемеден/кеме<n><abl>/кеме<n><abl>+э<cop><aor><p3><pl>/кеме<n><abl>+э<cop><aor><p3><sg>$
+[/26sO6WHxYDkh]
+[2HPNQWNa_NCq#0] ^жерди/жер<n><acc>/же<v><tv><ger_fut><acc>/же<v><tv><ger_ppot><acc>/же<v><tv><gpr_fut><subst><acc>/же<v><tv><gpr_ppot><acc>$
+[/2HPNQWNa_NCq]
+[2QE8envqGleL#0] ^тарабы/тарап<n><px3sp><nom>/тарап<n><px3sp><nom>+э<cop><aor><p3><pl>/тарап<n><px3sp><nom>+э<cop><aor><p3><sg>$
+[/2QE8envqGleL]
+[2XPFVTIlbtp1#0] ^эжеңе/эже<n><px2sg><dat>$
+[/2XPFVTIlbtp1]
+[2YIu7w6S9h3n#0] ^эженин/эже<n><gen>$
+[/2YIu7w6S9h3n]
+[3ZAZEdiFcFFJ#0] ^малдарыныкына/мал<n><pl><px3sp><gen><subst><dat>$
+[/3ZAZEdiFcFFJ]
+[3rbMqZfUrnUa#0] ^балада/бала<n><loc>/бала<n><loc>+э<cop><aor><p3><pl>/бала<n><loc>+э<cop><aor><p3><sg>$
+[/3rbMqZfUrnUa]
+[3tDxQwMVP3jF#0] ^аты/ат<n><px3sp><nom>/ат<n><px3sp><nom>+э<cop><aor><p3><pl>/ат<n><px3sp><nom>+э<cop><aor><p3><sg>$
+[/3tDxQwMVP3jF]
+[41jXBBg2dezR#0] ^абанын/абан<n><px3sp><acc>/аба<n><gen>$
+[/41jXBBg2dezR]
+[4LwAw9mHD1Er#0] ^балабыз/бала<adj>+э<cop><aor><p1><pl>/бала<n><nom>+э<cop><aor><p1><pl>/бала<n><px1pl><nom>/бала<n><px1pl><nom>+э<cop><aor><p3><pl>/бала<n><px1pl><nom>+э<cop><aor><p3><sg>$
+[/4LwAw9mHD1Er]
+[4a9Xvt3KGlg4#0] ^кемеге/кеме<n><dat>$
+[/4a9Xvt3KGlg4]
+[4wqv4AEkhBce#0] ^балаңдыкы/бала<n><px2sg><gen><subst><nom>/бала<n><px2sg><gen><subst><nom>+э<cop><aor><p3><pl>/бала<n><px2sg><gen><subst><nom>+э<cop><aor><p3><sg>$
+[/4wqv4AEkhBce]
+[5zw3gzKA1LeX#0] ^эжени/эже<n><acc>$
+[/5zw3gzKA1LeX]
+[63U51rrmf8NJ#0] ^алдына/алд<n><px3sp><dat>$
+[/63U51rrmf8NJ]
+[6AKdrmumfbO_#0] ^төлдөн/төл<n><abl>/төл<n><abl>+э<cop><aor><p3><pl>/төл<n><abl>+э<cop><aor><p3><sg>$
+[/6AKdrmumfbO_]
+[6NsFMgk-Qqjm#0] ^баласынын/бала<n><px3sp><gen>$
+[/6NsFMgk-Qqjm]
+[6w11ZFk-sdGE#0] ^колдон/колдон<v><tv><imp><p2><sg>/кол<n><abl>/кол<n><abl>+э<cop><aor><p3><pl>/кол<n><abl>+э<cop><aor><p3><sg>$
+[/6w11ZFk-sdGE]
+[6xXM1QhFnJtS#0] ^абага/аба<n><dat>$
+[/6xXM1QhFnJtS]
+[7XCqCvfK0mTu#0] ^дүйнөдөгү/дүйнө<n><loc><attr>/дүйнө<n><loc><subst><nom>/дүйнө<n><loc><subst><nom>+э<cop><aor><p3><pl>/дүйнө<n><loc><subst><nom>+э<cop><aor><p3><sg>$
+[/7XCqCvfK0mTu]
+[8QQHsB_XmV7u#0] ^атыңар/ат<n><px2pl><nom>/ат<n><px2pl><nom>+э<cop><aor><p3><pl>/ат<n><px2pl><nom>+э<cop><aor><p3><sg>$
+[/8QQHsB_XmV7u]
+[8V4uTz1udJiW#0] ^китебим/китеп<n><px1sg><nom>/китеп<n><px1sg><nom>+э<cop><aor><p3><pl>/китеп<n><px1sg><nom>+э<cop><aor><p3><sg>$
+[/8V4uTz1udJiW]
+[8kgXpOl3uf0T#0] ^салттарыңыздар/салт<n><pl><px2pl><frm><nom>/салт<n><pl><px2pl><frm><nom>+э<cop><aor><p3><pl>/салт<n><pl><px2pl><frm><nom>+э<cop><aor><p3><sg>$
+[/8kgXpOl3uf0T]
+[9BDW8vyik5jj#0] ^иттен/ит<n><abl>/ит<n><abl>+э<cop><aor><p3><pl>/ит<n><abl>+э<cop><aor><p3><sg>$
+[/9BDW8vyik5jj]
+[9M4vcWgmBTsx#0] ^салтыңар/салт<n><px2pl><nom>/салт<n><px2pl><nom>+э<cop><aor><p3><pl>/салт<n><px2pl><nom>+э<cop><aor><p3><sg>$
+[/9M4vcWgmBTsx]
+[9g0zpLY4biNo#0] ^атыңыздар/ат<n><px2pl><frm><nom>/ат<n><px2pl><frm><nom>+э<cop><aor><p3><pl>/ат<n><px2pl><frm><nom>+э<cop><aor><p3><sg>/ат<v><tv><imp><p2><frm><pl>/жат<vaux><imp><p2><frm><pl>$
+[/9g0zpLY4biNo]
+[AF0N8m-CBWib#0] ^көздү/көз<n><acc>$
+[/AF0N8m-CBWib]
+[B2vabk395W4J#0] ^арабым/араб<n><px1sg><nom>/араб<n><px1sg><nom>+э<cop><aor><p3><pl>/араб<n><px1sg><nom>+э<cop><aor><p3><sg>/арап<n><px1sg><nom>/арап<n><px1sg><nom>+э<cop><aor><p3><pl>/арап<n><px1sg><nom>+э<cop><aor><p3><sg>$
+[/B2vabk395W4J]
+[B92XMvWCWYYV#0] ^абадан/аба<n><abl>/аба<n><abl>+э<cop><aor><p3><pl>/аба<n><abl>+э<cop><aor><p3><sg>$
+[/B92XMvWCWYYV]
+[B9qFsNHUM4GG#0] ^баштар/башта<v><tv><fut><p3><pl>/башта<v><tv><fut><p3><sg>/башта<v><tv><ger_fut><nom>/башта<v><tv><ger_fut><nom>+э<cop><aor><p3><pl>/башта<v><tv><ger_fut><nom>+э<cop><aor><p3><sg>/башта<v><tv><ger_ppot><nom>/башта<v><tv><ger_ppot><nom>+э<cop><aor><p3><pl>/башта<v><tv><ger_ppot><nom>+э<cop><aor><p3><sg>/башта<v><tv><gpr_fut>/башта<v><tv><gpr_fut><subst><nom>/башта<v><tv><gpr_fut><subst><nom>+э<cop><aor><p3><pl>/башта<v><tv><gpr_fut><subst><nom>+э<cop><aor><p3><sg>/башта<v><tv><gpr_ppot><nom>/башта<v><tv><gpr_ppot><nom>+э<cop><aor><p3><pl>/башта<v><tv><gpr_ppot><nom>+э<cop><aor><p3><sg>/башта<v><tv><prc_fut>/башта<vaux><fut><p3><pl>/башта<vaux><fut><p3><sg>/башта<vaux><ger_fut><nom>/башта<vaux><ger_fut><nom>+э<cop><aor><p3><pl>/башта<vaux><ger_fut><nom>+э<cop><aor><p3><sg>/башта<vaux><ger_ppot><nom>/башта<vaux><ger_ppot><nom>+э<cop><aor><p3><pl>/башта<vaux><ger_ppot><nom>+э<cop><aor><p3><sg>/башта<vaux><gpr_fut>/башта<vaux><gpr_fut><subst><nom>/башта<vaux><gpr_fut><subst><nom>+э<cop><aor><p3><pl>/башта<vaux><gpr_fut><subst><nom>+э<cop><aor><p3><sg>/башта<vaux><gpr_ppot><nom>/башта<vaux><gpr_ppot><nom>+э<cop><aor><p3><pl>/башта<vaux><gpr_ppot><nom>+э<cop><aor><p3><sg>/башта<vaux><prc_fut>/баш<n><pl><nom>/баш<n><pl><nom>+э<cop><aor><p3><pl>/баш<n><pl><nom>+э<cop><aor><p3><sg>$
+[/B9qFsNHUM4GG]
+[CBz1YawltX0i#0] ^челектин/челек<n><gen>$
+[/CBz1YawltX0i]
+[CFjnkC9PHNot#0] ^ташка/таш<n><dat>$
+[/CFjnkC9PHNot]
+[C_szHb3pq9S2#0] ^эжесиники/эже<n><px3sp><gen><subst><nom>/эже<n><px3sp><gen><subst><nom>+э<cop><aor><p3><pl>/эже<n><px3sp><gen><subst><nom>+э<cop><aor><p3><sg>$
+[/C_szHb3pq9S2]
+[ChTTP7tS8Bnj#0] ^салттары/салт<n><pl><px3sp><nom>/салт<n><pl><px3sp><nom>+э<cop><aor><p3><pl>/салт<n><pl><px3sp><nom>+э<cop><aor><p3><sg>$
+[/ChTTP7tS8Bnj]
+[D1XbDWCOUhR9#0] ^салтыңыздар/салт<n><px2pl><frm><nom>/салт<n><px2pl><frm><nom>+э<cop><aor><p3><pl>/салт<n><px2pl><frm><nom>+э<cop><aor><p3><sg>$
+[/D1XbDWCOUhR9]
+[DEPHlTJQQFcB#0] ^терекке/терек<n><dat>$
+[/DEPHlTJQQFcB]
+[ETbMrOypD42s#0] ^балаңыздар/бала<n><px2pl><frm><nom>/бала<n><px2pl><frm><nom>+э<cop><aor><p3><pl>/бала<n><px2pl><frm><nom>+э<cop><aor><p3><sg>$
+[/ETbMrOypD42s]
+[EjxmaLKb8Ge0#0] ^итин/ит<n><px3sp><acc>$
+[/EjxmaLKb8Ge0]
+[FPhbDuM3Sg-g#0] ^кыздарыныкына/кыз<n><pl><px3sp><gen><subst><dat>$
+[/FPhbDuM3Sg-g]
+[FbIDtPM2-w2_#0] ^апамдыкына/апа<n><px1sg><gen><subst><dat>$
+[/FbIDtPM2-w2_]
+[FtGMTaen4TEO#0] ^малдыкы/мал<n><gen><subst><nom>/мал<n><gen><subst><nom>+э<cop><aor><p3><pl>/мал<n><gen><subst><nom>+э<cop><aor><p3><sg>$
+[/FtGMTaen4TEO]
+[Gbdzib4R40Bv#0] ^аттарың/атта<v><tv><ger_fut><px2sg><nom>/атта<v><tv><ger_fut><px2sg><nom>+э<cop><aor><p3><pl>/атта<v><tv><ger_fut><px2sg><nom>+э<cop><aor><p3><sg>/атта<v><tv><ger_ppot><px2sg><nom>/атта<v><tv><ger_ppot><px2sg><nom>+э<cop><aor><p3><pl>/атта<v><tv><ger_ppot><px2sg><nom>+э<cop><aor><p3><sg>/атта<v><tv><gpr_fut><subst><px2sg><nom>/атта<v><tv><gpr_fut><subst><px2sg><nom>+э<cop><aor><p3><pl>/атта<v><tv><gpr_fut><subst><px2sg><nom>+э<cop><aor><p3><sg>/атта<v><tv><gpr_ppot><px2sg><nom>/атта<v><tv><gpr_ppot><px2sg><nom>+э<cop><aor><p3><pl>/атта<v><tv><gpr_ppot><px2sg><nom>+э<cop><aor><p3><sg>/ат<n><pl><px2sg><nom>/ат<n><pl><px2sg><nom>+э<cop><aor><p3><pl>/ат<n><pl><px2sg><nom>+э<cop><aor><p3><sg>$
+[/Gbdzib4R40Bv]
+[GopZmt0a3t0h#0] ^көчөнү/көчө<n><acc>$
+[/GopZmt0a3t0h]
+[H53YnOnAZDAZ#0] ^эжесин/эже<n><px3sp><acc>$
+[/H53YnOnAZDAZ]
+[HPf_ofUhwVrv#0] ^баласында/бала<n><px3sp><loc>/бала<n><px3sp><loc>+э<cop><aor><p3><pl>/бала<n><px3sp><loc>+э<cop><aor><p3><sg>$
+[/HPf_ofUhwVrv]
+[HWei0t8JG4PV#0] ^кушту/куш<n><acc>$
+[/HWei0t8JG4PV]
+[Hv9kOLXJNIuJ#0] ^эженики/эже<n><gen><subst><nom>/эже<n><gen><subst><nom>+э<cop><aor><p3><pl>/эже<n><gen><subst><nom>+э<cop><aor><p3><sg>$
+[/Hv9kOLXJNIuJ]
+[HyzsyepfKlIo#0] ^баладан/бала<n><abl>/бала<n><abl>+э<cop><aor><p3><pl>/бала<n><abl>+э<cop><aor><p3><sg>$
+[/HyzsyepfKlIo]
+[IBGjCz3wy7AF#0] ^эже/эже<n><attr>/эже<n><nom>/эже<n><nom>+э<cop><aor><p3><pl>/эже<n><nom>+э<cop><aor><p3><sg>$
+[/IBGjCz3wy7AF]
+[ID-MEbkB3u1r#0] ^тузда/тузда<v><tv><imp><p2><sg>/туз<n><loc>/туз<n><loc>+э<cop><aor><p3><pl>/туз<n><loc>+э<cop><aor><p3><sg>$
+[/ID-MEbkB3u1r]
+[IS6egdqRfltF#0] ^апаңдыкына/апа<n><px2sg><gen><subst><dat>$
+[/IS6egdqRfltF]
+[KE6kfGaG_70i#0] ^отко/от<n><dat>$
+[/KE6kfGaG_70i]
+[KYpixllomt_R#0] ^төөнүкү/төө<n><gen><subst><nom>/төө<n><gen><subst><nom>+э<cop><aor><p3><pl>/төө<n><gen><subst><nom>+э<cop><aor><p3><sg>$
+[/KYpixllomt_R]
+[KbJrl8QAkLxO#0] ^төлдүн/төл<n><gen>$
+[/KbJrl8QAkLxO]
+[KedWxkFEW2_G#0] ^челекти/челек<n><acc>$
+[/KedWxkFEW2_G]
+[Kh8Nh1ras8B1#0] ^салты/салт<n><px3sp><nom>/салт<n><px3sp><nom>+э<cop><aor><p3><pl>/салт<n><px3sp><nom>+э<cop><aor><p3><sg>$
+[/Kh8Nh1ras8B1]
+[KmySaAwaozIl#0] ^партаны/парта<n><acc>$
+[/KmySaAwaozIl]
+[Kpteid9Ojt0i#0] ^эжеде/эже<n><loc>/эже<n><loc>+э<cop><aor><p3><pl>/эже<n><loc>+э<cop><aor><p3><sg>$
+[/Kpteid9Ojt0i]
+[Kykxt0X-VsKU#0] ^балама/бала<n><px1sg><dat>$
+[/Kykxt0X-VsKU]
+[LSuyPEA0cKzQ#0] ^аттары/атта<v><tv><ger_fut><px3sp><nom>/атта<v><tv><ger_fut><px3sp><nom>+э<cop><aor><p3><pl>/атта<v><tv><ger_fut><px3sp><nom>+э<cop><aor><p3><sg>/атта<v><tv><ger_ppot><px3sp><nom>/атта<v><tv><ger_ppot><px3sp><nom>+э<cop><aor><p3><pl>/атта<v><tv><ger_ppot><px3sp><nom>+э<cop><aor><p3><sg>/атта<v><tv><gpr_fut><subst><px3sp><nom>/атта<v><tv><gpr_fut><subst><px3sp><nom>+э<cop><aor><p3><pl>/атта<v><tv><gpr_fut><subst><px3sp><nom>+э<cop><aor><p3><sg>/атта<v><tv><gpr_ppot><px3sp><nom>/атта<v><tv><gpr_ppot><px3sp><nom>+э<cop><aor><p3><pl>/атта<v><tv><gpr_ppot><px3sp><nom>+э<cop><aor><p3><sg>/ат<n><pl><px3sp><nom>/ат<n><pl><px3sp><nom>+э<cop><aor><p3><pl>/ат<n><pl><px3sp><nom>+э<cop><aor><p3><sg>$
+[/LSuyPEA0cKzQ]
+[MUTxvNR5OKAk#0] ^таңды/таң<adj><subst><acc>/таң<n><acc>/таң<v><tv><ifi><p3><pl>/таң<v><tv><ifi><p3><sg>$
+[/MUTxvNR5OKAk]
+[MkQrep46ojMk#0] ^тузга/туз<n><dat>$
+[/MkQrep46ojMk]
+[MkuL7pHgOuQM#0] ^кеменин/кеме<n><gen>$
+[/MkuL7pHgOuQM]
+[Mlh947dkETQK#0] ^айлар/ай<n><pl><nom>/ай<n><pl><nom>+э<cop><aor><p3><pl>/ай<n><pl><nom>+э<cop><aor><p3><sg>$
+[/Mlh947dkETQK]
+[Mo_q4dxFbPg3#0] ^балага/бала<n><dat>$
+[/Mo_q4dxFbPg3]
+[NhD-3E94KitI#0] ^атыңыз/ат<n><px2sg><frm><nom>/ат<n><px2sg><frm><nom>+э<cop><aor><p3><pl>/ат<n><px2sg><frm><nom>+э<cop><aor><p3><sg>/ат<v><tv><imp><p2><frm><sg>/жат<vaux><imp><p2><frm><sg>$
+[/NhD-3E94KitI]
+[NrEEHdjOoB86#0] ^атасыныкында/ата<n><px3sp><gen><subst><loc>/ата<n><px3sp><gen><subst><loc>+э<cop><aor><p3><pl>/ата<n><px3sp><gen><subst><loc>+э<cop><aor><p3><sg>$
+[/NrEEHdjOoB86]
+[PBnzMlsspZ1H#0] ^ит/ит<n><attr>/ит<n><nom>/ит<n><nom>+э<cop><aor><p3><pl>/ит<n><nom>+э<cop><aor><p3><sg>$
+[/PBnzMlsspZ1H]
+[PJTbBzsLlFV-#0] ^китебиме/китеп<n><px1sg><dat>$
+[/PJTbBzsLlFV-]
+[P_DgoZvTYLty#0] ^бала/бала<adj>/бала<adj>+э<cop><aor><p3><pl>/бала<adj>+э<cop><aor><p3><sg>/бала<n><attr>/бала<n><nom>/бала<n><nom>+э<cop><aor><p3><pl>/бала<n><nom>+э<cop><aor><p3><sg>$
+[/P_DgoZvTYLty]
+[Pj8tEIfjy7eC#0] ^кызга/кыз<n><dat>$
+[/Pj8tEIfjy7eC]
+[Q-XsahwrDy8c#0] ^эжесине/эже<n><px3sp><dat>$
+[/Q-XsahwrDy8c]
+[Q3HQ8-oJH80K#0] ^тоонуку/тоо<n><gen><subst><nom>/тоо<n><gen><subst><nom>+э<cop><aor><p3><pl>/тоо<n><gen><subst><nom>+э<cop><aor><p3><sg>$
+[/Q3HQ8-oJH80K]
+[QA1LMUGbQ4BT#0] ^колдор/колдо<v><tv><fut><p3><pl>/колдо<v><tv><fut><p3><sg>/колдо<v><tv><ger_fut><nom>/колдо<v><tv><ger_fut><nom>+э<cop><aor><p3><pl>/колдо<v><tv><ger_fut><nom>+э<cop><aor><p3><sg>/колдо<v><tv><ger_ppot><nom>/колдо<v><tv><ger_ppot><nom>+э<cop><aor><p3><pl>/колдо<v><tv><ger_ppot><nom>+э<cop><aor><p3><sg>/колдо<v><tv><gpr_fut>/колдо<v><tv><gpr_fut><subst><nom>/колдо<v><tv><gpr_fut><subst><nom>+э<cop><aor><p3><pl>/колдо<v><tv><gpr_fut><subst><nom>+э<cop><aor><p3><sg>/колдо<v><tv><gpr_ppot><nom>/колдо<v><tv><gpr_ppot><nom>+э<cop><aor><p3><pl>/колдо<v><tv><gpr_ppot><nom>+э<cop><aor><p3><sg>/колдо<v><tv><prc_fut>/кол<n><pl><nom>/кол<n><pl><nom>+э<cop><aor><p3><pl>/кол<n><pl><nom>+э<cop><aor><p3><sg>$
+[/QA1LMUGbQ4BT]
+[QO6TvQ6rvXXr#0] ^кызыңардыкына/кыз<n><px2pl><gen><subst><dat>$
+[/QO6TvQ6rvXXr]
+[R6tI3df-bGNS#0] ^аттарыңыздар/атта<v><tv><ger_fut><px2pl><frm><nom>/атта<v><tv><ger_fut><px2pl><frm><nom>+э<cop><aor><p3><pl>/атта<v><tv><ger_fut><px2pl><frm><nom>+э<cop><aor><p3><sg>/атта<v><tv><ger_ppot><px2pl><frm><nom>/атта<v><tv><ger_ppot><px2pl><frm><nom>+э<cop><aor><p3><pl>/атта<v><tv><ger_ppot><px2pl><frm><nom>+э<cop><aor><p3><sg>/атта<v><tv><gpr_fut><subst><px2pl><frm><nom>/атта<v><tv><gpr_fut><subst><px2pl><frm><nom>+э<cop><aor><p3><pl>/атта<v><tv><gpr_fut><subst><px2pl><frm><nom>+э<cop><aor><p3><sg>/атта<v><tv><gpr_ppot><px2pl><frm><nom>/атта<v><tv><gpr_ppot><px2pl><frm><nom>+э<cop><aor><p3><pl>/атта<v><tv><gpr_ppot><px2pl><frm><nom>+э<cop><aor><p3><sg>/ат<n><pl><px2pl><frm><nom>/ат<n><pl><px2pl><frm><nom>+э<cop><aor><p3><pl>/ат<n><pl><px2pl><frm><nom>+э<cop><aor><p3><sg>$
+[/R6tI3df-bGNS]
+[RWM98HMLNcD5#0] ^эжеси/эже<n><px3sp><nom>/эже<n><px3sp><nom>+э<cop><aor><p3><pl>/эже<n><px3sp><nom>+э<cop><aor><p3><sg>$
+[/RWM98HMLNcD5]
+[RlhF4YVolq0n#0] ^ити/ит<n><px3sp><nom>/ит<n><px3sp><nom>+э<cop><aor><p3><pl>/ит<n><px3sp><nom>+э<cop><aor><p3><sg>$
+[/RlhF4YVolq0n]
+[SlF6q3gOxSwC#0] ^кызды/кыз<n><acc>$
+[/SlF6q3gOxSwC]
+[TH-cFXTjiWXs#0] ^көздөн/көз<n><abl>/көз<n><abl>+э<cop><aor><p3><pl>/көз<n><abl>+э<cop><aor><p3><sg>$
+[/TH-cFXTjiWXs]
+[THwQPfPgycds#0] ^таңдар/таң<adj><subst><pl><nom>/таң<adj><subst><pl><nom>+э<cop><aor><p3><pl>/таң<adj><subst><pl><nom>+э<cop><aor><p3><sg>/таң<n><pl><nom>/таң<n><pl><nom>+э<cop><aor><p3><pl>/таң<n><pl><nom>+э<cop><aor><p3><sg>$
+[/THwQPfPgycds]
+[TYxiDsxa--aC#0] ^китепти/китеп<n><acc>$
+[/TYxiDsxa--aC]
+[U6MJUj_phEUA#0] ^китеби/китеп<n><px3sp><nom>/китеп<n><px3sp><nom>+э<cop><aor><p3><pl>/китеп<n><px3sp><nom>+э<cop><aor><p3><sg>$
+[/U6MJUj_phEUA]
+[U8yzB2R9Q5gL#0] ^короомо/короо<n><px1sg><dat>$
+[/U8yzB2R9Q5gL]
+[VPKRMhGaASAY#0] ^кинону/кино<n><acc>$
+[/VPKRMhGaASAY]
+[VRWmlSJcvrYT#0] ^колго/кол<n><dat>$
+[/VRWmlSJcvrYT]
+[VemINprjQZ32#0] ^баланыкы/бала<n><gen><subst><nom>/бала<n><gen><subst><nom>+э<cop><aor><p3><pl>/бала<n><gen><subst><nom>+э<cop><aor><p3><sg>$
+[/VemINprjQZ32]
+[Vfxsetzi0yqI#0] ^сааттарыныкына/саат<n><pl><px3sp><gen><subst><dat>$
+[/Vfxsetzi0yqI]
+[VgERcehXGzdk#0] ^итте/ит<n><loc>/ит<n><loc>+э<cop><aor><p3><pl>/ит<n><loc>+э<cop><aor><p3><sg>$
+[/VgERcehXGzdk]
+[VjitQsgR-5PL#0] ^баласыныкы/бала<n><px3sp><gen><subst><nom>/бала<n><px3sp><gen><subst><nom>+э<cop><aor><p3><pl>/бала<n><px3sp><gen><subst><nom>+э<cop><aor><p3><sg>$
+[/VjitQsgR-5PL]
+[VvEt7hUE8Eii#0] ^аскерге/аскер<n><dat>$
+[/VvEt7hUE8Eii]
+[XTbYifacrcsf#0] ^итиники/ит<n><px3sp><gen><subst><nom>/ит<n><px3sp><gen><subst><nom>+э<cop><aor><p3><pl>/ит<n><px3sp><gen><subst><nom>+э<cop><aor><p3><sg>$
+[/XTbYifacrcsf]
+[XuXLJr47iU1B#0] ^мектебиме/мектеп<n><px1sg><dat>$
+[/XuXLJr47iU1B]
+[Y3Ght3YgBI8x#0] ^аталарыныкына/ата<n><pl><px3sp><gen><subst><dat>/ата<v><tv><pass><ger_fut><px3sp><gen><subst><dat>/ата<v><tv><pass><ger_ppot><px3sp><gen><subst><dat>/ата<v><tv><pass><gpr_fut><subst><px3sp><gen><subst><dat>/ата<v><tv><pass><gpr_ppot><px3sp><gen><subst><dat>$
+[/Y3Ght3YgBI8x]
+[YAGMLz8YL90b#0] ^кулунду/кулун<n><acc>$
+[/YAGMLz8YL90b]
+[Y_Z2gYUmTUXE#0] ^күрөктү/күрөк<n><acc>$
+[/Y_Z2gYUmTUXE]
+[Yi2Ird22VHoV#0] ^адамдар/адам<n><pl><nom>/адам<n><pl><nom>+э<cop><aor><p3><pl>/адам<n><pl><nom>+э<cop><aor><p3><sg>$
+[/Yi2Ird22VHoV]
+[Ylq2W8wodn6O#0] ^союзунун/союз<n><px3sp><gen>$
+[/Ylq2W8wodn6O]
+[ZXEn-KJZdE6Z#0] ^төлдө/төлдө<v><iv><imp><p2><sg>/төл<n><loc>/төл<n><loc>+э<cop><aor><p3><pl>/төл<n><loc>+э<cop><aor><p3><sg>$
+[/ZXEn-KJZdE6Z]
+[ZmpN3qF1ce6k#0] ^бакытты/бакыт<n><acc>$
+[/ZmpN3qF1ce6k]
+[_507y-rzSRb1#0] ^балам/бала<n><px1sg><nom>/бала<n><px1sg><nom>+э<cop><aor><p3><pl>/бала<n><px1sg><nom>+э<cop><aor><p3><sg>$
+[/_507y-rzSRb1]
+[a3pYWtS0xBo9#0] ^салтым/салт<n><px1sg><nom>/салт<n><px1sg><nom>+э<cop><aor><p3><pl>/салт<n><px1sg><nom>+э<cop><aor><p3><sg>$
+[/a3pYWtS0xBo9]
+[a4AvV3mVw2Y7#0] ^иттики/ит<n><gen><subst><nom>/ит<n><gen><subst><nom>+э<cop><aor><p3><pl>/ит<n><gen><subst><nom>+э<cop><aor><p3><sg>$
+[/a4AvV3mVw2Y7]
+[aalIep0qr6Yy#0] ^зайыбым/зайып<n><px1sg><nom>/зайып<n><px1sg><nom>+э<cop><aor><p3><pl>/зайып<n><px1sg><nom>+э<cop><aor><p3><sg>$
+[/aalIep0qr6Yy]
+[apyySMT7GHnT#0] ^арибим/арип<n><px1sg><nom>/арип<n><px1sg><nom>+э<cop><aor><p3><pl>/арип<n><px1sg><nom>+э<cop><aor><p3><sg>$
+[/apyySMT7GHnT]
+[asw6GhrFJEkU#0] ^адамга/адам<n><dat>$
+[/asw6GhrFJEkU]
+[bKpBE67fQv51#0] ^челекте/челек<n><loc>/челек<n><loc>+э<cop><aor><p3><pl>/челек<n><loc>+э<cop><aor><p3><sg>$
+[/bKpBE67fQv51]
+[bSlcP0jo659v#0] ^жүрөккө/жүрөк<n><dat>$
+[/bSlcP0jo659v]
+[bX3dakxisJ9T#0] ^тузду/туз<n><acc>$
+[/bX3dakxisJ9T]
+[bhsDaFIAvGQl#0] ^төлдүкү/төл<n><gen><subst><nom>/төл<n><gen><subst><nom>+э<cop><aor><p3><pl>/төл<n><gen><subst><nom>+э<cop><aor><p3><sg>$
+[/bhsDaFIAvGQl]
+[bs0KnYXGBJzt#0] ^эмгеги/эмгек<n><px3sp><nom>/эмгек<n><px3sp><nom>+э<cop><aor><p3><pl>/эмгек<n><px3sp><nom>+э<cop><aor><p3><sg>$
+[/bs0KnYXGBJzt]
+[cQGDANCMhyYk#0] ^салттарым/салт<n><pl><px1sg><nom>/салт<n><pl><px1sg><nom>+э<cop><aor><p3><pl>/салт<n><pl><px1sg><nom>+э<cop><aor><p3><sg>$
+[/cQGDANCMhyYk]
+[d2c70czRv3J3#0] ^колдун/кол<n><gen>$
+[/d2c70czRv3J3]
+[d5HknHbng4VC#0] ^кемеде/кеме<n><loc>/кеме<n><loc>+э<cop><aor><p3><pl>/кеме<n><loc>+э<cop><aor><p3><sg>$
+[/d5HknHbng4VC]
+[d5rVSQQXtwU7#0] ^кемени/кеме<n><acc>$
+[/d5rVSQQXtwU7]
+[diT4caB8-rpU#0] ^аттарыбыз/атта<v><tv><ger_fut><px1pl><nom>/атта<v><tv><ger_fut><px1pl><nom>+э<cop><aor><p3><pl>/атта<v><tv><ger_fut><px1pl><nom>+э<cop><aor><p3><sg>/атта<v><tv><ger_ppot><px1pl><nom>/атта<v><tv><ger_ppot><px1pl><nom>+э<cop><aor><p3><pl>/атта<v><tv><ger_ppot><px1pl><nom>+э<cop><aor><p3><sg>/атта<v><tv><gpr_fut><subst><px1pl><nom>/атта<v><tv><gpr_fut><subst><px1pl><nom>+э<cop><aor><p3><pl>/атта<v><tv><gpr_fut><subst><px1pl><nom>+э<cop><aor><p3><sg>/атта<v><tv><gpr_ppot><px1pl><nom>/атта<v><tv><gpr_ppot><px1pl><nom>+э<cop><aor><p3><pl>/атта<v><tv><gpr_ppot><px1pl><nom>+э<cop><aor><p3><sg>/ат<n><pl><px1pl><nom>/ат<n><pl><px1pl><nom>+э<cop><aor><p3><pl>/ат<n><pl><px1pl><nom>+э<cop><aor><p3><sg>$
+[/diT4caB8-rpU]
+[e7lMCs32Aqxx#0] ^баласын/бала<n><px3sp><acc>$
+[/e7lMCs32Aqxx]
+[e9jooGI9Wwdq#0] ^атыбыз/ат<n><px1pl><nom>/ат<n><px1pl><nom>+э<cop><aor><p3><pl>/ат<n><px1pl><nom>+э<cop><aor><p3><sg>$
+[/e9jooGI9Wwdq]
+[eLSLeLah0Glz#0] ^баланын/бала<n><gen>$
+[/eLSLeLah0Glz]
+[ebFiPA9Zxucs#0] ^аттарыңар/атта<v><tv><ger_fut><px2pl><nom>/атта<v><tv><ger_fut><px2pl><nom>+э<cop><aor><p3><pl>/атта<v><tv><ger_fut><px2pl><nom>+э<cop><aor><p3><sg>/атта<v><tv><ger_ppot><px2pl><nom>/атта<v><tv><ger_ppot><px2pl><nom>+э<cop><aor><p3><pl>/атта<v><tv><ger_ppot><px2pl><nom>+э<cop><aor><p3><sg>/атта<v><tv><gpr_fut><subst><px2pl><nom>/атта<v><tv><gpr_fut><subst><px2pl><nom>+э<cop><aor><p3><pl>/атта<v><tv><gpr_fut><subst><px2pl><nom>+э<cop><aor><p3><sg>/атта<v><tv><gpr_ppot><px2pl><nom>/атта<v><tv><gpr_ppot><px2pl><nom>+э<cop><aor><p3><pl>/атта<v><tv><gpr_ppot><px2pl><nom>+э<cop><aor><p3><sg>/ат<n><pl><px2pl><nom>/ат<n><pl><px2pl><nom>+э<cop><aor><p3><pl>/ат<n><pl><px2pl><nom>+э<cop><aor><p3><sg>$
+[/ebFiPA9Zxucs]
+[eyyJufTeARkD#0] ^иттин/ит<n><gen>$
+[/eyyJufTeARkD]
+[f5kr0CElQKMr#0] ^салттарыңар/салт<n><pl><px2pl><nom>/салт<n><pl><px2pl><nom>+э<cop><aor><p3><pl>/салт<n><pl><px2pl><nom>+э<cop><aor><p3><sg>$
+[/f5kr0CElQKMr]
+[fBOlIUP9ONWY#0] ^башта/башта<v><tv><imp><p2><sg>/башта<vaux><imp><p2><sg>/баш<n><loc>/баш<n><loc>+э<cop><aor><p3><pl>/баш<n><loc>+э<cop><aor><p3><sg>$
+[/fBOlIUP9ONWY]
+[fDyTVXkB8Tct#0] ^баласына/бала<n><px3sp><dat>$
+[/fDyTVXkB8Tct]
+[fFrJrsOtWlNt#0] ^баланы/бала<n><acc>$
+[/fFrJrsOtWlNt]
+[fQxEyIN5ZYIi#0] ^балаңыз/бала<n><px2sg><frm><nom>/бала<n><px2sg><frm><nom>+э<cop><aor><p3><pl>/бала<n><px2sg><frm><nom>+э<cop><aor><p3><sg>$
+[/fQxEyIN5ZYIi]
+[fiq0A9KvF8h9#0] ^салттарыбыз/салт<n><pl><px1pl><nom>/салт<n><pl><px1pl><nom>+э<cop><aor><p3><pl>/салт<n><pl><px1pl><nom>+э<cop><aor><p3><sg>$
+[/fiq0A9KvF8h9]
+[g1XfUf3wVM0i#0] ^саатыма/саат<n><px1sg><dat>$
+[/g1XfUf3wVM0i]
+[gdjm-hwe8EX6#0] ^көзгө/көз<n><dat>$
+[/gdjm-hwe8EX6]
+[gismvwoSbAe1#0] ^көздөр/көздө<v><tv><fut><p3><pl>/көздө<v><tv><fut><p3><sg>/көздө<v><tv><ger_fut><nom>/көздө<v><tv><ger_fut><nom>+э<cop><aor><p3><pl>/көздө<v><tv><ger_fut><nom>+э<cop><aor><p3><sg>/көздө<v><tv><ger_ppot><nom>/көздө<v><tv><ger_ppot><nom>+э<cop><aor><p3><pl>/көздө<v><tv><ger_ppot><nom>+э<cop><aor><p3><sg>/көздө<v><tv><gpr_fut>/көздө<v><tv><gpr_fut><subst><nom>/көздө<v><tv><gpr_fut><subst><nom>+э<cop><aor><p3><pl>/көздө<v><tv><gpr_fut><subst><nom>+э<cop><aor><p3><sg>/көздө<v><tv><gpr_ppot><nom>/көздө<v><tv><gpr_ppot><nom>+э<cop><aor><p3><pl>/көздө<v><tv><gpr_ppot><nom>+э<cop><aor><p3><sg>/көздө<v><tv><prc_fut>/көз<n><pl><nom>/көз<n><pl><nom>+э<cop><aor><p3><pl>/көз<n><pl><nom>+э<cop><aor><p3><sg>$
+[/gismvwoSbAe1]
+[glx64jK6nHaU#0] ^китебиңе/китеп<n><px2sg><dat>$
+[/glx64jK6nHaU]
+[gpGBLLN0Oxju#0] ^челекке/челек<n><dat>$
+[/gpGBLLN0Oxju]
+[hUaXMeauyGOw#0] ^элдики/эл<n><gen><subst><nom>/эл<n><gen><subst><nom>+э<cop><aor><p3><pl>/эл<n><gen><subst><nom>+э<cop><aor><p3><sg>$
+[/hUaXMeauyGOw]
+[herV7zFcIskH#0] ^апасыныкына/апа<n><px3sp><gen><subst><dat>$
+[/herV7zFcIskH]
+[hzxacrFHkP9g#0] ^терезени/терезе<n><acc>$
+[/hzxacrFHkP9g]
+[i9EiBWFT-TkP#0] ^эжесинде/эже<n><px3sp><loc>/эже<n><px3sp><loc>+э<cop><aor><p3><pl>/эже<n><px3sp><loc>+э<cop><aor><p3><sg>$
+[/i9EiBWFT-TkP]
+[jYRUGyKdIX-Y#0] ^салттарың/салт<n><pl><px2sg><nom>/салт<n><pl><px2sg><nom>+э<cop><aor><p3><pl>/салт<n><pl><px2sg><nom>+э<cop><aor><p3><sg>$
+[/jYRUGyKdIX-Y]
+[jmBg46YIucXj#0] ^абада/аба<n><loc>/аба<n><loc>+э<cop><aor><p3><pl>/аба<n><loc>+э<cop><aor><p3><sg>$
+[/jmBg46YIucXj]
+[k5lSNMYIDIZh#0] ^мектебиңе/мектеп<n><px2sg><dat>$
+[/k5lSNMYIDIZh]
+[k9cZZKpHn5d0#0] ^баласы/бала<n><px3sp><nom>/бала<n><px3sp><nom>+э<cop><aor><p3><pl>/бала<n><px3sp><nom>+э<cop><aor><p3><sg>$
+[/k9cZZKpHn5d0]
+[kAOpbPXkwQce#0] ^эжеден/эже<n><abl>/эже<n><abl>+э<cop><aor><p3><pl>/эже<n><abl>+э<cop><aor><p3><sg>$
+[/kAOpbPXkwQce]
+[kH0a7m9Yan3v#0] ^итинде/ит<n><px3sp><loc>/ит<n><px3sp><loc>+э<cop><aor><p3><pl>/ит<n><px3sp><loc>+э<cop><aor><p3><sg>$
+[/kH0a7m9Yan3v]
+[kOj3NjQuBFmP#0] ^торду/тору<adj><subst><acc>/тор<n><acc>$
+[/kOj3NjQuBFmP]
+[kSgW1amUjc3p#0] ^атың/ат<n><px2sg><nom>/ат<n><px2sg><nom>+э<cop><aor><p3><pl>/ат<n><px2sg><nom>+э<cop><aor><p3><sg>/ат<v><tv><imp><p2><frm><sg>/жат<vaux><imp><p2><frm><sg>$
+[/kSgW1amUjc3p]
+[kUp-KQgIjQ9p#0] ^көздүн/көз<n><gen>$
+[/kUp-KQgIjQ9p]
+[kdANZ1j04I0L#0] ^атым/ат<n><px1sg><nom>/ат<n><px1sg><nom>+э<cop><aor><p3><pl>/ат<n><px1sg><nom>+э<cop><aor><p3><sg>$
+[/kdANZ1j04I0L]
+[knioveO47Zca#0] ^баштан/баш<n><abl>/баш<n><abl>+э<cop><aor><p3><pl>/баш<n><abl>+э<cop><aor><p3><sg>$
+[/knioveO47Zca]
+[l19k9SPuSHT8#0] ^мектебим/мектеп<n><px1sg><nom>/мектеп<n><px1sg><nom>+э<cop><aor><p3><pl>/мектеп<n><px1sg><nom>+э<cop><aor><p3><sg>$
+[/l19k9SPuSHT8]
+[lBOTzgPPb-Qc#0] ^итти/ит<n><acc>$
+[/lBOTzgPPb-Qc]
+[lCfVm20F9ocI#0] ^айды/ай<n><acc>$
+[/lCfVm20F9ocI]
+[lRNl7NALS0OU#0] ^аттарым/атта<v><tv><ger_fut><px1sg><nom>/атта<v><tv><ger_fut><px1sg><nom>+э<cop><aor><p3><pl>/атта<v><tv><ger_fut><px1sg><nom>+э<cop><aor><p3><sg>/атта<v><tv><ger_ppot><px1sg><nom>/атта<v><tv><ger_ppot><px1sg><nom>+э<cop><aor><p3><pl>/атта<v><tv><ger_ppot><px1sg><nom>+э<cop><aor><p3><sg>/атта<v><tv><gpr_fut><subst><px1sg><nom>/атта<v><tv><gpr_fut><subst><px1sg><nom>+э<cop><aor><p3><pl>/атта<v><tv><gpr_fut><subst><px1sg><nom>+э<cop><aor><p3><sg>/атта<v><tv><gpr_ppot><px1sg><nom>/атта<v><tv><gpr_ppot><px1sg><nom>+э<cop><aor><p3><pl>/атта<v><tv><gpr_ppot><px1sg><nom>+э<cop><aor><p3><sg>/ат<n><pl><px1sg><nom>/ат<n><pl><px1sg><nom>+э<cop><aor><p3><pl>/ат<n><pl><px1sg><nom>+э<cop><aor><p3><sg>$
+[/lRNl7NALS0OU]
+[lRz5jXHHrXVI#0] ^баштын/баш<n><gen>$
+[/lRz5jXHHrXVI]
+[lpsC-zA3IxwT#0] ^туздан/туз<n><abl>/туз<n><abl>+э<cop><aor><p3><pl>/туз<n><abl>+э<cop><aor><p3><sg>$
+[/lpsC-zA3IxwT]
+[mbC2JNrX1syF#0] ^атасыныкынан/ата<n><px3sp><gen><subst><abl>/ата<n><px3sp><gen><subst><abl>+э<cop><aor><p3><pl>/ата<n><px3sp><gen><subst><abl>+э<cop><aor><p3><sg>$
+[/mbC2JNrX1syF]
+[mcT2MZmvYxxW#0] ^аттарыңыз/атта<v><tv><ger_fut><px2sg><frm><nom>/атта<v><tv><ger_fut><px2sg><frm><nom>+э<cop><aor><p3><pl>/атта<v><tv><ger_fut><px2sg><frm><nom>+э<cop><aor><p3><sg>/атта<v><tv><ger_ppot><px2sg><frm><nom>/атта<v><tv><ger_ppot><px2sg><frm><nom>+э<cop><aor><p3><pl>/атта<v><tv><ger_ppot><px2sg><frm><nom>+э<cop><aor><p3><sg>/атта<v><tv><gpr_fut><subst><px2sg><frm><nom>/атта<v><tv><gpr_fut><subst><px2sg><frm><nom>+э<cop><aor><p3><pl>/атта<v><tv><gpr_fut><subst><px2sg><frm><nom>+э<cop><aor><p3><sg>/атта<v><tv><gpr_ppot><px2sg><frm><nom>/атта<v><tv><gpr_ppot><px2sg><frm><nom>+э<cop><aor><p3><pl>/атта<v><tv><gpr_ppot><px2sg><frm><nom>+э<cop><aor><p3><sg>/ат<n><pl><px2sg><frm><nom>/ат<n><pl><px2sg><frm><nom>+э<cop><aor><p3><pl>/ат<n><pl><px2sg><frm><nom>+э<cop><aor><p3><sg>$
+[/mcT2MZmvYxxW]
+[n-P3o5JSdUoh#0] ^балаңар/бала<n><px2pl><nom>/бала<n><px2pl><nom>+э<cop><aor><p3><pl>/бала<n><px2pl><nom>+э<cop><aor><p3><sg>$
+[/n-P3o5JSdUoh]
+[nQtcCuuKoQ6f#0] ^балаңа/бала<n><px2sg><dat>$
+[/nQtcCuuKoQ6f]
+[o4Pwh0RmArIS#0] ^балаң/бала<n><px2sg><nom>/бала<n><px2sg><nom>+э<cop><aor><p3><pl>/бала<n><px2sg><nom>+э<cop><aor><p3><sg>$
+[/o4Pwh0RmArIS]
+[o8JtDR5bSnEd#0] ^эжеге/эже<n><dat>$
+[/o8JtDR5bSnEd]
+[oaywY9DX-rSp#0] ^челектен/челек<n><abl>/челек<n><abl>+э<cop><aor><p3><pl>/челек<n><abl>+э<cop><aor><p3><sg>$
+[/oaywY9DX-rSp]
+[pMNybbXrIIHj#0] ^учунун/уч<n><px3sp><gen>$
+[/pMNybbXrIIHj]
+[pOr7N3H2WA28#0] ^иттеги/ит<n><loc><attr>/ит<n><loc><subst><nom>/ит<n><loc><subst><nom>+э<cop><aor><p3><pl>/ит<n><loc><subst><nom>+э<cop><aor><p3><sg>$
+[/pOr7N3H2WA28]
+[pa214DhURD5E#0] ^туздун/туз<n><gen>$
+[/pa214DhURD5E]
+[pjRS_OTsyEqz#0] ^эжесинин/эже<n><px3sp><gen>$
+[/pjRS_OTsyEqz]
+[qIJYYK5TLeTp#0] ^эжесинен/эже<n><px3sp><abl>/эже<n><px3sp><abl>+э<cop><aor><p3><pl>/эже<n><px3sp><abl>+э<cop><aor><p3><sg>$
+[/qIJYYK5TLeTp]
+[qLdQDoZ7lSo0#0] ^июлга/июль<n><dat>$
+[/qLdQDoZ7lSo0]
+[qkWKu_vyCoYH#0] ^итке/ит<n><dat>$
+[/qkWKu_vyCoYH]
+[sfpPppKVWUYg#0] ^үйүмө/үй<n><px1sg><dat>$
+[/sfpPppKVWUYg]
+[sqjJPGFjIZeX#0] ^кемелер/кеме<n><pl><nom>/кеме<n><pl><nom>+э<cop><aor><p3><pl>/кеме<n><pl><nom>+э<cop><aor><p3><sg>$
+[/sqjJPGFjIZeX]
+[td45hbC5cKig#0] ^башты/баш<n><acc>$
+[/td45hbC5cKig]
+[tlkjJd8z1Nk5#0] ^итинин/ит<n><px3sp><gen>$
+[/tlkjJd8z1Nk5]
+[uhCTzdpCxReH#0] ^салтың/салт<n><px2sg><nom>/салт<n><px2sg><nom>+э<cop><aor><p3><pl>/салт<n><px2sg><nom>+э<cop><aor><p3><sg>$
+[/uhCTzdpCxReH]
+[usZ6jKFqZxcE#0] ^колдо/колдо<v><tv><imp><p2><sg>/кол<n><loc>/кол<n><loc>+э<cop><aor><p3><pl>/кол<n><loc>+э<cop><aor><p3><sg>$
+[/usZ6jKFqZxcE]
+[v099BR84GNXI#0] ^баласынан/бала<n><px3sp><abl>/бала<n><px3sp><abl>+э<cop><aor><p3><pl>/бала<n><px3sp><abl>+э<cop><aor><p3><sg>$
+[/v099BR84GNXI]
+[wDTwsPGpe35L#0] ^китепке/китеп<n><dat>$
+[/wDTwsPGpe35L]
+[wONZZsxVVnsb#0] ^төл/төл<n><attr>/төл<n><nom>/төл<n><nom>+э<cop><aor><p3><pl>/төл<n><nom>+э<cop><aor><p3><sg>$
+[/wONZZsxVVnsb]
+[wRuwdHSZk9bf#0] ^торлор/тору<adj><subst><pl><nom>/тору<adj><subst><pl><nom>+э<cop><aor><p3><pl>/тору<adj><subst><pl><nom>+э<cop><aor><p3><sg>/тор<n><pl><nom>/тор<n><pl><nom>+э<cop><aor><p3><pl>/тор<n><pl><nom>+э<cop><aor><p3><sg>$
+[/wRuwdHSZk9bf]
+[wVv3Yfij6-_F#0] ^эжеме/эже<n><px1sg><dat>$
+[/wVv3Yfij6-_F]
+[wrtckbPrRj09#0] ^кызыбыздыкына/кыз<n><px1pl><gen><subst><dat>$
+[/wrtckbPrRj09]
+[xJuEf-Y2cfzu#0] ^салттарыңыз/салт<n><pl><px2sg><frm><nom>/салт<n><pl><px2sg><frm><nom>+э<cop><aor><p3><pl>/салт<n><pl><px2sg><frm><nom>+э<cop><aor><p3><sg>$
+[/xJuEf-Y2cfzu]
+[xR0ZkJ9D-cil#0] ^итинен/ит<n><px3sp><abl>/ит<n><px3sp><abl>+э<cop><aor><p3><pl>/ит<n><px3sp><abl>+э<cop><aor><p3><sg>$
+[/xR0ZkJ9D-cil]
+[x_Lf7wpQ0Gyc#0] ^төлдү/төл<n><acc>$
+[/x_Lf7wpQ0Gyc]
+[yJejC9jNE3_U#0] ^көздө/көздө<v><tv><imp><p2><sg>/көз<n><loc>/көз<n><loc>+э<cop><aor><p3><pl>/көз<n><loc>+э<cop><aor><p3><sg>$
+[/yJejC9jNE3_U]
+[ywx7wZ9LHdFw#0] ^колду/кол<n><acc>$
+[/ywx7wZ9LHdFw]
+[zAsFRhvZS1qP#0] ^салтыңыз/салт<n><px2sg><frm><nom>/салт<n><px2sg><frm><nom>+э<cop><aor><p3><pl>/салт<n><px2sg><frm><nom>+э<cop><aor><p3><sg>$
+[/zAsFRhvZS1qP]
+[zFyd5kBFsGCZ#0] ^төлгө/төл<n><dat>$
+[/zFyd5kBFsGCZ]

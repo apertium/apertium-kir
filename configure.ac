@@ -23,6 +23,9 @@ PKG_CHECK_MODULES(LTTOOLBOX, lttoolbox >= 3.5.1)
 PKG_CHECK_MODULES(CG3, cg3 >= 1.3.0)
 PKG_CHECK_MODULES(HFST, hfst >= 3.15.0)
 
+PKG_CHECK_MODULES(REGTEST, apertium-regtest >= 0.0.1, [],
+                  [AC_MSG_WARN([Running tests requires apertium-regtest])])
+
 AP_MKINCLUDE
 
 AC_OUTPUT([Makefile apertium-kir.pc])

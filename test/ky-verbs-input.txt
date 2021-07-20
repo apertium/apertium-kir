@@ -1,0 +1,16 @@
+# [lexc] Infinitive -{U}{U}
+болуу
+сүйүү
+окшоо
+иштөө
+сабоо
+аарчуу
+атуу
+# [lexc] Negative -б{A}
+болбосом
+# [lexc] Conditional -с{A}
+болсом
+# [lexc] Perfect Converb -{I}п
+иштеп
+# [twol] Yotification
+коюп

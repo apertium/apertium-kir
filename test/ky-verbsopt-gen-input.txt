@@ -1,0 +1,36 @@
+# [lexc] Basic optatives
+^бол<v><iv><opt><p1><sg>$
+^бол<v><iv><opt><p2><sg>$
+^бол<v><iv><opt><p2><frm><sg>$
+^бол<v><iv><opt><p3><sg>$
+^бол<v><iv><opt><p1><pl>$
+^бол<v><iv><opt><p2><pl>$
+^бол<v><iv><opt><p2><frm><pl>$
+^бол<v><iv><opt><p3><pl>$
+# [lexc] Basic optatives with front vowels
+^бөл<v><tv><opt><p1><sg>$
+^бөл<v><tv><opt><p2><sg>$
+^бөл<v><tv><opt><p2><frm><sg>$
+^бөл<v><tv><opt><p3><sg>$
+^бөл<v><tv><opt><p1><pl>$
+^бөл<v><tv><opt><p2><pl>$
+^бөл<v><tv><opt><p2><frm><pl>$
+^бөл<v><tv><opt><p3><pl>$
+# [twol] Optatives after vowels
+^аарчы<v><iv><opt><p1><sg>$
+^аарчы<v><iv><opt><p2><sg>$
+^аарчы<v><iv><opt><p2><frm><sg>$
+^аарчы<v><iv><opt><p3><sg>$
+^аарчы<v><iv><opt><p1><pl>$
+^аарчы<v><iv><opt><p2><pl>$
+^аарчы<v><iv><opt><p2><frm><pl>$
+^аарчы<v><iv><opt><p3><pl>$
+# [twol] Optatives after rounded vowels
+^оку<v><iv><opt><p1><sg>$
+^оку<v><iv><opt><p2><sg>$
+^оку<v><iv><opt><p2><frm><sg>$
+^оку<v><iv><opt><p3><sg>$
+^оку<v><iv><opt><p1><pl>$
+^оку<v><iv><opt><p2><pl>$
+^оку<v><iv><opt><p2><frm><pl>$
+^оку<v><iv><opt><p3><pl>$

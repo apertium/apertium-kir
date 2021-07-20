@@ -1,0 +1,40 @@
+[1etSHAJk_-Zk#0] ^окугун/оку<v><iv><opt><p2><sg>/оку<v><tv><opt><p2><sg>$
+[/1etSHAJk_-Zk]
+[1qxlBG2ZfHYD#0] ^болгун/бол<v><iv><opt><p2><sg>/бол<vaux><opt><p2><sg>$
+[/1qxlBG2ZfHYD]
+[6HoFgbIdrEgm#0] ^бөлөйүн/бөлө<v><tv><opt><p1><sg>/бөл<v><tv><opt><p1><sg>$
+[/6HoFgbIdrEgm]
+[84DBkgabZLVI#0] ^окусун/оку<v><iv><opt><p3><pl>/оку<v><iv><opt><p3><sg>/оку<v><tv><opt><p3><pl>/оку<v><tv><opt><p3><sg>$
+[/84DBkgabZLVI]
+[8nkFu7YosB4G#0] ^аарчысын/аарчы<v><iv><opt><p3><pl>/аарчы<v><iv><opt><p3><sg>/аарчы<v><tv><opt><p3><pl>/аарчы<v><tv><opt><p3><sg>$
+[/8nkFu7YosB4G]
+[B2eXkKZc5REo#0] ^болоюн/бол<v><iv><opt><p1><sg>/бол<vaux><opt><p1><sg>$
+[/B2eXkKZc5REo]
+[CD0HSNZYauXY#0] ^бөлгүн/бөл<v><tv><opt><p2><sg>$
+[/CD0HSNZYauXY]
+[H2dk58plDjbA#0] ^окуюн/оку<v><iv><opt><p1><sg>/оку<v><tv><opt><p1><sg>$
+[/H2dk58plDjbA]
+[JoENF6hPYjBe#0] ^бөлөйлүк/бөлө<v><tv><opt><p1><pl>/бөл<v><tv><opt><p1><pl>$
+[/JoENF6hPYjBe]
+[K-p9B8edIOxp#0] ^болсун/бол<v><iv><opt><p3><pl>/бол<v><iv><opt><p3><sg>/бол<vaux><opt><p3><pl>/бол<vaux><opt><p3><sg>$
+[/K-p9B8edIOxp]
+[Q6TFS3qxxsdT#0] ^аарчыйын/аарчы<v><iv><opt><p1><sg>/аарчы<v><tv><opt><p1><sg>$
+[/Q6TFS3qxxsdT]
+[T-vBo2clkFgo#0] ^аарчыгыла/аарчы<v><iv><opt><p2><frm><pl>/аарчы<v><iv><opt><p2><frm><sg>/аарчы<v><iv><opt><p2><pl>/аарчы<v><tv><opt><p2><frm><pl>/аарчы<v><tv><opt><p2><frm><sg>/аарчы<v><tv><opt><p2><pl>$
+[/T-vBo2clkFgo]
+[h2C1GdEHScFO#0] ^окуйлук/оку<v><iv><opt><p1><pl>/оку<v><tv><opt><p1><pl>$
+[/h2C1GdEHScFO]
+[i77gv0NrszVK#0] ^болойлук/бол<v><iv><opt><p1><pl>/бол<vaux><opt><p1><pl>$
+[/i77gv0NrszVK]
+[kgLiyhkGwTxE#0] ^аарчыйлык/аарчы<v><iv><opt><p1><pl>/аарчы<v><tv><opt><p1><pl>$
+[/kgLiyhkGwTxE]
+[r-AEYWAy212n#0] ^бөлсүн/бөл<v><tv><opt><p3><pl>/бөл<v><tv><opt><p3><sg>$
+[/r-AEYWAy212n]
+[ty0JIG9NGA7D#0] ^окугула/оку<v><iv><opt><p2><frm><pl>/оку<v><iv><opt><p2><frm><sg>/оку<v><iv><opt><p2><pl>/оку<v><tv><opt><p2><frm><pl>/оку<v><tv><opt><p2><frm><sg>/оку<v><tv><opt><p2><pl>$
+[/ty0JIG9NGA7D]
+[uP0iEkqiubsv#0] ^бөлгүлө/бөл<v><tv><opt><p2><frm><pl>/бөл<v><tv><opt><p2><frm><sg>/бөл<v><tv><opt><p2><pl>$
+[/uP0iEkqiubsv]
+[uo6xW9-0efAF#0] ^аарчыгын/аарчы<v><iv><opt><p2><sg>/аарчы<v><tv><opt><p2><sg>$
+[/uo6xW9-0efAF]
+[wwQbmUbfAM4U#0] ^болгула/бол<v><iv><opt><p2><frm><pl>/бол<v><iv><opt><p2><frm><sg>/бол<v><iv><opt><p2><pl>/бол<vaux><opt><p2><frm><pl>/бол<vaux><opt><p2><frm><sg>/бол<vaux><opt><p2><pl>$
+[/wwQbmUbfAM4U]

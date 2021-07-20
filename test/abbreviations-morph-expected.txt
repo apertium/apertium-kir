@@ -1,0 +1,24 @@
+[9njdKY8CRdMQ#0] ^АКШны/АКШ<np><top><acc>$
+[/9njdKY8CRdMQ]
+[FMj3hLKWEAbX#0] ^КРге/КР<np><top><dat>$
+[/FMj3hLKWEAbX]
+[IJDCfOIwvB32#0] ^КР/КР<abbr>/КР<np><top><attr>/КР<np><top><nom>/КР<np><top><nom>+э<cop><aor><p3><pl>/КР<np><top><nom>+э<cop><aor><p3><sg>$
+[/IJDCfOIwvB32]
+[LVcBwe4nfDJ7#0] ^КРде/КР<np><top><loc>/КР<np><top><loc>+э<cop><aor><p3><pl>/КР<np><top><loc>+э<cop><aor><p3><sg>$
+[/LVcBwe4nfDJ7]
+[Lzkhc1S9brL4#0] ^АКШдан/АКШ<np><top><abl>/АКШ<np><top><abl>+э<cop><aor><p3><pl>/АКШ<np><top><abl>+э<cop><aor><p3><sg>$
+[/Lzkhc1S9brL4]
+[RG45VjPa1KMP#0] ^АКШ/АКШ<abbr>/АКШ<np><top><attr>/АКШ<np><top><nom>/АКШ<np><top><nom>+э<cop><aor><p3><pl>/АКШ<np><top><nom>+э<cop><aor><p3><sg>$
+[/RG45VjPa1KMP]
+[TVRXXpc4es7R#0] ^КРдин/КР<np><top><abl>/КР<np><top><abl>+э<cop><aor><p3><pl>/КР<np><top><abl>+э<cop><aor><p3><sg>/КР<np><top><gen>$
+[/TVRXXpc4es7R]
+[V96JErPqFEfx#0] ^КРден/КР<np><top><abl>/КР<np><top><abl>+э<cop><aor><p3><pl>/КР<np><top><abl>+э<cop><aor><p3><sg>$
+[/V96JErPqFEfx]
+[_ZTlbHfM-HYG#0] ^АКШда/АКШ<np><top><loc>/АКШ<np><top><loc>+э<cop><aor><p3><pl>/АКШ<np><top><loc>+э<cop><aor><p3><sg>$
+[/_ZTlbHfM-HYG]
+[suyXwAgXObpx#0] ^КРди/КР<np><top><acc>/КР<np><top><loc>/КР<np><top><loc>+э<cop><aor><p3><pl>/КР<np><top><loc>+э<cop><aor><p3><sg>$
+[/suyXwAgXObpx]
+[u1ai8p9Zn1q6#0] ^АКШга/АКШ<np><top><dat>$
+[/u1ai8p9Zn1q6]
+[yGTvW1my1IlR#0] ^АКШнын/АКШ<np><top><gen>$
+[/yGTvW1my1IlR]

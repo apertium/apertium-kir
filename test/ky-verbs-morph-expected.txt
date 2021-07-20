@@ -1,0 +1,22 @@
+[-9M0Gh1-fcgc#0] ^атуу/ат<v><tv><ger><nom>/ат<v><tv><ger><nom>+э<cop><aor><p3><pl>/ат<v><tv><ger><nom>+э<cop><aor><p3><sg>/жат<vaux><ger><nom>/жат<vaux><ger><nom>+э<cop><aor><p3><pl>/жат<vaux><ger><nom>+э<cop><aor><p3><sg>$
+[/-9M0Gh1-fcgc]
+[5MrIc2oI90t5#0] ^коюп/кой<v><tv><gna_perf>/кой<v><tv><prc_perf>$
+[/5MrIc2oI90t5]
+[9fQtu8L7d3ic#0] ^сабоо/саба<v><tv><ger><nom>/саба<v><tv><ger><nom>+э<cop><aor><p3><pl>/саба<v><tv><ger><nom>+э<cop><aor><p3><sg>$
+[/9fQtu8L7d3ic]
+[Gnfxj6VIyqzv#0] ^аарчуу/аарчы<v><iv><ger><nom>/аарчы<v><iv><ger><nom>+э<cop><aor><p3><pl>/аарчы<v><iv><ger><nom>+э<cop><aor><p3><sg>/аарчы<v><tv><ger><nom>/аарчы<v><tv><ger><nom>+э<cop><aor><p3><pl>/аарчы<v><tv><ger><nom>+э<cop><aor><p3><sg>$
+[/Gnfxj6VIyqzv]
+[Q4xcqif2YCNr#0] ^болсом/бол<v><iv><gna_cond><p1><sg>/бол<v><iv><prc_cond><p1><sg>/бол<vaux><gna_cond><p1><sg>/бол<vaux><prc_cond><p1><sg>$
+[/Q4xcqif2YCNr]
+[UGkcpQo9BFuy#0] ^иштөө/иште<v><iv><ger><nom>/иште<v><iv><ger><nom>+э<cop><aor><p3><pl>/иште<v><iv><ger><nom>+э<cop><aor><p3><sg>/иште<v><tv><ger><nom>/иште<v><tv><ger><nom>+э<cop><aor><p3><pl>/иште<v><tv><ger><nom>+э<cop><aor><p3><sg>/иштөө<n><attr>/иштөө<n><nom>/иштөө<n><nom>+э<cop><aor><p3><pl>/иштөө<n><nom>+э<cop><aor><p3><sg>$
+[/UGkcpQo9BFuy]
+[WcRor4VEo5UY#0] ^окшоо/окшо<v><iv><ger><nom>/окшо<v><iv><ger><nom>+э<cop><aor><p3><pl>/окшо<v><iv><ger><nom>+э<cop><aor><p3><sg>$
+[/WcRor4VEo5UY]
+[Xf2Bsm5PFOGa#0] ^болуу/бол<v><iv><ger><nom>/бол<v><iv><ger><nom>+э<cop><aor><p3><pl>/бол<v><iv><ger><nom>+э<cop><aor><p3><sg>/бол<vaux><ger><nom>/бол<vaux><ger><nom>+э<cop><aor><p3><pl>/бол<vaux><ger><nom>+э<cop><aor><p3><sg>$
+[/Xf2Bsm5PFOGa]
+[b_pJ0Na0uObc#0] ^иштеп/иште<v><iv><gna_perf>/иште<v><iv><prc_perf>/иште<v><tv><gna_perf>/иште<v><tv><prc_perf>$
+[/b_pJ0Na0uObc]
+[tfE32PAfo6PY#0] ^болбосом/бол<v><iv><neg><gna_cond><p1><sg>/бол<v><iv><neg><prc_cond><p1><sg>/бол<vaux><neg><gna_cond><p1><sg>/бол<vaux><neg><prc_cond><p1><sg>$
+[/tfE32PAfo6PY]
+[x7RMvXsylKZ0#0] ^сүйүү/сүйүү<n><attr>/сүйүү<n><nom>/сүйүү<n><nom>+э<cop><aor><p3><pl>/сүйүү<n><nom>+э<cop><aor><p3><sg>/сүй<v><tv><ger><nom>/сүй<v><tv><ger><nom>+э<cop><aor><p3><pl>/сүй<v><tv><ger><nom>+э<cop><aor><p3><sg>$
+[/x7RMvXsylKZ0]

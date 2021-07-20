@@ -1,0 +1,48 @@
+[0Y0pb8_PI25u#0] ^таппаң/тап<v><tv><neg><imp><p2><frm><sg>$
+[/0Y0pb8_PI25u]
+[1NxFXKrSCf3v#0] ^бол/бол<v><iv><imp><p2><sg>/бол<vaux><imp><p2><sg>$
+[/1NxFXKrSCf3v]
+[2CMNkTmHcqtP#0] ^иште/иште<v><iv><imp><p2><sg>/иште<v><tv><imp><p2><sg>/иш<n><loc>/иш<n><loc>+э<cop><aor><p3><pl>/иш<n><loc>+э<cop><aor><p3><sg>$
+[/2CMNkTmHcqtP]
+[3U56tKiZNZj7#0] ^табыңыздар/тап<n><px2pl><frm><nom>/тап<n><px2pl><frm><nom>+э<cop><aor><p3><pl>/тап<n><px2pl><frm><nom>+э<cop><aor><p3><sg>/тап<v><tv><imp><p2><frm><pl>$
+[/3U56tKiZNZj7]
+[4ZmjMvQFa2fa#0] ^сүйбөңүздөр/сүй<v><tv><neg><imp><p2><frm><pl>$
+[/4ZmjMvQFa2fa]
+[6a8xffaAGXcj#0] ^иштең/иште<v><iv><imp><p2><frm><sg>/иште<v><tv><imp><p2><frm><sg>$
+[/6a8xffaAGXcj]
+[7Ca_pazlbr-_#0] ^таппаңыздар/тап<v><tv><neg><imp><p2><frm><pl>$
+[/7Ca_pazlbr-_]
+[BDjBG0v0qXaY#0] ^болуңуздар/бол<v><iv><imp><p2><frm><pl>/бол<vaux><imp><p2><frm><pl>$
+[/BDjBG0v0qXaY]
+[Cr114PfmnY1X#0] ^сүй/сүй<v><tv><imp><p2><sg>$
+[/Cr114PfmnY1X]
+[GZJok4A2IOBc#0] ^таппа/тап<v><tv><neg><imp><p2><sg>$
+[/GZJok4A2IOBc]
+[IaI3jpnPktHM#0] ^иштебеңиздер/иште<v><iv><neg><imp><p2><frm><pl>/иште<v><tv><neg><imp><p2><frm><pl>$
+[/IaI3jpnPktHM]
+[L039epuElu71#0] ^иштебе/иште<v><iv><neg><imp><p2><sg>/иште<v><tv><neg><imp><p2><sg>$
+[/L039epuElu71]
+[LA2OlpNcdx6h#0] ^болуң/бол<v><iv><imp><p2><frm><sg>/бол<vaux><imp><p2><frm><sg>$
+[/LA2OlpNcdx6h]
+[MmN39F7JWrS_#0] ^тап/тап<n><attr>/тап<n><nom>/тап<n><nom>+э<cop><aor><p3><pl>/тап<n><nom>+э<cop><aor><p3><sg>/тап<v><tv><imp><p2><sg>$
+[/MmN39F7JWrS_]
+[SxQczOveGRgG#0] ^сүйүң/сүй<v><tv><imp><p2><frm><sg>$
+[/SxQczOveGRgG]
+[VcC-cO6m4Suo#0] ^сүйбө/сүй<v><tv><neg><imp><p2><sg>$
+[/VcC-cO6m4Suo]
+[bTL0xE6hlQrz#0] ^иштеңиздер/иште<v><iv><imp><p2><frm><pl>/иште<v><tv><imp><p2><frm><pl>$
+[/bTL0xE6hlQrz]
+[bdRmRNlmvzYl#0] ^болбо/бол<v><iv><neg><imp><p2><sg>/бол<vaux><neg><imp><p2><sg>$
+[/bdRmRNlmvzYl]
+[gP1GGB0aBGoD#0] ^иштебең/иште<v><iv><neg><imp><p2><frm><sg>/иште<v><tv><neg><imp><p2><frm><sg>$
+[/gP1GGB0aBGoD]
+[mA_HAk2ysIlf#0] ^сүйбөң/сүй<v><tv><neg><imp><p2><frm><sg>$
+[/mA_HAk2ysIlf]
+[o5Gcrp3QFstR#0] ^табың/тап<n><px2sg><nom>/тап<n><px2sg><nom>+э<cop><aor><p3><pl>/тап<n><px2sg><nom>+э<cop><aor><p3><sg>/тап<v><tv><imp><p2><frm><sg>$
+[/o5Gcrp3QFstR]
+[pP8x9j5-TB6H#0] ^болбоң/бол<v><iv><neg><imp><p2><frm><sg>/бол<vaux><neg><imp><p2><frm><sg>$
+[/pP8x9j5-TB6H]
+[sMovQ5ZzZ305#0] ^болбоңуздар/бол<v><iv><neg><imp><p2><frm><pl>/бол<vaux><neg><imp><p2><frm><pl>$
+[/sMovQ5ZzZ305]
+[xu74Y7fRymYg#0] ^сүйүңүздөр/сүй<v><tv><imp><p2><frm><pl>$
+[/xu74Y7fRymYg]

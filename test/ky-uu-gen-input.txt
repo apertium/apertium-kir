@@ -1,0 +1,43 @@
+# [twol] infinitives
+^кой<v><tv><ger><nom>$
+^кал<v><iv><ger><nom>$
+^кел<v><iv><ger><nom>$
+# [twol] infinitives with low vowels
+^аарчы<v><tv><ger><nom>$
+^ээри<v><iv><ger><nom>$
+# [twol] infinitives with high vowels
+^алда<v><tv><ger><nom>$
+^эсте<v><tv><ger><nom>$
+# [twol] +луу forms
+^кой<n>+луу<post>$
+^эчки<n>+луу<post>$
+# [twol] number forms
+^бир<num><coll><advl>$
+^бир<num><coll><acc>$
+^эки<num><coll><advl>$
+^эки<num><coll><acc>$
+^үч<num><coll><advl>$
+^үч<num><coll><acc>$
+^төрт<num><coll><advl>$
+^төрт<num><coll><acc>$
+^беш<num><coll><advl>$
+^беш<num><coll><acc>$
+^алты<num><coll><advl>$
+^алты<num><coll><acc>$
+^жети<num><coll><advl>$
+^жети<num><coll><acc>$
+# [twol] numeral forms
+^1<num><coll><advl>$
+^1<num><coll><acc>$
+^2<num><coll><advl>$
+^2<num><coll><acc>$
+^3<num><coll><advl>$
+^3<num><coll><acc>$
+^4<num><coll><advl>$
+^4<num><coll><acc>$
+^5<num><coll><advl>$
+^5<num><coll><acc>$
+^6<num><coll><advl>$
+^6<num><coll><acc>$
+^7<num><coll><advl>$
+^7<num><coll><acc>$

@@ -1,0 +1,134 @@
+{
+  "abbreviations": {
+    "input": "abbreviations-input.txt",
+    "mode": "kir-morph"
+  },
+  "abbreviations-gen": {
+    "input": "abbreviations-gen-input.txt",
+    "mode": "kir-gener"
+  },
+  "ky-adjectives": {
+    "input": "ky-adjectives-input.txt",
+    "mode": "kir-morph"
+  },
+  "ky-adjectives-gen": {
+    "input": "ky-adjectives-gen-input.txt",
+    "mode": "kir-gener"
+  },
+  "ky-causpass": {
+    "input": "ky-causpass-input.txt",
+    "mode": "kir-morph"
+  },
+  "ky-causpass-gen": {
+    "input": "ky-causpass-gen-input.txt",
+    "mode": "kir-gener"
+  },
+  "ky-jnw": {
+    "input": "ky-jnw-input.txt",
+    "mode": "kir-morph"
+  },
+  "ky-jnw-gen": {
+    "input": "ky-jnw-gen-input.txt",
+    "mode": "kir-gener"
+  },
+  "ky-nouns": {
+    "input": "ky-nouns-input.txt",
+    "mode": "kir-morph"
+  },
+  "ky-nouns-gen": {
+    "input": "ky-nouns-gen-input.txt",
+    "mode": "kir-gener"
+  },
+  "ky-nounsspecial": {
+    "input": "ky-nounsspecial-input.txt",
+    "mode": "kir-morph"
+  },
+  "ky-nounsspecial-gen": {
+    "input": "ky-nounsspecial-gen-input.txt",
+    "mode": "kir-gener"
+  },
+  "ky-numbers": {
+    "input": "ky-numbers-input.txt",
+    "mode": "kir-morph"
+  },
+  "ky-numbers-gen": {
+    "input": "ky-numbers-gen-input.txt",
+    "mode": "kir-gener"
+  },
+  "ky-pronouns": {
+    "input": "ky-pronouns-input.txt",
+    "mode": "kir-morph"
+  },
+  "ky-pronouns-gen": {
+    "input": "ky-pronouns-gen-input.txt",
+    "mode": "kir-gener"
+  },
+  "ky-uu": {
+    "input": "ky-uu-input.txt",
+    "mode": "kir-morph"
+  },
+  "ky-uu-gen": {
+    "input": "ky-uu-gen-input.txt",
+    "mode": "kir-gener"
+  },
+  "ky-verbs": {
+    "input": "ky-verbs-input.txt",
+    "mode": "kir-morph"
+  },
+  "ky-verbs-gen": {
+    "input": "ky-verbs-gen-input.txt",
+    "mode": "kir-gener"
+  },
+  "ky-verbs2": {
+    "input": "ky-verbs2-input.txt",
+    "mode": "kir-morph"
+  },
+  "ky-verbs2-gen": {
+    "input": "ky-verbs2-gen-input.txt",
+    "mode": "kir-gener"
+  },
+  "ky-verbs3pl": {
+    "input": "ky-verbs3pl-input.txt",
+    "mode": "kir-morph"
+  },
+  "ky-verbs3pl-gen": {
+    "input": "ky-verbs3pl-gen-input.txt",
+    "mode": "kir-gener"
+  },
+  "ky-verbsaux": {
+    "input": "ky-verbsaux-input.txt",
+    "mode": "kir-morph"
+  },
+  "ky-verbsaux-gen": {
+    "input": "ky-verbsaux-gen-input.txt",
+    "mode": "kir-gener"
+  },
+  "ky-verbsimp": {
+    "input": "ky-verbsimp-input.txt",
+    "mode": "kir-morph"
+  },
+  "ky-verbsimp-gen": {
+    "input": "ky-verbsimp-gen-input.txt",
+    "mode": "kir-gener"
+  },
+  "ky-verbsopt": {
+    "input": "ky-verbsopt-input.txt",
+    "mode": "kir-morph"
+  },
+  "ky-verbsopt-gen": {
+    "input": "ky-verbsopt-gen-input.txt",
+    "mode": "kir-gener"
+  },
+  "multi": {
+    "input": "multi-input.txt",
+    "mode": "kir-morph"
+  },
+  "multi-gen": {
+    "input": "multi-gen-input.txt",
+    "mode": "kir-gener"
+  },
+    "twol": {
+        "input": null,
+        "command": "test/twol-pairtest.sh"
+    }
+}

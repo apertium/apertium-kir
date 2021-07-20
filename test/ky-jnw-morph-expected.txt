@@ -1,0 +1,80 @@
+[-9M0Gh1-fcgc#0] ^атуу/ат<v><tv><ger><nom>/ат<v><tv><ger><nom>+э<cop><aor><p3><pl>/ат<v><tv><ger><nom>+э<cop><aor><p3><sg>/жат<vaux><ger><nom>/жат<vaux><ger><nom>+э<cop><aor><p3><pl>/жат<vaux><ger><nom>+э<cop><aor><p3><sg>$
+[/-9M0Gh1-fcgc]
+[00sNhn0BQaf_#0] ^тээп/теп<v><tv><gna_perf>/теп<v><tv><prc_perf>$
+[/00sNhn0BQaf_]
+[36sLalvWPD-3#0] ^сабай/саба<v><tv><prc_impf>$
+[/36sLalvWPD-3]
+[5JC6XmCy8UMq#0] ^кетүү/кетүү<n><attr>/кетүү<n><nom>/кетүү<n><nom>+э<cop><aor><p3><pl>/кетүү<n><nom>+э<cop><aor><p3><sg>/кет<v><iv><ger><nom>/кет<v><iv><ger><nom>+э<cop><aor><p3><pl>/кет<v><iv><ger><nom>+э<cop><aor><p3><sg>/кет<vaux><ger><nom>/кет<vaux><ger><nom>+э<cop><aor><p3><pl>/кет<vaux><ger><nom>+э<cop><aor><p3><sg>$
+[/5JC6XmCy8UMq]
+[5MrIc2oI90t5#0] ^коюп/кой<v><tv><gna_perf>/кой<v><tv><prc_perf>$
+[/5MrIc2oI90t5]
+[67Vgti_iPdzK#0] ^шишүү/шиши<v><iv><ger><nom>/шиши<v><iv><ger><nom>+э<cop><aor><p3><pl>/шиши<v><iv><ger><nom>+э<cop><aor><p3><sg>$
+[/67Vgti_iPdzK]
+[6tnSSxA4b5De#0] ^чыгып/чык<v><iv><gna_perf>/чык<v><iv><prc_perf>/чык<vaux><gna_perf>/чык<vaux><prc_perf>$
+[/6tnSSxA4b5De]
+[79RLq-8x4Kp_#0] ^бою/бой<n><px3sp><nom>/бой<n><px3sp><nom>+э<cop><aor><p3><pl>/бой<n><px3sp><nom>+э<cop><aor><p3><sg>/бою<post>$
+[/79RLq-8x4Kp_]
+[8rj68PaJRN2o#0] ^талкалануу/талкала<v><tv><pass><ger><nom>/талкала<v><tv><pass><ger><nom>+э<cop><aor><p3><pl>/талкала<v><tv><pass><ger><nom>+э<cop><aor><p3><sg>$
+[/8rj68PaJRN2o]
+[9fQtu8L7d3ic#0] ^сабоо/саба<v><tv><ger><nom>/саба<v><tv><ger><nom>+э<cop><aor><p3><pl>/саба<v><tv><ger><nom>+э<cop><aor><p3><sg>$
+[/9fQtu8L7d3ic]
+[GUdRrTS8Wvpa#0] ^таба/таба<n><attr>/таба<n><nom>/таба<n><nom>+э<cop><aor><p3><pl>/таба<n><nom>+э<cop><aor><p3><sg>/тап<v><tv><prc_impf>$
+[/GUdRrTS8Wvpa]
+[Gnfxj6VIyqzv#0] ^аарчуу/аарчы<v><iv><ger><nom>/аарчы<v><iv><ger><nom>+э<cop><aor><p3><pl>/аарчы<v><iv><ger><nom>+э<cop><aor><p3><sg>/аарчы<v><tv><ger><nom>/аарчы<v><tv><ger><nom>+э<cop><aor><p3><pl>/аарчы<v><tv><ger><nom>+э<cop><aor><p3><sg>$
+[/Gnfxj6VIyqzv]
+[Hk_qjhOGTv0u#0] ^таап/тап<v><tv><gna_perf>/тап<v><tv><prc_perf>$
+[/Hk_qjhOGTv0u]
+[IgmpMLL2KEjD#0] ^боюн/бой<n><px3sp><acc>$
+[/IgmpMLL2KEjD]
+[L1iILMLS_gsr#0] ^боёй/боё<v><tv><prc_impf>$
+[/L1iILMLS_gsr]
+[LFj7ohXFGW-S#0] ^коюу/кой<v><tv><ger><nom>/кой<v><tv><ger><nom>+э<cop><aor><p3><pl>/кой<v><tv><ger><nom>+э<cop><aor><p3><sg>/коюу<adj>/коюу<adj>+э<cop><aor><p3><pl>/коюу<adj>+э<cop><aor><p3><sg>/коюу<adj><subst><nom>/коюу<adj><subst><nom>+э<cop><aor><p3><pl>/коюу<adj><subst><nom>+э<cop><aor><p3><sg>$
+[/LFj7ohXFGW-S]
+[LPT2xEBwjjuH#0] ^коё/кой<v><tv><prc_impf>$
+[/LPT2xEBwjjuH]
+[OR2lw2HUuGAU#0] ^болуп/бол<v><iv><gna_perf>/бол<v><iv><prc_perf>/бол<vaux><gna_perf>/бол<vaux><prc_perf>$
+[/OR2lw2HUuGAU]
+[RCQXMHlwYEGb#0] ^таамп/там<v><iv><gna_perf>/там<v><iv><prc_perf>$
+[/RCQXMHlwYEGb]
+[RNCMfnoEaiWZ#0] ^өөп/өп<v><tv><gna_perf>/өп<v><tv><prc_perf>$
+[/RNCMfnoEaiWZ]
+[TTy0rx8arNJr#0] ^сабап/саба<v><tv><gna_perf>/саба<v><tv><prc_perf>$
+[/TTy0rx8arNJr]
+[UGkcpQo9BFuy#0] ^иштөө/иште<v><iv><ger><nom>/иште<v><iv><ger><nom>+э<cop><aor><p3><pl>/иште<v><iv><ger><nom>+э<cop><aor><p3><sg>/иште<v><tv><ger><nom>/иште<v><tv><ger><nom>+э<cop><aor><p3><pl>/иште<v><tv><ger><nom>+э<cop><aor><p3><sg>/иштөө<n><attr>/иштөө<n><nom>/иштөө<n><nom>+э<cop><aor><p3><pl>/иштөө<n><nom>+э<cop><aor><p3><sg>$
+[/UGkcpQo9BFuy]
+[UlxKjAQ954Z-#0] ^айтып/айт<v><iv><gna_perf>/айт<v><iv><prc_perf>/айт<v><tv><gna_perf>/айт<v><tv><prc_perf>$
+[/UlxKjAQ954Z-]
+[VUTZxVgmTlEA#0] ^табылуу/тап<v><tv><pass><ger><nom>/тап<v><tv><pass><ger><nom>+э<cop><aor><p3><pl>/тап<v><tv><pass><ger><nom>+э<cop><aor><p3><sg>$
+[/VUTZxVgmTlEA]
+[WcRor4VEo5UY#0] ^окшоо/окшо<v><iv><ger><nom>/окшо<v><iv><ger><nom>+э<cop><aor><p3><pl>/окшо<v><iv><ger><nom>+э<cop><aor><p3><sg>$
+[/WcRor4VEo5UY]
+[Xf2Bsm5PFOGa#0] ^болуу/бол<v><iv><ger><nom>/бол<v><iv><ger><nom>+э<cop><aor><p3><pl>/бол<v><iv><ger><nom>+э<cop><aor><p3><sg>/бол<vaux><ger><nom>/бол<vaux><ger><nom>+э<cop><aor><p3><pl>/бол<vaux><ger><nom>+э<cop><aor><p3><sg>$
+[/Xf2Bsm5PFOGa]
+[XkcydjBDz20P#0] ^жетип/жет<v><iv><gna_perf>/жет<v><iv><prc_perf>/жет<v><tv><gna_perf>/жет<v><tv><prc_perf>$
+[/XkcydjBDz20P]
+[ZsWfxSYBVbaG#0] ^боёо/боё<v><tv><ger><nom>/боё<v><tv><ger><nom>+э<cop><aor><p3><pl>/боё<v><tv><ger><nom>+э<cop><aor><p3><sg>$
+[/ZsWfxSYBVbaG]
+[_DFREiB9x8L0#0] ^чыга/чык<v><iv><prc_impf>/чык<vaux><prc_impf>$
+[/_DFREiB9x8L0]
+[b_pJ0Na0uObc#0] ^иштеп/иште<v><iv><gna_perf>/иште<v><iv><prc_perf>/иште<v><tv><gna_perf>/иште<v><tv><prc_perf>$
+[/b_pJ0Na0uObc]
+[ckHMEjLeDH3h#0] ^тартуу/тартуу<n><attr>/тартуу<n><nom>/тартуу<n><nom>+э<cop><aor><p3><pl>/тартуу<n><nom>+э<cop><aor><p3><sg>/тарт<v><tv><ger><nom>/тарт<v><tv><ger><nom>+э<cop><aor><p3><pl>/тарт<v><tv><ger><nom>+э<cop><aor><p3><sg>$
+[/ckHMEjLeDH3h]
+[cwbmf5hN3iKx#0] ^сүйүп/сүй<v><tv><gna_perf>/сүй<v><tv><prc_perf>$
+[/cwbmf5hN3iKx]
+[ip_J8X2T4-E3#0] ^тебе/теп<v><tv><prc_impf>$
+[/ip_J8X2T4-E3]
+[jCfueqsosfPQ#0] ^ээмп/эм<v><tv><gna_perf>/эм<v><tv><prc_perf>$
+[/jCfueqsosfPQ]
+[kBdw42I-oJBK#0] ^сабалуу/саба<v><tv><pass><ger><nom>/саба<v><tv><pass><ger><nom>+э<cop><aor><p3><pl>/саба<v><tv><pass><ger><nom>+э<cop><aor><p3><sg>$
+[/kBdw42I-oJBK]
+[lfkGJmAHqJK_#0] ^жая/жай<v><tv><prc_impf>$
+[/lfkGJmAHqJK_]
+[m0sGYhRuwGCD#0] ^айтуу/айт<v><iv><ger><nom>/айт<v><iv><ger><nom>+э<cop><aor><p3><pl>/айт<v><iv><ger><nom>+э<cop><aor><p3><sg>/айт<v><tv><ger><nom>/айт<v><tv><ger><nom>+э<cop><aor><p3><pl>/айт<v><tv><ger><nom>+э<cop><aor><p3><sg>$
+[/m0sGYhRuwGCD]
+[n1f1GGKuwrPA#0] ^тие/тий<v><iv><prc_impf>/тий<v><tv><prc_impf>$
+[/n1f1GGKuwrPA]
+[v2riRjF03Y-n#0] ^билинүү/бил<v><tv><pass><ger><nom>/бил<v><tv><pass><ger><nom>+э<cop><aor><p3><pl>/бил<v><tv><pass><ger><nom>+э<cop><aor><p3><sg>$
+[/v2riRjF03Y-n]
+[x7RMvXsylKZ0#0] ^сүйүү/сүйүү<n><attr>/сүйүү<n><nom>/сүйүү<n><nom>+э<cop><aor><p3><pl>/сүйүү<n><nom>+э<cop><aor><p3><sg>/сүй<v><tv><ger><nom>/сүй<v><tv><ger><nom>+э<cop><aor><p3><pl>/сүй<v><tv><ger><nom>+э<cop><aor><p3><sg>$
+[/x7RMvXsylKZ0]

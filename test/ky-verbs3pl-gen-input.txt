@@ -1,0 +1,12 @@
+# [lexc] aorist forms
+^бол<v><iv><aor><coop><p3><pl>$
+^бол<v><iv><aor><p3><pl>$
+^бол<v><iv><aor><p3><sg>$
+# [lexc] negative aorist forms
+^бол<v><iv><neg><ifi><coop><p3><pl>$
+^бол<v><iv><neg><ifi><p3><pl>$
+^бол<v><iv><neg><ifi><p3><sg>$
+# [lexc] ifi forms
+^бол<v><iv><ifi><coop><p3><pl>$
+^бол<v><iv><ifi><p3><pl>$
+^бол<v><iv><ifi><p3><sg>$

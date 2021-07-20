@@ -30,8 +30,13 @@
 
   <mode name="kir-gener" install="yes">
     <pipeline>
-      <program name="hfst-proc -g">
+      <!-- as of 121a4d5, `hfst-proc -g kir.autogen.hfst`
+           segfaults on some inputs, so use lt-proc instead -->
+      <!--<program name="hfst-proc -g">
         <file name="kir.autogen.hfst"/>
+        </program>-->
+      <program name="lt-proc -g">
+        <file name="kir.autogen.bin"/>
       </program>
     </pipeline>
   </mode>

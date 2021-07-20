@@ -1,0 +1,41 @@
+# [lexc] Infinitive -{U}{U}
+^бол<v><iv><ger><nom>$
+^сүй<v><tv><ger><nom>$
+^окшо<v><iv><ger><nom>$
+^иште<v><iv><ger><nom>$
+^саба<v><tv><ger><nom>$
+^аарчы<v><tv><ger><nom>$
+^шиши<v><iv><ger><nom>$
+^ат<v><tv><ger><nom>$
+^кет<v><iv><ger><nom>$
+# [twol] {I} deletion
+^бол<v><iv><prt_perf>$
+^сүй<v><tv><prt_perf>$
+^иште<v><iv><prt_perf>$
+# [twol] Yotification
+^кой<v><tv><prt_perf>$
+^кой<v><tv><ger><nom>$
+# [lexc] Complex tenses
+^кой<v><tv><ger_pres><nom>$
+^кой<v><tv><neg><ger_pres><nom>$
+^кой<v><tv><fut><p1><sg>$
+^кой<v><tv><neg><fut><p1><sg>$
+^кой<v><tv><ifi><p1><sg>$
+^кой<v><tv><neg><ifi><p1><sg>$
+# [lexc] Volative participle
+^кой<v><tv><prt_vol><p1><sg>$
+^кой<v><tv><prt_vol><p2><sg>$
+^кой<v><tv><prt_vol><p2><sg><frm>$
+^кой<v><tv><prt_vol><p3><sg>$
+^кой<v><tv><prt_vol><p1><pl>$
+^кой<v><tv><prt_vol><p2><pl>$
+^кой<v><tv><prt_vol><p2><pl><frm>$
+^кой<v><tv><prt_vol><p3><pl>$
+^кет<v><iv><prt_vol><p1><sg>$
+^кет<v><iv><prt_vol><p2><sg>$
+^кет<v><iv><prt_vol><p2><sg><frm>$
+^кет<v><iv><prt_vol><p3><sg>$
+^кет<v><iv><prt_vol><p1><pl>$
+^кет<v><iv><prt_vol><p2><pl>$
+^кет<v><iv><prt_vol><p2><pl><frm>$
+^кет<v><iv><prt_vol><p3><pl>$

@@ -1,0 +1,86 @@
+[-8APddhSwZKJ#0] ^бастыруу/бас<v><iv><caus><ger><nom>/бас<v><iv><caus><ger><nom>+э<cop><aor><p3><pl>/бас<v><iv><caus><ger><nom>+э<cop><aor><p3><sg>/бас<v><tv><caus><ger><nom>/бас<v><tv><caus><ger><nom>+э<cop><aor><p3><pl>/бас<v><tv><caus><ger><nom>+э<cop><aor><p3><sg>$
+[/-8APddhSwZKJ]
+[-SeaQqz2Nkey#0] ^сезилүү/сез<v><tv><pass><ger><nom>/сез<v><tv><pass><ger><nom>+э<cop><aor><p3><pl>/сез<v><tv><pass><ger><nom>+э<cop><aor><p3><sg>$
+[/-SeaQqz2Nkey]
+[03BRNPP8fhgb#0] ^жаланып/жала<v><tv><pass><gna_perf>/жала<v><tv><pass><prc_perf>$
+[/03BRNPP8fhgb]
+[0hC0COwOuEA8#0] ^жазылып/жазыл<v><tv><gna_perf>/жазыл<v><tv><prc_perf>/жаз<v><tv><pass><gna_perf>/жаз<v><tv><pass><prc_perf>$
+[/0hC0COwOuEA8]
+[3HVZVH_k9RAi#0] ^болдуруу/бол<v><iv><caus><ger><nom>/бол<v><iv><caus><ger><nom>+э<cop><aor><p3><pl>/бол<v><iv><caus><ger><nom>+э<cop><aor><p3><sg>$
+[/3HVZVH_k9RAi]
+[7HH5jYVXuKKL#0] ^катыруу/кат<v><iv><caus><ger><nom>/кат<v><iv><caus><ger><nom>+э<cop><aor><p3><pl>/кат<v><iv><caus><ger><nom>+э<cop><aor><p3><sg>$
+[/7HH5jYVXuKKL]
+[7beLRoDddpo1#0] ^салкындатып/салкында<v><iv><caus><gna_perf>/салкында<v><iv><caus><prc_perf>$
+[/7beLRoDddpo1]
+[9G0KLjSHoHk2#0] ^өзгөртүп/өзгөр<v><iv><caus><gna_perf>/өзгөр<v><iv><caus><prc_perf>$
+[/9G0KLjSHoHk2]
+[9jouwYaK6gIa#0] ^жедирип/же<v><tv><caus><gna_perf>/же<v><tv><caus><prc_perf>$
+[/9jouwYaK6gIa]
+[CmcqBkF1Bxfx#0] ^саадырып/саа<v><tv><caus><gna_perf>/саа<v><tv><caus><prc_perf>$
+[/CmcqBkF1Bxfx]
+[EkiiqRsbgfSm#0] ^келтирилип/келтир<v><tv><pass><gna_perf>/келтир<v><tv><pass><prc_perf>/кел<v><iv><caus><pass><gna_perf>/кел<v><iv><caus><pass><prc_perf>$
+[/EkiiqRsbgfSm]
+[HJwhEUxSwr-h#0] ^уландырып/улан<v><iv><caus><gna_perf>/улан<v><iv><caus><prc_perf>$
+[/HJwhEUxSwr-h]
+[IG8uPP25jpHp#0] ^иштетүү/иште<v><iv><caus><ger><nom>/иште<v><iv><caus><ger><nom>+э<cop><aor><p3><pl>/иште<v><iv><caus><ger><nom>+э<cop><aor><p3><sg>/иште<v><tv><caus><ger><nom>/иште<v><tv><caus><ger><nom>+э<cop><aor><p3><pl>/иште<v><tv><caus><ger><nom>+э<cop><aor><p3><sg>$
+[/IG8uPP25jpHp]
+[MJ5DE-MKmkK0#0] ^жактыруу/жак<v><iv><caus><ger><nom>/жак<v><iv><caus><ger><nom>+э<cop><aor><p3><pl>/жак<v><iv><caus><ger><nom>+э<cop><aor><p3><sg>/жак<v><tv><caus><ger><nom>/жак<v><tv><caus><ger><nom>+э<cop><aor><p3><pl>/жак<v><tv><caus><ger><nom>+э<cop><aor><p3><sg>$
+[/MJ5DE-MKmkK0]
+[MyCmRcYyJgPk#0] ^узартып/узар<v><iv><caus><gna_perf>/узар<v><iv><caus><prc_perf>$
+[/MyCmRcYyJgPk]
+[P5MS-264jinf#0] ^эскиртип/эскир<v><iv><caus><gna_perf>/эскир<v><iv><caus><prc_perf>$
+[/P5MS-264jinf]
+[Q5iGYFXqwqO4#0] ^бүтүрүү/бүт<v><iv><caus><ger><nom>/бүт<v><iv><caus><ger><nom>+э<cop><aor><p3><pl>/бүт<v><iv><caus><ger><nom>+э<cop><aor><p3><sg>$
+[/Q5iGYFXqwqO4]
+[RQEUQ4kD5r37#0] ^качтыруу/кач<v><iv><caus><ger><nom>/кач<v><iv><caus><ger><nom>+э<cop><aor><p3><pl>/кач<v><iv><caus><ger><nom>+э<cop><aor><p3><sg>$
+[/RQEUQ4kD5r37]
+[T7mbHdH0r6f5#0] ^ачыткан/ачы<v><iv><caus><ger_past><nom>/ачы<v><iv><caus><ger_past><nom>+э<cop><aor><p3><pl>/ачы<v><iv><caus><ger_past><nom>+э<cop><aor><p3><sg>/ачы<v><iv><caus><gpr>/ачы<v><iv><caus><gpr><subst><nom>/ачы<v><iv><caus><gpr><subst><nom>+э<cop><aor><p3><pl>/ачы<v><iv><caus><gpr><subst><nom>+э<cop><aor><p3><sg>/ачы<v><iv><caus><gpr_past>/ачы<v><iv><caus><gpr_past><subst><nom>/ачы<v><iv><caus><gpr_past><subst><nom>+э<cop><aor><p3><pl>/ачы<v><iv><caus><gpr_past><subst><nom>+э<cop><aor><p3><sg>/ачы<v><iv><caus><past><p3><pl>/ачы<v><iv><caus><past><p3><sg>/ачы<v><iv><caus><prc_past>$
+[/T7mbHdH0r6f5]
+[THxERru4B1hN#0] ^агызуу/ак<v><iv><caus><ger><nom>/ак<v><iv><caus><ger><nom>+э<cop><aor><p3><pl>/ак<v><iv><caus><ger><nom>+э<cop><aor><p3><sg>$
+[/THxERru4B1hN]
+[UopkerZVv_FE#0] ^токтоттум/токтот<v><tv><ifi><p1><sg>/токто<v><iv><caus><ifi><p1><sg>$
+[/UopkerZVv_FE]
+[WdVlcV8ieB0Z#0] ^бааланып/баала<v><tv><pass><gna_perf>/баала<v><tv><pass><prc_perf>$
+[/WdVlcV8ieB0Z]
+[YnFYQsavzQb0#0] ^жуудуруп/жуу<v><tv><caus><gna_perf>/жуу<v><tv><caus><prc_perf>$
+[/YnFYQsavzQb0]
+[ZDrk0Qm3aP_o#0] ^бышыруу/быш<v><iv><caus><ger><nom>/быш<v><iv><caus><ger><nom>+э<cop><aor><p3><pl>/быш<v><iv><caus><ger><nom>+э<cop><aor><p3><sg>$
+[/ZDrk0Qm3aP_o]
+[ZdwPnukuJ5iP#0] ^кыскартып/кыскар<v><iv><caus><gna_perf>/кыскар<v><iv><caus><prc_perf>$
+[/ZdwPnukuJ5iP]
+[aWDckMjLLMng#0] ^чогултуп/чогул<v><iv><caus><gna_perf>/чогул<v><iv><caus><prc_perf>$
+[/aWDckMjLLMng]
+[dX3qJEvdGaWF#0] ^кетирүү/кет<v><iv><caus><ger><nom>/кет<v><iv><caus><ger><nom>+э<cop><aor><p3><pl>/кет<v><iv><caus><ger><nom>+э<cop><aor><p3><sg>$
+[/dX3qJEvdGaWF]
+[g84OsYiYebQW#0] ^тилинип/тил<v><tv><pass><gna_perf>/тил<v><tv><pass><prc_perf>$
+[/g84OsYiYebQW]
+[gpsKoVm2wwvR#0] ^иштеттим/иште<v><iv><caus><ifi><p1><sg>/иште<v><tv><caus><ifi><p1><sg>$
+[/gpsKoVm2wwvR]
+[k-apXaisp2r5#0] ^түшүрүү/түшүрүү<n><attr>/түшүрүү<n><nom>/түшүрүү<n><nom>+э<cop><aor><p3><pl>/түшүрүү<n><nom>+э<cop><aor><p3><sg>/түш<v><iv><caus><ger><nom>/түш<v><iv><caus><ger><nom>+э<cop><aor><p3><pl>/түш<v><iv><caus><ger><nom>+э<cop><aor><p3><sg>$
+[/k-apXaisp2r5]
+[ke6mmAS4kBYI#0] ^жеткирүү/жет<v><iv><caus><ger><nom>/жет<v><iv><caus><ger><nom>+э<cop><aor><p3><pl>/жет<v><iv><caus><ger><nom>+э<cop><aor><p3><sg>$
+[/ke6mmAS4kBYI]
+[md2yzVdZ0vI-#0] ^чыгаруу/чыгаруу<n><attr>/чыгаруу<n><nom>/чыгаруу<n><nom>+э<cop><aor><p3><pl>/чыгаруу<n><nom>+э<cop><aor><p3><sg>/чык<v><iv><caus><ger><nom>/чык<v><iv><caus><ger><nom>+э<cop><aor><p3><pl>/чык<v><iv><caus><ger><nom>+э<cop><aor><p3><sg>$
+[/md2yzVdZ0vI-]
+[nMgoHLB-bAbg#0] ^өчүрүү/өчүрүү<n><attr>/өчүрүү<n><nom>/өчүрүү<n><nom>+э<cop><aor><p3><pl>/өчүрүү<n><nom>+э<cop><aor><p3><sg>/өч<v><iv><caus><ger><nom>/өч<v><iv><caus><ger><nom>+э<cop><aor><p3><pl>/өч<v><iv><caus><ger><nom>+э<cop><aor><p3><sg>$
+[/nMgoHLB-bAbg]
+[nNi9C_LC0tB0#0] ^отургузуу/отур<v><iv><caus><ger><nom>/отур<v><iv><caus><ger><nom>+э<cop><aor><p3><pl>/отур<v><iv><caus><ger><nom>+э<cop><aor><p3><sg>$
+[/nNi9C_LC0tB0]
+[of5-_vpSg4jl#0] ^иштеткенсиң/иште<v><iv><caus><ger_past><nom>+э<cop><aor><p2><sg>/иште<v><iv><caus><gpr><subst><nom>+э<cop><aor><p2><sg>/иште<v><iv><caus><gpr_past><subst><nom>+э<cop><aor><p2><sg>/иште<v><iv><caus><past><p2><sg>/иште<v><tv><caus><ger_past><nom>+э<cop><aor><p2><sg>/иште<v><tv><caus><gpr><subst><nom>+э<cop><aor><p2><sg>/иште<v><tv><caus><gpr_past><subst><nom>+э<cop><aor><p2><sg>/иште<v><tv><caus><past><p2><sg>$
+[/of5-_vpSg4jl]
+[sYM5ip_NzUTu#0] ^малынуу/мал<v><tv><pass><ger><nom>/мал<v><tv><pass><ger><nom>+э<cop><aor><p3><pl>/мал<v><tv><pass><ger><nom>+э<cop><aor><p3><sg>$
+[/sYM5ip_NzUTu]
+[tz_SllNqGt0X#0] ^сабалып/саба<v><tv><pass><gna_perf>/саба<v><tv><pass><prc_perf>$
+[/tz_SllNqGt0X]
+[uz_N9czOloHl#0] ^жазылдырып/жазыл<v><tv><caus><gna_perf>/жазыл<v><tv><caus><prc_perf>/жаз<v><tv><pass><caus><gna_perf>/жаз<v><tv><pass><caus><prc_perf>$
+[/uz_N9czOloHl]
+[ydlORuyFw2PQ#0] ^бомбаланып/бомбала<v><tv><pass><gna_perf>/бомбала<v><tv><pass><prc_perf>$
+[/ydlORuyFw2PQ]
+[zB8-fDGPxO0L#0] ^көтөрүлүп/көтөр<v><tv><pass><gna_perf>/көтөр<v><tv><pass><prc_perf>$
+[/zB8-fDGPxO0L]
+[zEbA5ViX7cHu#0] ^эритүү/эри<v><iv><caus><ger><nom>/эри<v><iv><caus><ger><nom>+э<cop><aor><p3><pl>/эри<v><iv><caus><ger><nom>+э<cop><aor><p3><sg>$
+[/zEbA5ViX7cHu]
+[zW4AGNaKUFBi#0] ^өткөрүү/өткөрүү<n><attr>/өткөрүү<n><nom>/өткөрүү<n><nom>+э<cop><aor><p3><pl>/өткөрүү<n><nom>+э<cop><aor><p3><sg>/өт<v><tv><caus><ger><nom>/өт<v><tv><caus><ger><nom>+э<cop><aor><p3><pl>/өт<v><tv><caus><ger><nom>+э<cop><aor><p3><sg>$
+[/zW4AGNaKUFBi]
+[zbwxFKbeKk7W#0] ^айландырып/айлан<v><iv><caus><gna_perf>/айлан<v><iv><caus><prc_perf>$
+[/zbwxFKbeKk7W]

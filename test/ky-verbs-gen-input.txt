@@ -1,0 +1,16 @@
+# [lexc] Infinitive -{U}{U}
+^бол<v><iv><ger><nom>$
+^сүй<v><tv><ger><nom>$
+^окшо<v><iv><ger><nom>$
+^иште<v><iv><ger><nom>$
+^саба<v><tv><ger><nom>$
+^аарчы<v><tv><ger><nom>$
+^ат<v><tv><ger><nom>$
+# [lexc] Negative -б{A}
+^бол<v><iv><neg><prt_cond><p1><sg>$
+# [lexc] Conditional -с{A}
+^бол<v><iv><prt_cond><p1><sg>$
+# [lexc] Perfect Converb -{I}п
+^иште<v><iv><prt_perf>$
+# [twol] Yotification
+^кой<v><tv><prt_perf>$

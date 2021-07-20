@@ -1,0 +1,49 @@
+# [twol] Yotification
+^кой<v><tv><prt_perf>$
+^кой<v><tv><ger><nom>$
+^кой<v><tv><prt_impf>$
+^тий<v><tv><prt_impf>$
+^жай<v><tv><prt_impf>$
+^саба<v><tv><prt_impf>$
+^боё<v><tv><prt_impf>$
+^бой<n><px3sg><nom>$
+^бой<n><px3sg><acc>$
+# [twol] м and п stuff
+^тап<v><tv><prt_perf>$
+^өп<v><tv><prt_perf>$
+^теп<v><tv><prt_perf>$
+^там<v><iv><prt_perf>$
+^эм<v><iv><prt_perf>$
+^саба<v><tv><prt_perf>$
+# [twol] {I}{l} passives
+^тап<v><tv><pass><ger><nom>$
+^саба<v><tv><pass><ger><nom>$
+^бил<v><tv><pass><ger><nom>$
+^талкала<v><tv><pass><ger><nom>$
+# [lexc] Infinitive -{U}{U}
+^айт<v><iv><ger><nom>$
+^тарт<v><tv><ger><nom>$
+^бол<v><iv><ger><nom>$
+^сүй<v><tv><ger><nom>$
+^окшо<v><iv><ger><nom>$
+^иште<v><iv><ger><nom>$
+^саба<v><tv><ger><nom>$
+^аарчы<v><tv><ger><nom>$
+^аарчы<v><iv><ger><nom>$
+^шиши<v><iv><ger><nom>$
+^ат<v><tv><ger><nom>$
+^кет<v><iv><ger><nom>$
+^боё<v><tv><ger><nom>$
+# [twol] {I} deletion
+^бол<v><iv><prt_perf>$
+^айт<v><iv><prt_perf>$
+^айт<v><tv><prt_perf>$
+^жет<v><iv><prt_perf>$
+^сүй<v><tv><prt_perf>$
+^иште<v><iv><prt_perf>$
+^саба<v><tv><prt_perf>$
+# [twol] random vociing stuff
+^чык<v><iv><prt_perf>$
+^чык<v><iv><prt_impf>$
+^тап<v><tv><prt_impf>$
+^теп<v><tv><prt_impf>$

@@ -1,0 +1,12 @@
+[6T29gNsbDgAL#0] ^болушат/бол<v><iv><aor><p3><pl>/бол<v><iv><coop><aor><p3><pl>/бол<v><iv><coop><aor><p3><sg>/бол<v><iv><coop><prc_irre>/бол<vaux><aor><p3><pl>/бол<vaux><coop><aor><p3><pl>/бол<vaux><coop><aor><p3><sg>/бол<vaux><coop><prc_irre>$
+[/6T29gNsbDgAL]
+[96iKhsNNq2Qw#0] ^болушту/болуш<n><acc>/бол<v><iv><coop><ifi><p3><pl>/бол<v><iv><coop><ifi><p3><sg>/бол<v><iv><ger_pres><acc>/бол<v><iv><ifi><p3><pl>/бол<vaux><coop><ifi><p3><pl>/бол<vaux><coop><ifi><p3><sg>/бол<vaux><ger_pres><acc>/бол<vaux><ifi><p3><pl>$
+[/96iKhsNNq2Qw]
+[UUwLXlXGXgaB#0] ^болушкан жок/бол<v><iv><coop><neg><ifi><p3><pl>/бол<v><iv><coop><neg><ifi><p3><sg>/бол<vaux><coop><neg><ifi><p3><pl>/бол<vaux><coop><neg><ifi><p3><sg>$
+[/UUwLXlXGXgaB]
+[Y8Xi1PL511yy#0] ^болду/бол<v><iv><ifi><p3><pl>/бол<v><iv><ifi><p3><sg>/бол<vaux><ifi><p3><pl>/бол<vaux><ifi><p3><sg>$
+[/Y8Xi1PL511yy]
+[aUWcv2il9PkA#0] ^болгон жок/бол<v><iv><neg><ifi><p3><pl>/бол<v><iv><neg><ifi><p3><sg>/бол<vaux><neg><ifi><p3><pl>/бол<vaux><neg><ifi><p3><sg>$
+[/aUWcv2il9PkA]
+[jZXFYEuHpx1t#0] ^болот/болот<n><attr>/болот<n><nom>/болот<n><nom>+э<cop><aor><p3><pl>/болот<n><nom>+э<cop><aor><p3><sg>/бол<v><iv><aor><p3><pl>/бол<v><iv><aor><p3><sg>/бол<v><iv><prc_irre>/бол<vaux><aor><p3><pl>/бол<vaux><aor><p3><sg>/бол<vaux><prc_irre>$
+[/jZXFYEuHpx1t]

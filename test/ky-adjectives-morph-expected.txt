@@ -1,0 +1,24 @@
+[KhG5jVo43nC2#0] ^өзгөчөрөөк/өзгөчө<adj><comp>/өзгөчө<adj><comp>+э<cop><aor><p3><pl>/өзгөчө<adj><comp>+э<cop><aor><p3><sg>/өзгөчө<adj><comp><advl>/өзгөчө<adj><comp><subst><nom>/өзгөчө<adj><comp><subst><nom>+э<cop><aor><p3><pl>/өзгөчө<adj><comp><subst><nom>+э<cop><aor><p3><sg>$
+[/KhG5jVo43nC2]
+[Kx_QP2dsuoKs#0] ^жакшыраак/жакшы<adj><comp>/жакшы<adj><comp>+э<cop><aor><p3><pl>/жакшы<adj><comp>+э<cop><aor><p3><sg>/жакшы<adj><comp><advl>/жакшы<adj><comp><subst><nom>/жакшы<adj><comp><subst><nom>+э<cop><aor><p3><pl>/жакшы<adj><comp><subst><nom>+э<cop><aor><p3><sg>$
+[/Kx_QP2dsuoKs]
+[MGZ2GMZX6TfS#0] ^кызылыраак/кызыл<adj><comp>/кызыл<adj><comp>+э<cop><aor><p3><pl>/кызыл<adj><comp>+э<cop><aor><p3><sg>/кызыл<adj><comp><subst><nom>/кызыл<adj><comp><subst><nom>+э<cop><aor><p3><pl>/кызыл<adj><comp><subst><nom>+э<cop><aor><p3><sg>$
+[/MGZ2GMZX6TfS]
+[MwIcey6avpMU#0] ^жакшы/жакшы<adj>/жакшы<adj>+э<cop><aor><p3><pl>/жакшы<adj>+э<cop><aor><p3><sg>/жакшы<adj><advl>/жакшы<adj><subst><nom>/жакшы<adj><subst><nom>+э<cop><aor><p3><pl>/жакшы<adj><subst><nom>+э<cop><aor><p3><sg>$
+[/MwIcey6avpMU]
+[SuB1hzaX7wLw#0] ^соороок/соо<adj><comp>/соо<adj><comp>+э<cop><aor><p3><pl>/соо<adj><comp>+э<cop><aor><p3><sg>/соо<adj><comp><subst><nom>/соо<adj><comp><subst><nom>+э<cop><aor><p3><pl>/соо<adj><comp><subst><nom>+э<cop><aor><p3><sg>$
+[/SuB1hzaX7wLw]
+[TFc2OTm_b2qF#0] ^таттуураак/таттуу<adj><comp>/таттуу<adj><comp>+э<cop><aor><p3><pl>/таттуу<adj><comp>+э<cop><aor><p3><sg>/таттуу<adj><comp><advl>/таттуу<adj><comp><subst><nom>/таттуу<adj><comp><subst><nom>+э<cop><aor><p3><pl>/таттуу<adj><comp><subst><nom>+э<cop><aor><p3><sg>$
+[/TFc2OTm_b2qF]
+[XvTqoWgzTc-W#0] ^мол/мол<adj>/мол<adj>+э<cop><aor><p3><pl>/мол<adj>+э<cop><aor><p3><sg>/мол<adj><advl>/мол<adj><subst><nom>/мол<adj><subst><nom>+э<cop><aor><p3><pl>/мол<adj><subst><nom>+э<cop><aor><p3><sg>$
+[/XvTqoWgzTc-W]
+[_exf_2VuH_Dt#0] ^сарыраак/сары<adj><comp>/сары<adj><comp>+э<cop><aor><p3><pl>/сары<adj><comp>+э<cop><aor><p3><sg>/сары<adj><comp><subst><nom>/сары<adj><comp><subst><nom>+э<cop><aor><p3><pl>/сары<adj><comp><subst><nom>+э<cop><aor><p3><sg>$
+[/_exf_2VuH_Dt]
+[b5wGt11S2pzg#0] ^кеңирээк/кең<adj><comp>/кең<adj><comp>+э<cop><aor><p3><pl>/кең<adj><comp>+э<cop><aor><p3><sg>/кең<adj><comp><advl>/кең<adj><comp><subst><nom>/кең<adj><comp><subst><nom>+э<cop><aor><p3><pl>/кең<adj><comp><subst><nom>+э<cop><aor><p3><sg>$
+[/b5wGt11S2pzg]
+[fuvIpN7td1d-#0] ^жаман/жаман<adj>/жаман<adj>+э<cop><aor><p3><pl>/жаман<adj>+э<cop><aor><p3><sg>/жаман<adj><advl>/жаман<adj><subst><nom>/жаман<adj><subst><nom>+э<cop><aor><p3><pl>/жаман<adj><subst><nom>+э<cop><aor><p3><sg>/жаман<adv>$
+[/fuvIpN7td1d-]
+[lQpXKm0vxynT#0] ^тогологураак/тоголок<adj><comp>/тоголок<adj><comp>+э<cop><aor><p3><pl>/тоголок<adj><comp>+э<cop><aor><p3><sg>/тоголок<adj><comp><subst><nom>/тоголок<adj><comp><subst><nom>+э<cop><aor><p3><pl>/тоголок<adj><comp><subst><nom>+э<cop><aor><p3><sg>$
+[/lQpXKm0vxynT]
+[nWqQ8MYoBCbj#0] ^көк/көк<adj>/көк<adj>+э<cop><aor><p3><pl>/көк<adj>+э<cop><aor><p3><sg>/көк<adj><subst><nom>/көк<adj><subst><nom>+э<cop><aor><p3><pl>/көк<adj><subst><nom>+э<cop><aor><p3><sg>/көк<n><attr>/көк<n><nom>/көк<n><nom>+э<cop><aor><p3><pl>/көк<n><nom>+э<cop><aor><p3><sg>$
+[/nWqQ8MYoBCbj]

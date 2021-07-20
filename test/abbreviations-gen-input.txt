@@ -1,0 +1,14 @@
+# [twol] Abbreviations in %{а%}
+^АКШ<np><top><nom>$
+^АКШ<np><top><acc>$
+^АКШ<np><top><gen>$
+^АКШ<np><top><loc>$
+^АКШ<np><top><abl>$
+^АКШ<np><top><dat>$
+# [twol] Abbreviations in %{э%}:%{й%}
+^КР<np><top><nom>$
+^КР<np><top><acc>$
+^КР<np><top><gen>$
+^КР<np><top><loc>$
+^КР<np><top><abl>$
+^КР<np><top><dat>$

@@ -1,0 +1,26 @@
+# [lexc] Imperatives
+^бол<v><iv><imp><p2><sg>$
+^бол<v><iv><imp><p2><frm><sg>$
+^бол<v><iv><imp><p2><frm><pl>$
+^сүй<v><tv><imp><p2><sg>$
+^сүй<v><tv><imp><p2><frm><sg>$
+^сүй<v><tv><imp><p2><frm><pl>$
+^иште<v><iv><imp><p2><sg>$
+^иште<v><iv><imp><p2><frm><sg>$
+^иште<v><iv><imp><p2><frm><pl>$
+^тап<v><tv><imp><p2><sg>$
+^тап<v><tv><imp><p2><frm><sg>$
+^тап<v><tv><imp><p2><frm><pl>$
+# [lexc] Negative imperatives
+^бол<v><iv><neg><imp><p2><sg>$
+^бол<v><iv><neg><imp><p2><frm><sg>$
+^бол<v><iv><neg><imp><p2><frm><pl>$
+^сүй<v><tv><neg><imp><p2><sg>$
+^сүй<v><tv><neg><imp><p2><frm><sg>$
+^сүй<v><tv><neg><imp><p2><frm><pl>$
+^иште<v><iv><neg><imp><p2><sg>$
+^иште<v><iv><neg><imp><p2><frm><sg>$
+^иште<v><iv><neg><imp><p2><frm><pl>$
+^тап<v><tv><neg><imp><p2><sg>$
+^тап<v><tv><neg><imp><p2><frm><sg>$
+^тап<v><tv><neg><imp><p2><frm><pl>$
