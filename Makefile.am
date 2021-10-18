@@ -147,9 +147,9 @@ apertium_kir_srcdir=$(prefix)/share/apertium/$(BASENAME)/
 
 EXTRA_TARGETS=
 
-if HAVE_HFSTOSPELL
+#if HAVE_HFSTOSPELL
 EXTRA_TARGETS += $(LANG1).zhfst
-endif # HAVE_HFSTOSPELL
+#endif # HAVE_HFSTOSPELL
 
 apertium_kir_DATA=$(TARGETS_COMMON) $(EXTRA_TARGETS) $(LANG1).prob
 

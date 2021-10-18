@@ -3200,7 +3200,7 @@ LEXICON Nouns
 алмашуучу:алмашуучу N-INFL ; 
 алмурут:алмурут N-INFL ; ! "" 
 алоо:алоо N-INFL ; 
-алты:алты N-INFL ;
+!алты:алты N-INFL ; NUM
 алтын:алтын N-INFL ; ! "gold"
 алуу:алуу N-INFL ;
 алуучу:алуучу N-INFL ;
@@ -14390,7 +14390,7 @@ LEXICON Adjectives
 атмосфералык:атмосфералык A4 ; ! "atmospherical" 
 атомдук:атомдук A4 ; ! "" 
 базардык:базардык A4 ; ! "" 
-бала:бала A4 ; ! "" 
+!бала:бала A4 ; ! "" N-ATTR
 балакеттүү:балакеттүү A4 ; ! "" 
 банктык:банктык A4 ; ! "" 
 баткактуу:баткактуу A4 ; ! "" 
@@ -16793,6 +16793,9 @@ LEXICON Verbs
 башта:башта VAUX-INFL ; !
 жазда:жазда VAUX-INFL ; !
 кел:кел VAUX-INFL ; !
+ий:ий VAUX-INFL ; !
+жибер:жибер VAUX-INFL ; !
+кой:кой VAUX-INFL ; !
 
 !эле:эле VAUX-ELE ; !  
 !эле%<qst%>:беле VAUX-ELE ; ! CHECK: is this the right way to do this?
@@ -18032,7 +18035,6 @@ LEXICON Verbs
 факста:факста V-INFL-TV ;
 үйлөндүр:үйлөндүр V-INFL-TV ;
 индексте:индексте V-INFL-TV ;
-ий:ий V-INFL-TV ;
 ийил:ийил V-INFL-IV ;
 көңүл% кой:көңүл% кой V-INFL-IV ;
 толкундан:толкундан V-INFL-IV ;

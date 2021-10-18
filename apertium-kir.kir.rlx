@@ -311,6 +311,8 @@ REMOVE Attr IF (NOT 1 PRE-N) (NOT 1 NOMINAL-HEAD) (NOT 1/1 NOMINAL-HEAD) ;
 
  "<ат>" REMOVE Vaux ;
 
+ "<жашар>" SELECT Adj IF (-1 Num) ;
+
 # "<келишим>" SELECT Noun ;
  SELECT Noun IF (0 ("келишим"i)) ;
 
@@ -324,6 +326,10 @@ REMOVE Ger-Acc IF
         (1 EOS OR MARK)
 ;
 
+REMOVE SUB:1 P3-Pl IF
+       (NOT -1* Pl)
+;
+# Азамат алты жашар кичинекей бала.
 
  SELECT Pron IF
         (0C Det OR Pron)
