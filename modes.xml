@@ -93,6 +93,12 @@
 		</pipeline>
 	</mode>
 
-
+	<mode name="kir-paradigm" install="yes">
+		<pipeline>
+			<program name="lt-paradigm -s">
+				<file name="kir.autogen.bin"/>
+			</program>
+		</pipeline>
+	</mode>
 
 </modes>
