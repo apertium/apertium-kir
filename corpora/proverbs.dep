@@ -123,7 +123,7 @@
 # source = Сыргабековна&Сабыровна:474
 # text = Эл оозунда элек жок.
 # text[eng] = In people’s mouths there is no filter.
-# labels = cg-checked-jnw tocheck_dep
+# labels = cg-checked-jnw dep-tocheck
 "<Эл>"
 	"эл" n nom @nmod:poss #1->2
 "<оозунда>"
@@ -590,7 +590,7 @@
 # source = Сыргабековна&Сабыровна:5
 # text = Адамды кийиминен тааныбайт, ишинен тааныйт.
 # text[eng] = (One) doesn't know a person by his clothes, (one) knows (him) by his work.
-# labels = cg-checked-jnw tocheck_dep
+# labels = cg-checked-jnw dep-tocheck
 "<Адамды>"
 	"Адам" n nom @nsubj #1->3
 "<кийиминен>"
@@ -847,7 +847,7 @@
 # source = Сыргабековна&Сабыровна:345
 # text = Ооруну жашырсаң, өлүм ашкере кылат.
 # text[eng] = If you hide sickness/pain, death will reveal itself.
-# labels = cg-checked-jnw tocheck_dep
+# labels = cg-checked-jnw dep-tocheck
 "<Ооруну>"
 	"оору" n acc @obj #1->2
 "<жашырсаң>"
@@ -919,7 +919,7 @@
 # source = Сыргабековна&Сабыровна:178
 # text = Жалкоо - өзүнө өзү жоо.
 # text[eng] = A lazy person is an enemy to themself.
-# labels = cg-checked-jnw tocheck_dep
+# labels = cg-checked-jnw dep-tocheck
 "<Жалкоо>"
 	"жалкоо" n nom @nsubj #1->5
 "<->"
@@ -927,7 +927,7 @@
 "<өзүнө>"
 	"өз" prn ref px3sp dat @obl #3->5
 "<өзү>"
-	"өз" prn ref px3sp nom @det #4->3
+	"өз" prn ref px3sp nom @obl #4->5
 "<жоо>"
 	"жоо" n nom @root #5->0
 		"э" cop aor p3 sg @cop #6->5
@@ -939,7 +939,7 @@
 # source = Сыргабековна&Сабыровна:225
 # text = Жоо кеткен соң, кылычыңды ташка чап.
 # text[eng] = Once your enemy is gone, hit your sword on a rock.
-# labels = cg-checked-jnw dep-revised1x-jnw
+# labels = cg-checked-jnw dep-checked-jnw
 "<Жоо>"
 	"жоо" n nom @nsubj #1->2
 "<кеткен>"
@@ -962,7 +962,7 @@
 # source = Сыргабековна&Сабыровна:305
 # text = Көп түкүрсө көл болот, көл толкуса сел болот.
 # text[eng] = If one spits a lot there will be a lake; if a lake gets waves there will be a flood.
-# labels = cg-checked-jnw dep-initialchecked-jnw
+# labels = cg-checked-jnw dep-checked-jnw
 "<Көп>"
 	"көп" adv @advmod #1->2
 "<түкүрсө>"
@@ -987,7 +987,7 @@
 # sent_id = proverbs:46
 # author = Сыргабековна&Сабыровна
 # source = Сыргабековна&Сабыровна:13
-# text = Айды этек менен калкалай албасың.
+# text = Айды этек менен калкалай албайсың.
 # text[eng] = You cannot shield the moon with the bottom hem of a shirt.
 # labels = cg-checked-jnw dep-initialchecked-jnw
 "<Айды>"
@@ -998,7 +998,7 @@
 	"менен" post @case #3->2
 "<калкалай>"
 	"калкала" v tv prc_impf @root #4->0
-"<албасың>"
+"<албайсың>"
 	"ал" vaux neg aor p2 sg @aux #5->4
 "<.>"
 	"." sent @punct #6->4
@@ -1008,7 +1008,7 @@
 # source = Сыргабековна&Сабыровна:282
 # text = Колунда токочу бар бала сүйгүнчүктүү.
 # text[eng] = The child with a loaf (of bread) in their hand is darling.
-# labels = cg-checked-jnw tocheck_dep
+# labels = cg-checked-jnw dep-tocheck
 "<Колунда>"
 	"кол" n px3sp loc @obl #1->2
 "<токочу>"
@@ -1028,7 +1028,7 @@
 # source = Сыргабековна&Сабыровна:153
 # text = Жазмыштан озуш жок.
 # text[eng] = There is no getting ahead of destiny.
-# labels = cg-checked-jnw tocheck_dep
+# labels = cg-checked-jnw dep-tocheck
 "<Жазмыштан>"
 	"жазмыш" n abl @obl #1->2
 "<озуш>"
@@ -1044,7 +1044,7 @@
 # source = Сыргабековна&Сабыровна:134
 # text = Бузулган элгe бучуктан молдо болот.
 # text[eng] = The mullah of a rotten people is from among the noseless/flat-nosed.
-# labels = cg-checked-jnw tocheck_dep
+# labels = cg-checked-jnw dep-tocheck
 "<Бузулган>"
 	"буз" v tv pass gpr_past @amod #1->2
 "<элгe>"
@@ -1063,7 +1063,7 @@
 # source = Сыргабековна&Сабыровна:53
 # text = Ар кимде бар бир кыял, ар кыялды ким тыяр.
 # text[eng] = Everyone has a personality, no one can stop any personality.
-# labels = cg-checked-jnw tocheck_dep
+# labels = cg-checked-jnw dep-tocheck
 "<Ар кимде>"
 	"ар ким" prn ind loc @obl #1->2
 "<бар>"
@@ -1091,7 +1091,7 @@
 # source = Сыргабековна&Сабыровна:52
 # text = Ар ким ич оорусун өзү билет.
 # text[eng] = Everyone knows their stomache ache themselves.
-# labels = cg-checked-jnw tocheck_dep
+# labels = cg-checked-jnw dep-tocheck
 "<Ар ким>"
 	"ар ким" prn ind nom @nsubj #1->5
 "<ич>"
@@ -1110,7 +1110,7 @@
 # source = Сыргабековна&Сабыровна:117
 # text = Бирөө баары үчүн, баары бирөө үчүн.
 # text[eng] = One for all, all for one.
-# labels = cg-checked-jnw tocheck_dep
+# labels = cg-checked-jnw dep-tocheck
 "<Бирөө>"
 	"бир" prn ind nom @nsubj #1->3
 "<баары>"
@@ -1133,7 +1133,7 @@
 # source = Сыргабековна&Сабыровна:4
 # text = Адам өлсө өлөт, үмүт өлбөйт
 # text[eng] = When a person dies, they die but hope doesn't die.
-# labels = cg-checked-jnw tocheck_dep
+# labels = cg-checked-jnw dep-tocheck
 "<Адам>"
 	"адам" n nom @nsubj #1->2
 "<өлсө>"
@@ -1154,7 +1154,7 @@
 # source = Сыргабековна&Сабыровна:351
 # text = Өз камын ойлогон өспөйт, эл камын ойлогон көктөйт.
 # text[eng] = The one who thinks about their own needs doesn't grow; the one who thinks about the nation's needs flourishes.
-# labels = cg-checked-jnw tocheck_dep
+# labels = cg-checked-jnw dep-tocheck
 "<Өз>"
 	"өз" det ref @det:poss #1->2
 "<камын>"
@@ -1181,7 +1181,7 @@
 # source = Сыргабековна&Сабыровна:126
 # text = Бир тамчы таш жарат, бир сөз баш жарат.
 # text[eng] = One drop cracks a stone, one word cracks a head.
-# labels = cg-checked-jnw tocheck_dep
+# labels = cg-checked-jnw dep-tocheck
 "<Бир>"
 	"бир" num @nummod #1->2
 "<тамчы>"
@@ -1208,7 +1208,7 @@
 # source = Сыргабековна&Сабыровна:337
 # text = Ойлогон ойду кыстаган турмуш жеңет.
 # text[eng] = Oppressive life beats a thought thought.
-# labels = cg-checked-jnw tocheck_dep
+# labels = cg-checked-jnw dep-tocheck
 "<Ойлогон>"
 	"ойло" v tv gpr_past @amod #1->2
 "<ойду>"
@@ -1227,7 +1227,7 @@
 # source = Сыргабековна&Сабыровна:11
 # text = Азаматтын жакшысы азыраак сүйлөп, көп тыңшайт; аргымактын жакшысы азыраак оттоп, көп жуушайт.
 # text[eng] = A good ~achiever speaks less and listens a lot; a good argymaq (horse breed) grazes less, and rests a lot.
-# labels = cg-checked-jnw tocheck_dep
+# labels = cg-checked-jnw dep-tocheck
 "<Азаматтын>"
 	"азамат" n gen @nmod:poss #1->2
 "<жакшысы>"
@@ -1266,7 +1266,7 @@
 # source = Сыргабековна&Сабыровна:229
 # text = Жүгүргөн албайт, буйруган алат.
 # text[eng] = The one who runs [after something] doesn't get [it], the one who's meant to [get it] gets [it].
-# labels = cg-checked-jnw tocheck_dep
+# labels = cg-checked-jnw dep-tocheck
 "<Жүгүргөн>"
 	"жүгүр" v iv gpr_past nom @nsubj #1->2
 "<албайт>"
@@ -1285,7 +1285,7 @@
 # source = Сыргабековна&Сабыровна:395
 # text = Сөзү көптүн иши аз.
 # text[eng] = The one who has a lot to say has little to do.
-# labels = cg-checked-jnw tocheck_dep
+# labels = cg-checked-jnw dep-tocheck
 "<Сөзү>"
 	"сөз" n px3sp nom @nmod #1->3
 "<көптүн>"
@@ -1303,7 +1303,7 @@
 # source = Сыргабековна&Сабыровна:83
 # text = Бакыт кетсе, намыяны кошо кетет.
 # text[eng] = When happiness leaves, it takes the wallet with it.
-# labels = cg-checked-jnw tocheck_dep
+# labels = cg-checked-jnw dep-tocheck
 "<Бакыт>"
 	"бакыт" n nom @nsubj #1->2
 "<кетсе>"
@@ -1324,7 +1324,7 @@
 # source = Сыргабековна&Сабыровна:271
 # text = Кеңешип кескен бармак оорубайт.
 # text[eng] = A finger cut by getting advice doesn't hurt.
-# labels = cg-checked-jnw tocheck_dep
+# labels = cg-checked-jnw dep-tocheck
 "<Кеңешип>"
 	"кеңеш" v iv gna_perf @advmod #1->4
 "<кескен>"
@@ -1341,7 +1341,7 @@
 # source = Сыргабековна&Сабыровна:165
 # text = Жакшы кеңеш - жарым ырыс.
 # text[eng] = Good advice is half of happiness.
-# labels = cg-checked-jnw tocheck_dep
+# labels = cg-checked-jnw dep-tocheck
 "<Жакшы>"
 	"жакшы" adj @amod #1->2
 "<кеңеш>"
@@ -1361,7 +1361,7 @@
 # source = Сыргабековна&Сабыровна:79
 # text = Байлыкты сүйгөн намысты билбейт.
 # text[eng] = One who loves wealth doesn't know honour.
-# labels = cg-checked-jnw tocheck_dep
+# labels = cg-checked-jnw dep-tocheck
 "<Байлыкты>"
 	"байлык" n acc @nmod:poss #1->2
 "<сүйгөн>"
@@ -1378,7 +1378,7 @@
 # source = Сыргабековна&Сабыровна:193
 # text = Жамандын тонун кийсең, тойдо доолайт
 # text[eng] = If you wear (borrow) a bad person's coat, they'll demand it at a party.
-# labels = cg-checked-jnw tocheck_dep
+# labels = cg-checked-jnw dep-tocheck
 "<Жамандын>"
 	"жаман" adj subst gen @nmod:poss #1->2
 "<тонун>"
@@ -1399,7 +1399,7 @@
 # source = Сыргабековна&Сабыровна:459
 # text = Чечинген суудан кайтпас, кезенген жоодон кайтпас.
 # text[eng] = Someone who's undressed isn't scared of water, someone who takes aim is not afraid of the enemy.
-# labels = cg-checked-jnw tocheck_dep
+# labels = cg-checked-jnw dep-tocheck
 "<Чечинген>"
 	"чечин" v iv gpr_past subst nom @nsubj #1->3
 "<суудан>"
@@ -1422,7 +1422,7 @@
 # source = Сыргабековна&Сабыровна:344
 # text = Оору батмандап кирип, мыскалдап чыгат.
 # text[eng] = Sickness enters in batmans and leaves in zolotniks.
-# labels = cg-checked-jnw tocheck_dep
+# labels = cg-checked-jnw dep-tocheck
 "<Оору>"
 	"оору" n nom @nsubj #1->3
 "<батмандап>"
@@ -1443,7 +1443,7 @@
 # source = Сыргабековна&Сабыровна:222
 # text = Жолдошуң болсо куу, башыңдан кетпейт ызы-чуу.
 # text[eng] = If your spouse is pushy, you won't get the clamour out of your head.
-# labels = cg-checked-jnw tocheck_dep
+# labels = cg-checked-jnw dep-tocheck
 "<Жолдошуң>"
 	"жолдош" n px2sg nom @nsubj #1->2
 "<болсо>"
@@ -1466,7 +1466,7 @@
 # source = Сыргабековна&Сабыровна:417
 # text = Таш койгон ташын алат, кыш койгон кышын алат.
 # text[eng] = One who lays stone gets stone; one who lays bricks gets bricks.
-# labels = cg-checked-jnw tocheck_dep
+# labels = cg-checked-jnw dep-tocheck
 "<Таш>"
 	"таш" n nom @obj #1->2
 "<койгон>"
@@ -1493,7 +1493,7 @@
 # source = Сыргабековна&Сабыровна:235
 # text = Жыгылсаң нардан жыгыл, буйласын кармай жыгыл.
 # text[eng] = If you fall, fall off a (dromedary) camel, fall holding its nose peg.
-# labels = cg-checked-jnw tocheck_dep
+# labels = cg-checked-jnw dep-tocheck
 "<Жыгылсаң>"
 	"жык" v tv pass prc_cond p2 sg @advcl #1->3
 "<нардан>"
@@ -1516,7 +1516,7 @@
 # source = Сыргабековна&Сабыровна:21
 # text = Ак ийилет, сынбайт.
 # text[eng] = Fairness/justice bends, [but] does not break.
-# labels = cg-checked-jnw tocheck_dep
+# labels = cg-checked-jnw dep-tocheck
 "<Ак>"
 	"ак" n nom @nsubj #1->2
 "<ийилет>"
@@ -1533,7 +1533,7 @@
 # source = Сыргабековна&Сабыровна:479
 # text = Энеси болушчаактын кызы ыйлаак, атаcы болушчаактын уулу урушчаак.
 # text[eng] = The daughter of a protective mother cries a lot, the son of a protective father gets in fights a lot.
-# labels = cg-checked-jnw tocheck_dep
+# labels = cg-checked-jnw dep-tocheck
 "<Энеси>"
 	"эне" n px3sp nom @nmod:poss #1->3
 "<болушчаактын>"
@@ -1562,7 +1562,7 @@
 # source = Сыргабековна&Сабыровна:482
 # text = Эрди жоо үстүндө көр.
 # text[eng] = Know a man [by what he does] on the battle field.
-# labels = cg-checked-jnw tocheck_dep
+# labels = cg-checked-jnw dep-tocheck
 "<Эрди>"
 	"эр" n acc @obj #1->4
 "<жоо>"
@@ -1579,7 +1579,7 @@
 # source = Сыргабековна&Сабыровна:401
 # text = Сүйбөгөнгө сүйкөнбө.
 # text[eng] = Don't go after someone who doesn't love you.
-# labels = cg-checked-jnw tocheck_dep
+# labels = cg-checked-jnw dep-tocheck
 "<Сүйбөгөнгө>"
 	"сүй" v tv neg gpr_past subst dat @obl #1->2
 "<сүйкөнбө>"
@@ -1592,7 +1592,7 @@
 # source = Сыргабековна&Сабыровна:232
 # text = Жүктүн оорун нар көтөрөт.
 # text[eng] = The camel carries the weight of the load.
-# labels = cg-checked-jnw tocheck_dep
+# labels = cg-checked-jnw dep-tocheck
 "<Жүктүн>"
 	"жүк" n gen @nmod:poss #1->2
 "<оорун>"
@@ -1609,7 +1609,7 @@
 # source = Сыргабековна&Сабыровна:177
 # text = Жалкоого шылтоо көп.
 # text[eng] = A lazy person has lots of excuses.
-# labels = cg-checked-jnw tocheck_dep
+# labels = cg-checked-jnw dep-tocheck
 "<Жалкоого>"
 	"жалкоо" n dat @obl #1->2
 "<шылтоо>"
@@ -1625,7 +1625,7 @@
 # source = Сыргабековна&Сабыровна:49
 # text = Алыстагы душмандан аңдып жүргөн дос жаман.
 # text[eng] = A friend who spies on you is worse than an enemy who's far away. 
-# labels = cg-checked-jnw tocheck_dep
+# labels = cg-checked-jnw dep-tocheck
 "<Алыстагы>"
 	"алыс" adj subst loc attr @obl:lmod #1->2
 "<душмандан>"
@@ -1647,7 +1647,7 @@
 # source = Сыргабековна&Сабыровна:314
 # text = Күлгөнүнө күлө жетет
 # text[eng] = One reaches a laughing person by laughing.
-# labels = cg-checked-jnw tocheck_dep
+# labels = cg-checked-jnw dep-tocheck
 "<Күлгөнүнө>"
 	"күл" v iv gpr_past subst px3sp dat @obl #1->3
 "<күлө>"
@@ -1662,7 +1662,7 @@
 # source = Сыргабековна&Сабыровна:415
 # text = Таң атпаганга күн да батпайт.
 # text[eng] = The sun doesn't set for a person form whom dawn hasn't broken.
-# labels = cg-checked-jnw tocheck_dep
+# labels = cg-checked-jnw dep-tocheck
 "<Таң>"
 	"таң" n nom @nsubj #1->2
 "<атпаганга>"
@@ -1681,7 +1681,7 @@
 # source = Сыргабековна&Сабыровна:209
 # text = Желмогуздун чоңунан кичинеси жаман.
 # text[eng] = A little ~monster is worse than a big one.
-# labels = cg-checked-jnw tocheck_dep
+# labels = cg-checked-jnw dep-tocheck
 "<Желмогуздун>"
 	"желмогуз" n gen @obl #1->3
 "<чоңунан>"
@@ -1699,7 +1699,7 @@
 # source = Сыргабековна&Сабыровна:253
 # text = Калпты чындай айтса, чын чычая качат.
 # text[eng] = If one tells a lie as if it were truth, the truth runs away without looking back.
-# labels = cg-checked-jnw tocheck_dep
+# labels = cg-checked-jnw dep-tocheck
 "<Калпты>"
 	"калп" n acc @obj #1->3
 "<чындай>"
@@ -1722,7 +1722,7 @@
 # source = Сыргабековна&Сабыровна:125
 # text = Бирөөнүн катыны бирөөгө кыз көрүнөт.
 # text[eng] = One man's crone is another's fair maiden.
-# labels = cg-checked-jnw tocheck_dep
+# labels = cg-checked-jnw dep-tocheck
 "<Бирөөнүн>"
 	"бирөө" prn ind gen @det:poss #1->2
 "<катыны>"
@@ -1741,7 +1741,7 @@
 # source = Сыргабековна&Сабыровна:330
 # text = Миң уккандан, бир көргөн артык.
 # text[eng] = Seeing once is better than hearing a thousand times.
-# labels = cg-checked-jnw tocheck_dep
+# labels = cg-checked-jnw dep-tocheck
 "<Миң>"
 	"миң" num @advmod #1->2
 "<уккандан>"
@@ -1763,7 +1763,7 @@
 # source = Сыргабековна&Сабыровна:449
 # text = Үйдүн ашы үйгө сонун.
 # text[eng] = [One] household's food is more delicious to [another] household [than their own].
-# labels = cg-checked-jnw tocheck_dep
+# labels = cg-checked-jnw dep-tocheck
 "<Үйдүн>"
 	"үй" n gen @nmod:poss #1->2
 "<ашы>"
@@ -1781,7 +1781,7 @@
 # source = Сыргабековна&Сабыровна:148
 # text = Душмандын сырты жылма, ичи кара. 
 # text[eng] = An enemy is nice on the outside but evil on the inside.
-# labels = cg-checked-jnw tocheck_dep
+# labels = cg-checked-jnw dep-tocheck
 "<Душмандын>"
 	"Душман" n gen @nmod:poss #1->2
 "<сырты>"
@@ -1803,7 +1803,7 @@
 # source = Сыргабековна&Сабыровна:1
 # text = Мыйзам - буйлалаган төө, кайда бурса кете берген. 
 # text[eng] = The law is a camel with a nose peg, wherever you turn it it goes.
-# labels = cg-checked-jnw tocheck_dep
+# labels = cg-checked-jnw dep-tocheck
 "<Мыйзам>"
 	"мыйзам" n nom @nsubj #1->3
 "<буйлалаган>"
