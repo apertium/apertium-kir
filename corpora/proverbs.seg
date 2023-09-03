@@ -243,7 +243,7 @@
 ^жыгачтын/жыгачтын$
 ^көркү/көркү$
 ^-/-$
-^жалбырак/жалбырак>э$
+^жалбырак/жалбырак$
 ^./.$
 
 # sent_id = proverbs:18
@@ -333,7 +333,8 @@
 ^барса/барса$
 ^,/,$
 ^кийинки/кийинки$
-^көч да/көч да$
+^көч/көч$
+^да/да$
 ^ошол/ошол$
 ^жакка/жакка$
 ^барат/барат$
@@ -895,4 +896,302 @@
 ^сүйгөн/сүйгөн$
 ^намысты/намысты$
 ^билбейт/билбейт$
+^./.$
+
+# sent_id = proverbs:64
+# author = Сыргабековна&Сабыровна
+# source = Сыргабековна&Сабыровна:193
+# text = Жамандын тонун кийсең, тойдо доолайт.
+# text[eng] = If you wear (borrow) a bad person's coat, they'll demand it at a party.
+# labels = cg-checked-jnw dep-tocheck
+^Жамандын/Жамандын$
+^тонун/тонун$
+^кийсең/кийсең$
+^,/,$
+^тойдо/тойдо$
+^доолайт/доолайт$
+^./.$
+
+# sent_id = proverbs:65
+# author = Сыргабековна&Сабыровна
+# source = Сыргабековна&Сабыровна:459
+# text = Чечинген суудан кайтпас, кезенген жоодон кайтпас.
+# text[eng] = Someone who's undressed isn't scared of water, someone who takes aim is not afraid of the enemy.
+# labels = cg-checked-jnw dep-tocheck
+^Чечинген/Чечинген$
+^суудан/суудан$
+^кайтпас/кайтпас$
+^,/,$
+^кезенген/кезенген$
+^жоодон/жоодон$
+^кайтпас/кайтпас$
+^./.$
+
+# sent_id = proverbs:66
+# author = Сыргабековна&Сабыровна
+# source = Сыргабековна&Сабыровна:344
+# text = Оору батмандап кирип, мыскалдап чыгат.
+# text[eng] = Sickness enters in batmans and leaves in zolotniks.
+# labels = cg-checked-jnw dep-tocheck
+^Оору/Оору$
+^батмандап/батмандап$
+^кирип/кирип$
+^,/,$
+^мыскалдап/мыскалдап$
+^чыгат/чыгат$
+^./.$
+
+# sent_id = proverbs:67
+# author = Сыргабековна&Сабыровна
+# source = Сыргабековна&Сабыровна:222
+# text = Жолдошуң болсо куу, башыңдан кетпейт ызы-чуу.
+# text[eng] = If your spouse is pushy, you won't get the clamour out of your head.
+# labels = cg-checked-jnw dep-tocheck
+^Жолдошуң/Жолдошуң$
+^болсо/болсо$
+^куу/куу$
+^,/,$
+^башыңдан/башыңдан$
+^кетпейт/кетпейт$
+^ызы-чуу/ызы-чуу$
+^./.$
+
+# sent_id = proverbs:68
+# author = Сыргабековна&Сабыровна
+# source = Сыргабековна&Сабыровна:417
+# text = Таш койгон ташын алат, кыш койгон кышын алат.
+# text[eng] = One who lays stone gets stone; one who lays bricks gets bricks.
+# labels = cg-checked-jnw dep-tocheck
+^Таш/Таш$
+^койгон/койгон$
+^ташын/ташын$
+^алат/алат$
+^,/,$
+^кыш/кыш$
+^койгон/койгон$
+^кышын/кышын$
+^алат/алат$
+^./.$
+
+# sent_id = proverbs:69
+# author = Сыргабековна&Сабыровна
+# source = Сыргабековна&Сабыровна:235
+# text = Жыгылсаң нардан жыгыл, буйласын кармай жыгыл.
+# text[eng] = If you fall, fall off a (dromedary) camel, fall holding its nose peg.
+# labels = cg-checked-jnw dep-tocheck
+^Жыгылсаң/Жыгылсаң$
+^нардан/нардан$
+^жыгыл/жыгыл$
+^,/,$
+^буйласын/буйласын$
+^кармай/кармай$
+^жыгыл/жыгыл$
+^./.$
+
+# sent_id = proverbs:70
+# author = Сыргабековна&Сабыровна
+# source = Сыргабековна&Сабыровна:21
+# text = Ак ийилет, сынбайт.
+# text[eng] = Fairness/justice bends, [but] does not break.
+# labels = cg-checked-jnw dep-tocheck
+^Ак/Ак$
+^ийилет/ийилет$
+^,/,$
+^сынбайт/сынбайт$
+^./.$
+
+# sent_id = proverbs:71
+# author = Сыргабековна&Сабыровна
+# source = Сыргабековна&Сабыровна:479
+# text = Энеси болушчаактын кызы ыйлаак, атаcы болушчаактын уулу урушчаак.
+# text[eng] = The daughter of a protective mother cries a lot, the son of a protective father gets in fights a lot.
+# labels = cg-checked-jnw dep-tocheck
+^Энеси/Энеси$
+^болушчаактын/болушчаактын$
+^кызы/кызы$
+^ыйлаак/ыйлаак$
+^,/,$
+^атаcы/атаcы$
+^болушчаактын/болушчаактын$
+^уулу/уулу$
+^урушчаак/урушчаак$
+^./.$
+
+# sent_id = proverbs:72
+# author = Сыргабековна&Сабыровна
+# source = Сыргабековна&Сабыровна:482
+# text = Эрди жоо үстүндө көр.
+# text[eng] = Know a man [by what he does] on the battle field.
+# labels = cg-checked-jnw dep-tocheck
+^Эрди/Эрди$
+^жоо/жоо$
+^үстүндө/үстүндө$
+^көр/көр$
+^./.$
+
+# sent_id = proverbs:73
+# author = Сыргабековна&Сабыровна
+# source = Сыргабековна&Сабыровна:401
+# text = Сүйбөгөнгө сүйкөнбө.
+# text[eng] = Don't go after someone who doesn't love you.
+# labels = cg-checked-jnw dep-tocheck
+^Сүйбөгөнгө/Сүйбөгөнгө$
+^сүйкөнбө/сүйкөнбө$
+^./.$
+
+# sent_id = proverbs:74
+# author = Сыргабековна&Сабыровна
+# source = Сыргабековна&Сабыровна:232
+# text = Жүктүн оорун нар көтөрөт.
+# text[eng] = The camel carries the weight of the load.
+# labels = cg-checked-jnw dep-tocheck
+^Жүктүн/Жүктүн$
+^оорун/оорун$
+^нар/нар$
+^көтөрөт/көтөрөт$
+^./.$
+
+# sent_id = proverbs:75
+# author = Сыргабековна&Сабыровна
+# source = Сыргабековна&Сабыровна:177
+# text = Жалкоого шылтоо көп.
+# text[eng] = A lazy person has lots of excuses.
+# labels = cg-checked-jnw dep-tocheck
+^Жалкоого/Жалкоого$
+^шылтоо/шылтоо$
+^көп/көп$
+^./.$
+
+# sent_id = proverbs:76
+# author = Сыргабековна&Сабыровна
+# source = Сыргабековна&Сабыровна:49
+# text = Алыстагы душмандан аңдып жүргөн дос жаман.
+# text[eng] = A friend who spies on you is worse than an enemy who's far away. 
+# labels = cg-checked-jnw dep-tocheck
+^Алыстагы/Алыстагы$
+^душмандан/душмандан$
+^аңдып/аңдып$
+^жүргөн/жүргөн$
+^дос/дос$
+^жаман/жаман$
+^./.$
+
+# sent_id = proverbs:77
+# author = Сыргабековна&Сабыровна
+# source = Сыргабековна&Сабыровна:314
+# text = Күлгөнүнө күлө жетет.
+# text[eng] = One reaches a laughing person by laughing.
+# labels = cg-checked-jnw dep-tocheck
+^Күлгөнүнө/Күлгөнүнө$
+^күлө/күлө$
+^жетет/жетет$
+^./.$
+
+# sent_id = proverbs:78
+# author = Сыргабековна&Сабыровна
+# source = Сыргабековна&Сабыровна:415
+# text = Таң атпаганга күн да батпайт.
+# text[eng] = The sun doesn't set for a person form whom dawn hasn't broken.
+# labels = cg-checked-jnw dep-tocheck
+^Таң/таң$
+^атпаганга/атпаганга$
+^күн/күн$
+^да/да$
+^батпайт/батпайт$
+^./.$
+
+# sent_id = proverbs:79
+# author = Сыргабековна&Сабыровна
+# source = Сыргабековна&Сабыровна:209
+# text = Желмогуздун чоңунан кичинеси жаман.
+# text[eng] = A little ~monster is worse than a big one.
+# labels = cg-checked-jnw dep-tocheck
+^Желмогуздун/Желмогуздун$
+^чоңунан/чоңунан$
+^кичинеси/кичинеси$
+^жаман/жаман$
+^./.$
+
+# sent_id = proverbs:80
+# author = Сыргабековна&Сабыровна
+# source = Сыргабековна&Сабыровна:253
+# text = Калпты чындай айтса, чын чычая качат.
+# text[eng] = If one tells a lie as if it were truth, the truth runs away without looking back.
+# labels = cg-checked-jnw dep-tocheck
+^Калпты/Калпты$
+^чындай/чындай$
+^айтса/айтса$
+^,/,$
+^чын/чын$
+^чычая/чычая$
+^качат/качат$
+^./.$
+
+# sent_id = proverbs:81
+# author = Сыргабековна&Сабыровна
+# source = Сыргабековна&Сабыровна:125
+# text = Бирөөнүн катыны бирөөгө кыз көрүнөт.
+# text[eng] = One man's crone is another's fair maiden.
+# labels = cg-checked-jnw dep-tocheck
+^Бирөөнүн/Бирөөнүн$
+^катыны/катыны$
+^бирөөгө/бирөөгө$
+^кыз/кыз$
+^көрүнөт/көрүнөт$
+^./.$
+
+# sent_id = proverbs:82
+# author = Сыргабековна&Сабыровна
+# source = Сыргабековна&Сабыровна:330
+# text = Миң уккандан, бир көргөн артык.
+# text[eng] = Seeing once is better than hearing a thousand times.
+# labels = cg-checked-jnw dep-tocheck
+^Миң/Миң$
+^уккандан/уккандан$
+^,/,$
+^бир/бир$
+^көргөн/көргөн$
+^артык/артык$
+^./.$
+
+# sent_id = proverbs:83
+# author = Сыргабековна&Сабыровна
+# source = Сыргабековна&Сабыровна:449
+# text = Үйдүн ашы үйгө сонун.
+# text[eng] = [One] household's food is more delicious to [another] household [than their own].
+# labels = cg-checked-jnw dep-tocheck
+^Үйдүн/Үйдүн$
+^ашы/ашы$
+^үйгө/үйгө$
+^сонун/сонун$
+^./.$
+
+# sent_id = proverbs:84
+# author = Сыргабековна&Сабыровна
+# source = Сыргабековна&Сабыровна:148
+# text = Душмандын сырты жылма, ичи кара. 
+# text[eng] = An enemy is nice on the outside but evil on the inside.
+# labels = cg-checked-jnw dep-tocheck
+^Душмандын/Душмандын$
+^сырты/сырты$
+^жылма/жылма$
+^,/,$
+^ичи/ичи$
+^кара/кара$
+^./.$
+
+# sent_id = proverbs:85
+# author = Сыргабековна&Сабыровна
+# source = Сыргабековна&Сабыровна:1
+# text = Мыйзам - буйлалаган төө, кайда бурса кете берген. 
+# text[eng] = The law is a camel with a nose peg, wherever you turn it it goes.
+# labels = cg-checked-jnw dep-tocheck
+^Мыйзам/Мыйзам$
+^буйлалаган/буйлалаган$
+^төө/төө$
+^,/,$
+^кайда/кайда$
+^бурса/бурса$
+^кете/кете$
+^берген/берген$
 ^./.$

@@ -502,9 +502,10 @@
 	"," cm @punct #5->11
 "<кийинки>"
 	"кийин" adv attr @amod #6->7
-"<көч да>"
+"<көч>"
 	"көч" n nom @nsubj #7->11
-		"да" postadv @advmod #8->11
+"<да>"
+	"да" postadv @advmod #8->11
 "<ошол>"
 	"ошол" det dem @det #9->10
 "<жакка>"
@@ -612,7 +613,7 @@
 # source = Сыргабековна&Сабыровна:114
 # text = Бир ит көрүп үрөт, бир ит көрбөй үрөт.
 # text[eng] = One dog sees (something) and barks, one dog doesn't see (anything) and barks.
-# labels = cg-checked-jnw dep-revised1x-jnw
+# labels = cg-checked-jnw dep-checked-jnw
 "<Бир>"
 	"бир" num @nummod #1->2
 "<ит>"
@@ -626,7 +627,7 @@
 "<бир>"
 	"бир" num @nummod #6->7
 "<ит>"
-	"ит" n nom @csubj #7->8
+	"ит" n nom @nsubj #7->9
 "<көрбөй>"
 	"көр" v tv neg gna_perf @advcl #8->9
 "<үрөт>"
@@ -639,7 +640,7 @@
 # source = Сыргабековна&Сабыровна:63
 # text = Ата-энеңди сыйласаң, өз балдарыңдан жакшылык көрөсүң.
 # text[eng] = If you respect your parents, you will see good things from your own children.
-# labels = cg-checked-jnw dep-initialchecked-jnw
+# labels = cg-checked-jnw dep-checked-jnw
 "<Ата-энеңди>"
 	"ата-эне" n px2sg acc @obj #1->2
 "<сыйласаң>"
@@ -661,21 +662,21 @@
 # author = Сыргабековна&Сабыровна
 # source = Сыргабековна&Сабыровна:189
 # text = Жамандын жолдошу көп, жанына пайдасы жок.
-# text[eng] = A bad person has lots of companions, but his/her ~soul has no use/benefit.
-# labels = cg-checked-jnw dep-revised1x-jnw
+# text[eng] = A bad person has lots of companions, but their ~soul has no use/benefit.
+# labels = cg-checked-jnw dep-revised2x-jnw
 "<Жамандын>"
-	"жаман" adj subst gen @obl #1->2
+	"жаман" adj subst gen @nmod:poss #1->2
 "<жолдошу>"
-	"жолдош" n px3sp nom @nmod:poss #2->3
+	"жолдош" n px3sp nom @nsubj #2->3
 "<көп>"
 	"көп" adj @root #3->0
 		"э" cop @cop #4->3
 "<,>"
 	"," cm @punct #5->8
 "<жанына>"
-	"жан" n px3sp dat @obl #6->7
+	"жан" n px3sp dat @obl #6->8
 "<пайдасы>"
-	"пайда" n px3sp nom @nmod:poss #7->8
+	"пайда" n px3sp nom @nsubj #7->8
 "<жок>"
 	"жок" adj @parataxis #8->3
 		"э" cop aor p3 pl @cop #9->8
@@ -687,11 +688,11 @@
 # source = Сыргабековна&Сабыровна:370
 # text = Өтө кызыл бат оңот, өтө ысык бат сууйт.
 # text[eng] = Very red quickly fades, very hot quickly cools.
-# labels = cg-checked-jnw dep-revised1x-jnw
+# labels = cg-checked-jnw dep-revised2x-jnw
 "<Өтө>"
 	"өтө" adv @advmod #1->2
 "<кызыл>"
-	"кызыл" adj subst @nsubj #2->4
+	"кызыл" adj subst nom @nsubj #2->4
 "<бат>"
 	"бат" adv @advmod #3->4
 "<оңот>"
@@ -701,7 +702,7 @@
 "<өтө>"
 	"өтө" adv @advmod #6->7
 "<ысык>"
-	"ысык" adj subst @nsubj #7->9
+	"ысык" adj subst nom @nsubj #7->9
 "<бат>"
 	"бат" adv @advmod #8->9
 "<сууйт>"
@@ -718,21 +719,21 @@
 "<Жан>"
 	"жан" n nom @obj #1->2
 "<сакташ>"
-	"сакта" v tv ger_pres nom @nsubj #2->3
+	"сакта" v tv ger_pres nom @csubj #2->3
 "<оңой>"
 	"оңой" adj @root #3->0
 		"э" cop aor p3 sg @cop #4->3
 "<,>"
-	"," cm @punct #5->7
+	"," cm @punct #5->3
 "<жан>"
 	"жан" n nom @obj #6->7
 "<жыргатыш>"
-	"жырга" v iv caus ger_pres nom @nsubj #7->8
+	"жырга" v iv caus ger_pres nom @csubj #7->8
 "<кыйын>"
 	"кыйын" adj @parataxis #8->3
 		"э" cop aor p3 sg @cop #9->8
 "<.>"
-	"." sent @punct #10->7
+	"." sent @punct #10->8
 
 # sent_id = proverbs:34
 # author = Сыргабековна&Сабыровна
@@ -752,7 +753,7 @@
 # source = Сыргабековна&Сабыровна:138
 # text = Дарак бир жерден көгөрөт.
 # text[eng] = A tree becomes green in one place.  (i.e., when it's stable it thrives)
-# labels = cg-checked-jnw dep-initialchecked-jnw
+# labels = cg-checked-jnw dep-checked-jnw
 "<Дарак>"
 	"дарак" n nom @nsubj #1->4
 "<бир>"
@@ -792,7 +793,7 @@
 "<Өтпөс>"
 	"өт" v iv neg gpr_fut @acl #1->2
 "<өмүр>"
-	"өмүр" n nom @parataxis #2->5
+	"өмүр" n nom @conj #2->5
 "<,>"
 	"," cm @punct #3->6
 "<сынбас>"
@@ -809,9 +810,9 @@
 # source = Сыргабековна&Сабыровна:239
 # text = Ийгиликтин эрте-кечи жок.
 # text[eng] = There is no "sooner or later" to fortune.
-# labels = cg-checked-jnw dep-revised1x-jnw
+# labels = cg-checked-jnw dep-checked-jnw
 "<Ийгиликтин>"
-	"ийгилик" n gen @nmod #1->2
+	"ийгилик" n gen @nmod:poss #1->2
 "<эрте-кечи>"
 	"эрте-кеч" adj subst px3sp nom @nsubj #2->3
 "<жок>"
@@ -848,7 +849,7 @@
 # source = Сыргабековна&Сабыровна:345
 # text = Ооруну жашырсаң, өлүм ашкере кылат.
 # text[eng] = If you hide sickness/pain, death will reveal itself.
-# labels = cg-checked-jnw dep-tocheck
+# labels = cg-checked-jnw dep-checked-jnw
 "<Ооруну>"
 	"оору" n acc @obj #1->2
 "<жашырсаң>"
@@ -858,7 +859,7 @@
 "<өлүм>"
 	"өлүм" n nom @nsubj #4->5
 "<ашкере кылат>"
-	"ашкере кыл" v tv aor p3 sg @root #5->0
+	"ашкере кыл" v iv aor p3 sg @root #5->0
 "<.>"
 	"." sent @punct #6->5
 
@@ -1009,15 +1010,15 @@
 # source = Сыргабековна&Сабыровна:282
 # text = Колунда токочу бар бала сүйгүнчүктүү.
 # text[eng] = The child with a loaf (of bread) in their hand is darling.
-# labels = cg-checked-jnw dep-tocheck
+# labels = cg-checked-jnw dep-checked-jnw
 "<Колунда>"
-	"кол" n px3sp loc @obl #1->2
+	"кол" n px3sp loc @obl #1->3
 "<токочу>"
-	"токоч" n px3sp nom @nmod:poss#2->4
+	"токоч" n px3sp nom @nsubj #2->3
 "<бар>"
-	"бар" adj @amod #3->4
+	"бар" adj @acl #3->4
 "<бала>"
-	"бала" n nom @nsubj #4->6
+	"бала" n nom @nsubj #4->5
 "<сүйгүнчүктүү>"
 	"сүйгүнчүктүү" adj @root #5->0
 		"э" cop aor p3 sg @cop #6->5
@@ -1033,7 +1034,7 @@
 "<Жазмыштан>"
 	"жазмыш" n abl @obl #1->2
 "<озуш>"
-	"оз" v iv ger_pres nom @nsubj #2->3
+	"оз" v iv ger_pres nom @csubj #2->3
 "<жок>"
 	"жок" adj @root #3->0
 		"э" cop aor p3 sg @cop #4->3
@@ -1043,15 +1044,15 @@
 # sent_id = proverbs:49
 # author = Сыргабековна&Сабыровна
 # source = Сыргабековна&Сабыровна:134
-# text = Бузулган элгe бучуктан молдо болот.
+# text = Бузулган элге бучуктан молдо болот.
 # text[eng] = The mullah of a rotten people is from among the noseless/flat-nosed.
-# labels = cg-checked-jnw dep-tocheck
+# labels = cg-checked-jnw dep-checked-jnw
 "<Бузулган>"
-	"буз" v tv pass gpr_past @amod #1->2
-"<элгe>"
+	"буз" v tv pass gpr_past @acl #1->2
+"<элге>"
 	"эл" n dat @obl #2->5
 "<бучуктан>"
-	"бучук" adj subst abl @obl #3->4
+	"бучук" adj subst abl @obl #3->5
 "<молдо>"
 	"молдо" n nom @nsubj #4->5
 "<болот>"
@@ -1064,7 +1065,7 @@
 # source = Сыргабековна&Сабыровна:53
 # text = Ар кимде бар бир кыял, ар кыялды ким тыяр.
 # text[eng] = Everyone has a personality, no one can stop any personality.
-# labels = cg-checked-jnw dep-tocheck
+# labels = cg-checked-jnw dep-checked-jnw
 "<Ар кимде>"
 	"ар ким" prn ind loc @obl #1->2
 "<бар>"
@@ -1100,7 +1101,7 @@
 "<оорусун>"
 	"оору" n px3sp acc @obj #3->5
 "<өзү>"
-	"өз" prn ref px3sg nom @nmod:poss #4->1
+	"өз" prn ref px3sg nom @advmod #4->5
 "<билет>"
 	"бил" v tv aor p3 sg @root #5->0
 "<.>"
@@ -1111,23 +1112,23 @@
 # source = Сыргабековна&Сабыровна:117
 # text = Бирөө баары үчүн, баары бирөө үчүн.
 # text[eng] = One for all, all for one.
-# labels = cg-checked-jnw dep-tocheck
+# labels = cg-checked-jnw dep-checked-jnw
 "<Бирөө>"
-	"бир" prn ind nom @nsubj #1->3
+	"бир" prn ind nom @nsubj #1->2
 "<баары>"
-	"баары" prn ind nom @obj #2->3
+	"баары" prn ind nom @root #2->0
 "<үчүн>"
-	"үчүн" post @root #3->0
+	"үчүн" post @post #3->2
 "<,>"
-	"," cm @punct #4->7
+	"," cm @punct #4->2
 "<баары>"
-	"баары" prn ind nom @nsubj #5->7
+	"баары" prn ind nom @nsubj #5->6
 "<бирөө>"
-	"бир" prn ind nom @obj #6->7
+	"бир" prn ind nom @parataxis #6->2
 "<үчүн>"
-	"үчүн" post @parataxis #7->3
+	"үчүн" post @post #7->6
 "<.>"
-	"." sent @punct #8->7
+	"." sent @punct #8->6
 
 # sent_id = proverbs:53
 # author = Сыргабековна&Сабыровна
@@ -1377,7 +1378,7 @@
 # sent_id = proverbs:64
 # author = Сыргабековна&Сабыровна
 # source = Сыргабековна&Сабыровна:193
-# text = Жамандын тонун кийсең, тойдо доолайт
+# text = Жамандын тонун кийсең, тойдо доолайт.
 # text[eng] = If you wear (borrow) a bad person's coat, they'll demand it at a party.
 # labels = cg-checked-jnw dep-tocheck
 "<Жамандын>"
