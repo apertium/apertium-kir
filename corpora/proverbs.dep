@@ -1627,17 +1627,17 @@
 # source = Сыргабековна&Сабыровна:49
 # text = Алыстагы душмандан аңдып жүргөн дос жаман.
 # text[eng] = A friend who spies on you is worse than an enemy who's far away. 
-# labels = cg-checked-jnw dep-tocheck
+# labels = cg-checked-jnw dep-checked-jnw
 "<Алыстагы>"
-	"алыс" adj subst loc attr @obl:lmod #1->2
+	"алыс" adj subst loc attr @nmod:lmod #1->2
 "<душмандан>"
-	"душман" n abl @obl #2->6
+	"душман" n abl @obl:comp #2->6
 "<аңдып>"
-	"аңды" v tv prc_perf @nsubj #3->6
+	"аңды" v tv prc_perf @advmod #3->4
 "<жүргөн>"
-	"жүр" vaux gpr_past @aux #4->3
+	"жүр" vaux gpr_past @acl #4->5
 "<дос>"
-	"дос" n nom @nsubj #5->3
+	"дос" n nom @nsubj #5->6
 "<жаман>"
 	"жаман" adj @root #6->0
 		"э" cop aor p3 pl @cop #7->6
@@ -1653,7 +1653,7 @@
 "<Күлгөнүнө>"
 	"күл" v iv gpr_past subst px3sp dat @obl #1->3
 "<күлө>"
-	"күл" v iv gna_impf @obj #2->3
+	"күл" v iv gna_impf @avcl #2->3
 "<жетет>"
 	"жет" v tv aor p3 sg @root #3->0
 "<.>"
@@ -1663,7 +1663,7 @@
 # author = Сыргабековна&Сабыровна
 # source = Сыргабековна&Сабыровна:415
 # text = Таң атпаганга күн да батпайт.
-# text[eng] = The sun doesn't set for a person form whom dawn hasn't broken.
+# text[eng] = The sun doesn't set for a person for whom dawn hasn't broken.
 # labels = cg-checked-jnw dep-tocheck
 "<Таң>"
 	"таң" n nom @nsubj #1->2
@@ -1672,7 +1672,7 @@
 "<күн>"
 	"күн" n nom @nsubj #3->5
 "<да>"
-	"да" cnjadv @advmod #4->5
+	"да" postadv @advmod #4->5
 "<батпайт>"
 	"бат" v iv neg aor p3 sg @root #5->0
 "<.>"
@@ -1683,11 +1683,11 @@
 # source = Сыргабековна&Сабыровна:209
 # text = Желмогуздун чоңунан кичинеси жаман.
 # text[eng] = A little ~monster is worse than a big one.
-# labels = cg-checked-jnw dep-tocheck
+# labels = cg-checked-jnw dep-checked-jnw
 "<Желмогуздун>"
-	"желмогуз" n gen @obl #1->3
+	"желмогуз" n gen @nmod:poss #1->2
 "<чоңунан>"
-	"чоң" adj subst px3sp abl @obl #2->4
+	"чоң" adj subst px3sp abl @advmod #2->4
 "<кичинеси>"
 	"кичине" adj subst px3sp nom @nsubj #3->4
 "<жаман>"
@@ -1701,11 +1701,11 @@
 # source = Сыргабековна&Сабыровна:253
 # text = Калпты чындай айтса, чын чычая качат.
 # text[eng] = If one tells a lie as if it were truth, the truth runs away without looking back.
-# labels = cg-checked-jnw dep-tocheck
+# labels = cg-checked-jnw dep-checked-jnw
 "<Калпты>"
 	"калп" n acc @obj #1->3
 "<чындай>"
-	"чын" n sim @nmod #2->1
+	"чын" n sim @advmod #2->3
 "<айтса>"
 	"айт" v tv gna_cond p3 sg @advcl #3->7
 "<,>"
@@ -1713,7 +1713,7 @@
 "<чын>"
 	"чын" n nom @nsubj #5->7
 "<чычая>"
-	"чычай" v iv gna_impf @advmod #6->7
+	"чычай" v iv gna_impf @advcl #6->7
 "<качат>"
 	"кач" v iv aor p3 sg @root #7->0
 "<.>"
@@ -1724,7 +1724,7 @@
 # source = Сыргабековна&Сабыровна:125
 # text = Бирөөнүн катыны бирөөгө кыз көрүнөт.
 # text[eng] = One man's crone is another's fair maiden.
-# labels = cg-checked-jnw dep-tocheck
+# labels = cg-checked-jnw dep-checked-jnw
 "<Бирөөнүн>"
 	"бирөө" prn ind gen @det:poss #1->2
 "<катыны>"
@@ -1732,7 +1732,7 @@
 "<бирөөгө>"
 	"бирөө" prn ind dat @obl #3->5
 "<кыз>"
-	"кыз" n nom @obj #4->5
+	"кыз" n nom @xcomp #4->5
 "<көрүнөт>"
 	"көр" v tv pass aor p3 sg @root #5->0
 "<.>"
@@ -1743,7 +1743,7 @@
 # source = Сыргабековна&Сабыровна:330
 # text = Миң уккандан, бир көргөн артык.
 # text[eng] = Seeing once is better than hearing a thousand times.
-# labels = cg-checked-jnw dep-tocheck
+# labels = cg-checked-jnw dep-checked-jnw
 "<Миң>"
 	"миң" num @advmod #1->2
 "<уккандан>"
@@ -1753,7 +1753,7 @@
 "<бир>"
 	"бир" num @advmod #4->5
 "<көргөн>"
-	"көр" v tv ger_past nom @nsubj #5->6
+	"көр" v tv ger_past nom @csubj #5->6
 "<артык>"
 	"артык" adj @root #6->0
 		"э" cop aor p3 sg @cop #7->6
