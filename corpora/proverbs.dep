@@ -210,7 +210,7 @@
 # text[eng] = If the shirt does not sweat, the field does not blossom.
 # labels = cg-checked-jnw dep-revised1x-jnw
 "<Көйнөк>"
-	"көйнөк" n nom @csubj #1->2
+	"көйнөк" n nom @nsubj #1->2
 "<тердебесе>"
 	"терде" v iv neg gna_cond p3 sg @advcl #2->5
 "<,>"
