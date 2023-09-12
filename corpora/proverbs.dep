@@ -1230,7 +1230,6 @@
 # text = Азаматтын жакшысы азыраак сүйлөп, көп тыңшайт; аргымактын жакшысы азыраак оттоп, көп жуушайт.
 # text[eng] = A good ~achiever speaks less and listens a lot; a good argymaq (horse breed) grazes less, and rests a lot.
 # labels = cg-checked-jnw dep-checked-jnw
-
 "<Азаматтын>"
 	"азамат" n gen @nmod:poss #1->2
 "<жакшысы>"
