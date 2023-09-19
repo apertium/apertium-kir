@@ -1268,11 +1268,11 @@
 # source = Сыргабековна&Сабыровна:229
 # text = Жүгүргөн албайт, буйруган алат.
 # text[eng] = The one who runs [after something] doesn't get [it], the one who's meant to [get it] gets [it].
-# labels = cg-checked-jnw dep-tocheck
+# labels = cg-checked-jnw dep-checked-jnw
 "<Жүгүргөн>"
 	"жүгүр" v iv gpr_past nom @nsubj #1->2
 "<албайт>"
-	"ал" v tv neg aor p3 sg @parataxis #2->5
+	"ал" v tv neg aor p3 sg @conj #2->5
 "<,>"
 	"," cm @punct #3->5
 "<буйруган>"
@@ -1287,11 +1287,11 @@
 # source = Сыргабековна&Сабыровна:395
 # text = Сөзү көптүн иши аз.
 # text[eng] = The one who has a lot to say has little to do.
-# labels = cg-checked-jnw dep-tocheck
+# labels = cg-checked-jnw dep-checked-jnw
 "<Сөзү>"
-	"сөз" n px3sp nom @nmod #1->3
+	"сөз" n px3sp nom @nsubj #1->3
 "<көптүн>"
-	"көп" adj subst gen @nmod:poss #2->1
+	"көп" adj subst gen @nmod:poss #2->3
 "<иши>"
 	"иш" n px3sp nom @nsubj #3->4
 "<аз>"
@@ -1305,7 +1305,7 @@
 # source = Сыргабековна&Сабыровна:83
 # text = Бакыт кетсе, намыяны кошо кетет.
 # text[eng] = When happiness leaves, it takes the wallet with it.
-# labels = cg-checked-jnw dep-tocheck
+# labels = cg-checked-jnw dep-checked-jnw
 "<Бакыт>"
 	"бакыт" n nom @nsubj #1->2
 "<кетсе>"
@@ -1313,9 +1313,9 @@
 "<,>"
 	"," cm @punct #3->6
 "<намыяны>"
-	"намыя" n acc @nsubj #4->6
+	"намыя" n acc @obl #4->6
 "<кошо>"
-	"кош" v tv gna_impf @advmod #5->6
+	"кош" v tv gna_impf @advcl #5->6
 "<кетет>"
 	"кет" vaux aor p3 sg @root #6->0
 "<.>"
