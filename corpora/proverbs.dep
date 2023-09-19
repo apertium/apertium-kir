@@ -1326,11 +1326,11 @@
 # source = Сыргабековна&Сабыровна:271
 # text = Кеңешип кескен бармак оорубайт.
 # text[eng] = A finger cut by getting advice doesn't hurt.
-# labels = cg-checked-jnw dep-tocheck
+# labels = cg-checked-jnw dep-checked-jnw
 "<Кеңешип>"
-	"кеңеш" v iv gna_perf @advmod #1->4
+	"кеңеш" v iv gna_perf @advcl #1->2
 "<кескен>"
-	"кес" v tv gpr_past @amod #2->3
+	"кес" v tv gpr_past @acl #2->3
 "<бармак>"
 	"бармак" n nom @nsubj #3->4
 "<оорубайт>"
@@ -1343,11 +1343,11 @@
 # source = Сыргабековна&Сабыровна:165
 # text = Жакшы кеңеш - жарым ырыс.
 # text[eng] = Good advice is half of happiness.
-# labels = cg-checked-jnw dep-tocheck
+# labels = cg-checked-jnw dep-checked-jnw
 "<Жакшы>"
 	"жакшы" adj @amod #1->2
 "<кеңеш>"
-	"кеңеш" n nom @parataxis #2->5
+	"кеңеш" n nom @nsubj #2->5
 "<->"
 	"-" guio @punct #3->5
 "<жарым>"
@@ -1363,9 +1363,9 @@
 # source = Сыргабековна&Сабыровна:79
 # text = Байлыкты сүйгөн намысты билбейт.
 # text[eng] = One who loves wealth doesn't know honour.
-# labels = cg-checked-jnw dep-tocheck
+# labels = cg-checked-jnw dep-checked-jnw
 "<Байлыкты>"
-	"байлык" n acc @nmod:poss #1->2
+	"байлык" n acc @obj #1->2
 "<сүйгөн>"
 	"сүй" v tv gpr_past subst nom @nsubj #2->4
 "<намысты>"
@@ -1380,7 +1380,7 @@
 # source = Сыргабековна&Сабыровна:193
 # text = Жамандын тонун кийсең, тойдо доолайт.
 # text[eng] = If you wear (borrow) a bad person's coat, they'll demand it at a party.
-# labels = cg-checked-jnw dep-tocheck
+# labels = cg-checked-jnw dep-checked-jnw
 "<Жамандын>"
 	"жаман" adj subst gen @nmod:poss #1->2
 "<тонун>"
@@ -1401,7 +1401,7 @@
 # source = Сыргабековна&Сабыровна:459
 # text = Чечинген суудан кайтпас, кезенген жоодон кайтпас.
 # text[eng] = Someone who's undressed isn't scared of water, someone who takes aim is not afraid of the enemy.
-# labels = cg-checked-jnw dep-tocheck
+# labels = cg-checked-jnw dep-checked-jnw
 "<Чечинген>"
 	"чечин" v iv gpr_past subst nom @nsubj #1->3
 "<суудан>"
@@ -1424,19 +1424,19 @@
 # source = Сыргабековна&Сабыровна:344
 # text = Оору батмандап кирип, мыскалдап чыгат.
 # text[eng] = Sickness enters in batmans and leaves in zolotniks.
-# labels = cg-checked-jnw dep-tocheck
+# labels = cg-checked-jnw dep-checked-jnw
 "<Оору>"
 	"оору" n nom @nsubj #1->3
 "<батмандап>"
-	"батманда" v iv gna_perf @advmod #2->3
+	"батманда" v iv gna_perf @advcl #2->3
 "<кирип>"
-	"кир" v iv gna_perf @root #3->0
+	"кир" v iv gna_perf @advcl #3->6
 "<,>"
 	"," cm @punct #4->6
 "<мыскалдап>"
-	"мыскалда" v iv gna_perf @advmod #5->6
+	"мыскалда" v iv gna_perf @advcl #5->6
 "<чыгат>"
-	"чык" v iv aor p3 sg @parataxis #6->3
+	"чык" v iv aor p3 sg @root #6->0
 "<.>"
 	"." sent @punct #7->6
 
@@ -1445,17 +1445,17 @@
 # source = Сыргабековна&Сабыровна:222
 # text = Жолдошуң болсо куу, башыңдан кетпейт ызы-чуу.
 # text[eng] = If your spouse is pushy, you won't get the clamour out of your head.
-# labels = cg-checked-jnw dep-tocheck
+# labels = cg-checked-jnw dep-checked-jnw
 "<Жолдошуң>"
 	"жолдош" n px2sg nom @nsubj #1->2
 "<болсо>"
 	"бол" v iv gna_cond p3 sg @advcl #2->6
 "<куу>"
-	"куу" adj @amod #3->1
+	"куу" adj @xcomp #3->2
 "<,>"
 	"," cm @punct #4->6
 "<башыңдан>"
-	"баш" n px2sg abl @obl #5->7
+	"баш" n px2sg abl @obl #5->6
 "<кетпейт>"
 	"кет" v iv neg aor p3 sg @root #6->0
 "<ызы-чуу>"
@@ -1468,7 +1468,7 @@
 # source = Сыргабековна&Сабыровна:417
 # text = Таш койгон ташын алат, кыш койгон кышын алат.
 # text[eng] = One who lays stone gets stone; one who lays bricks gets bricks.
-# labels = cg-checked-jnw dep-tocheck
+# labels = cg-checked-jnw dep-checked-jnw
 "<Таш>"
 	"таш" n nom @obj #1->2
 "<койгон>"
