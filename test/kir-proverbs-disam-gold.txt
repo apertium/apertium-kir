@@ -1,3 +1,4 @@
+[hYVdQc0kJl7f]
 "<Жип>"
 	"жип" n nom
 "<кессең>"
@@ -22,7 +23,8 @@
 	"сал" v tv imp p2 sg
 "<.>"
 	"." sent
-
+[/hYVdQc0kJl7f]
+[9JMz2hLkU7-U]
 "<Миң>"
 	"миң" num
 "<сөз>"
@@ -39,7 +41,8 @@
 	"бүт" v iv caus imp p2 sg
 "<.>"
 	"." sent
-
+[/9JMz2hLkU7-U]
+[reVKUqzadI34]
 "<Өрдөк>"
 	"өрдөк" n nom
 "<жокто>"
@@ -53,7 +56,8 @@
 		"э" cop aor p3 sg
 "<.>"
 	"." sent
-
+[/reVKUqzadI34]
+[arKMFRI1xvS-]
 "<Күч>"
 	"күч" n nom
 "<атасын>"
@@ -62,7 +66,8 @@
 	"тааны" v tv neg aor p3 sg
 "<.>"
 	"." sent
-
+[/arKMFRI1xvS-]
+[DSNytDQm3fMY]
 "<Баштаган>"
 	"башта" v tv gpr_past
 "<ишти>"
@@ -71,7 +76,8 @@
 	"ташта" v tv neg imp p2 sg
 "<.>"
 	"." sent
-
+[/DSNytDQm3fMY]
+[5T_CyYfzOc70]
 "<Билим>"
 	"билим" n nom
 "<->"
@@ -83,7 +89,8 @@
 		"э" cop aor p3 sg
 "<.>"	
 	"." sent
-
+[/5T_CyYfzOc70]
+[BbKQ_N-Kz2Ql]
 "<Эл>"
 	"эл" n nom
 "<оозунда>"
@@ -95,7 +102,8 @@
 		"э" cop aor p3 sg
 "<.>"
 	"." sent
-
+[/BbKQ_N-Kz2Ql]
+[_Kcbk00f1xG4]
 "<Бөрү>"
 	"бөрү" n nom
 "<баласы>"
@@ -106,7 +114,8 @@
 	"бол" v iv neg aor p3 sg
 "<.>"
 	"." sent
-
+[/_Kcbk00f1xG4]
+[l_pVE4g3j9YB]
 "<Элин>"
 	"эл" n px3sp acc
 "<сүйбөс>"
@@ -127,7 +136,8 @@
 	"бол" v iv neg aor p3 sg
 "<.>"
 	"." sent
-
+[/l_pVE4g3j9YB]
+[fL83duP6cqft]
 "<Чындан>"
 	"чын" n abl
 "<ыйласа>"
@@ -144,7 +154,8 @@
 	"чык" v iv aor p3 sg
 "<.>"
 	"." sent
-
+[/fL83duP6cqft]
+[QJczHwEIzhp1]
 "<Көйнөк>"
 	"көйнөк" n nom
 "<тердебесе>"
@@ -157,7 +168,8 @@
 	"гүлдө" v iv neg aor p3 sg
 "<.>"
 	"." sent
-
+[/QJczHwEIzhp1]
+[PhpA_eRbjQJr]
 "<Чала>"
 	"чала" adj
 "<молдо>"
@@ -168,7 +180,8 @@
 	"буз" v tv aor p3 sg
 "<.>"
 	"." sent
-
+[/PhpA_eRbjQJr]
+[RoWxRxEJ2LpA]
 "<Эрте>"
 	"эрте" adv
 "<сепсең>"
@@ -189,7 +202,8 @@
 	"жума" n nom
 "<.>"
 	"." sent
-
+[/RoWxRxEJ2LpA]
+[e7X9CLankqNt]
 "<Көз>"
 	"көз" n nom
 "<коркок>"
@@ -202,7 +216,8 @@
 	"баатыр" adj
 "<.>"
 	"." sent
-
+[/e7X9CLankqNt]
+[GPnXaV1QoF5V]
 "<Пулуң>"
 	"пул" n px2sg nom
 "<болсо>"
@@ -214,7 +229,8 @@
 		"э" cop aor p1 sg
 "<.>"
 	"." sent
-
+[/GPnXaV1QoF5V]
+[ykxfzA-RPgJu]
 "<Оозу>"
 	"ооз" n px3sp nom
 "<кыйшык>"
@@ -233,7 +249,8 @@
 	"сүйлө" v tv opt p3 sg
 "<.>"
 	"." sent
-
+[/ykxfzA-RPgJu]
+[fenzSGoLq3N9]
 "<Балалуу>"
 	"бала" n
 		"луу" post
@@ -245,7 +262,8 @@
 	"бил" v tv neg past p3 sg
 "<.>"
 	"." sent
-
+[/fenzSGoLq3N9]
+[s0iffepI8DIl]
 "<Адам>"
 	"адам" n gen
 "<көркү>"
@@ -268,7 +286,8 @@
 		"э" cop aor p3 sg
 "<.>"
 	"." sent
-
+[/s0iffepI8DIl]
+[wbm2RXelrd1Y]
 "<Көп>"
 	"көп" adv
 "<жашасаң>"
@@ -281,7 +300,8 @@
 	"көр" v tv aor p2 sg
 "<.>"
 	"." sent
-
+[/wbm2RXelrd1Y]
+[DW4Bl4XifI_K]
 "<Оюндан>"
 	"оюн" n abl
 "<от>"
@@ -290,7 +310,8 @@
 	"чык" v iv aor p3 sg
 "<.>"
 	"." sent
-
+[/DW4Bl4XifI_K]
+[Ujiq0bJ0juL9]
 "<Кайра>"
 	"кайыр" v tv gna_impf
 "<кирер>"
@@ -303,7 +324,8 @@
 	"жап" v tv neg imp p2 sg
 "<.>"
 	"." sent
-
+[/Ujiq0bJ0juL9]
+[-vh7ueKb4NEZ]
 "<Колуң>"
 	"кол" n px2sg nom
 "<менен>"
@@ -320,7 +342,8 @@
 	"тарт" v tv aor p2 sg
 "<.>"
 	"." sent
-
+[/-vh7ueKb4NEZ]
+[9GgqO6IoU6nN]
 "<Шашкан>"
 	"шаш" v iv ger_past nom
 "<шайтандын>"
@@ -330,7 +353,8 @@
 		"э" cop aor p3 sg
 "<.>"
 	"." sent
-
+[/9GgqO6IoU6nN]
+[uOibsYVmJCQm]
 "<Куру>"
 	"куру" adj
 "<сөз>"
@@ -341,7 +365,8 @@
 	"той" v iv caus neg aor p3 sg
 "<.>"
 	"." sent
-
+[/uOibsYVmJCQm]
+[IC4Oao-A2Q_r]
 "<Мурунку>"
 	"мурун" adv attr
 "<көч>"
@@ -366,7 +391,8 @@
 	"бар" v iv aor p3 sg
 "<.>"
 	"." sent
-
+[/IC4Oao-A2Q_r]
+[8J1M3mdObai2]
 "<Эшекке>"
 	"эшек" n dat
 "<төшөк>"
@@ -375,7 +401,8 @@
 	"жара" v tv coop neg aor p3 sg
 "<.>"
 	"." sent
-
+[/8J1M3mdObai2]
+[g8i4R5waQO2p]
 "<Кетмен>"
 	"кетмен" n nom
 "<чаппай>"
@@ -403,7 +430,8 @@
 		"э" cop aor p3 sg
 "<.>"
 	"." sent
-
+[/g8i4R5waQO2p]
+[wGUlYAR16DVC]
 "<Иштесең>"
 	"иште" v iv gna_cond p2 sg
 "<көл>"
@@ -420,7 +448,8 @@
 	"бол" v iv aor p3 sg
 "<.>"
 	"." sent
-
+[/wGUlYAR16DVC]
+[l2Keuz91ml4b]
 "<Адамды>"
 	"Адам" n nom
 "<кийиминен>"
@@ -435,7 +464,8 @@
 	"тааны" v tv aor p3 sg
 "<.>"
 	"." sent
-
+[/l2Keuz91ml4b]
+[yXSId9nxgGy3]
 "<Бир>"
 	"бир" num
 "<ит>"
@@ -456,7 +486,8 @@
 	"үр" v iv aor p3 sg
 "<.>"
 	"." sent
-
+[/yXSId9nxgGy3]
+[Sg0H4oI919Gg]
 "<Ата-энеңди>"
 	"ата-эне" n px2sg acc
 "<сыйласаң>"
@@ -473,7 +504,8 @@
 	"көр" v tv aor p2 sg
 "<.>"
 	"." sent
-
+[/Sg0H4oI919Gg]
+[svNbDqhchtFN]
 "<Жамандын>"
 	"жаман" adj subst gen
 "<жолдошу>"
@@ -492,7 +524,8 @@
 		"э" cop aor p3 pl
 "<.>"
 	"." sent
-
+[/svNbDqhchtFN]
+[r0LT-CIz-T68]
 "<Өтө>"
 	"өтө" adv
 "<кызыл>"
@@ -513,7 +546,8 @@
 	"суу" v iv aor p3 sg
 "<.>"
 	"." sent
-
+[/r0LT-CIz-T68]
+[P1DKz1eBujzn]
 "<Жан>"
 	"жан" n nom
 "<сакташ>"
@@ -532,14 +566,16 @@
 		"э" cop aor p3 sg
 "<.>"
 	"." sent
-
+[/P1DKz1eBujzn]
+[Blpzuchb2Cvs]
 "<Канга>"
 	"кан" n dat
 "<кан>"
 	"кан" n nom
 "<.>"
 	"." sent
-
+[/Blpzuchb2Cvs]
+[H6pFekGO3Hr5]
 "<Дарак>"
 	"дарак" n nom
 "<бир>"
@@ -550,7 +586,8 @@
 	"көгөр" v iv aor p3 sg
 "<.>"
 	"." sent
-
+[/H6pFekGO3Hr5]
+[IOGUtqvl9NbI]
 "<Миң>"
 	"миң" num
 "<чеченди>"
@@ -563,7 +600,8 @@
 	"жең" v tv ifi evid p3 sg
 "<.>"
 	"." sent
-
+[/IOGUtqvl9NbI]
+[Pk-HLXKgIRpE]
 "<Өтпөс>"
 	"өт" v iv neg gpr_fut
 "<өмүр>"
@@ -578,7 +616,8 @@
 	"бол" v iv neg aor p3 sg
 "<.>"
 	"." sent
-
+[/Pk-HLXKgIRpE]
+[W23vKgsKtNpP]
 "<Ийгиликтин>"
 	"ийгилик" n gen
 "<эрте-кечи>"
@@ -588,7 +627,8 @@
 		"э" cop aor p3 pl
 "<.>"
 	"." sent
-
+[/W23vKgsKtNpP]
+[lN4FhCZ6liXq]
 "<Калп>"
 	"калп" n nom
 "<ырыс>"
@@ -605,7 +645,8 @@
 	"кес" v tv aor p3 sg
 "<.>"
 	"." sent
-
+[/lN4FhCZ6liXq]
+[jPUNRgQqUzAn]
 "<Ооруну>"
 	"оору" n acc
 "<жашырсаң>"
@@ -618,7 +659,8 @@
 	"ашкере кыл" v iv aor p3 sg
 "<.>"
 	"." sent
-
+[/jPUNRgQqUzAn]
+[sL5SOMfqY-tJ]
 "<Ачуу>"
 	"ачуу" n nom
 "<->"
@@ -645,7 +687,8 @@
 	"кош" v tv imp p2 sg
 "<.>"
 	"." sent
-
+[/sL5SOMfqY-tJ]
+[Rc4PxMyArCsE]
 "<Тамашада>"
 	"тамаша" n loc
 "<да>"
@@ -659,7 +702,8 @@
 		"э" cop aor p3 sg
 "<.>"
 	"." sent
-
+[/Rc4PxMyArCsE]
+[td-noq_BZW20]
 "<Жалкоо>"
 	"жалкоо" n nom
 "<->"
@@ -673,7 +717,8 @@
 		"э" cop aor p3 sg
 "<.>"
 	"." sent
-
+[/td-noq_BZW20]
+[xf-fZRvA2-tE]
 "<Жоо>"
 	"жоо" n nom
 "<кеткен>"
@@ -690,7 +735,8 @@
 	"чап" v tv imp p2 sg
 "<.>"
 	"." sent
-
+[/xf-fZRvA2-tE]
+[tV6v7fn4fZf5]
 "<Көп>"
 	"көп" adv
 "<түкүрсө>"
@@ -711,7 +757,8 @@
 	"бол" v iv aor p3 sg
 "<.>"
 	"." sent
-
+[/tV6v7fn4fZf5]
+[6pO5PUPatWbv]
 "<Айды>"
 	"ай" n acc
 "<этек>"
@@ -724,7 +771,8 @@
 	"ал" vaux neg aor p2 sg
 "<.>"
 	"." sent
-
+[/6pO5PUPatWbv]
+[0txEKpzYJwdn]
 "<Колунда>"
 	"кол" n px3sp loc
 "<токочу>"
@@ -738,7 +786,8 @@
 		"э" cop aor p3 sg
 "<.>"
 	"." sent
-
+[/0txEKpzYJwdn]
+[cScnfIcas4_L]
 "<Жазмыштан>"
 	"жазмыш" n abl
 "<озуш>"
@@ -748,7 +797,8 @@
 		"э" cop aor p3 sg
 "<.>"
 	"." sent
-
+[/cScnfIcas4_L]
+[u3S3KTAvFUUf]
 "<Бузулган>"
 	"буз" v tv pass gpr_past
 "<элге>"
@@ -761,7 +811,8 @@
 	"бол" v iv aor p3 sg
 "<.>"
 	"." sent
-
+[/u3S3KTAvFUUf]
+[LJ6fCjoBEGCf]
 "<Ар кимде>"
 	"ар ким" prn ind loc
 "<бар>"
@@ -783,7 +834,8 @@
 	"тый" v iv gpr_fut
 "<.>"
 	"." sent
-
+[/LJ6fCjoBEGCf]
+[CC0rT_5dP-Bz]
 "<Ар ким>"
 	"ар ким" prn ind nom
 "<ич>"
@@ -796,7 +848,8 @@
 	"бил" v tv aor p3 sg
 "<.>"
 	"." sent
-
+[/CC0rT_5dP-Bz]
+[omaZSQ4LM-wt]
 "<Бирөө>"
 	"бир" prn ind nom
 "<баары>"
@@ -813,7 +866,8 @@
 	"үчүн" post
 "<.>"
 	"." sent
-
+[/omaZSQ4LM-wt]
+[Ou4J1SjP8QY6]
 "<Адам>"
 	"адам" n nom
 "<өлсө>"
@@ -828,7 +882,8 @@
 	"өл" v iv neg aor p3 sg
 "<.>"
 	"." sent
-
+[/Ou4J1SjP8QY6]
+[wMOGqEFcxteA]
 "<Өз>"
 	"өз" det ref
 "<камын>"
@@ -849,7 +904,8 @@
 	"көктө" v tv aor p3 sg
 "<.>"
 	"." sent
-
+[/wMOGqEFcxteA]
+[esN8xzDy-ky8]
 "<Бир>"
 	"бир" num
 "<тамчы>"
@@ -870,7 +926,8 @@
 	"жар" v tv caus aor p3 sg
 "<.>"
 	"." sent
-
+[/esN8xzDy-ky8]
+[RcRL5-uu562x]
 "<Ойлогон>"
 	"ойло" v tv gpr_past
 "<ойду>"
@@ -883,7 +940,8 @@
 	"жең" v tv aor p3 sg
 "<.>"
 	"." sent
-
+[/RcRL5-uu562x]
+[uD-tqQR6vVhj]
 "<Азаматтын>"
 	"азамат" n gen
 "<жакшысы>"
@@ -916,7 +974,8 @@
 	"жууша" v iv aor p3 sg
 "<.>"
 	"." sent
-
+[/uD-tqQR6vVhj]
+[Tt5DK_2ee6Xw]
 "<Жүгүргөн>"
 	"жүгүр" v iv gpr_past nom
 "<албайт>"
@@ -929,7 +988,8 @@
 	"ал" v tv aor p3 sg
 "<.>"
 	"." sent
-
+[/Tt5DK_2ee6Xw]
+[MJhf454-tLp0]
 "<Сөзү>"
 	"сөз" n px3sp nom
 "<көптүн>"
@@ -941,7 +1001,8 @@
 		"э" cop aor p3 sg
 "<.>"
 	"." sent
-
+[/MJhf454-tLp0]
+[MdzeEjab3YFm]
 "<Бакыт>"
 	"бакыт" n nom
 "<кетсе>"
@@ -956,7 +1017,8 @@
 	"кет" vaux aor p3 sg
 "<.>"
 	"." sent
-
+[/MdzeEjab3YFm]
+[fz0j7eE7U3E9]
 "<Кеңешип>"
 	"кеңеш" v iv gna_perf
 "<кескен>"
@@ -967,7 +1029,8 @@
 	"оору" v iv neg aor p3 sg
 "<.>"
 	"." sent
-
+[/fz0j7eE7U3E9]
+[i3eCTmm7dToU]
 "<Жакшы>"
 	"жакшы" adj
 "<кеңеш>"
@@ -981,7 +1044,8 @@
 		"э" cop aor p3 pl
 "<.>"
 	"." sent
-
+[/i3eCTmm7dToU]
+[N36MpS4KsG7g]
 "<Байлыкты>"
 	"байлык" n acc
 "<сүйгөн>"
@@ -992,7 +1056,8 @@
 	"бил" v tv neg aor p3 sg
 "<.>"
 	"." sent
-
+[/N36MpS4KsG7g]
+[DKPQOW8e1zJl]
 "<Жамандын>"
 	"жаман" adj subst gen
 "<тонун>"
@@ -1007,7 +1072,8 @@
 	"доола" v iv aor p3 sg
 "<.>"
 	"." sent
-
+[/DKPQOW8e1zJl]
+[2_ltzCAMG3WT]
 "<Чечинген>"
 	"чечин" v iv gpr_past subst nom
 "<суудан>"
@@ -1024,7 +1090,8 @@
 	"кайт" v iv neg fut p3 sg
 "<.>"
 	"." sent
-
+[/2_ltzCAMG3WT]
+[382pORJD3IqB]
 "<Оору>"
 	"оору" n nom
 "<батмандап>"
@@ -1039,7 +1106,8 @@
 	"чык" v iv aor p3 sg
 "<.>"
 	"." sent
-
+[/382pORJD3IqB]
+[tOgSesRkCsUv]
 "<Жолдошуң>"
 	"жолдош" n px2sg nom
 "<болсо>"
@@ -1056,7 +1124,8 @@
 	"ызы-чуу" n nom
 "<.>"
 	"." sent
-
+[/tOgSesRkCsUv]
+[UmVMH_FwyLh6]
 "<Таш>"
 	"таш" n nom
 "<койгон>"
@@ -1077,7 +1146,8 @@
 	"ал" v tv aor p3 sg
 "<.>"
 	"." sent
-
+[/UmVMH_FwyLh6]
+[yp8Q-TQG-_1Q]
 "<Жыгылсаң>"
 	"жык" v tv pass prc_cond p2 sg
 "<нардан>"
@@ -1094,7 +1164,8 @@
 	"жык" v tv pass imp p2 sg
 "<.>"
 	"." sent
-
+[/yp8Q-TQG-_1Q]
+[Qf5Z4CwG2u9H]
 "<Ак>"
 	"ак" n nom
 "<ийилет>"
@@ -1105,7 +1176,8 @@
 	"сын" v iv neg aor p3 sg
 "<.>"
 	"." sent
-
+[/Qf5Z4CwG2u9H]
+[6lRYmA3xcMVS]
 "<Энеси>"
 	"эне" n px3sp nom
 "<болушчаактын>"
@@ -1128,7 +1200,8 @@
 		"э" cop aor p3 sg
 "<.>"
 	"." sent
-
+[/6lRYmA3xcMVS]
+[ppX3SkVm9Jof]
 "<Эрди>"
 	"эр" n acc
 "<жоо>"
@@ -1139,14 +1212,16 @@
 	"көр" v tv imp p2 sg
 "<.>"
 	"." sent
-
+[/ppX3SkVm9Jof]
+[C3O6HwScKnIj]
 "<Сүйбөгөнгө>"
 	"сүй" v tv neg gpr_past subst dat
 "<сүйкөнбө>"
 	"сүйкөн" v iv neg imp p2 sg
 "<.>"
 	"." sent
-
+[/C3O6HwScKnIj]
+[ISeSWHatnDHJ]
 "<Жүктүн>"
 	"жүк" n gen
 "<оорун>"
@@ -1157,7 +1232,8 @@
 	"көтөр" v tv aor p3 sg
 "<.>"
 	"." sent
-
+[/ISeSWHatnDHJ]
+[8dhxacCfOB77]
 "<Жалкоого>"
 	"жалкоо" adj subst dat
 "<шылтоо>"
@@ -1167,7 +1243,8 @@
 		"э" cop aor p3 sg
 "<.>"
 	"." sent
-
+[/8dhxacCfOB77]
+[ZQWXYcCPSZ0L]
 "<Алыстагы>"
 	"алыс" adj subst loc attr
 "<душмандан>"
@@ -1183,7 +1260,8 @@
 		"э" cop aor p3 pl
 "<.>"
 	"." sent
-
+[/ZQWXYcCPSZ0L]
+[DHAi0n3Gmyor]
 "<Күлгөнүнө>"
 	"күл" v iv gpr_past subst px3sp dat
 "<күлө>"
@@ -1192,7 +1270,8 @@
 	"жет" v tv aor p3 sg
 "<.>"
 	"." sent
-
+[/DHAi0n3Gmyor]
+[AsggvxDjT9hF]
 "<Таң>"
 	"таң" n nom
 "<атпаганга>"
@@ -1205,7 +1284,8 @@
 	"бат" v iv neg aor p3 sg
 "<.>"
 	"." sent
-
+[/AsggvxDjT9hF]
+[h34sVF-PbLrK]
 "<Желмогуздун>"
 	"желмогуз" n gen
 "<чоңунан>"
@@ -1217,7 +1297,8 @@
 		"э" cop aor p3 pl
 "<.>"
 	"." sent
-
+[/h34sVF-PbLrK]
+[Trl4dMTQn_zK]
 "<Калпты>"
 	"калп" n acc
 "<чындай>"
@@ -1234,7 +1315,8 @@
 	"кач" v iv aor p3 sg
 "<.>"
 	"." sent
-
+[/Trl4dMTQn_zK]
+[uUtm-fryNRYj]
 "<Бирөөнүн>"
 	"бирөө" prn ind gen
 "<катыны>"
@@ -1247,7 +1329,8 @@
 	"көр" v tv pass aor p3 sg
 "<.>"
 	"." sent
-
+[/uUtm-fryNRYj]
+[F5jg53z_L6Ei]
 "<Миң>"
 	"миң" num
 "<уккандан>"
@@ -1263,7 +1346,8 @@
 		"э" cop aor p3 sg
 "<.>"
 	"." sent
-
+[/F5jg53z_L6Ei]
+[cCUsZWNhB37-]
 "<Үйдүн>"
 	"үй" n gen
 "<ашы>"
@@ -1275,7 +1359,8 @@
 		"э" cop aor p3 sg
 "<.>"
 	"." sent
-
+[/cCUsZWNhB37-]
+[4K1wMCkw4Kpl]
 "<Душмандын>"
 	"Душман" n gen
 "<сырты>"
@@ -1291,23 +1376,4 @@
 		"э" cop aor p3 sg
 "<.>"
 	"." sent
-
-"<Мыйзам>"
-	"мыйзам" n nom
-"<буйлалаган>"
-	"буйлала" v tv gpr_past
-"<төө>"
-	"төө" n nom
-		"э" cop aor p3 sg
-"<,>"
-	"," cm
-"<кайда>"
-	"кайда" adv itg
-"<бурса>"
-	"бур" v iv gna_cond p3 sg
-"<кете>"
-	"кет" v iv prc_impf
-"<берген>"
-	"бер" vaux gpr_past p3 sg
-"<.>"
-	"." sent
+[/4K1wMCkw4Kpl]
