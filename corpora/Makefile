@@ -6,7 +6,7 @@ proverbs.conllu: proverbs.dep proverbs.seg
 test: kir-proverbs-disam-gold.txt kir-proverbs-disam-input.txt
 
 kir-proverbs-disam-gold.txt: proverbs.dep
-	grep -v '^#' $< | sed 's/ #.*//' | sed 's/ @.*//' > $@
+	grep -v '^#' $< | sed 's/ #.*//' | sed 's/ @.*//' | python3 apertium-regtest-hashifyCG.py > $@
 
 kir-proverbs-disam-input.txt: proverbs.dep
 	grep 'text =' $< | sed 's/# text = //' > $@
