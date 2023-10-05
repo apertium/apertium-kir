@@ -1,4 +1,8 @@
 {
+  "kir-proverbs-disam": {
+    "input": "kir-proverbs-disam-input.txt",
+    "mode": "kir-disam"
+  },
   "abbreviations": {
     "input": "abbreviations-input.txt",
     "mode": "kir-morph"

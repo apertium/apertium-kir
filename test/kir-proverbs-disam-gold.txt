@@ -1,0 +1,1379 @@
+[hYVdQc0kJl7f]
+"<Жип>"
+	"жип" n nom
+"<кессең>"
+	"кес" v tv gna_cond p2 sg
+"<->"
+	"-" guio
+"<узун>"
+	"узун" adj advl
+"<кес>"
+	"кес" v tv imp p2 sg
+"<,>"
+	"," cm
+"<кеп>"
+	"кеп" n nom
+"<салсаң>"
+	"сал" v tv gna_cond p2 sg
+"<->"
+	"-" guio
+"<кыска>"
+	"кыска" adj advl
+"<сал>"
+	"сал" v tv imp p2 sg
+"<.>"
+	"." sent
+[/hYVdQc0kJl7f]
+[9JMz2hLkU7-U]
+"<Миң>"
+	"миң" num
+"<сөз>"
+	"сөз" n nom
+"<айтканча>"
+	"айт" v iv ger_past equ
+"<,>"
+	"," cm
+"<бир>"
+	"бир" num
+"<ишти>"
+	"иш" n acc
+"<бүтүр>"
+	"бүт" v iv caus imp p2 sg
+"<.>"
+	"." sent
+[/9JMz2hLkU7-U]
+[reVKUqzadI34]
+"<Өрдөк>"
+	"өрдөк" n nom
+"<жокто>"
+	"жок," adj subst loc
+"<,>"
+	"," cm
+"<чулдук>"
+	"чулдук" n nom
+"<бий>"
+	"бий" n nom
+		"э" cop aor p3 sg
+"<.>"
+	"." sent
+[/reVKUqzadI34]
+[arKMFRI1xvS-]
+"<Күч>"
+	"күч" n nom
+"<атасын>"
+	"ата" n px3sp acc
+"<тааныбайт>"
+	"тааны" v tv neg aor p3 sg
+"<.>"
+	"." sent
+[/arKMFRI1xvS-]
+[DSNytDQm3fMY]
+"<Баштаган>"
+	"башта" v tv gpr_past
+"<ишти>"
+	"иш" n acc
+"<таштаба>"
+	"ташта" v tv neg imp p2 sg
+"<.>"
+	"." sent
+[/DSNytDQm3fMY]
+[5T_CyYfzOc70]
+"<Билим>"
+	"билим" n nom
+"<->"
+	"-" guio
+"<адамдын>"
+	"адам" n gen
+"<канаты>"
+	"канат" n px3sp nom
+		"э" cop aor p3 sg
+"<.>"	
+	"." sent
+[/5T_CyYfzOc70]
+[BbKQ_N-Kz2Ql]
+"<Эл>"
+	"эл" n nom
+"<оозунда>"
+	"ооз" n px3sp loc
+"<элек>"
+	"элек" n nom
+"<жок>"
+	"жок" adj
+		"э" cop aor p3 sg
+"<.>"
+	"." sent
+[/BbKQ_N-Kz2Ql]
+[_Kcbk00f1xG4]
+"<Бөрү>"
+	"бөрү" n nom
+"<баласы>"
+	"бала" n px3sp nom
+"<ит>"
+	"ит" n nom
+"<болбойт>"
+	"бол" v iv neg aor p3 sg
+"<.>"
+	"." sent
+[/_Kcbk00f1xG4]
+[l_pVE4g3j9YB]
+"<Элин>"
+	"эл" n px3sp acc
+"<сүйбөс>"
+	"сүй" v tv neg gpr_fut
+"<эр>"
+	"эр" n nom
+"<болбойт>"
+	"бол" v iv neg aor p3 sg
+"<,>"
+	"," cm
+"<жерин>"
+	"жер" n px3sp acc
+"<сүйбөс>"
+	"сүй" v tv neg gpr_fut
+"<эл>"
+	"эл" n nom
+"<болбойт>"
+	"бол" v iv neg aor p3 sg
+"<.>"
+	"." sent
+[/l_pVE4g3j9YB]
+[fL83duP6cqft]
+"<Чындан>"
+	"чын" n abl
+"<ыйласа>"
+	"ыйла" v iv gna_cond p3 sg
+"<,>"
+	"," cm
+"<сокур>"
+	"сокур" adj
+"<көздөн>"
+	"көз" n abl
+"<жаш>"
+	"жаш" n nom
+"<чыгат>"
+	"чык" v iv aor p3 sg
+"<.>"
+	"." sent
+[/fL83duP6cqft]
+[QJczHwEIzhp1]
+"<Көйнөк>"
+	"көйнөк" n nom
+"<тердебесе>"
+	"терде" v iv neg gna_cond p3 sg
+"<,>"
+	"," cm
+"<талаа>"
+	"талаа" n nom
+"<гүлдөбөйт>"
+	"гүлдө" v iv neg aor p3 sg
+"<.>"
+	"." sent
+[/QJczHwEIzhp1]
+[PhpA_eRbjQJr]
+"<Чала>"
+	"чала" adj
+"<молдо>"
+	"молдо" n nom
+"<дин>"
+	"дин" n nom
+"<бузат>"
+	"буз" v tv aor p3 sg
+"<.>"
+	"." sent
+[/PhpA_eRbjQJr]
+[RoWxRxEJ2LpA]
+"<Эрте>"
+	"эрте" adv
+"<сепсең>"
+	"сеп" v tv gna_cond p2 sg
+"<бир>"
+	"бир" num
+"<күнү>"
+	"күн" n px3sp nom
+"<,>"
+	"," cm
+"<эрте>"
+	"эрте" adv
+"<оросуң>"
+	"ор" v tv aor p2 sg
+"<бир>"
+	"бир" num
+"<жума>"
+	"жума" n nom
+"<.>"
+	"." sent
+[/RoWxRxEJ2LpA]
+[e7X9CLankqNt]
+"<Көз>"
+	"көз" n nom
+"<коркок>"
+	"коркок" adj
+"<,>"
+	"," cm
+"<кол>"
+	"кол" n nom
+"<баатыр>"
+	"баатыр" adj
+"<.>"
+	"." sent
+[/e7X9CLankqNt]
+[GPnXaV1QoF5V]
+"<Пулуң>"
+	"пул" n px2sg nom
+"<болсо>"
+	"бол" v iv gna_cond p3 sg
+"<,>"
+	"," cm
+"<кулуңмун>"
+	"кул" n px2sg nom
+		"э" cop aor p1 sg
+"<.>"
+	"." sent
+[/GPnXaV1QoF5V]
+[ykxfzA-RPgJu]
+"<Оозу>"
+	"ооз" n px3sp nom
+"<кыйшык>"
+	"кыйшык" adj
+"<болсо>"
+	"бол" v iv gna_cond p3 sg
+"<да>"
+	"да" cnjadv
+"<,>"
+	"," cm
+"<байдын>"
+	"бай" adj subst gen
+"<уулу>"
+	"уул" n px3sp nom
+"<сүйлөсүн>"
+	"сүйлө" v tv opt p3 sg
+"<.>"
+	"." sent
+[/ykxfzA-RPgJu]
+[fenzSGoLq3N9]
+"<Балалуу>"
+	"бала" n
+		"луу" post
+"<болбогон>"
+	"бол" v iv neg gpr_past subst nom
+"<кубанганды>"
+	"кубан" v iv ger_past acc
+"<билбеген>"
+	"бил" v tv neg past p3 sg
+"<.>"
+	"." sent
+[/fenzSGoLq3N9]
+[s0iffepI8DIl]
+"<Адам>"
+	"адам" n gen
+"<көркү>"
+	"көрк" n px3sp nom
+"<->"
+	"-" guio
+"<чүпүрөк>"
+	"чүпүрөк" n nom
+		"э" cop aor p3 sg
+"<,>"
+	"," cm
+"<жыгачтын>"
+	"жыгач" n gen
+"<көркү>"
+	"көрк" n px3sp nom
+"<->"
+	"-" guio
+"<жалбырак>"
+	"жалбырак" n nom
+		"э" cop aor p3 sg
+"<.>"
+	"." sent
+[/s0iffepI8DIl]
+[wbm2RXelrd1Y]
+"<Көп>"
+	"көп" adv
+"<жашасаң>"
+	"жаша," v iv gna_cond p2 sg
+"<,>"
+	"," cm
+"<көптү>"
+	"көп" adj subst acc
+"<көрөсүң>"
+	"көр" v tv aor p2 sg
+"<.>"
+	"." sent
+[/wbm2RXelrd1Y]
+[DW4Bl4XifI_K]
+"<Оюндан>"
+	"оюн" n abl
+"<от>"
+	"от" n nom
+"<чыгат>"
+	"чык" v iv aor p3 sg
+"<.>"
+	"." sent
+[/DW4Bl4XifI_K]
+[Ujiq0bJ0juL9]
+"<Кайра>"
+	"кайыр" v tv gna_impf
+"<кирер>"
+	"кир" v iv gpr_fut
+"<эшигиңди>"
+	"эшик" n px2sg acc
+"<катуу>"
+	"катуу" adv
+"<жаппа>"
+	"жап" v tv neg imp p2 sg
+"<.>"
+	"." sent
+[/Ujiq0bJ0juL9]
+[-vh7ueKb4NEZ]
+"<Колуң>"
+	"кол" n px2sg nom
+"<менен>"
+	"менен" post
+"<кылганды>"
+	"кыл" v tv gpr_past subst acc
+"<,>"
+	"," cm
+"<мойнуң>"
+	"моюн" n px2sg nom
+"<менен>"
+	"менен" post
+"<тартасың>"
+	"тарт" v tv aor p2 sg
+"<.>"
+	"." sent
+[/-vh7ueKb4NEZ]
+[9GgqO6IoU6nN]
+"<Шашкан>"
+	"шаш" v iv ger_past nom
+"<шайтандын>"
+	"шайтан" n gen
+"<иши>"
+	"иш" n px3sp nom
+		"э" cop aor p3 sg
+"<.>"
+	"." sent
+[/9GgqO6IoU6nN]
+[uOibsYVmJCQm]
+"<Куру>"
+	"куру" adj
+"<сөз>"
+	"сөз" n nom
+"<курсак>"
+	"курсак" n nom
+"<тойгузбайт>"
+	"той" v iv caus neg aor p3 sg
+"<.>"
+	"." sent
+[/uOibsYVmJCQm]
+[IC4Oao-A2Q_r]
+"<Мурунку>"
+	"мурун" adv attr
+"<көч>"
+	"көч" n nom
+"<кайда>"
+	"кайда" adv itg
+"<барса>"
+	"бар" v iv gna_cond p3 sg
+"<,>"
+	"," cm
+"<кийинки>"
+	"кийин" adv attr
+"<көч>"
+	"көч" n nom
+"<да>"
+	"да" postadv
+"<ошол>"
+	"ошол" det dem
+"<жакка>"
+	"жак" n dat
+"<барат>"
+	"бар" v iv aor p3 sg
+"<.>"
+	"." sent
+[/IC4Oao-A2Q_r]
+[8J1M3mdObai2]
+"<Эшекке>"
+	"эшек" n dat
+"<төшөк>"
+	"төшөк" n nom
+"<жарашпайт>"
+	"жара" v tv coop neg aor p3 sg
+"<.>"
+	"." sent
+[/8J1M3mdObai2]
+[g8i4R5waQO2p]
+"<Кетмен>"
+	"кетмен" n nom
+"<чаппай>"
+	"чап" v tv neg gna_perf
+"<->"
+	"-" guio
+"<нан>"
+	"нан" n nom
+"<жок>"
+	"жок" adj
+		"э" cop aor p3 sg
+"<,>"
+	"," cm
+"<чеке>"
+	"чеке" n nom
+"<терсиз>"
+	"тер" n
+		"сыз" post
+"<->"
+	"-" guio
+"<мал>"
+	"мал" n nom
+"<жок>"
+	"жок" adj
+		"э" cop aor p3 sg
+"<.>"
+	"." sent
+[/g8i4R5waQO2p]
+[wGUlYAR16DVC]
+"<Иштесең>"
+	"иште" v iv gna_cond p2 sg
+"<көл>"
+	"көл" n nom
+"<болот>"
+	"бол" v iv aor p3 sg
+"<,>"
+	"," cm
+"<иштебесең>"
+	"иште" v iv neg gna_cond p2 sg
+"<чөл>"
+	"чөл" n nom
+"<болот>"
+	"бол" v iv aor p3 sg
+"<.>"
+	"." sent
+[/wGUlYAR16DVC]
+[l2Keuz91ml4b]
+"<Адамды>"
+	"Адам" n nom
+"<кийиминен>"
+	"кийим" n px3sp abl
+"<тааныбайт>"
+	"тааны" v tv neg aor p3 sg
+"<,>"
+	"," cm
+"<ишинен>"
+	"иш" n px3sp abl
+"<тааныйт>"
+	"тааны" v tv aor p3 sg
+"<.>"
+	"." sent
+[/l2Keuz91ml4b]
+[yXSId9nxgGy3]
+"<Бир>"
+	"бир" num
+"<ит>"
+	"ит" n nom
+"<көрүп>"
+	"көр" v tv gna_perf
+"<үрөт>"
+	"үр" v iv aor p3 sg
+"<,>"
+	"," cm
+"<бир>"
+	"бир" num
+"<ит>"
+	"ит" n nom
+"<көрбөй>"
+	"көр" v tv neg gna_perf
+"<үрөт>"
+	"үр" v iv aor p3 sg
+"<.>"
+	"." sent
+[/yXSId9nxgGy3]
+[Sg0H4oI919Gg]
+"<Ата-энеңди>"
+	"ата-эне" n px2sg acc
+"<сыйласаң>"
+	"сыйла" v tv gna_cond p2 sg
+"<,>"
+	"," cm
+"<өз>"
+	"өз" det ref
+"<балдарыңдан>"
+	"бала" n pl px2sg abl
+"<жакшылык>"
+	"жакшылык" n nom
+"<көрөсүң>"
+	"көр" v tv aor p2 sg
+"<.>"
+	"." sent
+[/Sg0H4oI919Gg]
+[svNbDqhchtFN]
+"<Жамандын>"
+	"жаман" adj subst gen
+"<жолдошу>"
+	"жолдош" n px3sp nom
+"<көп>"
+	"көп" adj
+		"э" cop
+"<,>"
+	"," cm
+"<жанына>"
+	"жан" n px3sp dat
+"<пайдасы>"
+	"пайда" n px3sp nom
+"<жок>"
+	"жок" adj
+		"э" cop aor p3 pl
+"<.>"
+	"." sent
+[/svNbDqhchtFN]
+[r0LT-CIz-T68]
+"<Өтө>"
+	"өтө" adv
+"<кызыл>"
+	"кызыл" adj subst nom
+"<бат>"
+	"бат" adv
+"<оңот>"
+	"оң" v iv aor p3 sg
+"<,>"
+	"," cm
+"<өтө>"
+	"өтө" adv
+"<ысык>"
+	"ысык" adj subst nom
+"<бат>"
+	"бат" adv
+"<сууйт>"
+	"суу" v iv aor p3 sg
+"<.>"
+	"." sent
+[/r0LT-CIz-T68]
+[P1DKz1eBujzn]
+"<Жан>"
+	"жан" n nom
+"<сакташ>"
+	"сакта" v tv ger_pres nom
+"<оңой>"
+	"оңой" adj
+		"э" cop aor p3 sg
+"<,>"
+	"," cm
+"<жан>"
+	"жан" n nom
+"<жыргатыш>"
+	"жырга" v iv caus ger_pres nom
+"<кыйын>"
+	"кыйын" adj
+		"э" cop aor p3 sg
+"<.>"
+	"." sent
+[/P1DKz1eBujzn]
+[Blpzuchb2Cvs]
+"<Канга>"
+	"кан" n dat
+"<кан>"
+	"кан" n nom
+"<.>"
+	"." sent
+[/Blpzuchb2Cvs]
+[H6pFekGO3Hr5]
+"<Дарак>"
+	"дарак" n nom
+"<бир>"
+	"бир" num
+"<жерден>"
+	"жер" n abl
+"<көгөрөт>"
+	"көгөр" v iv aor p3 sg
+"<.>"
+	"." sent
+[/H6pFekGO3Hr5]
+[IOGUtqvl9NbI]
+"<Миң>"
+	"миң" num
+"<чеченди>"
+	"чечен" n acc
+"<бир>"
+	"бир" num
+"<дөөрүк>"
+	"дөөрүк" n nom
+"<жеңиптир>"
+	"жең" v tv ifi evid p3 sg
+"<.>"
+	"." sent
+[/IOGUtqvl9NbI]
+[Pk-HLXKgIRpE]
+"<Өтпөс>"
+	"өт" v iv neg gpr_fut
+"<өмүр>"
+	"өмүр" n nom
+"<,>"
+	"," cm
+"<сынбас>"
+	"сын" v iv neg gpr_fut
+"<темир>"
+	"темир" n nom
+"<болбойт>"
+	"бол" v iv neg aor p3 sg
+"<.>"
+	"." sent
+[/Pk-HLXKgIRpE]
+[W23vKgsKtNpP]
+"<Ийгиликтин>"
+	"ийгилик" n gen
+"<эрте-кечи>"
+	"эрте-кеч" adj subst px3sp nom
+"<жок>"
+	"жок" adj
+		"э" cop aor p3 pl
+"<.>"
+	"." sent
+[/W23vKgsKtNpP]
+[lN4FhCZ6liXq]
+"<Калп>"
+	"калп" n nom
+"<ырыс>"
+	"ырыс" n nom
+"<кесет>"
+	"кес" v tv aor p3 sg
+"<,>"
+	"," cm
+"<кайгы>"
+	"кайгы" n acc-ind
+"<өмүр>"
+	"өмур" n nom
+"<кесет>"
+	"кес" v tv aor p3 sg
+"<.>"
+	"." sent
+[/lN4FhCZ6liXq]
+[jPUNRgQqUzAn]
+"<Ооруну>"
+	"оору" n acc
+"<жашырсаң>"
+	"жашыр" v tv gna_cond p2 sg
+"<,>"
+	"," cm
+"<өлүм>"
+	"өлүм" n nom
+"<ашкере кылат>"
+	"ашкере кыл" v iv aor p3 sg
+"<.>"
+	"." sent
+[/jPUNRgQqUzAn]
+[sL5SOMfqY-tJ]
+"<Ачуу>"
+	"ачуу" n nom
+"<->"
+	"-" guio
+"<душман>"
+	"душман" n nom
+		"э" cop aor p3 sg
+"<,>"
+	"," cm
+"<акыл>"
+	"акыл" n nom
+"<->"
+	"-" guio
+"<дос>"
+	"дос" n
+		"э" cop aor p3 sg
+"<,>"
+	"," cm
+"<акылыңа>"
+	"акыл" n px2sg dat
+"<акыл>"
+	"акыл" n nom
+"<кош>"
+	"кош" v tv imp p2 sg
+"<.>"
+	"." sent
+[/sL5SOMfqY-tJ]
+[Rc4PxMyArCsE]
+"<Тамашада>"
+	"тамаша" n loc
+"<да>"
+	"да" postadv
+"<чындыктын>"
+	"чындык" n gen
+"<үлүшү>"
+	"үлүш" n px3sp nom
+"<бар>"
+	"бар" adj
+		"э" cop aor p3 sg
+"<.>"
+	"." sent
+[/Rc4PxMyArCsE]
+[td-noq_BZW20]
+"<Жалкоо>"
+	"жалкоо" n nom
+"<->"
+	"-" guio
+"<өзүнө>"
+	"өз" prn ref px3sp dat
+"<өзү>"
+	"өз" prn ref px3sp nom
+"<жоо>"
+	"жоо" n nom
+		"э" cop aor p3 sg
+"<.>"
+	"." sent
+[/td-noq_BZW20]
+[xf-fZRvA2-tE]
+"<Жоо>"
+	"жоо" n nom
+"<кеткен>"
+	"кет" v iv ger_past nom
+"<соң>"
+	"соң," post
+"<,>"
+	"," cm
+"<кылычыңды>"
+	"кылыч" n px2sg acc
+"<ташка>"
+	"таш" n dat
+"<чап>"
+	"чап" v tv imp p2 sg
+"<.>"
+	"." sent
+[/xf-fZRvA2-tE]
+[tV6v7fn4fZf5]
+"<Көп>"
+	"көп" adv
+"<түкүрсө>"
+	"түкүр" v iv gna_cond p3 sg
+"<көл>"
+	"көл" n nom
+"<болот>"
+	"бол" v iv aor p3 sg
+"<,>"
+	"," cm
+"<көл>"
+	"көл" n nom
+"<толкуса>"
+	"толку" v iv gna_cond p3 sg
+"<сел>"
+	"сел" n nom
+"<болот>"
+	"бол" v iv aor p3 sg
+"<.>"
+	"." sent
+[/tV6v7fn4fZf5]
+[6pO5PUPatWbv]
+"<Айды>"
+	"ай" n acc
+"<этек>"
+	"этек" n nom
+"<менен>"
+	"менен" post
+"<калкалай>"
+	"калкала" v tv prc_impf
+"<албайсың>"
+	"ал" vaux neg aor p2 sg
+"<.>"
+	"." sent
+[/6pO5PUPatWbv]
+[0txEKpzYJwdn]
+"<Колунда>"
+	"кол" n px3sp loc
+"<токочу>"
+	"токоч" n px3sp nom
+"<бар>"
+	"бар" adj
+"<бала>"
+	"бала" n nom
+"<сүйгүнчүктүү>"
+	"сүйгүнчүктүү" adj
+		"э" cop aor p3 sg
+"<.>"
+	"." sent
+[/0txEKpzYJwdn]
+[cScnfIcas4_L]
+"<Жазмыштан>"
+	"жазмыш" n abl
+"<озуш>"
+	"оз" v iv ger_pres nom
+"<жок>"
+	"жок" adj
+		"э" cop aor p3 sg
+"<.>"
+	"." sent
+[/cScnfIcas4_L]
+[u3S3KTAvFUUf]
+"<Бузулган>"
+	"буз" v tv pass gpr_past
+"<элге>"
+	"эл" n dat
+"<бучуктан>"
+	"бучук" adj subst abl
+"<молдо>"
+	"молдо" n nom
+"<болот>"
+	"бол" v iv aor p3 sg
+"<.>"
+	"." sent
+[/u3S3KTAvFUUf]
+[LJ6fCjoBEGCf]
+"<Ар кимде>"
+	"ар ким" prn ind loc
+"<бар>"
+	"бар" adj
+		"э" cop
+"<бир>"
+	"бир" det ind
+"<кыял>"
+	"кыял" n nom
+"<,>"
+	"," cm
+"<ар>"
+	"ар" det ind
+"<кыялды>"
+	"кыял" n acc
+"<ким>"
+	"ким" prn itg nom
+"<тыяр>"
+	"тый" v iv gpr_fut
+"<.>"
+	"." sent
+[/LJ6fCjoBEGCf]
+[CC0rT_5dP-Bz]
+"<Ар ким>"
+	"ар ким" prn ind nom
+"<ич>"
+	"ич" n nom
+"<оорусун>"
+	"оору" n px3sp acc
+"<өзү>"
+	"өз" prn ref px3sg nom
+"<билет>"
+	"бил" v tv aor p3 sg
+"<.>"
+	"." sent
+[/CC0rT_5dP-Bz]
+[omaZSQ4LM-wt]
+"<Бирөө>"
+	"бир" prn ind nom
+"<баары>"
+	"баары" prn ind nom
+"<үчүн>"
+	"үчүн" post
+"<,>"
+	"," cm
+"<баары>"
+	"баары" prn ind nom
+"<бирөө>"
+	"бир" prn ind nom
+"<үчүн>"
+	"үчүн" post
+"<.>"
+	"." sent
+[/omaZSQ4LM-wt]
+[Ou4J1SjP8QY6]
+"<Адам>"
+	"адам" n nom
+"<өлсө>"
+	"өл" v iv prc_cond p3 sg
+"<өлөт>"
+	"өл" v iv aor p3 sg
+"<,>"
+	"," cm
+"<үмүт>"
+	"үмүт" n nom
+"<өлбөйт>"
+	"өл" v iv neg aor p3 sg
+"<.>"
+	"." sent
+[/Ou4J1SjP8QY6]
+[wMOGqEFcxteA]
+"<Өз>"
+	"өз" det ref
+"<камын>"
+	"кам" n px3sp acc
+"<ойлогон>"
+	"ойло" v tv gpr_past subst nom
+"<өспөйт>"
+	"өс" v iv neg aor p3 sg
+"<,>"
+	"," cm
+"<эл>"
+	"эл" n nom
+"<камын>"
+	"кам" n px3sp acc
+"<ойлогон>"
+	"ойло" v tv gpr_past subst nom
+"<көктөйт>"
+	"көктө" v tv aor p3 sg
+"<.>"
+	"." sent
+[/wMOGqEFcxteA]
+[esN8xzDy-ky8]
+"<Бир>"
+	"бир" num
+"<тамчы>"
+	"тамчы" n nom
+"<таш>"
+	"таш" n nom
+"<жарат>"
+	"жар" v tv aor p3 sg
+"<,>"
+	"," cm
+"<бир>"
+	"бир" num
+"<сөз>"
+	"сөз" n nom
+"<баш>"
+	"баш" n nom
+"<жарат>"
+	"жар" v tv caus aor p3 sg
+"<.>"
+	"." sent
+[/esN8xzDy-ky8]
+[RcRL5-uu562x]
+"<Ойлогон>"
+	"ойло" v tv gpr_past
+"<ойду>"
+	"ой" n acc
+"<кыстаган>"
+	"кыста" v tv gpr_past
+"<турмуш>"
+	"турмуш" n nom
+"<жеңет>"
+	"жең" v tv aor p3 sg
+"<.>"
+	"." sent
+[/RcRL5-uu562x]
+[uD-tqQR6vVhj]
+"<Азаматтын>"
+	"азамат" n gen
+"<жакшысы>"
+	"жакшы" adj subst px3sp nom
+"<азыраак>"
+	"аз" adj comp advl
+"<сүйлөп>"
+	"сүйлө" v tv gna_perf
+"<,>"
+	"," cm
+"<көп>"
+	"көп" adv
+"<тыңшайт>"
+	"тыңша" v tv aor p3 sg
+"<;>"
+	";" sent
+"<аргымактын>"
+	"аргымак" n gen
+"<жакшысы>"
+	"жакшы" adj subst px3sp nom
+"<азыраак>"
+	"аз" adj comp advl
+"<оттоп>"
+	"отто" v iv gna_perf
+"<,>"
+	"," cm
+"<көп>"
+	"көп" adj
+"<жуушайт>"
+	"жууша" v iv aor p3 sg
+"<.>"
+	"." sent
+[/uD-tqQR6vVhj]
+[Tt5DK_2ee6Xw]
+"<Жүгүргөн>"
+	"жүгүр" v iv gpr_past nom
+"<албайт>"
+	"ал" v tv neg aor p3 sg
+"<,>"
+	"," cm
+"<буйруган>"
+	"буйру" v tv gpr_past nom
+"<алат>"
+	"ал" v tv aor p3 sg
+"<.>"
+	"." sent
+[/Tt5DK_2ee6Xw]
+[MJhf454-tLp0]
+"<Сөзү>"
+	"сөз" n px3sp nom
+"<көптүн>"
+	"көп" adj subst gen
+"<иши>"
+	"иш" n px3sp nom
+"<аз>"
+	"аз" adj
+		"э" cop aor p3 sg
+"<.>"
+	"." sent
+[/MJhf454-tLp0]
+[MdzeEjab3YFm]
+"<Бакыт>"
+	"бакыт" n nom
+"<кетсе>"
+	"кет" v iv gna_cond p3 sg
+"<,>"
+	"," cm
+"<намыяны>"
+	"намыя" n acc
+"<кошо>"
+	"кош" v tv gna_impf
+"<кетет>"
+	"кет" vaux aor p3 sg
+"<.>"
+	"." sent
+[/MdzeEjab3YFm]
+[fz0j7eE7U3E9]
+"<Кеңешип>"
+	"кеңеш" v iv gna_perf
+"<кескен>"
+	"кес" v tv gpr_past
+"<бармак>"
+	"бармак" n nom
+"<оорубайт>"
+	"оору" v iv neg aor p3 sg
+"<.>"
+	"." sent
+[/fz0j7eE7U3E9]
+[i3eCTmm7dToU]
+"<Жакшы>"
+	"жакшы" adj
+"<кеңеш>"
+	"кеңеш" n nom
+"<->"
+	"-" guio
+"<жарым>"
+	"жарым" adj
+"<ырыс>"
+	"ырыс" n nom
+		"э" cop aor p3 pl
+"<.>"
+	"." sent
+[/i3eCTmm7dToU]
+[N36MpS4KsG7g]
+"<Байлыкты>"
+	"байлык" n acc
+"<сүйгөн>"
+	"сүй" v tv gpr_past subst nom
+"<намысты>"
+	"намыс" n acc
+"<билбейт>"
+	"бил" v tv neg aor p3 sg
+"<.>"
+	"." sent
+[/N36MpS4KsG7g]
+[DKPQOW8e1zJl]
+"<Жамандын>"
+	"жаман" adj subst gen
+"<тонун>"
+	"тон" n px3sp acc
+"<кийсең>"
+	"кий" v tv gna_cond p2 sg
+"<,>"
+	"," cm
+"<тойдо>"
+	"той" n loc
+"<доолайт>"
+	"доола" v iv aor p3 sg
+"<.>"
+	"." sent
+[/DKPQOW8e1zJl]
+[2_ltzCAMG3WT]
+"<Чечинген>"
+	"чечин" v iv gpr_past subst nom
+"<суудан>"
+	"суу" n abl
+"<кайтпас>"
+	"кайт" v iv neg fut p3 sg
+"<,>"
+	"," cm
+"<кезенген>"
+	"кезен" v iv gpr_past subst nom
+"<жоодон>"
+	"жоо" n abl
+"<кайтпас>"
+	"кайт" v iv neg fut p3 sg
+"<.>"
+	"." sent
+[/2_ltzCAMG3WT]
+[382pORJD3IqB]
+"<Оору>"
+	"оору" n nom
+"<батмандап>"
+	"батманда" v iv gna_perf
+"<кирип>"
+	"кир" v iv gna_perf
+"<,>"
+	"," cm
+"<мыскалдап>"
+	"мыскалда" v iv gna_perf
+"<чыгат>"
+	"чык" v iv aor p3 sg
+"<.>"
+	"." sent
+[/382pORJD3IqB]
+[tOgSesRkCsUv]
+"<Жолдошуң>"
+	"жолдош" n px2sg nom
+"<болсо>"
+	"бол" v iv gna_cond p3 sg
+"<куу>"
+	"куу" adj
+"<,>"
+	"," cm
+"<башыңдан>"
+	"баш" n px2sg abl
+"<кетпейт>"
+	"кет" v iv neg aor p3 sg
+"<ызы-чуу>"
+	"ызы-чуу" n nom
+"<.>"
+	"." sent
+[/tOgSesRkCsUv]
+[UmVMH_FwyLh6]
+"<Таш>"
+	"таш" n nom
+"<койгон>"
+	"кой" v tv gpr_past subst nom
+"<ташын>"
+	"таш" n px3sp acc
+"<алат>"
+	"ал" v tv aor p3 sg
+"<,>"
+	"," cm
+"<кыш>"
+	"кыш" n nom
+"<койгон>"
+	"кой" v tv gpr_past subst nom
+"<кышын>"
+	"кыш" n px3sp acc
+"<алат>"
+	"ал" v tv aor p3 sg
+"<.>"
+	"." sent
+[/UmVMH_FwyLh6]
+[yp8Q-TQG-_1Q]
+"<Жыгылсаң>"
+	"жык" v tv pass prc_cond p2 sg
+"<нардан>"
+	"нар" n abl
+"<жыгыл>"
+	"жык" v tv pass imp p2 sg
+"<,>"
+	"," cm
+"<буйласын>"
+	"буйла" n px3sp acc
+"<кармай>"
+	"карма" v tv prc_impf
+"<жыгыл>"
+	"жык" v tv pass imp p2 sg
+"<.>"
+	"." sent
+[/yp8Q-TQG-_1Q]
+[Qf5Z4CwG2u9H]
+"<Ак>"
+	"ак" n nom
+"<ийилет>"
+	"ий" v tv pass aor p3 sg
+"<,>"
+	"," cm
+"<сынбайт>"
+	"сын" v iv neg aor p3 sg
+"<.>"
+	"." sent
+[/Qf5Z4CwG2u9H]
+[6lRYmA3xcMVS]
+"<Энеси>"
+	"эне" n px3sp nom
+"<болушчаактын>"
+	"болушчаак" adj subst gen
+"<кызы>"
+	"кыз" n px3sp
+"<ыйлаак>"
+	"ыйлаак" adj
+		"э" cop aor p3 sg
+"<,>"
+	"," cm
+"<атаcы>"
+	"ата" n px3sp nom
+"<болушчаактын>"
+	"болушчаак" adj subst gen
+"<уулу>"
+	"уул" n px3sp nom
+"<урушаак>"
+	"урушаак" adj
+		"э" cop aor p3 sg
+"<.>"
+	"." sent
+[/6lRYmA3xcMVS]
+[ppX3SkVm9Jof]
+"<Эрди>"
+	"эр" n acc
+"<жоо>"
+	"жоо" n nom
+"<үстүндө>"
+	"үст" n px3sp loc
+"<көр>"
+	"көр" v tv imp p2 sg
+"<.>"
+	"." sent
+[/ppX3SkVm9Jof]
+[C3O6HwScKnIj]
+"<Сүйбөгөнгө>"
+	"сүй" v tv neg gpr_past subst dat
+"<сүйкөнбө>"
+	"сүйкөн" v iv neg imp p2 sg
+"<.>"
+	"." sent
+[/C3O6HwScKnIj]
+[ISeSWHatnDHJ]
+"<Жүктүн>"
+	"жүк" n gen
+"<оорун>"
+	"оор" adj subst px3sp acc
+"<нар>"
+	"нар" n nom
+"<көтөрөт>"
+	"көтөр" v tv aor p3 sg
+"<.>"
+	"." sent
+[/ISeSWHatnDHJ]
+[8dhxacCfOB77]
+"<Жалкоого>"
+	"жалкоо" adj subst dat
+"<шылтоо>"
+	"шылтоо" n nom
+"<көп>"
+	"көп" adj
+		"э" cop aor p3 sg
+"<.>"
+	"." sent
+[/8dhxacCfOB77]
+[ZQWXYcCPSZ0L]
+"<Алыстагы>"
+	"алыс" adj subst loc attr
+"<душмандан>"
+	"душман" n abl
+"<аңдып>"
+	"аңды" v tv prc_perf
+"<жүргөн>"
+	"жүр" vaux gpr_past
+"<дос>"
+	"дос" n nom
+"<жаман>"
+	"жаман" adj
+		"э" cop aor p3 pl
+"<.>"
+	"." sent
+[/ZQWXYcCPSZ0L]
+[DHAi0n3Gmyor]
+"<Күлгөнүнө>"
+	"күл" v iv gpr_past subst px3sp dat
+"<күлө>"
+	"күл" v iv gna_impf
+"<жетет>"
+	"жет" v tv aor p3 sg
+"<.>"
+	"." sent
+[/DHAi0n3Gmyor]
+[AsggvxDjT9hF]
+"<Таң>"
+	"таң" n nom
+"<атпаганга>"
+	"ат" v iv neg gpr_past subst dat
+"<күн>"
+	"күн" n nom
+"<да>"
+	"да" postadv
+"<батпайт>"
+	"бат" v iv neg aor p3 sg
+"<.>"
+	"." sent
+[/AsggvxDjT9hF]
+[h34sVF-PbLrK]
+"<Желмогуздун>"
+	"желмогуз" n gen
+"<чоңунан>"
+	"чоң" adj subst px3sp abl
+"<кичинеси>"
+	"кичине" adj subst px3sp nom
+"<жаман>"
+	"жаман" adj
+		"э" cop aor p3 pl
+"<.>"
+	"." sent
+[/h34sVF-PbLrK]
+[Trl4dMTQn_zK]
+"<Калпты>"
+	"калп" n acc
+"<чындай>"
+	"чын" n sim
+"<айтса>"
+	"айт" v tv gna_cond p3 sg
+"<,>"
+	"," cm
+"<чын>"
+	"чын" n nom
+"<чычая>"
+	"чычай" v iv gna_impf
+"<качат>"
+	"кач" v iv aor p3 sg
+"<.>"
+	"." sent
+[/Trl4dMTQn_zK]
+[uUtm-fryNRYj]
+"<Бирөөнүн>"
+	"бирөө" prn ind gen
+"<катыны>"
+	"катын" n px3sp nom
+"<бирөөгө>"
+	"бирөө" prn ind dat
+"<кыз>"
+	"кыз" n nom
+"<көрүнөт>"
+	"көр" v tv pass aor p3 sg
+"<.>"
+	"." sent
+[/uUtm-fryNRYj]
+[F5jg53z_L6Ei]
+"<Миң>"
+	"миң" num
+"<уккандан>"
+	"ук" v iv ger_past abl
+"<,>"
+	"," cm
+"<бир>"
+	"бир" num
+"<көргөн>"
+	"көр" v tv ger_past nom
+"<артык>"
+	"артык" adj
+		"э" cop aor p3 sg
+"<.>"
+	"." sent
+[/F5jg53z_L6Ei]
+[cCUsZWNhB37-]
+"<Үйдүн>"
+	"үй" n gen
+"<ашы>"
+	"аш" n px3sp nom
+"<үйгө>"
+	"үй" n dat
+"<сонун>"
+	"сонун" adj
+		"э" cop aor p3 sg
+"<.>"
+	"." sent
+[/cCUsZWNhB37-]
+[4K1wMCkw4Kpl]
+"<Душмандын>"
+	"Душман" n gen
+"<сырты>"
+	"сырт" n px3sp nom
+"<жылма>"
+	"жылма" adj
+"<,>"
+	"," cm
+"<ичи>"
+	"ич" n px3sp nom
+"<кара>"
+	"кара" adj
+		"э" cop aor p3 sg
+"<.>"
+	"." sent
+[/4K1wMCkw4Kpl]
