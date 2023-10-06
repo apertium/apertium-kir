@@ -7183,6 +7183,7 @@ LEXICON Nouns
 чоң% эне:чоң% эне N-INFL ;
 чоңдук:чоңдук N-INFL ; ! "bigness"
 чоңоюуу:чоңоюуу N-INFL ;
+чулдук:чулдук N-INFL ; ! "sandpiper"
 чумкугуч:чумкугуч N-INFL ; 
 чучук:чучук N-INFL ; 
 чучукулак:чучукулак N-INFL ; ! "" 
@@ -16014,7 +16015,7 @@ LEXICON Adjectives
 диндар:диндар ADJ ;
 дос:дос ADJ ;
 досчо:досчо ADJ ;
-душман:душман ADJ ;
+! душман:душман ADJ ;  when ADJ use, is really <n><attr>
 експресс:експресс ADJ ;
 естетикалык:естетикалык ADJ ;
 ! жагымдуу:жагымдуу ADJ ;  "removing duplicate" 
