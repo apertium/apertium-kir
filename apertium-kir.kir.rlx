@@ -29,7 +29,6 @@ LIST Vadj = vadj vadj_past ;
 LIST Vaux = vaux ;
 LIST Verb = v ;
 LIST V = v ;
-LIST Vaux = vaux ;
 LIST Cop = cop ;
 LIST Num = num ;
 LIST Interj = ij ;
@@ -146,7 +145,7 @@ SECTION
 
 # No vaux if participle doesn't precede
 REMOVE Vaux IF
-	(0C Vb-or-Aux)                # the current word can be verb also
+	(0 Vb-or-Aux)                 # the current word can be verb also
 	(-1C Not-Prc);                # previous word is not a participle
 
 ## V if participle doesn't precede
@@ -181,6 +180,11 @@ REMOVE Pl IF
 REMOVE Iv IF
 	(0C Tv-Or-Iv)
 	(-1C Acc);
+
+SELECT Iv IF
+	(0C Tv-Or-Iv)
+	(-1* BOS OR MARK BARRIER Noun OR Pron)
+;
 
 # Сен канча саат күттүң?
 SELECT Iv IF
