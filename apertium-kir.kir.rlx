@@ -9,8 +9,10 @@ LIST BOS = (>>>) ; # Beginning of sentence
 LIST EOS = (<<<) ; # End of sentence
 
 LIST Cm = cm ;
+LIST Guio = guio ;
 
-SET MARK =  Cm | ("\\") | ("\;") | ("\(") ;
+SET MARK =  Cm | ("\\") | ("\;") | ("\(") ; # | ("-") | ("—") ;
+SET AdvclSep = Cm | Guio | ("\;") ;
 
 LIST Nom = nom ;
 LIST Acc = acc ;
@@ -33,6 +35,7 @@ LIST Num = num ;
 LIST Interj = ij ;
 LIST Subst = subst ;
 LIST Vb-or-Aux = v vaux ;
+LIST Cond = gna_cond prc_cond ;
 LIST PrcIrre = prc_irre ;
 LIST Prc = prc_plan prc_past prc_hab prc_fut prc_cond prc_perf prc_impf prc_vol prc_irre prc_real prc_pcond ;
 LIST PrcCop = prc_past prc_hab prc_fut prc_irre pre_pcond ; # Prc forms that occur with copula
@@ -55,6 +58,10 @@ LIST Aor = aor ;
 LIST Px3pl = px3pl ;
 LIST Px3sg = px3sg ;
 LIST Px3sp = px3sp ;
+LIST Px1sg = px1sg ;
+LIST Px1pl = px1pl ;
+LIST Px2sg = px2sg ;
+LIST Px2pl = px2pl ;
 LIST Post = post ;
 LIST Coop = coop ;
 LIST IJ = ij ;
@@ -82,7 +89,7 @@ LIST Nouns = n np pron ;
 LIST Prop = np ;
 
 LIST V-IV = (v iv) ;
-LIST V-TV = (v tv) ;
+SET V-TV = (v tv) | (v caus) ;
 
 
 
@@ -116,6 +123,9 @@ SET  Np-Nom-Or-Gen = Nouns + Nom-Or-Gen ;
 SET  Np-Nom-Or-Gen-Sg = Np-Nom-Or-Gen + Sing ;
 SET  Px3-Sg-Or-Pl = Px3sg | Px3pl ;
 SET  Px3 = Px3sg | Px3pl | Px3sp ;
+SET  Px1 = Px1sg | Px1pl ;
+SET  Px2 = Px2sg | Px2pl ;
+SET  Possessive = Px3 | Px1 | Px2 ;
 
 LIST Adj-Subst = (adj subst) ;
 
@@ -127,6 +137,8 @@ LIST Vb-Imp = (v imp) ;
 LIST N-Acc = (n acc) ;
 LIST Subst-Acc = (n acc) (adj subst acc) ;
 LIST Vb-Ifi-3 = (v ifi p3 sg) (v ifi p3 pl) ;
+LIST Vb-Iv = (v iv) (v tv pass) ;
+SET Vb-Tv = (v tv) - (v tv pass);
 
 LIST P2Pron = (prn pers p2) ;
 
@@ -198,6 +210,14 @@ REMOVE Px3pl IF
 REMOVE Verb IF
 	(-1 Det);
 
+# барган соң (etc.)
+#"<соң>" SELECT Post IF (-1 Ger) ;
+SELECT Post IF (-1 Ger) ;
+
+SELECT Gerund IF
+	(0 Gpr)
+	(1 Post)
+;
 
 # Some rules for participle forms that are followed by copulas
 # E.g., түшкөн эле
@@ -390,9 +410,14 @@ REMOVE Det IF
         (NOT 1 EOS)
 ;
 
+#REMOVE SUB:1 Not Cop IF
+#       (1 EOS OR MARK OR ("де"))
+#;
 
 "<бар>" SELECT V IF (-1 Dat) ;
 "<бар>" SELECT SUB:1 Cop IF (-1 (px3sp)) ;
+"<бар>" REMOVE Noun IF
+        (1 MARK OR EOS OR Cop);
 
  REMOVE IJ IF
         (0 Adj)
@@ -469,6 +494,16 @@ REMOVE CC IF (0 Post) (NOT 1 N-LIKE);
       (0 V-NonFiniteCanGetCop)
 ;
 
+REMOVE (prc_cond) IF
+	(0 (gna_cond))
+	(NEGATE 1* ("бол"i) or ("э"i) BARRIER Verb)
+;
+
+REMOVE (gna_cond) IF
+	(0 (prc_cond))
+	(1* ("бол"i) or ("э"i) BARRIER Verb)
+;
+
 
 SECTION
 
@@ -493,6 +528,12 @@ SECTION
 SUBSTITUTE Nom @acc-ind TARGET Noun IF
     (0 Nom)
     (-1C* Nom BARRIER Sent)    # C so that we don't get det n sequences always being marked acc-ind
-    (NOT 1 Verb)
+    # (NOT 1 Verb)  # commenting this out because could totally be this
+	 (NEGATE 1 Vb-Iv)
+	 (1* Vb-Tv BARRIER Sent)   # using this instead of the above
+	 (1* (Vb-Tv Cond) BARRIER AdvclSep)   # using this instead of the above
     (NEGATE 0 Px3 LINK -1 Nom) # Don't apply to N.nom N.px3 compounds
+    (NEGATE 0 Possessive) # Possessives can't be indefinite, would need overt acc marking
+	 (NEGATE 1C Post) # not acc if followed by a postposition
+	 (NEGATE 1C Noun)  # e.g. "_кайгы_ өмүр кесет"
  ;
