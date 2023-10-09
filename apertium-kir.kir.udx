@@ -5,6 +5,8 @@ _	_	al	_	_	_	_	_
 _	_	ant	_	_	_	_	_
 _	_	aor	_	_	_	VerbForm=Fin|Mood=Ind|Tense=Aor	_
 _	_	attr	_	_	_	Case=Nom	_
+_	_	caus|pass	_	_	_	Voice=Cau|Voice=Pass	_
+_	_	caus	_	_	_	Voice=Cau	_
 _	_	cog	_	_	_	_	_
 _	prn	dem|qnt	_	_	PRON	PronType=Dem	_
 _	num	_	amod	_	NUM	NumType=Ord	_
@@ -32,6 +34,7 @@ _	_	ger	_	_	_	VerbForm=Ger	_
 _	_	ger_impf	_	_	_	VerbForm=Ger|Aspect=Imp	_
 _	_	ger_past	_	_	_	VerbForm=Ger|Tense=Past	_
 _	_	ger_perf	_	_	_	VerbForm=Ger	_
+_	_	ger_pres	_	_	_	VerbForm=Ger	_
 _	_	gna_cond	_	_	_	VerbForm=Conv|Mood=Cnd	_
 _	_	gna_impf	_	_	_	VerbForm=Conv|Aspect=Imp	_
 _	_	gna_perf	_	_	_	VerbForm=Conv|Aspect=Perf	_
@@ -88,7 +91,6 @@ _	_	subst	_	_	_	_	_
 _	_	top	_	_	_	_	_
 _	_	tv	_	_	_	_	_
 _	_	vol	_	_	_	VerbForm=Fin|Mood=Vol	_
-_	v	iv	cop	_	AUX	_	_
 _	abbr	_	_	_	NOUN	_	_
 _	adj	_	_	_	ADJ	_	_
 _	adv	_	_	_	ADV	_	_
