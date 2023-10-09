@@ -880,6 +880,7 @@ LEXICON A2                 ! (derived/not fully lexicalised) adjectives without 
 %<adj%>%<comp%>%<subst%>:%>%{I%}р%{A%}%{A%}к SUBST ;  !# "пайгамбардын биринчи ордун басуучулук милдетине барынан татыктуураагы Абу Бакр (р.а.) экендигин билдиришет."
 %<adj%>%<comp%>%<subst%>:%>%{I%}р%{A%}к SUBST ;       ! Dir/LR
 
+
 LEXICON A3                 ! (derived/not fully lexicalised) adjectives without adverbial reading,
                            ! so-called "predicatives" (бар, жок);
                            ! no comparison levels at all.
@@ -891,7 +892,6 @@ LEXICON A3                 ! (derived/not fully lexicalised) adjectives without 
 
 ! FIXME:NOTE:loc.attr/subst form of some of them seems to be pure overgeneration:
 ! e.g. *язгыдагы
-
 LEXICON A4                 ! "pure" adjectives - no adverbial and substantive readings, no comparison levels;
                            !# улуттук
 
@@ -1967,7 +1967,6 @@ LEXICON Conjunctions
 болуптур:болуптур CA ;
 ал% түгүл:ал% түгүл CA ;
 ал% турсун:ал% турсун CA ;
-анда:анда CA ;
 ушундан% улам:ушундан% улам CA ;
 болсо% да:болсо% да CA ;
 кандай% болсо% да:кандай% болсо% да CA ;
@@ -3249,7 +3248,7 @@ LEXICON Nouns
 антрополог:антрополог N-INFL ; 
 антрополог:антрополог N-INFL ; ! "anthropologist"
 антропология:антропология N-INFL ;
-аны:аны N-INFL ;
+! аны:аны N-INFL ;
 аныктама:аныктама N-INFL ;
 аныкы:аныкы N-INFL ;
 анытктык:анытктык N-INFL ;
@@ -3265,7 +3264,6 @@ LEXICON Nouns
 апта% аягы:апта% аягы N-INFL ;
 апта:апта N-INFL ; ! "week" (dialectal)
 ар:ар N-INFL ;
-ар:ар N-INFL ; 
 ара:ара N-INFL ; 
 араба:араба N-INFL ; 
 араздык:араздык N-INFL ; ! "" 
@@ -7184,6 +7182,7 @@ LEXICON Nouns
 чоң% эне:чоң% эне N-INFL ;
 чоңдук:чоңдук N-INFL ; ! "bigness"
 чоңоюуу:чоңоюуу N-INFL ;
+чулдук:чулдук N-INFL ; ! "sandpiper"
 чумкугуч:чумкугуч N-INFL ; 
 чучук:чучук N-INFL ; 
 чучукулак:чучукулак N-INFL ; ! "" 
@@ -16015,7 +16014,7 @@ LEXICON Adjectives
 диндар:диндар ADJ ;
 дос:дос ADJ ;
 досчо:досчо ADJ ;
-душман:душман ADJ ;
+! душман:душман ADJ ;  when ADJ use, is really <n><attr>
 експресс:експресс ADJ ;
 естетикалык:естетикалык ADJ ;
 ! жагымдуу:жагымдуу ADJ ;  "removing duplicate" 
@@ -16385,7 +16384,7 @@ LEXICON Adverbs
 таптакыр:таптакыр ADV ;
 жалаң:жалаң ADV ;
 анда% санда:анда% санда ADV ;
-атайы:атайы ADV ; 
+атайы:атайы ADV ; ! "purposely, specifically"
 
 бир:бир ADV ;
 эмне:эмне ADV ;
