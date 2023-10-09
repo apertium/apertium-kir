@@ -1,7 +1,7 @@
-all: proverbs.conllu
+all: proverbs.conllu udtw23-kir.conllu
 
-proverbs.conllu: proverbs.dep proverbs.seg
-	python3 ../scripts/conllise.py ../apertium-kir.kir.udx proverbs.dep proverbs.seg > $@
+%.conllu: %.dep %.seg
+	python3 ../scripts/conllise.py ../apertium-kir.kir.udx $< $(word 2,$^) > $@
 
 test: kir-proverbs-disam-gold.txt kir-proverbs-disam-input.txt
 

@@ -1,0 +1,128 @@
+# sent_id = 1B
+# text = 
+# text[en] = My spouse cleaned the windows of the children's room at the summer house, but didn't clean the kitchen's.
+# text[tr] = Eşim yazlıktaki çocuk odasının penceresini apar topar temizlemiş, mutfağınkini temizlememişti.
+
+# sent_id = 2
+# text = Мен сага дайыма айтам, күндө эртең менен досуң менен телефондо сүйлөшкөндө мен жөнүндө сөз кылба.
+# text[en] = I always tell you, when you talk with your friend on the phone in the morning, don't talk about me.
+
+# sent_id = 4
+# text = Айша — доктур.
+# text[en] = Ayşe is a doctor.
+
+# sent_id = 5
+# text = Биз чеччү көйгөй – китеп текчесинде беш китептик да орун жоктугу.
+# text[en] = The problem we're trying to solve is that the bookshelf doesn't have room for even five books.
+
+# sent_id = 6
+# text = Анын таенеси мед айым эле.
+# text[en] = Their grandmother was a nurse.
+
+# sent_id = 7
+# text = Макул, анда китеп текчесиндегилер кайда эле?
+# text[en] = Okay, then where are/were the ones on the bookshelf?
+
+# sent_id = 9
+# text = Дүкөндө жемиш бар, бирок жакшы эмес.
+# text[en] = There's fruit at the store, but it's not nice.
+
+# sent_id = 10
+# text = Дениз доктур болот, билип кой!
+# text[en] = Deniz will be a doctor, know this!
+
+# sent_id = 11
+# text = Дениз уктап калган эле.
+# text[en] = Deniz had fallen asleep.
+
+# sent_id = 12
+# text = Чогулуш болору айтылып жатканда ал ушунчалык таң калгандыктан окшойт, мени карап эле калды.
+# text[en] = They must've been so surprised as it was being announced that there would be a meeting that they ~started looking at me.
+
+# sent_id = 13
+# text = Кардиганым үйдө бекен?
+# text[en] = Is my cardigan at home?  (i.e., Did I leave it at home?)
+
+# sent_id = 14
+# text = Иш-чара бүгүн өткөрүлөбү?
+# text[en] = Is the event being held today?
+
+# sent_id = 15
+# text = Натыйжалар жарыяланыптыр да, э?
+# text[en] = The results have been announced, haven't they?
+
+# sent_id = 16
+# text = Айша бул китепти окуган эмес.
+# text[en] = It is not the case that Ayşe has read this book.
+
+# sent_id = 16B
+# text = Айша бул китепти окубай койгон жок.
+# text[en] = Ayşe didn't not read this book.
+# text[tr] = Ayşe bu kitabı okumamış değil.
+
+# sent_id = 17
+# text = Негизинен ал окуганды эмес, сүрөт тартканды жакшы көрөт.
+# text[en] = In general they like to paint, not to read.
+
+# sent_id = 18
+# text = Ал окугандары эмес, окуй тургандары тууралуу айтып жатат.
+# text[en] = They're telling me what they will read, not what they have read.
+
+# sent_id = 19
+# text = Мунун көгү жакшынакайыраак экен, мага көгүн берип коёсуңбу?
+# text[en] = The blue one of these is prettier, could you give me the blue one?
+
+# sent_id = 20
+# text = Жаштарды ишке ашырылбас максаттарынан баш тарттырышыбыз керек.
+# text[en] = We must make the young abandon unattainable goals.
+"<Жаштарды>"
+	"жаш" adj subst pl acc @obj #1->6
+"<ишке>"
+	"иш" n dat @obl #2->3
+"<ашырылбас>"
+	"аш" v iv caus pass neg gpr_fut @acl #3->4
+"<максаттарынан>"
+	"максат" n pl px3sp abl @obl #4->6
+"<баш>"
+	"баш" n acc-ind @obj #5->6
+"<тарттырышыбыз>"
+	"тарт" v tv caus ger_pres px1pl nom @csubj #6->7
+"<керек>"
+	"керек" adj @root #7->0
+		"э" cop aor p3 sg @cop #8->7
+"<.>"
+	"." sent @punct #9->7
+
+# sent_id = 21A
+# text = Мугалим китепти алып мектепке кетти.
+# text[en] = The teacher took the book and left for school.
+# text[tr] = Öğretmen kitabı alıp okula gitti.
+"<Мугалим>"
+	"мугалим" n nom @nsubj #1->5
+"<китепти>"
+	"китеп" n acc @obj #2->3
+"<алып>"
+	"ал" v tv gna_perf @advcl #3->5
+"<мектепке>"
+	"мектеп" n dat @obl #4->5
+"<кетти>"
+	"кет" v iv ifi p3 sg @root #5->0
+"<.>"
+	"." sent @punct #6->5
+
+# sent_id = 21B
+# text = Мугалим китепти мектепке алып кетти.
+# text[en] = The teacher took the book to school.
+# text[tr] = Öğretmen kitabı okula götürdü.
+"<Мугалим>"
+	"мугалим" n nom @nsubj #1->5
+"<китепти>"
+	"китеп" n acc @obj #2->5
+"<мектепке>"
+	"мектеп" n dat @obl #3->5
+"<алып>"
+	"ал" v tv gna_perf @compound:svc #4->5
+"<кетти>"
+	"кет" v tv ifi p3 sg @root #5->0
+"<.>"
+	"." sent @punct #6->5
