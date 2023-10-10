@@ -7,6 +7,10 @@
 # text = Мен сага дайыма айтам, күндө эртең менен досуң менен телефондо сүйлөшкөндө мен жөнүндө сөз кылба.
 # text[en] = I always tell you, when you talk with your friend on the phone in the morning, don't talk about me.
 
+# sent_id = 3
+# text = Түнөп калчу конок эшикти такылдатыптыр, бирок үйдүн ээси дагы эле үйдү жыйнап жаткан, ал эми ал буюртма берген тамак ресторандан келмек болчу.
+# text[en] = The guest that was going to stay for the night knocked on the door, but the owner of the house was still cleaning, and the food he had ordered was still coming from the restaurant.
+
 # sent_id = 4
 # text = Айша — доктур.
 # text[en] = Ayşe is a doctor.
@@ -22,6 +26,10 @@
 # sent_id = 7
 # text = Макул, анда китеп текчесиндегилер кайда эле?
 # text[en] = Okay, then where are/were the ones on the bookshelf?
+
+# sent_id = 8
+# text = Суде үч саат бою кеңседе болгон жок, Айша да үйдө болгон эмес экен.
+# text[en] = Sude wasn't in the office for a period of three hours, and Ayşe also wasn't at home.
 
 # sent_id = 9
 # text = Дүкөндө жемиш бар, бирок жакшы эмес.
