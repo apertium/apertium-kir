@@ -246,9 +246,14 @@ for depseg in sents_depseg:
 					segs = merge_segmentations(segmentations[j][1], len(token[1]))
 			print('%d-%d\t%s\t_\t_\t_\t_\t_\t_\t_\t_' % (token[1][0][0], token[1][-1][0], token[0]))
 			for (k, word) in enumerate(token[1]):
+				if (k < len(token[1])-1): # if not the last subtoken
+					noSpace = "SpaceAfter=No"
+				else:
+					noSpace = "_"
 				(analysis, misc) = apply_rules(rules, word)
 				#       1        2                       3        4            5    6            7        8        9    10
-				line = (word[0], segs[k], word[2], analysis[1], '_', analysis[2], word[6], word[7][1:], '_', '_')
+				atags = '.'.join(word[4].split('|'))
+				line = (word[0], segs[k], word[2], analysis[1], atags, analysis[2], word[6], word[7][1:], '_', noSpace)
 				print(format_conllu_line(line))
 				indices.append(int(word[0]))
 				if word[7] == '@root':
@@ -270,7 +275,8 @@ for depseg in sents_depseg:
 			word = token[1][0]
 			(analysis, misc) = apply_rules(rules, word)
 			#       1        2         3        4            5    6            7        8        9    10
-			line = (word[0], token[0], word[2], analysis[1], '_', analysis[2], word[6], word[7][1:], '_', '_')
+			atags = '.'.join(word[4].split('|'))
+			line = (word[0], token[0], word[2], analysis[1], atags, analysis[2], word[6], word[7][1:], '_', '_')
 			print(format_conllu_line(line))
 			if word[7] == '@root' and word[6] != 0:
 				print('ERROR:',current_sent_id,' Root is not root', line, file=sys.stderr)
