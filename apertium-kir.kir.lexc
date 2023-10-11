@@ -5650,31 +5650,31 @@ LEXICON Nouns
 намыс:намыс N-INFL ; 
 нан:нан N-INFL ;
 напас:напас N-INFL ; 
+нар:нар N-INFL ; ! "female camel"
 наристе% кези:наристе% кез N-INFL-3PX-COMPOUND ; ! "baby-hood" ! Use/MT
 наристе:наристе N-INFL ; 
 нарк:нарк N-INFL ;
 наркоз:наркоз N-INFL ; 
-наркотик:наркотик N-INFL ; 
+наркотик:наркотик N-INFL ; ! "drug" 
 нарцисс:нарцисс N-INFL ; 
 нары:нары N-INFL ;
 насип:насип N-INFL ; 
 насыйкат:насыйкат N-INFL ; 
-насыя:насыя N-INFL ; ! "" 
 насыя:насыя N-INFL ; ! "credit"
 насыят:насаат N-INFL ; ! "" Dir/LR
 насыят:насият N-INFL ; ! "" Dir/LR
 насыят:насыят N-INFL ; ! "" 
 натура:натура N-INFL ; 
-натыйжа:натыйжа N-INFL ; 
+натыйжа:натыйжа N-INFL ; ! "result"
 нафталин:нафталин N-INFL ; 
-национализм:национализм N-INFL ; 
-националист:националист N-INFL ; 
+национализм:национализм N-INFL ; ! "nationalism"
+националист:националист N-INFL ; ! "nationalist"
 начальник:начальник N-INFL ; ! "boss" (Russian)
 начарлык:начарлык N-INFL ; ! "badness"
 невроз:невроз N-INFL ; 
-невролог:невролог N-INFL ; 
-неврология:неврология N-INFL ; 
-негиз:негиз N-INFL ;
+невролог:невролог N-INFL ; ! "neurologist"
+неврология:неврология N-INFL ; ! "neurology"
+негиз:негиз N-INFL ; ! "foundation, basis"
 нейрон:нейрон N-INFL ; 
 нектар:нектар N-INFL ; 
 неологизм:неологизм N-INFL ; 
@@ -16439,7 +16439,6 @@ LEXICON Adverbs
 түрүндө% болгон:түрүндө% болгон ADV ;
 артыкчылык% берилүү% менен:артыкчылык% берилүү% менен ADV ;
 бир% күндүгүнө:бир% күндүгүнө ADV ;
-негизинен:негизинен ADV ;
 калыстык% менен:калыстык% менен ADV ;
 дал% өзүндөй:дал% өзүндөй ADV ;
 кокусунан:кокусунан ADV ;
@@ -16825,7 +16824,7 @@ LEXICON Verbs
 арт:арт V-INFL-IV ; ! ""
 кур:кур V-INFL-TV ;
 бол:бол V-INFL-IV ; ! "be"
-! чыгар V-INFL-TV ; ! ""  ! Irregular transitive
+! чыгар V-INFL-TV ; ! ""  ! Irregular causative
 жарат:жарат V-INFL-TV ;
 аарчы:аарчы V-INFL-IV ;  ! ""
 аарчы:аарчы V-INFL-TV ;  ! "to wipe; peel"
@@ -17091,9 +17090,10 @@ LEXICON Verbs
 теп:теп V-INFL-TV ; ! "step on"
 терде:терде V-INFL-IV ; ! "sweat"
 теш:теш V-INFL-TV ; ! "put a hole in"
-тиз:тиз V-INFL-TV ; 
-тик:тик V-INFL-TV ; 
-той:той V-INFL-IV ; 
+тиз:тиз V-INFL-TV ; ! "construct [a list]"
+тик:тик V-INFL-TV ; ! "sew; sow"
+той:той V-INFL-IV-NO-CAUS ; ! "be full/sated"
+той:тойгуз V-INFL-IV-IRREG-CAUS ; ! "make full/sated"
 токто:токто V-INFL-IV ; ! "stop" 
 токтот:токтот V-INFL-TV ; ! "stop"  ! Regular causative
 токтон:токтон V-INFL-IV ;
@@ -17116,8 +17116,8 @@ LEXICON Verbs
 төк:төк V-INFL-TV ; ! "spill"
 төк:төк V-INFL-IV ; ! "[for e.g. rain] to pour"
 төлө:төлө V-INFL-TV ; ! "pay" 
-узат:узат V-INFL-TV ; 
-уза:уза V-INFL-TV ; 
+!узат:узат V-INFL-TV ;  ! Regular causative
+уза:уза V-INFL-IV ; ! "extend"
 эри:ээри V-INFL-IV ; ! "melt" ! Dir/RL
 эри:эри V-INFL-IV ; ! "melt"
 ушала:ушала V-INFL-TV ; 
@@ -17130,35 +17130,35 @@ LEXICON Verbs
 чарча:чарча V-INFL-IV ;
 чач:чач V-INFL-TV ; 
 агыт:агыт V-INFL-TV ;
-чеч:чеч V-INFL-TV ; 
+чеч:чеч V-INFL-TV ; ! "deicde; resolve; solve; take off; untie"
 чиймеле:чиймеле V-INFL-TV ; 
 чумку:чумку V-INFL-TV ; 
 чык:чык V-INFL-IV-NO-CAUS ; ! "to exit/leave"
 чык:чыгар V-INFL-IV-IRREG-CAUS ; ! "to take/put/move [object] out"
-чөк:чөк V-INFL-IV ; 
-шайла:шайла V-INFL-TV ; 
-шиши:шиши V-INFL-IV ; 
+чөк:чөк V-INFL-IV ;  ! "drown"
+шайла:шайла V-INFL-TV ; ! "elect; vote"
+шиши:шиши V-INFL-IV ; ! "swell"
 шүкүр% кыл:шүкүр% кыл V-INFL-TV ; 
 ыйла:ыйла V-INFL-IV ; ! "cry"
 эсте:эсте V-INFL-TV ; ! "remember"
 эсте:эсте V-INFL-IV ; ! "yawn"
 эш:эш V-INFL-TV ; 
-ээрчи:ээрчи V-INFL-TV ; 
+ээрчи:ээрчи V-INFL-TV ; ! "follow"
 ! алдан V-INFL-TV ;  ! FIXME: VI, right?
-үйлө:үйлө V-INFL-TV ; 
-үр:үр V-INFL-IV ; 
+үйлө:үйлө V-INFL-TV ; ! "marry; whistle"
+үр:үр V-INFL-IV ; ! "bark"
 үрк:үрк V-INFL-IV ; 
 өлчө:өлчө V-INFL-TV ; 
 өр:өр V-INFL-TV ; 
-өрттө:өрттө V-INFL-TV ; 
+өрттө:өрттө V-INFL-TV ; ! "set on fire"
 өрттөн:өрттөн V-INFL-IV ; ! FIXME: irregular passive
 өч:өч V-INFL-IV-NO-CAUS ; ! "turn off"
 өч:өчүр V-INFL-IV-IRREG-CAUS ; ! "make turn off"
 сүр:сүр V-INFL-TV ;
-сиңир:сиңир V-INFL-TV ;
-уч:уч V-INFL-IV ;
-өп:өп V-INFL-TV ; ! "to kiss"
-катыш:катыш V-INFL-IV ;
+сиңир:сиңир V-INFL-TV ; ! FIXME: Irregular causative?
+уч:уч V-INFL-IV ; ! "fly"
+өп:өп V-INFL-TV ; ! "kiss"
+катыш:катыш V-INFL-IV ; ! "participate"
 кат:кат V-INFL-IV-NO-CAUS ; ! "get hard"
 кат:катыр V-INFL-IV-IRREG-CAUS ; ! "make hard"
 сарсанаа% тарт:сарсанаа% тарт V-INFL-TV ;
@@ -17169,7 +17169,7 @@ LEXICON Verbs
 
 
 тый:тый V-INFL-IV ;
-жүргүз:жүргүз V-INFL-TV ;
+жүргүз:жүргүз V-INFL-TV ; ! "drive" FIXME: Irregular causative?
 ыйгар:ыйгар V-INFL-IV ;
 ! улант V-INFL-TV ;  ! productive
 улан:улан V-INFL-IV-NO-CAUS ; 
@@ -17491,7 +17491,6 @@ LEXICON Verbs
 жооп% бер:жооп% бер V-INFL-IV ;
 майдала:майдала V-INFL-TV ;
 жой:жой V-INFL-TV ;
-жумша:жумша V-INFL-IV ;
 анализде:анализде V-INFL-TV ;
 буйрук% бер:буйрук% бер V-INFL-IV ;
 үн% сал:үн% сал V-INFL-IV ;
@@ -17537,10 +17536,10 @@ LEXICON Verbs
 итекте:итекте V-INFL-IV ;
 көздө:көздө V-INFL-TV ;
 учуп% чык:учуп% чык V-INFL-TV ;
-ысыт:ысыт V-INFL-IV ;
+!ысыт:ысыт V-INFL-IV ; ! Regular causative
 ичкер:ичкер V-INFL-IV ;
 белгиле:белгиле V-INFL-IV ;
-оңдо:оңдо V-INFL-TV ;
+оңдо:оңдо V-INFL-TV ; ! "fix"
 уула:уула V-INFL-TV ; ! "to poison" 
 уула:уула V-INFL-TV ; ! "to hunt" 
 катуулаш:катуулаш V-INFL-IV ;
@@ -17548,20 +17547,20 @@ LEXICON Verbs
 капта:капта V-INFL-TV ;
 мал:мал V-INFL-IV ;
 ууландыр:ууландыр V-INFL-IV ;
-түгөн:түгөн V-INFL-TV ;
+түгөн:түгөн V-INFL-TV ; ! "run out"
 ойгон:ойгон V-INFL-IV ;
 оң:оң V-INFL-IV ;
-жумша:жумша V-INFL-IV ;
+жумша:жумша V-INFL-TV ; ! "send on an errand"
 тары:тары V-INFL-TV ;
-сын:сын V-INFL-IV ;
+сын:сын V-INFL-IV ; ! "break"
 тушта:тушта V-INFL-IV ;
 тил:тил V-INFL-IV ; ! CHECK: not TV?
 курга:курга V-INFL-IV ;
-эк:эк V-INFL-TV ;
+эк:эк V-INFL-TV ; ! "sow"
 жыйып% кой:жыйып% кой V-INFL-IV ;
 кайраттан:кайраттан V-INFL-IV ;
 сыймыктан:сыймыктан V-INFL-IV ;
-тынчы:тынчы V-INFL-IV ;
+тынчы:тынчы V-INFL-IV ; ! "calm down / be calm"
 ысы:ысы V-INFL-IV ; ! "to be hot"
 үшү:үшү V-INFL-IV ; ! "to be cold"
 тордо:тордо V-INFL-TV ;
@@ -18041,7 +18040,6 @@ LEXICON Verbs
 кыялдан:кыялдан V-INFL-IV ;
 түрт:түрт V-INFL-TV ;
 түйүн% түй:түйүн% түй V-INFL-TV ;
-тойгуз:тойгуз V-INFL-TV ;
 төлдө:төлдө V-INFL-IV ;
 тиште:тиште V-INFL-TV ;
 тилимде:тилимде V-INFL-TV ;
@@ -18204,6 +18202,7 @@ LEXICON Verbs
 кайыр:кайры V-INFL-TV ;  ! "turn back" ! Dir/LR
 чаңыр:чаңыр V-INFL-IV ; ! "shout"
 мыёоло:мыёоло V-INFL-IV ; ! "meow"
+толук:толук V-INFL-IV ; ! "fill up"
 
 
 LEXICON Abbreviations

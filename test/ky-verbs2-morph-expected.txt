@@ -2,33 +2,33 @@
 [/-9M0Gh1-fcgc]
 [5JC6XmCy8UMq#0] ^кетүү/кетүү<n><attr>/кетүү<n><nom>/кетүү<n><nom>+э<cop><aor><p3><pl>/кетүү<n><nom>+э<cop><aor><p3><sg>/кет<v><iv><ger><nom>/кет<v><iv><ger><nom>+э<cop><aor><p3><pl>/кет<v><iv><ger><nom>+э<cop><aor><p3><sg>/кет<vaux><ger><nom>/кет<vaux><ger><nom>+э<cop><aor><p3><pl>/кет<vaux><ger><nom>+э<cop><aor><p3><sg>$
 [/5JC6XmCy8UMq]
-[5MrIc2oI90t5#0] ^коюп/кой<v><tv><gna_perf>/кой<v><tv><prc_perf>$
+[5MrIc2oI90t5#0] ^коюп/кой<v><tv><gna_perf>/кой<v><tv><prc_perf>/кой<vaux><gna_perf>/кой<vaux><prc_perf>$
 [/5MrIc2oI90t5]
 [67Vgti_iPdzK#0] ^шишүү/шиши<v><iv><ger><nom>/шиши<v><iv><ger><nom>+э<cop><aor><p3><pl>/шиши<v><iv><ger><nom>+э<cop><aor><p3><sg>$
 [/67Vgti_iPdzK]
-[6zh-AtUpgB-Y#0] ^койбош/кой<v><tv><neg><ger_pres><nom>/кой<v><tv><neg><ger_pres><nom>+э<cop><aor><p3><pl>/кой<v><tv><neg><ger_pres><nom>+э<cop><aor><p3><sg>$
+[6zh-AtUpgB-Y#0] ^койбош/кой<v><tv><neg><ger_pres><nom>/кой<v><tv><neg><ger_pres><nom>+э<cop><aor><p3><pl>/кой<v><tv><neg><ger_pres><nom>+э<cop><aor><p3><sg>/кой<vaux><neg><ger_pres><nom>/кой<vaux><neg><ger_pres><nom>+э<cop><aor><p3><pl>/кой<vaux><neg><ger_pres><nom>+э<cop><aor><p3><sg>$
 [/6zh-AtUpgB-Y]
 [8cuWTWyUzStC#0] ^кеткиңиздер/кет<v><iv><prc_vol><p2><frm><pl>/кет<vaux><prc_vol><p2><frm><pl>$
 [/8cuWTWyUzStC]
 [9fQtu8L7d3ic#0] ^сабоо/саба<v><tv><ger><nom>/саба<v><tv><ger><nom>+э<cop><aor><p3><pl>/саба<v><tv><ger><nom>+э<cop><aor><p3><sg>$
 [/9fQtu8L7d3ic]
-[9wEYCj_UM7Jz#0] ^койгусу/кой<v><tv><neg><gpr_pot2><subst><px3sp><nom>/кой<v><tv><neg><gpr_pot2><subst><px3sp><nom>+э<cop><aor><p3><pl>/кой<v><tv><neg><gpr_pot2><subst><px3sp><nom>+э<cop><aor><p3><sg>/кой<v><tv><prc_vol><p3><pl>/кой<v><tv><prc_vol><p3><sg>$
+[9wEYCj_UM7Jz#0] ^койгусу/кой<v><tv><neg><gpr_pot2><subst><px3sp><nom>/кой<v><tv><neg><gpr_pot2><subst><px3sp><nom>+э<cop><aor><p3><pl>/кой<v><tv><neg><gpr_pot2><subst><px3sp><nom>+э<cop><aor><p3><sg>/кой<v><tv><prc_vol><p3><pl>/кой<v><tv><prc_vol><p3><sg>/кой<vaux><neg><gpr_pot2><subst><px3sp><nom>/кой<vaux><neg><gpr_pot2><subst><px3sp><nom>+э<cop><aor><p3><pl>/кой<vaux><neg><gpr_pot2><subst><px3sp><nom>+э<cop><aor><p3><sg>/кой<vaux><prc_vol><p3><pl>/кой<vaux><prc_vol><p3><sg>$
 [/9wEYCj_UM7Jz]
-[FSCNRNPxIF4k#0] ^койгуңуздар/кой<v><tv><prc_vol><p2><frm><pl>$
+[FSCNRNPxIF4k#0] ^койгуңуздар/кой<v><tv><prc_vol><p2><frm><pl>/кой<vaux><prc_vol><p2><frm><pl>$
 [/FSCNRNPxIF4k]
-[FbIzA9kuB6uC#0] ^койгон жокмун/кой<v><tv><neg><ifi><p1><sg>$
+[FbIzA9kuB6uC#0] ^койгон жокмун/кой<v><tv><neg><ifi><p1><sg>/кой<vaux><neg><ifi><p1><sg>$
 [/FbIzA9kuB6uC]
 [Gnfxj6VIyqzv#0] ^аарчуу/аарчы<v><iv><ger><nom>/аарчы<v><iv><ger><nom>+э<cop><aor><p3><pl>/аарчы<v><iv><ger><nom>+э<cop><aor><p3><sg>/аарчы<v><tv><ger><nom>/аарчы<v><tv><ger><nom>+э<cop><aor><p3><pl>/аарчы<v><tv><ger><nom>+э<cop><aor><p3><sg>$
 [/Gnfxj6VIyqzv]
 [H3AT4SiPXvPn#0] ^койбоосмун/*койбоосмун$
 [/H3AT4SiPXvPn]
-[LFj7ohXFGW-S#0] ^коюу/кой<v><tv><ger><nom>/кой<v><tv><ger><nom>+э<cop><aor><p3><pl>/кой<v><tv><ger><nom>+э<cop><aor><p3><sg>/коюу<adj>/коюу<adj>+э<cop><aor><p3><pl>/коюу<adj>+э<cop><aor><p3><sg>/коюу<adj><subst><nom>/коюу<adj><subst><nom>+э<cop><aor><p3><pl>/коюу<adj><subst><nom>+э<cop><aor><p3><sg>$
+[LFj7ohXFGW-S#0] ^коюу/кой<v><tv><ger><nom>/кой<v><tv><ger><nom>+э<cop><aor><p3><pl>/кой<v><tv><ger><nom>+э<cop><aor><p3><sg>/кой<vaux><ger><nom>/кой<vaux><ger><nom>+э<cop><aor><p3><pl>/кой<vaux><ger><nom>+э<cop><aor><p3><sg>/коюу<adj>/коюу<adj>+э<cop><aor><p3><pl>/коюу<adj>+э<cop><aor><p3><sg>/коюу<adj><subst><nom>/коюу<adj><subst><nom>+э<cop><aor><p3><pl>/коюу<adj><subst><nom>+э<cop><aor><p3><sg>$
 [/LFj7ohXFGW-S]
 [OR2lw2HUuGAU#0] ^болуп/бол<v><iv><gna_perf>/бол<v><iv><prc_perf>/бол<vaux><gna_perf>/бол<vaux><prc_perf>$
 [/OR2lw2HUuGAU]
-[PrG4CzDzgyv3#0] ^коёормун/кой<v><tv><fut><p1><sg>/кой<v><tv><ger_fut><nom>+э<cop><aor><p1><sg>/кой<v><tv><ger_ppot><nom>+э<cop><aor><p1><sg>/кой<v><tv><gpr_fut><subst><nom>+э<cop><aor><p1><sg>/кой<v><tv><gpr_ppot><nom>+э<cop><aor><p1><sg>$
+[PrG4CzDzgyv3#0] ^коёормун/кой<v><tv><fut><p1><sg>/кой<v><tv><ger_fut><nom>+э<cop><aor><p1><sg>/кой<v><tv><ger_ppot><nom>+э<cop><aor><p1><sg>/кой<v><tv><gpr_fut><subst><nom>+э<cop><aor><p1><sg>/кой<v><tv><gpr_ppot><nom>+э<cop><aor><p1><sg>/кой<vaux><fut><p1><sg>/кой<vaux><ger_fut><nom>+э<cop><aor><p1><sg>/кой<vaux><ger_ppot><nom>+э<cop><aor><p1><sg>/кой<vaux><gpr_fut><subst><nom>+э<cop><aor><p1><sg>/кой<vaux><gpr_ppot><nom>+э<cop><aor><p1><sg>$
 [/PrG4CzDzgyv3]
-[TPcBXWHl54WV#0] ^койгуңуз/кой<v><tv><prc_vol><p2><frm><sg>$
+[TPcBXWHl54WV#0] ^койгуңуз/кой<v><tv><prc_vol><p2><frm><sg>/кой<vaux><prc_vol><p2><frm><sg>$
 [/TPcBXWHl54WV]
 [UGkcpQo9BFuy#0] ^иштөө/иште<v><iv><ger><nom>/иште<v><iv><ger><nom>+э<cop><aor><p3><pl>/иште<v><iv><ger><nom>+э<cop><aor><p3><sg>/иште<v><tv><ger><nom>/иште<v><tv><ger><nom>+э<cop><aor><p3><pl>/иште<v><tv><ger><nom>+э<cop><aor><p3><sg>/иштөө<n><attr>/иштөө<n><nom>/иштөө<n><nom>+э<cop><aor><p3><pl>/иштөө<n><nom>+э<cop><aor><p3><sg>$
 [/UGkcpQo9BFuy]
@@ -40,27 +40,27 @@
 [/Xf2Bsm5PFOGa]
 [XfqYz0B_w8Jt#0] ^кеткиңер/кет<v><iv><prc_vol><p2><pl>/кет<vaux><prc_vol><p2><pl>$
 [/XfqYz0B_w8Jt]
-[aqOSR2lD1x6h#0] ^койгубуз/кой<v><tv><prc_vol><p1><pl>$
+[aqOSR2lD1x6h#0] ^койгубуз/кой<v><tv><prc_vol><p1><pl>/кой<vaux><prc_vol><p1><pl>$
 [/aqOSR2lD1x6h]
 [b_pJ0Na0uObc#0] ^иштеп/иште<v><iv><gna_perf>/иште<v><iv><prc_perf>/иште<v><tv><gna_perf>/иште<v><tv><prc_perf>$
 [/b_pJ0Na0uObc]
 [cwbmf5hN3iKx#0] ^сүйүп/сүй<v><tv><gna_perf>/сүй<v><tv><prc_perf>$
 [/cwbmf5hN3iKx]
-[fHqg4bogkv4m#0] ^койгум/кой<v><tv><prc_vol><p1><sg>$
+[fHqg4bogkv4m#0] ^койгум/кой<v><tv><prc_vol><p1><sg>/кой<vaux><prc_vol><p1><sg>$
 [/fHqg4bogkv4m]
 [fwWdmK_AkGuW#0] ^кеткиң/кет<v><iv><prc_vol><p2><sg>/кет<vaux><prc_vol><p2><sg>$
 [/fwWdmK_AkGuW]
 [jq1U_fje0qcM#0] ^кеткибиз/кет<v><iv><prc_vol><p1><pl>/кет<vaux><prc_vol><p1><pl>$
 [/jq1U_fje0qcM]
-[v3oK9bh2BqU_#0] ^койдум/кой<v><tv><ifi><p1><sg>$
+[v3oK9bh2BqU_#0] ^койдум/кой<v><tv><ifi><p1><sg>/кой<vaux><ifi><p1><sg>$
 [/v3oK9bh2BqU_]
-[wa3PTftP-SUN#0] ^коюш/кой<v><tv><coop><imp><p2><sg>/кой<v><tv><ger_pres><nom>/кой<v><tv><ger_pres><nom>+э<cop><aor><p3><pl>/кой<v><tv><ger_pres><nom>+э<cop><aor><p3><sg>$
+[wa3PTftP-SUN#0] ^коюш/кой<v><tv><coop><imp><p2><sg>/кой<v><tv><ger_pres><nom>/кой<v><tv><ger_pres><nom>+э<cop><aor><p3><pl>/кой<v><tv><ger_pres><nom>+э<cop><aor><p3><sg>/кой<vaux><coop><imp><p2><sg>/кой<vaux><ger_pres><nom>/кой<vaux><ger_pres><nom>+э<cop><aor><p3><pl>/кой<vaux><ger_pres><nom>+э<cop><aor><p3><sg>$
 [/wa3PTftP-SUN]
 [x7RMvXsylKZ0#0] ^сүйүү/сүйүү<n><attr>/сүйүү<n><nom>/сүйүү<n><nom>+э<cop><aor><p3><pl>/сүйүү<n><nom>+э<cop><aor><p3><sg>/сүй<v><tv><ger><nom>/сүй<v><tv><ger><nom>+э<cop><aor><p3><pl>/сүй<v><tv><ger><nom>+э<cop><aor><p3><sg>$
 [/x7RMvXsylKZ0]
-[xx2krMdojoaa#0] ^койгуң/кой<v><tv><prc_vol><p2><sg>$
+[xx2krMdojoaa#0] ^койгуң/кой<v><tv><prc_vol><p2><sg>/кой<vaux><prc_vol><p2><sg>$
 [/xx2krMdojoaa]
-[y9eAxGi2K3Oy#0] ^койгуңар/кой<v><tv><prc_vol><p2><pl>$
+[y9eAxGi2K3Oy#0] ^койгуңар/кой<v><tv><prc_vol><p2><pl>/кой<vaux><prc_vol><p2><pl>$
 [/y9eAxGi2K3Oy]
 [yQld6Fm3LdSU#0] ^кетким/кет<v><iv><prc_vol><p1><sg>/кет<vaux><prc_vol><p1><sg>$
 [/yQld6Fm3LdSU]

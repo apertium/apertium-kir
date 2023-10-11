@@ -24,7 +24,7 @@
 [/3tDxQwMVP3jF]
 [41jXBBg2dezR#0] ^абанын/абан<n><px3sp><acc>/аба<n><gen>$
 [/41jXBBg2dezR]
-[4LwAw9mHD1Er#0] ^балабыз/бала<adj>+э<cop><aor><p1><pl>/бала<n><nom>+э<cop><aor><p1><pl>/бала<n><px1pl><nom>/бала<n><px1pl><nom>+э<cop><aor><p3><pl>/бала<n><px1pl><nom>+э<cop><aor><p3><sg>$
+[4LwAw9mHD1Er#0] ^балабыз/бала<n><nom>+э<cop><aor><p1><pl>/бала<n><px1pl><nom>/бала<n><px1pl><nom>+э<cop><aor><p3><pl>/бала<n><px1pl><nom>+э<cop><aor><p3><sg>$
 [/4LwAw9mHD1Er]
 [4a9Xvt3KGlg4#0] ^кемеге/кеме<n><dat>$
 [/4a9Xvt3KGlg4]
@@ -142,7 +142,7 @@
 [/PBnzMlsspZ1H]
 [PJTbBzsLlFV-#0] ^китебиме/китеп<n><px1sg><dat>$
 [/PJTbBzsLlFV-]
-[P_DgoZvTYLty#0] ^бала/бала<adj>/бала<adj>+э<cop><aor><p3><pl>/бала<adj>+э<cop><aor><p3><sg>/бала<n><attr>/бала<n><nom>/бала<n><nom>+э<cop><aor><p3><pl>/бала<n><nom>+э<cop><aor><p3><sg>$
+[P_DgoZvTYLty#0] ^бала/бала<n><attr>/бала<n><nom>/бала<n><nom>+э<cop><aor><p3><pl>/бала<n><nom>+э<cop><aor><p3><sg>$
 [/P_DgoZvTYLty]
 [Pj8tEIfjy7eC#0] ^кызга/кыз<n><dat>$
 [/Pj8tEIfjy7eC]

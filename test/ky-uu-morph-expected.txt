@@ -24,7 +24,7 @@
 [/Ibnz5zlj2Ntl]
 [Js3zi07OI8Rl#0] ^бешөө/беш<num><coll><advl>/беш<num><coll><subst><nom>/беш<num><coll><subst><nom>+э<cop><aor><p3><pl>/беш<num><coll><subst><nom>+э<cop><aor><p3><sg>$
 [/Js3zi07OI8Rl]
-[LFj7ohXFGW-S#0] ^коюу/кой<v><tv><ger><nom>/кой<v><tv><ger><nom>+э<cop><aor><p3><pl>/кой<v><tv><ger><nom>+э<cop><aor><p3><sg>/коюу<adj>/коюу<adj>+э<cop><aor><p3><pl>/коюу<adj>+э<cop><aor><p3><sg>/коюу<adj><subst><nom>/коюу<adj><subst><nom>+э<cop><aor><p3><pl>/коюу<adj><subst><nom>+э<cop><aor><p3><sg>$
+[LFj7ohXFGW-S#0] ^коюу/кой<v><tv><ger><nom>/кой<v><tv><ger><nom>+э<cop><aor><p3><pl>/кой<v><tv><ger><nom>+э<cop><aor><p3><sg>/кой<vaux><ger><nom>/кой<vaux><ger><nom>+э<cop><aor><p3><pl>/кой<vaux><ger><nom>+э<cop><aor><p3><sg>/коюу<adj>/коюу<adj>+э<cop><aor><p3><pl>/коюу<adj>+э<cop><aor><p3><sg>/коюу<adj><subst><nom>/коюу<adj><subst><nom>+э<cop><aor><p3><pl>/коюу<adj><subst><nom>+э<cop><aor><p3><sg>$
 [/LFj7ohXFGW-S]
 [MI7Hfxn7i27c#0] ^7-өөнү/7<num><coll><subst><acc>$
 [/MI7Hfxn7i27c]

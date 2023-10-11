@@ -137,7 +137,8 @@ LIST N-Acc = (n acc) ;
 LIST Subst-Acc = (n acc) (adj subst acc) ;
 LIST Vb-Ifi-3 = (v ifi p3 sg) (v ifi p3 pl) ;
 LIST Vb-Iv = (v iv) (v tv pass) ;
-SET Vb-Tv = (v tv) - (v tv pass);
+LIST Vb-Tv-Caus = (v tv) (v caus) ;
+SET Vb-Tv = Vb-Tv-Caus - (pass);
 
 LIST P2Pron = (prn pers p2) ;
 
@@ -500,7 +501,7 @@ REMOVE CC IF (0 Post) (NOT 1 N-LIKE);
 
 REMOVE (prc_cond) IF
 	(0 (gna_cond))
-	(NEGATE 1* ("бол"i) or ("э"i) BARRIER Verb)
+	(NEGATE 1* ("бол"i) or ("э"i) BARRIER Verb OR Noun)
 ;
 
 REMOVE (gna_cond) IF

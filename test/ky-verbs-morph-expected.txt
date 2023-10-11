@@ -1,6 +1,6 @@
 [-9M0Gh1-fcgc#0] ^атуу/ат<v><tv><ger><nom>/ат<v><tv><ger><nom>+э<cop><aor><p3><pl>/ат<v><tv><ger><nom>+э<cop><aor><p3><sg>/жат<vaux><ger><nom>/жат<vaux><ger><nom>+э<cop><aor><p3><pl>/жат<vaux><ger><nom>+э<cop><aor><p3><sg>$
 [/-9M0Gh1-fcgc]
-[5MrIc2oI90t5#0] ^коюп/кой<v><tv><gna_perf>/кой<v><tv><prc_perf>$
+[5MrIc2oI90t5#0] ^коюп/кой<v><tv><gna_perf>/кой<v><tv><prc_perf>/кой<vaux><gna_perf>/кой<vaux><prc_perf>$
 [/5MrIc2oI90t5]
 [9fQtu8L7d3ic#0] ^сабоо/саба<v><tv><ger><nom>/саба<v><tv><ger><nom>+э<cop><aor><p3><pl>/саба<v><tv><ger><nom>+э<cop><aor><p3><sg>$
 [/9fQtu8L7d3ic]

@@ -6,7 +6,7 @@
 [/36sLalvWPD-3]
 [5JC6XmCy8UMq#0] ^кетүү/кетүү<n><attr>/кетүү<n><nom>/кетүү<n><nom>+э<cop><aor><p3><pl>/кетүү<n><nom>+э<cop><aor><p3><sg>/кет<v><iv><ger><nom>/кет<v><iv><ger><nom>+э<cop><aor><p3><pl>/кет<v><iv><ger><nom>+э<cop><aor><p3><sg>/кет<vaux><ger><nom>/кет<vaux><ger><nom>+э<cop><aor><p3><pl>/кет<vaux><ger><nom>+э<cop><aor><p3><sg>$
 [/5JC6XmCy8UMq]
-[5MrIc2oI90t5#0] ^коюп/кой<v><tv><gna_perf>/кой<v><tv><prc_perf>$
+[5MrIc2oI90t5#0] ^коюп/кой<v><tv><gna_perf>/кой<v><tv><prc_perf>/кой<vaux><gna_perf>/кой<vaux><prc_perf>$
 [/5MrIc2oI90t5]
 [67Vgti_iPdzK#0] ^шишүү/шиши<v><iv><ger><nom>/шиши<v><iv><ger><nom>+э<cop><aor><p3><pl>/шиши<v><iv><ger><nom>+э<cop><aor><p3><sg>$
 [/67Vgti_iPdzK]
@@ -28,9 +28,9 @@
 [/IgmpMLL2KEjD]
 [L1iILMLS_gsr#0] ^боёй/боё<v><tv><prc_impf>$
 [/L1iILMLS_gsr]
-[LFj7ohXFGW-S#0] ^коюу/кой<v><tv><ger><nom>/кой<v><tv><ger><nom>+э<cop><aor><p3><pl>/кой<v><tv><ger><nom>+э<cop><aor><p3><sg>/коюу<adj>/коюу<adj>+э<cop><aor><p3><pl>/коюу<adj>+э<cop><aor><p3><sg>/коюу<adj><subst><nom>/коюу<adj><subst><nom>+э<cop><aor><p3><pl>/коюу<adj><subst><nom>+э<cop><aor><p3><sg>$
+[LFj7ohXFGW-S#0] ^коюу/кой<v><tv><ger><nom>/кой<v><tv><ger><nom>+э<cop><aor><p3><pl>/кой<v><tv><ger><nom>+э<cop><aor><p3><sg>/кой<vaux><ger><nom>/кой<vaux><ger><nom>+э<cop><aor><p3><pl>/кой<vaux><ger><nom>+э<cop><aor><p3><sg>/коюу<adj>/коюу<adj>+э<cop><aor><p3><pl>/коюу<adj>+э<cop><aor><p3><sg>/коюу<adj><subst><nom>/коюу<adj><subst><nom>+э<cop><aor><p3><pl>/коюу<adj><subst><nom>+э<cop><aor><p3><sg>$
 [/LFj7ohXFGW-S]
-[LPT2xEBwjjuH#0] ^коё/кой<v><tv><prc_impf>$
+[LPT2xEBwjjuH#0] ^коё/кой<v><tv><prc_impf>/кой<vaux><prc_impf>$
 [/LPT2xEBwjjuH]
 [OR2lw2HUuGAU#0] ^болуп/бол<v><iv><gna_perf>/бол<v><iv><prc_perf>/бол<vaux><gna_perf>/бол<vaux><prc_perf>$
 [/OR2lw2HUuGAU]
