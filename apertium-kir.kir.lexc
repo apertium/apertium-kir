@@ -95,6 +95,7 @@
 %<mod_ind%> ! Indefinite modal particle (expresses doubt)
 %<mod_dub%> ! Dubative
 %<emph%>    ! Polite emphatic particle used with imperatives
+%<mod%>     ! To replace all of the above!
 
 %<pst%>     ! Positive level of comparison
 %<comp%>    ! Comparative level of comparison 
@@ -1402,8 +1403,8 @@ LEXICON PRON-COLL   ! "Collective"(?) pronoun-like numbers
 
 LEXICON CLIT-QST-NO-BI
 
-%+беле%<qst%>:% беле # ;
-%+бекен%<qst%>:% бекен # ;
+%+бы%<qst%>+эле%<mod%>:% беле # ;
+%+бы%<qst%>+экен%<mod%>:% бекен # ;
 !%+чы%<mod_foc%>:%>ч%{I%} # ;
 %+чы%<qst%>:%>ч%{I%} # ;
 # ;
@@ -1413,22 +1414,22 @@ LEXICON CLIT-QST
 V-CLIT-BI ;
 CLIT-QST-NO-BI ;
 
-LEXICON CLIT-MODASS
+!LEXICON CLIT-MODASS
+!
+!%+го%<mod%>:% го # ;
+!# ;
 
-%+го%<mod_ass%>:% го # ;
-# ;
-
-LEXICON CLIT-GANA-ETC
-
-!!! FIXME: These are all in POSTADV in Kyrgyz
-# ;
+!LEXICON CLIT-GANA-ETC
+!
+!!!! FIXME: These are all in POSTADV in Kyrgyz
+!# ;
 
 
 LEXICON CLITICS-NO-COP
 
 CLIT-QST ;
-CLIT-MODASS ;
-CLIT-GANA-ETC ;
+!CLIT-MODASS ;
+!CLIT-GANA-ETC ;
 
 LEXICON CLITICS-INCL-COP         ! Can appear only after nominals
                                  ! (and only after some cases).
@@ -1459,11 +1460,11 @@ LEXICON V-CLIT-BI
 LEXICON V-CLIT-OTHER
 
 CLIT-QST-NO-BI ;
-CLIT-MODASS ;
+!CLIT-MODASS ;
 CLIT-CHI ;
-%+да%<mod_tru%>:% да # ;
+!%+да%<mod_tru%>:% да # ;
 %+дыр%<mod_ind%>:%>%{D%}%{I%}р # ;   ! FIXME: twol size acts like this is causative
-%+имиш%<mod_dub%>:% имиш # ;
+!%+имиш%<mod_dub%>:% имиш # ;
 !%го%<mod_ass%>:го # ;
 !%да%<mod_tru%>:да # ;
 # ;
@@ -1602,7 +1603,7 @@ LEXICON V-INFL-NON-FINITE-IRREG
 %<prc_perf%>:%>%{I%}п # ;
 !%<neg%>%<prc_real%>:%>%{B%}%{A%}%>%{E%} # ;
 %<neg%>%<prc_perf%>:%>%{B%}%{A%}%>%{E%} # ;
-%<prc_plan%>:%>%{G%}%{A%}н%{I%} CLIT-GANA-ETC ;
+%<prc_plan%>:%>%{G%}%{A%}н%{I%} # ; ! CLIT-GANA-ETC ;
 
 ! Verbal adverbs
 %<gna_ala%>:%>м%{A%}й%{I%}нч%{A%} # ;       ! no negative form  ! rare IS
@@ -1882,11 +1883,18 @@ LEXICON Miscellaneous
 ! ! FIXME: Add the other forms as Dir/LR
 бы%<qst%>:%~бы # ; ! Dir/RL 
 бы%<qst%>:бы # ; ! Dir/LR 
-бекен%<qst%>:%~бекен # ; ! Dir/RL
-бекен%<qst%>:бекен # ; ! Dir/LR
-го%<mod_ass%>:%~го # ; ! Dir/RL
-го%<mod_ass%>:го # ; ! Dir/LR
-чы%<qst%>:чы # ; 
+!бекен%<qst%>:%~бекен # ; ! Dir/RL
+!бекен%<qst%>:бекен # ; ! Dir/LR
+!го%<mod_ass%>:%~го # ; ! Dir/RL
+!го%<mod_ass%>:го # ; ! Dir/LR
+!чы%<qst%>:чы # ; 
+го%<mod%>:го # ;
+да%<mod%>:да # ;
+имиш%<mod%>:имиш # ;
+! the following are already in the Copula lexicon
+!бы%<qst%>+эле%<mod%>:беле V-PERS-PAST ;
+!бы%<qst%>+экен%<mod%>:бекен V-PERS-COP ;
+
 
 LEXICON Postadverbs
 
