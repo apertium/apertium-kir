@@ -316,7 +316,7 @@
 "<болсо>"
 	"бол" v iv gna_cond p3 sg @advcl #3->8
 "<да>"
-	"да" cnjadv @advmod #4->3
+	"да" cnjadv @advmod:emph #4->3
 "<,>"
 	"," cm @punct #5->8
 "<байдын>"
@@ -489,7 +489,7 @@
 # source = Сыргабековна&Сабыровна:333
 # text = Мурунку көч кайда барса, кийинки көч да ошол жакка барат.
 # text[eng] = Where the former migration goes, the next migration will go there too.
-# labels = cg-checked-jnw dep-initialchecked-jnw
+# labels = cg-checked-jnw dep-checked-jnw
 "<Мурунку>"
 	"мурун" adv attr @amod #1->2
 "<көч>"
@@ -505,7 +505,7 @@
 "<көч>"
 	"көч" n nom @nsubj #7->11
 "<да>"
-	"да" postadv @advmod #8->11
+	"да" postadv @advmod:emph #8->7
 "<ошол>"
 	"ошол" det dem @det #9->10
 "<жакка>"
@@ -905,7 +905,7 @@
 "<Тамашада>"
 	"тамаша" n loc @obl #1->5
 "<да>"
-	"да" postadv @advmod #2->5
+	"да" postadv @advmod:emph #2->1
 "<чындыктын>"
 	"чындык" n gen @nmod:poss #3->4
 "<үлүшү>"
@@ -1664,7 +1664,7 @@
 # source = Сыргабековна&Сабыровна:415
 # text = Таң атпаганга күн да батпайт.
 # text[eng] = The sun doesn't set for a person for whom dawn hasn't broken.
-# labels = cg-checked-jnw dep-tocheck
+# labels = cg-checked-jnw dep-checked-jnw
 "<Таң>"
 	"таң" n nom @nsubj #1->2
 "<атпаганга>"
@@ -1672,7 +1672,7 @@
 "<күн>"
 	"күн" n nom @nsubj #3->5
 "<да>"
-	"да" postadv @advmod #4->5
+	"да" postadv @advmod:emph #4->3
 "<батпайт>"
 	"бат" v iv neg aor p3 sg @root #5->0
 "<.>"
