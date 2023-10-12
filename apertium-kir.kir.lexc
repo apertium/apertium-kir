@@ -1915,7 +1915,7 @@ LEXICON Conjunctions
 
 жана:жана CC ; ! "and"
 болсо:болсо CC ;
-да:да CC ; ! <s>"and"</s> "also", "both ... and ..."
+! да:да CC ; ! <s>"and"</s> "also", "both ... and ..."
 дагы:дагы ADV ; ! "дагы ..." "another ..."
 дагы:дагы CC ; ! "too"
 же:же CC ; ! "or"
@@ -1945,7 +1945,7 @@ LEXICON Conjunctions
 болуп:болуп CS ; ! Dir/RL ""    ! Huh?
 
 га:га CA ;
-да:да CA ;
+!да:да CA ;
 ! сыяктуу CS ;
 ! керек CC ;
 ! арасы CC ;
