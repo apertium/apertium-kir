@@ -95,7 +95,7 @@ _	abbr	_	_	_	NOUN	_	_
 _	adj	_	_	_	ADJ	_	_
 _	adv	_	_	_	ADV	_	_
 _	cm	_	_	_	PUNCT	_	_
-_	cnjadv	_	_	_	SCONJ	_	_
+_	cnjadv	_	_	_	ADV	_	_
 _	cnjcoo	_	_	_	CCONJ	_	_
 _	cnjsub	_	_	_	SCONJ	_	_
 _	cop	_	_	_	AUX	_	_
