@@ -1,0 +1,442 @@
+﻿# id = Manas-UdS:n00xxx
+# text = "Жөн эле тарых үчүн тарых жазылбайт."
+# labels = annotator:zuura_mirlanova
+"<Жөн>"
+	"Жөн" ADJ @advmod #1->6
+"<эле>"
+	"эле" ADP @case #2->1
+"<тарых>"
+	"тарых" NOUN @obj #3->6
+"<үчүн>"
+	"үчүн" ADP @case #4->3
+"<тарых>"
+	"тарых" NOUN @nsubj #5->6
+"<жазылбайт>"
+	"жаз" VERB @root #6->0
+"<.>"
+	"." PUNCT @punct #7->6
+
+# id = Manas-UdS:n00xxx
+# text = "Муну жалпы журт билет, муну калыс тарых тактай, жолдош Мадамин – бек."
+# labels = annotator:zuura_mirlanova
+"<Муну>"
+	"бул" PRON @obj #1->3
+"<жалпы>"
+	"жалпы" ADV @amod #2->3
+"<журт>"
+	"журт" NOUN @nsubj #3->4
+"<билет>"
+	"бил" VERB @parataxis #4->9
+"<,>"
+	"," PUNCT @punct #5->4
+"<муну>"
+	"бул" PRON @obj #6->8
+"<калыс>"
+	"калыс" ADJ @amod #7->8
+"<тарых>"
+	"тарых" NOUN @nsubj #8->9
+"<тактайт>"
+	"такта" VERB @root #9->0
+"<,>"
+	"," PUNCT @punct #10->9
+"<жолдош>"
+	"жолдош" NOUN @vocative #11->9
+"<Мадамин>"
+	"Мадамин" PROPN @appos #12->11
+"<->"
+	"-" PUNCT @punct #13->12
+"<бек>"
+	"бек" ADJ @amod #14->12
+"<.>"
+	"." PUNCT @punct #15->9
+
+# id = Manas-UdS:n00xxx
+# text = "Бул мен үчүн чоң тарых."
+# labels = annotator:zuura_mirlanova
+"<Бул>"
+	"Бул" PROPN @nsubj #1->5
+"<мен>"
+	"мен" PRON @obj #2->5
+"<үчүн>"
+	"үчүн" ADP @case #3->2
+"<чоң>"
+	"чоң" ADJ @amod #4->5
+"<тарых>"
+	"тарых" NOUN @root #5->0
+"<.>"
+	"." PUNCT @punct #6->5
+
+# id = Manas-UdS:n00xxx
+# text = "Улгайып калган кезинде Лу падышачылыгынын тарых китебин жазып баштаган."
+# labels = annotator:zuura_mirlanova
+"<Улгайып>"
+	"Улгай" VERB @advmod #1->2
+"<калган>"
+	"кал" VERB @advmod #2->3
+"<кезинде>"
+	"кез" ADV @advcl #3->8
+"<Лу>"
+	"Лу" PROPN @nmod #4->5
+"<падышачылыгынын>"
+	"падышачылык" NOUN @nmod:poss #5->7
+"<тарых>"
+	"тарых" NOUN @nmod #6->7
+"<китебин>"
+	"китеп" NOUN @obj #7->8
+"<жазып>"
+	"жаз" VERB @root #8->0
+"<баштаган>"
+	"башта" VERB @aux #9->8
+"<.>"
+	"." PUNCT @punct #10->8
+
+# id = Manas-UdS:n00xxx
+# text = "Кийин ошол сүрөттөр гезиттерге да чыкты, тарых болуп сакталып калды." 
+# labels = annotator:zuura_mirlanova
+"<Кийин>"
+	"Кийин" ADV @advmod #1->6
+"<ошол>"
+	"ошол" PRON @amod #2->3
+"<сүрөттөр>"
+	"сүрөт" NOUN @nsubj #3->6
+"<гезиттерге>"
+	"гезит" NOUN @advmod #4->6
+"<да>"
+	"да" ADP @case #5->4
+"<чыкты>"
+	"чык" VERB @root #6->0
+"<,>"
+	"," PUNCT @punct #7->6
+"<тарых>"
+	"тарых" NOUN @nmod #8->9
+"<болуп>"
+	"бол" VERB @advcl #9->10
+"<сакталып>"
+	"сакта" VERB @parataxis #10->6
+"<калды>"
+	"кал" VERB @aux #11->10
+"<.>"
+	"." PUNCT @punct #12->10
+
+# id = Manas-UdS:n00xxx
+# text = "Тарых дайыма кайталанат."
+# labels = annotator:zuura_mirlanova
+"<Тарых>"
+	"Тарых" NOUN @nsubj #1->3
+"<дайыма>"
+	"дайыма" ADV @advmod #2->3
+"<кайталанат>"
+	"кайтала" VERB @root #3->0
+"<.>"
+	"." PUNCT @punct #4->3
+
+# id = Manas-UdS:n00xxx
+# text = "Кыргыз тили байыркы бай тилдердин бири экендиги тарых барактарында маалымдалат."
+# labels = annotator:zuura_mirlanova
+"<Кыргыз>"
+	"Кыргыз" NOUN @nmod #1->2
+"<тили>"
+	"тил" NOUN @nsubj #2->10
+"<байыркы>"
+	"байыркы" ADJ @amod #3->5
+"<бай>"
+	"бай" ADJ @amod #4->5
+"<тилдердин>"
+	"тил" NOUN @nmod:poss #5->6
+"<бири>"
+	"бир" NUM @nummod #6->7
+"<экендиги>"
+	"экен" VERB @obj #7->10
+"<тарых>"
+	"тарых" NOUN @nmod #8->9
+"<барактарында>"
+	"барак" NOUN @advmod #9->10
+"<маалымдалат>"
+	"маалымда" VERB @root #10->0
+"<.>"
+	"." PUNCT @punct #11->10
+
+# id = Manas-UdS:n00xxx
+# text = "Албетте, тарых мерчеми менен алганда 17 жыл көз ирмемдик убакыт болоор."
+# labels = annotator:zuura_mirlanova
+"<Албетте>"
+	"Албетте" ADV @discourse:mark #1->12
+"<,>"
+	"," PUNCT @punct #2->1
+"<тарых>"
+	"тарых" NOUN @nmod #3->4
+"<мерчеми>"
+	"мерчем" NOUN @obj #4->6
+"<менен>"
+	"менен" ADP @case #5->4
+"<алганда>"
+	"ал" VERB @advcl #6->12
+"<17>"
+	"17" NUM @nummod #7->8
+"<жыл>"
+	"жыл" NOUN @nmod #8->10
+"<көз>"
+	"көз" NOUN @nmod #9->10
+"<ирмемдик>"
+	"ирмем" NOUN @amod #10->11
+"<убакыт>"
+	"убакыт" NOUN @nmod #11->12
+"<болоор>"
+	"бол" VERB @root #12->0
+"<.>"
+	"." PUNCT @punct #13->12
+
+# id = Manas-UdS:n00xxx
+# text = "Ата-бабаларыбыздан калган бай тарых, баа жеткис мурас бизге чоң жоопкерчиликти жүктөйт."
+# labels = annotator:zuura_mirlanova
+"<Ата-бабаларыбыздан>"
+	"Ата-баба" VERB @obj #1->2
+"<калган>"
+	"кал" VERB @acl #2->4
+"<бай>"
+	"бай" ADJ @amod #3->4
+"<тарых>"
+	"тарых" NOUN @nsubj #4->12
+"<,>"
+	"," PUNCT @punct #5->4
+"<баа>"
+	"баа" NOUN @nmod #6->7
+"<жеткис>"
+	"жет" VERB @amod #7->8
+"<мурас>"
+	"мурас" NOUN @nsubj #8->12
+"<бизге>"
+	"биз" PRON @obj #9->12
+"<чоң>"
+	"чоң" ADJ @amod #10->11
+"<жоопкерчиликти>"
+	"жоопкерчилик" NOUN @obj #11->12
+"<жүктөйт>"
+	"жүктө" VERB @root #12->0
+"<.>"
+	"." PUNCT @punct #13->12
+
+# id = Manas-UdS:n00xxx
+# text = "ЖЭБ, Тарых музейиндеги желген акчалар иликтениши кажет." 
+# labels = annotator:zuura_mirlanova
+"<ЖЭБ>"
+	"ЖЭБ" NOUN @nmod #1->5
+"<,>"
+	"," PUNCT @punct #2->1
+"<Тарых>"
+	"Тарых" NOUN @nmod #3->4
+"<музейиндеги>"
+	"музей" NOUN @advmod #4->5
+"<желген>"
+	"же" VERB @acl #5->6
+"<акчалар>"
+	"акча" NOUN @nsubj #6->7
+"<иликтениши>"
+	"иликте" VERB @root #7->0
+"<кажет>"
+	"кажет" VERB @cop #8->7
+"<.>"
+	"." PUNCT @punct #9->7
+
+# id = Manas-UdS:n00xxx
+# text = "Кыргызга кыянат кылгандар кимдер экенин тарых алдында ачык айтылышы керек."
+# labels = annotator:zuura_mirlanova
+"<Кыргызга>"
+	"Кыргыз" NOUN @obj #1->2
+"<кыянат>"
+	"кыянат" NOUN @nmod #2->3
+"<кылгандар>"
+	"кыл" VERB @nsubj #3->9
+"<кимдер>"
+	"ким" PRON @nmod #4->5
+"<экенин>"
+	"экен" VERB @advcl #5->9
+"<тарых>"
+	"тарых" NOUN @nmod #6->7
+"<алдында>"
+	"алды" ADV @advcl #7->9
+"<ачык>"
+	"ачык" ADV @advmod #8->9
+"<айтылышы>"
+	"айт" VERB @root #9->0
+"<керек>"
+	"керек" VERB @aux #10->9
+"<.>"
+	"." PUNCT @punct #11->9
+
+# id = Manas-UdS:n00xxx
+# text = "Мурда транспорт министри болуп иштеген."  
+# labels = annotator:zuura_mirlanova
+"<Мурда>"
+	"Мурда" ADV @advmod #1->4
+"<транспорт>"
+	"транспорт" NOUN @nmod #2->3
+"<министри>"
+	"министр" NOUN @obj #3->4
+"<болуп>"
+	"бол" VERB @root #4->0
+"<иштеген>"
+	"иште" VERB @aux #5->4
+"<.>"
+	"." PUNCT @punct #6->4
+
+# id = Manas-UdS:n00xxx
+# text = "Спорт — адамдын денесин чыңайт, эмгек — адамдын туруктуулугун сынайт."
+# labels = annotator:zuura_mirlanova
+"<Спорт>"
+	"Спорт" NOUN @nsubj #1->5
+"<—>"
+	"—" PUNCT @punct #2->1
+"<адамдын>"
+	"адам" NOUN @nmod:poss #3->4
+"<денесин>"
+	"дене" NOUN @obj #4->5
+"<чыңайт>"
+	"чыңа" VERB @root #5->0
+"<,>"
+	"," PUNCT @punct #6->5
+"<эмгек>"
+	"эмгек" NOUN @nsubj #7->11
+"<—>"
+	"—" PUNCT @punct #8->7
+"<адамдын>"
+	"адам" NOUN @nmod:poss #9->10
+"<туруктуулугун>"
+	"туруктуулук" NOUN @obj #10->11
+"<сынайт>"
+	"сына" VERB @parataxis #11->5
+"<.>"
+	"." PUNCT @punct #12->11
+
+# id = Manas-UdS:n00xxx
+# text = "Айылда кайсыл шарт, спорт зал жок."
+# labels = annotator:zuura_mirlanova
+"<Айылда>"
+	"Айыл" NOUN @advmod #1->3
+"<кайсыл>"
+	"кайсыл" ADJ @amod #2->3
+"<шарт>"
+	"шарт" NOUN #3->
+"<,>"
+	"," PUNCT @punct #4->3
+"<спорт>"
+	"спорт" NOUN @nmod #5->6
+"<зал>"
+	"зал" NOUN @nsubj #6->7
+"<жок>"
+	"жок" NOUN @root #7->0
+"<.>"
+	"." PUNCT @punct #8->7
+
+# id = Manas-UdS:n00xxx
+# text = "Спорт тармагында жараткан ийгиликтери арбын."
+# labels = annotator:zuura_mirlanova
+"<Спорт>"
+	"Спорт" NOUN @nmod #1->2
+"<тармагында>"
+	"тармак" NOUN @advmod #2->3
+"<жараткан>"
+	"жарат" VERB @acl #3->4
+"<ийгиликтери>"
+	"ийгилик" NOUN @nsubj #4->5
+"<арбын>"
+	"арбын" ADV @root #5->0
+"<.>"
+	"." PUNCT @punct #6->5
+
+# id = Manas-UdS:n00xxx
+# text = "Сиз спорт чеберисиз."
+# labels = annotator:zuura_mirlanova
+"<Сиз>"
+	"Сиз" PRON @nsubj #1->3
+"<спорт>"
+	"спорт" NOUN @obj #2->3
+"<чеберисиз>"
+	"чебер" NOUN @root #3->0
+"<.>"
+	"." PUNCT @punct #4->3
+
+# id = Manas-UdS:n00xxx
+# text = "Менин өзүмдүн өмүрүм спорт менен байланышкан."
+# labels = annotator:zuura_mirlanova
+"<Менин>"
+	"Мен" PRON @det:poss #1->3
+"<өзүмдүн>"
+	"өзүм" PRON @det:poss #2->3
+"<өмүрүм>"
+	"өмүр" NOUN @nsubj #3->6
+"<спорт>"
+	"спорт" NOUN @obj #4->6
+"<менен>"
+	"менен" ADP @case #5->4
+"<байланышкан>"
+	"байланыш" VERB @root #6->0
+"<.>"
+	"." PUNCT @punct #7->6
+
+# id = Manas-UdS:n00xxx
+# text = "Канализация, газ, бала бакча, жаштар үчүн спорт аянтчасы жок."
+# labels = annotator:zuura_mirlanova
+"<Канализация>"
+	"Канализация" NOUN @nsubj #1->12
+"<,>"
+	"," PUNCT @punct #2->1
+"<газ>"
+	"газ" NOUN @nsubj #3->12
+"<,>"
+	"," PUNCT @punct #4->3
+"<бала>"
+	"бала" NOUN @cop #5->6
+"<бакча>"
+	"бакча" NOUN @nsubj #6->12
+"<,>"
+	"," PUNCT @punct #7->6
+"<жаштар>"
+	"жаштар" NOUN @obj #8->10
+"<үчүн>"
+	"үчүн" ADP @case #9->8
+"<спорт>"
+	"спорт" NOUN @nmod #10->11
+"<аянтчасы>"
+	"аянтча" NOUN @nsubj #11->12
+"<жок>"
+	"жок" ADJ @root #12->0
+"<.>"
+	"." PUNCT @punct #13->12
+
+# id = Manas-UdS:n00xxx
+# text = "Күйөө балам Дүйшөнбай спорт чебери." 
+# labels = annotator:zuura_mirlanova
+"<Күйөө>"
+	"Күйөө" NOUN @nmod #1->2
+"<балам>"
+	"бала" NOUN @nsubj #2->5
+"<Дүйшөнбай>"
+	"Дүйшөнбай" PROPN @appos #3->2
+"<спорт>"
+	"спорт" NOUN @nmod #4->5
+"<чебери>"
+	"чебер" NOUN @root #5->0
+"<.>"
+	"." PUNCT @punct #6->5
+
+# id = Manas-UdS:n00xxx
+# text = "Анан үй салып жертөлөсүн спорт зал кылышты."
+# labels = annotator:zuura_mirlanova
+"<Анан>"
+	"Анан" ADV @advmod #1->3
+"<үй>"
+	"үй" NOUN @obj #2->3
+"<салып>"
+	"сал" VERB @advcl #3->7
+"<жертөлөсүн>"
+	"жертөлө" NOUN @obj #4->7
+"<спорт>"
+	"спорт" NOUN @nmod #5->6
+"<зал>"
+	"зал" NOUN @obj #6->7
+"<кылышты>"
+	"кыл" VERB @root #7->0
+"<.>"
+	"." PUNCT @punct #8->7
+
