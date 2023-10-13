@@ -59,17 +59,17 @@
 # text = Натыйжалар жарыяланыптыр да, ээ?
 # text[en] = The results have been announced, haven't they?
 "<Натыйжалар>"
-	"натыйжа" n pl nom
+	"натыйжа" n pl nom @nsubj #1->2
 "<жарыяланыптыр>"
-	"жарыяла" v tv pass ifi evid p3 pl
+	"жарыяла" v tv pass ifi evid p3 pl @root #2->0
 "<да>"
-	"да" mod
+	"да" mod @discourse #3->2
 "<,>"
-	"," cm
+	"," cm @punct #4->2
 "<ээ>"
-	"ээ" mod
+	"ээ" mod @discourse #5->2
 "<?>"
-	"?" sent
+	"?" sent @punct #6->2
 
 # sent_id = 16
 # text = Айша бул китепти окуган эмес.
