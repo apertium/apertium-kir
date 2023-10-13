@@ -4,8 +4,8 @@ import sys
 from subprocess import Popen, PIPE
 
 disambig_process = Popen(["vislcg3", "-g", "-z", "../apertium-kir.kir.rlx"], stdin=PIPE, stdout=PIPE)
-cg-conv_process = Popen(["cg-conv", "-a", "-l" "-z"], stdin=PIPE, stdout=disambig_process.stdin)
-transducer_process = Popen(["hfst-proc", "-w", "-z", "../kir.automorf.hfst"], stdin=PIPE, stdout=cg-conv_process.stdin)
+cgconv_process = Popen(["cg-conv", "-a", "-l" "-z"], stdin=PIPE, stdout=disambig_process.stdin)
+transducer_process = Popen(["hfst-proc", "-w", "-z", "../kir.automorf.hfst"], stdin=PIPE, stdout=cgconv_process.stdin)
 
 def get_analysis(text):
 	print(text)
