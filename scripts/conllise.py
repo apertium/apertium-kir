@@ -234,9 +234,14 @@ for depseg in sents_depseg:
 	foundRoot = 0
 	for j in range(0, len(tokens)):
 		token = tokens[j]
-		if len(token[1]) > 1: # This is a multi-token word
+		segs = segmentations[j][1]
+		orig_segs = segs
+		#print(token, file=sys.stderr)
+		if len(token[1]) > 1 or len(segs)>1: # This is a multi-token word from .dep OR .seg source
 			# {2: ('chawe', [(3, '_', 'chi', '_', '_', '_', 4, '_', '_', '_'), (4, '_', 'awe', '_', '_', '_', 2, '_', '_', '_')])}
-			segs = segmentations[j][1]
+			#print(segs, token, file=sys.stderr)
+			#if (len(segs) == len(token[1]) - 1) and (segs[-1] == ""): # if the last subtoken and it's empty
+			#	noSpace = "SpaceAfter=No"
 			if len(tokens[1]) != len(segmentations[j][1]):
 				#print('!!!',segs,file=sys.stderr )
 				# This is hacky :(
@@ -244,10 +249,18 @@ for depseg in sents_depseg:
 					segs = merge_segmentations(segmentations[j][1], len(token[1]), direction='R')
 				else:
 					segs = merge_segmentations(segmentations[j][1], len(token[1]))
-			print('%d-%d\t%s\t_\t_\t_\t_\t_\t_\t_\t_' % (token[1][0][0], token[1][-1][0], token[0]))
+			if len(token[1]) > 1: # only if multi-word from .dep source
+				print('%d-%d\t%s\t_\t_\t_\t_\t_\t_\t_\t_' % (token[1][0][0], token[1][-1][0], token[0]))
 			for (k, word) in enumerate(token[1]):
-				if (k < len(token[1])-1): # if not the last subtoken
+				#print(k, word, file=sys.stderr)
+				#print(k, len(token[1]), orig_segs, segs, word, token[1], file=sys.stderr)
+				#if (k < len(token[1])-1): # if not the last subtoken
+				#(k < len(token[1])-1) or (k == len(token[1])-1 and word == ""): # if not the last subtoken OR if last token and empty
+				if (k < len(token[1])-1) or (k == len(token[1])-1 and orig_segs[-1]==""): # if not the last subtoken OR if the last subtoken which is also ""
 					noSpace = "SpaceAfter=No"
+				#elif (k >= len(token[1])-1 and word == ""):
+				#	print("TESTING", file=sys.stderr)
+				#elif noSpace == "":
 				else:
 					noSpace = "_"
 				(analysis, misc) = apply_rules(rules, word)
@@ -268,6 +281,7 @@ for depseg in sents_depseg:
 					print('ERROR:',current_sent_id,' Cycle found', line, file=sys.stderr)
 				if word[7] == '' or word[7] == None:
 					print('ERROR:',current_sent_id,' Invalid deprel', line, file=sys.stderr)
+				noSpace = ""
 	
 			converted_words += len(token[1])
 		else:

@@ -58,6 +58,18 @@
 # sent_id = 15
 # text = Натыйжалар жарыяланыптыр да, ээ?
 # text[en] = The results have been announced, haven't they?
+"<Натыйжалар>"
+	"натыйжа" n pl nom
+"<жарыяланыптыр>"
+	"жарыяла" v tv pass ifi evid p3 pl
+"<да>"
+	"да" mod
+"<,>"
+	"," cm
+"<ээ>"
+	"ээ" mod
+"<?>"
+	"?" sent
 
 # sent_id = 16
 # text = Айша бул китепти окуган эмес.
