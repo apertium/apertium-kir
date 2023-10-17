@@ -26,6 +26,23 @@
 # sent_id = 7
 # text = Макул, анда китеп текчесиндегилер кайда эле?
 # text[en] = Okay, then where are/were the ones on the bookshelf?
+"<Макул>"
+	"Макул" ij @discourse #1->7
+"<,>"
+	"," cm @punct #2->7
+"<анда>"
+	"анда" adv @advmod #3->7
+"<китеп>"
+	"китеп" n nom @nmod:poss #4->5
+"<текчесиндегилер>"
+	"текче" n px3sp loc attr @nmod:loc #5->6
+		"_" n nom pl @nsubj #6->7
+"<кайда>"
+	"кайда" adv @root #7->0
+"<эле>"
+	"эле" cop ifi p3 pl @cop #8->7
+"<?>"
+	"?" sent @punct #9->7
 
 # sent_id = 8
 # text = Суде үч саат бою кеңседе болгон жок, Айша да үйдө болгон эмес экен.
