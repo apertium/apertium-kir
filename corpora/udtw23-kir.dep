@@ -2,6 +2,35 @@
 # text = Жубайым дачадагы балдар бөлмөсүнүн терезесин шаша-буша тазалап, ашкананыкын тазалабай коюптур.
 # text[en] = My spouse cleaned the windows of the children's room at the summer house hastily, but didn't clean the kitchen's.
 # text[tr] = Eşim yazlıktaki çocuk odasının penceresini apar topar temizlemiş, mutfağınkini temizlememişti.
+"<Жубайым>"
+	"жубай" n px1sg nom @advcl #1->13
+"<дачадагы>"
+	"дача" n loc attr @nmod:loc #2->3
+"<балдар>"
+	"бала" n pl nom @nmod:poss #3->4
+"<бөлмөсүнүн>"
+	"бөлмө" n px3sp gen @nmod:poss #4->5
+"<терезесин>"
+	"терезе" n px3sp acc @obj #5->9
+"<шаша>"
+	"шаш" v iv gna_impf @advcl #6->9
+"<->"
+	"-" guio @punct #7->6
+"<буша>"
+	"буш" v iv gna_impf @fixed #8->6
+"<тазалап>"
+	"тазала" v tv gna_perf @advcl #9->13
+"<,>"
+	"," cm @punct #10->12
+"<ашкананыкын>"
+	"ашкана" n gen @nmod:poss #11->12
+		"_" n acc @obj #12->13
+"<тазалабай>"
+	"тазала" v tv neg prc_perf @root #13->0
+"<коюптур>"
+	"кой" vaux ifi evid p3 sg @aux #14->13
+"<.>"
+	"." sent @punct #15->13
 
 # sent_id = 2
 # text = Мен сага дайыма айтам, күндө эртең менен досуң менен телефондо сүйлөшкөндө мен жөнүндө сөз кылба.
