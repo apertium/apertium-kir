@@ -1,5 +1,5 @@
 ﻿# id = Manas-UdS:n00xxx
-# text = "Жөн эле тарых үчүн тарых жазылбайт."
+# text = Жөн эле тарых үчүн тарых жазылбайт.
 # labels = annotator:zuura_mirlanova
 "<Жөн>"
 	"Жөн" ADJ @advmod #1->6
@@ -17,7 +17,7 @@
 	"." PUNCT @punct #7->6
 
 # id = Manas-UdS:n00xxx
-# text = "Муну жалпы журт билет, муну калыс тарых тактай, жолдош Мадамин – бек."
+# text = Муну жалпы журт билет, муну калыс тарых тактай, жолдош Мадамин – бек.
 # labels = annotator:zuura_mirlanova
 "<Муну>"
 	"бул" PRON @obj #1->3
@@ -51,7 +51,7 @@
 	"." PUNCT @punct #15->9
 
 # id = Manas-UdS:n00xxx
-# text = "Бул мен үчүн чоң тарых."
+# text = Бул мен үчүн чоң тарых.
 # labels = annotator:zuura_mirlanova
 "<Бул>"
 	"Бул" PROPN @nsubj #1->5
@@ -67,7 +67,7 @@
 	"." PUNCT @punct #6->5
 
 # id = Manas-UdS:n00xxx
-# text = "Улгайып калган кезинде Лу падышачылыгынын тарых китебин жазып баштаган."
+# text = Улгайып калган кезинде Лу падышачылыгынын тарых китебин жазып баштаган.
 # labels = annotator:zuura_mirlanova
 "<Улгайып>"
 	"Улгай" VERB @advmod #1->2
@@ -91,7 +91,7 @@
 	"." PUNCT @punct #10->8
 
 # id = Manas-UdS:n00xxx
-# text = "Кийин ошол сүрөттөр гезиттерге да чыкты, тарых болуп сакталып калды." 
+# text = Кийин ошол сүрөттөр гезиттерге да чыкты, тарых болуп сакталып калды. 
 # labels = annotator:zuura_mirlanova
 "<Кийин>"
 	"Кийин" ADV @advmod #1->6
@@ -119,7 +119,7 @@
 	"." PUNCT @punct #12->10
 
 # id = Manas-UdS:n00xxx
-# text = "Тарых дайыма кайталанат."
+# text = Тарых дайыма кайталанат.
 # labels = annotator:zuura_mirlanova
 "<Тарых>"
 	"Тарых" NOUN @nsubj #1->3
@@ -131,7 +131,7 @@
 	"." PUNCT @punct #4->3
 
 # id = Manas-UdS:n00xxx
-# text = "Кыргыз тили байыркы бай тилдердин бири экендиги тарых барактарында маалымдалат."
+# text = Кыргыз тили байыркы бай тилдердин бири экендиги тарых барактарында маалымдалат.
 # labels = annotator:zuura_mirlanova
 "<Кыргыз>"
 	"Кыргыз" NOUN @nmod #1->2
@@ -157,7 +157,7 @@
 	"." PUNCT @punct #11->10
 
 # id = Manas-UdS:n00xxx
-# text = "Албетте, тарых мерчеми менен алганда 17 жыл көз ирмемдик убакыт болоор."
+# text = Албетте, тарых мерчеми менен алганда 17 жыл көз ирмемдик убакыт болоор.
 # labels = annotator:zuura_mirlanova
 "<Албетте>"
 	"Албетте" ADV @discourse:mark #1->12
@@ -187,7 +187,7 @@
 	"." PUNCT @punct #13->12
 
 # id = Manas-UdS:n00xxx
-# text = "Ата-бабаларыбыздан калган бай тарых, баа жеткис мурас бизге чоң жоопкерчиликти жүктөйт."
+# text = Ата-бабаларыбыздан калган бай тарых, баа жеткис мурас бизге чоң жоопкерчиликти жүктөйт.
 # labels = annotator:zuura_mirlanova
 "<Ата-бабаларыбыздан>"
 	"Ата-баба" VERB @obj #1->2
@@ -217,7 +217,7 @@
 	"." PUNCT @punct #13->12
 
 # id = Manas-UdS:n00xxx
-# text = "ЖЭБ, Тарых музейиндеги желген акчалар иликтениши кажет." 
+# text = ЖЭБ, Тарых музейиндеги желген акчалар иликтениши кажет. 
 # labels = annotator:zuura_mirlanova
 "<ЖЭБ>"
 	"ЖЭБ" NOUN @nmod #1->5
@@ -239,7 +239,7 @@
 	"." PUNCT @punct #9->7
 
 # id = Manas-UdS:n00xxx
-# text = "Кыргызга кыянат кылгандар кимдер экенин тарых алдында ачык айтылышы керек."
+# text = Кыргызга кыянат кылгандар кимдер экенин тарых алдында ачык айтылышы керек.
 # labels = annotator:zuura_mirlanova
 "<Кыргызга>"
 	"Кыргыз" NOUN @obj #1->2
@@ -265,7 +265,7 @@
 	"." PUNCT @punct #11->9
 
 # id = Manas-UdS:n00xxx
-# text = "Мурда транспорт министри болуп иштеген."  
+# text = Мурда транспорт министри болуп иштеген.  
 # labels = annotator:zuura_mirlanova
 "<Мурда>"
 	"Мурда" ADV @advmod #1->4
@@ -281,7 +281,7 @@
 	"." PUNCT @punct #6->4
 
 # id = Manas-UdS:n00xxx
-# text = "Спорт — адамдын денесин чыңайт, эмгек — адамдын туруктуулугун сынайт."
+# text = Спорт — адамдын денесин чыңайт, эмгек — адамдын туруктуулугун сынайт.
 # labels = annotator:zuura_mirlanova
 "<Спорт>"
 	"Спорт" NOUN @nsubj #1->5
@@ -309,7 +309,7 @@
 	"." PUNCT @punct #12->11
 
 # id = Manas-UdS:n00xxx
-# text = "Айылда кайсыл шарт, спорт зал жок."
+# text = Айылда кайсыл шарт, спорт зал жок.
 # labels = annotator:zuura_mirlanova
 "<Айылда>"
 	"Айыл" NOUN @advmod #1->3
@@ -329,7 +329,7 @@
 	"." PUNCT @punct #8->7
 
 # id = Manas-UdS:n00xxx
-# text = "Спорт тармагында жараткан ийгиликтери арбын."
+# text = Спорт тармагында жараткан ийгиликтери арбын.
 # labels = annotator:zuura_mirlanova
 "<Спорт>"
 	"Спорт" NOUN @nmod #1->2
@@ -345,7 +345,7 @@
 	"." PUNCT @punct #6->5
 
 # id = Manas-UdS:n00xxx
-# text = "Сиз спорт чеберисиз."
+# text = Сиз спорт чеберисиз.
 # labels = annotator:zuura_mirlanova
 "<Сиз>"
 	"Сиз" PRON @nsubj #1->3
@@ -357,7 +357,7 @@
 	"." PUNCT @punct #4->3
 
 # id = Manas-UdS:n00xxx
-# text = "Менин өзүмдүн өмүрүм спорт менен байланышкан."
+# text = Менин өзүмдүн өмүрүм спорт менен байланышкан.
 # labels = annotator:zuura_mirlanova
 "<Менин>"
 	"Мен" PRON @det:poss #1->3
@@ -375,7 +375,7 @@
 	"." PUNCT @punct #7->6
 
 # id = Manas-UdS:n00xxx
-# text = "Канализация, газ, бала бакча, жаштар үчүн спорт аянтчасы жок."
+# text = Канализация, газ, бала бакча, жаштар үчүн спорт аянтчасы жок.
 # labels = annotator:zuura_mirlanova
 "<Канализация>"
 	"Канализация" NOUN @nsubj #1->12
@@ -405,7 +405,7 @@
 	"." PUNCT @punct #13->12
 
 # id = Manas-UdS:n00xxx
-# text = "Күйөө балам Дүйшөнбай спорт чебери." 
+# text = Күйөө балам Дүйшөнбай спорт чебери. 
 # labels = annotator:zuura_mirlanova
 "<Күйөө>"
 	"Күйөө" NOUN @nmod #1->2
@@ -421,7 +421,7 @@
 	"." PUNCT @punct #6->5
 
 # id = Manas-UdS:n00xxx
-# text = "Анан үй салып жертөлөсүн спорт зал кылышты."
+# text = Анан үй салып жертөлөсүн спорт зал кылышты.
 # labels = annotator:zuura_mirlanova
 "<Анан>"
 	"Анан" ADV @advmod #1->3
@@ -439,4 +439,3 @@
 	"кыл" VERB @root #7->0
 "<.>"
 	"." PUNCT @punct #8->7
-

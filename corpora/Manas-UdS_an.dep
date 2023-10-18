@@ -1,0 +1,407 @@
+# sent_id = Manas-UdS:n00xxx
+# text = Ал медицина борборунун директору болгон.
+# labels = annotator: Alina_Niiazbekkyzy
+"<Ал>"
+	"Ал" PRON @nsubj #1->5
+"<медицина>"
+	"медицина" NOUN @obl #2->3
+"<борборунун>"
+	"борбор" NOUN @obl #3->4
+"<директору>"
+	"директор" NOUN @obj #4->5
+"<болгон>"
+	"бол" VERB @root #5->0
+"<.>"
+	"." PUNCT @punct #6->5
+
+# sent_id = Manas-UdS:n00xxx
+# text = Анда байыркы кыргыздардын медицина жөнүндөгү маалыматтары топтолгон.
+# labels = annotator: Alina_Niiazbekkyzy
+"<Анда>"
+	"Анда" NOUN @nsubj #1->7
+"<байыркы>"
+	"байыркы" ADJ @amod #2->3
+"<кыргыздардын>"
+	"кыргыз" NOUN @nmod:poss #3->6
+"<медицина>"
+	"медицина" NOUN @obl #4->6
+"<жөнүндөгү>"
+	"жөнүндө" DET @case #5->4
+"<маалыматтары>"
+	"маалымат" NOUN @obj #6->7
+"<топтолгон>"
+	"топто" VERB @root #7->0
+"<.>"
+	"." PUNCT @punct #8->7
+
+# sent_id = Manas-UdS:n00xxx
+# text = Алар ветеринардык медицина, биотехнология жаатында кызматтанууда.
+# labels = annotator: Alina_Niiazbekkyzy
+"<Алар>"
+	"Алар" PRON @nsubj #1->7
+"<ветеринардык>"
+	"ветеринар" NOUN @compound #2->3
+"<медицина>"
+	"медицина" NOUN @conj #3->5
+"<,>"
+	"," PUNCT @punct #4->7
+"<биотехнология>"
+	"биотехнология" NOUN @obl #5->6
+"<жаатында>"
+	"жаат" NOUN @obj #6->7
+"<кызматтанууда>"
+	"кызмат" VERB @root #7->0
+"<.>"
+	"." PUNCT @punct #8->7
+
+# sent_id = Manas-UdS:n00xxx
+# text = Жылда 11000дей оруулулар дарыланат.
+# labels = annotator: Alina_Niiazbekkyzy
+"<Жылда>"
+	"Жыл" ADV @advcl #1->4
+"<11000дей>"
+	"11000дей" NUM @nummod #2->3
+"<оорулуулар>"
+	"оорулуу" NOUN @nsubj #3->4
+"<дарыланат>"
+	"дарыла" VERB @root #4->0
+"<.>"
+	"." PUNCT @punct #5->4
+ 
+# sent_id = Manas-UdS:n00xxx
+# text = Биздин бөлүм 40 койкага ылайыкталган.
+# labels = annotator: Alina_Niiazbekkyzy
+"<Биздин>"
+	"Биз" PRON @det:poss #1->2
+"<бөлүм>"
+	"бөлүм" NOUN @nsubj #2->5
+"<40>"
+	"40" NUM @nummod #3->4
+"<койкага>"
+	"койка" NOUN @obj #4->5
+"<ылайыкталган>"
+	"ылайык" VERB @root #5->0
+"<.>"
+	"." PUNCT @punct #6->5
+ 
+# sent_id = Manas-UdS:n00xxx
+# text = Өлкөдө 2000ден ашуун медицина кызматкерлери окуутулуда.
+# labels = annotator: Alina_Niiazbekkyzy
+"<Өлкөдө>"
+	"Өлкө" NOUN @obl #1->6
+"<2000ден>"
+	"2000ден" NUM @nummod #2->5
+"<ашуун>"
+	"ашуун" ADV @advmod #3->2
+"<медицина>"
+	"медицина" NOUN @nmod:poss #4->5
+"<кызматкерлери>"
+	"кызматкер" NOUN @nsubj #5->6
+"<окуутулуда>"
+	"оку" VERB @root #6->0
+"<.>"
+ 
+# sent_id = Manas-UdS:n00xxx
+# text = Вакциналардын курамы тууралуу маалыматтык баракчалар чыгарылды.
+# labels = annotator: Alina_Niiazbekkyzy
+"<Вакциналардын>"
+	"Вакцина" NOUN @nmod:poss #1->2
+"<курамы>"
+	"курам" NOUN @advmod #2->3
+"<тууралуу>"
+	"тууралуу" DET @case #3->5
+"<маалыматтык>"
+	"маалымат" ADJ @amod #4->5
+"<баракчалар>"
+	"баракча" NOUN @nsubj #5->6
+"<чыгарылды>"
+	"чыгар" VERB @root #6->0
+"<.>"
+
+# sent_id = Manas-UdS:n00xxx
+# text = Биз эмдөөнү зордоп жасай албайбыз.
+# labels = annotator: Alina_Niiazbekkyzy
+"<Биз>"
+	"Биз" PRON @nsubj #1->5
+"<эмдөөнү>"
+	"эмдөө" NOUN @obj #2->5
+"<зордоп>"
+	"зордо" ADV @advcl #3->5
+"<жасай>"
+	"жаса" VERB @aux #4->5
+"<албайбыз>"
+	"ал" VERB @root #5->0
+"<.>"
+	"." PUNCT @punct #6->5
+ 
+# sent_id = Manas-UdS:n00xxx
+# text = Вакциналардын курамын текшерүүчү лабораториялар жок.
+# labels = annotator: Alina_Niiazbekkyzy
+"<Вакциналардын>"
+	"Вакцина" NOUN @nmod:poss #1->2
+"<курамын>"
+	"курам" NOUN @advcl #2->3
+"<текшерүүчү>"
+	"текшерүүчү" ADJ @amod #3->4
+"<лабораториялар>"
+	"лаборатория" NOUN @nsubj #4->5
+"<жок>"
+	"жок" ADJ @root #5->0
+"<.>"
+	"." PUNCT #6->5
+ 
+# sent_id = Manas-UdS:n00xxx
+# text = Эмдөө үч этапта өтөт. 
+# labels = annotator: Alina_Niiazbekkyzy
+"<Эмдөө>"
+	"Эмдөө" NOUN @nsubj #1->4
+"<үч>"
+	"үч" NUM @nummod #2->3
+"<этапта>"
+	"этап" NOUN @obl #3->4
+"<өтөт>"
+	"өт" VERB @root #4->0
+"<.>"
+	"." PUNCT @punct #5->4
+
+# sent_id = Manas-UdS:n00xxx
+# text = Экинчи этапта өнөкөт оорулары барлар эмделет. 
+# labels = annotator: Alina_Niiazbekkyzy
+"<Экинчи>"
+	"Эки" NUM @nummod #1->2
+"<этапта>"
+	"этап" NOUN @advcl #2->6
+"<өнөкөт>"
+	"өнөкөт" ADJ @amod #3->4
+"<оорулары>"
+	"оору" NOUN @acl #4->5
+"<барлар>"
+	"бар" NOUN @nsubj #5->6
+"<эмделет>"
+	"эмде" VERB @root #6->0
+"<.>"
+	"." PUNCT @punct #7->6
+ 
+# sent_id = Manas-UdS:n00xxx
+# text = Коронавирус инфекциясы 30-жылдыр белгилүү.
+# labels = annotator: Alina_Niiazbekkyzy
+"<Коронавирус>"
+	"Коронавирус" NOUN @amod #1->2
+"<инфекциясы>"
+	"инфекция" NOUN @nsubj #2->4
+"<30-жылдыр>"
+	"30-жыл" NUM @nummod #3->4
+"<белгилүү>"
+	"белгилүү" ADJ @root #4->0
+"<.>"
+	"." PUNCT @punct #5->4
+ 
+# sent_id = Manas-UdS:n00xxx
+# text = Ал вирус пневмонияны шарттаган.
+# labels = annotator: Alina_Niiazbekkyzy
+"<Ал>"
+	"Ал" DET @det #1->2
+"<вирус>"
+	"вирус" NOUN @nsubj #2->4
+"<пневмонияны>"
+	"пневмония" NOUN @obj #3->4
+"<шарттаган>"
+	"шартта" VERB @root #4->0
+"<.>"
+	"." PUNCT @punct #5->4
+
+# sent_id = Manas-UdS:n00xxx
+# text = Вирус адамдын денесинде кеңири тарайт.
+# labels = annotator: Alina_Niiazbekkyzy
+"<Вирус>"
+	"Вирус" NOUN @nsubj #1->5
+"<адамдын>"
+	"адам" NOUN @nmod:poss #2->3
+"<денесинде>"
+	"дене" NOUN @obl #3->5
+"<кеңири>"
+	"кеңири" ADV @advmod #4->5
+"<тарайт>"
+	"тара" VERB @root #5->0
+"<.>"
+	"." PUNCT @punct #6->5
+ 
+# sent_id = Manas-UdS:n00xxx
+# text = Профессор 15 медицина илиминин кандидатын даярдады.
+# labels = annotator: Alina_Niiazbekkyzy
+"<Профессор>"
+	"Профессор" NOUN @nsubj #1->6
+"<15>"
+	"15" NUM @nummod #2->3
+"<медицина>"
+	"медицина" NOUN @amod #3->4
+"<илиминин>"
+	"илим" NOUN @nmod:poss #4->5
+"<кандидатын>"
+	"кандидат" NOUN @obj #5->6
+"<даярдады>"
+	"даярда" VERB @root #6->0
+"<.>"
+
+# sent_id = Manas-UdS:n00xxx
+# text = Медицина кызматкерлеринин жетишсиздиги өтө курч маселе.
+# labels = annotator: Alina_Niiazbekkyzy
+"<Медицина>"
+	"Медицина" NOUN @nmod:poss #1->2
+"<кызматкерлеринин>"
+	"кызматкер" NOUN @compound #2->3
+"<жетишсиздиги>"
+	"жетишсиз" NOUN @nsubj #3->6
+"<өтө>"
+	"өтө" ADV @advmod:degree #4->5
+"<курч>"
+	"курч" ADJ @amod #5->6
+"<маселе>"
+	"маселе" NOUN @root #6->0
+"<.>"
+	"." PUNCT @punct #7->6
+
+# sent_id = Manas-UdS:n00xxx
+# text = Айрым айылдарда больницалар жок.
+# labels = annotator: Alina_Niiazbekkyzy
+"<Айрым>"
+	"Айрым" ADJ @amod #1->2
+"<айылдарда>"
+	"айыл" NOUN @obl #2->4
+"<больницалар>"
+	"больница" NOUN @nsubj #3->4
+"<жок>"
+	"жок" ADJ @root #4->0
+"<.>"
+	"." PUNCT @punct #5->4
+ 
+# sent_id = Manas-UdS:n00xxx
+# text = Медицина жана маданият мекемелеринин жылытуу тутумдары оңдолууда.
+# labels = annotator: Alina_Niiazbekkyzy	
+"<Медицина>"
+	"Медицина" NOUN @list #1->3
+"<жана>"
+	"жана" CCONJ @conj #2->1
+"<маданият>"
+	"маданият" NOUN @amod #3->4
+"<мекемелеринин>"
+	"мекеме" NOUN @nmod:poss #4->6
+"<жылытуу>"
+	"жылыт" VERB @amod #5->6
+"<тутумдары>"
+	"тутум" NOUN @nsubj #6->7
+"<оңдолууда>"
+	"оңдо" VERB @root #7->0
+"<.>"
+	"." PUNCT @punct #8->7
+ 
+# sent_id = Manas-UdS:n00xxx
+# text = Милдеттүү медициналык камсыздандыруунун кошумча программасы иштейт.
+# labels = annotator: Alina_Niiazbekkyzy
+"<Милдеттүү>"
+	"Милдеттүү" ADJ @amod #1->3
+"<медициналык>"
+	"медицина" ADJ @amod #2->3
+"<камсыздандыруунун>"
+	"камсыз" NOUN @nmod:poss #3->5
+"<кошумча>"
+	"кошумча" ADJ @amod #4->5
+"<программасы>"
+	"программа" NOUN @nsubj #5->6
+"<иштейт>"
+	"иште" VERB @root #6->0
+"<.>"
+
+# sent_id = Manas-UdS:n00xxx
+# text = Программанын калган бөлүгүн оорулу адам төлөйт.
+# labels = annotator: Alina_Niiazbekkyzy
+"<Программанын>"
+	"Программа" NOUN @nmod:poss #1->3
+"<калган>"
+	"калган" ADJ @amod #2->3
+"<бөлүгүн>"
+	"бөлүгү" NOUN @obj #3->6
+"<оорулу>"
+	"оорулу" ADJ @amod #4->5
+"<адам>"
+	"адам" NOUN @nsubj #5->6
+"<төлөйт>"
+	"төлө" VERB @root #6->0
+"<.>"
+ 
+# sent_id = Manas-UdS:n00xxx
+# text = Медицина кызматкерлеринин айткандарына ынап, эмдөөгө барып келели.
+# labels = annotator: Alina_Niiazbekkyzy
+"<Медицина>"
+	"Медицина" NOUN @amod #1->2
+"<кызматкерлеринин>"
+	"кызматкер" NOUN @nmod:poss #2->3
+"<айткандарына>"
+	"айт" NOUN @obl #3->4
+"<ынап>"
+	"ына" VERB @advcl #4->7
+"<,>"
+	"," PUNCT @punct #5->7
+"<эмдөөгө>"
+	"эмдөө" NOUN @obl #6->7
+"<барып>"
+	"бар" VERB @root #7->0
+"<келели>"
+	"кел" VERB @cop #8->7
+"<.>"
+	"." PUNCT @punct #9->7
+ 
+# sent_id = Manas-UdS:n00xxx
+# text = Биз медицинада чоң реформа кылдык.
+# labels = annotator: Alina_Niiazbekkyzy
+"<Биз>"
+	"Биз" PRON @nsubj #1->5
+"<медицинада>"
+	"медицина" NOUN @obl #2->5
+"<чоң>"
+	"чоң" ADJ @amod #3->4
+"<реформа>"
+	"реформа" NOUN @obj #4->5
+"<кылдык>"
+	"кыл" VERB @root #5->0
+"<.>"
+	"." PUNCT @punct #6->5
+ 
+# sent_id = Manas-UdS:n00xxx
+# text = Эмдөөдөн баш тартуудан мурда баланын ден соолугун ойлосок.
+# labels = annotator: Alina_Niiazbekkyzy
+"<Эмдөөдөн>"
+	"Эмдөө" NOUN @obj #1->3
+"<баш>"
+	"баш" NOUN @compound #2->3
+"<тартуудан>"
+	"тарт" VERB @advcl #3->8
+"<мурда>"
+	"мурда" ADP @mark #4->3
+"<баланын>"
+	"бала" NOUN @nmod:poss #5->7
+"<ден>"
+	"ден" NOUN @compound #6->7
+"<соолугун>"
+	"соолук" NOUN @obj #7->8
+"<ойлосок>"
+	"ойло" VERB @root #8->0
+"<.>"
+	"." PUNCT @punct #9->8
+
+# sent_id = Manas-UdS:n00xxx
+# text = Элибизде вакцина алуу маданияты калыптанган эмес.
+# labels = annotator: Alina_Niiazbekkyzy
+"<Элибизде>"
+	"Эл" NOUN @obl #1->5
+ "<вакцина>"
+	"вакцина" NOUN @compound #2->3
+"<алуу>"
+	"ал" VERB @amod #3->4
+"<маданияты>"
+	"маданият" NOUN @nsubj #4->5
+"<калыптанган>"
+	"калыпта" VERB @root #5->0
+"<эмес>"
+	"эмес" AUX @cop #6->5
+"<.>"

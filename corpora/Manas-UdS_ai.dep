@@ -1,0 +1,423 @@
+﻿#
+#Text identification code	n00911
+#Author	Erkin-Too Press
+#Genre	Law
+#Title (original)	Кыргыз Республикасынын КЫЛМЫШ-ЖАЗА ПРОЦЕССУАЛДЫК КОДЕКСИ
+#Title (english)	CODE OF CRIMINAL PROCEDURE OF THE KYRGYZ REPUBLIC
+#Year of publication	2021
+#
+#sent_id = Manas-UdS: n00911
+#text = Даттануу оозеки жана жазуу жүзүндө болушу мүмкүн. 
+#genre= Law
+#labels = annotator: iskenderova_alina
+"<Даттануу>"
+	"Даттан" NOUN @nsubj #1->6
+"<оозеки>"
+	"оозеки" ADJ @amod #2->5
+"<жана>"
+	"жана" CCONJ @Cc #3->4
+"<жазуу>"
+	"жаз" ADJ @amod #4->5
+"<жүзүндө>"
+	"жүзүндө" ADP @advmod #5->6
+"<болушу>"
+	"бол" VERB @root #6->0
+"<мүмкүн>"
+	"мүмкүн" ADJ @xcomp #7->6
+"<.>"
+	"." PUNCT @punct #8->6
+
+#sent_id = Manas-UdS: n00911
+#text = Даттанууга кошумча материалдар тиркелиши мүмкүн. 
+#genre= Law
+#labels = annotator: iskenderova_alina
+"<Даттанууга>"
+	"Даттан" VERB @iobj #1->3
+"<кошумча>"
+	"кошумча" ADJ @amod #2->3
+"<материалдар>"
+	"материал" NOUN @nsubj #3->4
+"<тиркелиши>"
+	"тирке" VERB @root #4->0
+"<мүмкүн>"
+	"мүмкүн" ADJ @xcomp #5->4
+"<.>"
+	"." PUNCT @punct #6->4
+
+#sent_id = Manas-UdS: n00911
+#text = Даттанууну берген адам аны кайра чакырып алууга укуктуу. 
+#genre= Law
+#labels = annotator: iskenderova_alina
+"<Даттанууну>"
+	"Даттан" NOUN @obj #1->2
+"<берген>"
+	"бер" VERB @acl #2->3
+"<адам>"
+	"адам" NOUN @nsubj #3->8
+"<аны>"
+	"ал" PRON @obj #4->6
+"<кайра>"
+	"кайра" ADV @advmod #5->6
+"<чакырып>"
+	"чакыр" VERB @advmod #6->7
+"<алууга>"
+	"ал" VERB @xcomp #7->8
+"<укуктуу>"
+	"укук" ADJ @root #8->0
+"<.>"
+	"." PUNCT @punct #9->8
+
+#sent_id = Manas-UdS: n00911
+#text = Суроолор так, түшүнүктүү, кыска болууга тийиш. 
+#genre= Law
+#labels = annotator: iskenderova_alina
+"<Суроолор>"
+	"Суроо"  NOUN @nsubj #1->7
+"<так>"
+	"так" ADV @amod #2->7
+"<,>"
+	","  PUNCT @punct #3->4
+"<түшүнүктүү>"
+	"түшүнүк" ADJ @amod #4->7
+"<,>"
+	"," PUNCT @punct #5->6
+"<кыска>"
+	"кыска" ADJ @amod #6->7
+"<болууга>"
+	"бол" VERB @root #7->0
+"<тийиш>"
+	"тийиш" ADJ @xcomp #8->7
+"<.>"
+	"." PUNCT @punct #9->8
+
+#sent_id = Manas-UdS: n00911
+#text = Өтүнүч тергөө судьясы тарабынан каралат. 
+#genre= Law
+#labels = annotator: iskenderova_alina
+"<Өтүнүч>"
+	"Өтүнүч" NOUN @nsubj #1->5
+"<тергөө>"
+	"тергөө" NOUN @nmod #2->3
+"<судьясы>"
+	"судья" NOUN @case  #3->4
+"<тарабынан>"
+	"тарап" ADP@nmod:poss  #4->5
+"<каралат>"
+	"<кара>" VERB @root #5->0
+"<.>"
+	"."  PUNCT @punct #6->5
+
+#sent_id = Manas-UdS: n00911
+#text = Тергөө судьясы арызды  эске алуу менен баалайт. 
+#genre= Law
+#labels = annotator: iskenderova_alina
+"<Тергөө>"
+	"Тергөө" NOUN @nmod #1->2
+"<судьясы>"
+	"судья" NOUN @nsubj #2->7
+"<арызды>"
+	"арыз" NOUN @obj #3->7
+"<эске>"
+	"эс" NOUN @advcl #4->5
+"<алуу>"
+	"ал" VERB @advcl  #5->6
+"<менен>"
+	"менен" ADP @advcl #6->7
+"<баалайт>"
+	"баала" VERB @root #7->0
+"<.>"
+	"." PUNCT @punct #8->7
+
+#sent_id = Manas-UdS: n00911
+#text = Изилдөөнүн жыйынтыктары жөнүндө протокол түзүлөт. 
+#genre= Law
+#labels = annotator: iskenderova_alina
+"<Изилдөөнүн>"
+	"Изилдөө" NOUN @nmod:poss  #1->2
+"<жыйынтыктары>"
+	"жыйынтык" NOUN @case #2->3
+"<жөнүндө>"
+	"жөнүндө" ADP @case #3->4
+"<протокол>"
+	"протокол" NOUN @nsubj #4->5
+"<түзүлөт>"
+	"түз" VERB @root #5->0
+"<.>"
+	"."  PUNCT @punct #6->6
+
+#sent_id = Manas-UdS: n00911
+#text = Айыпталуучу жана анын адвокаты  документтердин көчүрмөсүн алууга укуктуу. 
+#genre= Law
+#labels = annotator: iskenderova_alina
+"<Айыпталуучу>"
+	"Айып" NOUN @nsubj #1->2
+"<жана>"
+	"жана" CCONJ @cc #2->4
+"<анын>"
+	"ал" DET @det #3->4
+"<адвокаты>"
+	"адвокат" NOUN @nsubj #4->8
+"<документтердин>"
+	"документ" NOUN @nmod:poss #5->6
+"<көчүрмөсүн>"
+	"көчүрмө" NOUN @obj #6->7
+"<алууга>"
+	"ал" VERB @xcomp  #7->8
+"<укуктуу>"
+	"укук" ADJ @root @root #8->0
+"<.>"
+	"." PUNCT @punct #9->8
+
+#sent_id = Manas-UdS: n00911
+#text = Сот приставынын талаптары соттук отурумдун залындагы адамдар үчүн милдеттүү болот. 
+#genre= Law
+#labels = annotator: iskenderova_alina
+"<Сот>"
+	"Сот" NOUN @nmod #1->2
+"<приставынын>"
+	"пристав" NOUN @nmod:poss #2->4
+"<талаптары>"
+	"талап" NOUN @nsubj #3->10
+"<соттук>"
+	"сот" ADJ @amod #4->5
+"<отурумдун>"
+	"отурум" NOUN @nmod #5->6
+"<залындагы>"
+	"зал" NOUN @nmod #6->7
+"<адамдар>"
+	"адам" NOUN @case #7->8
+"<үчүн>"
+	"үчүн" ADP @case #8->9
+"<милдеттүү>"
+	"милдет" ADJ @amod #9->10
+"<болот>"
+	"бол" VERB @root #10->0
+"<.>"
+	"." PUNCT @punct #11->10
+
+#sent_id = Manas-UdS: n00911
+#text = Андан кийин төрагалык кылуучу судья күбөгө суроо бере алат. 
+#genre= Law
+#labels = annotator: iskenderova_alina
+"<Андан>"
+	"Андан" ADP @case #1->2
+"<кийин>"
+	"кийин" ADV @advmod #2->8
+"<төрагалык>"
+	"төрага" NOUN @acl  #3->4
+"<кылуучу>"
+	"кыл" VERB @nmod #4->5
+"<судья>"
+	"судья" NOUN @nsubj #5->8
+"<күбөгө>"
+	"күбө"NOUN @obl #6->8
+"<суроо>"
+	"суроо" NOUN @obj  #7->8
+"<бере>"
+	"бер" VERB @root #8->0
+"<алат>"
+	"ал" VERB @aux #9->8	
+"<.>" 
+
+#sent_id = Manas-UdS: n00911
+#text = Айыпталуучу жана анын адвокаты суракка алынат. 
+#genre= Law
+#labels = annotator: iskenderova_alina
+"<Айыпталуучу>"
+	"Айып" NOUN @nmod:poss #1->2
+"<жана>"
+	"жана" CCONJ @Cc #2->3
+"<анын>"
+	"ал" DET @det #3->4
+"<адвокаты>"
+	"адвокат" NOUN @nsubj  #4->6
+"<суракка>"
+	"сурак" NOUN @obj #5->6
+"<алынат>"
+	"ал" VERB @root #6->0
+"<.>" 
+	"."  PUNCT  @punct    #7->6
+
+#sent_id = Manas-UdS: n00911
+#text = Апелляциялык инстанциядагы соттун чечими жогору турган сотко даттанылышы мүмкүн. 
+#genre= Law
+#labels = annotator: iskenderova_alina
+"<Апелляциялык>"
+	"Апелляция" ADJ @amod #1->2
+"<инстанциядагы>"
+	"инстанция" NOUN @amod #2->3
+"<соттун>"
+	"сот" NOUN @nmod:poss #3->4
+"<чечими>"
+	"чечим"NOUN @nsubj #4->8
+"<жогору>"
+	"жогору" ADJ @amod #5->6
+"<турган>"
+	"тур" VERB @acl #6->7
+"<сотко>"
+	"сот" NOUN @obl  #7->8
+"<даттанылышы>"
+	" даттан" #8->9  
+"<мүмкүн>"
+	" мүмкүн " #9->8
+"<.>"
+	"."  #10->9
+
+#sent_id = Manas-UdS: n00911
+#text = Ошондуктан эч кандай мыйзам бузуу болгон жок. 
+#genre= Law
+#labels = annotator: iskenderova_alina
+"<Ошондуктан>"
+	"Ошондуктан" ADV @advmod #1->5
+"<эч>"
+	"эч" PART @acl #2->3
+"<кандай>"
+	"кандай" ADJ @amod #3->4
+"<мыйзам>"
+	"мыйзам" NOUN @nsubj #4->5
+"<бузуу>"
+	"буз" VERB @root #5->0
+"<болгон>"
+	"бол" VERB @aux #6->5
+"<жок>"
+	"жок" ADP @advmod    #7->6
+"<.>"
+	"." PUNCT  @punct  #8->7
+
+#sent_id = Manas-UdS: n00911
+#text = Азыр республика боюнча участкалык комиссиялар иштеп жатат. 
+#genre= Law
+#labels = annotator: iskenderova_alina
+"<Азыр>"
+	"Азыр" ADV @advmod #1->6
+"<республика>"
+	"республика" NOUN @case #2->3
+"<боюнча>"
+	"боюнча" ADP @advmod #3->6
+"<участкалык>"
+	"участок" ADj @amod #4->5
+"<комиссиялар>"
+	"комиссия" NOUN @nsubj #5->6
+"<иштеп>"
+	"иште" VERB @root #6->0
+"<жатат>"
+	"жат"VERB @aux #7->6
+"<.>"
+
+#sent_id = Manas-UdS: n00911
+#text = Жазуу түрүндө арыз келип түшө элек. 
+#genre= Law
+#labels = annotator: iskenderova_alina
+"<Жазуу>"
+	"Жаз"NOUN @acl #1->2
+"<түрүндө>"
+	"түр"NOUN @amod #2->3
+"<арыз>"
+	"арыз" NOUN @nsubj #3->5
+"<келип>"
+	"кел" VERB @advmod #4->5
+"<түшө>"
+	"түш" VERB @root #5->0
+"<элек>"
+	"элек" ADP @advmod #6->5
+"<.>"
+	"." PUNCT @punct    #7->6
+
+#sent_id = Manas-UdS: n00911
+#text = Чыгарылган жаңы соттук чечимдерге даттануу жалпы тартипте жүргүзүлөт. 
+#genre= Law
+#labels = annotator: iskenderova_alina
+"<Чыгарылган>"
+	"Чыгар" ADJ @amod #1->4
+"<жаңы>"
+	"жаңы" ADJ @amod  #2->4
+"<соттук>"
+	"сот" NOUN @nmod #3->4
+"<чечимдерге>"
+	"чечим" NOUN @obl #4->5
+"<даттануу>"
+	"даттан" NOUN @nsubj #5->8
+"<жалпы>"
+	"жалпы" ADJ @amod #6->7
+"<тартипте>"
+	"тартип" ADV @advmod #7->8
+"<жүргүзүлөт>"
+	"жүргүз" VERB @root #8->0
+"<.>"
+	"."  PUNCT @punct #9->8
+
+#sent_id = Manas-UdS: n00911
+#text = Ал соттук отурумдун протоколуна тиркелет. 
+#genre= Law
+#labels = annotator: iskenderova_alina
+"<Ал>"
+	"Ал" PRON @nsubj #1->5
+"<соттук>"
+	"сот" ADJ @amod #2->3
+"<отурумдун>"
+	"отурум" NOUN @nmod:poss #3->4
+"<протоколуна>"
+	"протокол" NOUN @nmod #4->6
+"<тиркелет>"
+	"тирке" VERB @root #5->0
+"<.>"
+	"."  PUNCT @punct #6->5
+
+#sent_id = Manas-UdS: n00911
+#text = Акырында соттук отурумга келишкен башка адамдар угулат. 
+#genre= Law
+#labels = annotator: iskenderova_alina
+"<Акырында>"
+	"Акырында" ADV @advmod  #1->7
+"<соттук>"
+	"сот" NOUN @amod #2->3
+"<отурумга>"
+	"отурум" NOUN @nmod #3->4
+"<келишкен>"
+	"кел" VERB @acl #4->6
+"<башка>"
+	"башка" ADJ @amod #5->6
+"<адамдарга>"
+	"адам"  NOUN @obl #6->7
+"<угулат>"
+	"ук" VERB @root #7->0
+"<.>"
+	"." PUNCT @punct #8->7
+
+#sent_id = Manas-UdS: n00911
+#text = Багыттама суроолорду берүүгө тыюу салынат. 
+#genre= Law
+#labels = annotator: iskenderova_alina
+"<Багыттама>"
+	"Багыт" NOUN @#1->2
+"<суроолорду>"
+	"суроо" NOUN @obl #2->3
+"<берүүгө>"
+	"бер" VERB @xcomp #3->4
+"<тыюу>"
+	"тыюу" NOUN @nsubj #4->5
+"<салынат>"
+	"сал" VERB @root #5->0
+"<.>"
+	"." PUNCT @punct #6->5
+
+#sent_id = Manas-UdS: n00911
+#text = Маалымдоо тууралуу кармоо жөнүндө токтомго белги коюлат. 
+#genre= Law
+#labels = annotator: iskenderova_alina
+"<Маалымдоо>"
+	"Маалымда" NOUN @obj #1->2
+"<тууралуу>"
+	"тууралуу"  ADP @amod #2->3
+"<кармоо>"
+	"карма" NOUN @case #3->4
+"<жөнүндө>"
+	"жөнүндө" ADP @amod #4->5
+"<токтомго>"
+	"токтом" NOUN @obl #5->6
+"<белги>"
+	"белги" NOUN @nsubj#6->7
+"<коюлат>"
+	"кой" VERB @root #7->0
+"<.>"
+	"." PUNCT @punct #8->7

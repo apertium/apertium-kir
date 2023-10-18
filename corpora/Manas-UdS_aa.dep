@@ -1,0 +1,392 @@
+﻿# sent_id = Manas-UdS:Brokensword02
+# text = Адам жашоодон үмүт үзгөндө, коркунучту унутат.
+# labels= annotator: Aidai_Abitova
+"<Адам>"
+	"адам" NOUN @nsubj #1->7
+"<жашоодон>"
+	"жашоо" NOUN @nmod #2->4
+"<үмүт>"
+	"үмүт" NOUN @obj #3->4
+"<үзгөндө>"
+	"үз" VERB @advcl #4->7
+"<,>"
+	"," PUNCT @punct #5->7
+"<коркунучту>"
+	"коркунуч" NOUN @obj #6->7
+"<унутат>"
+	"унут" VERB @root #7->0
+
+# sent_id = Manas-UdS:Toolorkulaganda06 
+# text = Маалымат технологиясы эми жапайы жырткычтарга чейин жетиптир.
+# labels= annotator: Aidai_Abitova
+"<Маалымат>"
+	"маалымат" NOUN @nmod #1->2
+"<технологиясы>"
+	"технология" NOUN @nsubj #2->7
+"<эми>"
+	"эми" ADV @advmod #3->7
+"<жапайы>"
+	"жапайы" ADJ @amod #4->5
+"<жырткычтарга>"
+	"жырткыч " NOUN @compound #5->6
+"<чейин>"
+	"чейин" ADP @case #6->7
+"<жетиптир>"
+	"жет" VERB @root #7->0
+"<.>"
+	"." PUNCT @punct #8->7
+
+# sent_id = Manas-UdS:Manas01
+# text = Асман - өлчөмсүз аалам.  
+# labels= annotator: Aidai_Abitova
+"<Асман>"
+	"Асман" NOUN @nsubj #1->4
+"<->"
+	"-" PUNCT @punct #2->4
+"<өлчөмсүз>"
+	"өлчөм" ADJ @amod #3->4
+"<аалам>"
+	"аалам" NOUN @root #4->0
+"<.>"
+	"." PUNCT @punct #5->4
+
+# sent_id = Manas-UdS:Toolorkulaganda06
+# text = Араб конокторду аэропорттон чогуу тосуп алабыз.
+# labels= annotator: Aidai_Abitova
+"<Араб>"
+	"араб" NOUN @nmod #1->2
+"<конокторду>"
+	"конок" NOUN @obj #2->5
+"<аэропорттон>"
+	"аэропорт ADV" ADV @case #3->5
+"<чогуу>"
+	"чогуу" ADV @advmod #4->5
+"<тосуп>"
+	"тос" VERB @root #5->0
+"<алабыз>"
+	"ал" VERB @aux #6->5
+"<.>"	"." PUNCT @punct #7->5
+
+# sent_id = Manas-UdS:Toolorkulaganda06
+# text = Баарын базар экономикасы башкарат.
+# labels= annotator: Aidai_Abitova
+"<Баарын>"
+	"баары" PRON @obj #1->4
+"<базар>"
+	"базар" NOUN @nmod #2->3
+"<экономикасы>"
+	"экономика" NOUN @nsubj #3->4
+"<башкарат>"
+	"башкар" VERB @root #4->0
+"<.>"
+	"." PUNCT @punct #5->4
+
+# sent_id = Manas-UdS:Toolorkulaganda06
+# text = Сен аларды бул жакка ээрчитип келесиң.
+# labels= annotator: Aidai_Abitova
+"<Сен>"
+	"Сен" PRON @nsubj #1->5
+"<аларды>"
+	"ал" PRON @obj #2->5
+"<бул>"
+	"бул" PRON @det #3->4
+"<жакка>"
+	"жак" ADV @advmod #4->5
+"<ээрчитип>"
+	"ээрчи" VERB @root #5->0
+"<келесиң>"
+	"кел" AUX @aux #6->5
+ "<.>"
+	"." PUNCT @punct #7->5
+
+# sent_id = Manas-UdS:n00036
+# text = Шайлоочуларыма шарт түзүү-менин депутаттык парзым.
+# labels= annotator: Aidai_Abitova
+"<Шайлоочуларыма>"
+	"шайлоочу" NOUN @obl #1->3
+"<шарт>"
+	"шарт" NOUN @obj #2->3
+"<түзүү>"
+	"түз" VERB @nsubj #3->7
+"<->"
+	"-" PUNCT @punct #4->7
+"<менин>"
+	"мен" PRON @nmod:poss #5->7
+"<депутаттык>"
+	"депутат" ADJ @nsubj #6->7
+"<парзым>"
+"<.>"
+	"." PUNCT @punct #8->7
+
+# sent_id = Manas-UdS:n00636
+# text = Калк каражатынын эсебинен 2800,0миң сом жумшалды.
+# labels= annotator: Aidai_Abitova
+"<Калк>"
+	"калк" NOUN @nmod #1->2
+"<каражатынын>"
+	"каражат" NOUN @nmod:poss #2->3
+"<эсебинен>"
+	"эсеп" NOUN @advmod #3->9
+"<2800>"
+	"2800" NUM @nummod #4->7
+"<,>"
+	"," PUNCT @punct #5->7
+"<0>"
+	"0" NUM @nmod #6->8
+"<миң>"
+	"миң" NUM @nmod #7->8
+"<сом>"
+	"сом" NOUN @nsubj #8->9
+"<жумшалды>"
+	"жумша" VERB @root #9->0
+"<.>"
+	"." PUNCT @punct #10->9
+
+# sent_id = Manas-UdS:n00636
+# text = Уметалиев көчөсүндөгү тротуарга брусчатка орнотулган.
+# labels= annotator: Aidai_Abitova
+"<Уметалиев>"
+	"Уметалиев" PROPN @det #1->2
+"<көчөсүндөгү>"
+	"көчө" NOUN @nmod #2->3
+"<тротуарга>"
+	"тротуар" NOUN @advmod #3->5
+"<брусчатка>"
+	"брусчатка" NOUN @nsubj #4->5
+"<орнотулган>"
+	"орно" VERB @root #5->0
+"<.>"
+	"." PUNCT @punct #6->5
+
+# sent_id = Manas-UdS:n00636
+# text = Ал Аксы өнүгүү фондунан каржыланды.
+# labels= annotator: Aidai_Abitova
+"<Ал>"
+	"ал" PRON @nsubj #1->5
+"<Аксы>"
+	"Аксы" PROPN @flat #2->3
+"<өнүгүү>"
+	"өнүгүү" NOUN @nmod #3->4
+"<фондунан>"
+	"фонд" NOUN @advmod #4->5
+"<каржыланды>"
+	"каржыла" VERB @root #5->0
+"<.>"
+	"." PUNCT @punct #6->5
+
+# sent_id = Manas-UdS:n00930
+# text = Kөк - Бел айыл өкмөтү деп аталып калган.
+# labels= annotator: Aidai_Abitova
+"<Kөк>"
+	"Көк" NOUN @flat #1->3
+"<->"
+	"-" PUNCT @punct #2->3
+"<Бел>"
+	"Бел" NOUN @nmod #3->4
+"<айыл>"
+	"айыл" NOUN @nmod:pos #4->5
+"<өкмөтү>"
+	"өкмөт" NOUN @nsubj #5->7
+"<деп>"
+	"деп" AUX @cop #6->7
+"<аталып>"
+	"ата" VERB @root #7->0
+"<калган>"
+	"кал" AUX @cop #8->7
+"<.>"
+"." PUNCT @punct #9->7     
+
+# sent_id = Manas-UdS: n00930
+# text = Көк - Бел айыл өкмөтү Ноокаттын чыгыш тарабында жайгашкан.
+# labels= annotator: Aidai_Abitova 
+"<Көк>"
+	"көк" NOUN @flat #1->3
+"<->"
+	"-" PUNCT @punct #2->3
+"<Бел>"
+	"Бел" NOUN @nmod #3->4
+"<айыл>"
+	"айыл" NOUN @nmod:pos #4->5
+"<өкмөтү>"
+	"өкмөт" NOUN @nsubj #5->9
+"<Ноокаттын>"
+	"Ноокат" ADV @case #6->7
+"<чыгыш>"
+	"чыгыш" NOUN @conj #7->8
+"<тарабында>"
+	"тарап" ADV @advmod #8->9
+"<жайгашкан>"
+	"жайгаш" VERB @root #9->0
+"<.>"
+	"." PUNCT @punct #10->9
+
+# sent_id = Manas-UdS: n00027
+# text = Он бир адамдан коронавирус инфекциясы аныкталган .
+# labels= annotator: Aidai_Abitova 
+"<Он>"
+	"он" NUM @nmod #1->3
+"<бир>"
+	"бир" NUM @nmod #2->3
+"<адамдан>"
+	"адам" NOUN @case #3->6
+"<коронавирус>"
+	"коронавирус" NOUN @nmod #4->5
+"<инфекциясы>"
+	"инфекция" NOUN @nsubj #5->6
+"<аныкталган>"
+	"аныкта" VERB @root #6->0
+"<.>"
+	"." PUNCT @punct #7->6
+
+# sent_id = Manas-UdS:n00027
+# text = Өзү да оору жуктуруп, 15 күн дарыланып чыккан.
+# labels= annotator: Aidai_Abitova 
+"<Өзү>"
+	"Өз" PUNCT _1 @punct #1->8
+"<да>"
+	"да" ADP @advmod #2->4
+"<оору>"
+	"оору" NOUN @obj #3->4
+"<жуктуруп>"
+	"жуктур" VERB @advcl #4->8
+"<,>"
+	"," PUNCT @punct #5->8
+"<15>"
+	"15" NUM @nummod #6->7
+"<күн>"
+	"күн" NOUN @advmod #7->8
+"<дарыланып>"
+	"дарыла" VERB @root #8->0
+"<чыккан>"
+	"чык" VERB @cop #9->8
+
+#  sent_id = Manas-UdS:n00865
+# text = Келечек муунга сапаттуу билим, татыктуу тарбия берүү маанилүү.
+# labels= annotator: Aidai_Abitova 
+"<Келечек>"
+	"келечек" @nmod #1->2
+"<муунга>"
+	"муун" @case #2->8
+"<сапаттуу>"
+	"сапат" @amod #3->4
+"<билим>"
+	"билим" @advmod #4->9
+"<,>"
+	"," @punct #5->8
+"<татыктуу>"
+	"татыктуу" 7 #6->
+"<тарбия>"
+	"тарбия" @obj #7->8
+"<берүү>"
+	"бер" @nsubj #8->9
+"<маанилүү>"
+	"маанилүү" @root #9->0
+"<.>"
+	"." @punct #10->9
+
+#  sent_id = Manas-UdS:n00636
+# text = Былтыр пандемиядан бери азабын тартып келүүдөбүз.
+# labels= annotator: Aidai_Abitova 
+"<Былтыр>"
+	"былтыр" ADV @advmod #1->5
+"<пандемиядан>"
+	"пандемия" NOUN @case #2->3
+"<бери>"
+	"бери" ADP @advmod #3->5
+"<азабын>"
+	"азап" NOUN @obj #4->5
+"<тартып>"
+	"тарт" VERB @root #5->0
+"<келүүдөбүз>"
+	"кел" VERB @cop #6->5
+"<.>"
+	"." PUNCT @punct #7->5
+
+# sent_id = Manas-UdS:n00636
+# text = Кербен шаарында көчөлөдүн 6 - кесилишине светофорлор орнотулду.
+# labels= annotator: Aidai_Abitova 
+"<Кербен>"
+	"Кербен" PROPN @nmod #1->2
+"<шаарында>"
+	"шаар" NOUN @advmod #2->8
+"<көчөлөдүн>"
+	"көчө" NOUN @nmod #3->6
+"<6>"
+	"6" NUM @nummod #4->6
+"<->"
+	"-" PUNCT @punct #5->8
+"<кесилишине>"
+	"кесилиш" ADV @advmod #6->8
+"<светофорлор>"
+	"светофор_" NOUN @nsubj #7->8
+"<орнотулду>"
+	"орно" VERB @root #8->0
+"<.>"
+	"." PUNCT @punct #9->8
+
+# sent_id = Manas-UdS:n00865
+# text = Каныккан кесипкөйлүк гана адамды бийик жана эркин кылат.
+# labels= annotator: Aidai_Abitova 
+"<Каныккан>"
+	"канык" ADJ @amod #1->2
+"<кесипкөйлүк>"
+	"кесипкөй" NOUN @nsubj #2->8
+"<гана>"
+	"гана" ADP @nmod #3->2
+"<адамды>"
+	"адам" NOUN @obj #4->8
+"<бийик>"
+	"бийик" ADV @advmod #5->8
+"<жана>"
+	"жана" CCONJ @conj #6->7
+"<эркин>"
+	"эркин" ADV @advmod #7->8
+"<кылат>"
+	"кыл" VERB @root #8->0
+"<.>"
+	"." PUNCT @punct #9->8
+
+# sent_id = Manas-UdS:n00636
+# text = Жол эрежелери боюнча белгилерди орнотуу жаатында жылыштар бар.
+# labels= annotator: Aidai_Abitova 
+"<Жол>"
+	"Жол" NOUN @compound #1->2
+"<эрежелери>"
+	"эреже" NOUN @acl #2->7
+"<боюнча>"
+	"боюнча" ADP @case #3->2
+"<белгилерди>"
+	"белги" NOUN @obj #4->5
+"<орнотуу>"
+	"орно" VERB @case #5->6
+"<жаатында>"
+	"жаат" ADV @advmod #6->8
+"<жылыштар>"
+	"жылыш" NOUN @nsubj #7->8
+"<бар>"
+	"бар" AUX @root #8->0
+"<.>"
+
+# sent_id = Manas-UdS:n00636
+# text = Жумшалган каржынын жалпы суммасы 3346, 9 миң сом.
+# labels= annotator: Aidai_Abitova 
+"<Жумшалган>"
+	"жумша" ADJ @nmod #1->2
+"<каржынын>"
+	"каржы" NUM @nmod:poss #2->4
+"<жалпы>"
+	"жалпы" ADJ @amod #3->4
+"<суммасы>"
+	"сумма" NOUN @nsubj #4->9
+"<3346>"
+	"3346" NUM @compound #5->7
+"<,>"
+	"," PUNCT @punct #6->7
+"<9>"
+	"9" NUM @compound #7->8
+"<миң>"
+	"миң" NUM @nummod #8->9
+"<сом>"
+	"сом" NOUN @root #9->0
+"<.>"
+	"." PUNCT @punct #10->9

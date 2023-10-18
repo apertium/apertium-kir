@@ -1,0 +1,575 @@
+﻿#Title (original): Аалам чексиздигин сиңире алган ыр өзөгү 
+#Title (English): The core of the song that can absorb the infinity of the universe 
+#Genre: people        code: n00094        author: Malika Kamil kyzy
+#Year of publication: 2021
+#No. words in text: 303
+#
+# sent_id = Manas-UdS: n00094
+# text = Бир сөздү жүз жолу жазып, жүз жолудан көчүрдүм.
+#labels = annotator: suiun_tostonova 
+"<Бир>"
+	"Бир" NUM nom sg @nummod #1->2
+"<сөздү>"
+	"сөз" NOUN acc sg @obl #2->9
+"<жүз>"
+	"жүз" NUM nom sg @nummod #3->4
+"<жолу>"
+	"жол" NOUN nom px3sg #4->
+"<жазып>"
+	"жаз" VERB tv prc_perf @advmod #5->9
+"<,>"
+	"," PUNCT cm @punct #6->5
+"<жүз>"
+	"жүз" NUM nom sg @nummod #7->8
+"<жолудан>"
+	"жол" NOUN abl #8->
+"<көчүрдүм>"
+	"көчүр" VERB tv ifi px1sg #9->0
+"<.>"
+	"." PUNCT sent @punct #10->9
+
+#Title (original): Кеменгер калемгер
+#Title (English): A wise writer 
+#Genre: people         code: n00185        author: Aichurok Makeshova
+#Year of publication: 2021
+#No. words in text: 1382
+#
+# sent_id = Manas-UdS: n00185
+# text = Неберелерин эркелетип, өмүрлүк жары менен узак жашоосуна тилектешпис.
+#labels=annotator: suiun_tostonova
+"<Неберелерин>"
+	"Небере" NOUN acc px3sg @obj #1->2
+"<эркелетип>"
+	"эркеле" VERB tv gna_perf @advmod #2->8
+"<,>"
+	"," PUNCT cm @punct #3->2
+"<өмүрлүк>"
+	"өмүр" ADJ nom @amod #4->5
+"<жары>"
+	"жар" NOUN nom px3sg @nsubj #5->8
+"<менен>"
+	"менен" ADP cnjcoo @case #6->8
+"<узак>"
+	"узак" ADJ nom @amod #7->8
+"<жашоосуна>"
+	"жашоо" VERB iv ger px3sg @obj #8->9
+"<тилектешпис>"
+	"тилектеш" VERB tv p1pl coop @root #9->0
+"<.>"
+	"." PUNCT sent @punct #10->9
+
+#Title (original): Жусуп Абдырахманов – журт атасы.
+#Title (English): Jusup Abdyrahmanov is the Father of the nation.
+#Genre: people          code: n00074          author: Baktybek Maksutov 
+#Year of publication: 2021
+#No. words text: 1854
+#
+# sent_id = Manas-UdS: n00074
+# text = Союздук өкмөттүн, Саясий бюронун алдында көп маселелерди коё билген.
+#labels=annotator: suiun_tostonova
+"<Союздук>"
+	"Союз" ADJ sg @amod #1->2
+"<өкмөттүн>"
+	"өкмөт" NOUN gen sg @obl #2->6
+"<,>"
+	"," PUNCT cm @punct #3->2
+"<Саясий>"
+	"Саясий" ADJ @amod #4->8
+"<бюронун>"
+	"бюро" NOUN gen @obl #5->6
+"<алдында>"
+	"алдын" ADV loc @advmod #6->7
+"<көп>"
+	"көп" ADV nom @advmod #7->8
+"<маселелерди>"
+	"маселе" NOUN acc pl @obj #8->10
+"<коё>"
+	"кой" VERB tv prc_imp #9->0
+"<билген>"
+	"бил" VERB iv past p3sg @aux #10->9
+"<.>"
+	"." PUNCT sent @punct #11->10
+
+#Title (original): Конфуцийдин таржымалы
+#Title (English):  Life of Confucius
+#Genre: people        code: n00077           author: Nazgul Asanakunova
+#Year of publication: 2021
+#No. words in text: 1087
+#
+# sent_id = Manas-UdS: n00094
+# text = Бул эң бир баалуу тарыхый эмгек.
+#labels=annotator: suiun_tostonova
+"<Бул>"
+	"Бул" DET dem @det #1->6
+"<эң>"
+	"эң" ADJ sup @amod #2->4
+"<бир>"
+	"бир" NUM nom @nummod #3->6
+"<баалуу>"
+	"баалуу" ADJ nom sg @amod #4->6
+"<тарыхый>"
+	"тарых" ADJ @amod #5->6
+"<эмгек>"
+	"эмгек" NOUN nom sg @root #6->0
+"<.>"
+	"." PUNCT sent @punct #7->6
+
+#            Title (original): Сүрөтчү Асан Турсункуловдун бейнесине айрым штрихтер
+#            Title (English): Some touches on the image of the artist Asan Tursunkulov
+#Genre: people       code: 00669           author: Sultan Raev
+#Year of publication: 2021
+#No. words in text: 1290
+#
+# sent_id = Manas-UdS: n00669
+# text = Сүрөтчүгө кандай каалоо жарашат?
+#labels=annotator: suiun_tostonova
+"<Сүрөтчүгө>"
+	"Сүрөтчү" NOUN dat sg @obj #1->4
+"<кандай>"
+	"кандай" ADJ @amod #2->3
+"<каалоо>"
+	"каалоо" NOUN nom sg @nsubj #3->4
+"<жарашат>"
+	"жараш" VERB #4->0
+"<?>"
+	"?" PUNCT sent @punct #5->4
+
+#Title (original): Жолдошум чыгармачылыктагы устатым болду.
+#Title (English): My husband became my master in Art.
+#Genre: people          code: n00079             author: Jazgul Karbosova
+#Year of publication: 2021
+#No. words in text: 1668
+#
+# sent_id = Manas-UdS: n00079
+# text = Жолдошум чыгармачылыктагы устатым болду.
+#labels=annotator: suiun_tostonova
+"<Жолдошум>"
+	"Жолдош" NOUN nom px1sg @nsubj #1->4
+"<чыгармачылыктагы>"
+	"чыгармачылык" NOUN nom sg @advmod #2->3
+"<устатым>"
+	"устат" NOUN nom px1sg @nsubj #3->4
+"<болду>"
+	"бол" VERB tv past #4->0
+"<.>"
+	"." PUNCT sent @punct #5->4
+
+#Title (original): Жолдошум чыгармачылыктагы устатым болду
+#Title (English): My husband became my master in Art
+#Genre: people         code: n00079        author: Jazgul Karbosova
+#Year of publication: 2021
+#No. words in text: 1668
+#
+# sent_id = Manas-UdS: n00079
+# text = Абдыраев атындагы музыкалык окуу жайда окуттук.
+#labels = annotator: suiun_tostonova
+"<Абдыраев>"
+	"Абдыраев" PRON nom m cog p3sg @nsubj #1->2
+"<атындагы>"
+	"атында" ADJ #2->
+"<музыкалык>"
+	"музыка" ADJ sg @amod #3->4
+"<окуу>"
+	"окуу" NOUN nom sg @advmod #4->6
+"<жайда>"
+	"жай" NOUN loc sg @advmod #5->6
+"<окуттук>"
+	"оку" VERB tv caus ifi #6->0
+"<.>"
+	"." PUNCT sent @punct #7->6
+
+#Title (original): Жолдошум чыгармачылыктагы устатым болду
+#Title (English): My husband became my master in Art
+#Genre: people              code: n00079             author: Jazgul Karbosova 
+#Year of publication: 2021
+#No. words in text: 1668
+#
+# sent_id = Manas-UdS: n00079
+# text = Аны мен толук шартылдата чертип калганда экөөбүз айылга бардык.
+#labels=annotator: suiun_tostonova
+"<Аны>"
+	"Ал" DET p3sg @obj #1->5
+"<мен>"
+	"мен" PRON p1sg @nsubj #2->5
+"<толук>"
+	"толук" ADV nom @advmod #3->5
+"<шартылдата>"
+	"шартылда" ADJ @amod #4->5
+"<чертип>"
+	"черт" VERB tv gna_perf @advmod #5->9
+"<калганда>"
+	"кал" VERB ger_past @aux #6->5
+"<экөөбүз>"
+	"экөө" NUM nom subst coll px1pl @nummod #7->9
+"<айылга>"
+	"айыл" NOUN dat sg  @advmod #8->9
+"<бардык>"
+	"бар" VERB tv ifi past px1pl @root #9->0
+"<.>"
+	"." PUNCT sent @punct #10->9
+
+#Title (original): Жолдошум чыгармачылыктагы устатым болду
+#Title (English): My husband became my master in Art. 
+#Genre: people          code: n00079           author: Jazgul Karbosova
+#Year of publication: 2021
+#No. words in text: 1668
+#
+# sent_id = Manas-UdS: n00079
+# text = Ударам акылдуу чыгып, мени капа кылышкан жок.
+"<Уулдарым>"
+	"Уул" NOUN nom px1sg @nsubj #1->6
+"<акылдуу>"
+	"акылдуу" ADJ @amod #2->1
+"<чыгып>"
+	"чык" VERB iv prc_perf @advmod #3->7
+"<,>"
+	"," PUNCT cm @punct #4->3
+"<мени>"
+	"мен" PRON @obj #5->6
+"<капа кылышкан>"
+	"капа кыл" VERB iv coop past p3pl @xcomp #6->7
+"<жок>"
+	"жок" ADJ #7->0
+"<.>"
+	"." PUNCT sent @punct #8->7
+
+#Title (original): Касым Тыныстанов – тил илиминин, улуттук маданияттын чолпон жылдызы
+#Title (English): Kasym Tynystanov is a star of linguistics and national culture
+#Genre: people            code: n00270          author: Symbat Maksutova  
+#Year of publication: 2021
+#No. words in text: 1435
+#
+# sent_id = Manas-UdS: n00270
+# text = Анын ысымын Ысык-Көлдөгү мамлекеттик университетке койгонго бердик.
+#labels=annotator: suiun_tostonova
+"<Анын>"
+	"Ал" PRON gen px3sg @nmod:poss #1->2
+"<ысымын>"
+	"ысым" NOUN nom sg @obj #2->7
+"<Ысык-Көлдөгү>"
+	"Ысык-Көл" NOUN nom top @advmod #3->5
+"<мамлекеттик>"
+	"мамлекет" ADJ nom @amod #4->5
+"<университетке>"
+	"университет" NOUN dat sg @advmod #5->7
+"<койгонго>"
+	"кой" VERB tv ger past #6->0
+"<бердик>"
+	"бер" VERB tv ifi past p1pl @aux #7->6
+"<.>"
+	"." PUNCT sent @punct #8->7
+
+#Title (original): Сүрөтчү Асан Турсункуловдун бейнесине айрым штрихтер
+#Title (English): Some touches on the image of the artist Asan Tursunkulov
+#Genre: people             code: n00669                author: Sultan Raev  
+#Year of publication: 2021
+#No. words in text: 1290
+#
+# sent_id = Manas-UdS: n00669
+# text = Асан мындан атак - даңк алайын же мамлекеттик сыйлыкка илешейин дегени жок.
+#labels=annotator: suiun_tostonova
+"<Асан>"
+	"Асан" PRON nom ant m px3sg @nsubj #1->10
+"<мындан>"
+	"мындан" ADV @obj #2->10
+"<атак-даңк>"
+	"атак-даңк" NOUN nom sg @obj #3->4
+"<алайын>"
+	"ал" VERB tv opt p1sg @nsubj #4->9
+"<же>"
+	"же" ADP cnjcoo #5->
+"<мамлекеттик>"
+	"мамлекет" ADJ sg @amod #6->7
+"<сыйлыкка>"
+	"сыйлык" NOUN dat sg @obj #7->8
+"<илешейин>"
+	"илеш" VERB tv opt #8->
+"<дегени>"
+	"де" VERB tv ptc_plan @nsubj #9->10
+"<жок>"
+	"жок" ADJ #10->0
+"<.>"
+	"." PUNCT sent @punct #11->10
+
+#Title (original): Бешинчи президент менен иштешип жатам
+#Title (English): I am working with the fifth president
+#Genre: people                  code: n00207               author: Taalaibek Temirov 
+#Year of publication: 2021
+#No. words in text: 2079
+#
+# sent_id = Manas-UdS: n00207
+# text = Атам өзү айтып берген бир окуясы эч эсимден кетпейт.
+#labels=annotator: suiun_tostonova
+"<Атам>"
+	"Ата" NOUN nom px1sg @nsubj #1->3
+"<өзү>"
+	"өз" NOUN nom p3sg @nsubj #2->3
+"<айтып>"
+	"айт" VERB tv prc_perf @advcl #3->9
+"<берген>"
+	"бер" VERB tv prc_past @aux #4->3
+"<бир>"
+	"бир" NUM nom @nummod #5->6
+"<окуясы>"
+	"окуя" NOUN nom p3sg @nsubj #6->9
+"<эч>"
+	"эч" ADV @advmod #7->9
+"<эсимден>"
+	"эс" NOUN abl px1sg @advmod #8->9
+"<кетпейт>"
+	"кет" VERB iv neg aor #9->0
+"<.>"
+	"." PUNCT sent @punct #10->9
+ 
+#Title (original): Ажайып дүйнөнүн ажайып жазуучусу эле
+#Title (English): He was a wonderful writer of a wonderful world
+#Genre: people                     code: n00052                      author: Abdimuhtar Abilov    
+#Year of publication: 2021
+#No. words in text: 1505
+#
+# sent_id = Manas-UdS: n00052
+# text = Бирок " Байчечек " таптакыр башкача, башкалардыкына окшобогон чыгарма экен.
+#labels=annotator: suiun_tostonova
+"<Бирок>"
+	"Бирок" CCONJ #1->6
+"<">"
+	""" PUNCT left quot @punct #2->3
+"<Байчечек>"
+	"Байчечек" NOUN nom sg @nsubj #3->11
+"<">"
+	""" PUNCT right quot @punct #4->3
+"<таптакыр>"
+	"таптакыр" ADV @advmod #5->9
+"<башкача>"
+	"башкача" ADJ @amod #6->10
+"<,>"
+	"," PUNCT cm @punct #7->6
+"<башкалардыкына>"
+	"башка" NOUN dat p3pl @obl #8->9
+"<окшобогон>"
+	"окшо" ADJ neg @amod #9->10
+"<чыгарма>"
+	"чыгарма" NOUN nom sg #10->
+"<экен>"
+	"экен" ADV #11->0
+"<.>"
+	"." PUNCT sent @punct #12->11
+
+#Title (original): Касым Тыныстанов – тил илиминин, улуттук маданияттын чолпон жылдызы
+#Title (English): Kasym Tynystanov is a star of linguistics and national culture
+#Genre: people                        code:  n00270                      author: Symbat Maksutova 
+#Year of publication: 2021
+#No. words in text: 1435
+#
+# sent_id = Manas-UdS: n00270
+# text = Жазган ырларында жаштарды билимге үндөп, ойготууга аракеттенген.
+#labels = annotator: suiun_tostonova
+"<Жазган>"
+	"Жаз" VERB tv gpr_past @amod #1->2
+"<ырларында>"
+	"ыр" NOUN loc p3pl @advmod #2->5
+"<жаштарды>"
+	"жаштар" NOUN acc pl @obj #3->7
+"<билимге>"
+	"билим" NOUN dat sg @obl #4->5
+"<үндөп>"
+	"үндө" VERB iv prc_perf @advcl #5->8
+"<,>"
+	"," PUNCT cm @punct #6->5
+"<ойготууга>"
+	"ойгот" VERB tv ger #7->0
+"<аракеттенген>"
+	"аракет" VERB iv gpr_past @aux #8->7
+"<.>"
+	"." PUNCT sent @punct #9->8
+
+#Title (original): Менин жетинчи атамдын, Бирназар бийдин сөөгү ушул жерге көмүлгөн
+#Title (English): The body of my seventh father, Birnazar Biy, is buried here
+#Genre: people               code: n00674                author: Nyshanbek Kochkorov
+#Year of publication: 2021
+#No. words in text: 2207
+#
+# sent_id = Manas-UdS: n00674
+# text = Санжыраларда, Алыбай баласы Солтонкулга 32миң жылкы калтырганы айтылат.
+#labels = annotator: suiun_tostonova
+"<Санжыраларда>"
+	"Санжыра" NOUN loc pl @advmod #1->9
+"<,>"
+	"," PUNCT cm @punct #2->1
+"<Алыбай>"
+	"Алыбай" NOUN nom ant m px3sg @nsubj #3->8
+"<баласы>"
+	"бала" NOUN nom p3sg @nsubj #4->8
+"<Солтонкулга>"
+	"Солтонкул" NOUN dat ant m px3sg @obl #5->8
+"<32миң>"
+	"32миң" NUM nom @nummod #6->7
+"<жылкы>"
+	"жылкы" NOUN nom sg @nsubj #7->8
+"<калтырганы>"
+	"калтыр" VERB iv caus prc_plan #8->0
+"<айтылат>"
+	"айт" VERB tv pass aor @aux #9->8
+"<.>"
+	"." PUNCT sent @punct #10->9
+
+#Title (original): Менин жетинчи атамдын, Бирназар бийдин сөөгү ушул жерге көмүлгөн
+#Title (English): The body of my seventh father, Birnazar Biy, is buried here
+#Genre: people                 code: n00674                        author: Nyshanbek Kochkorov
+#Year of publication: 2021
+#No. words in text: 2027
+#
+# sent_id = Manas-UdS: n00674
+# text = Алыбай өз доорунда ченемсиз бай, укмуштуудай Көл калаасына таасирдүү киши болгон.
+#labels = annotator: suiun_tostonova
+"<Алыбай>"
+	"Алыбай" NOUN nom ant m px3sg @nsubj #1->12
+"<өз>"
+	"өз" DET nom sg @det #2->3
+"<доорунда>"
+	"доор" NOUN loc p3sg @advmod #3->12
+"<ченемсиз>"
+	"ченемсиз" ADJ nom sg @amod #4->5
+"<бай>"
+	"бай" ADJ nom sg @amod #5->11
+"<,>"
+	"," PUNCT cm @punct #6->5
+"<укмуштуудай>"
+	"укмуш" ADJ comp @amod #7->11
+"<Көл>"
+	"Көл" NOUN top nom @advmod #8->9
+"<калаасына>"
+	"калаа" NOUN dat p3sg @advmod #9->10
+"<таасирдүү>"
+	"таасирдүү" ADJ nom @amod #10->11
+"<киши>"
+	"киши" NOUN nom sg @nsubj #11->12
+"<болгон>"
+	"бол" VERB iv past p3sg #12->0
+"<.>"
+	"." PUNCT sent @punct #13->12
+
+#Title (original): Кыргызстанда деле жакшы бизнес жасаса болот
+#Title (English): One can do good business staying in Kyrgyzstan
+#Genre: people                          code: n00021                              author: Symbat Maksutova  
+#Year of publication: 2021
+#No. words in text: 1087
+#
+# sent_id = Manas-UdS: n00021
+# text = Кызын сагынып зыркырап жүрүп, эки жылдан кийин экинчи кызын төрөйт.
+#labels = annotator: suiun_tostonova
+"<Кызын>"
+	"Кыз" NOUN nom px3sg @obj #1->11
+"<сагынып>"
+	"сагын" VERB tv prc_perf @advcl #2->4
+"<зыркырап>"
+	"зыркыра" VERB tv prc_perf @advcl #3->11
+"<жүрүп>"
+	"жүр" VERB tv prc_perf #4->
+"<,>"
+	"," PUNCT cm @punct #5->4
+"<эки>"
+	"эки" NUM @nummod #6->7
+"<жылдан>"
+	"жыл" NOUN abl sg @obj #7->8
+"<кийин>"
+	"кийин" ADP post @advmod #8->11
+"<экинчи>"
+	"эки" NUM nom @nummod #9->10
+"<кызын>"
+	"кыз" NOUN nom px3sg @obj #10->11
+"<төрөйт>"
+	"төрө" VERB #11->0
+"<.>"
+	"." PUNCT sent @punct #12->11
+
+#Title (original): Кыргызстанда деле жакшы бизнес жасаса болот
+#Title (English): One can do good business staying in Kyrgyzstan
+#Genre: people                       code: n00021                      author: Symbat Maksutova
+#Year of publication: 2021
+#No. words in text: 1087
+#
+# sent_id = Manas-UdS: n00021
+# text = Эми тааныш каналдары аркылуу Кытайдан товар алып, сата башташат.
+#labels = annotator: suiun_tostonova
+"<Эми>"
+	"Эми" ADP post @advmod #1->10
+"<тааныш>"
+	"тааныш" ADJ nom sg @amod #2->3
+"<каналдары>"
+	"канал" NOUN nom p3pl @nsubj #3->4
+"<аркылуу>"
+	"аркылуу" ADJ nom sg #4->
+"<Кытайдан>"
+	"Кытай" NOUN top abl @advmod #5->7
+"<товар>"
+	"товар" NOUN nom sg @nsubj #6->7
+"<алып>"
+	"ал" VERB tv prc_perf @aux #7->10
+"<,>"
+	"," PUNCT cm @punct #8->7
+"<сата>"
+	"сат" VERB tv prc_impf #9->0
+"<башташат>"
+	"башта" VERB tv aor coop p3pl @aux #10->9
+"<.>"
+	"." PUNCT sent @punct #11->10
+
+#Title (original): Кыргызстанда деле жакшы бизнес жасаса болот
+#Title (English): One can do good business staying in Kyrgyzstan
+#Genre: people                       code: n00021               author: Symbat Maksutova
+#Year of publication: 2021
+#No. words in text: 1087
+#
+# sent_id = Manas-UdS: n00021
+# text = Ал жерде азыр тигүүчүлөр үчүн бардык шарттар түзүлгөн.
+"<Ал>"
+	"Ал" DET @det #1->2
+"<жерде>"
+	"жер" NOUN loc sg @advmod #2->8
+"<азыр>"
+	"азыр" ADV @advmod #3->8
+"<тигүүчүлөр>"
+	"тигүүчү" NOUN nom pl @nsubj #4->8
+"<үчүн>"
+	"үчүн" ADP post #5->
+"<бардык>"
+	"бардык" ADV @advmod #6->7
+"<шарттар>"
+	"шарт" NOUN nom pl @nsubj #7->8
+"<түзүлгөн>"
+	"түз" VERB iv past #8->0
+"<.>"
+	"." PUNCT sent @punct #9->8
+
+#Title (original): Чубак ажынын кадыры жана Куран китеп
+#Title (English): The Dignity of Chubak Ajy (Pilgrim) and the book of Qur'an
+#Genre: people               code: n00112                author: Jazgul Kenjetaeva
+#Year of publication: 2021
+#No. words in text: 809
+#
+# sent_id = Manas-UdS: n00112
+# text = Бул окуядан кийин мен Чубак ажынын кадыры тууралуу көп ойлондум.
+#labels = annotator: suiun_tostonova
+"<Бул>"
+	"Бул" DET @det #1->8
+"<окуядан>"
+	"окуя" NOUN abl sg @obj #2->3
+"<кийин>"
+	"кийин" ADV @advmod #3->10
+"<мен>"
+	"мен" PRON p1sg @nsubj #4->10
+"<Чубак>"
+	"Чубак" NOUN nom ant m p3sg @nsubj #5->8
+"<ажынын>"
+	"ажы" NOUN gen p3sg @obl #6->7
+"<кадыры>"
+	"кадыр" NOUN nom p3sg @nsubj #7->8
+"<тууралуу>"
+	"тууралуу" ADP post @case #8->10
+"<көп>"
+	"көп" ADV @advmod #9->10
+"<ойлондум>"
+	"ойло" VERB tv pass ifi p1sg past @root #10->0
+"<.>"
+	"." PUNCT sent @punct #11->10

@@ -1,0 +1,311 @@
+﻿# sent_id = Manas-Uds:n00161
+# text = Соттун чечими ачык жарыяланат.
+# labels =annotator:kurmanzhan ydyrys kyzy
+"<Соттун>"
+	"Сот" NOUN @nmod #1->2
+"<чечими>"
+	"чечим" NOUN @obj #2->4
+"<ачык>"
+	"ачык" ADV @advmod #3->4
+"<жарыяланат>"
+	"жарыяла" VERB @root #4->0
+"<.>"
+	"." PUNCT @punct #5->4
+
+# sent_id = Manas-Uds:n00509
+# text = Адилет шайлоого шарт түзүлдү.
+# labels =annotator:kurmanzhan ydyrys kyzy
+"<Адилет>"
+	"Адилет" ADJ @amod #1->2
+"<шайлоого>"
+	"шайлоо" NOUN @obj #2->4
+"<шарт>"
+	"шарт" NOUN @nsubj #3->4
+"<түзүлдү>"
+	"түз" VERB @root #4->0
+"<.>"
+	"." PUNCT @punct #5->4
+
+# sent_id = Manas-Uds:n00085
+# text = Үч ыкчам топтор үзгүлтүксүз иштешти.
+# labels =annotator:kurmanzhan ydyrys kyzy
+"<Үч>"
+	"Үч" NUM @nummod #1->3
+"<ыкчам>"
+	"ыкчам" ADJ @amod #2->3
+"<топтор>"
+	"топ" NOUN @nsubj #3->5
+"<үзгүлтүксүз>"
+	"үзгүлтүксүз" ADV @advmod #4->5
+"<иштешти>"
+	"иште" VERB @root #5->0
+"<.>"
+	"." PUNCT @punct #6->5
+
+# sent_id = Manas-Uds:n00911
+# text = Сот чечимдерин кассациялык тартипте кайра кароо.
+# labels =annotator:kurmanzhan ydyrys kyzy
+"<Сот>"
+	"Сот" NOUN @nmod #1->2
+"<чечимдерин>"
+	"чечим" NOUN @obj #2->6
+"<кассациялык>"
+	"кассация" ADJ @amod #3->4
+"<тартипте>"
+	"тартип" NOUN @advmod #4->5
+"<кайра>"
+	"кайра" ADV @advmod #5->6
+"<кароо>"
+	"кароо" VERB @root #6->0
+"<.>"
+	"." PUNCT @punct #7->6
+
+# sent_id = Manas-Uds:n00161
+# text = Кыргыз Республикасынын улуттук акча бирдиги сом болуп саналат.
+# labels =annotator:kurmanzhan ydyrys kyzy
+"<Кыргыз>"
+	"Кыргыз" NOUN @nmod #1->2
+"<Республикасынын>"
+	"Республика" NOUN @nmod:poss #2->4
+"<акча>"
+	"акча" NOUN @nmod #3->4
+"<бирдиги>"
+	"бирдик" NOUN @obj #4->6
+"<сом>"
+	"сом" NOUN @nsubj #5->6
+"<болуп>"
+	"бол" VERB @root #6->0
+"<саналат>"
+	"сана" VERB @aux #7->6
+"<.>"
+	"." PUNCT @punct #8->6
+
+# sent_id = Manas-Uds:n00224
+# text = Жогорку Кеңештин депутаттары 5 жылдык мөөнөткө шайланат.
+# labels =annotator:kurmanzhan ydyrys kyzy
+"<Жогорку>"
+	"Жогорку" ADJ @nmod #1->2
+"<Кеңештин>"
+	"Кеңеш" NOUN @nmod:poss #2->3
+"<депутаттары>"
+	"депутат" NOUN @nsubj #3->7
+"<5>"
+	"5" NUM @nummod #4->5
+"<жылдык>"
+	"жыл" NOUN @case #5->6
+"<мөөнөткө>"
+	"мөөнөт" NOUN @obj #6->7
+"<шайланат>"
+	"шайла" VERB @root #7->0
+"<.>"
+	"." PUNCT @punct #8->7
+
+# sent_id = Manas-Uds:n00911
+# text = Төрагалык кылуучу акыркы болуп добуш берет.
+# labels =annotator:kurmanzhan ydyrys kyzy
+"<Төрагалык>"
+	"Төрага" NOUN @nmod #1->2
+"<кылуучу>"
+	"кыл" NOUN @nsubj #2->6
+"<акыркы>"
+	"акыркы" ADJ @advmod #3->4
+"<болуп>"
+	"бол" VERB @advmod #4->6
+"<добуш>"
+	"добуш" VERB @obj #5->6
+"<берет>"
+	"бер" VERB @root #6->0
+"<.>"
+	"." PUNCT @punct #7->6
+
+# sent_id = Manas-Uds:n00113
+# text = Борбор билим берүүнүн мамлекеттик системасына кирбейт.
+# labels =annotator:kurmanzhan ydyrys kyzy
+"<Борбор>"
+	"Борбор" NOUN @nsubj #1->6
+"<билим>"
+	"билим" NOUN @nmod #2->3
+"<берүүнүн>"
+	"бер" NOUN @case #3->5
+"<мамлекеттик>"
+	"мамлекет" ADJ @amod #4->5
+"<системасына>"
+	"система" NOUN @obl #5->6
+"<кирбейт>"
+	"кир" VERB @root #6->0
+"<.>"
+	"." PUNCT @punct #7->6
+
+# sent_id = Manas-Uds:n00909
+# text = Кызмат адамы наамды же бийликти өз эркинче ыйгарып алышы.
+# labels =annotator:kurmanzhan ydyrys kyzy
+"<Кызмат>"
+	"Кызмат" NOUN @nmod #1->2
+"<адамы>"
+	"адам" NOUN @nsubj #2->8
+"<наамды>"
+	"наам" NOUN @obj #3->8
+"<же>"
+	"же" CCONJ @cc #4->5
+"<бийликти>"
+	"бийлик" NOUN @obj #5->8
+"<өз>"
+	"өз" PRON @advmod #6->7
+"<эркинче>"
+	"эркинче" ADV @advcl #7->8
+"<ыйгарып>"
+	"ыйгар" VERB @root #8->0
+"<алышы>"
+	"ал" VERB @aux #9->8
+"<.>"
+	"." PUNCT @punct #10->8
+
+# sent_id = Manas-Uds:n00079 
+# text =  Бир мамлекетке 5 - 6 ирет барган учурларым болду.
+# labels =annotator:kurmanzhan ydyrys kyzy
+"<Бир>"
+	"Бир" NUM @nummod #1->2
+"<мамлекетке>"
+	"мамлекет" NOUN @advmod #2->7
+"<5>"
+	"5" NUM @nummod #3->5
+"<->"
+	"-" PUNCT @punct #4->3
+"<6>"
+	"6" NUM @nummod #5->6
+"<ирет>"
+	"ирет" NOUN @obj #6->7
+"<барган>"
+	"бар" VERB @nmod #7->8
+"<учурларым>"
+	"учур" NOUN @nsubj #8->9
+"<болду>"
+	"бол" VERB @root #9->0
+"<.>"
+	"." PUNCT @punct #10->9
+
+# sent_id = Manas-Uds:n00085 
+# text =  Күнүмдүк нан үчүн жалданып иштегенге даярлар басымдуу.
+# labels =annotator:kurmanzhan ydyrys kyzy
+"<Күнүмдүк>"
+	"Күнүмдүк" ADJ @nmod #1->2
+"<нан>"
+	"нан" NOUN @obj #2->5
+"<үчүн>"
+	"үчүн" ADP @case #3->2
+"<жалданып>"
+	"жалдан" VERB @advmod #4->5
+"<иштегенге>"
+	"иште" VERB @nmod #5->6
+"<даярлар>"
+	"даяр" ADJ @obj #6->7
+"<басымдуу>"
+	"басымдуу" ADJ @root #7->0
+"<.>"
+	"." PUNCT @punct #8->7
+
+# sent_id = Manas-Uds:n00876 
+# text =  ЖКнын депутаттарынын көпчүлүгү алигархтар менен бизнесмендер.
+# labels =annotator:kurmanzhan ydyrys kyzy
+"<ЖКнын>"
+	"ЖК" NOUN @case #1->2
+"<депутаттарынын>"
+	"депутат" NOUN @nmod #2->3
+"<көпчүлүгү>"
+	"көпчүлүг" NOUN @nsubj #3->4
+"<алигархтар>"
+	"алигарх" NOUN @root #4->0
+"<менен>"
+	"менен" CCONJ @case #5->6
+"<бизнесмендер>"
+	"бизнесмен" NOUN @obj #6->4
+"<.>"
+	"." PUNCT @punct #7->4
+
+# sent_id = Manas-Uds:n00449 
+# text =   Судья добуш берүүдө калыс болууга укуксуз.
+# labels =annotator:kurmanzhan ydyrys kyzy
+"<Судья>"
+	"Судья" NOUN @nsubj #1->6
+"<добуш>"
+	"добуш" NOUN @nmod #2->3
+"<берүүдө>"
+	"бер" VERB @advmod #3->6
+"<калыс>"
+	"калыс" ADJ @advmod #4->5
+"<болууга>"
+	"бол" VERB @advmod #5->6
+"<укуксуз>"
+	"укук" ADJ @root #6->0
+"<.>"
+	"." PUNCT @punct #7->6
+
+# sent_id = Manas-Uds:n00673 
+# text =  Элдин Бийликке болгон ишенимин кайтарып берели!
+# labels =annotator:kurmanzhan ydyrys kyzy
+"<Элдин>"
+	"Эл" NOUN @case #1->4
+"<Бийликке>"
+	"Бийлик" NOUN @advmod #2->3
+"<болгон>"
+	"бол" VERB @nmod #3->4
+"<ишенимин>"
+	"ишеним" NOUN @obj #4->5
+"<кайтарып>"
+	"кайтар" VERB #5->
+"<берели>"
+	"бер" VERB @aux #6->5
+"<!>"
+	"!" PUNCT @punct #7->5
+
+# sent_id = Manas-Uds:n00875 
+# text =  Бизде азыр бийлик жаңы.
+# labels =annotator:kurmanzhan ydyrys kyzy
+"<Бизде>"
+	"Биз" PRON @obj #1->4
+"<азыр>"
+	"азыр" ADV @advmod #2->4
+"<бийлик>"
+	"бийлик" NOUN @nsubj #3->4
+"<жаңы>"
+	"жаңы" ADJ @root #4->0
+"<.>"
+	"." PUNCT @punct #5->4
+
+# sent_id = Manas-Uds:n00911 
+# text = Шектүү, айыпталуучу, соттолгон, акталган коргонууга укуктуу.
+# labels =annotator:kurmanzhan ydyrys kyzy
+"<Шектүү>"
+	"Шектүү" NOUN @nsubj #1->9
+"<,>"
+	"," PUNCT @punct #2->1
+"<айыпталуучу>"
+	"айыпталуучу" NOUN @nsubj #3->9
+"<,>"
+	"," PUNCT @punct #4->3
+"<соттолгон>"
+	"сотт" NOUN @nsubj #5->9
+"<,>"
+	"," PUNCT @punct #6->5
+"<акталган>"
+	"акта" NOUN @nsubj #7->9
+"<коргонууга>"
+	"коргон" VERB @advmod #8->9
+"<укуктуу>"
+	"укук" ADJ @root #9->0
+"<.>"
+	"." PUNCT @punct #10->9
+
+# sent_id = Manas-Uds:n00911 
+# text = Шектүүнүн укуктары жана милдеттери.
+# labels =annotator:kurmanzhan ydyrys kyzy
+"<Шектүүнүн>"
+	"Шектүү" NOUN @nmod #1->2
+"<укуктары>"
+	"укук" NOUN @root #2->0
+"<жана>"
+	"жана" CCONJ @cc #3->4
+"<милдеттери>"
+	"милдет" NOUN @nmod #4->2
+"<.>"
+	"." PUNCT @punct #5->2
