@@ -1,0 +1,307 @@
+﻿# sent_id =Manas01
+# text = Баатыр Жакып кепти айтты.
+#labels=annotator: Meerim_Taalaibekova
+"<Баатыр>"
+	"Баатыр" ADJ @amod #1->2
+"<Жакып>"
+	"Жакып" PROPN @nsubj #2->4
+"<кепти>"
+	"кеп" NOUN @obj #3->4
+"<айтты>"
+	"айт" VERB @root #4->0
+"<.>"
+	"." PUNCT @punct #5->4
+
+# sent_id =Manas01
+# text = Калдайдан кабар угуптур.
+#labels=annotator: Meerim_Taalaibekova
+"<Калдайдан>"
+	"Калдай" NOUN @advmod #1->3
+"<кабар>"
+	"кабар" NOUN @obj #2->3
+"<угуптур>"
+	"ук" VERB @root #3->0
+"<.>"
+	"." PUNCT @punct #4->3
+
+# sent_id =Manas01
+# text = Азапты арбын баштадың.
+#labels=annotator: Meerim_Taalaibekova
+"<Азапты>"
+	"Азап" NOUN @obj #1->3
+"<арбын>"
+	"арбын" ADJ @advmod #2->3
+"<баштадың>"
+	"башта" VERB @root #3->0
+"<.>"
+	"." PUNCT @punct #4->3
+
+# sent_id =Manas01
+# text = Онжоңдогон Акуула таалайыма табылды.
+#labels=annotator: Meerim_Taalaibekova
+"<Онжоңдогон>"
+	"Онжоңдогон" ADJ @amod #1->2
+"<Аккула>"
+	"Аккула" NOUN @nsubj #2->4
+"<таалайыма>"
+	"таалай" NOUN @iobj #3->4
+"<табылды>"
+	"тап" VERB @root #4->0
+"<!>"
+	"!" PUNCT @punct #5->4
+
+# sent_id =Manas01
+# text = Жолуң шыдыр жер болсун, жолдошуң кызыр эр болсун!
+#labels=annotator: Meerim_Taalaibekova
+"<Жолуң>"
+	"Жол" NOUN @obj #1->4
+"<шыдыр>"
+	"шыдыр" ADJ @amod #2->3
+"<жер>"
+	"жер" NOUN @nsubj #3->4
+"<болсун>"
+	"бол" VERB @parataxis #4->9
+"<,>"
+	"," PUNCT @punct #5->4
+"<жолдошуң>"
+	"жолдош" NOUN @obj #6->9
+"<кызыр>"
+	"кызыр" ADJ @amod #7->8
+"<эр>"
+	"эр" NOUN @nsubj #8->9
+"<болсун>"
+	"бол" VERB @root #9->0
+"<!>"
+	"!" PUNCT @punct #10->9
+
+# sent_id =Manas01
+# text =  Сенин үзүлгөнүң уланат.
+#labels=annotator: Meerim_Taalaibekova
+"<Сенин>"
+	"Сен" NOUN @nmod:poss #1->3
+"<үзүлгөнүң>"
+	"үзүлгөн" ADJ @obj #2->3
+"<уланат>"
+	"ула" VERB @root #3->0
+"<.>"
+	"." PUNCT @punct #4->3
+
+# sent_id = pv00000
+# text = Элүү жылда эл жаңырат, жүз жылда жер жаңырат.
+#labels=annotator: Meerim_Taalaibekova
+"<Элүү>"
+	"Элүү" NUM @nummod #1->2
+"<жылда>"
+	"жыл" NOUN @advmod #2->4
+"<эл>"
+	"эл" NOUN @nsubj #3->4
+"<жаңырат>"
+	"жаңыр" VERB @parataxis #4->9
+"<,>"
+	"," PUNCT @punct #5->4
+"<жүз>"
+	"жүз" NUM @nummod #6->7
+"<жылда>"
+	"жыл" NOUN @advmod #7->9
+"<жер>"
+	"жер" NOUN @nsubj #8->9
+"<жаңырат>"
+	"жаңыр" VERB @root #9->0
+"<.>"
+	"." PUNCT @punct #10->9
+
+# sent_id =Manas01
+# text = Жаратканга жалынып, каарданды кабылан.
+#labels=annotator: Meerim_Taalaibekova
+"<Жаратканга>"
+	"Жараткан" NOUN @iobj #1->2
+"<жалынып>"
+	"жалын" VERB @advmod #2->4
+"<,>"
+	"," PUNCT @punct #3->2
+"<каарданды>"
+	"каардан" VERB @root #4->0
+"<кабылан>"
+	"кабылан" NOUN @nsubj #5->4
+"<.>"
+	"." PUNCT @punct #6->4
+
+# sent_id =Manas01
+# text = Кандыкты сизге беребиз.
+#labels=annotator: Meerim_Taalaibekova
+"<Кандыкты>"
+	"Кандык" NOUN @obj #1->3
+"<сизге>"
+	"сиз" PRON @iobj #2->3
+"<беребиз>"
+	"бер" VERB @root #3->0
+"<.>"
+	"." PUNCT @punct #4->3
+
+# sent_id =Manas01
+# text = Кара чаар кабылан капталыңдан чамынат.
+#labels=annotator: Meerim_Taalaibekova
+"<Кара>"
+	"Кара" ADJ @amod #1->2
+"<чаар>"
+	"чаар" ADJ @amod #2->3
+"<кабылан>"
+	"кабылан" NOUN @nsubj #3->5
+"<капталыңдан>"
+	"каптал" ADV @advmod #4->5
+"<чамынат>"
+	"чамын" VERB @root #5->0
+"<.>"
+	"." PUNCT @punct #6->5
+
+# sent_id =Manas01
+# text = Башчы болдуң бул элге.
+#labels=annotator: Meerim_Taalaibekova
+"<Башчы>"
+	"Башчы" NOUN @obj #1->2
+"<болдуң>"
+	"бол" VERB @root #2->0
+"<бул>"
+	"бул" PRON @det #3->4
+"<элге>"
+	"эл" Noun @iobj #4->2
+"<.>"
+	"." PUNCT @punct #5->2
+
+# sent_id =Manas01
+# text = Нойгут журттан айрылган Акбалтай кепти баштады.
+#labels=annotator: Meerim_Taalaibekova
+"<Нойгут>"
+	"Нойгут" PROPN @amod #1->2
+"<журттан>"
+	"журт" NOUN @iobj #2->3
+"<айрылган>"
+	"айрыл" VERB @acl #3->4
+"<Акбалтай>"
+	"Акбалтай" PROPN @nsubj #4->6
+"<кепти>"
+	"кеп" NOUN @obj #5->6
+"<баштады>"
+	"башта" VERB @root #6->0
+"<.>"
+	"." PUNCT @punct #7->6
+
+# sent_id =Manas01
+# text = Аттанып кирди эр Сыргак.
+#labels=annotator: Meerim_Taalaibekova
+"<Аттанып>"
+	"Аттан" ADV @advmod #1->2
+"<кирди>"
+	"кир" VERB @root #2->0
+"<эр>"
+	"эр" NOUN @amod #3->4
+"<Сыргак>"
+	"Сыргак" NOUN @nsubj #4->2
+"<.>"
+	"." PUNCT @punct #5->2
+
+# sent_id =Manas01
+# text = Күңгүрөп кара жер ыйлайт.
+#labels=annotator: Meerim_Taalaibekova
+"<Күңгүрөп>"
+	"Күңгүрө" ADV @advmod#1->4
+"<кара>"
+	"кара" ADJ @amod #2->3
+"<жер>"
+	"жер" NOUN @nsubj #3->4
+"<ыйлайт>"
+	"ыйла" VERB @root #4->0
+"<.>"
+	"." PUNCT @punct #5->4
+
+# sent_id =Manas01
+# text =  Ааламды бузган эр туулат.
+#labels=annotator: Meerim_Taalaibekova
+"<Ааламды>"
+	"Аалам" NOUN @obj #1->2
+"<бузган>"
+	"буз" VERB @acl #2->3
+"<эр>"
+	"эр" NOUN @nsubj #3->4
+"<туулат>"
+	"туу" VERB @root #4->0
+"<.>"
+	"." NOUN @punct #5->4
+
+# sent_id =Manas01
+# text = Ал келбесе, мен өлөм.
+#labels=annotator: Meerim_Taalaibekova
+"<Ал>"
+	"Ал" PRON @nsubj #1->2
+"<келбесе>"
+	"кел" VERB @advcl #2->5
+"<,>"
+	"," PUNCT @punct #3->2
+"<мен>"
+	"мен" PRON @nsubj #4->5
+"<өлөм>"
+	"өл" VERB @root #5->0
+"<.>"
+	"." PUNCT @punct #6->5
+
+# sent_id =Manas01
+# text = Манасты жарыктык Кошой жоктоптур.
+#labels=annotator: Meerim_Taalaibekova
+"<Манасты>"
+	"Манас" PROPN @obj #1->4
+"<жарыктык>"
+	"жарыктык" ADJ @amod #2->3
+"<Кошой>"
+	"Кошой" PROPN @nsubj #3->4
+"<жоктоптур>"
+	"жокто" VERB @root #4->0
+"<.>"
+	"." PUNCT @punct #5->4
+
+# sent_id =Manas01
+# text = Ачкан бир курсак тоюнду.
+#labels=annotator: Meerim_Taalaibekova
+"<Ачкан>"
+	"Ачка" ADJ @advmod #1->3
+"<бир>"
+	"бир" NUM @det #2->3
+"<курсак>"
+	"курсак" NOUN @nsubj #3->4
+"<тоюнду>"
+	"тоюу" VERB @root #4->0
+"<.>"
+	"." PUNCT @punct #5->4
+
+# sent_id =Manas01
+# text = Алмамбет артынан келди кубанып.
+#labels=annotator: Meerim_Taalaibekova
+"<Алмамбет>"
+	"Алмамбет" PROPN @nsubj #1->3
+"<артынан>"
+	"артынан" ADV @advmod #2->3
+"<келди>"
+	"кел" VERB @root #3->0
+"<кубанып>"
+	"кубан" VERB @advmod #4->3
+"<.>"
+	"." PUNCT @punct #5->3
+
+# sent_id =Manas01
+# text = Ал аман чоңойсо, Бээжинди соо койбойт.
+#labels=annotator: Meerim_Taalaibekova
+"<Ал>"
+	"Ал" PRON @nsubj #1->3
+"<аман>"
+	"аман" ADJ @advmod #2->3
+"<чоңойсо>"
+	"чоңой" VERB @advcl #3->7
+"<,>"
+	"," PUNCT @punct #4->3
+"<Бээжинди>"
+	"Бээжин" NOUN @obj #5->7
+"<соо>"
+	"соо" ADJ @advmod #6->7
+"<койбойт>"
+	"кой" VERB @root #7->0
+"<.>"
+	"." PUNCT @punct #8->7
