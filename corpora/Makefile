@@ -10,3 +10,9 @@ kir-proverbs-disam-gold.txt: proverbs.dep
 
 kir-proverbs-disam-input.txt: proverbs.dep
 	grep 'text =' $< | sed 's/# text = //' > $@
+
+count: *.dep
+	# Token count:
+	grep "\"<" *.dep | wc -l
+	# Sentence count:
+	grep -r "# *text *=" *.dep | wc -l
