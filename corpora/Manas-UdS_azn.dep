@@ -1,0 +1,469 @@
+# sent_id = Manas-UdS: BrokenSword02
+# text = Тууган бирде жакшылыкта, бирде жамандыкта каралашат.
+#labels=annotator:azima_naamatbekova
+"<Тууган>"
+	"Тууган" NOUN @nsubj #1->7
+"<бирде>"
+	"бирде" ADV @advmod #2->3
+"<жакшылыкта>"
+	"жакшылыкта" NOUN @nsubj #3->7
+"<,>"
+	"," PUNCT @punct #4->3
+"<бирде>"
+	"бирде" ADV @advmod #5->6
+"<жамандыкта>"
+	"жамандыкта" NOUN @nsubj #6->7
+"<каралашат>"
+	"каралашат" VERB @root #7->0
+"<.>"
+	"." PUNCT @punct #8->7
+
+# sent_id = Manas-UdS: OljobaymenenKishimjan04
+# text = Эр Олжобай сен кетсең Эртели кеч аталап эркелейт кимге Акберди?
+#labels=annotator:azima_naamatbekova
+"<Эр>"
+	"Эр" ADJ @amod #1->2
+"<Олжобай>"
+	"Олжобай" NOUN @vocative #2->3
+"<сен>"
+	"сен" PRON @nsubj #3->4
+"<кетсең>"
+	"кет" VERB @advcl #4->8
+"<Эртели>"
+	"эрте" ADV @advmod #5->6
+"<кеч>"
+	"кеч" ADV @advmod #6->7
+"<аталап>"
+	"ата" VERB @advmod #7->8
+"<эркелейт>"
+	"VERB" VERB @root #8->0
+"<кимге>"
+	"ким" PRON @case #9->8
+"<Акберди>"
+	"Акберди" NOUN @nsubj #10->8
+"<?>"
+	"?" PUNCT @punct #11->8
+
+# sent_id = Manas-UdS: n00578
+# text = Бүткүл суу келүүчү жабдуулары эбак эскирип бүткүн.
+#labels=annotator:azima_naamatbekova
+"<Бүткүл>"
+	"бүткүл" ADJ @amod #1->2
+"<суу>"
+	"суу" NOUN @nmod #2->4
+"<келүүчү>"
+	"кел" ADJ @amod #3->4
+"<жабдуулары>"
+	"жабдуу" NOUN @nsubj #4->6
+"<эбак>"
+	"эбак" ADV @advmod #5->6
+"<эскирип>"
+	"эскир" VERB @root #6->0
+"<бүткүн>"
+	"бүт" VERB @aux #7->6
+"<.>"
+	"." PUNCT @punct #8->6
+
+# sent_id = Manas-UdS: pv00000
+# text = Баскандан эринген бир кезекте жүгүрөр.
+#labels=annotator:azima_naamatbekova
+"<Баскандан>"
+	"Баскан" VERB @obj #1->2
+"<эринген>"
+	"эрин" VERB @parataxis #2->6
+"<,>""," PUNCT @punct #3->2
+"<бир>"
+	"бир" NUM @nummod #4->5
+"<кезекте>"
+	"кезек" ADV @advmod #5->6
+"<жүгүрөр>"
+	"жүгүр" VERB @root #6->0
+"<.>"
+	"." PUNCT @punct #7->6
+
+# sent_id = Manas-UdS: TheKhanandtheVizier072
+# text = Баскандан эринген бир кезекте жугурор
+#labels=annotator:azima_naamatbekova
+"<Мурда>"
+	"мурун" ADV @advmod #1->2
+"<күнү>"
+	"күн" NOUN @advmod #2->7
+"<ушул>"
+	"ушул" PRON @det #3->4
+"<жигит>"
+	"жигит" NOUN @nsubj #4->7
+"<алтын>"
+	"алтын" ADJ @amod #5->6
+"<кийикти>"
+	"кийик" NOUN @obj #6->7
+"<алып>"
+	"ал" VERB @root #7->0
+"<келди>"
+	"кел" VERB @aux #8->7
+"<эле>"
+	"эле" PART @aux #9->8
+"<.>"
+	"." PUNCT @punct #10->7
+
+# sent_id = Manas-UdS: AsanandUson046
+# text = Аябай чарчап , жол боюндагы топ теректин түбүндө эс алып жатты 
+#labels=annotator:azima_naamatbekova
+"<Аябай>"
+	"аябай " ADV @advmod #1->2
+"<чарчап>"
+	"чарчоо" VERB @advcl #2->11
+"<,>"
+	"," PUNCT @punct #3->2
+"<жол>"
+	"жол" NOUN @nmod #4->5
+"<боюндагы>"
+	"боюу" NOUN @nmod #5->7
+"<топ>"
+	"топ" ADJ @amod #6->7
+"<теректин>"
+	"терек" NOUN @case #7->8
+"<түбүндө>"
+	"түп" NOUN @advmod #8->11
+"<эс>"
+	"эc" NOUN @aux #9->10
+"<алып>"
+	"ал" VERB @aux #10->11
+"<жатты>"
+	"жат" VERB @root #11->0
+"<.>"
+	"." PUNCT @punct #12->11
+
+# sent_id = Manas-UdS: pv00000
+# text = Адамча туулуп , айбанча жашаба  
+#labels=annotator:azima_naamatbekova
+"<Адамча>"
+	"адам " ADV @advmod #1->2
+"<туулуп>"
+	"туулуу" VERB @parataxis #2->5
+"<,>"
+	"," PUNCT @punct #3->2
+"<айбанча>"
+	"айбан" ADV @advmod #4->5
+"<жашаба>"
+	"жаша" VERB @root #5->0
+"<.>"
+
+# sent_id = Manas-UdS: Kyrgyn085
+# text = Чапчаң келди боз жорго.
+#labels=annotator:azima_naamatbekova
+"<Чапчаң>"
+	"чапчаң" ADV @advmod #1->4
+"<келди>"
+	"кел" VERB @nsubj #2->4
+"<боз>"
+	"боз" ADJ @amod #3->4
+"<жорго>"
+	"жорго" NOUN @root #4->0
+"<.>"
+	"." PUNCT - @punct #5->4
+
+# sent_id = Manas-UdS: pv00000
+# text = Ороктон качкан ыраак барат.
+#labels=annotator:azima_naamatbekova
+"<Ороктон>"
+	"орок" NOUN @advmod #1->2
+"<качкан>"
+	"кач" VERB @nsubj #2->4
+"<ыраак>"
+	"ыраак" ADV @advmod #3->4
+"<барат>"
+	"бар" VERB @root #4->0
+"<.>"
+	"." PUNCT @punct #5->4
+
+# sent_id = Manas-UdS: TheTwoBrothers071
+# text = Байкуш бала айласыздан ыйлап кала берет.
+#labels=annotator:azima_naamatbekova
+"<Байкуш>"
+	"байкуш" ADJ @advmod #1->2
+"<бала>"
+	"бала" NOUN @nsubj #2->4
+"<айласыздан>"
+	"айласыз" ADJ @advcl #3->4
+"<ыйлап>"
+	"ый" VERB @root #4->0
+"<кала>"
+	"кал" AUX @advcl #5->4
+"<берет>"
+	"бер" AUX @advcl #6->4
+"<.>"
+	"." PUNCT @punct #7->4
+
+# sent_id = Manas-UdS: BrokenSword02	
+# text = Өткөн жылы Нармамбет мага каршы баш көтөрүп калды
+капилеттен 
+#labels=annotator:azima_naamatbekova
+
+"<Өткөн>"
+	"өт" ADJ @advmod #1->2
+"<жылы>"
+	"жыл" PROPN @nsubj #2->7
+"<мага>"
+	"мен" PRON @advcl #3->8
+"<каршы>"
+	"каршы" ADV @advmod #4->7
+"<баш>"
+	"баш" NOUN @advmod #5->6
+"<көтөрүп>"
+	"көтөр" VERB @advmod #6->7
+"<калды>"
+	"кал" VERB @root #7->0
+"<капилеттен>"
+	"капилеттен" ADV @advmod #8->7
+"<.>"
+	"." PUNCT @punct #9->7
+
+# sent_id = Manas-UdS: BrokenSword02	
+# text = Бакай турду кеп баштап, акырын сүйлөп бек таштап
+#labels=annotator:azima_naamatbekova
+"<Бакай>"
+	"Бакай" NOUN @nsubj #1->4
+"<турду>"
+	"турду" VERB @nsubj #2->1
+"<кеп>"
+	"кеп" NOUN @obj #3->4
+"<баштап>"
+	"баштап" VERB @parataxis #4->9
+"<,>"
+	"," PUNCT @punct #5->4
+"<Акырын>"
+	"Акырын" ADV @advmod #6->7
+"<сүйлөп>"
+	"сүйлөп" VERB @advcl #7->9
+"<бек>"
+	"бек" NOUN @obj #8->9
+"<таштап>"
+	"таштап" VERB @root #9->0
+"<:>"
+	":" PUNCT @punct #10->9
+
+# sent_id = Manas-UdS: ErToshtuk083	
+# text = Жер алдынан атайлап алып келген катыным
+#labels=annotator:azima_naamatbekova
+"<Жер>"
+	"жер" NOUN @advmod #1->2
+"<алдынан>"
+	"алды" ADV #2->5
+"<атайлап>"
+	"атайын" ADV @advmod #3->4
+"<алып>"
+	"ал" AUX @advcl #4->5
+"<келген>"
+	"кел" VERB @root #5->0
+"<катыным>"
+	"катын" NOUN @nsubj #6->5
+"<.>"
+	"." PUNCT @punct #7->5
+
+# sent_id = Manas-UdS: n00912
+# text = Эне кайсы тилде сүйлөсө, бала эрксизден ошол тилде сүйлөйт.
+#labels=annotator:azima_naamatbekova
+"<Эне>"
+	"Эне" NOUN @nsubj #1->4
+"<кайсы>"
+	"кайсы" PRON @det #2->3
+"<тилде>"
+	"тилде" NOUN @case #3->4
+"<сүйлөсө>"
+	"сүйлөсө" VERB @advcl #4->10
+"<,>"
+	"," PUNCT @case #5->4
+"<бала>"
+	"бала" NOUN @nsubj #6->10
+"<эрксизден>"
+	"эрксизден" ADV @case #7->10
+"<ошол>"
+	"ошол" PRON @amod #8->9
+"<тилде>"
+	"тилде" NOUN @case #9->10
+"<сүйлөйт>"
+	"сүйлөйт" VERB @root #10->0
+"<.>"
+	"." PUNCT @punct #11->10
+
+# sent_id = Manas-UdS: TheKhanandtheVizier072
+# text = Мурда күнү ушул жигит алтын кийикти алып келди эле.
+#labels=annotator:azima_naamatbekova
+"<Мурда>"
+	"мурун" ADV @advmod #1->2
+"<күнү>"
+	"күн" NOUN @advmod #2->7
+"<ушул>"
+	"ушул" PRON @det #3->4
+"<жигит>"
+	"жигит" NOUN @nsubj #4->7
+"<алтын>"
+	"алтын" ADJ @amod #5->6
+"<кийикти>"
+	"кийик" NOUN @obj #6->7
+"<алып>"
+	"ал" VERB @root #7->0
+"<келди>"
+	"кел" VERB @aux #8->7
+"<эле>"
+	"эле" PART @aux #9->8
+"<.>"
+	"." PUNCT @punct #10->7
+
+# sent_id = Manas-UdS: TheKhanandtheVizier072
+# text = Эң мурун таз чертти, андан кийин бала чертти, таздын мээсин жара чертти. 
+#labels=annotator:azima_naamatbekova
+"<Эң>"
+	"Эң" DET @det #1->2
+"<мурун>"
+	"мурун" ADV @advmod #2->4
+"<таз>"
+	"таз" NOUN @nsubj #3->4
+"<чертти>"
+	"черт" VERB @parataxis #4->14
+"<,>"
+	"," PUNCT @punct #5->4
+"<андан>"
+	"ал" ADV @advmod #6->7
+"<кийин>"
+	"кийин" ADV @advmod #7->9
+"<бала>"
+	"бала" NOUN @nsubj #8->9
+"<чертти>"
+	"черт" VERB @parataxis #9->14
+"<,>"
+	"," PUNCT @punct #10->9
+"<таздын>"
+	"таз" NOUN @nmod #11->12
+"<мээсин>"
+	"мээ" NOUN @obj #12->14
+"<жара>"
+	"жар" ADV @advmod #13->14
+"<чертти>"
+	"черт" VERB @root #14->0
+"<.>"
+	"." PUNCT @punct #15->14
+
+# sent_id = Manas-UdS: Manas01
+# text = Төрүнө казан асты эми, Төрт түлүгүн чачты эми.
+#labels=annotator:azima_naamatbekova
+# genre = epic_oral_literature
+"<Түрүнө>"
+	"Түр" ADV @advmod #1->3
+"<казан>"
+	"казан" NOUN @obj #2->3
+"<асты>"
+	"ас" VERB @parataxis #3->8
+"<эми>"
+	"эми" PART @aux #4->3
+"<,>"
+	"," PUNCT @punct #5->3
+"<Төрт>"
+	"төрт" NUM @det #6->7
+"<түлүгүн>"
+	"түлүк" NOUN @obj #7->8
+"<чачты>"
+	"чач" VERB @root #8->0
+"<эми>"
+	"эми" PART @aux #9->8
+"<.>"
+	"." PUNCT @punct #10->8
+
+# sent_id = Manas-UdS: BrokenSword02
+# text = Ылдый тартсаң араба сынат, өйдө тартсаң өгүз өлөт
+#labels=annotator:azima_naamatbekova
+"<Өйдө>"
+	"өйдө" ADV @advmod #1->2
+"<тартсаң>"
+	"тарт" VERB @advcl #2->4
+"<өгүз>"
+	"өгүз" NOUN @nsubj #3->4
+"<өлөт>"
+	"өл" VERB @root #4->0
+"<,>"
+	"," PUNCT @punct #5->4
+"<ылдый>"
+	"ылдый" ADV @advmod #6->7
+"<тартсаң>"
+	"тарт" VERB @advcl #7->9
+"<араба>"
+	"араба" NOUN @nsubj #8->9
+"<сынат>"
+	"сын" VERB @root #9->0
+"<.>"
+	"." PUNCT @punct #10->9
+
+# sent_id = Manas-UdS: TheTwoBrothers071
+# text = Байкуш бала айласыздан ыйлап кала берет
+#labels=annotator:azima_naamatbekova
+"<Байкуш>"
+	"байкуш" ADJ @advmod #1->2
+"<бала>"
+	"бала" NOUN @nsubj #2->4
+"<айласыздан>"
+	"айласыз" ADJ @advcl #3->4
+"<ыйлап>"
+	"ый" VERB @root #4->0
+"<кала>"
+	"кал" AUX @advcl #5->4
+"<берет>"
+	"бер" AUX @advcl #6->4
+"<.>"
+	"." PUNCT @punct #7->4
+
+# sent_id = Manas-UdS: BrokenSword02
+# text = Мына ушул күтүлбөгөн кыйын жерде Курманжан жесир аларды атайын кысты .
+#labels=annotator:azima_naamatbekova
+"<Мына>"
+	"мына" ADJ @advmod #1->5
+"<ушул>"
+	"ушул" ADJ @advmod #2->5
+"<күтүлбөгөн>"
+	"күт" ADJ @advmod #3->5
+"<кыйын>"
+	"кыйын" ADJ @advmod #4->5
+"<жерде>"
+	"жер" NOUN @nmod #5->10
+"<Курманжан>"
+	"Курманжан" NOUN @nsubj #6->10
+"<жесир>"
+	"жесир" NOUN @nmod #7->6
+"<аларды>"
+	"алар" NOUN @nsubj #8->10
+"<атайын>"
+	"атайын" ADV @advmod #9->10
+"<кысты>"
+	"кыс" VERB @root #10->0
+"<.>"
+	"." PUNCT @punct #11->10
+
+# sent_id = Manas-UdS: Manas01
+# text = Эсенкандын буйругу боюнча Жолой көп кол баштап, кыргыздарга каршы кайра аттанат.
+#labels=annotator:azima_naamatbekova	
+# genre = epic_oral_literature
+"<Эсенкандын>"
+	"Эсенкан" NOUN #1->
+"<буйругу>"
+	"буйрук" NOUN @nmod #2->1
+"<боюнча>"
+	"боюнча" PART @case #3->2
+"<Жолой>"
+	"Жолой" NOUN @nsubj #4->12
+"<көп>"
+	"көп" ADJ @amod #5->6
+"<кол>"
+	"кол" NOUN @nsubj #6->7
+"<баштап>"
+	"башта" VERB @aux #7->12
+"<,>"
+	"," PUNCT @punct #8->7
+"<кыргыздарга>"
+	"кыргыз" NOUN @obj #9->12
+"<каршы>"
+	"каршы" ADV @advmod #10->12
+"<кайра>"
+	"кайра" ADV @advmod #11->12
+"<аттанат>"
+	"аттан" VERB @root #12->0
+"<.>"
+	"." PUNCT @punct #13->12
