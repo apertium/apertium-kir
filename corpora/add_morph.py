@@ -41,12 +41,14 @@ def get_analysis(text):
 def write_sent(sent,analysis):
 	#h = hash_line(sent)
 	#print("["+h+"]\n"+sent+"[/"+h+"]")
-	#print(sent)
-	for line in zip(sent,analysis):
-		(file_line, disam_line) = (line[0], line[1])
+	idxs = [*range(0, len(sent))]
+	for line in zip(sent,analysis,idxs):
+		(file_line, disam_line, idx) = (line[0], line[1], line[2])
 		print(file_line[0], disam_line[0])
 		if file_line[0] != disam_line[0]:
 			print("WARNING: mismatch: ", file_line, disam_line, file=sys.stderr)
+			if(sent[idx+1][0] == disam_line[0]):
+				print("NEXT LINE MATCHES:", sent[idx+1][0], disam_line, file=sys.stderr)
 		else:
 			pass
 

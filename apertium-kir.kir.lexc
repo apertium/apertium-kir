@@ -7633,6 +7633,7 @@ LEXICON Nouns
 Вазирлик:Вазирлик N-INFL ; ! "vezirlik"
 Мейдук:Мейдук N-INFL ; ! "alan"
 өндүрүү:өндүрүү N-INFL ; ! "üretim"
+коронавирус:коронавирус N-INFL ; ! "coronavirus"
 
 
 ! Abbreviations
@@ -17111,7 +17112,7 @@ LEXICON Verbs
 төмөнсүн:төмөнсүн V-INFL-IV-NO-CAUS ; ! "to feel down" 
 төмөнсүн:төмөнсүнт V-INFL-IV-IRREG-CAUS ; ! "to make _ feel down"
 топто:топто V-INFL-TV ; 
-тосуп% ал:тосуп% ал V-INFL-TV ; 
+! тосуп% ал:тосуп% ал V-INFL-TV ; # Use/MT
 тоң:тоң V-INFL-IV ; ! "freeze"
 тут:тут V-INFL-TV ; ! "hold"
 түгөн:түгөн V-INFL-IV ; ! "run out"
