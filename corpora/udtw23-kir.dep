@@ -80,10 +80,42 @@
 # sent_id = 9
 # text = Дүкөндө жемиш бар, бирок жакшы эмес.
 # text[en] = There's fruit at the store, but it's not nice.
+"<Дүкөндө>"
+	"дүкөн" n loc #1->
+"<жемиш>"
+	"жемиш" n nom #2->
+"<бар>"
+	"бар" adj @root #3->0
+		"э" cop aor p3 sg #4->
+"<,>"
+	"," cm #5->
+"<бирок>"
+	"бирок" cnjadv #6->
+"<жакшы>"
+	"жакшы" adj #7->
+"<эмес>"
+	"эмес" adj #8->
+		"э" cop aor p3 sg #9->
+"<.>"
+	"." sent #10->
 
 # sent_id = 10
 # text = Дениз доктур болот, билип кой!
 # text[en] = Deniz will be a doctor, know this!
+"<Дениз>"
+	"Дениз" np ant mf nom #1->
+"<доктур>"
+	"доктур" n nom #2->
+"<болот>"
+	"бол" v iv aor p3 sg @root #3->0
+"<,>"
+	"," cm #4->
+"<билип>"
+	"бил" v iv prc_perf #5->
+"<кой>"
+	"кой" vaux imp p2 sg #6->
+"<!>"
+	"!" sent #7->
 
 # sent_id = 11
 # text = Дениз уктап калган эле.

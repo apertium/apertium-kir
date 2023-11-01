@@ -573,3 +573,839 @@
 	"ойло" VERB tv pass ifi p1sg past @root #10->0
 "<.>"
 	"." PUNCT sent @punct #11->10
+
+# sent_id = Manas – UdS: n00934
+# text = Ысык-Көл аймагында, учурунда улуктар чыккан.
+# labels = annotator: suiun_tostonova
+"<Ысык-Көл>"
+	"Ысык-Көл" NOUN @advmod #1->2
+"<аймагында>"
+	"аймак" NOUN @obl:loc #2->6
+"<,>"
+	"," PUNCT @punct #3->2
+"<учурунда>"
+	"учур" ADV @advmod #4->6
+"<улуктар>"
+	"улук" NOUN @nsubj #5->6
+"<чыккан>"
+	"чык" VERB @root #6->0
+"<.>"
+	"." PUNCT @punct #7->6
+
+# sent_id = Manas – UdS: n00077
+# text = Ал убактагы кечилдердин руханий өсүшүн билдирет.
+# labels = annotator: suiun_tostonova 
+"<Ал>"
+	"Ал" DET @det #1->2
+"<убактагы >"
+	"убакыт" NOUN @advmod #2_>5
+"<кечилдердин>"
+	"кечил" NOUN @nmod:poss #3->5
+"<руханий>"
+	"руханий" ADJ @amod #4->5
+"<өсүшүн>"
+	"өс" VERB @obj #5->6
+"<билдирет>"
+	"билдир" VERB @root #6->0
+"<.>"
+	"." PUNCT @punct #7->6
+
+# sent_id = Manas – UdS: n00077
+# text = Бул Конфуций окуусунун алга жылышындагы негизги багыттардын бири болуп калган.
+# labels = annotator: suiun_tostonova
+"<Бул>"
+	"Бул" PROPN @nsubj #1->9
+"<Конфуций>"
+	"Конфуций" NOUN @obl #2->3
+"<окуусунун>"
+	"окуу" NOUN @nmod:poss #3->8
+"<алга>"
+	"алга" ADV @advmod #4->5
+"<жылышындагы>"
+	"жыл" VERB @advmod  #5->7
+"<негизги>"
+	"негизги" ADJ @amod #6->7
+"<багыттардын>"
+	"багыт" NOUN @nmod:poss #7->8
+"<бири>"
+	"бир" NUM @root #8->0
+"<болуп>"
+	"бол" VERB @aux #9->8
+"<калган>"
+	"кал" VERB @aux #10->9
+"<.>"
+	"." PUNCT @punct #11->10
+
+# sent_id = Manas – UdS: n000xx
+# text = Ал баягыдай эмес, чышта кийинип, оңолуп калган.
+# labels = annotator: suiun_tostonova
+"<Ал>"
+	"Ал" PRON @nsubj #1->8
+"<баягыдай>"
+	"баягы" ADV @advmod #2->3
+"<эмес>"
+	"эмес" ADV @cop #3->2
+"<,>"
+	"," PUNCT @punct #4->3
+"<чышта>"
+	"чышта" ADJ @amod #5->6
+"<кийинип>"
+	"кий" VERB #6->
+"<,>"
+	"," PUNCT @punct #7->9
+"<оңолуп>"
+	"оңол" VERB @root #8->0
+"<калган>"
+	"кал" VERB @aux #9->8
+"<.>"
+	"." PUNCT @punct #10->9
+
+# sent_id = Manas – UdS: n00077
+# text = « Aдамды сүйүүчүлүк же гумандуулук » түзөт.
+# labels = annotator: suiun_tostonova
+"<«>"
+	"«" PUNCT @punct #1->2
+"<Aдамды>"
+	"Aдамды" NOUN @obj #2->7
+"<сүйүүчүлүк>"
+	"сүйүү" NOUN @nsubj #3->7
+"<же>"
+	"же" CCONJ @case #4->3
+"<гумандуулук>"
+	"гумандуулук" NOUN @nsubj #5->7
+"<»>"
+	"»" PUNCT @punct #6->5
+"<түзөт>"
+	"түз" VERB @root #7->0
+"<.>"
+	"." PUNCT @punct #8->7
+
+# sent_id = Manas – UdS: n00077
+# text = Конфуций ушул күндөн баштап төшөккө жатып калат.
+# labels = annotator: suiun_tostonova
+"<Конфуций>"
+	"Конфуций" PROPN @nsubj #1->6
+"<ушул>"
+	"ушул" DET @det #2->3
+"<күндөн>"
+	"күн" NOUN @obl:abl #3->4
+"<баштап>"
+	"баштa" VERB @ #4->8
+"<төшөккө>"
+	"төшөк" NOUN @obl:dat #5->6
+"<жатып>"
+	"жат" VERB  @root #6->0
+"<калат>"
+	"кал" VERB @aux #7->6
+"<.>"
+	"." PUNCT @punct #8->7
+
+# sent_id = Manas – UdS: n00079
+# text = Агайың экөөбүз кыргыз элинин маданиятына, искусствосуна чоң салым коштук.
+# labels = annotator: suiun_tostonova
+"<Агайың>"
+	"Агай" NOUN @nsubj #1->2
+"<экөөбүз>"
+	"эки" NUM @nummod #2->10
+"<кыргыз>"
+	"кыргыз" NOUN @nmod #3->4
+"<элинин>"
+	"эл" NOUN @obl:gen #4->5
+"<маданиятына>"
+	"маданият" NOUN @obl:dat #5->9
+"<,>"
+	"," PUNCT @punct #6->5
+"<искусствосуна>"
+	"искусство" NOUN @obl:dat #7->9
+"<чоң>"
+	"чоң" ADJ @amod #8->9
+"<салым>"
+	"салым" NOUN @nsubj #9->10
+"<коштук>"
+	"кош" VERB @root #10->0
+"<.>"
+	"." PUNCT @punct #11->10
+
+# sent_id = Manas – UdS: n00077
+# text = Тоодон келген балдардын курсактары ачыптыр.
+# labels = annotator: suiun_tostonova
+"<Тоодон>"
+	"Тоо" NOUN @obl:abl #1->2
+"<келген>"
+	"кел" VERB @csubj #2->3
+"<балдардын>"
+	"балa" NOUN @nmod:poss #3->4
+"<курсактары>"
+	"курсак" NOUN @nsubj #4->5
+"<ачыптыр>"
+	"ач" VERB @root #5->0
+"<.>"
+	"." PUNCT @punct #6->5
+
+# sent_id = Manas – UdS: n00077
+# text = Конфуций дүйнөнүн тынч жол менен биригүүсүн каалаган.
+# labels = annotator: suiun_tostonova
+"<Конфуций>"
+	"Конфуций" PROPN @nsubj #1->7
+"<дүйнөнүн>"
+	"дүйнө" NOUN @obl:gen #2->6
+"<тынч>"
+	"тынч" ADJ @amod #3->4
+"<жол>"
+	"жол" NOUN @nsubj #4->7
+"<менен>"
+	"менен" ADP @case #5->4
+"<биригүүсүн>"
+	"биригүү" VERB @case #6->7
+"<каалаган>"
+	"каала" VERB @root #7->0
+"<.>"
+	"." PUNCT @punct #8->7
+
+# sent_id = Manas – Uds: n00094
+# text = Ушул китеп дүйнө кезип, сүйүүңөргө ээ болсун!
+# labels = annotator: suiun_tosotonova
+"<Ушул>"
+	"Ушул" PRON @amod #1->2
+"<китеп>"
+	"китеп" NOUN @nsubj #2->8
+"<дүйнө>"
+	"дүйнө" NOUN @obl:acc #3->4
+"<кезип>"
+	"кез" VERB @advcl #4->8
+"<,>"
+	"," PUNCT @punct #5->8
+"<сүйүүңөргө>"
+	"сүйүү" NOUN @obl:dat #6->7
+"<ээ>"
+	"ээ" NOUN @nsubj #7->8
+"<болсун>"
+	"бол" VERB @root #8->0
+"<!>"
+	"!" PUNCT @punct #9->8
+
+# sent_id = Manas – UdS: n00094
+# text = Бир сөздү жүз жолу жазып, жүз жолудан көчүрдүм.
+# labels = annotator: suiun_tostonova
+"<Бир>"
+	"Бир" NUM @nummod #1->2
+"<сөздү>"
+	"сөз" NOUN @obl:acc #2->9
+"<жүз>"
+	"жүз" NUM @nummod #3->4
+"<жолу>"
+	"жол" NOUN @nummod #4->5
+"<жазып>"
+	"жаз" VERB @advcl #5->9
+"<,>"
+	"," PUNCT @punct #6->5
+"<жүз>"
+	"жүз" NUM @nummod #7->8
+"<жолудан>"
+	"жол" NOUN @nummod #8->9
+"<көчүрдүм>"
+	"көчүр" VERB @root #9->0
+"<.>"
+	"." PUNCT @punct #10->9
+
+#id = Manas-Uds: n00077
+# text = Цзы-гун ошондо гана анын оорусу күчөп кеткенин байкаган.
+# labels = annotator: suiun_tostonova
+"<Цзы-гун>"
+	"Цзы-гун" PROPN @nsubj #1->8
+"<ошондо>"
+	"ошол" ADV @advmod #2->8
+"<гана>"
+	"гана" ADV @case #3->2
+"<анын>"
+	"ал" PRON @obl:gen #4->7
+"<оорусу>"
+	"оору" NOUN @nsubj #5->6
+"<күчөп>"
+	"күчө" VERB @advcl #6->7
+"<кеткенин>"
+	"кет" VERB @aux #7->8
+"<байкаган>"
+	"байка" VERB @root #8->0
+"<.>"
+	"." PUNCT @punt #9 ->8
+
+# sent_id = Manas – UdS: n00077
+# text = Улгайып калган кезинде Лу падышачылыгынын тарых китебин жазып баштаган.
+# labels = annotator: suiun_tostonova
+"<Улгайып>"
+	"Улгай" VERB @advmod #1->2
+"<калган>"
+	"кал" VERB @advmod #2->3
+"<кезинде>"
+	"кез" ADV @advcl #3->8
+"<Лу>"
+	"Лу" PROPN @nmod #4->5
+"<падышачылыгынын>"
+	"падышачылык" NOUN @nmod:poss #5->7
+"<тарых>"
+	"тарых" NOUN @nmod #6->7
+"<китебин>"
+	"китеп" NOUN @obj #7->8
+"<жазып>"
+	"жаз" VERB @root #8->0
+"<баштаган>"
+	"башта" VERB @aux #9->8
+"<.>"
+	"." PUNCT @punct #10->9
+
+# sent_id = Manas – UdS: n00021
+# text = Катыш толтура, тааныш - достун арасында жашоо кызыктуу.
+# labels = annotator: suiun_tostonova
+"<Катыш>"
+	"Катыш" NOUN @nsubj #1->2
+"<толтура>"
+	"толтура" ADV @advmod #2->4
+"<,>"
+	"," PUNCT @punct #3->2
+"<тааныш>"
+	"тааныш" NOUN @nmod #4->6
+"<->"
+	"-" PUNCT @punct #5->4
+"<достун>"
+	"дос" NOUN @obl:gen #6->7
+"<арасында>"
+	"арасы" ADV @advmod #7->9
+"<жашоо>"
+	"жашоо" NOUN @nsubj #8->9
+"<кызыктуу>"
+	"кызыктуу" ADJ @root #9->0
+"<.>"
+	"." PUNCT @punct #10->9
+
+# sent_id = Manas – UdS: n00021
+# text = Үйдө тынч жашаганга балдар көнөт.
+# labels = annotator: suiun_tostonova
+"<Үйдө>"
+	"Үй" NOUN @obl:loc #1->3
+"<тынч>"
+	"тынч" ADJ @amod #2->3
+"<жашаганга>"
+	"жаша" VERB @obl #3->5
+"<балдар>"
+	"балa" NOUN @nsubj #4->5
+"<көнөт>"
+	"көн" VERB @root #5->0
+"<.>"
+	"." PUNCT @punct #6->5
+
+# sent_id = Manas – UdS: n00021
+# text = Ал жерде азыр тигүүчүлөр үчүн бардык шарттар түзүлгөн.
+# labels = annotator: suiun_tostonova
+"<Ал>"
+	"Ал" DET @det #1->2
+"<жерде>"
+	"жер" NOUN @obl:loc #2->8
+"<азыр>"
+	"азыр" ADV @advmod #3->8
+"<тигүүчүлөр>"
+	"тигүүчү" NOUN @nsubj #4->8
+"<үчүн>"
+	"үчүн" ADP @case #5->4
+"<бардык>"
+	"бардык" PROPN @amod #6->7
+"<шарттар>"
+	"шарт" NOUN @nsubj #7->8
+"<түзүлгөн>"
+	"түз" VERB @root #8->0
+"<.>"
+	"." PUNCT @punct #9->8
+
+# sent_id = Manas – UdS: n00021
+# text = Кийимдерди тигүүгө буйрутмалар Москвадан, Бишкектен түшүп турат.
+# labels = annotator: suiun_tostonova
+"<Кийимдерди>"
+	"Кийим" NOUN @obj #1->2
+"<тигүүгө>"
+	"тигүү" VERB @obj #2->3
+"<буйрутмалар>"
+	"буйрутма" NOUN @nsubj #3->7
+"<Москвадан>"
+	"Москва" PROPN @obl:abl #4->7
+"<,>"
+	"," PUNCT @punct #5->4
+"<Бишкектен>"
+	"Бишкек" PROPN @obl:abl #6->7
+"<түшүп>"
+	"түш" VERB @root #7->0
+"<турат>"
+	"тур" VERB @aux #8->7
+"<.>"
+	"." PUNCT @punct #9->8
+
+# sent_id = Manas – UdS: n00112
+# text = Устаз мени дароо таанып, учурашканына ыраазы болдум.
+# labels = annotator: suiun_tostonova
+"<Устаз>"
+	"Устаз" NOUN @nsubj #1->4
+"<мени>"
+	"мен" PRON @obj #2->4
+"<дароо>"
+	"дароо" ADV @advmod #3->4
+"<таанып>"
+	"тааны" VERB @advcl #4->6
+"<,>"
+	"," PUNCT @punct #5->4
+"<учурашканына>"
+	"учураш" VERB @obl #6->7
+"<ыраазы>"
+	"ыраазы" ADJ @root #7->0
+"<болдум>"
+	"бол" VERB @cop #8->7
+"<.>"
+	"." PUNCT @punct #9->8
+
+# sent_id = Manas – Uds: n00112
+# text = Кийин телефон аркылуу көп эле байланышып жүрдүм.
+# labels = annotator: suiun_tostonova
+"<Кийин>"
+	"Кийин" ADV @advmod #1->6
+"<телефон>"
+	"телефон" NOUN @nsubj #2->3
+"<аркылуу>"
+	"аркылуу" ADP @case #3->6
+"<көп>"
+	"көп" ADV @advmod #4->6
+"<эле>"
+	"эле" AUX @cop #5->4
+"<байланышып>"
+	"байланыш" VERB @root #6->0
+"<жүрдүм>"
+	"жүр" VERB @cop #7->6
+"<.>"
+	"." PUNCT @punct #8->7
+
+# sent_id = Manas – Uds: n00021
+# text = Кыздарга билим берип, карьерасын жасоо кажет.
+# labels = annotator: suiun_tostonova
+"<Кыздарга>"
+	"Кыз" NOUN @obl:dat #1->2
+"<билим>"
+	"билим" NOUN @nsubj #2->3
+"<берип>"
+	"бер" VERB @advcl #3->6
+"<,>"
+	"," PUNCT @punct #4->3
+"<карьерасын>"
+	"карьера" NOUN @obj #5->6
+"<жасоо>"
+	"жасоо" VERB @root #6->0
+"<кажет>"
+	"кажет" NOUN @cop #7->6
+"<.>"
+	"." PUNCT @punct #8->7
+
+# sent_id = Manas – UdS: n00021
+# text = Ар кайсы жерде менчик дүкөндөрү бар.
+# labels = annotator: suiun_ tostonova 
+"<Ар кайсы жерде>"
+	"Ар кайсы жер" ADV @advmod #1->4
+"<менчик>"
+	"менчик" ADJ @amod #2->3
+"<дүкөндөрү>"
+	"дүкөн" NOUN @nsubj #3->4
+"<бар>"
+	"бар" ADJ @root #4->0
+"<.>"
+	"." PUNCT @punct #5->4
+
+# sent_id = Manas –UdS: n00551
+# text = Aга жарашыктуу концерттик аспабыбыз жок.
+# labels = annotator: suiun_tostonova
+"<Aга>"
+	"Aл" PRON @obl:dat #1->2
+"<жарашыктуу>"
+	"жарашыктуу" ADJ @amod #2->4
+"<концерттик>"
+	"концерт" ADJ @amod #3->4
+"<аспабыбыз>"
+	"аспап" NOUN @nsubj #4->5
+"<жок>"
+	"жок" ADJ @root #5->0
+"<.>"
+	"." PUNCT @punct #6->5
+
+# sent_id = Manas – UdS: n00077
+# text = Конфуций мунун баарын аңдай алчу.
+# labels = annotator: suiun_tostonova
+"<Конфуций>"
+	"Конфуций" PROPN @nsubj #1->4
+"<мунун>"
+	"бул" PRON @obl:gen #2->3
+"<баарын>"
+	"баары" PRON @obl: #3->4
+"<аңдай>"
+	"аңда" VERB @root #4->0
+"<алчу>"
+	"ал" VERB @aux #5->4
+"<.>"
+	"." PUNCT @punct #6->5
+
+# sent_id = Manas – UdS: n00669
+# text = Ван Гог чыныгы сүрөткердин парзын – өнөрдөн көргөн.
+# labels = annotator: suiun_tostonova
+"<Ван Гог>"
+	"Ван Гог" PROPN @nsubj#1->8
+"<чыныгы>"
+	"чын" ADJ @amod #3->5
+"<сүрөткердин>"
+	"сүрөт" NOUN @nmod:poss #4->5
+"<парзын>"
+	"парз" NOUN @obj #5->8
+"<–>"
+	"–" PUNCT @punct #6->7
+"<өнөрдөн>"
+	"өнөр" NOUN @obl:abl #7->8
+"<көргөн>"
+	"көр" VERB @root #8->0
+"<.>"
+	"." PUNCT @punct #9->8
+
+# sent_id = Manas – UdS: n00079
+# text = Чалагыз агайсыз кантип жашайт?
+# labels = annotator: suiun_tostonova
+"<Чалагыз>"
+	"Чалагыз" PROPN @appos #1->2
+"<агайсыз>"
+	"агай" NOUN @amod #2->4
+"<кантип>"
+	"кантип" ADV @advmod #3->4
+"<жашайт>"
+	"жаша" VERB @root #4->0
+"<?>"
+	"?" PUNCT @punct #5->4
+
+# sent_id = Manas – UdS: n00079
+# text = Бирок, тирүүнүн жашоосу өтө берет тура.
+# labels = annotator: suiun_tostonova
+"<Бирок>"
+	"Бирок" PART @discourse:mark #1->6
+"<,>"
+	"," PUNCT @punct #2->1
+"<тирүүнүн>"
+	"тирүү" NOUN @nmod:poss #3->4
+"<жашоосу>"
+	"жашоо" NOUN @nsubj #4->5
+"<өтө>"
+	"өтө" VERB @root #5->0
+"<берет>"
+	"бер" VERB @aux #6->5
+"<тура>"
+	"тур" VERB @xcomp #7->6
+"<.>"
+	"." PUNCT @punct #8->7
+
+# sent_id = Manas – UdS: n00669
+# text = Көкүрөгүн азап тырмаса да, көз алдында жашоонун түбөлүктүүлүгү жашап келген.
+# labels = annotator: suiun_tostonova
+"<Көкүрөгүн>"
+	"Көкүрөк" NOUN @obj #1->3
+"<азап>"
+	"азап" NOUN @nsubj #2->3
+"<тырмаса>"
+	"тырма" VERB @advcl #3->10
+"<да>"
+	"да" ADV @advmod:emph #4->3
+"<,>"
+	"," PUNCT @punct #5->4
+"<көз>"
+	"көз" NOUN @obl:gen #6->7
+"<алдында>"
+	"алды" ADV @advmod #7->10
+"<жашоонун>"
+	"жашоо" NOUN @nmod:poss #8->9
+"<түбөлүктүүлүгү>"
+	"түбөлүк" NOUN @nsubj #9->10
+"<жашап>"
+	"жаша" VERB @root #10->0
+"<келген>"
+	"кел" VERB @aux #11->10
+"<.>"
+	"." PUNCT @punct #12->11
+
+# sent_id = Manas – UdS: n00162
+# text = Ошол эле маалыматты 2 - 3 күндөн кийин гезиттен окуунун зарылчылыгы жок.
+# labels = annotator: suiun_tostonova
+"<Ошол>"
+	"Ошол" PRON @amod #1->3
+"<эле>"
+	"эле" ADP @case #2->1
+"<маалыматты>"
+	"маалымат" NOUN @obj #3->10
+"<2>"
+	"2" NUM @nummod #4->7
+"<->"
+	"-" PUNCT @punct #5->4
+"<3>"
+	"3" NUM @nummod #6->7
+"<күндөн>"
+	"күн" NOUN @obl:abl #7->8
+"<кийин>"
+	"кийин" ADV @advmod #8->10
+"<гезиттен>"
+	"гезит" NOUN @obl:abl #9->10
+"<окуунун>"
+	"окуу" VERB @obl:gen #10->11
+"<зарылчылыгы>"
+	"зарылчылык" NOUN @nsubj #11->12
+"<жок>"
+	"жок" ADJ @root #12->0
+"<.>"
+	"." PUNCT @punct #13->12
+
+# sent_id = Manas – UdS: n00021
+# text = Ал учурда кыргыздар аз, кандай товар барса өтө берет.
+# labels = annotator: suiun_tostonova
+"<Ал>"
+	"Ал" PRON @advmod #1->2
+"<учурда>"
+	"учур" NOUN @obl:loc #2->3
+"<кыргыздар>"
+	"кыргыз" NOUN @nsubj #3->8
+"<аз>"
+	"аз" ADV @advmod #4->7
+"<,>"
+	"," PUNCT @punct #5->4
+"<кандай>"
+	"кандай" ADJ @amod #6->7
+"<товар>"
+	"товар" NOUN @nsubj #7->10
+"<барса>"
+	"бар" VERB @advmod #8->10
+"<өтө>"
+	"өт" VERB #root #9->0
+"<берет>"
+	"бер" VERB @aux #10->9
+"<.>"
+	"." PUNCT @punct #11->10
+
+# sent_id = Manas – UdS: n00260
+# text = Максатбектин кадыры факультет ичинде да жогору эле.
+# labels = annotator: suiun_tostonova
+"<Максатбектин>"
+	"Максатбек" PROPN @nmod:poss #1->2
+"<кадыры>"
+	"кадыр" NOUN @nsubj #2->6
+"<факультет>"
+	"факультет" NOUN @obl:gen #3->4
+"<ичинде>"
+	"ичи" ADV @advmod #4->7
+"<да>"
+	"да" CCONJ @conj #5->4
+"<жогору>"
+	"жогору" ADV @root #6->0
+"<эле>"
+	"эле"AUX @cop #7->6
+"<.>"
+	"." PUNCT @punct #8->7
+
+# sent_id = Manas – UdS: n00566
+# text = Кудай буйруса, сот системасында чоң өзгөрүүлөр дагы болот.
+# labels = annotator: suiun_tostonova
+"<Кудай>"
+	"Кудай" NOUN @nsubj #1->2
+"<буйруса>"
+	"буйруса" VERB @ advmod #2->9
+"<,>"
+	"," PUNCT @punct #3->2
+"<сот>"
+	"сот" NOUN @nmod:poss #4->5
+"<системасында>"
+	"система" NOUN @obl:loc #5->9
+"<чоң>"
+	"чоң" ADJ @amod #6->7
+"<өзгөрүүлөр>"
+	"өзгөр" NOUN @nsubj #7->9
+"<дагы>"
+	"дагы" ADV @advmod #8->9
+"<болот>"
+	"бол" VERB @root #9->0
+"<.>"
+	"." PUNCT @punct #10->9
+
+# sent_id = Manas –UdS: n00052
+# text = Чынында анын чыгармачылыгы менен кечирээк таанышып калдым.
+# labels = annotator: suiun_tostonova
+"<Чынында>"
+	"Чын" ADJ @amod #1->3
+"<анын>"
+	"ал" PRON @nmod:poss #2->3
+"<чыгармачылыгы>"
+	"чыгармачылык" NOUN @nsubj #3->5
+"<менен>"
+	"менен" ADP @case #4->3
+"<кечирээк>"
+	"кеч" ADV @advmod #5->6
+"<таанышып>"
+	"тааныш" VERB @root #6->0
+"<калдым>"
+	"кал" VERB @aux #7->6
+"<.>"
+	"." PUNCT @punct #8->7
+
+# sent_id = Manas – UdS: n00112
+# text = Куран китеп экен.
+# labels = annotator: suiun_tostonova
+"<Куран>"
+	"Куран" PROPN @nsubj #1->2
+"<китеп>"
+	"китеп" NOUN @root #2->0
+"<экен>"
+	"экен" ADV @advmod:emph #3->2
+"<.>"
+	"." PUNCT @punct #4->3
+
+# sent_id = Manas – UdS: n00112
+# text = Тез эле бир китеп көтөрүп чыкты.
+# labels = annotator: suiun_tostonova
+"<Тез>"
+	"Тез" ADV @advmod #1->6
+"<эле>"
+	"эле" ADP @cop #2->1
+"<бир>"
+	"бир" NUM @nummod #3->4
+"<китеп>"
+	"китеп" NOUN @nsubj #4->5
+"<көтөрүп>"
+	"көтөр" VERB @root #5->0
+"<чыкты>"
+	"чык" VERB @aux #6->5
+"<.>"
+	"." PUNCT @punct #7->6
+
+# sent_id = Manas – UdS: n00112
+# text = Себеби, " сообу түшпөй калат " деген.
+# labels = annotator: suiun_tostonova
+"<Себеби>"
+	"Себеп" ADP @discourse:mark #1->8
+"<,>"
+	"," PUNCT @punct #2->1
+"<">"
+	""" PUNCT @punct #3->4
+"<сообу>"
+	"сооп" NOUN @nsubj #4->5
+"<түшпөй>"
+	"түш" VERB @root #5->0
+"<калат>"
+	"кал" VERB @aux #6->5
+"<">"
+	""" PUNCT @punct #7->6
+"<деген>"
+	"де" VERB @aux #8->7
+"<.>"
+	"." PUNCT @punct #9->8
+
+# sent_id = Manas – UdS: n00270
+# text = Бул кишиде укмуштуудай сапаттар жана трагедиялуу тагдыр бар. 
+# labels = annotator: suiun_tostonova
+"<Бул>"
+	"Бул" DET @det #1->2
+"<кишиде>"
+	"киши" NOUN @obj #2->8
+"<укмуштуудай>"
+	"укмуштуу" NOUN @amod #3->4
+"<сапаттар>"
+	"сапат" NOUN @nsubj #4->8
+"<жана>"
+	"жана" ADP @case #5->4
+"<трагедиялуу>"
+	"трагедия" ADJ @amod #6->7
+"<тагдыр>"
+	"тагдыр" NOUN @nsubj #7->8
+"<бар>"
+	"бар" ADJ @root #8->0
+"<.>"
+	"." PUNCT @punct #9->8
+
+# sent_id = Manas – UdS: n00270
+# text = Ал жөнүндө көп изилдеп, көп жаздым.
+# labels = annotator: suiun_tostonova
+"<Ал>"
+	"Ал" PRON @nsubj #1->2
+"<жөнүндө>"
+	"жөнүндө" NOUN @case #2->1
+"<көп>"
+	"көп" ADV @advmod #3->4
+"<изилдеп>"
+	"изилде" VERB @advcl #4->7
+"<,>"
+	"," PUNCT @punct #5->7
+"<көп>"
+	"көп" ADV @advmod #6->7
+"<жаздым>"
+	"жаз" VERB @root #7->0
+"<.>"
+	"." PUNCT @punct #8->7
+
+# sent_id = Manas – UdS: n00270
+# text = Тыныстанов " Интернационалды " кыргыз тилине которгон.
+# labels = annotator: suiun_tostonova
+"<Тыныстанов>"
+	"Тыныстанов" PROPN @nsubj #1->7
+"<">"
+	""" PUNCT @punct #2->3
+"<Интернационалды>"
+	"Интернационал" PROPN @obj #3->7
+"<">"
+	""" PUNCT @punct #4->3
+"<кыргыз>"
+	"кыргыз" NOUN @nmod #5->6
+"<тилине>"
+	"тил" NOUN @obl:dat #6->7
+"<которгон>"
+	"котор" VERB @root #7->0
+"<.>"
+	"." PUNCT @punct #8->7
+
+# sent_id = Manas – UdS: n00270
+# text = Ал кезде бул ыр гимн катары ырдалчу.
+# labels = annotator: suiun_tostonova
+"<Ал>"
+	"Ал" PRON @advmod #1->2
+"<кезде>"
+	"кез" NOUN @obl:loc #2->7
+"<бул>"
+	"бул" PROPN @nsubj #3->4
+"<ыр>"
+	"ыр" NOUN @nsubj #4->7
+"<гимн>"
+	"гимн" NOUN @nsubj #5->6
+"<катары>"
+	"катары" ADP @case #6->5
+"<ырдалчу>"
+	"ырда" VERB @root #7->0
+"<.>"
+	"." PUNCT @punct #8->7
+
+# sent_id = Manas – UdS: n00270
+# text = Ал кыргыздын Ломоносову.
+# labels = annotator: suiun_tostonova
+"<Ал>"
+	"Ал" PRON @nsubj #1->3
+"<кыргыздын>"
+	"кыргыз" NOUN @nmod:poss #2->3
+"<Ломоносову>"
+	"Ломоносов" PROPN @root #3->0
+"<.>"
+	"." PUNCT @punct #4->3
+
+# sent_id = Manas – UdS: n00674
+# text = Бирназардын неберелери Көлдүн сыймыктары болушкан.
+# lables = annotator: suiun_tostonova
+"<Бирназардын>"
+	"Бирназар" PROPN @nmod:poss #1->2
+"<неберелери>"
+	"небере" NOUN @nsubj #2->5
+"<Көлдүн>"
+	"Көл" PROPN @nmod:poss #3->4
+"<сыймыктары>"
+	"сыймык" NOUN @nsubj #4->5
+"<болушкан>"
+	"бол" VERB @root #5->0
+"<.>"
+	"." PUNCT @punct #6->5
