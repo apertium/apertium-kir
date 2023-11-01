@@ -35,6 +35,40 @@
 # sent_id = 2
 # text = Мен сага дайыма айтам, күндө эртең менен досуң менен телефондо сүйлөшкөндө мен жөнүндө сөз кылба.
 # text[en] = I always tell you, when you talk with your friend on the phone in the morning, don't talk about me.
+"<Мен>"
+	"мен" prn pers p1 sg nom @nsubj #1->4
+"<сага>"
+	"сен" prn pers p2 sg dat @obl #2->4
+"<дайыма>"
+	"дайыма" adv @advmod #3->4
+"<айтам>"
+	"айт" v iv aor p1 sg @root #4->0
+"<,>"
+	"," cm @punct #5->4
+"<күндө>"
+	"күн" n loc @obl #6->12
+"<эртең>"
+	"эртең" adv @advmod #7->12
+"<менен>"
+	"менен" post @fixed #8->7
+"<досуң>"
+	"дос" n px2sg nom @obl #9->12
+"<менен>"
+	"менен" cnjcoo @case #10->9
+"<телефондо>"
+	"телефон" n loc @obl #11->12
+"<сүйлөшкөндө>"
+	"сүйлө" v iv coop ger_past loc @advcl #12->16
+"<мен>"
+	"мен" prn pers p1 sg nom @obl #13->16
+"<жөнүндө>"
+	"жөнүндө" post @case #14->13
+"<сөз>"
+	"сөз" post @compound:lvc #15->16
+"<кылба>"
+	"кыл" v tv neg imp p2 sg @ccomp #16->4
+"<.>"
+	"." sent @punct #17->4
 
 # sent_id = 3
 # text = Түнөп калчу конок эшикти такылдатыптыр, бирок үйдүн ээси дагы эле үйдү жыйнап жаткан, ал эми ал буюртма берген тамак ресторандан келмек болчу.
