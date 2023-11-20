@@ -73,6 +73,52 @@
 # sent_id = 3
 # text = Түнөп калчу конок эшикти такылдатыптыр, бирок үйдүн ээси дагы эле үйдү жыйнап жаткан, ал эми ал буюртма берген тамак ресторандан келмек болчу.
 # text[en] = The guest that was going to stay for the night knocked on the door, but the owner of the house was still cleaning, and the food he had ordered was still coming from the restaurant.
+"<Түнөп>"
+	"түнө" v iv gna_perf @advcl #1->2
+"<калчу>"
+	"кал" vaux gpr_hab @acl #2->3
+"<конок>"
+	"конок" n nom @nsubj #3->5
+"<эшикти>"
+	"эшик" n acc @obj #4->5
+"<такылдатыптыр>"
+	"такылда" v iv caus ifi evid p3 sg @root #5->0
+"<,>"
+	"," cm @punct #6->5
+"<бирок>"
+	"бирок" cnjcoo @cc #7->12
+"<үйдүн>"
+	"үй" n gen @nmod:poss #8->9
+"<ээси>"
+	"ээ" n px3sp nom @nsubj #9->12
+"<дагы эле>"
+	"дагы эле" adv @advmod #10->12
+"<үйдү>"
+	"үй" n acc @obj #11->12
+"<жыйнап>"
+	"жыйна" v tv prc_perf @conj #12->5
+"<жаткан>"
+	"жат" vaux past p3 sg @aux #13->12
+"<,>"
+	"," cm @punct #14->5
+"<ал эми>"
+	"ал эми" cnjadv @cc #15->21
+"<ал>"
+	"ал" prn pers p3 sg nom @nsubj #16->18
+"<буюртма>"
+	"буюртма" n nom @obj #17->18
+"<берген>"
+	"бер" v tv gpr_past @acl #18->19
+"<тамак>"
+	"тамак" n nom @nsubj #19->21
+"<ресторандан>"
+	"ресторан" n abl @obl #20->21
+"<келмек>"
+	"кел" v iv prc_pcond @conj #21->5
+"<болчу>"
+	"бол" vaux pih p3 sg @aux #22->21
+"<.>"
+	"." sent @punct #23->5
 
 # sent_id = 4
 # text = Айша — доктур.
