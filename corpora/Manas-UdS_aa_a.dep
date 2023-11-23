@@ -1,0 +1,403 @@
+# text = Адам жашоодон үмүт үзгөндө, коркунучту унутат.
+# labels= annotator:Aidai_Abitova
+"<Адам>"
+	"Адам" np ant m nom @nsubj #1->7
+"<жашоодон>"
+	"жашоо" n abl @nmod #2->4
+"<үмүт>"
+	"үмүт" n nom @obj #3->4
+"<үзгөндө>"
+	"үз" v tv ger_past loc @advcl #4->7
+"<,>"
+	"," cm @punct #5->7
+"<коркунучту>"
+	"коркунуч" n acc @obj #6->7
+"<унутат>"
+	"унут" v tv aor p3 sg @root #7->0
+"<.>"
+	"." sent @punct #8->7
+
+# sent_id = Manas-UdS:Toolorkulaganda06
+# text = Маалымат технологиясы эми жапайы жырткычтарга чейин жетиптир.
+# labels= annotator:Aidai_Abitova
+"<Маалымат>"
+	"маалымат" n nom @nmod #1->2
+"<технологиясы>"
+	"технология" n px3sp nom @nsubj #2->7
+"<эми>"
+	"эми" adv @advmod #3->7
+"<жапайы>"
+	"жапайы" adj @amod #4->5
+"<жырткычтарга>"
+	"жырткыч" n pl dat @compound #5->6
+"<чейин>"
+	"чейин" adv @case #6->7
+"<жетиптир>"
+	"жет" v iv ifi evid p3 sg @root #7->0
+"<.>"
+	"." sent @punct #8->7
+
+# sent_id = Manas-UdS:Manas01
+# text = Асман - өлчөмсүз аалам.
+# labels= annotator:Aidai_Abitova
+"<Асман>"
+	"асман" n nom @nsubj #1->4
+"<->"
+	"-" guio @punct #2->4
+"<өлчөмсүз>"
+	"өлчөм" n @amod #3->4
+"<аалам>"
+	"аалам" n nom @root #4->0
+		 "э" cop aor p3 sg #5->4
+"<.>"
+	"." sent @punct #6->4
+
+# sent_id = Manas-UdS:Toolorkulaganda06
+# text = Араб конокторду аэропорттон чогуу тосуп алабыз.
+# labels= annotator:Aidai_Abitova
+"<Араб>"
+	"араб" n nom @nmod #1->2
+"<конокторду>"
+	"конок" n pl acc @obj #2->5
+"<аэропорттон>"
+	"аэропорт" n abl @case #3->5
+"<чогуу>"
+	"чогуу" adv @advmod #4->5
+"<тосуп>"
+	"тос" v tv prc_perf @root #5->0
+"<алабыз>"
+	"ал" vaux aor p1 pl @aux #6->5
+"<.>"
+	"." sent @punct #7->5
+
+# sent_id = Manas-UdS:Toolorkulaganda06
+# text = Баарын базар экономикасы башкарат.
+# labels= annotator:Aidai_Abitova
+"<Баарын>"
+	"баары" prn ind px3sp acc @obj #1->4
+"<базар>"
+	"базар" n nom @nmod #2->3
+"<экономикасы>"
+	"экономика" n px3sp nom @nsubj #3->4
+"<башкарат>"
+	"башкар" v tv aor p3 sg @root #4->0
+"<.>"
+	"." sent @punct #5->4
+
+# sent_id = Manas-UdS:Toolorkulaganda06
+# text = Сен аларды бул жакка ээрчитип келесиң.
+# labels= annotator:Aidai_Abitova
+"<Сен>"
+	"сен" prn pers p2 sg nom @nsubj #1->5
+"<аларды>"
+	"алар" prn pers p3 pl acc @obj #2->5
+"<бул>"
+	"бул" det dem @det #3->4
+"<жакка>"
+	"жак" n dat @advmod #4->5
+"<ээрчитип>"
+	"ээрчи" v tv caus prc_perf @root #5->0
+"<келесиң>"
+	"кел" vaux aor p2 sg @aux #6->5
+"<.>"
+	"." sent @punct #7->5
+
+# sent_id = Manas-UdS:n00036
+# text = Шайлоочуларыма шарт түзүү-менин депутаттык парзым.
+# labels= annotator:Aidai_Abitova
+"<Шайлоочуларыма>"
+	"шайлоочу" n pl px1sg dat @obl #1->3
+"<шарт>"
+	"шарт" n nom @obj #2->3
+"<түзүү>"
+	"түз" v tv ger nom @nsubj #3->7
+"<->"
+	"-" guio @punct #4->7
+"<менин>"
+	"мен" prn pers p1 sg gen @nmod:poss #5->7
+"<депутаттык>"
+	"депутаттык" n nom @nsubj #6->7
+"<парзым>"
+	"парз" n px1sg nom @root #7->0
+		 "э" cop aor p3 sg @cop #8->7
+"<.>"
+	"." sent @punct #9->7
+
+# sent_id = Manas-UdS:n00636
+# text = Калк каражатынын эсебинен 2800,0миң сом жумшалды.
+# labels= annotator:Aidai_Abitova
+"<Калк>"
+	"калк" n nom @nmod #1->2
+"<каражатынын>"
+	"каражат" n px3sp gen @nmod:poss #2->3
+"<эсебинен>"
+	"эсеп" n px3sp abl @advmod #3->9
+"<2800>"
+	"2800" num subst nom @nummod #4->7
+"<,>"
+	"," cm @punct #5->7
+"<0>"
+	 "0" num @nummod #6->8
+"<миң>"
+	 "миң" num @nummod #7->8
+"<сом>"
+	"сом" adj @nsubj #8->9
+"<жумшалды>"
+	"жумша" v tv pass ifi p3 sg @root #9->0
+"<.>"
+	"." sent @punct #10->9
+
+# sent_id = Manas-UdS:n00636
+# text = Уметалиев көчөсүндөгү тротуарга брусчатка орнотулган.
+# labels= annotator:Aidai_Abitova
+"<Уметалиев>"
+	"Уметалиев" np cog m nom @det #1->2
+"<көчөсүндөгү>"
+	"көчө" n px3sp loc attr @nmod #2->3
+"<тротуарга>"
+	"тротуар" n dat @advmod #3->5
+"<брусчатка>"
+	"*брусчатка" @nsubj #4->5
+"<орнотулган>"
+	"орно" v iv caus pass past p3 sg @root #5->0
+"<.>"
+	"." sent @punct #6->5
+
+# sent_id = Manas-UdS:n00636
+# text = Ал Аксы өнүгүү фондунан каржыланды.
+# labels= annotator:Aidai_Abitova
+"<Ал>"
+	"ал" n nom @nsubj #1->5
+"<Аксы>"
+	"Аксы" np top nom @flat #2->3
+"<өнүгүү>"
+	"өнүгүү" n nom @nmod #3->4
+"<фондунан>"
+	"фонд" n px3sp abl @advmod #4->5
+"<каржыланды>"
+	"каржыла" v tv pass ifi p3 sg @root #5->0
+"<.>"
+	"." sent @punct #6->5
+
+# sent_id = Manas-UdS:n00930
+# text = Көк-Бел айыл өкмөтү деп аталып калган.
+# labels= annotator:Aidai_Abitova
+"<Көк>"
+	"көк" np top nom @flat #1->3
+"<->"
+	"-" guio @punct #2->3
+"<Бел>"
+	"бел" np top nom @nmod #3->4
+"<айыл>"
+	"айыл" n nom @nmod:pos #4->5
+"<өкмөтү>"
+	"өкмөт" n px3sp nom @nsubj #5->7
+"<деп>"
+	"деп" cnjsub @cop #6->7
+"<аталып>"
+	"ата" v tv pass prc_perf @root #7->0
+"<калган>"
+	"кал" vaux past p3 sg @cop #8->7
+"<.>"
+	"." sent @punct #9->7
+
+# sent_id = Manas-UdS: n00930
+# text = Көк-Бел айыл өкмөтү Ноокаттын чыгыш тарабында жайгашкан.
+# labels= annotator:Aidai_Abitova
+"<Көк>"
+	"көк" np top @flat #1->3
+"<->"
+	"-" guio @punct #2->3
+"<Бел>"
+	"бел" np top @nmod #3->4
+"<айыл>"
+	"айыл" n nom @nmod:pos #4->5
+"<өкмөтү>"
+	"өкмөт" n px3sp nom @nsubj #5->9
+"<Ноокаттын>"
+	"Ноокат" np top gen @case #6->7
+"<чыгыш>"
+	"чыгыш" adj @conj #7->8
+"<тарабында>"
+	"тарап" n px3sp loc @advmod #8->9
+"<жайгашкан>"
+	"жайгаш" v iv past p3 sg @root #9->0
+"<.>"
+	"." sent @punct #10->9
+
+# sent_id = Manas-UdS: n00027
+# text = Он бир адамдан коронавирус инфекциясы аныкталган.
+# labels= annotator:Aidai_Abitova
+"<Он>"
+	"он" num @nmod #1->3
+"<бир>"
+	"бир" num @nmod #2->3
+"<адамдан>"
+	"адам" n abl @case #3->6
+"<коронавирус>"
+	"коронавирус" n nom @nmod #4->5
+"<инфекциясы>"
+	"инфекция" n px3sp nom @nsubj #5->6
+"<аныкталган>"
+	"аныкта" v tv pass past p3 sg @root #6->0
+"<.>"
+	"." sent @punct #7->6
+
+# sent_id = Manas-UdS:n00027
+# text = Өзү да оору жуктуруп, 15 күн дарыланып чыккан.
+# labels= annotator:Aidai_Abitova
+"<Өзү>"
+	"өзү" adv @punct #1->8
+"<да>"
+	"да" mod @advmod #2->4
+"<оору>"
+	"оору" n nom @obj #3->4
+"<жуктуруп>"
+	"жук" v iv caus gna_perf @advcl #4->8
+"<,>"
+	"," cm @punct #5->8
+"<15>"
+	"15" num @nummod #6->7
+"<күн>"
+	"күн" n nom @advmod #7->8
+"<дарыланып>"
+	"дарыла" v tv pass prc_perf @root #8->0
+"<чыккан>"
+	"чык" vaux past p3 sg @cop #9->8
+
+# sent_id = Manas-UdS:n00865
+# text = Келечек муунга сапаттуу билим, татыктуу тарбия берүү маанилүү.
+# labels= annotator:Aidai_Abitova
+"<Келечек>"
+	"келечек" adj @nmod #1->2
+"<муунга>"
+	"муун" n dat @case #2->8
+"<сапаттуу>"
+	"сапаттуу" adj @amod #3->4
+"<билим>"
+	"билим" n nom @advmod #4->9
+"<,>"
+	"," cm @punct #5->8
+"<татыктуу>"
+	"татыктуу" adj 7 #6->
+"<тарбия>"
+	"тарбия" n nom @obj #7->8
+"<берүү>"
+	"бер" v tv ger nom @nsubj #8->9
+"<маанилүү>"
+	"маанилүү" adj @root #9->0
+		 "э" cop aor p3 sg @cop #10->9
+"<.>"
+	"." sent @punct #11->9
+
+# sent_id = Manas-UdS:n00636
+# text = Былтыр пандемиядан бери азабын тартып келүүдөбүз.
+# labels= annotator:Aidai_Abitova
+"<Былтыр>"
+	"былтыр" adv @advmod #1->5
+"<пандемиядан>"
+	"пандемия" n abl @case #2->3
+"<бери>"
+	"бери" adv @advmod #3->5
+"<азабын>"
+	"азап" n px3sp acc @obj #4->5
+"<тартып>"
+	"тартып" post @root #5->0
+"<келүүдөбүз>"
+	"кел" vaux ger loc @cop #6->5
+		 "э" cop aor p1 pl @cop #7->5
+"<.>"
+	"." sent @punct #8->5
+
+# sent_id = Manas-UdS:n00636
+# text = Кербен шаарында көчөлөрдүн 6 - кесилишине светофорлор орнотулду.
+# labels= annotator:Aidai_Abitova
+"<Кербен>"
+	"Кербен" np top nom @nmod #1->2
+"<шаарында>"
+	"шаар" n px3sp loc @advmod #2->8
+"<көчөлөрдүн>"
+	"көчө" n pl gen @nmod #3->6
+"<6>"
+	"6" num @nummod #4->6
+"<->"
+	"-" guio @punct #5->8
+"<кесилишине>"
+	"кесилиш" n px3sp dat @advmod #6->8
+"<светофорлор>"
+	"светофор" n pl nom @nsubj #7->8
+"<орнотулду>"
+	"орно" v iv caus pass ifi p3 pl @root #8->0
+"<.>"
+	"." sent @punct #9->8
+
+# sent_id = Manas-UdS:n00865
+# text = Каныккан кесипкөйлүк гана адамды бийик жана эркин кылат.
+# labels= annotator:Aidai_Abitova
+"<Каныккан>"
+	"*Каныккан" @amod #1->2
+"<кесипкөйлүк>"
+	"*кесипкөйлүк" @nsubj #2->8
+"<гана>"
+	"гана" postadv @nmod #3->2
+"<адамды>"
+	"адам" n acc @obj #4->8
+"<бийик>"
+	"бийик" adj @advmod #5->8
+"<жана>"
+	"жана" adv @conj #6->7
+"<эркин>"
+	"эркин" adj advl @advmod #7->8
+"<кылат>"
+	"кыл" v tv aor p3 sg @root #8->0
+"<.>"
+	"." sent @punct #9->8
+
+# sent_id = Manas-UdS:n00636
+# text = Жол эрежелери боюнча белгилерди орнотуу жаатында жылыштар бар.
+# labels= annotator:Aidai_Abitova
+"<Жол>"
+	"жол" n nom @compound #1->2
+"<эрежелери>"
+	"эреже" n pl px3sp nom @acl #2->7
+"<боюнча>"
+	"боюнча" post @case #3->2
+"<белгилерди>"
+	"белги" n pl acc @obj #4->5
+"<орнотуу>"
+	"орно" v iv caus ger nom @case #5->6
+"<жаатында>"
+	"жаат" n px3sp loc @advmod #6->8
+"<жылыштар>"
+	"жылыш" n pl nom @nsubj #7->8
+"<бар>"
+	"бар" adj @root #8->0
+		 "э" cop aor p3 pl #9->8
+"<.>"
+	"." sent @punct #10->8
+
+# sent_id = Manas-UdS:n00636
+# text = Жумшалган каржынын жалпы суммасы 3346, 9 миң сом.
+# labels= annotator:Aidai_Abitova
+"<Жумшалган>"
+	"жумша" v tv pass gpr_past @nmod #1->2
+"<каржынын>"
+	"каржы" n gen @nmod:poss #2->4
+"<жалпы>"
+	"жалпы" adj @amod #3->4
+"<суммасы>"
+	"сумма" n px3sp nom @nsubj #4->9
+"<3346>"
+	"3346" num subst nom @compound #5->7
+"<,>"
+	"," cm @punct #6->7
+"<9>"
+	"9" num @compound #7->8
+"<миң>"
+	"миң" num @nummod #8->9
+"<сом>"
+	"сом" adj @root #9->0
+		 "э" cop aor p3 sg @cop #10->9
+"<.>"
+	"." sent @punct #11->9
+
