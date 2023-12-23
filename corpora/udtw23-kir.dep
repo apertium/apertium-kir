@@ -76,7 +76,7 @@
 "<Түнөп>"
 	"түнө" v iv gna_perf @advcl #1->2
 "<калчу>"
-	"кал" vaux gpr_hab @acl #2->3
+	"кал" v iv gpr_hab @acl #2->3
 "<конок>"
 	"конок" n nom @nsubj #3->5
 "<эшикти>"
