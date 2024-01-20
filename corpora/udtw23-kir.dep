@@ -136,6 +136,32 @@
 # sent_id = 5
 # text = Биз чечүүчү көйгөй – китеп текчесинде беш китептик да орундун жоктугу.
 # text[en] = The problem we're trying to solve is that the bookshelf doesn't have room for even five books.
+"<Биз>"
+	"биз" prn pers p1 pl nom @nsubj #1->2
+"<чечүүчү>"
+	"чеч" v tv gpr_pot @acl #2->3
+"<көйгөй>"
+	"көйгөй" n nom @nsubj #3->12
+"<–>"
+	"–" guio @punct #4->3
+"<китеп>"
+	"китеп" n nom @nmod:poss #5->6
+"<текчесинде>"
+	"текче" n px3sp loc @nmod #6->12
+"<беш>"
+	"беш" num @nummod #7->8
+"<китептик>"
+	"китеп" n nom @nmod #8->11
+		"лык" post @case #9->8
+"<да>"
+	"да" postadv @advmod:emph #10->8
+"<орундун>"
+	"орун" n gen @nmod:poss #11->12
+"<жоктугу>"
+	"жоктук" n px3sp nom @root #12->0
+		"э" cop aor p3 sg @cop #13->12
+"<.>"
+	"." sent @punct #14->12
 
 # sent_id = 6
 # text = Анын таенеси мед айым эле.
