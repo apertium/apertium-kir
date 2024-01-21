@@ -166,6 +166,16 @@
 # sent_id = 6
 # text = Анын таенеси мед айым эле.
 # text[en] = Their grandmother was a nurse.
+"<Анын>"
+	"ал" prn pers p3 sg gen @nmod:poss #1->2
+"<таенеси>"
+	"таене" n px3sp nom @nsubj #2->3
+"<мед айым>"
+	"мед айым" n nom @root #3->0
+"<эле>"
+	"э" cop ifi p3 sg @cop #4->3
+"<.>"
+	"." sent @punct #5->4
 
 # sent_id = 7
 # text = Макул, анда китеп текчесиндегилер кайда эле?
@@ -191,19 +201,43 @@
 # sent_id = 8
 # text = Суде үч саат бою кеңседе болгон жок, Айша да үйдө болгон эмес экен.
 # text[en] = Sude wasn't in the office for a period of three hours, and Ayşe also wasn't at home.
+"<Суде>"
+	"Суде" np ant f nom @nsubj #1->6
+"<үч>"
+	"үч" num @nummod #2->3
+"<саат>"
+	"саат" n nom @obl #3->6
+"<бою>"
+	"бою" post @case #4->3
+"<кеңседе>"
+	"кеңсе" n loc @obl #5->6
+"<болгон жок>"
+	"бол" v iv neg ifi p3 sg @root #6->0
+"<,>"
+	"," cm @punct #7->6
+"<Айша>"
+	"Айша" np ant f nom @nsubj #8->11
+"<да>"
+	"да" postadv @advmod:emph #9->8
+"<үйдө>"
+	"үй" n loc @obl #10->11
+"<болгон эмес экен>"
+	"бол" v iv neg past evid p3 sg @parataxis #11->6
+"<.>"
+	"." sent @punct #12->6
 
 # sent_id = 9
 # text = Дүкөндө жемиш бар, бирок жакшы эмес.
 # text[en] = There's fruit at the store, but it's not nice.
 "<Дүкөндө>"
-	"дүкөн" n loc #1->
+	"дүкөн" n loc @obl #1->3
 "<жемиш>"
-	"жемиш" n nom #2->
+	"жемиш" n nom @nsubj #2->3
 "<бар>"
 	"бар" adj @root #3->0
-		"э" cop aor p3 sg #4->
+		"э" cop aor p3 sg @cop #4->3
 "<,>"
-	"," cm #5->
+	"," cm @punct #5->3
 "<бирок>"
 	"бирок" cnjadv #6->
 "<жакшы>"
