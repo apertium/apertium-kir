@@ -451,10 +451,32 @@
 "<.>"
 	"." sent @punct #12->10
 
-
 # sent_id = 19
 # text = Мунун көгү жакшынакайыраак экен, мага көгүн берип коёсуңбу?
 # text[en] = The blue one of these is prettier, could you give me the blue one?
+# issues = demotion discourse_should_be_on_copula aux_feature_on_inf
+"<Мунун>"
+	"бул" prn dem gen @nmod:poss #1->2
+"<көгү>"
+	"көк" adj subst px3sp nom @nsubj #2->3
+"<жакшынакайыраак>"
+	"жакшынакай" adj comp @root #3->0
+"<экен>"
+	"экен" mod @discourse #4->3
+		"э" cop aor p3 sg @cop #5->3
+"<,>"
+	"," cm @punct #6->3
+"<мага>"
+	"мен" prn pers p1 sg dat @obl #7->9
+"<көгүн>"
+	"көк" adj subst px3sp acc @obj #8->9
+"<берип>"
+	"бер" v tv prc_perf @parataxis #9->3
+"<коёсуңбу>"
+	"кой" vaux aor p2 sg @aux #10->9
+		"бы" qst @discourse #11->9
+"<?>"
+	"?" sent @punct #12->9
 
 # sent_id = 20
 # text = Жаштарды ишке ашырылбас максаттарынан баш тарттырышыбыз керек.
