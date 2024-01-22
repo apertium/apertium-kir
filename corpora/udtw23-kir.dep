@@ -362,11 +362,33 @@
 # sent_id = 16
 # text = Айша бул китепти окуган эмес.
 # text[en] = It is not the case that Ayşe has read this book.
+"<Айша>"
+	"Айша" np ant f nom @nsubj #1->4
+"<бул>"
+	"бул" det dem @det #2->3
+"<китепти>"
+	"китеп" n acc @obj #3->4
+"<окуган эмес>"
+	"оку" v tv neg past p3 sg @root #4->0
+"<.>"
+	"." sent @punct #5->4
 
 # sent_id = 16B
 # text = Айша бул китепти окубай койгон жок.
 # text[en] = Ayşe didn't not read this book.
 # text[tr] = Ayşe bu kitabı okumamış değil.
+"<Айша>"
+	"Айша" np ant f nom @nsubj #1->4
+"<бул>"
+	"бул" det dem @det #2->3
+"<китепти>"
+	"китеп" n acc @obj #3->4
+"<окубай>"
+	"оку" v tv neg prc_perf @root #4->0
+"<койгон жок>"
+	"кой" vaux neg ifi p3 sg @aux #5->4
+"<.>"
+	"." sent @punct #6->4
 
 # sent_id = 17
 # text = Негизинен ал окуганды эмес, сүрөт тартканды жакшы көрөт.
