@@ -7,7 +7,7 @@
 "<дачадагы>"
 	"дача" n loc attr @nmod:loc #2->3
 "<балдар>"
-	"бала" n pl gen ind @nmod:poss #3->4
+	"бала" n pl gen-ind @nmod:poss #3->4
 "<бөлмөсүнүн>"
 	"бөлмө" n px3sp gen @nmod:poss #4->5
 "<терезесин>"
@@ -107,7 +107,7 @@
 "<ал>"
 	"ал" prn pers p3 sg nom @nsubj #16->18
 "<буюртма>"
-	"буюртма" n acc ind @obj #17->18
+	"буюртма" n acc-ind @obj #17->18
 "<берген>"
 	"бер" v tv gpr_past @acl #18->19
 "<тамак>"
@@ -146,7 +146,7 @@
 "<–>"
 	"–" guio @punct #4->3
 "<китеп>"
-	"китеп" n gen ind @nmod:poss #5->6
+	"китеп" n gen-ind @nmod:poss #5->6
 "<текчесинде>"
 	"текче" n px3sp loc @nmod #6->12
 "<беш>"
@@ -189,7 +189,7 @@
 "<анда>"
 	"анда" adv @advmod #3->7
 "<китеп>"
-	"китеп" n gen ind @nmod:poss #4->5
+	"китеп" n gen-ind @nmod:poss #4->5
 "<текчесиндегилер>"
 	"текче" n px3sp loc attr @nmod:loc #5->6
 		"_" n nom pl @nsubj #6->7
@@ -412,7 +412,7 @@
 "<,>"
 	"," cm @punct #5->3
 "<сүрөт>"
-	"сүрөт" n acc ind @obj #6->7
+	"сүрөт" n acc-ind @obj #6->7
 "<тартканды>"
 	"тарт" v tv ger_past acc @ccomp #7->9
 "<жакшы>"
@@ -443,7 +443,7 @@
 "<максаттарынан>"
 	"максат" n pl px3sp abl @obl #4->6
 "<баш>"
-	"баш" n acc ind @obj #5->6
+	"баш" n acc-ind @obj #5->6
 "<тарттырышыбыз>"
 	"тарт" v tv caus ger_pres px1pl nom @csubj #6->7
 "<керек>"
