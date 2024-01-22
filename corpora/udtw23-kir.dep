@@ -434,7 +434,7 @@
 "<максаттарынан>"
 	"максат" n pl px3sp abl @obl #4->6
 "<баш>"
-	"баш" n acc-ind @obj #5->6
+	"баш" n nom @obj #5->6
 "<тарттырышыбыз>"
 	"тарт" v tv caus ger_pres px1pl nom @csubj #6->7
 "<керек>"
