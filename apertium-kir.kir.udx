@@ -44,7 +44,7 @@ _	_	gpr_impf	_	_	_	VerbForm=Part|Aspect=Imp	_
 _	_	gpr_past	_	_	_	VerbForm=Part|Tense=Past	_
 _	_	gpr_pot	_	_	_	VerbForm=Part|Mood=Pot	_
 _	_	gpr_ppot	_	_	_	VerbForm=Part|Mood=Pot|Tense=Past	_
-_	_	ifi	evid	_	_	VerbForm=Fin|Mood=Ind|Tense=Past|Evident=Nfh	_
+_	_	ifi|evid	_	_	VerbForm=Fin|Mood=Ind|Tense=Past|Evident=Nfh	_
 _	_	ifi	_	_	_	VerbForm=Fin|Mood=Ind|Tense=Past|Evident=Fh	_
 _	_	imp	_	_	_	VerbForm=Fin|Mood=Imp	_
 _	_	ind	_	_	_	PronType=Ind	_
