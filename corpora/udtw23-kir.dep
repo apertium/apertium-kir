@@ -269,10 +269,52 @@
 # sent_id = 11
 # text = Дениз уктап калган эле.
 # text[en] = Deniz had fallen asleep.
+"<Дениз>"
+	"Дениз" np ant mf nom @nsubj #1->2
+"<уктап>"
+	"укта" v iv prc_perf @root #2->0
+"<калган эле>"
+	"кал" vaux plu ifi p3 sg @aux #3->2
+"<.>"
+	"." sent @punct #4->2
 
 # sent_id = 12
 # text = Чогулуш боло тургандыгы айтылып жаткан учурда, ал ушунчалык таң калгандыктан окшойт, мени караган бойдон калды.
 # text[en] = When it was being announced that there would be a meeting they must've been so surprised that they were left looking at me.
+"<Чогулуш>"
+	"чогулуш" n nom @nsubj #1->2
+"<боло>"
+	"бол" v iv prc_impf @csubj #2->4
+"<тургандыгы>"
+	"тур" vaux ger_perf px3sp nom @aux #3->2
+"<айтылып>"
+	"айт" v tv pass prc_perf @acl #4->6
+"<жаткан>"
+	"жат" vaux gpr_past @aux #5->4
+"<учурда>"
+	"учур" n loc @obl #6->10
+"<,>"
+	"," cm @punct #7->6
+"<ал>"
+	"ал" prn pers p3 sg nom @nsubj #8->16
+"<ушунчалык>"
+	"ушунчалык" det qnt @advcl #9->10
+"<таң калгандыктан>"
+	"таң кал" v iv ger_perf abl @advcl #10->16
+"<окшойт>"
+	"окшо" v iv aor p3 sg @parataxis #11->10
+"<,>"
+	"," cm @punct #12->10
+"<мени>"
+	"мен" prn pers p1 sg acc @obj #13->14
+"<караган>"
+	"кара" v tv gpr_past @acl #14->15
+"<бойдон>"
+	"бой" n abl @obl #15->16
+"<калды>"
+	"кал" v iv ifi p3 sg @root #16->0
+"<.>"
+	"." sent @punct #17->16
 
 # sent_id = 13
 # text = Кардиганым үйдө бекен?
