@@ -7,7 +7,7 @@
 "<дачадагы>"
 	"дача" n loc attr @nmod:loc #2->3
 "<балдар>"
-	"бала" n pl nom @nmod:poss #3->4
+	"бала" n pl gen ind @nmod:poss #3->4
 "<бөлмөсүнүн>"
 	"бөлмө" n px3sp gen @nmod:poss #4->5
 "<терезесин>"
@@ -73,6 +73,7 @@
 # sent_id = 3
 # text = Түнөп калчу конок эшикти такылдатыптыр, бирок үйдүн ээси дагы эле үйдү жыйнап жаткан, ал эми ал буюртма берген тамак ресторандан келмек болчу.
 # text[en] = The guest that was going to stay for the night knocked on the door, but the owner of the house was still cleaning, and the food he had ordered was still coming from the restaurant.
+# issues = multiword_token
 "<Түнөп>"
 	"түнө" v iv gna_perf @advcl #1->2
 "<калчу>"
@@ -106,7 +107,7 @@
 "<ал>"
 	"ал" prn pers p3 sg nom @nsubj #16->18
 "<буюртма>"
-	"буюртма" n nom @obj #17->18
+	"буюртма" n acc ind @obj #17->18
 "<берген>"
 	"бер" v tv gpr_past @acl #18->19
 "<тамак>"
@@ -145,7 +146,7 @@
 "<–>"
 	"–" guio @punct #4->3
 "<китеп>"
-	"китеп" n nom @nmod:poss #5->6
+	"китеп" n gen ind @nmod:poss #5->6
 "<текчесинде>"
 	"текче" n px3sp loc @nmod #6->12
 "<беш>"
@@ -166,6 +167,7 @@
 # sent_id = 6
 # text = Анын таенеси мед айым эле.
 # text[en] = Their grandmother was a nurse.
+# issues = multiword_token compound
 "<Анын>"
 	"ал" prn pers p3 sg gen @nmod:poss #1->2
 "<таенеси>"
@@ -187,7 +189,7 @@
 "<анда>"
 	"анда" adv @advmod #3->7
 "<китеп>"
-	"китеп" n nom @nmod:poss #4->5
+	"китеп" n gen ind @nmod:poss #4->5
 "<текчесиндегилер>"
 	"текче" n px3sp loc attr @nmod:loc #5->6
 		"_" n nom pl @nsubj #6->7
@@ -201,6 +203,7 @@
 # sent_id = 8
 # text = Суде үч саат бою кеңседе болгон жок, Айша да үйдө болгон эмес экен.
 # text[en] = Sude wasn't in the office for a period of three hours, and Ayşe also wasn't at home.
+# issues = multiword_token analytic_verb_form
 "<Суде>"
 	"Суде" np ant f nom @nsubj #1->6
 "<үч>"
@@ -269,6 +272,7 @@
 # sent_id = 11
 # text = Дениз уктап калган эле.
 # text[en] = Deniz had fallen asleep.
+# issues = multiword_token analytic_verb_form
 "<Дениз>"
 	"Дениз" np ant mf nom @nsubj #1->2
 "<уктап>"
@@ -281,6 +285,7 @@
 # sent_id = 12
 # text = Чогулуш боло тургандыгы айтылып жаткан учурда, ал ушунчалык таң калгандыктан окшойт, мени караган бойдон калды.
 # text[en] = When it was being announced that there would be a meeting they must've been so surprised that they were left looking at me.
+# issues = multiword_token compound WEIRD(окшойт)
 "<Чогулуш>"
 	"чогулуш" n nom @nsubj #1->2
 "<боло>"
@@ -362,6 +367,7 @@
 # sent_id = 16
 # text = Айша бул китепти окуган эмес.
 # text[en] = It is not the case that Ayşe has read this book.
+# issues = analytic_verb_form multiword_token
 "<Айша>"
 	"Айша" np ant f nom @nsubj #1->4
 "<бул>"
@@ -377,6 +383,7 @@
 # text = Айша бул китепти окубай койгон жок.
 # text[en] = Ayşe didn't not read this book.
 # text[tr] = Ayşe bu kitabı okumamış değil.
+# issues = analytic_verb_formm multiword_token
 "<Айша>"
 	"Айша" np ant f nom @nsubj #1->4
 "<бул>"
@@ -393,6 +400,7 @@
 # sent_id = 17
 # text = Негизинен ал окуганды эмес, сүрөт тартканды жакшы көрөт.
 # text[en] = In general they like to paint, not to read.
+# issues = compound
 "<Негизинен>"
 	"негиз" n px3sp abl @obl #1->9
 "<ал>"
@@ -404,7 +412,7 @@
 "<,>"
 	"," cm @punct #5->3
 "<сүрөт>"
-	"сүр" n nom @obj #6->7
+	"сүрөт" n acc ind @obj #6->7
 "<тартканды>"
 	"тарт" v tv ger_past acc @ccomp #7->9
 "<жакшы>"
@@ -425,6 +433,7 @@
 # sent_id = 20
 # text = Жаштарды ишке ашырылбас максаттарынан баш тарттырышыбыз керек.
 # text[en] = We must make the young abandon unattainable goals.
+# issues = compound
 "<Жаштарды>"
 	"жаш" adj subst pl acc @obj #1->6
 "<ишке>"
@@ -434,7 +443,7 @@
 "<максаттарынан>"
 	"максат" n pl px3sp abl @obl #4->6
 "<баш>"
-	"баш" n nom @obj #5->6
+	"баш" n acc ind @obj #5->6
 "<тарттырышыбыз>"
 	"тарт" v tv caus ger_pres px1pl nom @csubj #6->7
 "<керек>"
