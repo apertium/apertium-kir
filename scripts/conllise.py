@@ -10,6 +10,7 @@
 
 ###############################################################################
 import sys, re
+re_cg_elems = re.compile("(\".*\") (.*)")
 
 def get_surface_cg(line):
 	return line[2:-2]
@@ -23,6 +24,15 @@ def get_deps_cg(line):
 	return [int(i) for i in line.split('#')[1].split('->')]
 
 def get_func_cg(line):
+	# this approach should work for forms containing spaces
+	#cg_elems = []
+	#matched_elems = re_cg_elems(line.strip())
+	#cg_elems[0] = match_elems.group(1)
+	#cg_elems += match_elems.group(2).split(' ')
+	#for i in cg_elems:
+	#	if len(i) > 1 and i[0] == '@':
+	#		return 1
+	# this is the old dumb approach
 	for i in line.strip().split(' '):
 		if len(i) > 1 and i[0] == '@':
 			#return i[1:]
@@ -34,7 +44,7 @@ def get_tags_cg(line):
 		if not i:
 			print('[get_tags_cg] ERROR:', line, '|||', i, file=sys.stderr)
 			return ''
-		if i[0] not in ['@', '"', '#']:
+		if i[0] not in ['@', '"', '#'] and i[-1] not in ['"']:
 			tags.append(i)
 	return '|'.join(tags)
 
