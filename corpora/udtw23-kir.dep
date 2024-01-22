@@ -393,6 +393,26 @@
 # sent_id = 17
 # text = Негизинен ал окуганды эмес, сүрөт тартканды жакшы көрөт.
 # text[en] = In general they like to paint, not to read.
+"<Негизинен>"
+	"негиз" n px3sp abl @obl #1->10
+"<ал>"
+	"ал" prn pers p3 sg nom @nsubj #2->10
+"<окуганды>"
+	"оку" v iv ger_past acc @ccomp #3->10
+"<эмес>"
+	"эмес" postadv @advmod #4->3
+"<,>"
+	"," cm @punct #5->3
+"<сүрөт>"
+	"сүр" n nom @obj #6->7
+"<тартканды>"
+	"тарт" v tv ger_past acc @ccomp #7->10
+"<жакшы>"
+	"жакшы" adj advl @compound #9->10
+"<көрөт>"
+	"көр" v tv aor p3 sg @root #10->0
+"<.>"
+	"." sent @punct #11->10
 
 # sent_id = 18
 # text = Ал окугандары эмес, окуй тургандары тууралуу айтып жатат.

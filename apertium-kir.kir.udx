@@ -1,6 +1,6 @@
 _	_	loc|attr	_	_	_	Case=Loc	_
 _	_	abl	_	_	_	Case=Abl	_
-_	_	acc	_	_	_	Case=Acc	_
+_	_	acc	_	_	_	Case=Acc|Definite=Def	_
 _	_	al	_	_	_	_	_
 _	_	ant	_	_	_	_	_
 _	_	aor	_	_	_	VerbForm=Fin|Mood=Ind|Tense=Aor	_
@@ -26,7 +26,7 @@ _	_	f	_	_	_	Gender=Fem	_
 _	_	frm	_	_	_	Polite=Form	_
 _	_	fut	_	_	_	VerbForm=Fin|Mood=Ind|Tense=Fut	_
 _	_	fut_plan	_	_	_	VerbForm=Fin|Mood=Ind|Tense=FutPlan	_
-_	_	gen	_	_	_	Case=Gen	_
+_	_	gen	_	_	_	Case=Gen|Definite=Def	_
 _	_	ger_abs	_	_	_	VerbForm=Ger	_
 _	_	ger_fplan	_	_	_	VerbForm=Ger|Tense=FutPlan	_
 _	_	ger_fut	_	_	_	VerbForm=Ger|Tense=Fut	_
@@ -56,6 +56,8 @@ _	_	mf	_	_	_	_	_
 _	_	m	_	_	_	Gender=Masc	_
 _	_	neg	_	_	_	Polarity=Neg	_
 _	_	nom	_	_	_	Case=Nom	_
+_	_	nom	_	obj	_	Case=Nom|Definite=Ind	_
+_	_	nom	_	nmod:poss	_	Case=Nom|Definite=Ind	_
 _	_	opt	_	_	_	VerbForm=Fin|Mood=Opt	_
 _	num	ord	amod	_	NUM	NumType=Ord	_
 _	num	ord	_	_	NUM	NumType=Ord	_
