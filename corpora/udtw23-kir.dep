@@ -319,10 +319,29 @@
 # sent_id = 13
 # text = Кардиганым үйдө бекен?
 # text[en] = Is my cardigan at home?  (i.e., Did I leave it at home?)
+"<Кардиганым>"
+	"Кардиганым" n px1sg nom @nsubj #1->2
+"<үйдө>"
+	"үй" n loc @root #2->0
+"<бекен>"
+	"бы" qst @discourse #3->2
+		"экен" mod @discourse #4->2
+			"э" cop aor p3 sg @cop #5->2
+"<?>"
+	"?" sent @punct #6->2
 
 # sent_id = 14
 # text = Иш-чара бүгүн өткөрүлөбү?
 # text[en] = Is the event being held today?
+"<Иш-чара>"
+	"иш-чара" n nom @nsubj #1->3
+"<бүгүн>"
+	"бүгүн" adv @advmod #2->3
+"<өткөрүлөбү>"
+	"өт" v tv caus pass aor p3 sg @root #3->0
+		"бы" qst @discourse #4->3
+"<?>"
+	"?" sent @punct #5->3
 
 # sent_id = 15
 # text = Натыйжалар жарыяланыптыр да, ээ?

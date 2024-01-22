@@ -44,7 +44,8 @@ _	_	gpr_impf	_	_	_	VerbForm=Part|Aspect=Imp	_
 _	_	gpr_past	_	_	_	VerbForm=Part|Tense=Past	_
 _	_	gpr_pot	_	_	_	VerbForm=Part|Mood=Pot	_
 _	_	gpr_ppot	_	_	_	VerbForm=Part|Mood=Pot|Tense=Past	_
-_	_	ifi	_	_	_	VerbForm=Fin|Mood=Ind|Tense=Past	_
+_	_	ifi	evid	_	_	VerbForm=Fin|Mood=Ind|Tense=Past|Evident=Nfh	_
+_	_	ifi	_	_	_	VerbForm=Fin|Mood=Ind|Tense=Past|Evident=Fh	_
 _	_	imp	_	_	_	VerbForm=Fin|Mood=Imp	_
 _	_	ind	_	_	_	PronType=Ind	_
 _	_	ins	_	_	_	Case=Ins	_
@@ -68,8 +69,9 @@ _	_	past	_	_	_	VerbForm=Fin|Mood=Ind|Tense=Past	_
 _	_	pat	_	_	_	_	_
 _	_	percent	_	_	_	_	_
 _	_	pers	_	_	_	PronType=Prs	_
-_	_	pih	_	_	_	VerbForm=Fin|Mood=Ind|Tense=Past	_
+_	_	pih	_	_	_	VerbForm=Fin|Mood=Ind|Tense=Past|Aspect=Imp	_
 _	_	pl	_	_	_	Number=Plur	_
+_	_	plu	_	_	_	VerbForm=Fin|Mood=Ind|Tense=Pqp	_
 _	_	prc_cond	_	_	_	VerbForm=Cov|Mood=Cnd	_
 _	_	prc_impf	_	_	_	VerbForm=Cov|Aspect=Imp	_
 _	_	prc_perf	_	_	_	VerbForm=Cov|Aspect=Perf	_
