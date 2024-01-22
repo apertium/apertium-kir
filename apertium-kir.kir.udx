@@ -56,9 +56,9 @@ _	_	loc	_	_	_	Case=Loc	_
 _	_	mf	_	_	_	_	_
 _	_	m	_	_	_	Gender=Masc	_
 _	_	neg	_	_	_	Polarity=Neg	_
-_	_	nom	_	_	_	Case=Nom	_
 n	_	nom	_	obj	_	Case=Nom|Definite=Ind	_
 n	_	nom	_	nmod:poss	_	Case=Nom|Definite=Ind	_
+_	_	nom	_	_	_	Case=Nom	_
 _	_	opt	_	_	_	VerbForm=Fin|Mood=Opt	_
 _	num	ord	amod	_	NUM	NumType=Ord	_
 _	num	ord	_	_	NUM	NumType=Ord	_
