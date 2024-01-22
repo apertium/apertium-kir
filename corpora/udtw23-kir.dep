@@ -2,6 +2,7 @@
 # text = Жубайым дачадагы балдар бөлмөсүнүн терезесин шаша-буша тазалап, ашкананыкын тазалабай коюптур.
 # text[en] = My spouse cleaned the windows of the children's room at the summer house hastily, but didn't clean the kitchen's.
 # text[tr] = Eşim yazlıktaki çocuk odasının penceresini apar topar temizlemiş, mutfağınkini temizlememişti.
+# issues = empty_token
 "<Жубайым>"
 	"жубай" n px1sg nom @nsubj #1->13
 "<дачадагы>"
@@ -73,7 +74,7 @@
 # sent_id = 3
 # text = Түнөп калчу конок эшикти такылдатыптыр, бирок үйдүн ээси дагы эле үйдү жыйнап жаткан, ал эми ал буюртма берген тамак ресторандан келмек болчу.
 # text[en] = The guest that was going to stay for the night knocked on the door, but the owner of the house was still cleaning, and the food he had ordered was still coming from the restaurant.
-# issues = multiword_token
+# issues = multiword_token be_aux
 "<Түнөп>"
 	"түнө" v iv gna_perf @advcl #1->2
 "<калчу>"
@@ -137,6 +138,7 @@
 # sent_id = 5
 # text = Биз чечүүчү көйгөй – китеп текчесинде беш китептик да орундун жоктугу.
 # text[en] = The problem we're trying to solve is that the bookshelf doesn't have room for even five books.
+# issues = internally_divided_case
 "<Биз>"
 	"биз" prn pers p1 pl nom @nsubj #1->2
 "<чечүүчү>"
@@ -272,7 +274,7 @@
 # sent_id = 11
 # text = Дениз уктап калган эле.
 # text[en] = Deniz had fallen asleep.
-# issues = multiword_token analytic_verb_form
+# issues = multiword_token analytic_verb_form be_aux
 "<Дениз>"
 	"Дениз" np ant mf nom @nsubj #1->2
 "<уктап>"
@@ -425,6 +427,30 @@
 # sent_id = 18
 # text = Ал окугандары эмес, окуй тургандары тууралуу айтып жатат.
 # text[en] = They're telling me what they will read, not what they have read.
+# issues = empty_token aux_should_be_head conj_order
+"<Ал>"
+	"ал" prn pers p3 sg nom @nsubj #1->10
+"<окугандары>"
+	"оку" v iv gpr_past @acl #2->3
+		"_" n pl px3sp nom @conj #3->8
+"<эмес>"
+	"эмес" postadv @advmod #4->3
+"<,>"
+	"," cm @punct #5->3
+"<окуй>"
+	"оку" v iv prc_impf @acl #6->8
+"<тургандары>"
+	"тур" vaux gpr_past @aux #7->6
+		"_" n pl px3sp nom @obl #8->10
+"<тууралуу>"
+	"тууралуу" post @case #9->8
+"<айтып>"
+	"айт" v iv prc_perf @root #10->0
+"<жатат>"
+	"жат" vaux aor p3 sg @aux #11->10
+"<.>"
+	"." sent @punct #12->10
+
 
 # sent_id = 19
 # text = Мунун көгү жакшынакайыраак экен, мага көгүн берип коёсуңбу?
