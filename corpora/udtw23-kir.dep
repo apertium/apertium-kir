@@ -65,7 +65,7 @@
 "<жөнүндө>"
 	"жөнүндө" post @case #14->13
 "<сөз>"
-	"сөз" post @compound:lvc #15->16
+	"сөз" n acc-ind @compound:lvc #15->16
 "<кылба>"
 	"кыл" v tv neg imp p2 sg @ccomp #16->4
 "<.>"
