@@ -88,39 +88,41 @@
 "<,>"
 	"," cm @punct #6->5
 "<бирок>"
-	"бирок" cnjcoo @cc #7->12
+	"бирок" cnjcoo @cc #7->13
 "<үйдүн>"
 	"үй" n gen @nmod:poss #8->9
 "<ээси>"
-	"ээ" n px3sp nom @nsubj #9->12
-"<дагы эле>"
-	"дагы эле" adv @advmod #10->12
+	"ээ" n px3sp nom @nsubj #9->13
+"<дагы>"
+	"дагы" adv @advmod #10->13
+"<эле>"
+	"эле" adv @fixed #11->10
 "<үйдү>"
-	"үй" n acc @obj #11->12
+	"үй" n acc @obj #12->13
 "<жыйнап>"
-	"жыйна" v tv prc_perf @conj #12->5
+	"жыйна" v tv prc_perf @conj #13->5
 "<жаткан>"
-	"жат" vaux past p3 sg @aux #13->12
+	"жат" vaux past p3 sg @aux #14->13
 "<,>"
-	"," cm @punct #14->5
+	"," cm @punct #15->13
 "<ал эми>"
-	"ал эми" cnjadv @cc #15->21
+	"ал эми" cnjadv @cc #16->22
 "<ал>"
-	"ал" prn pers p3 sg nom @nsubj #16->18
+	"ал" prn pers p3 sg nom @nsubj #17->19
 "<буюртма>"
-	"буюртма" n acc-ind @obj #17->18
+	"буюртма" n acc-ind @obj #18->19
 "<берген>"
-	"бер" v tv gpr_past @acl #18->19
+	"бер" v tv gpr_past @acl #19->20
 "<тамак>"
-	"тамак" n nom @nsubj #19->21
+	"тамак" n nom @nsubj #20->22
 "<ресторандан>"
-	"ресторан" n abl @obl #20->21
+	"ресторан" n abl @obl #21->22
 "<келмек>"
-	"кел" v iv prc_pcond @conj #21->5
+	"кел" v iv prc_pcond @conj #22->5
 "<болчу>"
-	"бол" vaux pih p3 sg @aux #22->21
+	"бол" vaux pih p3 sg @aux #23->22
 "<.>"
-	"." sent @punct #23->5
+	"." sent @punct #24->22
 
 # sent_id = 4
 # text = Айша — доктур.
