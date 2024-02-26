@@ -105,24 +105,26 @@
 	"жат" vaux past p3 sg @aux #14->13
 "<,>"
 	"," cm @punct #15->13
-"<ал эми>"
-	"ал эми" cnjadv @cc #16->22
 "<ал>"
-	"ал" prn pers p3 sg nom @nsubj #17->19
+	"а" cnjcoo @cc #16->23
+"<эми>"
+	"эми" adv @fixed #17->16
+"<ал>"
+	"ал" prn pers p3 sg nom @nsubj #18->20
 "<буюртма>"
-	"буюртма" n acc-ind @obj #18->19
+	"буюртма" n acc-ind @obj #19->20
 "<берген>"
-	"бер" v tv gpr_past @acl #19->20
+	"бер" v tv gpr_past @acl #20->21
 "<тамак>"
-	"тамак" n nom @nsubj #20->22
+	"тамак" n nom @nsubj #21->23
 "<ресторандан>"
-	"ресторан" n abl @obl #21->22
+	"ресторан" n abl @obl #22->23
 "<келмек>"
-	"кел" v iv prc_pcond @conj #22->5
+	"кел" v iv prc_pcond @conj #23->5
 "<болчу>"
-	"бол" vaux pih p3 sg @aux #23->22
+	"бол" vaux pih p3 sg @aux #24->23
 "<.>"
-	"." sent @punct #24->22
+	"." sent @punct #25->23
 
 # sent_id = 4
 # text = Айша — доктур.
