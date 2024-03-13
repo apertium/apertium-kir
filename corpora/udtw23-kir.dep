@@ -36,6 +36,7 @@
 # sent_id = 2
 # text = Мен сага муну дайыма айтам, күндө эртең менен досуң менен телефондо сүйлөшкөндө мен жөнүндө сөз кылба.
 # text[en] = I always tell you this, when you talk with your friend on the phone every day in the morning, don't talk about me.
+# issues = compound_or_obj
 "<Мен>"
 	"мен" prn pers p1 sg nom @nsubj #1->4
 "<сага>"
@@ -76,7 +77,7 @@
 # sent_id = 3
 # text = Түнөп калчу конок эшикти такылдатыптыр, бирок үйдүн ээси дагы эле үйдү жыйнап жаткан, ал эми ал буюртма берген тамак ресторандан келмек болчу.
 # text[en] = The guest that was going to stay for the night knocked on the door, but the owner of the house was still cleaning, and the food he had ordered was still coming from the restaurant.
-# issues = multiword_token be_aux
+# issues = compound_or_obj be_aux
 "<Түнөп>"
 	"түнө" v iv gna_perf @advcl #1->2
 "<калчу>"
