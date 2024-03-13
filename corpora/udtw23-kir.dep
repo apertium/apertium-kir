@@ -34,42 +34,44 @@
 	"." sent @punct #15->13
 
 # sent_id = 2
-# text = Мен сага дайыма айтам, күндө эртең менен досуң менен телефондо сүйлөшкөндө мен жөнүндө сөз кылба.
-# text[en] = I always tell you, when you talk with your friend on the phone in the morning, don't talk about me.
+# text = Мен сага муну дайыма айтам, күндө эртең менен досуң менен телефондо сүйлөшкөндө мен жөнүндө сөз кылба.
+# text[en] = I always tell you this, when you talk with your friend on the phone every day in the morning, don't talk about me.
 "<Мен>"
 	"мен" prn pers p1 sg nom @nsubj #1->4
 "<сага>"
 	"сен" prn pers p2 sg dat @obl #2->4
+"<муну>"
+	"бул" prn dem acc @obj #3->4
 "<дайыма>"
-	"дайыма" adv @advmod #3->4
+	"дайыма" adv @advmod #4->5
 "<айтам>"
-	"айт" v iv aor p1 sg @root #4->0
+	"айт" v iv aor p1 sg @root #5->0
 "<,>"
-	"," cm @punct #5->4
+	"," cm @punct #6->5
 "<күндө>"
-	"күн" n loc @obl #6->12
+	"күн" n loc @obl #7->13
 "<эртең>"
-	"эртең" adv @advmod #7->12
+	"эртең" adv @advmod #8->13
 "<менен>"
-	"менен" post @fixed #8->7
+	"менен" post @fixed #9->8
 "<досуң>"
-	"дос" n px2sg nom @obl #9->12
+	"дос" n px2sg nom @obl #10->13
 "<менен>"
-	"менен" cnjcoo @case #10->9
+	"менен" cnjcoo @case #11->10
 "<телефондо>"
-	"телефон" n loc @obl #11->12
+	"телефон" n loc @obl #12->13
 "<сүйлөшкөндө>"
-	"сүйлө" v iv coop ger_past loc @advcl #12->16
+	"сүйлө" v iv coop ger_past loc @advcl #13->17
 "<мен>"
-	"мен" prn pers p1 sg nom @obl #13->16
+	"мен" prn pers p1 sg nom @obl #14->17
 "<жөнүндө>"
-	"жөнүндө" post @case #14->13
+	"жөнүндө" post @case #15->14
 "<сөз>"
-	"сөз" n acc-ind @compound:lvc #15->16
+	"сөз" n acc-ind @compound:lvc #16->17
 "<кылба>"
-	"кыл" v tv neg imp p2 sg @ccomp #16->4
+	"кыл" v tv neg imp p2 sg @ccomp #17->5
 "<.>"
-	"." sent @punct #17->4
+	"." sent @punct #18->5
 
 # sent_id = 3
 # text = Түнөп калчу конок эшикти такылдатыптыр, бирок үйдүн ээси дагы эле үйдү жыйнап жаткан, ал эми ал буюртма берген тамак ресторандан келмек болчу.
@@ -111,14 +113,14 @@
 	"эми" adv @fixed #17->16
 "<ал>"
 	"ал" prn pers p3 sg nom @nsubj #18->20
-"<буюртма>"
-	"буюртма" n acc-ind @obj #19->20
-"<берген>"
-	"бер" v tv gpr_past @acl #20->21
-"<тамак>"
-	"тамак" n nom @nsubj #21->23
 "<ресторандан>"
-	"ресторан" n abl @obl #22->23
+	"ресторан" n abl @obl #19->20
+"<буюртма>"
+	"буюртма" n acc-ind @obj #20->21
+"<берген>"
+	"бер" v tv gpr_past @acl #21->22
+"<тамак>"
+	"тамак" n nom @nsubj #22->23
 "<келмек>"
 	"кел" v iv prc_pcond @conj #23->5
 "<болчу>"
