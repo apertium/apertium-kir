@@ -43,7 +43,7 @@
 
 # sent_id = 3
 # text = Түнөп калчу конок эшикти такылдатыптыр, бирок үйдүн ээси дагы эле үйдү жыйнап жаткан, ал эми ал буюртма берген тамак ресторандан келмек болчу.
-# text[en] = The guest that was going to stay for the night knocked on the door, but the owner of the house was still cleaning, and the food he had ordered was still coming from the restaurant.
+# text[en] = The guest that was going to stay for the night knocked on the door, but the owner of the house was still cleaning, and the food he had ordered from the restaurant was still coming.
 # issues = compound_or_obj be_aux
 ^Түнөп/Түнөп$
 ^калчу/калчу$
