@@ -38,11 +38,11 @@
 # text[en] = I always tell you this, when you talk with your friend on the phone every day in the morning, don't talk about me.
 # issues = compound_or_obj
 "<Мен>"
-	"мен" prn pers p1 sg nom @nsubj #1->4
+	"мен" prn pers p1 sg nom @nsubj #1->5
 "<сага>"
-	"сен" prn pers p2 sg dat @obl #2->4
+	"сен" prn pers p2 sg dat @obl #2->5
 "<муну>"
-	"бул" prn dem acc @obj #3->4
+	"бул" prn dem acc @obj #3->5
 "<дайыма>"
 	"дайыма" adv @advmod #4->5
 "<айтам>"
