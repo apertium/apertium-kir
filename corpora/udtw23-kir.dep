@@ -138,9 +138,10 @@
 	"—" guio @punct #2->1
 "<доктур>"
 	"доктур" n nom @root #3->0
-		"э" cop aor p3 sg @cop #4->3
+"<>"
+	"э" cop aor p3 sg @cop #3.1->3
 "<.>"
-	"." sent @punct #5->3
+	"." sent @punct #4->3
 
 # sent_id = 5
 # text = Биз чечүүчү көйгөй – китеп текчесинде беш китептик да орундун жоктугу.
@@ -174,19 +175,19 @@
 	"." sent @punct #14->12
 
 # sent_id = 6
-# text = Анын таенеси мед айым эле.
+# text = Анын таенеси медайым эле.
 # text[en] = Their grandmother was a nurse.
 # issues = multiword_token compound
 "<Анын>"
 	"ал" prn pers p3 sg gen @nmod:poss #1->2
 "<таенеси>"
 	"таене" n px3sp nom @nsubj #2->3
-"<мед айым>"
-	"мед айым" n nom @root #3->0
+"<медайым>"
+	"медайым" n nom @root #3->0
 "<эле>"
 	"э" cop ifi p3 sg @cop #4->3
 "<.>"
-	"." sent @punct #5->4
+	"." sent @punct #5->3
 
 # sent_id = 7
 # text = Макул, анда китеп текчесиндегилер кайда эле?
@@ -200,8 +201,8 @@
 "<китеп>"
 	"китеп" n gen-ind @nmod:poss #4->5
 "<текчесиндегилер>"
-	"текче" n px3sp loc attr @nmod:loc #5->6
-		"_" n nom pl @nsubj #6->7
+	"текче" n px3sg loc attr @nmod:loc #5->6
+		"_" prn dem pl @nsubj #6->7
 "<кайда>"
 	"кайда" adv @root #7->0
 "<эле>"
