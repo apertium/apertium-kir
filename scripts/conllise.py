@@ -10,6 +10,8 @@
 
 ###############################################################################
 import sys, re
+import argparse
+
 re_cg_elems = re.compile("(\".*\") (.*)")
 
 def get_surface_cg(line):
@@ -21,7 +23,15 @@ def get_lemma_cg(line):
 	return line[beg:end]
 
 def get_deps_cg(line):
-	return [int(i) for i in line.split('#')[1].split('->')]
+	global enhanced_deps
+	#return [int(i) for i in line.split('#')[1].split('->')]
+	deps = []
+	for i in line.split('#')[1].split('->'):
+		if "." in i: # enhanced dependencies
+			deps.append(i)
+		else:
+			deps.append(int(i))
+	return deps
 
 def get_func_cg(line):
 	# this approach should work for forms containing spaces
@@ -62,7 +72,12 @@ def get_tokens(sent):
 		elif line[0] == '\t':
 			deps = get_deps_cg(line)
 			tags = get_tags_cg(line)
-			tokens[counter][1].append((deps[0], '_', get_lemma_cg(line), '_', tags, '_', deps[1], get_func_cg(line), '_', '_'))
+			if(type(deps[0]) == int):  # standard
+				tokens[counter][1].append((deps[0], '_', get_lemma_cg(line), '_', tags, '_', deps[1], get_func_cg(line), '_', '_'))
+			else: # str means enhanced dependencies
+				depsline = str(deps[1])+':'+get_func_cg(line)[1:]
+				#print("DEPS: "+depsline, file=sys.stderr)
+				tokens[counter][1].append((deps[0], '_', get_lemma_cg(line), '_', tags, '_', '_', '@_', depsline, '_'))
 		else:
 			continue
 	return tokens
@@ -91,6 +106,7 @@ def get_segmentations(sent):
 	return segmentations
 
 def merge_segmentations(segs, n, direction='L'):
+	#print(segs, file=sys.stderr)
 	if n == 2 and direction == 'L':
 		return [segs[0], ''.join(segs[1:])]
 	elif n == 2 and direction == 'R':
@@ -156,20 +172,33 @@ def apply_rules(rules, analysis):
 	return (o, remainder)
 
 def format_conllu_line(line):
+	global enhanced_deps
+	if enhanced_deps:
+		deprel = line[6:8]
+		#print(deprel, type(line[6]), line[7], file=sys.stderr)
+		#print(line[8], existing, deprel, line, file=sys.stderr)
+		enhanced_dep = '%d:%s' % deprel if line[8] == "_" else line[8]
+		line = (line[0], line[1], line[2], line[3], line[4], line[5], line[6], line[7], enhanced_dep, line[9])
+		#print(deprel, line, file=sys.stderr)
 	#       1   2   3   4   5   6   7   8   9   10
-        return '%d\t%s\t%s\t%s\t%s\t%s\t%d\t%s\t%s\t%s' % line
+	return '%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s' % line
 
 
 ###############################################################################
 
-if len(sys.argv) != 4:
-	print(sys.argv, file=sys.stderr)
-	print('conllise.py UDX_FILE DEP_FILE SEG_FILE', file=sys.stderr)
-	sys.exit(-1)
+parser = argparse.ArgumentParser(prog='conllise.py', description="This script creates a CoNLL-U file from three types of input files")
+parser.add_argument('UDX_FILE', help="This is a tab separated file with tagset correspondences")
+parser.add_argument('DEP_FILE', help="This is a list of sentences in VISLCG3 format")
+parser.add_argument('SEG_FILE', help="This is a list of sentences in Apertium format")
+parser.add_argument('-e', '--enhanced', help="enable enhanced dependences for all sentence", default=False, action="store_true")
 
-tag_rules = open(sys.argv[1]).readlines()
-sents_dep = open(sys.argv[2]).read().split('\n\n')
-sents_seg = open(sys.argv[3]).read().split('\n\n')
+args = parser.parse_args()
+
+tag_rules = open(args.UDX_FILE).readlines()
+sents_dep = open(args.DEP_FILE).read().split('\n\n')
+sents_seg = open(args.SEG_FILE).read().split('\n\n')
+
+enhanced_deps = args.enhanced
 
 #if len(sents_dep) != len(sents_seg):
 #	print('ERROR:', sys.argv, file=sys.stderr)
@@ -229,7 +258,7 @@ for depseg in sents_depseg:
 	tokens = get_tokens(parse)
 	segmentations = get_segmentations(sents_depseg[depseg][1])
 
-#	print(tokens)
+	#print(tokens, file=sys.stderr)
 
 	current_sent_id = comments.split('\n')[0]
 
@@ -260,7 +289,7 @@ for depseg in sents_depseg:
 				else:
 					segs = merge_segmentations(segmentations[j][1], len(token[1]))
 			if len(token[1]) > 1: # only if multi-word from .dep source
-				print('%d-%d\t%s\t_\t_\t_\t_\t_\t_\t_\t_' % (token[1][0][0], token[1][-1][0], token[0]))
+				print('%s-%s\t%s\t_\t_\t_\t_\t_\t_\t_\t_' % (token[1][0][0], token[1][-1][0], token[0]))
 			for (k, word) in enumerate(token[1]):
 				#print(k, word, file=sys.stderr)
 				#print(k, len(token[1]), orig_segs, segs, word, token[1], file=sys.stderr)
@@ -276,9 +305,13 @@ for depseg in sents_depseg:
 				(analysis, misc) = apply_rules(rules, word)
 				#       1        2                       3        4            5    6            7        8        9    10
 				atags = '.'.join(word[4].split('|'))
-				line = (word[0], segs[k], word[2], analysis[1], atags, analysis[2], word[6], word[7][1:], '_', noSpace)
-				print(format_conllu_line(line))
-				indices.append(int(word[0]))
+				line = (word[0], segs[k], word[2], analysis[1], atags, analysis[2], word[6], word[7][1:], word[8], noSpace)
+				if type(line[0])==int or enhanced_deps: # skip enhanced dependencies tokens if -e not enabled
+					print(format_conllu_line(line))
+				if type(word[0]) is int:
+					indices.append(int(word[0]))
+				else:
+					indices.append(word[0])
 				if word[7] == '@root':
 					foundRoot += 1
 				if word[7] == '@root' and word[6] != 0:
@@ -300,8 +333,9 @@ for depseg in sents_depseg:
 			(analysis, misc) = apply_rules(rules, word)
 			#       1        2         3        4            5    6            7        8        9    10
 			atags = '.'.join(word[4].split('|'))
-			line = (word[0], token[0], word[2], analysis[1], atags, analysis[2], word[6], word[7][1:], '_', '_')
-			print(format_conllu_line(line))
+			line = (word[0], token[0], word[2], analysis[1], atags, analysis[2], word[6], word[7][1:], word[8], '_')
+			if type(line[0])==int or enhanced_deps: # skip enhanced dependencies tokens if -e not enabled
+				print(format_conllu_line(line))
 			if word[7] == '@root' and word[6] != 0:
 				print('ERROR:',current_sent_id,' Root is not root', line, file=sys.stderr)
 			if word[7] != '@root' and word[6] == 0:
@@ -319,8 +353,13 @@ for depseg in sents_depseg:
 	if foundRoot != 1:
 		print('ERROR:',current_sent_id,' Root not found,', foundRoot, 'roots', file=sys.stderr)
 
+	ed_offset = 0
 	for (x, y) in enumerate(indices):
-		if x+1 != y:
+		if type(y) != int: # enhanced dependencies
+			if x != int(y[0]):
+				print('ERROR:',current_sent_id,' Enhanced dependencies indices (%s:%s) out of sync:' % (x, y), indices, file=sys.stderr)
+			ed_offset += 1
+		elif x+1-ed_offset != y:
 			print('ERROR:',current_sent_id,' Indices out of sync:', indices, file=sys.stderr)
 			break
 
