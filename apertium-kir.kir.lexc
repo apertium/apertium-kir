@@ -1891,6 +1891,7 @@ LEXICON Miscellaneous
 го%<mod%>:го # ;
 да%<mod%>:да # ;
 имиш%<mod%>:имиш # ;
+бы%<mod%>+де%<v%>%<iv%>%<aor%>%<p1%>%<sg%>:бейм # ;
 ! the following are already in the Copula lexicon
 !бы%<qst%>+эле%<mod%>:беле V-PERS-PAST ;
 !бы%<qst%>+экен%<mod%>:бекен V-PERS-COP ;
@@ -9662,6 +9663,7 @@ Aйталы:Aйталы NP-ANT-M ; ! "Aytğalıy" (Arabic)
 Демежан:Демежан NP-ANT-M ; ! "Demejan" (Kazakh)
 Демесин:Демесин NP-ANT-M ; ! "Demesin" (Kazakh)
 Демеу:Демеу NP-ANT-M ; ! "Demew" (Kazakh)
+Дениз:Дениз NP-ANT-MF ; ! "Deniz" (Turkish)
 Денис:Денис NP-ANT-M ; ! "Deniys" (Greek)
 Дербай:Дербай NP-ANT-M ; ! "Derbay" (Kazakh)
 Дербисали:Дербисали NP-ANT-M ; ! "Derbisali" (Arabic)
