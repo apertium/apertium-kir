@@ -27,6 +27,22 @@
     </pipeline>
   </mode>
 
+  <mode name="kir-seg" install="no">
+    <pipeline>
+      <program name="hfst-proc">
+        <file name="kir.autoseg.hfst"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <mode name="kir-seggen" install="no">
+    <pipeline>
+      <program name="hfst-proc">
+        <file name="kir.seggen.hfst"/>
+      </program>
+    </pipeline>
+  </mode>
+
 
   <mode name="kir-gener" install="yes">
     <pipeline>

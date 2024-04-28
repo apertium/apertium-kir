@@ -9,6 +9,7 @@ TARGETS_COMMON = $(LANG1).automorf.hfst $(LANG1).autogen.hfst \
 	$(LANG1).autopgen.bin \
 	$(LANG1).automorf.bin $(LANG1).autogen.bin \
 	$(LANG1).automorf.att.gz $(LANG1).autogen.att.gz \
+	$(LANG1).autoseg.hfst $(LANG1).seggen.hfst \
         $(LANG1).rlx.bin
 
 # This include defines goals for install-modes, .deps/.d and .mode files:
@@ -61,6 +62,37 @@ $(LANG1).autogen.bin: $(LANG1).autogen.att.gz .deps/.d
 $(LANG1).automorf.bin: $(LANG1).automorf.att.gz .deps/.d
 	zcat < $< > .deps/$(LANG1).automorf.att
 	lt-comp lr .deps/$(LANG1).automorf.att $@
+
+###############################################################################
+## Segmenter
+###############################################################################
+# Segmenter generation:
+# ^китеп<n><pl><px1pl><abl>/китеп\>тер\>ибиз\>ден$
+#
+# Auto segmenter:
+# ^китептерибизден/китеп\>тер\>ибиз\>ден$
+
+.deps/$(LANG1).seg.twol.hfst: $(BASENAME).$(LANG1)-seg.twol
+	hfst-twolc $< -o $@
+
+# segmentor generator
+.deps/$(LANG1).RL-seg.hfst: .deps/$(LANG1).RL.lexc.hfst .deps/$(LANG1).seg.twol.hfst
+	hfst-compose-intersect -1 .deps/$(LANG1).RL.lexc.hfst -2 .deps/$(LANG1).seg.twol.hfst | hfst-minimise -o $@
+
+$(LANG1).seggen.hfst: .deps/$(LANG1).RL-seg.hfst .deps/$(LANG1).twoc.hfst
+	hfst-compose-intersect -1 $< -2 .deps/$(LANG1).twoc.hfst | hfst-fst2fst -w -o $@
+
+# auto segmenter
+.deps/$(LANG1).LR-seg.hfst: .deps/$(LANG1).LR.lexc.hfst .deps/$(LANG1).seg.twol.hfst
+	hfst-compose-intersect -1 .deps/$(LANG1).LR.lexc.hfst -2 .deps/$(LANG1).seg.twol.hfst | hfst-invert | hfst-minimise -o $@
+
+.deps/$(LANG1).revmorph.hfst: $(LANG1).automorf.hfst
+	hfst-fst2fst -t $< | hfst-invert -o $@
+
+$(LANG1).autoseg.hfst: .deps/$(LANG1).LR-seg.hfst .deps/$(LANG1).twoc.hfst dev/ortho/$(LANG1)-CYR.spellrelax.hfst
+	hfst-compose-intersect -1 $< -2 .deps/$(LANG1).twoc.hfst | hfst-invert | hfst-compose-intersect -1 - -2 dev/ortho/$(LANG1)-CYR.spellrelax.hfst | hfst-invert | hfst-compose -1 - -2 .deps/$(LANG1).revmorph.hfst | hfst-invert | hfst-fst2fst -w -o $@
+
+
 
 ###############################################################################
 ## Debugging transducers (for testvoc)
