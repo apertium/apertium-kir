@@ -4051,7 +4051,6 @@ LEXICON Nouns
 дөбөт:дөбөт N-INFL ; ! "sheep dog" 
 дөң:дөң N-INFL ; ! "" 
 дөө:дөө N-INFL ; 
-евалютсия:евалютсия N-INFL ; 
 евро:евро N-INFL ;
 еге:еге N-INFL ; ! ?? FIXME
 жаа:жаа N-INFL ; ! "bow (weapon)" 
@@ -4060,69 +4059,66 @@ LEXICON Nouns
 жаап%-жашырып:жаап%-жашырып N-INFL ; ! FIXME: check
 жаат:жаат N-INFL ;
 жабдуу:жабдуу N-INFL ;
-жабдык:жабдык N-INFL ;
+жабдык:жабдык N-INFL ; ! "weapon"
 жабдылыш:жабдылыш N-INFL ;
 жабуу:жабуу N-INFL ;
 жабырлануучу:жабырлануучу N-INFL ; ! "потерпевший" 
-жагдай:жагдай N-INFL ;
-жагынан:жагынан N-INFL ;
+жагдай:жагдай N-INFL ; ! "condition"
 жаза:жаза N-INFL ; 
 жаздык:жаздык N-INFL ; ! "" 
 жазма:жазма N-INFL ;
-жазуу:жазуу N-INFL ;
-жазуучу:жазуучу N-INFL ;
+жазуу:жазуу N-INFL ; ! "writing"
+жазуучу:жазуучу N-INFL ; ! "writer"
 жазылым:жазылым N-INFL ;
-жайгашкан% жер:жайгашкан% жер N-INFL ;
+жайгашкан% жер:жайгашкан% жер N-INFL ; ! Use/MT
 жайгаштыруу:жайгаштыруу N-INFL ; 
-жайлоо:жайлоо N-INFL ; ! "" 
+жайлоо:жайлоо N-INFL ; ! "summer pasture" 
 жайылуу:жайылуу N-INFL ;
-жак:жак N-INFL ; 
-жака:жака N-INFL ;
+жак:жак N-INFL ; ! "side"
+жака:жака N-INFL ; ! "collar"
 жакет:жакет N-INFL ; 
 жактоочу:жактоочу N-INFL ; ! "" 
 жактырыш:жактырыш N-INFL ;
-жакшылык:жакшылык N-INFL ; ! ""
-жакшыртуу:жакшыртуу N-INFL ;
+жакшылык:жакшылык N-INFL ; ! "goodness"
+жакшыртуу:жакшыртуу N-INFL ; ! ""
 жалаа:жалаа N-INFL ; 
 жалбыз:жалбыз N-INFL ; ! "mint" 
-жалбырак:жалбырак N-INFL ; ! "" 
-жалган:жалган N-INFL ;
-жалганчы:жалганчы N-INFL ; ! "" 
+жалбырак:жалбырак N-INFL ; ! "leaf"
+жалган:жалган N-INFL ; ! "falsehood"
+жалганчы:жалганчы N-INFL ; ! "liar"
 жал:жал N-INFL ; ! "mane"
 жалкоо:жалкоо N-INFL ;  ! CHECK: ADJ
-жалын:жалын N-INFL ; ! "" 
-жалюзи:жалюзи N-INFL ; 
+жалын:жалын N-INFL ; ! "flame" 
+жалюзи:жалюзи N-INFL ; ! "blinds"
 жамаат:жамаат N-INFL ; 
 жамак:жамак N-INFL ; 
-жамандык:жамандык N-INFL ; ! "" 
-жаманык:жаманык N-INFL ;
-жамбаш:жамбаш N-INFL ; ! "hips" 
+жамандык:жамандык N-INFL ; ! "badness"
+жамбаш:жамбаш N-INFL ; ! "hips"
 жамгыр:жамгыр N-INFL ; ! "rain"
 жан% сакчы:жан% сакчы N-INFL ; ! "body guard" ! Use/MT
 жан:жан N-INFL ; ! "jan"
 жаназа:жаназа N-INFL ; 
-жангак:жангак N-INFL ; 
-жандарм:жандарм N-INFL ; 
-жанр:жанр N-INFL ; 
-жаныбар:жаныбар N-INFL ; 
+жаңгак:жаңгак N-INFL ; ! "nut; walnut"
+жандарм:жандарм N-INFL ; ! "gendarme"
+жанр:жанр N-INFL ; ! "genre"
+жаныбар:жаныбар N-INFL ; ! "animal"
 жанына% кол% салуу:жанына% кол% салуу N-INFL ;
 жапа% чеккен:жапа% чеккен N-INFL ;
 жапа:жапа N-INFL ; 
 жапалак:жапалак N-INFL ; ! "owl" 
-жар:жар N-INFL ;
+жар:жар N-INFL ; ! "cliff; beloved"
 жара:жара N-INFL ;
 жаран:жаран N-INFL ; ! "citizen"
 жараан:жараан N-INFL ;
 жарак:жарак N-INFL ; 
-жарака:жарака N-INFL ;
+жарака:жарака N-INFL ; ! "crack"
 жаракат:жаракат N-INFL ; 
 жарактуулук:жарактуулук N-INFL ;
 жаран:жаран N-INFL ;
-жарандык:жарандык N-INFL ; ! "" 
-жараткан:жараткан N-INFL ;
+жарандык:жарандык N-INFL ; ! ""
+жараткан:жараткан N-INFL ; ! "creator"
 жаратылыш% газ:жаратылыш% газ N-INFL ;
-жаратылыш:жаратылыш N-INFL ;
-жаратылыш:жаратылыш N-INFL ; 
+жаратылыш:жаратылыш N-INFL ; ! "nature"
 жардам:жардам N-INFL ; ! "help"
 жардамдашуу:жардамдашуу N-INFL ; 
 жардамчы:жардамчы N-INFL ; ! "helper"
@@ -4130,9 +4126,9 @@ LEXICON Nouns
 жардык:жардык N-INFL ;
 жарманке:жарманке N-INFL ; 
 жармашкан:жармашкан N-INFL ; 
-жарнама:жарнама N-INFL ; 
+жарнама:жарнама N-INFL ; ! "advertisement"
 жаруун% козголоң:жаруун% козголоң N-INFL ;
-жарык:жарык N-INFL ; ! "" 
+жарык:жарык N-INFL ; ! "light" 
 жарылыш:жарылыш N-INFL ; ! "" 
 жарым% арал:жарым% арал N-INFL ;
 жарыш:жарыш N-INFL ;
@@ -4141,29 +4137,28 @@ LEXICON Nouns
 жасат:жасат N-INFL ; 
 жасатма:жасатма N-INFL ;
 жатак:жатак N-INFL ; 
-жатакана:жатакана N-INFL ;
-жатакана:жатакана N-INFL ; 
+жатакана:жатакана N-INFL ; ! "hotel"
 жатырым:жатырым N-INFL ;
 жаш% бутак:жаш% бутак N-INFL ; ! "" 
 жаш% өспүрүм:жаш% өспүрүм N-INFL ; ! "" 
-жаш:жаш N-INFL ; 
+жаш:жаш N-INFL ; ! "age"
 жаша:жаша N-INFL ;
 жашаган% жер:жашаган% жер N-INFL ; ! "" 
 жашаган:жашаган N-INFL ;
 жашасын:жашасын N-INFL ;
-жашоо:жашоо N-INFL ; 
+жашоо:жашоо N-INFL ; ! "life"
 жаштар% үйү:жаштар% үй N-INFL-3PX-COMPOUND ;
 жашы% жеткендик:жашы% жеткендик N-INFL ; ! "" 
 жашыл% бака:жашыл% бака N-INFL ; 
 жашыл% кипарис:жашыл% кипарис N-INFL ;
 жашылча:жашылча N-INFL ; ! "vegetables" 
 жаңжал:жаңжал N-INFL ; ! "скандал"
-жаңылык:жаңылык N-INFL ; ! "" 
+жаңылык:жаңылык N-INFL ; ! "news"
 жаңылыштык:жаңылыштык N-INFL ; 
 жаңычыл:жаңычыл N-INFL ;
-жебе:жебе N-INFL ; 
-жез:жез N-INFL ; 
-жезде:жезде N-INFL ; ! "" 
+жебе:жебе N-INFL ; ! "arrow"
+жез:жез N-INFL ; ! "copper"
+жезде:жезде N-INFL ; ! "husband of older sister"
 жейрен:жейрен N-INFL ;
 жек% көрүү:жек% көрүү N-INFL ;
 жеке% менчик% ээси:жеке% менчик% ээси N-INFL ; ! "собственник" 
@@ -4174,10 +4169,10 @@ LEXICON Nouns
 желдет:желдет N-INFL ; 
 желе:желе N-INFL ; 
 желек:желек N-INFL ; 
-желим:желим N-INFL ;
+желим:желим N-INFL ; ! "glue, paste, plastic"
 желке:желке N-INFL ; ! "nape,back of head" 
 желмогуз:желмогуз N-INFL ; 
-жем:жем N-INFL ; 
+жем:жем N-INFL ; ! "feed, fodder"
 жемил:жемил N-INFL ;
 жемиш:жемиш N-INFL ; 
 жер% алды:жер% алд N-INFL-3PX-COMPOUND ;
@@ -4190,7 +4185,6 @@ LEXICON Nouns
 жест:жест N-INFL ; 
 жетекчи:жетекчи N-INFL ; ! "director/leader" 
 жетекчилик:жетекчилик N-INFL ; ! "leadership"
-жети:жети N-INFL ;
 жетиген:жетиген N-INFL ; ! "The jetigen (Kazakh: жетіген, or dzhetigan) is a Kazakh seven-stringed zither similar to the Mongolian yatga." 
 жетилген:жетилген N-INFL ;
 жетим% көпөлөк:жетим% көпөлөк N-INFL ; 
@@ -7369,7 +7363,7 @@ LEXICON Nouns
 ышкырык:ышкырык N-INFL ; 
 ыңгай:ыңгай N-INFL ; ! "" 
 ыңкылап:ыңкылап N-INFL ; 
-эволюция:эволюция N-INFL ; 
+эволюция:эволюция N-INFL ; ! "evolution"
 эгемендик:эгемендик N-INFL ; ! CHECK
 эгемендүүлүк:эгемендүүлүк N-INFL ; ! "independence"
 эгер:эгер N-INFL ;
@@ -8669,6 +8663,7 @@ Kazakhstan:Kazakhstan NP-AL ; ! ""
 Аймаңдай:Аймаңдай NP-AL ; ! ""
 
 Совет:Совет NP-AL-PL ; ! ""
+Жетиген:Жетиген NP-AL ; ! "The Big Dipper"
 
 ! Stadium names
 !-----------------
