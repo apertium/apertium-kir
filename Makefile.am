@@ -82,6 +82,10 @@ $(LANG1).automorf.bin: $(LANG1).automorf.att.gz .deps/.d
 $(LANG1).seggen.hfst: .deps/$(LANG1).RL-seg.hfst .deps/$(LANG1).twoc.hfst
 	hfst-compose-intersect -1 $< -2 .deps/$(LANG1).twoc.hfst | hfst-fst2fst -w -o $@
 
+$(LANG1).seggen.bin: $(LANG1).seggen.hfst
+	hfst-fst2txt $< -o .deps/$(LANG1).seggen.att
+	lt-comp lr kir.seggen.att kir.seggen.bin
+
 # auto segmenter
 .deps/$(LANG1).LR-seg.hfst: .deps/$(LANG1).LR.lexc.hfst .deps/$(LANG1).seg.twol.hfst
 	hfst-compose-intersect -1 .deps/$(LANG1).LR.lexc.hfst -2 .deps/$(LANG1).seg.twol.hfst | hfst-invert | hfst-minimise -o $@
