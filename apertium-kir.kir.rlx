@@ -548,6 +548,7 @@ REMOVE CC IF (0 Post) (NOT 1 N-LIKE);
         (0 (ger_past) + Nom)
         (1C Noun)
         (NOT 0 Det)
+		  (NOT 0 Subst)
 ;
 
  SELECT FiniteVerb IF
