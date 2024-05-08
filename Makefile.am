@@ -9,7 +9,7 @@ TARGETS_COMMON = $(LANG1).automorf.hfst $(LANG1).autogen.hfst \
 	$(LANG1).autopgen.bin \
 	$(LANG1).automorf.bin $(LANG1).autogen.bin \
 	$(LANG1).automorf.att.gz $(LANG1).autogen.att.gz \
-	$(LANG1).autoseg.hfst $(LANG1).seggen.hfst $(LANG1).seggen.bin \
+	$(LANG1).autoseg.hfst $(LANG1).seggen.hfst \
         $(LANG1).rlx.bin
 
 # This include defines goals for install-modes, .deps/.d and .mode files:
@@ -91,9 +91,9 @@ $(LANG1).seggen.hfst: .deps/$(LANG1).RL-seg.hfst .deps/$(LANG1).twoc.hfst
 .deps/$(LANG1).seggen.hfst: $(LANG1).seggen.hfst
 	hfst-fst2fst -t $< -o $@
 
-$(LANG1).seggen.bin: .deps/$(LANG1).seg-prefix.hfst .deps/$(LANG1).seggen.hfst
-	hfst-concatenate .deps/$(LANG1).seg-prefix.hfst .deps/$(LANG1).seggen.hfst | hfst-minimise | hfst-fst2txt -o .deps/$(LANG1).seggen.att
-	lt-comp -S lr .deps/$(LANG1).seggen.att $(LANG1).seggen.bin
+#$(LANG1).seggen.bin: .deps/$(LANG1).seg-prefix.hfst .deps/$(LANG1).seggen.hfst
+#	hfst-concatenate .deps/$(LANG1).seg-prefix.hfst .deps/$(LANG1).seggen.hfst | hfst-minimise | hfst-fst2txt -o .deps/$(LANG1).seggen.att
+#	lt-comp -S lr .deps/$(LANG1).seggen.att $(LANG1).seggen.bin
 
 # auto segmenter
 .deps/$(LANG1).LR-seg.hfst: .deps/$(LANG1).LR.lexc.hfst .deps/$(LANG1).seg.twol.hfst

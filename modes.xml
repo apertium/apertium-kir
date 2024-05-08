@@ -35,9 +35,15 @@
     </pipeline>
   </mode>
 
-  <mode name="kir-seggen" install="no">
+  <mode name="kir-seggen" install="yes">
     <pipeline>
-      <program name="hfst-proc">
+      <program name="lt-proc -w">
+        <file name="kir.automorf.bin"/>
+      </program>
+      <program name="cg-proc -1n">
+        <file name="kir.rlx.bin"/>
+      </program>
+      <program name="hfst-proc -g">
         <file name="kir.seggen.hfst"/>
       </program>
     </pipeline>
