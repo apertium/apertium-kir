@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dictionary type="separable">
+  <alphabet></alphabet>
+  <sdefs>
+    <sdef n="np"      c="Proper noun"/>
+    <sdef n="pr"      c="Preposition"/>
+  </sdefs>
+
+  <pardefs>
+
+    <pardef n="inputs" c="match all inputs">
+      <e>   <i><w/><f/></i>            </e>
+    </pardef>
+  </pardefs>
+
+  <section id="main" type="standard">
+    <e>
+      <par n="inputs"/>
+    </e>
+  </section>
+</dictionary>
