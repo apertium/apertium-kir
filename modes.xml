@@ -27,7 +27,7 @@
     </pipeline>
   </mode>
 
-  <mode name="kir-segs" install="no">
+  <mode name="kir-allsegs" install="no">
     <pipeline>
       <program name="hfst-proc">
         <file name="kir.autoseg.hfst"/>
