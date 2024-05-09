@@ -3096,7 +3096,6 @@ LEXICON Nouns
 азчылык:азчылык N-INFL ;
 азык% түлүк:азык% түлүк N-INFL ; 
 азык:азык N-INFL ; 
-азыр:азыр N-INFL ; ! "should be adv?" 
 аиыптоо% сөзү:аиыптоо% сөзү N-INFL ;
 ай% балта:ай% балта N-INFL ; 
 ай:ай N-INFL ; 
@@ -3187,7 +3186,7 @@ LEXICON Nouns
 акырет:акырет N-INFL ; 
 акырында:акырында N-INFL ;
 ал%-жай:ал%-жай N-INFL ; ! FIXME: check
-ал:ал N-INFL ; 
+ал:ал N-INFL ; ! "strength"
 алаамат:алаамат N-INFL ; 
 алака:алака N-INFL ; 
 алакан:алакан N-INFL ; ! "palm (of hand)"
