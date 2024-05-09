@@ -102,7 +102,7 @@ $(LANG1).seggen.hfst: .deps/$(LANG1).RL-seg.hfst .deps/$(LANG1).twoc.hfst
 .deps/$(LANG1).revmorph.hfst: $(LANG1).automorf.hfst
 	hfst-fst2fst -t $< | hfst-invert -o $@
 
-$(LANG1).autoseg.hfst: .deps/$(LANG1).LR-seg.hfst .deps/$(LANG1).twoc.hfst dev/ortho/$(LANG1)-CYR.spellrelax.hfst
+$(LANG1).autoseg.hfst: .deps/$(LANG1).LR-seg.hfst .deps/$(LANG1).twoc.hfst dev/ortho/$(LANG1)-CYR.spellrelax.hfst .deps/$(LANG1).revmorph.hfst
 	hfst-compose-intersect -1 $< -2 .deps/$(LANG1).twoc.hfst | hfst-invert | hfst-compose-intersect -1 - -2 dev/ortho/$(LANG1)-CYR.spellrelax.hfst | hfst-invert | hfst-compose -1 - -2 .deps/$(LANG1).revmorph.hfst | hfst-invert | hfst-fst2fst -w -o $@
 
 
