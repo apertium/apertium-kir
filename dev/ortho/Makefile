@@ -1,7 +1,8 @@
-all: kir-ARA.autogen.hfst kir-ARA.automorf.hfst kir-MULTI.automorf.hfst kir-IPA.autogen.hfst kir@Cyrl-kir@IPA.hfst kir@Cyrl-kir@IPA2.hfst
+all: kir-ARA.autogen.hfst kir-ARA.automorf.hfst kir-MULTI.automorf.hfst kir-IPA.autogen.hfst kir@Cyrl-kir@IPA.hfst kir@Cyrl-kir@IPA2.hfst cyr-lat.ohfst
 
 cyr-ara: cyr-ara.ohfst
-cyr-ipa: cyr-ara.ohfst
+cyr-ipa: cyr-ipa.ohfst
+cyr-lat: cyr-lat.ohfst
 
 # create full transcription transducer from lexc and twol transducers
 cyr-ara.hfst: cyr-ara.twol.hfst cyr-ara.lexc.hfst
@@ -10,12 +11,17 @@ cyr-ara.hfst: cyr-ara.twol.hfst cyr-ara.lexc.hfst
 cyr-ipa.hfst: cyr-ipa.twol.hfst cyr-ipa.lexc.hfst
 	hfst-compose-intersect -1 cyr-ipa.lexc.hfst -2 cyr-ipa.twol.hfst -o cyr-ipa.hfst
 
+cyr-lat.hfst: cyr-lat.twol.hfst cyr-lat.lexc.hfst
+	hfst-compose-intersect -1 cyr-lat.lexc.hfst -2 cyr-lat.twol.hfst -o cyr-lat.hfst
 
 # create transcription transducer optimised-lookup format
 cyr-ara.ohfst: cyr-ara.hfst
 	hfst-fst2fst -w -i $< -o $@
 
 cyr-ipa.ohfst: cyr-ipa.hfst
+	hfst-fst2fst -w -i $< -o $@
+
+cyr-lat.ohfst: cyr-lat.hfst
 	hfst-fst2fst -w -i $< -o $@
 
 kir-ARA.spellrelax.hfst: kir-ARA.spellrelax.twol
@@ -81,6 +87,12 @@ cyr-ara.twol.hfst: cyr-ara.twol
 
 cyr-ipa.twol.hfst: cyr-ipa.twol
 	hfst-twolc $< -o $@
+
+cyr-lat.twol.hfst: cyr-lat.twol
+	hfst-twolc $< -o $@
+
+cyr-lat.lexc.hfst: cyr-lat.lexc
+	hfst-lexc $< -o $@
 
 clean:
 	rm -rf *.ohfst *.hfst

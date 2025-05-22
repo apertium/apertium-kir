@@ -1,0 +1,144 @@
+
+Alphabet 
+
+ !ء
+ !ئ ا ە ب پ ت ج چ خ د ر ز ژ س ش غ ف ق ك گ ڭ ل م ن ھ و ۇ ۆ ۋ ې ى ي  ٸ ٶ ٷ ٵ 
+ 
+ !% ء
+
+ ! ء ا ە ه ې ب ت پ ج چ خ ح د ر ز ژ س ش ع ف ق ك گ ڭ ل م ن ھ و ۇ ۋ ى ي ۆ
+
+ А:A
+ Б:B
+ В:V
+ Г:G Г:Ğ
+ Д:D
+ Е:E
+ Ж:J Ж:Ž
+ З:z
+ И:İ
+ Й:Y
+ К:K К:Q
+ Л:L
+ М:M
+ Н:N
+ Ң:Ŋ
+ О:O
+ Ө:Ö
+ П:P
+ Р:R
+ С:S
+ Т:T
+ У:U
+ Ү:Ü
+ Ф:F
+ Х:X  ! خ
+ Ч:Ç
+ Ш:Ş
+ Щ:Ś
+ Ь:ʼ
+ Ы:I
+ Ъ:0
+ Э:E
+
+ а:a
+ б:b
+ в:v
+ г:g г:ğ
+ д:d
+ е:e
+ ж:j ж:ž
+ з:z
+ и:i
+ й:y
+ к:k к:q
+ л:l
+ м:m
+ н:n
+ ң:ŋ
+ о:o
+ ө:ö
+ п:p
+ р:r
+ с:s
+ т:t
+ у:u
+ ү:ü
+ ф:f
+ х:x  ! خ
+ ч:ç
+ ш:ş
+ щ:ś
+ ь:ʼ
+ ы:ı
+ ъ:0
+ э:e
+
+
+ %{й%}:0
+ %{й%}:j
+
+ %{ˈ%}:0
+ %{ˈ%}:ˈ
+ 
+ ;
+
+
+Sets 
+
+Vow = и ү е э ө а о у ы ;
+
+!letter = ء ئ ا ە ب پ ت ج چ خ د ر ز ژ س ش غ ف ق ك گ ڭ ل م ن ھ و ۇ ۅ ۉ ۋ ى ي ;
+
+backVow = а о ы у
+          А О Ы У ;
+
+Cons = б в г д ж з й к л м н п р с т ф х ц ч ш щ 
+       Б В Г Д Ж З Й К Л М Н П Р С Т Ф Х Ц Ч Ш Щ ;
+
+frontConsCyr = к г
+               К Г ;
+
+Nasal = Н М Ң
+        н м ң ;
+
+!frontLetter = ك گ ە ۅ ۉ ;
+
+frontSound = k g e i ö ü ;
+
+!backLetter = ق ع ا و ۇ ;
+
+backSound = q ğ a ı o u ;
+
+Rules 
+
+"%{й%}:j after vowels except е"
+%{й%}:j <=> [ Vow: - [ э: | е: ] ] _ ;
+
+"к г in the context of back vowels"
+Cx:Cy <=> backVow: _ ;
+          _ backVow: ;
+      except
+          .#. а: _ (%{й%}:) е: ;  ! аке:ɑˈke
+          .#. б: (%{й%}:) е: _ а: ;  ! Бегайым:beɣɑjɯm
+          .#. _ Cons: ; 
+          ! keep in mind if modifying this rule:
+          ! - байке:bɑjke
+          ! - багелек:bɑʁelek
+      where Cx in ( к г )
+            Cy in ( q ğ )
+      matched ;
+
+"к and г in onset clusters (loanwords) and front-vowel contexts"
+Cx:Cy <=> .#. _ Cons: ;
+          _ :frontSound ;
+          :frontSound _ ;
+      where Cx in ( к г )
+            Cy in ( k g )
+      matched ;
+
+"ж as ʒ only after д"
+ж:ž <=> д: _ ;
+
+! remaining issues:
+!  - [ ] объекттерге:obyektterğe
