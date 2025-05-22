@@ -509,6 +509,11 @@ SELECT V-IV IF
 ;
 
 SELECT V-TV IF
+	(0 ("кара"))
+	(-1* Acc BARRIER N-LIKE-NO-ADV)
+;
+
+SELECT V-TV IF
 	(0 ("күт"))
 	(-1* Acc BARRIER N-LIKE-NO-ADV)
 ;
