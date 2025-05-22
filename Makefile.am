@@ -10,7 +10,8 @@ TARGETS_COMMON = $(LANG1).automorf.hfst $(LANG1).autogen.hfst \
 	$(LANG1).automorf.bin $(LANG1).autogen.bin \
 	$(LANG1).automorf.att.gz $(LANG1).autogen.att.gz \
 	$(LANG1).autoseg.hfst $(LANG1).seggen.hfst \
-        $(LANG1).rlx.bin
+        $(LANG1).rlx.bin \
+		  .deps/$(LANG1).lexc.hfst
 
 # This include defines goals for install-modes, .deps/.d and .mode files:
 @ap_include@
