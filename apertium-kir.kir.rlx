@@ -354,6 +354,8 @@ REMOVE SUB:1 Pl IF
  "<алар>" REMOVE Verb IF (NOT 1 EOS OR MARK) ;
  "<алар>" REMOVE Vaux IF (NOT 1 EOS OR MARK) ;
 
+ "<ал>" SELECT Det If (1 Noun) ;
+
  "<карай>" REMOVE Verb IF (NOT 1 Vaux);
 
  "<бир>" SELECT Det IF (1 Noun) (-1 Adj) ;
