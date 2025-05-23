@@ -234,7 +234,7 @@ Cx:Cy <=>  [ :UnvoicedNonSonCns ]/[ [ :0 - [ %{n%}:0 | Abstract:0 ] ] | %-: | %>
 !!!!!!!!!!!!   Vowel harmony !!!!!!!!!!!!!
 
 "Vowel harmony for archiphoneme {A}"
-%{A%}:Vy  <=> [ :LastVowel :Cns* :Cns ]/[ [ :0 - [ Abstract:0 ] ] | %>: | %-: ] _ ;
+%{A%}:Vy  <=> [ :LastVowel :Cns* :Cns ]/[ [ :0 - [ AbstractVow:0 ] ] | %>: | %-: ] _ ;
                                  [ %{A%}:LastVowel ] _ ;
                  except
                                                      _ ( %>: ) %{U%}: ;
