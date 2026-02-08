@@ -1759,7 +1759,7 @@ LEXICON V-FINITE-IRREGULAR_NEGATIVE
 
 %<ifi%>:%>%{D%}%{I%} V-PERS-PAST ;                                !
 %<neg%>%<ifi%>:%>%{G%}%{A%}н% жок V-PERS-COP-SUF ;                !
-!%<neg%>%<ifi%>:%>%{B%}%{A%}%>%{D%}%{I%} V-PERS-PAST ;             ! FIXME: what to do about this
+%<neg%>%<ifi%>:%>%{B%}%{A%}%>%{D%}%{I%} V-PERS-PAST ;             ! FIXME: what to do about this  Dir/LR
 
 %<past%>:%>%{G%}%{A%}н V-PERS-COP-SUF ;                           ! 
 %<neg%>%<past%>:%>%{G%}%{A%}н% эмес V-PERS-COP-SUF ;              ! 
@@ -1955,7 +1955,8 @@ LEXICON Conjunctions
 ! анткени CA ;
 башкача% айтканда:башкача% айтканда CA ;
 айтуу% боюнча:айтуу% боюнча CA ;
-деги:деги CA ;
+деги:деги CA ; ! FIXME: CHECK maybe IJ or ADV
+дегеле:дегеле CA ; ! FIXME: CHECK maybe IJ or ADV
 ! мейли CA ;
 татыктуу:татыктуу CC ;
 бирок% тилекке% каршы:бирок% тилекке% каршы CA ;
@@ -3182,6 +3183,7 @@ LEXICON Nouns
 акылга% сыйган:акылга% сыйган N-INFL ;
 акылдуулук:акылдуулук N-INFL ; 
 акылман:акылман N-INFL ; ! "" 
+акылмандык:акылмандык N-INFL ; ! "" 
 акын:акын N-INFL ; 
 акыр:акыр N-INFL ; ! "~stall in a stable"
 акырет:акырет N-INFL ; 
@@ -7639,6 +7641,16 @@ LEXICON Nouns
 биочөйрө:биочөйрө N-INFL ; ! "biosphere (?)"
 гидросфера:гидросфера N-INFL ; ! "hydrosphere"
 криосфера:криосфера N-INFL ; ! "cryosphere"
+яхудей:яхудей N-INFL ; ! "Jew"
+таазим:таазим N-INFL ; ! "obedient bow"
+чөйчөк:чөйчөк N-INFL ; ! "bowl"
+кыжыр:кыжыр N-INFL ; ! ""
+кун:кун N-INFL ; ! ""
+үрөй:үрөй N-INFL ; ! "spirit"
+улуулук:улуулук N-INFL ; ! ""
+шайы:шайы N-INFL ; ! "silk"
+машайык:машайык N-INFL ; ! ""
+машайык:машаяк N-INFL ; ! "" Dir/LR
 
 
 ! Abbreviations
@@ -7752,6 +7764,7 @@ LEXICON Nouns
 !орто N-INFL-NO-ATTR ; ! "middle/center"
 
 алд:алд N-INFL-NKI ; ! "front/forward", "forward"
+алд%<n%>%<dat%>:алдыга # ; ! "towards the front"
 арт:арт N-INFL-NKI ; ! "back, behind", "rear"
 аст:аст N-INFL-NKI ; ! "bottom", "lower"
 аст:ас%{т%} N-INFL-NKI ; ! "bottom; underneath, below"
@@ -8149,7 +8162,8 @@ LEXICON ProperNouns
 Москва:Москва NP-TOP ;
 Мостар:Мостар NP-TOP ;
 Мусул:Мусул NP-TOP ; ! ""
-Мысыр:Мысыр NP-TOP ;
+Мысыр:Мысыр NP-TOP ; ! "Egypt"
+Мысыр:Мисир NP-TOP ; ! "Egypt" Dir/LR
 Мьянма:Мьянма NP-TOP ; ! ""
 Найпидау:Найпидау NP-TOP ; ! ""
 Найроби:Найроби NP-TOP ; ! ""
@@ -10528,6 +10542,8 @@ Aйталы:Aйталы NP-ANT-M ; ! "Aytğalıy" (Arabic)
 Маскут:Маскут NP-ANT-M ; ! "Masqut" (Arabic)
 Мастура:Мастура NP-ANT-F ; ! "Mastıwra" (Arabic)
 Матлуба:Матлуба NP-ANT-F ; ! "Matlıwba" (Arabic)
+Матвей:Матвей NP-ANT-M ; ! "Matvey (Russian)"
+Матай:Матай NP-ANT-M ; ! "Matai (Arabic?)"
 Маусымбай:Маусымбай NP-ANT-M ; ! "Mawsımbay" (Kazakh)
 Маусымжан:Маусымжан NP-ANT-F ; ! "Mawsımjan" (Arabic)
 Махамбет:Махамбет NP-ANT-M ; ! "Maxambet" (Arabic)
@@ -10833,7 +10849,8 @@ Aйталы:Aйталы NP-ANT-M ; ! "Aytğalıy" (Arabic)
 Нурым:Нурым NP-ANT-M ; ! "Nurım" (Arabic)
 Нускабай:Нускабай NP-ANT-M ; ! "Nusqabay" (Arabic)
 Нускар:Нускар NP-ANT-M ; ! "Nusqar" (Kazakh)
-Нух:Нух NP-ANT-M ; ! ""
+Нух:Нух NP-ANT-M ; ! "Noah"
+Нух:Нук NP-ANT-M ; ! "Noah" Dir/LR
 Ныгметжан:Ныгметжан NP-ANT-M ; ! "Nığmetjan" (Arabic)
 Ныгметкали:Ныгметкали NP-ANT-M ; ! "Nığmetqalıy" (Arabic)
 Ныгмет:Ныгмет NP-ANT-M ; ! "Nığmet" (Arabic)
@@ -11521,6 +11538,7 @@ Aйталы:Aйталы NP-ANT-M ; ! "Aytğalıy" (Arabic)
 Юсып:Юсып NP-ANT-M ; ! ""
 Ягкуп:Ягкуп NP-ANT-M ; ! ""
 Яхуда:Яхуда NP-ANT-M ; ! "Yahuda"
+Яхья:Яхья NP-ANT-M ; ! ""
 
 Даурен:Даурен NP-ANT-M ; ! ""
 Ержан:Ержан NP-ANT-M ; ! ""
@@ -14672,7 +14690,7 @@ LEXICON Adjectives
 радиотехникалык:радиотехникалык A4 ; ! "" 
 радиоэлектрондук:радиоэлектрондук A4 ; ! "" 
 ракеталык:ракеталык A4 ; ! "" 
-расмий% эмес:расмий% эмес A4 ; ! "" 
+расмий% эмес:расмий% эмес A4 ; ! "unofficial" Use/MT
 расмий:расмий A4 ; ! "official" 
 расмий:ырасмий A4 ; ! "official" ! Dir/LR
 реакциячыл:реакциячыл A4 ; ! "" 
@@ -14916,7 +14934,7 @@ LEXICON Adjectives
 айылдык:айылдык A3 ; ! "" 
 акыркы:акыркы A3 ; ! "previous" ! Use/MT see акыры
 ала:ала A3 ; ! "speckled/mottled" 
-алгачкы:алгачкы A3 ; ! "" 
+алгачкы:алгачкы A3 ; ! "first"
 алдамчы:алдамчы A3 ; ! "" 
 алдыңкы:алдыңкы A3 ; ! "" 
 алыскы:алыскы A3 ; ! "" 
@@ -16233,11 +16251,16 @@ LEXICON Adjectives
 бөлөк:бөлөк A6 ; ! "separate"
 талашсыз:талашсыз A6 ; ! "indisputable"
 бухгалтердик:бухгалтердик A4 ; ! "accountant"
+боорукер:боорукер A1 ; ! "compassionate; beloved"
+берекелүү:берекелүү A2 ; ! ""
+купуя:купуя A6 ; ! "secret"
+катаал:катаал A1 ; ! "cruel"
 
 
 LEXICON Adverbs
 
 эмнеге:эмнеге ADVITG ; ! "why"
+эмнеге:неге ADVITG ; ! "why"
 качан:качан ADVITG ; ! "when"
 кандай:кандай ADVITG ; ! "how"
 кандайча:кандайча ADVITG ; ! "howso"
@@ -16454,7 +16477,7 @@ LEXICON Adverbs
 көз% көрүнө:көз% көрүнө ADV ;
 жөө:жөө ADV ;
 андай% болсо:андай% болсо ADV ;
-эмнеге:эмнеге ADV ;
+!эмнеге:эмнеге ADV ; ! ADVINT
 оп:оп ADV ;
 ! кечкисин ADV ;  ! productive
 өтүнүч:өтүнүч ADV ;
@@ -16527,7 +16550,7 @@ LEXICON Adverbs
 ошончолукту:ошончолукту ADV ; ! "" 
 ! акырын:акырын ADV ; ! "see A1 section" 
 акчалай:акчалай ADV ; ! "" 
-алга:алга ADV ; ! "" 
+алга:алга ADV ; ! "forward"
 эчак:эчак ADV ; ! "" 
 барынча:барынча ADV ; ! "" 
 бирин%-серин:бирин%-серин ADV ; ! "" 
@@ -16589,6 +16612,7 @@ LEXICON Adverbs
 көбүрөөк% ыкылас% коюп:көбүрөөк% ыкылас% коюп ADV ; ! "more carefully" ! Use/MT
 көп:көп ADV ; ! "a lot"  ! Use/MT ! FIXME: CHECK
 түнүчүндө:түнүчүндө ADV ; ! "at night"
+мүлдө:мүлдө ADV ; ! "entirely"
 
 
 !! FIXME: productive {K}{I} forms
@@ -18063,6 +18087,7 @@ LEXICON Verbs
 кыялдан:кыялдан V-INFL-IV ;
 түрт:түрт V-INFL-TV ;
 түйүн% түй:түйүн% түй V-INFL-TV ;
+түй:түй V-INFL-IV ; ! "tie a loop"
 төлдө:төлдө V-INFL-IV ;
 тиште:тиште V-INFL-TV ;
 тилимде:тилимде V-INFL-TV ;
@@ -18229,6 +18254,11 @@ LEXICON Verbs
 жук:жук V-INFL-IV ; ! "be caught (illness)"
 дарыла:дарыла V-INFL-TV ; ! "treat"
 хронометражда:хронометражда V-INFL-TV ; ! "time; clock"
+чында:чында V-INFL-IV ; ! "do something truly"
+таазим% кыл:таазим% кыл V-INFL-IV ; ! "bow obediently"
+тын:тын V-INFL-IV ; ! "breathe; rest"
+жырга:жырга V-INFL-IV ; ! "enjoy oneself"
+сой:сой V-INFL-TV ; ! "slaughter"
 
 
 LEXICON Abbreviations
