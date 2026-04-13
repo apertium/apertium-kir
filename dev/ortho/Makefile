@@ -1,4 +1,4 @@
-all: kir-ARA.autogen.hfst kir-ARA.automorf.hfst kir-MULTI.automorf.hfst kir-IPA.autogen.hfst kir@Cyrl-kir@IPA.hfst kir@Cyrl-kir@IPA2.hfst cyr-lat.ohfst
+all: kir-ARA.autogen.hfst kir-ARA.automorf.hfst kir-MULTI.automorf.hfst kir-IPA.autogen.hfst kir@Cyrl-kir@IPA.hfst kir@Cyrl-kir@IPA2.hfst cyr-lat.ohfst kir@Cyrl-kir@Lat.hfst
 
 cyr-ara: cyr-ara.ohfst
 cyr-ipa: cyr-ipa.ohfst
@@ -43,6 +43,10 @@ kir@Cyrl-kir@IPA.hfst: kir-IPA.autogen.hfst ../../.deps/kir.RL.hfst
 
 kir@Cyrl-kir@IPA2.hfst: cyr-ipa.hfst
 	hfst-fst2fst $< -w -o $@
+
+kir@Cyrl-kir@Lat.hfst: cyr-lat.hfst
+	hfst-fst2fst $< -w -o $@
+
 
 # Буддизм<n><dat>+шы<emph>:بۋدديزمگەشى
 kir-ARA.REVautomorf.hfst: cyr-ara.hfst ../../.deps/kir.LR.hfst ../../.deps/kir.twoc.hfst

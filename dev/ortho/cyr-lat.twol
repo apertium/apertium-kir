@@ -71,7 +71,7 @@ Alphabet
  щ:ś
  ь:ʼ
  ы:ı
- ъ:0
+ ъ:0 ъ:y
  э:e
 
 
@@ -93,6 +93,9 @@ Vow = и ү е э ө а о у ы ;
 backVow = а о ы у
           А О Ы У ;
 
+frontVow = и ү е э ө
+           И Ү Е Э Ө ;
+
 Cons = б в г д ж з й к л м н п р с т ф х ц ч ш щ 
        Б В Г Д Ж З Й К Л М Н П Р С Т Ф Х Ц Ч Ш Щ ;
 
@@ -104,11 +107,11 @@ Nasal = Н М Ң
 
 !frontLetter = ك گ ە ۅ ۉ ;
 
-frontSound = k g e i ö ü ;
+frontSound = k g e i ö ü K G E İ Ö Ü ;
 
 !backLetter = ق ع ا و ۇ ;
 
-backSound = q ğ a ı o u ;
+backSound = q ğ a ı o u Q Ğ A I O U ;
 
 Rules 
 
@@ -116,29 +119,37 @@ Rules
 %{й%}:j <=> [ Vow: - [ э: | е: ] ] _ ;
 
 "к г in the context of back vowels"
-Cx:Cy <=> backVow: _ ;
-          _ backVow: ;
+Cx:Cy <=> backVow: _ [ .#. | \:frontSound ] ;
+          [ .#. | \:frontSound ] _ backVow: ;
       except
-          .#. а: _ (%{й%}:) е: ;  ! аке:ɑˈke
-          .#. б: (%{й%}:) е: _ а: ;  ! Бегайым:beɣɑjɯm
-          .#. _ Cons: ; 
+          .#. а: _ (%{й%}:) е: ;  ! аке:ake (*aqe)
+          .#. б: (%{й%}:) е: _ а: ;  ! Бегайым:Begayım (*Beğayım)
+          .#. _ Cons: ;    ! климат
+          _ Cons: .#. ;    ! объект
+          _ Cons: Cons: ;  ! объектке
           ! keep in mind if modifying this rule:
           ! - байке:bɑjke
           ! - багелек:bɑʁelek
-      where Cx in ( к г )
-            Cy in ( q ğ )
+      where Cx in ( к г К Г )
+            Cy in ( q ğ Q Ğ )
       matched ;
 
 "к and г in onset clusters (loanwords) and front-vowel contexts"
-Cx:Cy <=> .#. _ Cons: ;
+Cx:Cy <=> .#. _ Cons: ;    ! климат
           _ :frontSound ;
           :frontSound _ ;
-      where Cx in ( к г )
-            Cy in ( k g )
+          _ Cons: .#. ;    ! объект
+          _ Cons: Cons: ;  ! объектке
+      where Cx in ( к г К Г )
+            Cy in ( k g K G )
       matched ;
 
 "ж as ʒ only after д"
-ж:ž <=> д: _ ;
+ж:ž <=> [ д: | Д: ]  _ ;
+
+"ъ:y before е"   ! объект:obyekt  (ю, я, ё should already get y)
+ъ:y <=> _ [ е: | Е: ] ;
+
 
 ! remaining issues:
 !  - [ ] объекттерге:obyektterğe

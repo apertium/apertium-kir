@@ -49,54 +49,54 @@ LEXICON Alpha
 
 
 б:б AlphaLoop "weight: 1.0" ; 
-Б:б AlphaLoop "weight: 1.0" ; 
+Б:Б AlphaLoop "weight: 1.0" ; 
 в:в AlphaLoop "weight: 1.0" ; 
-В:в AlphaLoop "weight: 1.0" ; 
+В:В AlphaLoop "weight: 1.0" ; 
 г:г AlphaLoop "weight: 1.0" ; 
-Г:г AlphaLoop "weight: 1.0" ; 
+Г:Г AlphaLoop "weight: 1.0" ; 
 д:д AlphaLoop "weight: 1.0" ; 
-Д:д AlphaLoop "weight: 1.0" ; 
+Д:Д AlphaLoop "weight: 1.0" ; 
 ж:ж AlphaLoop "weight: 1.0" ; 
-Ж:ж AlphaLoop "weight: 1.0" ; 
+Ж:Ж AlphaLoop "weight: 1.0" ; 
 з:з AlphaLoop "weight: 1.0" ; 
-З:з AlphaLoop "weight: 1.0" ; 
+З:З AlphaLoop "weight: 1.0" ; 
 й:й AlphaLoop "weight: 1.0" ; 
-Й:й AlphaLoop "weight: 1.0" ; 
+Й:Й AlphaLoop "weight: 1.0" ; 
 к:к AlphaLoop "weight: 1.0" ; 
-К:к AlphaLoop "weight: 1.0" ; 
+К:К AlphaLoop "weight: 1.0" ; 
 л:л AlphaLoop "weight: 1.0" ; 
-Л:л AlphaLoop "weight: 1.0" ; 
+Л:Л AlphaLoop "weight: 1.0" ; 
 м:м AlphaLoop "weight: 1.0" ; 
-М:м AlphaLoop "weight: 1.0" ; 
+М:М AlphaLoop "weight: 1.0" ; 
 н:н AlphaLoop "weight: 1.0" ; 
-Н:н AlphaLoop "weight: 1.0" ; 
+Н:Н AlphaLoop "weight: 1.0" ; 
 ң:ң AlphaLoop "weight: 1.0" ;
-Ң:ң AlphaLoop "weight: 1.0" ;
+Ң:Ң AlphaLoop "weight: 1.0" ;
 п:п AlphaLoop "weight: 1.0" ; 
-П:п AlphaLoop "weight: 1.0" ; 
+П:П AlphaLoop "weight: 1.0" ; 
 р:р AlphaLoop "weight: 1.0" ; 
-Р:р AlphaLoop "weight: 1.0" ; 
+Р:Р AlphaLoop "weight: 1.0" ; 
 с:с AlphaLoop "weight: 1.0" ; 
-С:с AlphaLoop "weight: 1.0" ; 
+С:С AlphaLoop "weight: 1.0" ; 
 т:т AlphaLoop "weight: 1.0" ; 
-Т:т AlphaLoop "weight: 1.0" ; 
+Т:Т AlphaLoop "weight: 1.0" ; 
 ф:ф AlphaLoop "weight: 1.0" ; 
-Ф:ф AlphaLoop "weight: 1.0" ; 
+Ф:Ф AlphaLoop "weight: 1.0" ; 
 х:х AlphaLoop "weight: 1.0" ; 
-Х:х AlphaLoop "weight: 1.0" ; 
+Х:Х AlphaLoop "weight: 1.0" ; 
 ч:ч AlphaLoop "weight: 1.0" ; 
-Ч:ч AlphaLoop "weight: 1.0" ; 
+Ч:Ч AlphaLoop "weight: 1.0" ; 
 ш:ш AlphaLoop "weight: 1.0" ; 
-Ш:ш AlphaLoop "weight: 1.0" ; 
+Ш:Ш AlphaLoop "weight: 1.0" ; 
 ъ:ъ AlphaLoop "weight: 1.0" ; 
-Ъ:ъ AlphaLoop "weight: 1.0" ; 
+Ъ:Ъ AlphaLoop "weight: 1.0" ; 
 ь:ь AlphaLoop "weight: 1.0" ; 
-Ь:ь AlphaLoop "weight: 1.0" ; 
+Ь:Ь AlphaLoop "weight: 1.0" ; 
 
 ц:тс AlphaLoop "weight: 1.0" ; ! For Russian words
-Ц:тс AlphaLoop "weight: 1.0" ; ! For Russian words
-щ:ш AlphaLoop "weight: 1.0" ; ! For Russian words?
-Щ:ш AlphaLoop "weight: 1.0" ; ! For Russian words?
+Ц:Тс AlphaLoop "weight: 1.0" ; ! For Russian words
+щ:щ AlphaLoop "weight: 1.0" ; ! For Russian words?
+Щ:Щ AlphaLoop "weight: 1.0" ; ! For Russian words?
 
 
 LEXICON Digits
