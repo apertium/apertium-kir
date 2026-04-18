@@ -127,6 +127,7 @@ Cx:Cy <=> :backSound _ [ .#. | \[ %{й%}: :frontSound ] | \:frontSound ] ;
           .#. _ Cons: ;    ! климат
           _ Cons: .#. ;    ! объект
           _ Cons: Cons: ;  ! объектке
+          .#. б: л: о: _ ; ! блокада
           ! keep in mind if modifying this rule:
           ! - байке:bɑjke
           ! - багелек:bɑʁelek
@@ -140,6 +141,8 @@ Cx:Cy <=> .#. _ Cons: ;    ! климат
           :frontSound _ ;
           _ Cons: .#. ;    ! объект
           _ Cons: Cons: ;  ! объектке
+          :frontSound Cons:+ _ ; ! Вашингтон
+          .#. б: л: о: _ ; ! блокада
       where Cx in ( к г К Г )
             Cy in ( k g K G )
       matched ;
@@ -154,4 +157,4 @@ Cx:Cy <=> .#. _ Cons: ;    ! климат
 ! remaining issues:
 !  - [ ] объекттерге:*obyektterğe/*объекттерге
 !  - [ ] *аймакка:*aymakka/aymaqqa
-
+!  - [ ] блокада: *bloqada/blokada
