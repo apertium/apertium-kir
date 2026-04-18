@@ -71,12 +71,12 @@ Alphabet
  щ:ś
  ь:ʼ
  ы:ı
- ъ:0 ъ:y
+ ъ:0
  э:e
 
 
  %{й%}:0
- %{й%}:j
+ %{й%}:y
 
  %{ˈ%}:0
  %{ˈ%}:ˈ
@@ -86,7 +86,8 @@ Alphabet
 
 Sets 
 
-Vow = и ү е э ө а о у ы ;
+Vow = и ү е э ө а о у ы 
+      И Ү Е Э Ө А О У Ы ;
 
 !letter = ء ئ ا ە ب پ ت ج چ خ د ر ز ژ س ش غ ف ق ك گ ڭ ل م ن ھ و ۇ ۅ ۉ ۋ ى ي ;
 
@@ -105,21 +106,20 @@ frontConsCyr = к г
 Nasal = Н М Ң
         н м ң ;
 
-!frontLetter = ك گ ە ۅ ۉ ;
+frontSound = k g e i ö ü
+             K G E İ Ö Ü ;
 
-frontSound = k g e i ö ü K G E İ Ö Ü ;
-
-!backLetter = ق ع ا و ۇ ;
-
-backSound = q ğ a ı o u Q Ğ A I O U ;
+backSound = q ğ a ı o u
+            Q Ğ A I O U ;
 
 Rules 
 
-"%{й%}:j after vowels except е"
-%{й%}:j <=> [ Vow: - [ э: | е: ] ] _ ;
+"%{й%}:y after vowels except е and after ъ"
+%{й%}:y <=> [ Vow: - [ э: | е: ]/:0* ] _ ;
+            ъ: _ ;
 
 "к г in the context of back vowels"
-Cx:Cy <=> :backSound _ [ .#. | \:frontSound ] ;
+Cx:Cy <=> :backSound _ [ .#. | \[ %{й%}: :frontSound ] | \:frontSound ] ;
           [ .#. | \:frontSound ] _ :backSound ;
       except
           .#. а: _ (%{й%}:) е: ;  ! аке:ake (*aqe)
@@ -136,7 +136,7 @@ Cx:Cy <=> :backSound _ [ .#. | \:frontSound ] ;
 
 "к and г in onset clusters (loanwords) and front-vowel contexts"
 Cx:Cy <=> .#. _ Cons: ;    ! климат
-          _ :frontSound ;
+          _ (%{й%}:) :frontSound ;
           :frontSound _ ;
           _ Cons: .#. ;    ! объект
           _ Cons: Cons: ;  ! объектке
