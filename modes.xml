@@ -123,4 +123,18 @@
 		</pipeline>
 	</mode>
 
+  <mode name="kir_Cyrl-kir_Latn" install="yes">
+    <pipeline>
+      <program name="hfst-proc">
+        <file name="kir.kir@Cyrl-kir@Latn.hfst"/>
+      </program>
+      <program name="perl -pe 's:\/.+?\$:\$:g'"/>
+      <program name="hfst-proc -n -N1">
+        <file name="kir.kir@Cyrl-kir@Latn.hfst"/>
+      </program>
+      <!-- program name="sed -re 's/ʼ/\'/g;s/꞉/:/g'"/ -->
+    </pipeline>
+  </mode>
+
+
 </modes>
