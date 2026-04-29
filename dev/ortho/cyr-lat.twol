@@ -118,7 +118,7 @@ Rules
 %{й%}:y <=> [ Vow: - [ э: | е: ]/:0* ] _ ;
             ъ: _ ;
 
-"к г in the context of back vowels"
+"к in the context of back vowels"
 Cx:Cy <=> :backSound _ [ .#. | \[ %{й%}: :frontSound ] | \:frontSound ] ;
           [ .#. | \:frontSound ] _ :backSound ;
       except
@@ -131,21 +131,59 @@ Cx:Cy <=> :backSound _ [ .#. | \[ %{й%}: :frontSound ] | \:frontSound ] ;
           ! keep in mind if modifying this rule:
           ! - байке:bɑjke
           ! - багелек:bɑʁelek
-      where Cx in ( к г К Г )
-            Cy in ( q ğ Q Ğ )
+      where Cx in ( к К )
+            Cy in ( q Q )
       matched ;
 
-"к and г in onset clusters (loanwords) and front-vowel contexts"
+"г in the context of back vowels"
+Cx:Cy <=> :backSound _ ;
+          [ .#. | \:frontSound ] _ :backSound ;
+      except
+          _ .#. ;
+          _ (%{й%}:) :frontSound ;
+          .#. а: _ (%{й%}:) е: ;  ! аке:ake (*aqe)
+          .#. б: (%{й%}:) е: _ а: ;  ! Бегайым:Begayım (*Beğayım)
+          .#. _ Cons: ;    ! климат
+          _ Cons: .#. ;    ! объект
+          _ Cons: Cons: ;  ! объектке
+          .#. б: л: о: _ ; ! блокада
+          .#. б: а: _ е: ; ! багелек
+          ! keep in mind if modifying this rule:
+          ! - байке:bɑjke
+          ! - багелек:bɑʁelek
+      where Cx in ( г Г )
+            Cy in ( ğ Ğ )
+      matched ;
+
+
+"к in onset clusters (loanwords) and front-vowel contexts"
 Cx:Cy <=> .#. _ Cons: ;    ! климат
           _ (%{й%}:) :frontSound ;
           :frontSound _ ;
           _ Cons: .#. ;    ! объект
           _ Cons: Cons: ;  ! объектке
-          :frontSound Cons:+ _ ; ! Вашингтон
+          :frontSound Cons:+ _ ; !
           .#. б: л: о: _ ; ! блокада
-      where Cx in ( к г К Г )
-            Cy in ( k g K G )
+      where Cx in ( к К )
+            Cy in ( k K )
       matched ;
+
+"г in onset clusters (loanwords), word-finally, and front-vowel contexts"
+Cx:Cy <=> .#. _ Cons: ;    ! 
+          _ (%{й%}:) :frontSound ;
+          :frontSound _ ;
+          _ Cons: .#. ;    ! 
+          _ Cons: Cons: ;  ! 
+          :frontSound Cons:+ _ ; ! Вашингтон
+          .#. б: л: о: _ ; ! блог?
+			 _ .#. ;  ! геолог etc.
+      except
+          .#. б: а: _ е: ; ! багелек
+      where Cx in ( г Г )
+            Cy in ( g G )
+      matched ;
+
+
 
 "ж as ʒ only after д"
 ж:ž <=> [ д: | Д: ]  _ ;
@@ -158,4 +196,6 @@ Cx:Cy <=> .#. _ Cons: ;    ! климат
 !  - [✔] объекттерге:*obyektterğe/*объекттерге
 !  - [✔] *аймакка:*aymakka/aymaqqa
 !  - [✔] блокада: *bloqada/blokada
-!  - [ ] ^экологиялык/*экологиялык
+!  - [✔] ^экологиялык/*экологиялык
+!  - [✔] геолог: *geoloğ/geolog (etc.)
+!  - [ ] багелек: *bagelek/bağelek
