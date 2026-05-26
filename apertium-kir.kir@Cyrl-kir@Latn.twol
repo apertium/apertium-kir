@@ -1,0 +1,205 @@
+
+Alphabet 
+
+ !ء
+ !ئ ا ە ب پ ت ج چ خ د ر ز ژ س ش غ ف ق ك گ ڭ ل م ن ھ و ۇ ۆ ۋ ې ى ي  ٸ ٶ ٷ ٵ 
+ 
+ !% ء
+
+ ! ء ا ە ه ې ب ت پ ج چ خ ح د ر ز ژ س ش ع ف ق ك گ ڭ ل م ن ھ و ۇ ۋ ى ي ۆ
+
+ А:A
+ Б:B
+ В:V
+ Г:G Г:Ğ
+ Д:D
+ Е:E
+ Ж:J Ж:Ž
+ З:z
+ И:İ
+ Й:Y
+ К:K К:Q
+ Л:L
+ М:M
+ Н:N
+ Ң:Ŋ
+ О:O
+ Ө:Ö
+ П:P
+ Р:R
+ С:S
+ Т:T
+ У:U
+ Ү:Ü
+ Ф:F
+ Х:X  ! خ
+ Ч:Ç
+ Ш:Ş
+ Щ:Ś
+ Ь:ʼ
+ Ы:I
+ Ъ:0
+ Э:E
+
+ а:a
+ б:b
+ в:v
+ г:g г:ğ
+ д:d
+ е:e
+ ж:j ж:ž
+ з:z
+ и:i
+ й:y
+ к:k к:q
+ л:l
+ м:m
+ н:n
+ ң:ŋ
+ о:o
+ ө:ö
+ п:p
+ р:r
+ с:s
+ т:t
+ у:u
+ ү:ü
+ ф:f
+ х:x  ! خ
+ ч:ç
+ ш:ş
+ щ:ś
+ ь:ʼ
+ ы:ı
+ ъ:0
+ э:e
+
+
+ %{й%}:0
+ %{й%}:y
+
+ %{ˈ%}:0
+ %{ˈ%}:ˈ
+ 
+ ;
+
+
+Sets 
+
+Vow = и ү е э ө а о у ы 
+      И Ү Е Э Ө А О У Ы ;
+
+!letter = ء ئ ا ە ب پ ت ج چ خ د ر ز ژ س ش غ ف ق ك گ ڭ ل م ن ھ و ۇ ۅ ۉ ۋ ى ي ;
+
+backVow = а о ы у
+          А О Ы У ;
+
+frontVow = и ү е э ө
+           И Ү Е Э Ө ;
+
+Cons = б в г д ж з й к л м н п р с т ф х ц ч ш щ 
+       Б В Г Д Ж З Й К Л М Н П Р С Т Ф Х Ц Ч Ш Щ ;
+
+frontConsCyr = к г
+               К Г ;
+
+Nasal = Н М Ң
+        н м ң ;
+
+frontSound = k g e i ö ü
+             K G E İ Ö Ü ;
+
+backSound = q ğ a ı o u
+            Q Ğ A I O U ;
+
+Rules 
+
+"%{й%}:y after vowels except е and after ъ"
+%{й%}:y <=> [ Vow: - [ э: | е: ]/:0* ] _ ;
+            ъ: _ ;
+
+"к in the context of back vowels"
+Cx:Cy <=> :backSound _ [ .#. | \[ %{й%}: :frontSound ] | \:frontSound ] ;
+          [ .#. | \:frontSound ] _ :backSound ;
+      except
+          .#. а: _ (%{й%}:) е: ;  ! аке:ake (*aqe)
+          .#. б: (%{й%}:) е: _ а: ;  ! Бегайым:Begayım (*Beğayım)
+          .#. _ Cons: ;    ! климат
+          _ Cons: .#. ;    ! объект
+          _ Cons: Cons: ;  ! объектке
+          .#. б: л: о: _ ; ! блокада
+          ! keep in mind if modifying this rule:
+          ! - байке:bɑjke
+          ! - багелек:bɑʁelek
+      where Cx in ( к К )
+            Cy in ( q Q )
+      matched ;
+
+"г in the context of back vowels"
+Cx:Cy <=> :backSound _ ;
+          [ .#. | \:frontSound ] _ :backSound ;
+      except
+          _ .#. ;
+          _ (%{й%}:) :frontSound ;
+          .#. а: _ (%{й%}:) е: ;  ! аке:ake (*aqe)
+          .#. б: (%{й%}:) е: _ а: ;  ! Бегайым:Begayım (*Beğayım)
+          .#. _ Cons: ;    ! климат
+          _ Cons: .#. ;    ! объект
+          _ Cons: Cons: ;  ! объектке
+          .#. б: л: о: _ ; ! блокада
+          .#. б: а: _ е: ; ! багелек
+          ! keep in mind if modifying this rule:
+          ! - байке:bɑjke
+          ! - багелек:bɑʁelek
+      where Cx in ( г Г )
+            Cy in ( ğ Ğ )
+      matched ;
+
+
+"к in onset clusters (loanwords) and front-vowel contexts"
+Cx:Cy <=> .#. _ Cons: ;    ! климат
+          _ (%{й%}:) :frontSound ;
+          :frontSound _ ;
+          _ Cons: .#. ;    ! объект
+          _ Cons: Cons: ;  ! объектке
+          :frontSound Cons:+ _ ; !
+          .#. б: л: о: _ ; ! блокада
+      where Cx in ( к К )
+            Cy in ( k K )
+      matched ;
+
+"г in onset clusters (loanwords), word-finally, and front-vowel contexts"
+Cx:Cy <=> .#. _ Cons: ;    ! 
+          _ (%{й%}:) :frontSound ;
+          :frontSound _ ;
+          _ Cons: .#. ;    ! 
+          _ Cons: Cons: ;  ! 
+          :frontSound Cons:+ _ ; ! Вашингтон
+          .#. б: л: о: _ ; ! блог?
+			 _ .#. ;  ! геолог etc.
+      except
+          .#. б: а: _ е: ; ! багелек
+      where Cx in ( г Г )
+            Cy in ( g G )
+      matched ;
+
+
+
+"ж as ʒ only after д"
+ж:ž <=> [ д: | Д: ]  _ ;
+
+"ъ:y before е"   ! объект:obyekt  (ю, я, ё should already get y)
+ъ:y <=> _ [ е: | Е: ] ;
+
+
+! remaining issues:
+!  - [✔] объекттерге:*obyektterğe/*объекттерге
+!  - [✔] *аймакка:*aymakka/aymaqqa
+!  - [✔] блокада: *bloqada/blokada
+!  - [✔] ^экологиялык/*экологиялык
+!  - [✔] геолог: *geoloğ/geolog (etc.)
+!  - [ ] багелек: *bagelek/bağelek
+!  - [ ] Еврошаркет Evroşarket
+!  - [ ] А7нин
+!  - [ ] Украинага Uqrainağa
+!  - [ ] qompaniyalar

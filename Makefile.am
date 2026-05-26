@@ -4,14 +4,21 @@
 
 LANG1=kir
 BASENAME=apertium-$(LANG1)
+VAR1=Cyrl
+VAR2=Latn
+VAR3=Arab
+LANG1VAR1=$(LANG1)@$(VAR1)
+LANG1VAR2=$(LANG1)@$(VAR2)
+LANG1VAR3=$(LANG1)@$(VAR3)
 
 TARGETS_COMMON = $(LANG1).automorf.hfst $(LANG1).autogen.hfst \
 	$(LANG1).autopgen.bin \
 	$(LANG1).automorf.bin $(LANG1).autogen.bin \
 	$(LANG1).automorf.att.gz $(LANG1).autogen.att.gz \
 	$(LANG1).autoseg.hfst $(LANG1).seggen.hfst \
-        $(LANG1).rlx.bin \
-		  .deps/$(LANG1).lexc.hfst
+	$(LANG1).$(LANG1VAR1)-$(LANG1VAR2).hfst \
+	$(LANG1).rlx.bin \
+	.deps/$(LANG1).lexc.hfst
 
 # This include defines goals for install-modes, .deps/.d and .mode files:
 @ap_include@
@@ -63,6 +70,19 @@ $(LANG1).autogen.bin: $(LANG1).autogen.att.gz .deps/.d
 $(LANG1).automorf.bin: $(LANG1).automorf.att.gz .deps/.d
 	zcat < $< > .deps/$(LANG1).automorf.att
 	lt-comp lr .deps/$(LANG1).automorf.att $@
+
+###############################################################################
+## Orthography conversion
+###############################################################################
+
+.deps/$(LANG1).$(LANG1VAR1)-$(LANG1VAR2).lexc.hfst: $(BASENAME).$(LANG1VAR1)-$(LANG1VAR2).lexc .deps/.d
+	hfst-lexc -W -v $< -o $@
+
+.deps/$(LANG1).$(LANG1VAR1)-$(LANG1VAR2).twoc.hfst: $(BASENAME).$(LANG1VAR1)-$(LANG1VAR2).twol .deps/.d
+	hfst-twolc $< -o $@
+
+$(LANG1).$(LANG1VAR1)-$(LANG1VAR2).hfst: .deps/$(LANG1).$(LANG1VAR1)-$(LANG1VAR2).lexc.hfst .deps/$(LANG1).$(LANG1VAR1)-$(LANG1VAR2).twoc.hfst
+	hfst-compose-intersect -1 $< -2 .deps/$(LANG1).$(LANG1VAR1)-$(LANG1VAR2).twoc.hfst | hfst-fst2fst -w -o $@
 
 ###############################################################################
 ## Segmenter
