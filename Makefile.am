@@ -40,10 +40,10 @@ TARGETS_COMMON = $(LANG1).automorf.hfst $(LANG1).autogen.hfst \
 	cat $< | grep -v 'Dir/RL' | grep -v 'Use/MT' > $@
 
 .deps/$(LANG1).RL.lexc.hfst: .deps/$(LANG1).RL.lexc
-	hfst-lexc -W -v $< -o $@
+	hfst-lexc -Wall -v $< -o $@
 
 .deps/$(LANG1).LR.lexc.hfst: .deps/$(LANG1).LR.lexc
-	hfst-lexc -W -v $< -o $@
+	hfst-lexc -Wall -v $< -o $@
 
 .deps/$(LANG1).RL.hfst: .deps/$(LANG1).RL.lexc.hfst .deps/$(LANG1).twol.hfst
 	hfst-compose-intersect -1 .deps/$(LANG1).RL.lexc.hfst -2 .deps/$(LANG1).twol.hfst | hfst-invert -o $@
@@ -76,7 +76,7 @@ $(LANG1).automorf.bin: $(LANG1).automorf.att.gz .deps/.d
 ###############################################################################
 
 .deps/$(LANG1).$(LANG1VAR1)-$(LANG1VAR2).lexc.hfst: $(BASENAME).$(LANG1VAR1)-$(LANG1VAR2).lexc .deps/.d
-	hfst-lexc -W -v $< -o $@
+	hfst-lexc -Wall -v $< -o $@
 
 .deps/$(LANG1).$(LANG1VAR1)-$(LANG1VAR2).twoc.hfst: $(BASENAME).$(LANG1VAR1)-$(LANG1VAR2).twol .deps/.d
 	hfst-twolc $< -o $@
@@ -135,7 +135,7 @@ debug: .deps/$(LANG1).LR-debug.hfst .deps/$(LANG1).lexc.hfst
 
 .deps/$(LANG1).LR-debug.hfst: $(BASENAME).$(LANG1).lexc .deps/.d
 	cat $< | grep -v 'Dir/RL' | grep -v 'Use/Circ' > .deps/$(LANG1).LR-debug.lexc
-	hfst-lexc -W .deps/$(LANG1).LR-debug.lexc -o .deps/$(LANG1).LR-debug.lexc.hfst
+	hfst-lexc -Wall .deps/$(LANG1).LR-debug.lexc -o .deps/$(LANG1).LR-debug.lexc.hfst
 	hfst-compose-intersect -1 .deps/$(LANG1).LR-debug.lexc.hfst -2 .deps/$(LANG1).twol.hfst -o $@
 
 .deps/$(LANG1).lexc.hfst: .deps/$(LANG1).RL.lexc.hfst
