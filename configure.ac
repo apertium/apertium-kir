@@ -6,7 +6,7 @@ AC_PROG_AWK
 
 dnl HFST support
 AH_TEMPLATE(HAVE_HFSTOSPELL, [Have HFSTOSPELL])
-AC_ARG_ENABLE(ospell, AC_HELP_STRING([--enable-ospell],
+AC_ARG_ENABLE(ospell, AS_HELP_STRING([--enable-ospell],
         [enable HFST spellchecking backend]),
         [hfstospell=${enableval}], [hfstospell=no])
 dnl must be AS_IF for some aclocals to pick PKG_CHECK_MODULES somehow.
@@ -28,4 +28,5 @@ PKG_CHECK_MODULES(REGTEST, apertium-regtest >= 0.0.1, [],
 
 AP_MKINCLUDE
 
-AC_OUTPUT([Makefile apertium-kir.pc])
+AC_CONFIG_FILES([Makefile apertium-kir.pc])
+AC_OUTPUT
