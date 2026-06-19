@@ -89,19 +89,46 @@ jobs:
       - name: Mode smoke test (every installable mode)
         run: |
           set -u
-          # Run each mode listed in modes.xml on a sample sentence. A mode that
-          # errors out (broken pipeline, missing transducer) fails the job, even
-          # though there is no gold output to compare against.
-          modes=$(grep -oP 'mode name="\K[^"]+' modes.xml)
-          echo "Modes found: $modes"
+          # Run each mode in modes.xml on a sample sentence. A mode whose
+          # pipeline errors out (broken data, wrong invocation) fails the job,
+          # even though there is no gold output to compare against.
+          #
+          # Two classes of mode are skipped automatically:
+          #   * kir-twol / kir-paradigm need special input shapes (two-level
+          #     pair strings / a lemma+paradigm pattern), not plain text.
+          #   * modes whose required transducer file does not exist in this
+          #     build. The default `make` (no --enable-ospell) does not produce
+          #     the speller artifacts, so e.g. kir-spell (kir.zhfst) and
+          #     kir-tokenise (.deps/acceptor.default.hfst) are skipped here
+          #     rather than reported as failures. Required files are read from
+          #     the <file name="..."> entries in modes.xml, so this stays
+          #     correct as modes change.
           sample='Бул кыргызча сүйлөм.'
           rc=0
+          modes=$(grep -oP 'mode name="\K[^"]+' modes.xml)
           for m in $modes; do
-            # kir-twol expects pair strings and kir-paradigm expects a
-            # lemma/pattern, so they need special input shapes; skip them here.
             case "$m" in
-              kir-twol|kir-paradigm) echo "skip (special input): $m"; continue;;
+              kir-twol|kir-paradigm)
+                echo "skip (special input): $m"; continue;;
             esac
+            # Collect the <file name="..."> entries between this mode's opening
+            # tag and the next </mode>, and check they all exist.
+            files=$(awk -v m="\"$m\"" '
+              $0 ~ "<mode name=" m {inmode=1}
+              inmode && match($0, /<file name="[^"]+"/) {
+                s=substr($0, RSTART, RLENGTH);
+                sub(/^<file name="/, "", s); sub(/"$/, "", s); print s
+              }
+              inmode && /<\/mode>/ {exit}
+            ' modes.xml)
+            missing=""
+            for f in $files; do
+              [ -e "$f" ] || missing="$missing $f"
+            done
+            if [ -n "$missing" ]; then
+              echo "skip (missing:$missing): $m"
+              continue
+            fi
             echo "=== mode: $m ==="
             if printf '%s\n' "$sample" | apertium -d . "$m"; then
               echo "  [ok] $m"
@@ -178,6 +205,13 @@ jobs:
       - name: Configure with --enable-ospell and build the speller
         run: |
           ./autogen.sh --enable-ospell
+          # The speller make rules (e.g. .deps/words.default.hfst) write into
+          # .deps/ but, unlike the main transducer rules, do not declare the
+          # .deps/.d directory stamp as a prerequisite. Building kir.zhfst on a
+          # fresh tree can therefore fail with "Could not open
+          # '.deps/words.default.hfst'. No such file or directory". Create the
+          # stamp up front so the directory exists.
+          mkdir -p .deps && touch .deps/.d
           make kir.zhfst
 
       - name: Check speller archive
