@@ -2,6 +2,7 @@ Multichar_Symbols
 
 %{й%}
 %{☭%}
+%{ˈ%}   ! stress mark consumed by cyr-lat.twol (%{ˈ%}:0 / %{ˈ%}:ˈ)
 
 LEXICON Root 
 
