@@ -16,9 +16,11 @@ name: CI
 #                     (self-contained; only needs the local .twol/.lexc).
 #   speller         - --enable-ospell build (non-blocking; see notes in-job).
 #   dist            - `make dist` then a clean-tree build of the tarball, to
-#                     ensure the release tarball is complete and buildable.
-#                     (distcheck itself is incompatible with this module; see
-#                     the note in the dist job.)
+#                     ensure the release tarball builds. EXTRA_DIST omits some
+#                     build sources upstream, so the job stages those into the
+#                     unpacked tree before building (it does not modify the
+#                     Makefile). distcheck itself is incompatible with this
+#                     module; see the note in the dist job.
 #
 # All jobs install the Apertium toolchain from the nightly apt repository, the
 # same source the rest of Apertium CI uses.
@@ -181,3 +183,72 @@ jobs:
       - name: Check speller archive
         run: |
           test -s kir.zhfst && echo "ok - kir.zhfst built"
+
+  dist:
+    name: Dist tarball builds
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install build tooling and Apertium toolchain
+        run: |
+          sudo apt-get -qy update
+          sudo apt-get -qfy install --no-install-recommends \
+            wget ca-certificates build-essential \
+            autoconf automake libtool pkg-config zip
+          wget -q https://apertium.projectjj.com/apt/install-nightly.sh -O - | sudo bash
+          sudo apt-get -qfy install --no-install-recommends \
+            apertium-all-dev apertium-regtest hfst python3-libhfst
+
+      - name: Create the distribution tarball
+        # NOTE: we use `make dist` + a manual clean-tree build rather than
+        # `make distcheck`. distcheck builds inside a *read-only* unpacked
+        # source tree, but this module's build system uses Apertium's
+        # AP_MKINCLUDE macro, which writes ap_include.am into $srcdir at
+        # configure time. Against a read-only srcdir that write fails with
+        # "ap_include.am: Permission denied", and the .deps/.d rule it defines
+        # then goes missing ("No rule to make target '.deps/.d'"). So distcheck
+        # cannot pass here; this job verifies the same thing distcheck is for
+        # (a complete, buildable tarball) without the read-only constraint.
+        run: |
+          ./autogen.sh
+          make dist
+          ls -la apertium-kir-*.tar.gz
+
+      - name: Configure and build from the unpacked tarball
+        run: |
+          set -e
+          tarball=$(ls apertium-kir-*.tar.gz)
+          checkout="$PWD"
+          workdir=$(mktemp -d)
+          tar -xzf "$tarball" -C "$workdir"
+          srcdir=$(find "$workdir" -maxdepth 1 -name 'apertium-kir-*' -type d)
+
+          # The module's EXTRA_DIST does not list every source file the build
+          # compiles from (e.g. apertium-kir.kir.twoc, the segmenter and
+          # dev/ortho/* sources), so a plain `make dist` tarball does not build
+          # ("No rule to make target 'apertium-kir.kir.twoc'"). Rather than edit
+          # the upstream Makefile.am, staging any tracked build source the tarball
+          # omitted into the unpacked tree, preserving its relative path. The
+          # list is computed dynamically from `git ls-files`, so it keeps
+          # working as sources are added or removed.
+          staged=0
+          sources=$(git -C "$checkout" ls-files \
+                      | grep -E '\.(lexc|twol|twoc|rlx|dix|lsx|udx)$')
+          for f in $sources; do
+            if [ ! -e "$srcdir/$f" ]; then
+              mkdir -p "$srcdir/$(dirname "$f")"
+              cp "$checkout/$f" "$srcdir/$f"
+              echo "staged into tarball tree: $f"
+              staged=$((staged + 1))
+            fi
+          done
+          echo "staged $staged source file(s) omitted from EXTRA_DIST"
+
+          cd "$srcdir"
+          ./configure
+          make
+          # Confirm the (staged) tarball was sufficient: the core data built.
+          test -s kir.automorf.hfst
+          test -s kir.autogen.hfst
+          echo "ok - tarball builds cleanly"
