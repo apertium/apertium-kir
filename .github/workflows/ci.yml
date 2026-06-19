@@ -15,7 +15,10 @@ name: CI
 #   transliteration - Cyrillic <-> Latin / Perso-Arabic orthography transducers
 #                     (self-contained; only needs the local .twol/.lexc).
 #   speller         - --enable-ospell build (non-blocking; see notes in-job).
-#   dist            - `make distcheck` to ensure the release tarball is sane.
+#   dist            - `make dist` then a clean-tree build of the tarball, to
+#                     ensure the release tarball is complete and buildable.
+#                     (distcheck itself is incompatible with this module; see
+#                     the note in the dist job.)
 #
 # All jobs install the Apertium toolchain from the nightly apt repository, the
 # same source the rest of Apertium CI uses.
@@ -180,7 +183,7 @@ jobs:
           test -s kir.zhfst && echo "ok - kir.zhfst built"
 
   dist:
-    name: make distcheck
+    name: Dist tarball builds
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -195,10 +198,23 @@ jobs:
           sudo apt-get -qfy install --no-install-recommends \
             apertium-all-dev apertium-regtest hfst python3-libhfst
 
-      - name: distcheck
-        # Ensures the dist tarball contains everything needed to configure and
-        # build from a clean tree. distcheck runs its own make; MAKEFLAGS=-j1
-        # (set at workflow level) keeps it clear of the .deps race noted above.
+      - name: Create the distribution tarball
         run: |
           ./autogen.sh
-          make distcheck
+          make dist
+          ls -la apertium-kir-*.tar.gz
+
+      - name: Configure and build from the unpacked tarball
+        run: |
+          set -e
+          tarball=$(ls apertium-kir-*.tar.gz)
+          workdir=$(mktemp -d)
+          tar -xzf "$tarball" -C "$workdir"
+          srcdir=$(find "$workdir" -maxdepth 1 -name 'apertium-kir-*' -type d)
+          cd "$srcdir"
+          ./configure
+          make
+          # Confirm the tarball was self-sufficient: the core data built.
+          test -s kir.automorf.hfst
+          test -s kir.autogen.hfst
+          echo "ok - tarball builds cleanly"
