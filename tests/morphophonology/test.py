@@ -53,6 +53,7 @@ for f in testf: #{
 	print('Generation:');
 	for t in tf: #{
 		if t.strip() == '': continue;
+		if t.strip().startswith('#'): continue;
 
 		row = t.strip().split('\t');
 		g_res = gene.lookup(row[1]);
@@ -79,6 +80,7 @@ for f in testf: #{
 	print('Analysis:');
 	for t in tf: #{
 		if t.strip() == '': continue;
+		if t.strip().startswith('#'): continue;
 
 		row = t.strip().split('\t');
 

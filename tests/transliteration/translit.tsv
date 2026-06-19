@@ -1,0 +1,5 @@
+# Transliteration test data for apertium-kir orthography transducers.
+
+# --- Cyrillic -> Perso-Arabic (cf. issue #13) ---
+ara	кыргыз	قىرعىز
+ara	адам	ادام
