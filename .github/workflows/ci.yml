@@ -210,7 +210,7 @@ jobs:
           # .deps/.d directory stamp as a prerequisite. Building kir.zhfst on a
           # fresh tree can therefore fail with "Could not open
           # '.deps/words.default.hfst'. No such file or directory". Create the
-          # stamp up front so the directory exists.
+          # stamp up front so the directory exists. (Does not touch Makefile.am.)
           mkdir -p .deps && touch .deps/.d
           make kir.zhfst
 
@@ -258,17 +258,23 @@ jobs:
           tar -xzf "$tarball" -C "$workdir"
           srcdir=$(find "$workdir" -maxdepth 1 -name 'apertium-kir-*' -type d)
 
-          # The module's EXTRA_DIST does not list every source file the build
-          # compiles from (e.g. apertium-kir.kir.twoc, the segmenter and
-          # dev/ortho/* sources), so a plain `make dist` tarball does not build
-          # ("No rule to make target 'apertium-kir.kir.twoc'"). Rather than edit
-          # the upstream Makefile.am, staging any tracked build source the tarball
-          # omitted into the unpacked tree, preserving its relative path. The
-          # list is computed dynamically from `git ls-files`, so it keeps
-          # working as sources are added or removed.
+          # `make dist` ships only the handful of files listed in EXTRA_DIST,
+          # which omits most of what the build actually compiles from: the
+          # .twoc, .udx, segmenter and Cyrl<->Latn sources, the dev/ortho/*
+          # transliteration sources, and the speller/ inputs (the build also
+          # builds the speller because the HAVE_HFSTOSPELL guard in Makefile.am
+          # is written with '#'-comments, so Automake ignores it and .zhfst is
+          # always a target). A plain tarball therefore does not build, e.g.
+          # "No rule to make target 'apertium-kir.kir.twoc'" or
+          # "'speller/words.default.txt'". Rather than edit the upstream
+          # Makefile.am, stage the tracked build-input files the tarball
+          # omitted into the unpacked tree, preserving their relative paths.
+          # The set is computed from git ls-files (build sources by extension,
+          # plus everything under speller/ and dev/ortho/), so it stays correct
+          # as sources change.
           staged=0
           sources=$(git -C "$checkout" ls-files \
-                      | grep -E '\.(lexc|twol|twoc|rlx|dix|lsx|udx)$')
+                      | grep -E '\.(lexc|twol|twoc|rlx|dix|lsx|udx)$|^speller/|^dev/ortho/')
           for f in $sources; do
             if [ ! -e "$srcdir/$f" ]; then
               mkdir -p "$srcdir/$(dirname "$f")"
@@ -281,8 +287,22 @@ jobs:
 
           cd "$srcdir"
           ./configure
-          make
-          # Confirm the (staged) tarball was sufficient: the core data built.
+          # Build the core linguistic data (TARGETS_COMMON), NOT a bare `make`.
+          # Because the HAVE_HFSTOSPELL guard in Makefile.am is commented out
+          # with '#', Automake always treats kir.zhfst as a default target, and
+          # building it runs dev/editdist.py, which still uses Python-2 syntax
+          # and fails. Building the named core targets verifies the tarball is
+          # complete and buildable for the actual analyser/generator data while
+          # sidestepping that separate upstream speller issue (exercised, as far
+          # as it can be, by the dedicated speller job).
+          make \
+            kir.automorf.hfst kir.autogen.hfst \
+            kir.automorf.bin kir.autogen.bin \
+            kir.autoseg.hfst kir.seggen.hfst \
+            kir.rlx.bin kir.autopgen.bin \
+            'kir.kir@Cyrl-kir@Latn.hfst'
+          # Confirm the tarball was sufficient: the core data built.
           test -s kir.automorf.hfst
           test -s kir.autogen.hfst
-          echo "ok - tarball builds cleanly"
+          test -s kir.rlx.bin
+          echo "ok - tarball builds the core data cleanly"
