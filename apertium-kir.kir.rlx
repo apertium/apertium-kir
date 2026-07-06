@@ -27,7 +27,6 @@ LIST Noun = n ;
 LIST Past = past ;
 LIST Vadj = vadj vadj_past ;
 LIST Vaux = vaux ;
-LIST Verb = v ;
 LIST V = v ;
 LIST Cop = cop ;
 LIST Num = num ;
@@ -51,7 +50,6 @@ SET V-NonFiniteCanGetCop = Ger | Gpr ;
 LIST Det = det ;
 LIST CC = cnjcoo ;
 LIST CS = cnjsub ;
-LIST Cop = cop ;
 LIST Sent = sent ;
 LIST Pl = pl ;
 LIST Tv = tv ;
@@ -66,15 +64,10 @@ LIST Px2sg = px2sg ;
 LIST Px2pl = px2pl ;
 LIST Post = post ;
 LIST Coop = coop ;
-LIST IJ = ij ;
 
 LIST Sg = sg ;
-LIST Pl = pl ;
 
-LIST Nom = nom ;
-LIST Gen = gen ;
 LIST Dat = dat ;
-LIST Acc = acc ;
 LIST Abl = abl ;
 LIST Loc = loc ;
 #LIST Ins = ins ;
@@ -108,7 +101,6 @@ SET  Acc-Or-Nom = Acc | Nom ;
 
 LIST Advl = advl ;
 LIST Attr = attr ;
-LIST Subst = subst ;
 LIST N-LIKE = (adj subst) n np prn ; # Actually, see NOMINAL
 
 SET ADV-NOUNS = ("саат") | ("жыл") | ("күн") | ("ай") ;
@@ -145,8 +137,7 @@ LIST N-Acc = (n acc) ;
 LIST Subst-Acc = (n acc) (adj subst acc) ;
 LIST Vb-Ifi-3 = (v ifi p3 sg) (v ifi p3 pl) ;
 LIST Vb-Iv = (v iv) (v tv pass) ;
-LIST Vb-Tv-Caus = (v tv) (v caus) ;
-SET Vb-Tv = Vb-Tv-Caus - (pass);
+SET Vb-Tv = V-TV - (pass);
 
 LIST P2Pron = (prn pers p2) ;
 
@@ -158,7 +149,7 @@ REMOVE Vaux IF
 	(-1C Not-Prc);                # previous word is not a participle
 
 ## V if participle doesn't precede
-#SELECT Verb IF
+#SELECT V IF
 #	(0C Vb-or-Aux)                 # the current word can be verb also
 #	(-1C Not-Part);                # previous word is not a participle
 
@@ -220,7 +211,7 @@ REMOVE Px3pl IF
 	(*-1C Np-Nom-Or-Gen-Sg BARRIER Sent);
 
 # жер
-REMOVE Verb IF
+REMOVE V IF
 	(-1 Det);
 
 # барган соң (etc.)
@@ -267,13 +258,13 @@ SELECT Adj IF (1 Cop) ;
 
 
 #interjections
-REMOVE Interj IF (1 Verb) ;
+REMOVE Interj IF (1 V) ;
 REMOVE Interj IF (NOT -1 BOS) (NOT 1 EOS) ;
 
 
 # бат
 REMOVE Vb-Imp IF
-	(1 Verb) ;
+	(1 V) ;
 
 # ambiguous n.acc/v.*.ifi forms, e.g. түштү, etc.
 SELECT Vb-Ifi-3 IF
@@ -347,16 +338,16 @@ REMOVE SUB:1 Pl IF
 
  "<бардык>" SELECT Det IF (1 Noun) ;
 
- "<алдым>" SELECT Verb IF (1 EOS OR MARK) ;
- "<алдың>" SELECT Verb IF (1 EOS OR MARK) ;
- "<алды>" SELECT Verb IF (1 EOS OR MARK) ;
+ "<алдым>" SELECT V IF (1 EOS OR MARK) ;
+ "<алдың>" SELECT V IF (1 EOS OR MARK) ;
+ "<алды>" SELECT V IF (1 EOS OR MARK) ;
 
- "<алар>" REMOVE Verb IF (NOT 1 EOS OR MARK) ;
+ "<алар>" REMOVE V IF (NOT 1 EOS OR MARK) ;
  "<алар>" REMOVE Vaux IF (NOT 1 EOS OR MARK) ;
 
  "<ал>" SELECT Det If (1 Noun) ;
 
- "<карай>" REMOVE Verb IF (NOT 1 Vaux);
+ "<карай>" REMOVE V IF (NOT 1 Vaux);
 
  "<бир>" SELECT Det IF (1 Noun) (-1 Adj) ;
 
@@ -434,12 +425,6 @@ REMOVE Det IF
 # (!) 34 . Ол Азаматтың қайда екенін білсе де айтқысы келген жоқ.
 
  SELECT Pron IF
-        (0C Det OR Pron)
-        (1C Adv)
-;
-## 44 . [0]Ол енді ол дыбысты анығырақ ести бастады.
-
- SELECT Pron IF
         (1 Noun)
         (2 ("бол"))
 ;
@@ -484,7 +469,7 @@ REMOVE Det IF
 "<бар>" REMOVE Adj-Subst ;
 
 
- REMOVE IJ IF
+ REMOVE Interj IF
         (0 Adj)
         (1 Noun)
 ;
@@ -567,12 +552,12 @@ REMOVE CC IF (0 Post) (NOT 1 N-LIKE);
 
 REMOVE (prc_cond) IF
 	(0 (gna_cond))
-	(NEGATE 1* ("бол"i) or ("э"i) BARRIER Verb OR Noun)
+	(NEGATE 1* ("бол"i) or ("э"i) BARRIER V OR Noun)
 ;
 
 REMOVE (gna_cond) IF
 	(0 (prc_cond))
-	(1* ("бол"i) or ("э"i) BARRIER Verb)
+	(1* ("бол"i) or ("э"i) BARRIER V)
 ;
 
 
@@ -599,7 +584,7 @@ SECTION
 SUBSTITUTE Nom @acc-ind TARGET Noun IF
     (0 Nom)
     (-1C* Nom BARRIER Sent)    # C so that we don't get det n sequences always being marked acc-ind
-    # (NOT 1 Verb)  # commenting this out because could totally be this
+    # (NOT 1 V)  # commenting this out because could totally be this
 	 (NEGATE 1 Vb-Iv)
 	 (1* Vb-Tv BARRIER Sent)   # using this instead of the above
 	 (1* (Vb-Tv Cond) BARRIER AdvclSep)   # using this instead of the above
