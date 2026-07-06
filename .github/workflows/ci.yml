@@ -29,7 +29,7 @@ name: CI
 
 on:
   push:
-    branches: [main, master]
+    branches: [github-ci]
   pull_request:
   workflow_dispatch:
 
