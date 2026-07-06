@@ -1,0 +1,36 @@
+## Morphophonology test set for apertium-kir
+##
+## Consumed by tests/morphophonology/test.py:
+##   python3 test.py kir nouns.tsv
+##
+## Columns (TAB-separated):
+##   1. direction: _ (both), > (analysis only), < (generation only)
+##   2. lexical form
+##   3. surface form
+##
+## Focus: Kyrgyz plural allomorphy = voicing assimilation (-лар/-дар/-тар)
+## combined with 4-way back/front + rounding vowel harmony
+## (-лар/-лер/-лор/-лөр ...), plus a few irregular stems.
+
+## --- vowel harmony: back unrounded / front unrounded / back rounded / front rounded ---
+_	адам<n><pl><nom>	адамдар
+_	китеп<n><pl><nom>	китептер
+_	көз<n><pl><nom>	көздөр
+_	үй<n><pl><nom>	үйлөр
+_	таш<n><pl><nom>	таштар
+
+## --- voicing assimilation after voiceless stops: -тар/-тер ---
+_	ат<n><pl><nom>	аттар
+_	ит<n><pl><nom>	иттер
+
+## --- irregular stem (suppletive-ish): бала -> балдар ---
+_	бала<n><pl><nom>	балдар
+
+## --- possessive + case (consonant + vowel interaction) ---
+_	азап<n><px1sg><nom>	азабым
+_	салт<n><px1pl><nom>	салтыбыз
+_	китеп<n><loc>	китепте
+
+## --- verbal morphology ---
+_	ат<v><tv><ger><nom>	атуу
+_	кел<v><iv><ifi><p1><sg>	келдим
