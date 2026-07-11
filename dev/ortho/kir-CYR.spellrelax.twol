@@ -2,6 +2,8 @@ Alphabet
 
  е:е е:e ! things that should be analysed as e
  ё:ё ё:е ё:e ! things that should be analysed as ё
+ ө:ө ѳ:ө ɵ:ө ! things that should be analysed as ө (Cyrillic fita U+0473, Latin barred o U+0275)
+ Ө:Ө Ѳ:Ө Ɵ:Ө ! things that should be analysed as Ө (Cyrillic Fita U+0472, Latin barred O U+019F)
 
 ;
 
