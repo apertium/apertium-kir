@@ -4,6 +4,12 @@ AC_INIT([Apertium Kyrgyz], [0.1.1], [apertium-stuff@lists.sourceforge.net], [ape
 AM_INIT_AUTOMAKE
 AC_PROG_AWK
 
+dnl Find a Python interpreter for the speller helper (dev/editdist.py),
+dnl which now runs under both Python 2 and 3. Prefer python3, then a
+dnl generic python, then python2. Can be overridden with PYTHON=... .
+AC_ARG_VAR([PYTHON], [Python interpreter to use for build helper scripts])
+AC_PATH_PROGS([PYTHON], [python3 python python2], [python])
+
 dnl HFST support
 AH_TEMPLATE(HAVE_HFSTOSPELL, [Have HFSTOSPELL])
 AC_ARG_ENABLE(ospell, AS_HELP_STRING([--enable-ospell],

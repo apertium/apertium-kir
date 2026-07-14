@@ -1,12 +1,21 @@
-#!/usr/bin/python
+#!/usr/bin/env python
 
 # see editdist.py --help for usage
 
+from __future__ import print_function
 
 import sys
 import struct
+import io
 import codecs
 from optparse import OptionParser
+
+# Python 2/3 compatibility: in Python 3 str is already text and `unicode`
+# does not exist, so fall back to str there.
+try:
+    text_type = unicode
+except NameError:
+    text_type = str
 
 usage_string = "usage: %prog [options] alphabet"
 
@@ -67,7 +76,7 @@ class Header:
     
     def __init__(self, file):
         bytes = file.read(5) # "HFST\0"
-        if str(struct.unpack_from("<5s", bytes, 0)) == "('HFST\\x00',)":
+        if struct.unpack_from("<5s", bytes, 0)[0] == b'HFST\x00':
             # just ignore any hfst3 header
             remaining = struct.unpack_from("<H", file.read(3), 0)[0]
             self.handle_hfst3_header(file, remaining)
@@ -99,14 +108,14 @@ class Alphabet:
     """Read and provide interface to alphabet"""
 
     def __init__(self, file, number_of_symbols):
-        stderr_u8 = codecs.getwriter('utf-8')(sys.stderr)
+        stderr_u8 = codecs.getwriter('utf-8')(getattr(sys.stderr, 'buffer', sys.stderr))
         self.keyTable = [] # list of unicode objects, use foo.encode("utf-8") to print
         for x in range(number_of_symbols):
-            symbol = ""
+            symbol = b""
             while True:
                 byte = file.read(1)
-                if byte == '\0': # a symbol has ended
-                    symbol = unicode(symbol, "utf-8")
+                if byte == b'\0': # a symbol has ended
+                    symbol = symbol.decode("utf-8")
                     if len(symbol) != 1:
                         stderr_u8.write("Ignored symbol " + symbol + "\n")
                     else:
@@ -150,20 +159,20 @@ exclusions = set()
 
 if options.inputfile == None and options.alphabetfile == None \
         and len(args) == 0:
-    print "Specify at least one of INPUT, ALPHABET or alphabet string"
+    print("Specify at least one of INPUT, ALPHABET or alphabet string")
     sys.exit()
 if len(args) > 1:
-    print "Too many options!"
+    print("Too many options!")
     sys.exit()
 
 if options.inputfile != None:
     try:
-        inputfile = open(options.inputfile)
+        inputfile = io.open(options.inputfile, encoding='utf-8')
     except IOError:
-        print "Couldn't open " + options.inputfile
+        print("Couldn't open " + options.inputfile)
         sys.exit()
     while True:
-        line = unicode(inputfile.readline(), 'utf-8')
+        line = inputfile.readline()
         if line in ("@@\n", ""):
             break
         if line.strip() != "":
@@ -174,14 +183,17 @@ if options.inputfile != None:
                 continue
             if '\t' in line:
                 weight = float(line.split('\t')[1])
-                symbol = linesplit('\t')[0]
+                symbol = line.split('\t')[0]
             else:
                 weight = 0.0
                 symbol = line.strip("\n")
             alphabet[symbol] = weight
 
 if len(args) == 1:
-    for c in unicode(args[0], 'utf-8'):
+    arg = args[0]
+    if not isinstance(arg, text_type):  # bytes in Python 2
+        arg = arg.decode('utf-8')
+    for c in arg:
         if c not in alphabet.keys() and c not in exclusions:
             alphabet[c] = 0.0
 if options.alphabetfile != None:
@@ -191,11 +203,13 @@ if options.alphabetfile != None:
     for c in filter(lambda x: x.strip() != '', ol_alphabet.keyTable[:]):
         if c not in alphabet.keys() and c not in exclusions:
             alphabet[c] = 0.0
-epsilon = unicode(options.epsilon, 'utf-8')
+epsilon = options.epsilon
+if not isinstance(epsilon, text_type):  # bytes in Python 2
+    epsilon = epsilon.decode('utf-8')
 OTHER = u'@_UNKNOWN_SYMBOL_@'
 
-def p(string): # stupid python, or possibly stupid me
-    return string.encode('utf-8')
+def p(string): # keep symbols as text; encoding (if any) happens at output time
+    return string
 
 def maketrans(from_st, to_st, from_sy, to_sy, weight):
     return str(from_st) + "\t" + str(to_st) + "\t" + p(from_sy) + "\t" + p(to_sy) + "\t" + str(weight)
@@ -336,20 +350,24 @@ if options.inputfile != None:
             continue
         if line == "":
             break
-        transducer.process(unicode(line, "utf-8"))
+        transducer.process(line)
 
 transducer.generate()
 transducer.make_transitions()
-for transition in transducer.transitions:
-    print transition
 
-stderr_u8 = codecs.getwriter('utf-8')(sys.stderr)
+# Write UTF-8 output in both Python 2 and 3. In Python 3 we use the byte
+# buffer underneath sys.stdout; in Python 2 sys.stdout takes bytes directly.
+stdout_bytes = getattr(sys.stdout, 'buffer', sys.stdout)
+for transition in transducer.transitions:
+    stdout_bytes.write((transition + "\n").encode('utf-8'))
+
+stderr_u8 = codecs.getwriter('utf-8')(getattr(sys.stderr, 'buffer', sys.stderr))
 
 if options.verbose:
     stderr_u8.write("\n" + str(max(transducer.skipstate, transducer.swapstate)) + " states and " + str(len(transducer.transitions)) + " transitions written for\n"+
                      "distance " + str(options.distance) + " and base alphabet size " + str(len(transducer.alphabet)) +"\n\n")
     stderr_u8.write("The alphabet was:\n")
-    for symbol, weight in alphabet.iteritems():
+    for symbol, weight in alphabet.items():
         stderr_u8.write(symbol + "\t" + str(weight) + "\n")
     if len(exclusions) != 0:
         stderr_u8.write("The exclusions were:\n")
